@@ -110,7 +110,13 @@
           "owner": ""
         }
       ],
-      "summary": "SGK/CPA ödeme teyitleri bekliyor"
+      "summary": "SGK/CPA ödeme teyitleri bekliyor",
+      "notes": [
+        {
+          "text": "gbc kargolar aınacak",
+          "at": "2026-10-16 14:49"
+        }
+      ]
     },
     {
       "key": "damla",
