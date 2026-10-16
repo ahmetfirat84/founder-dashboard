@@ -7,24 +7,142 @@
     "HealthTürkiye yenilemesi ve kurumlar vergisi beyannamesini kontrol et"
   ],
   "meetings": [
-    { "time": "12:30", "title": "New Me_Daily", "note": "" }
+    {
+      "time": "12:30",
+      "title": "New Me_Daily",
+      "note": ""
+    }
   ],
   "cash_alerts": [
-    { "level": "red", "title": "Ofis kirası", "amount": "", "due": "Bugün / en geç 19 Eki", "note": "" },
-    { "level": "red", "title": "Vergi/SGK taksit ödemesi", "amount": "", "due": "Bu hafta", "note": "" },
-    { "level": "red", "title": "Muhasebe ofisi ödemesi", "amount": "", "due": "Vadesi geçti, teyit bekliyor", "note": "" },
-    { "level": "yellow", "title": "Provider (konaklama) ödemesi", "amount": "", "due": "19-23 Eki kısmi, 31 Eki kapanış", "note": "" },
-    { "level": "yellow", "title": "SaaS aboneliği yenilemesi", "amount": "", "due": "17 Eki", "note": "" },
-    { "level": "yellow", "title": "Aylık vergi beyan/ödemeleri", "amount": "", "due": "26-28 Eki", "note": "" },
-    { "level": "yellow", "title": "SGK cari prim + maaşlar", "amount": "", "due": "31 Eki", "note": "" }
+    {
+      "level": "red",
+      "title": "Ofis kirası",
+      "amount": "",
+      "due": "Bugün / en geç 19 Eki",
+      "note": ""
+    },
+    {
+      "level": "red",
+      "title": "Vergi/SGK taksit ödemesi",
+      "amount": "",
+      "due": "Bu hafta",
+      "note": ""
+    },
+    {
+      "level": "red",
+      "title": "Muhasebe ofisi ödemesi",
+      "amount": "",
+      "due": "Vadesi geçti, teyit bekliyor",
+      "note": ""
+    },
+    {
+      "level": "yellow",
+      "title": "Provider (konaklama) ödemesi",
+      "amount": "",
+      "due": "19-23 Eki kısmi, 31 Eki kapanış",
+      "note": ""
+    },
+    {
+      "level": "yellow",
+      "title": "SaaS aboneliği yenilemesi",
+      "amount": "",
+      "due": "17 Eki",
+      "note": ""
+    },
+    {
+      "level": "yellow",
+      "title": "Aylık vergi beyan/ödemeleri",
+      "amount": "",
+      "due": "26-28 Eki",
+      "note": ""
+    },
+    {
+      "level": "yellow",
+      "title": "SGK cari prim + maaşlar",
+      "amount": "",
+      "due": "31 Eki",
+      "note": ""
+    }
   ],
   "departments": [
-    { "key":"batu","name":"BATU","area":"Muhasebe","status":"red","updated":"2026-10-16","items":["Ödeme planı dökümü ve ödeme teyitleri (19 Eki)","Abonelik ödeme yöntemi sorunu (21 Eki)"] },
-    { "key":"damla","name":"DAMLA","area":"Teşvik","status":"yellow","updated":"2026-10-16","items":["Açık teşvik dosyalarının durumunu teyit et"] },
-    { "key":"cankat","name":"CANKAT","area":"Hukuk","status":"yellow","updated":"2026-10-16","items":["Üyelik yenileme: son tarih ve yetkilendirme etkisi (19 Eki)"] },
-    { "key":"zeynep","name":"ZEYNEP","area":"Satış","status":"yellow","updated":"2026-10-16","items":["Bugün kapanış tarihli 2 deal","Ulaşılmaya çalışılan lead'lerde ilk temas hızı"] },
-    { "key":"ilksen","name":"İLKSEN","area":"Marketing","status":"red","updated":"2026-10-16","items":["Meta Ads son 7 günde aktif değil: bilinçli mi? Daily'de rapor"] },
-    { "key":"ecem","name":"ECEM","area":"Operasyon","status":"green","updated":"2026-10-16","items":["Bekleyen İK onayı"] },
-    { "key":"erkin","name":"ERKİN","area":"Investor Relations","status":"green","updated":"2026-10-16","items":["Slush Helsinki katılım kararı bekliyor"] }
+    {
+      "key": "batu",
+      "name": "BATU",
+      "area": "Muhasebe",
+      "status": "red",
+      "updated": "2026-10-16",
+      "items": [
+        "Ödeme planı dökümü ve ödeme teyitleri (19 Eki)",
+        "Abonelik ödeme yöntemi sorunu (21 Eki)"
+      ],
+      "summary": "SGK/CPA ödeme teyitleri bekliyor"
+    },
+    {
+      "key": "damla",
+      "name": "DAMLA",
+      "area": "Teşvik",
+      "status": "yellow",
+      "updated": "2026-10-16",
+      "items": [
+        "Açık teşvik dosyalarının durumunu teyit et"
+      ],
+      "summary": "Dosya durumu teyit edilecek"
+    },
+    {
+      "key": "cankat",
+      "name": "CANKAT",
+      "area": "Hukuk",
+      "status": "yellow",
+      "updated": "2026-10-16",
+      "items": [
+        "Üyelik yenileme: son tarih ve yetkilendirme etkisi (19 Eki)"
+      ],
+      "summary": "HealthTürkiye yenilemesi açık"
+    },
+    {
+      "key": "zeynep",
+      "name": "ZEYNEP",
+      "area": "Satış",
+      "status": "yellow",
+      "updated": "2026-10-16",
+      "items": [
+        "Bugün kapanış tarihli 2 deal",
+        "Ulaşılmaya çalışılan lead'lerde ilk temas hızı"
+      ],
+      "summary": "2 deal bugün kapanıyor"
+    },
+    {
+      "key": "ilksen",
+      "name": "İLKSEN",
+      "area": "Marketing",
+      "status": "red",
+      "updated": "2026-10-16",
+      "items": [
+        "Meta Ads son 7 günde aktif değil: bilinçli mi? Daily'de rapor"
+      ],
+      "summary": "Meta Ads 7 gündür kapalı"
+    },
+    {
+      "key": "ecem",
+      "name": "ECEM",
+      "area": "Operasyon",
+      "status": "green",
+      "updated": "2026-10-16",
+      "items": [
+        "Bekleyen İK onayı"
+      ],
+      "summary": "1 onay bekliyor"
+    },
+    {
+      "key": "erkin",
+      "name": "ERKİN",
+      "area": "Investor Relations",
+      "status": "green",
+      "updated": "2026-10-16",
+      "items": [
+        "Slush Helsinki katılım kararı bekliyor"
+      ],
+      "summary": "Slush kararı bekliyor"
+    }
   ]
 }

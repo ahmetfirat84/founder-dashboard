@@ -7,80 +7,99 @@
 <title>&NewMe Founder Dashboard</title>
 <style>
   :root{--bg:#f6f5f2;--card:#fff;--ink:#1d1d1f;--mut:#6b6b70;--line:#e4e2dc;
-    --red:#d93025;--yellow:#e8a100;--green:#1e8e3e;--redbg:#fdecea;--yellowbg:#fff6df;--greenbg:#e8f5ec}
-  @media (prefers-color-scheme:dark){:root{--bg:#161618;--card:#222226;--ink:#f1f1f3;--mut:#9a9aa2;--line:#34343a;
-    --redbg:#3a1f1c;--yellowbg:#3a2f14;--greenbg:#18301f}}
+    --red:#d93025;--yellow:#e8a100;--green:#1e8e3e;--redbg:#fdecea;--yellowbg:#fff6df}
+  :root[data-theme=dark]{--bg:#141416;--card:#1f1f23;--ink:#f1f1f3;--mut:#9a9aa2;--line:#34343a;--redbg:#3a1f1c;--yellowbg:#3a2f14}
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
-  main{max-width:1100px;margin:0 auto;padding:20px 16px 48px}
-  header{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;margin-bottom:16px}
-  h1{font-size:20px;margin:0}
-  .sub{color:var(--mut);font-size:13px}
-  h2{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--mut);margin:0 0 10px}
-  .top{display:grid;grid-template-columns:1fr;gap:12px;margin-bottom:12px}
-  @media(min-width:800px){.top{grid-template-columns:1.4fr 1fr}}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
-  ol,ul{margin:0;padding-left:20px} li{margin:5px 0}
-  .meet{display:flex;gap:10px;margin:6px 0}.meet b{min-width:46px}
-  .meet small{display:block;color:var(--mut)}
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin:12px 0}
-  .dept{border-left:5px solid var(--line)}
+  main{max-width:1100px;margin:0 auto;padding:16px 16px 40px;display:grid;gap:12px;grid-template-columns:1fr}
+  header{display:flex;justify-content:space-between;align-items:center;gap:8px}
+  h1{font-size:18px;margin:0}.date{color:var(--mut);font-size:13px}
+  button{font:inherit;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 10px;cursor:pointer}
+  h2{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--mut);margin:0 0 8px;display:flex;justify-content:space-between}
+  h2 button{font-size:11px;padding:2px 8px;text-transform:none;letter-spacing:0}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+  ol{margin:0;padding-left:20px}li{margin:6px 0}
+  [contenteditable]{outline:none;border-radius:4px}[contenteditable]:focus{background:var(--yellowbg)}
+  .grid{display:grid;gap:10px;grid-template-columns:1fr}
+  .dept{border-left:5px solid var(--line);cursor:pointer;padding:0}
   .dept.red{border-left-color:var(--red)}.dept.yellow{border-left-color:var(--yellow)}.dept.green{border-left-color:var(--green)}
-  .dh{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
-  .dh strong{font-size:16px}.dh span.area{color:var(--mut);font-size:12px;margin-left:6px}
-  .upd{color:var(--mut);font-size:12px;margin-bottom:6px}
-  .dept ul{padding-left:18px;font-size:14px}
-  .alerts{margin-top:12px}
-  .alert{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:start;padding:9px 10px;border-radius:8px;margin:6px 0}
-  .alert.red{background:var(--redbg)}.alert.yellow{background:var(--yellowbg)}.alert.green{background:var(--greenbg)}
-  .alert .amt{font-weight:600;white-space:nowrap;text-align:right}
-  .alert .due{color:var(--mut);font-size:12.5px}
-  .alert .note{font-size:12.5px;color:var(--mut)}
+  .dept summary{list-style:none;padding:12px 14px;display:flex;gap:10px;align-items:center}
+  .dept summary::-webkit-details-marker{display:none}
+  .dot{font-size:16px}.nm{font-weight:600}.ar{color:var(--mut);font-size:12px;margin-left:6px}
+  .sm{font-size:13.5px;color:var(--mut)}.chev{margin-left:auto;color:var(--mut);transition:transform .15s}
+  .dept[open] .chev{transform:rotate(90deg)}
+  .det{padding:0 14px 12px 40px;font-size:14px}.det ul{margin:0;padding-left:16px}.upd{color:var(--mut);font-size:12px;margin-top:6px}
+  .meet{display:flex;gap:10px;margin:6px 0}.meet b{min-width:46px}.meet small{display:block;color:var(--mut)}
+  .alert{display:grid;grid-template-columns:auto 1fr auto;gap:8px;padding:8px 10px;border-radius:8px;margin:6px 0;background:var(--bg)}
+  .alert.red{background:var(--redbg)}.alert.yellow{background:var(--yellowbg)}
+  .alert .amt{font-weight:600;white-space:nowrap}.alert small{display:block;color:var(--mut)}
   .err{color:var(--red)}
+  @media(min-width:700px){.grid{grid-template-columns:1fr 1fr}}
+  @media(min-width:1000px){
+    main{grid-template-columns:2fr 1fr;align-items:start}
+    header,.prio{grid-column:1/-1}
+    .grid{grid-template-columns:1fr 1fr}
+    aside{display:grid;gap:12px}
+  }
 </style>
 </head>
 <body>
 <main>
   <header>
-    <h1>&amp;NewMe · Founder Dashboard</h1>
-    <div class="sub" id="meta">yükleniyor…</div>
+    <div><h1>&amp;NewMe · Founder</h1><div class="date" id="date"></div></div>
+    <button id="theme" aria-label="Tema">🌓</button>
   </header>
 
-  <div class="top">
-    <section class="card"><h2>Bugünün Top 3 önceliği</h2><ol id="prio"></ol></section>
-    <section class="card"><h2>Bugünkü toplantılar</h2><div id="meet"></div></section>
-  </div>
+  <section class="card prio"><h2>Bugünün Top 3 <button id="reset" hidden>sıfırla</button></h2><ol id="prio"></ol></section>
 
   <section class="grid" id="depts"></section>
 
-  <section class="card alerts"><h2>Nakit / ödeme uyarıları</h2><div id="cash"></div></section>
+  <aside>
+    <section class="card"><h2>Bugünkü toplantılar</h2><div id="meet"></div></section>
+    <section class="card"><h2>Ödeme uyarıları</h2><div id="cash"></div></section>
+  </aside>
 </main>
 
 <script>
-const ICON={red:"🔴",yellow:"🟡",green:"🟢"};
-const LABEL={red:"acil",yellow:"yaklaşan",green:"normal"};
+const $=id=>document.getElementById(id);
+const ICON={red:"🔴",yellow:"🟡",green:"🟢"},ORD={red:0,yellow:1,green:2};
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const fmt=d=>{const [y,m,day]=d.split("-");return `${day}.${m}.${y}`};
+const fmt=d=>d.split("-").reverse().join(".");
+const ls={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}},del(k){try{localStorage.removeItem(k)}catch(e){}}};
+
+// theme
+const root=document.documentElement;
+root.dataset.theme=ls.get("theme")||(matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light");
+$("theme").onclick=()=>{root.dataset.theme=root.dataset.theme==="dark"?"light":"dark";ls.set("theme",root.dataset.theme)};
 
 fetch("data.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(d=>{
-  document.getElementById("meta").textContent=`Veri tarihi: ${fmt(d.date)} · Kaynak: ${d.source}`;
-  document.getElementById("prio").innerHTML=d.priorities.map(p=>`<li>${esc(p)}</li>`).join("");
-  document.getElementById("meet").innerHTML=d.meetings.length
-    ? d.meetings.map(m=>`<div class="meet"><b>${esc(m.time)}</b><div>${esc(m.title)}<small>${esc(m.note)}</small></div></div>`).join("")
-    : '<span class="sub">Bugün toplantı yok</span>';
-  const order={red:0,yellow:1,green:2};
-  document.getElementById("depts").innerHTML=d.departments.map(x=>`
-    <article class="card dept ${x.status}">
-      <div class="dh"><div><strong>${esc(x.name)}</strong><span class="area">${esc(x.area)}</span></div>
-        <span title="${LABEL[x.status]}">${ICON[x.status]} <small>${LABEL[x.status]}</small></span></div>
-      <div class="upd">Son güncelleme: ${fmt(x.updated)}</div>
-      <ul>${x.items.slice(0,2).map(i=>`<li>${esc(i)}</li>`).join("")}</ul>
-    </article>`).join("");
-  document.getElementById("cash").innerHTML=d.cash_alerts.slice().sort((a,b)=>order[a.level]-order[b.level]).map(a=>`
+  $("date").textContent=new Date(d.date+"T12:00").toLocaleDateString("tr-TR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
+
+  // editable priorities: tarayıcıda saklanır, data.json'a dokunmaz
+  const key="prio-"+d.date;
+  let saved=null;try{saved=JSON.parse(ls.get(key))}catch(e){}
+  const prios=Array.isArray(saved)&&saved.length===3?saved:d.priorities;
+  $("prio").innerHTML=prios.map(p=>`<li contenteditable="true" spellcheck="false">${esc(p)}</li>`).join("");
+  $("reset").hidden=prios===d.priorities;
+  $("prio").addEventListener("input",()=>{
+    ls.set(key,JSON.stringify([...document.querySelectorAll("#prio li")].map(li=>li.textContent)));$("reset").hidden=false});
+  $("reset").onclick=()=>{ls.del(key);location.reload()};
+
+  $("depts").innerHTML=d.departments.map(x=>`
+    <details class="card dept ${x.status}">
+      <summary><span class="dot">${ICON[x.status]}</span>
+        <div><span class="nm">${esc(x.name)}</span><span class="ar">${esc(x.area)}</span><div class="sm">${esc(x.summary)}</div></div>
+        <span class="chev">›</span></summary>
+      <div class="det"><ul>${x.items.map(i=>`<li>${esc(i)}</li>`).join("")}</ul>
+        <div class="upd">Güncelleme: ${fmt(x.updated)}</div></div>
+    </details>`).join("");
+
+  $("meet").innerHTML=d.meetings.length?d.meetings.map(m=>`<div class="meet"><b>${esc(m.time)}</b><div>${esc(m.title)}${m.note?`<small>${esc(m.note)}</small>`:""}</div></div>`).join(""):'<span class="date">Bugün toplantı yok</span>';
+  $("cash").innerHTML=d.cash_alerts.slice().sort((a,b)=>ORD[a.level]-ORD[b.level]).map(a=>`
     <div class="alert ${a.level}"><span>${ICON[a.level]}</span>
-      <div><strong>${esc(a.title)}</strong><div class="due">${esc(a.due)}</div>${a.note?`<div class="note">${esc(a.note)}</div>`:""}</div>
+      <div><strong>${esc(a.title)}</strong><small>${esc(a.due)}${a.note?" · "+esc(a.note):""}</small></div>
       <div class="amt">${esc(a.amount)}</div></div>`).join("");
-}).catch(e=>{document.getElementById("meta").innerHTML=`<span class="err">data.json okunamadı (${esc(e.message)}). Sayfayı bir sunucudan aç: python3 -m http.server</span>`});
+}).catch(e=>{$("date").innerHTML=`<span class="err">data.json okunamadı (${esc(e.message)}). Bir sunucudan aç: python3 -m http.server</span>`});
 </script>
 </body>
 </html>
