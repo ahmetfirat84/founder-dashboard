@@ -77,10 +77,38 @@
       "name": "BATU",
       "area": "Muhasebe",
       "status": "red",
-      "updated": "2026-10-16",
+      "updated": "2026-10-16 10:55",
       "items": [
-        "SGK ödeme planı dökümü + CPA Türk teyidi (19 Eki)",
-        "Apple Billing Problem: HiNoter ödeme yöntemi (21 Eki)"
+        {
+          "text": "SGK ödeme planı dökümünü çıkar: taksit sayısı, ödenen/aksayan, ilk taksit (31.08) ödendi mi, bozulma tarihi; CPA Türk'ten (Yasemin Hanım) teyit al",
+          "due": "19 Eki",
+          "owner": ""
+        },
+        {
+          "text": "CPA Türk ₺46.450 (10.800 aylık + 35.650 eski borç taksiti, vade 15 Eki) ödenmiş mi teyit et",
+          "due": "19 Eki",
+          "owner": ""
+        },
+        {
+          "text": "HubSpot ₺76.245 (17 Eki) satırı kapanmış mı, Eylül'den açık kalan var mı kontrol et",
+          "due": "19 Eki",
+          "owner": ""
+        },
+        {
+          "text": "Ofis tutarı farkını netleştir: sheet'te Galata ₺31.680, Ahmet 40 küsür bin diyor; sheet'i düzelt",
+          "due": "19 Eki",
+          "owner": ""
+        },
+        {
+          "text": "Apple Billing Problem: ödeme yöntemini kontrol et (HiNoter toplantı notları kesilebilir)",
+          "due": "21 Eki",
+          "owner": ""
+        },
+        {
+          "text": "2025 kurumlar vergisi beyannamesini (CPA Türk, 13 Eki) incele, onay/ödeme adımını netleştir",
+          "due": "21 Eki",
+          "owner": ""
+        }
       ],
       "summary": "SGK/CPA ödeme teyitleri bekliyor"
     },
@@ -89,9 +117,13 @@
       "name": "DAMLA",
       "area": "Teşvik",
       "status": "yellow",
-      "updated": "2026-10-16",
+      "updated": "2026-10-16 10:55",
       "items": [
-        "EK-21A ve IC Hospital dosya durumunu teyit et (yeni hareket görülmedi)"
+        {
+          "text": "EK-21A ve IC Hospital dosya durumunu teyit et (yeni hareket görülmedi)",
+          "due": "",
+          "owner": ""
+        }
       ],
       "summary": "Dosya durumu teyit edilecek"
     },
@@ -100,9 +132,13 @@
       "name": "CANKAT",
       "area": "Hukuk",
       "status": "yellow",
-      "updated": "2026-10-16",
+      "updated": "2026-10-16 10:55",
       "items": [
-        "HealthTürkiye 2026 yenileme ücreti: son ödeme tarihi + USHAŞ/TÜRSAB etkisi (19 Eki)"
+        {
+          "text": "HealthTürkiye 2026 üyelik yenileme ücreti: son ödeme tarihini mailden doğrula (3 hatırlatma geldi), USHAŞ/TÜRSAB yetkilendirmesine etkisini kontrol et",
+          "due": "19 Eki",
+          "owner": ""
+        }
       ],
       "summary": "HealthTürkiye yenilemesi açık"
     },
@@ -111,10 +147,38 @@
       "name": "ZEYNEP",
       "area": "Satış",
       "status": "yellow",
-      "updated": "2026-10-16",
+      "updated": "2026-10-16 10:55",
       "items": [
-        "Bugün kapanış: Hamza B. €4.980, Briahn T. €2.646",
-        "Gassa F. €8.000 (kapanış 21 Eki), ulaşılamayan 3 lead"
+        {
+          "text": "Bugün kapanış: Hamza B. (€4.980), Briahn T. (€2.646). Durumu Daily'de bildir",
+          "due": "16 Eki",
+          "owner": "Hülya / Selin"
+        },
+        {
+          "text": "'Ulaşılmaya çalışıldı' leadleri (Israa M., Laura W., Melissa): ilk temas hızını izle",
+          "due": "",
+          "owner": "Hülya / Selin"
+        },
+        {
+          "text": "Gassa F. (€8.000, Lipedema Vaser Lipo) en büyük aktif deal, kapanış 21 Eki",
+          "due": "21 Eki",
+          "owner": ""
+        },
+        {
+          "text": "Jodie: uçuş alındı, ödeme takibi (Final Balance Warning 13 Eki'de tetiklendi)",
+          "due": "",
+          "owner": ""
+        },
+        {
+          "text": "Bella: ameliyat 27 Eki (NZD 6.590); diş temizliği/beyazlatma/botoks ek satış planı",
+          "due": "27 Eki",
+          "owner": ""
+        },
+        {
+          "text": "Deal aşama ID'lerini çöz, ghost lead analizi yap",
+          "due": "",
+          "owner": ""
+        }
       ],
       "summary": "2 deal bugün kapanıyor"
     },
@@ -123,20 +187,28 @@
       "name": "İLKSEN",
       "area": "Marketing",
       "status": "red",
-      "updated": "2026-10-16",
+      "updated": "2026-10-16 10:55",
       "items": [
-        "Meta Ads son 7 günde 0 harcama / 0 aktif reklam: bilinçli mi? Daily'de rapor"
+        {
+          "text": "Meta Ads (act_537657538463949) son 7 günde 0 harcama / 0 lead / 0 aktif reklam: bilinçli mi, ödeme/kampanya sorunu mu? Daily'de rapor ver",
+          "due": "16 Eki 12:30",
+          "owner": ""
+        }
       ],
       "summary": "Meta Ads 7 gündür kapalı"
     },
     {
       "key": "ecem",
       "name": "ECEM",
-      "area": "Operasyon",
+      "area": "Operasyon & HR",
       "status": "green",
-      "updated": "2026-10-16",
+      "updated": "2026-10-16 10:55",
       "items": [
-        "Selin'in 15 Eki izin talebi Kolay İK'te onay bekliyor (Ahmet)"
+        {
+          "text": "Selin'in 15 Eki izin talebi Kolay İK'te onay bekliyor (14 Eki'den beri), Ahmet onaylayacak. Süreç takibi",
+          "due": "16 Eki",
+          "owner": ""
+        }
       ],
       "summary": "1 onay bekliyor"
     },
@@ -145,11 +217,16 @@
       "name": "ERKİN",
       "area": "Investor Relations",
       "status": "green",
-      "updated": "2026-10-16",
+      "updated": "2026-10-16 10:55",
       "items": [
-        "Slush Helsinki (18-19 Kas) katılım kararı bekliyor"
+        {
+          "text": "Slush Helsinki (18-19 Kas) katılım kararı bekliyor; katılım olursa yatırımcı toplantılarını planla",
+          "due": "",
+          "owner": ""
+        }
       ],
       "summary": "Slush kararı bekliyor"
     }
-  ]
+  ],
+  "updated": "2026-10-16 10:55"
 }

@@ -25,10 +25,10 @@
   .dept.red{border-left-color:var(--red)}.dept.yellow{border-left-color:var(--yellow)}.dept.green{border-left-color:var(--green)}
   .dept summary{list-style:none;padding:12px 14px;display:flex;gap:10px;align-items:center}
   .dept summary::-webkit-details-marker{display:none}
-  .dot{font-size:16px}.nm{font-weight:600}.ar{color:var(--mut);font-size:12px;margin-left:6px}
-  .sm{font-size:13.5px;color:var(--mut)}.chev{margin-left:auto;color:var(--mut);transition:transform .15s}
+  .dot{font-size:16px}.nm{font-weight:700;font-size:17px;display:block}.ar{color:var(--mut);font-size:12px;display:block}.cnt{background:var(--bg);border:1px solid var(--line);border-radius:10px;font-size:12px;padding:0 7px;color:var(--mut)}.ts{font-size:11.5px;color:var(--mut);margin-top:2px}
+  .sm{font-size:13.5px;color:var(--mut)}.chev{margin-left:8px;color:var(--mut);transition:transform .15s}
   .dept[open] .chev{transform:rotate(90deg)}
-  .det{padding:0 14px 12px 40px;font-size:14px}.det ul{margin:0;padding-left:16px}.upd{color:var(--mut);font-size:12px;margin-top:6px}
+  .det{padding:0 14px 12px 14px;font-size:14px;border-top:1px solid var(--line)}.det ul{margin:8px 0 0;padding:0;list-style:none}.det li{padding:7px 0;border-bottom:1px solid var(--line)}.det li:last-child{border:0}.tag{display:inline-block;font-size:11.5px;border-radius:6px;padding:0 6px;margin-right:6px;background:var(--yellowbg)}.own{background:var(--bg);border:1px solid var(--line)}.upd{color:var(--mut);font-size:12px;margin-top:6px}
   .meet{display:flex;gap:10px;margin:6px 0}.meet b{min-width:46px}.meet small{display:block;color:var(--mut)}
   .alert{display:grid;grid-template-columns:auto 1fr auto;gap:8px;padding:8px 10px;border-radius:8px;margin:6px 0;background:var(--bg)}
   .alert.red{background:var(--redbg)}.alert.yellow{background:var(--yellowbg)}
@@ -85,13 +85,14 @@ fetch("data.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error(r.status);retur
     ls.set(key,JSON.stringify([...document.querySelectorAll("#prio li")].map(li=>li.textContent)));$("reset").hidden=false});
   $("reset").onclick=()=>{ls.del(key);location.reload()};
 
+  const ts=t=>{if(!t)return"";const [dt,tm]=t.split(" ");return fmt(dt)+(tm?" "+tm:"")};
   $("depts").innerHTML=d.departments.map(x=>`
     <details class="card dept ${x.status}">
       <summary><span class="dot">${ICON[x.status]}</span>
-        <div><span class="nm">${esc(x.name)}</span><span class="ar">${esc(x.area)}</span><div class="sm">${esc(x.summary)}</div></div>
-        <span class="chev">›</span></summary>
-      <div class="det"><ul>${x.items.map(i=>`<li>${esc(i)}</li>`).join("")}</ul>
-        <div class="upd">Güncelleme: ${fmt(x.updated)}</div></div>
+        <div style="flex:1;min-width:0"><span class="nm">${esc(x.area)}</span><span class="ar">${esc(x.name)}</span>
+          <div class="sm">${esc(x.summary)}</div><div class="ts">Son güncelleme: ${esc(ts(x.updated))}</div></div>
+        <span class="cnt">${x.items.length}</span><span class="chev">›</span></summary>
+      <div class="det"><ul>${x.items.map(i=>{i=typeof i==="string"?{text:i}:i;return `<li>${i.due?`<span class="tag">${esc(i.due)}</span>`:""}${i.owner?`<span class="tag own">${esc(i.owner)}</span>`:""}${esc(i.text)}</li>`}).join("")}</ul></div>
     </details>`).join("");
 
   $("meet").innerHTML=d.meetings.length?d.meetings.map(m=>`<div class="meet"><b>${esc(m.time)}</b><div>${esc(m.title)}${m.note?`<small>${esc(m.note)}</small>`:""}</div></div>`).join(""):'<span class="date">Bugün toplantı yok</span>';
