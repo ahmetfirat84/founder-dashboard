@@ -49,6 +49,7 @@
   .sub2{font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut);margin:12px 0 4px}
   .notes{margin:0;padding:0;list-style:none}.notes li{display:block;padding:5px 0;border-bottom:1px solid var(--line)}.notes small{color:var(--mut)}
   .nf{display:flex;gap:6px;margin-top:10px}.nf input{flex:1;font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:6px 8px;min-width:0}
+    .nd{float:right;border:0;background:none;color:var(--mut);cursor:pointer;padding:0 4px;font-size:15px;line-height:1}
   #toast{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:20px;font-size:13px;opacity:0;pointer-events:none;transition:opacity .2s;max-width:90vw}
   #toast.on{opacity:.95}
 </style>
@@ -106,6 +107,7 @@ $("gh").onclick=()=>{
 function applyOp(d,op){
   const dep=d.departments.find(x=>x.key===op.k); if(!dep)return;
   if(op.t==="note"){ dep.notes=dep.notes||[]; dep.notes.unshift({text:op.text,at:op.at}); dep.notes=dep.notes.slice(0,30); }
+  if(op.t==="delnote"){ dep.notes=(dep.notes||[]).filter(n=>!(n.text===op.text&&n.at===op.nat)); }
   if(op.t==="done"){
     dep.items=dep.items.map(i=>typeof i==="string"?{text:i}:i);
     const it=dep.items.find(i=>i.text===op.text); if(!it)return;
@@ -119,7 +121,7 @@ async function commit(op){
     const r=await fetch(API+"?t="+Date.now(),{headers:ghHead()}); if(!r.ok)throw new Error("okuma "+r.status);
     const f=await r.json(); const latest=JSON.parse(b64d(f.content)); applyOp(latest,op);
     const p=await fetch(API,{method:"PUT",headers:{...ghHead(),"Content-Type":"application/json"},
-      body:JSON.stringify({message:"Dashboard: "+(op.t==="note"?"not":"aksiyon")+" "+op.at,content:b64e(JSON.stringify(latest,null,2)+"\n"),sha:f.sha})});
+      body:JSON.stringify({message:"Dashboard: "+(op.t==="note"?"not":op.t==="delnote"?"not silindi":"aksiyon")+" "+op.at,content:b64e(JSON.stringify(latest,null,2)+"\n"),sha:f.sha})});
     if(!p.ok)throw new Error("yazma "+p.status);
     toast("data.json'a kaydedildi ✓");
   }catch(e){ toast("Kaydedilemedi: "+e.message+" (token/izin?)"); }
@@ -149,7 +151,7 @@ function render(){
           <div class="sm">${esc(x.summary)}</div><div class="ts">Son güncelleme: ${esc(ts(x.updated))}</div></div>
         <span class="cnt">${open.length}</span><button class="add" data-add="${esc(x.key)}" aria-label="Not ekle" title="Not ekle">+</button><span class="chev">›</span></summary>
       <div class="det"><ul>${open.map(li).join("")||'<li><span class="tx">Açık aksiyon yok</span></li>'}</ul>
-        ${notes.length?`<div class="sub2">Son notlar</div><ul class="notes">${notes.map(n=>`<li>${esc(n.text)} <small>· ${esc(ts(n.at))}</small></li>`).join("")}</ul>`:""}
+        ${notes.length?`<div class="sub2">Son notlar</div><ul class="notes">${notes.map(n=>`<li><button class="nd" data-del="${esc(x.key)}" data-nat="${esc(n.at)}" data-nt="${esc(n.text)}" aria-label="Notu sil" title="Notu sil">✕</button>${esc(n.text)} <small>· ${esc(ts(n.at))}</small></li>`).join("")}</ul>`:""}
         <form class="nf" data-k="${esc(x.key)}"><input placeholder="Not ekle…" maxlength="300" aria-label="Not"><button>Kaydet</button></form>
         ${done.length?`<div class="sub2">Tamamlananlar (${done.length})</div><ul>${done.map(li).join("")}</ul>`:""}
       </div></details>`;}).join("");
@@ -165,6 +167,8 @@ function render(){
 
 // olaylar (delegation)
 $("depts").addEventListener("click",e=>{
+  const dl=e.target.closest("[data-del]");
+  if(dl){ e.preventDefault(); if(confirm("Bu not silinsin mi?")) commit({t:"delnote",k:dl.dataset.del,text:dl.dataset.nt,nat:dl.dataset.nat}); return; }
   const b=e.target.closest("[data-add]"); if(!b)return;
   e.preventDefault(); e.stopPropagation();
   const det=b.closest("details"); det.open=true; det.querySelector(".nf input").focus();
