@@ -15,7 +15,6 @@
   ],
   "cash_alerts": [
     {
-      "level": "red",
       "title": "1. GBC sanal ofis yenilemesi",
       "amount": "₺41.828",
       "due": "Vadesi geçti (01.09)",
@@ -23,10 +22,9 @@
       "action_type": "Ödeme",
       "category": "Ofis",
       "party": "Galata Business Center",
-      "status": "red"
+      "due_date": "2026-09-01"
     },
     {
-      "level": "red",
       "title": "2. Garanti BBVA kredi kartı borcu",
       "amount": "Tutar bankada",
       "due": "Gecikmede, yakın izleme riski",
@@ -34,10 +32,9 @@
       "action_type": "Ödeme",
       "category": "Banka / Kart",
       "party": "Garanti BBVA",
-      "status": "red"
+      "urgency": "red"
     },
     {
-      "level": "red",
       "title": "3. Google Workspace aboneliği",
       "amount": "",
       "due": "Reddedildi (1 Eki)",
@@ -45,10 +42,9 @@
       "action_type": "Ödeme",
       "category": "Abonelik",
       "party": "Google Workspace",
-      "status": "red"
+      "due_date": "2026-10-01"
     },
     {
-      "level": "red",
       "title": "4. HİB yıllık aidat",
       "amount": "₺74.912,04",
       "due": "Ekim sonu",
@@ -56,32 +52,29 @@
       "action_type": "Ödeme",
       "category": "Aidat",
       "party": "HİB",
-      "status": "red"
+      "due_date": "2026-10-31"
     },
     {
-      "level": "red",
-      "status": "red",
       "title": "5. VakıfBank kredi kartı asgari ödeme",
       "action_type": "Ödeme",
       "category": "Banka / Kart",
       "party": "VakıfBank",
       "amount": "₺154.544,00 (asgari)",
       "due": "Vadesi geçti (15 Eki)",
-      "note": "Para girince ilk ödenecek. Bilgi: toplam ekstre borcu ₺377.293,60, asgari ödenmemiş (VakıfBank bildirimi 16 Eki)."
+      "note": "Para girince ilk ödenecek. Bilgi: toplam ekstre borcu ₺377.293,60, asgari ödenmemiş (VakıfBank bildirimi 16 Eki).",
+      "due_date": "2026-10-15"
     },
     {
-      "level": "red",
       "title": "SGK yapılandırma taksiti",
       "amount": "₺65.000/ay",
-      "due": "16 Eki",
+      "due": "Eylül taksidi gecikmede, Ekim taksidi 16 Eki",
       "note": "Sayaç ilerliyor. İlk taksit (31.08) ödendi mi? Batu dökümü 19 Eki.",
       "action_type": "Ödeme",
       "category": "Vergi / SGK",
       "party": "SGK",
-      "status": "red"
+      "due_date": "2026-09-16"
     },
     {
-      "level": "red",
       "title": "CPA Türk",
       "amount": "₺46.450",
       "due": "Vadesi geçti (15 Eki)",
@@ -89,10 +82,9 @@
       "action_type": "Ödeme",
       "category": "Muhasebe",
       "party": "CPA Türk",
-      "status": "red"
+      "due_date": "2026-10-15"
     },
     {
-      "level": "yellow",
       "title": "Orya Hotel",
       "amount": "~₺100.000",
       "due": "19-23 Eki kısmi, 31 Eki kapanış",
@@ -100,10 +92,9 @@
       "action_type": "Ödeme",
       "category": "Provider",
       "party": "Orya Hotel",
-      "status": "yellow"
+      "due_date": "2026-10-23"
     },
     {
-      "level": "yellow",
       "title": "Muhtasar (Eylül)",
       "amount": "₺23.507",
       "due": "26 Eki",
@@ -111,10 +102,9 @@
       "action_type": "Ödeme",
       "category": "Vergi",
       "party": "Vergi Dairesi (Muhtasar Eylül)",
-      "status": "yellow"
+      "due_date": "2026-10-26"
     },
     {
-      "level": "yellow",
       "title": "SGK cari ay primi + maaşlar",
       "amount": "₺78.576 + maaş",
       "due": "31 Eki",
@@ -122,7 +112,7 @@
       "action_type": "Ödeme",
       "category": "Vergi / SGK",
       "party": "SGK cari prim + maaşlar",
-      "status": "yellow"
+      "due_date": "2026-10-31"
     }
   ],
   "departments": [
@@ -141,7 +131,7 @@
           "category": "Vergi / SGK",
           "party": "CPA Türk",
           "amount": "",
-          "status": "yellow"
+          "due_date": "2026-10-19"
         },
         {
           "text": "CPA Türk ₺46.450 (10.800 aylık + 35.650 eski borç taksiti, vade 15 Eki) ödenmiş mi teyit et",
@@ -151,8 +141,8 @@
           "category": "Muhasebe",
           "party": "CPA Türk",
           "amount": "₺46.450",
-          "status": "red",
-          "feed": false
+          "feed": false,
+          "due_date": "2026-10-19"
         },
         {
           "text": "HubSpot ₺76.245 (17 Eki) satırı kapanmış mı, Eylül'den açık kalan var mı kontrol et",
@@ -162,8 +152,8 @@
           "category": "Abonelik",
           "party": "HubSpot",
           "amount": "₺76.245",
-          "status": "yellow",
-          "feed": false
+          "feed": false,
+          "due_date": "2026-10-19"
         },
         {
           "text": "Ofis tutarı farkını netleştir: sheet'te Galata ₺31.680, Ahmet 40 küsür bin diyor; sheet'i düzelt",
@@ -173,7 +163,7 @@
           "category": "Ofis",
           "party": "Galata Business Center",
           "amount": "₺31.680 / ~₺40.000",
-          "status": "yellow"
+          "due_date": "2026-10-19"
         },
         {
           "text": "Apple Billing Problem: ödeme yöntemini kontrol et (HiNoter toplantı notları kesilebilir)",
@@ -183,7 +173,7 @@
           "category": "Abonelik",
           "party": "Apple (HiNoter)",
           "amount": "",
-          "status": "yellow"
+          "due_date": "2026-10-21"
         },
         {
           "text": "2025 kurumlar vergisi beyannamesini (CPA Türk, 13 Eki) incele, onay/ödeme adımını netleştir",
@@ -193,7 +183,7 @@
           "category": "Vergi",
           "party": "CPA Türk",
           "amount": "",
-          "status": "yellow"
+          "due_date": "2026-10-21"
         },
         {
           "text": "Google Workspace aboneliği ödemesi reddedildi (1 Eki, kart sorunu), 'ödeme sorunu' uyarısı geldi: ödeme yöntemini güncelle, hesap askıya alınmasın",
@@ -204,8 +194,8 @@
           "category": "Abonelik",
           "party": "Google Workspace",
           "amount": "",
-          "status": "red",
-          "feed": false
+          "feed": false,
+          "urgency": "red"
         },
         {
           "text": "Garanti BBVA kredi kartı gecikme uyarıları (24 Eyl, 30 Eyl): banka 30 Eyl'de 'yakın izleme' sürecini başlatacağını bildirdi, borcu kontrol et, para girince ilk öde",
@@ -216,8 +206,8 @@
           "category": "Banka / Kart",
           "party": "Garanti BBVA",
           "amount": "",
-          "status": "red",
-          "feed": false
+          "feed": false,
+          "urgency": "red"
         },
         {
           "text": "CPA Türk banka ekstresi talebi (2 Eki, 01.04-30.09.2026 TL ve döviz): ekstreler gönderildi mi teyit et",
@@ -228,7 +218,7 @@
           "category": "Banka",
           "party": "CPA Türk",
           "amount": "",
-          "status": "yellow"
+          "due_date": "2026-10-19"
         },
         {
           "text": "Paraşüt'e gelen 2 e-fatura (Orya Otelcilik 13 Eki, Pharmago 12 Eki) işlenmeyi bekliyor",
@@ -239,7 +229,7 @@
           "category": "Fatura",
           "party": "Paraşüt (Orya, Pharmago)",
           "amount": "",
-          "status": "green"
+          "urgency": "gray"
         },
         {
           "text": "Payten e-ticaret sanal POS başvurusu (OP-432968) yazışması: son yanıt Payten'den, cevap bekliyor",
@@ -250,7 +240,7 @@
           "category": "Ödeme altyapısı",
           "party": "Payten",
           "amount": "",
-          "status": "yellow"
+          "urgency": "gray"
         },
         {
           "text": "İş Bankası 7. ve 8. ay POS hareketleri dökümü (28 Ağu) talebi: gelen döküm kontrol edildi mi",
@@ -261,7 +251,7 @@
           "category": "Banka",
           "party": "İş Bankası",
           "amount": "",
-          "status": "green"
+          "urgency": "gray"
         },
         {
           "text": "CPA Türk Eylül/Ağustos ücret bordroları ve vergi/SGK ödeme listeleri (28 Eyl, 1 Eki) incelenip ödemeler takvime işlendi mi",
@@ -272,7 +262,7 @@
           "category": "Bordro / SGK",
           "party": "CPA Türk",
           "amount": "",
-          "status": "green"
+          "urgency": "gray"
         },
         {
           "text": "VakıfBank kart asgarisi ödenmedi: asgari ₺154.544,00 acil, toplam ekstre ₺377.293,60 (bilgi). Para girince ilk öde",
@@ -282,10 +272,10 @@
           "category": "Banka / Kart",
           "party": "VakıfBank",
           "amount": "₺154.544,00 (asgari)",
-          "status": "red",
           "source": "asistan",
           "id": "1a144b11f137335a",
-          "feed": false
+          "feed": false,
+          "due_date": "2026-10-15"
         }
       ],
       "summary": "SGK/CPA ödeme teyitleri bekliyor",
@@ -295,7 +285,7 @@
       "key": "damla",
       "name": "DAMLA",
       "area": "Teşvik",
-      "status": "red",
+      "status": "yellow",
       "updated": "2026-10-16 16:45",
       "items": [
         {
@@ -306,7 +296,7 @@
           "category": "Teşvik",
           "party": "EK-21A",
           "amount": "",
-          "status": "yellow"
+          "urgency": "gray"
         },
         {
           "text": "IC Hospital - Barış'tan revize sözleşme imzası bekleniyor",
@@ -315,9 +305,9 @@
           "party": "IC Hospital / Barış",
           "amount": "",
           "due": "Hatırlatıldı 16 Eki",
-          "status": "yellow",
           "owner": "",
-          "note": "Son hatırlatma 15 Eki, tekrar 16 Eki. Sonrasında Medcure anlaşması donuyor, teşvik işlerini kendimiz yapacağız."
+          "note": "Son hatırlatma 15 Eki, tekrar 16 Eki. Sonrasında Medcure anlaşması donuyor, teşvik işlerini kendimiz yapacağız.",
+          "urgency": "gray"
         },
         {
           "text": "HİB yıllık aidat ödemesi",
@@ -326,10 +316,10 @@
           "party": "HİB",
           "amount": "₺74.912,04",
           "due": "Ekim sonu",
-          "status": "red",
           "owner": "",
           "feed": false,
-          "note": "Ödenmezse teşvik ödemeleri durdurulmuş durumda. Kasım'da gecikme zammı eklenecek. Ödeme sonrası dekont HİB'e mail ile iletilecek."
+          "note": "Ödenmezse teşvik ödemeleri durdurulmuş durumda. Kasım'da gecikme zammı eklenecek. Ödeme sonrası dekont HİB'e mail ile iletilecek.",
+          "due_date": "2026-10-31"
         }
       ],
       "summary": "HİB aidatı (₺74.912,04) ve IC Hospital imzası bekliyor"
@@ -349,7 +339,7 @@
           "category": "Üyelik",
           "party": "HealthTürkiye",
           "amount": "",
-          "status": "yellow"
+          "due_date": "2026-10-19"
         },
         {
           "text": "'neome' marka başvurusu 2025/057803 kısmi tescil kararı (12 Eki): itiraz/başvuru süresini hesapla, karar verilecek",
@@ -360,7 +350,7 @@
           "category": "Marka",
           "party": "TÜRKPATENT (neome)",
           "amount": "",
-          "status": "yellow"
+          "urgency": "gray"
         },
         {
           "text": "KVKK Kurumsal İletişim Denetimi İlke Kararı (Karaçamşır, 12 Eki): şirkete etkisini incele",
@@ -371,7 +361,7 @@
           "category": "KVKK",
           "party": "Karaçamşır (hukuk)",
           "amount": "",
-          "status": "green"
+          "urgency": "gray"
         },
         {
           "text": "Mecidiyeköy Çevre Hastanesi 'Sözleşme örneği' (21 Ağu, partnership kutusu): ~8 haftadır yanıtsız, incele ve dön",
@@ -382,7 +372,7 @@
           "category": "Provider",
           "party": "Mecidiyeköy Çevre Hastanesi",
           "amount": "",
-          "status": "yellow"
+          "urgency": "gray"
         },
         {
           "text": "HealthTürkiye Uluslararası Sağlık Turizmi Performans Değerlendirme Formu bildirimi (29 Eyl): doldurulup gönderildi mi",
@@ -393,7 +383,7 @@
           "category": "Üyelik",
           "party": "HealthTürkiye",
           "amount": "",
-          "status": "yellow"
+          "urgency": "gray"
         }
       ],
       "summary": "HealthTürkiye yenilemesi açık"
@@ -413,7 +403,7 @@
           "category": "Satış",
           "party": "Hamza B. / Briahn T.",
           "amount": "€4.980 + €2.646",
-          "status": "red"
+          "due_date": "2026-10-16"
         },
         {
           "text": "'Ulaşılmaya çalışıldı' leadleri (Israa M., Laura W., Melissa): ilk temas hızını izle",
@@ -423,7 +413,7 @@
           "category": "Satış",
           "party": "Israa M. / Laura W. / Melissa",
           "amount": "",
-          "status": "yellow"
+          "urgency": "gray"
         },
         {
           "text": "Gassa F. (€8.000, Lipedema Vaser Lipo) en büyük aktif deal, kapanış 21 Eki",
@@ -433,7 +423,7 @@
           "category": "Satış",
           "party": "Gassa F.",
           "amount": "€8.000",
-          "status": "yellow"
+          "due_date": "2026-10-21"
         },
         {
           "text": "Jodie: uçuş alındı, ödeme takibi (Final Balance Warning 13 Eki'de tetiklendi)",
@@ -443,7 +433,7 @@
           "category": "Satış",
           "party": "Jodie",
           "amount": "",
-          "status": "yellow"
+          "urgency": "gray"
         },
         {
           "text": "Bella: ameliyat 27 Eki (NZD 6.590); diş temizliği/beyazlatma/botoks ek satış planı",
@@ -453,7 +443,7 @@
           "category": "Satış",
           "party": "Bella",
           "amount": "NZD 6.590",
-          "status": "green"
+          "due_date": "2026-10-27"
         },
         {
           "text": "Deal aşama ID'lerini çöz, ghost lead analizi yap",
@@ -463,7 +453,7 @@
           "category": "Satış",
           "party": "Ghost lead analizi",
           "amount": "",
-          "status": "green"
+          "urgency": "gray"
         },
         {
           "text": "Lusia M.: 2 Kasım operasyon takvimi (İstanbul Cerrahi, davet 23 Eyl) onaylı mı, hazırlıklar tamam mı",
@@ -474,7 +464,7 @@
           "category": "Operasyon",
           "party": "Lusia M. (İstanbul Cerrahi)",
           "amount": "",
-          "status": "green"
+          "due_date": "2026-11-02"
         },
         {
           "text": "Hülya'nın 9 Eki'de yönlendirdiği 2 yeni talep (hasta dosyaları): takip ediliyor mu",
@@ -485,7 +475,7 @@
           "category": "Satış",
           "party": "Hülya (2 yeni talep)",
           "amount": "",
-          "status": "yellow"
+          "due_date": "2026-10-23"
         }
       ],
       "summary": "2 deal bugün kapanıyor"
@@ -494,7 +484,7 @@
       "key": "ilksen",
       "name": "İLKSEN",
       "area": "Marketing",
-      "status": "red",
+      "status": "yellow",
       "updated": "2026-10-16 10:55",
       "items": [
         {
@@ -505,7 +495,7 @@
           "category": "Marketing",
           "party": "Meta Ads",
           "amount": "",
-          "status": "red"
+          "due_date": "2026-10-16"
         }
       ],
       "summary": "Meta Ads 7 gündür kapalı"
@@ -514,7 +504,7 @@
       "key": "ecem",
       "name": "ECEM",
       "area": "Operasyon & HR",
-      "status": "green",
+      "status": "yellow",
       "updated": "2026-10-16 10:55",
       "items": [
         {
@@ -525,7 +515,7 @@
           "category": "İK",
           "party": "Selin (Kolay İK)",
           "amount": "",
-          "status": "yellow"
+          "due_date": "2026-10-16"
         }
       ],
       "summary": "1 onay bekliyor"
@@ -545,7 +535,7 @@
           "category": "Yatırımcı",
           "party": "Slush Helsinki",
           "amount": "",
-          "status": "yellow"
+          "urgency": "gray"
         },
         {
           "text": "Aiven 'Meet at Slush?' toplantı talebi (15 Eki): yanıtsız, Slush katılım kararına bağlı",
@@ -556,7 +546,7 @@
           "category": "Yatırımcı",
           "party": "Aiven",
           "amount": "",
-          "status": "yellow"
+          "urgency": "gray"
         },
         {
           "text": "Slush 'Private Dinner' başvurusu alındı (12 Eki): sonuç bekleniyor",
@@ -567,7 +557,7 @@
           "category": "Yatırımcı",
           "party": "Slush (Private Dinner)",
           "amount": "",
-          "status": "green"
+          "urgency": "gray"
         }
       ],
       "summary": "Slush kararı bekliyor"
@@ -576,7 +566,7 @@
       "key": "idari",
       "name": "İDARİ",
       "area": "İdari & Ofis",
-      "status": "yellow",
+      "status": "red",
       "summary": "Bekleyen işler kontrol edilecek",
       "updated": "2026-10-16 15:30",
       "items": [
@@ -589,8 +579,8 @@
           "category": "Ofis",
           "party": "Galata Business Center",
           "amount": "₺41.828",
-          "status": "red",
-          "feed": false
+          "feed": false,
+          "urgency": "red"
         },
         {
           "text": "GBC'ye adına gelen kargo (PTT, gönderen USHAŞ, zarf) resepsiyondan alınacak (7 Eki bildirimi)",
@@ -601,7 +591,7 @@
           "category": "Ofis",
           "party": "GBC / USHAŞ",
           "amount": "",
-          "status": "yellow"
+          "due_date": "2026-10-23"
         },
         {
           "text": "Kanyon (bina) bakiye bilgilendirmeleri (25 Ağu, 25 Eyl, 2 Eki): açık bakiye var mı kontrol et",
@@ -612,7 +602,7 @@
           "category": "Ofis",
           "party": "Kanyon",
           "amount": "",
-          "status": "yellow"
+          "urgency": "gray"
         },
         {
           "text": "Superonline internet aboneliği 21 Eyl'de askıya alınıp 28 Eyl'de yeniden açılmış: ödeme düzenini kontrol et",
@@ -623,7 +613,7 @@
           "category": "Abonelik",
           "party": "Superonline",
           "amount": "",
-          "status": "yellow"
+          "urgency": "gray"
         },
         {
           "text": "Turkcell: 31 Ağu 'Abonelik Feshi' bildirimi ve düzenli faturalar; hangi hat iptal, hangisi aktif netleştir",
@@ -634,7 +624,7 @@
           "category": "Abonelik",
           "party": "Turkcell",
           "amount": "",
-          "status": "green"
+          "urgency": "gray"
         },
         {
           "text": "Anthropic Team plan sorunu: destek 3+ takip sonrası 2-3 haftadır yanıtsız, tekrar yaz",
@@ -645,7 +635,7 @@
           "category": "Abonelik",
           "party": "Anthropic",
           "amount": "",
-          "status": "yellow"
+          "due_date": "2026-10-23"
         },
         {
           "text": "Kanyon bina bakım duyuruları (otopark, fiber geçişi, balkon çalışması): ofisi etkiliyor mu bak",
@@ -656,12 +646,12 @@
           "category": "Ofis",
           "party": "Kanyon",
           "amount": "",
-          "status": "green"
+          "urgency": "gray"
         }
       ]
     }
   ],
-  "updated": "2026-10-16 16:00",
+  "updated": "2026-10-16 17:15",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",

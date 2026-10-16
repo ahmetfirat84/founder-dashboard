@@ -67,6 +67,14 @@
   .fe input,.fe select{font:inherit;font-size:14px;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:7px;min-width:0;width:100%}
   .fe .wide{grid-column:1/-1}.fbtn{grid-column:1/-1;display:flex;gap:6px}
   #feedNew{font-size:12px;padding:2px 10px;text-transform:none;letter-spacing:0}
+  .legend{font-size:12px;color:var(--mut);margin:-2px 0 8px;grid-column:1/-1}.legend b{color:var(--ink)}
+  .pill{display:inline-block;font-size:11px;font-weight:600;border-radius:10px;padding:1px 8px;margin-left:4px;vertical-align:1px;border:1px solid transparent}
+  .pill.green{background:var(--greenbg,#e8f5ec);color:#1e8e3e;border-color:#1e8e3e55}
+  .pill.yellow{background:var(--yellowbg);color:#9a6b00;border-color:#e8a10066}
+  .pill.red{background:var(--redbg);color:#d93025;border-color:#d9302555}
+  :root[data-theme=dark] .pill.green{background:#18301f;color:#5fd08a}:root[data-theme=dark] .pill.yellow{color:#f0c050}:root[data-theme=dark] .pill.red{color:#ff8a80}
+  .ud{display:inline-block;width:9px;height:9px;border-radius:50%;margin:6px 2px 0 0;flex:none;background:#9a9aa2}
+  .ud.red{background:#d93025}.ud.orange{background:#f07d00}.ud.yellow{background:#e8a100}.ud.gray{background:#b5b5bb}
   #toast{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:20px;font-size:13px;opacity:0;pointer-events:none;transition:opacity .2s;max-width:90vw}
   #toast.on{opacity:.95}
 </style>
@@ -80,8 +88,9 @@
 
   <section class="card prio"><h2>Bugünün Top 3 <button id="reset" hidden>sıfırla</button></h2><ol id="prio"></ol></section>
 
-  <section class="card feed" id="feedCard"><h2><span>Acil Feed <span id="feedCount"></span></span> <button id="feedNew">+ Yeni</button></h2><div id="feed"></div><button id="feedMore" hidden>Tümünü göster</button></section>
+  <section class="card feed" id="feedCard"><h2><span>Acil Feed <span id="feedCount"></span></span> <button id="feedNew">+ Yeni</button></h2><div class="legend">Satır rengi = <b>vade zamanlaması</b>: 🔴 gecikmiş · 🟠 bu hafta · 🟡 bu ay · ⚪ tarihsiz/belirsiz (tarih girersen renk kendiliğinden değişir)</div><div id="feed"></div><button id="feedMore" hidden>Tümünü göster</button></section>
 
+  <div class="legend" id="healthLegend">Kart etiketi = <b>genel durum</b>: <span class="pill green">Sorunsuz</span> acil iş yok · <span class="pill yellow">Bekleyen işler</span> 30 gün içinde vadeli iş var · <span class="pill red">Kritik</span> gecikmiş iş var (otomatik)</div>
   <section class="grid" id="depts"></section>
 
   <aside>
@@ -93,7 +102,8 @@
 
 <script>
 const $=id=>document.getElementById(id);
-const ICON={red:"🔴",yellow:"🟡",green:"🟢"},ORD={red:0,yellow:1,green:2};
+const ICON={red:"🔴",orange:"🟠",yellow:"🟡",gray:"⚪",green:"🟢"},ORD={red:0,orange:1,yellow:2,gray:3,green:3};
+const HL={red:"Kritik",yellow:"Bekleyen işler",green:"Sorunsuz"};
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const fmt=d=>d.split("-").reverse().join(".");
 const ls={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}},del(k){try{localStorage.removeItem(k)}catch(e){}}};
@@ -126,12 +136,26 @@ const newUid=()=>Math.random().toString(36).slice(2,8);
 const norm=i=>typeof i==="string"?{text:i}:i;
 const fkey=(o,kind,dk)=>o.uid||(kind==="cash"?"c|"+(o.title||""):"i|"+dk+"|"+(o.text||""));
 const ATYPES=["Ödeme","Kargo","Sözleşme","Yanıt","Belge","Başvuru","Toplantı"];
+const todayStr=()=>nowTR().slice(0,10);
+const fmtDate=s=>{ if(!s)return""; const [y,m,d]=s.split("-"); const ay=["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara"]; return +d+" "+ay[+m-1]; };
+// FEED rengi = ZAMANLAMA: vade tarihi varsa otomatik (gecikmiş / bu hafta / bu ay / diğeri), yoksa elle `urgency`
+function urgencyOf(o){
+  if(o.due_date){ const n=Math.round((new Date(o.due_date+"T00:00:00")-new Date(todayStr()+"T00:00:00"))/864e5);
+    return n<0?"red":n<=7?"orange":n<=30?"yellow":"gray"; }
+  if(o.urgency) return o.urgency==="green"?"gray":o.urgency;
+  const s=o.status||o.level; return s==="red"?"red":s==="yellow"?"yellow":"gray";   // eski veri uyumu
+}
+// KART rengi = GENEL DURUM: kritik (gecikmiş iş var) / bekleyen iş (30 gün içinde vade) / sorunsuz
+function deptHealth(x){ let h="green";
+  for(const i0 of x.items){ const i=norm(i0); if(i.done)continue; const u=urgencyOf(i);
+    if(u==="red") return "red"; if(u==="orange"||u==="yellow") h="yellow"; }
+  return h; }
 function buildFeed(d){
   const rows=[];
-  d.cash_alerts.forEach(a=>rows.push({kind:"cash",k:fkey(a,"cash"),st:a.status||a.level||"yellow",a:a.action_type||"Ödeme",c:a.category,p:a.party||a.title,am:a.amount,du:a.due,tx:a.note,src:"Nakit"}));
+  d.cash_alerts.forEach(a=>rows.push({kind:"cash",k:fkey(a,"cash"),st:urgencyOf(a),a:a.action_type||"Ödeme",c:a.category,p:a.party||a.title,am:a.amount,du:a.due||fmtDate(a.due_date),dd:a.due_date,tx:a.note,src:"Nakit"}));
   d.departments.forEach(x=>x.items.forEach(i0=>{const i=norm(i0); if(i.done||i.feed===false)return;
-    rows.push({kind:"item",dk:x.key,k:fkey(i,"item",x.key),st:i.status||"green",a:i.action_type||"Yanıt",c:i.category,p:i.party,am:i.amount,du:i.due,tx:i.text,nt:i.note,src:x.area,t:i.text})}));
-  const urgent=rows.filter(r=>r.st==="red"||r.st==="yellow").sort((p,q)=>ORD[p.st]-ORD[q.st]);
+    rows.push({kind:"item",dk:x.key,k:fkey(i,"item",x.key),st:urgencyOf(i),a:i.action_type||"Yanıt",c:i.category,p:i.party,am:i.amount,du:i.due||fmtDate(i.due_date),dd:i.due_date,tx:i.text,nt:i.note,src:x.area,t:i.text})}));
+  const urgent=rows.sort((p,q)=>ORD[p.st]-ORD[q.st]);
   const ord=d.feed_order||[]; const pos=k=>ord.indexOf(k);   // sırada olmayanlar (-1) en üste gelir
   return urgent.sort((p,q)=>pos(p.k)-pos(q.k));
 }
@@ -148,12 +172,14 @@ function applyFeedOp(d,op){
   if(op.t==="feededit"){ const f=findObj(d,op.key); if(!f)return; const o=f.o, v=op.f;
     if(!o.uid){ o.uid=op.uid; if(d.feed_order){const i=d.feed_order.indexOf(op.key); if(i>=0)d.feed_order[i]=o.uid} }
     ["action_type","category","party","amount","due"].forEach(k=>{ if(v[k]!==undefined) o[k]=v[k]; });
-    if(v.status){ o.status=v.status; if(f.kind==="cash") o.level=v.status; }
+    if(v.urgency){ o.urgency=v.urgency; }
+    if(v.due_date!==undefined){ if(v.due_date) o.due_date=v.due_date; else delete o.due_date; }
+    delete o.status; delete o.level;
     if(v.tx!==undefined){ if(f.kind==="cash") o.note=v.tx; else if(v.tx) o.text=v.tx; }
     if(f.kind==="item" && o.source==="email") o.source="manual"; return; }
   if(op.t==="feedadd"){ const v=op.f;
-    const base={action_type:v.action_type||"Yanıt",category:v.category||"",party:v.party||"",amount:v.amount||"",due:v.due||"",status:v.status||"yellow",uid:op.uid};
-    if(op.dep==="cash") d.cash_alerts.push({...base,level:base.status,title:v.party||v.tx||"Yeni",note:v.tx||""});
+    const base={action_type:v.action_type||"Yanıt",category:v.category||"",party:v.party||"",amount:v.amount||"",due:v.due||"",urgency:v.urgency||"gray",uid:op.uid}; if(v.due_date) base.due_date=v.due_date;
+    if(op.dep==="cash") d.cash_alerts.push({...base,title:v.party||v.tx||"Yeni",note:v.tx||""});
     else { const dep=d.departments.find(x=>x.key===op.dep); if(!dep)return; dep.items.push({...base,text:v.tx||v.party||"Yeni",owner:"",source:"manual"}); } }
 }
 function applyOp(d,op){
@@ -194,11 +220,11 @@ function render(){
   $("date").textContent=new Date(d.date+"T12:00").toLocaleDateString("tr-TR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
   const openSet=new Set([...document.querySelectorAll("details.dept[open]")].map(e=>e.dataset.k));
   $("depts").innerHTML=d.departments.map(x=>{
-    const items=x.items.map(norm), open=items.filter(i=>!i.done), done=items.filter(i=>i.done), notes=(x.notes||[]).slice(0,3);
-    const li=i=>`<li class="${i.done?"done":""}"><input type="checkbox" data-k="${esc(x.key)}" data-t="${esc(i.text)}" ${i.done?"checked":""} aria-label="Tamamlandı"><span class="tx">${i.due?`<span class="tag">${esc(i.due)}</span>`:""}${i.owner?`<span class="tag own">${esc(i.owner)}</span>`:""}${esc(i.text)}${i.note?`<small class="inote">${esc(i.note)}</small>`:""}</span></li>`;
-    return `<details class="card dept ${x.status}" data-k="${esc(x.key)}" ${openSet.has(x.key)?"open":""}>
-      <summary><span class="dot">${ICON[x.status]}</span>
-        <div style="flex:1;min-width:0"><span class="nm">${esc(x.area)}</span><span class="ar">${esc(x.name)}</span>
+    const h=deptHealth(x); const items=x.items.map(norm), open=items.filter(i=>!i.done), done=items.filter(i=>i.done), notes=(x.notes||[]).slice(0,3);
+    const li=i=>`<li class="${i.done?"done":""}"><input type="checkbox" data-k="${esc(x.key)}" data-t="${esc(i.text)}" ${i.done?"checked":""} aria-label="Tamamlandı"><span class="ud ${urgencyOf(i)}" title="vade rengi"></span><span class="tx">${i.due?`<span class="tag">${esc(i.due)}</span>`:""}${i.owner?`<span class="tag own">${esc(i.owner)}</span>`:""}${esc(i.text)}${i.note?`<small class="inote">${esc(i.note)}</small>`:""}</span></li>`;
+    return `<details class="card dept ${h}" data-k="${esc(x.key)}" ${openSet.has(x.key)?"open":""}>
+      <summary>
+        <div style="flex:1;min-width:0"><span class="nm">${esc(x.area)}</span><span class="ar">${esc(x.name)} <span class="pill ${h}">${HL[h]}</span></span>
           <div class="sm">${esc(x.summary)}</div><div class="ts">Son güncelleme: ${esc(ts(x.updated))}</div></div>
         <span class="cnt">${open.length}</span><button class="add" data-add="${esc(x.key)}" aria-label="Not ekle" title="Not ekle">+</button><span class="chev">›</span></summary>
       <div class="det"><ul>${open.map(li).join("")||'<li><span class="tx">Açık aksiyon yok</span></li>'}</ul>
@@ -220,8 +246,8 @@ function render(){
     +`<input name="category" placeholder="Kategori" value="${esc(r.c||"")}">`
     +`<input name="party" placeholder="Taraf (kurum/kişi)" value="${esc(r.p||"")}">`
     +`<input name="amount" placeholder="Tutar" value="${esc(r.am||"")}">`
-    +`<input name="due" placeholder="Vade" value="${esc(r.du||"")}">`
-    +sel("status",[["red","🔴 Acil"],["yellow","🟡 Yaklaşan"],["green","🟢 Normal"]],r.st||"yellow")
+    +`<input name="due" placeholder="Vade (yazı)" value="${esc(r.du||"")}">`
+    +sel("urgency",[["red","🔴 Gecikmiş"],["orange","🟠 Bu hafta"],["yellow","🟡 Bu ay"],["gray","⚪ Tarihsiz"]],r.dd?"gray":(r.st||"gray"))+`<input name="due_date" type="date" title="Vade tarihi: girilirse renk otomatik" value="${esc(r.dd||"")}">`
     +`<textarea name="tx" class="wide" rows="3" placeholder="Açıklama">${esc(r.tx||"")}</textarea>`
     +`<span class="fbtn"><button>Kaydet</button><button type="button" data-fa="cancel">İptal</button></span></form>`};
   const fr=(r,i)=>{const parts=[r.a,r.c,r.p,r.am,r.du].filter(Boolean).map(esc).join(' <span class="sep">·</span> ');
@@ -230,7 +256,7 @@ function render(){
       <div class="fa"><button data-fa="up" data-key="${k}" ${i===0?"disabled":""} aria-label="Yukarı">▲</button><button data-fa="down" data-key="${k}" ${i===urgent.length-1?"disabled":""} aria-label="Aşağı">▼</button><button data-fa="edit" data-key="${k}" aria-label="Düzenle">✎</button><button data-fa="del" data-key="${k}" aria-label="Sil">✕</button></div>
       ${window.__edit===r.k?form(r.k,r):""}</div>`};
   $("feed").innerHTML=(window.__edit==="__new"?`<div class="fr">${form("__new")}</div>`:"")+(urgent.slice(0,lim).map(fr).join("")||'<span class="date">Acil iş yok</span>');
-  $("feedCount").textContent=`(${urgent.filter(r=>r.st==="red").length} acil, ${urgent.filter(r=>r.st==="yellow").length} yaklaşan)`;
+  const nc=k=>urgent.filter(r=>r.st===k).length; $("feedCount").textContent=`(${nc("red")} gecikmiş · ${nc("orange")} bu hafta · ${nc("yellow")} bu ay · ${nc("gray")} tarihsiz)`;
   $("feedMore").hidden=urgent.length<=12; $("feedMore").textContent=window.__all?"Daha az göster":"Tümünü göster ("+urgent.length+")";
 }
 
