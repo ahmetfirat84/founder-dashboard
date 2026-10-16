@@ -69,6 +69,34 @@
       "amount": "₺78.576 + maaş",
       "due": "31 Eki",
       "note": "Ahmet maaşı kararı bekliyor (₺320K vs ₺120K)."
+    },
+    {
+      "level": "red",
+      "title": "GBC sanal ofis yenilemesi",
+      "amount": "",
+      "due": "01.09.2026 vadesi geçti",
+      "note": "Faiz uygulanıyor, GBC yazısı 1 Eki'de geldi."
+    },
+    {
+      "level": "red",
+      "title": "Garanti BBVA kredi kartı borcu",
+      "amount": "",
+      "due": "Gecikme uyarıları 24 Eyl, 30 Eyl",
+      "note": ""
+    },
+    {
+      "level": "yellow",
+      "title": "Google Workspace aboneliği",
+      "amount": "",
+      "due": "Ödeme 1 Eki reddedildi",
+      "note": "Ödeme yöntemi güncellenmeli, hesap askıya alınabilir."
+    },
+    {
+      "level": "yellow",
+      "title": "HİB yıllık aidat",
+      "amount": "",
+      "due": "8 Eyl bildirimi",
+      "note": "Ödendi mi teyit edilecek."
     }
   ],
   "departments": [
@@ -77,7 +105,7 @@
       "name": "BATU",
       "area": "Muhasebe",
       "status": "red",
-      "updated": "2026-10-16 10:55",
+      "updated": "2026-10-16 15:30",
       "items": [
         {
           "text": "SGK ödeme planı dökümünü çıkar: taksit sayısı, ödenen/aksayan, ilk taksit (31.08) ödendi mi, bozulma tarihi; CPA Türk'ten (Yasemin Hanım) teyit al",
@@ -108,6 +136,48 @@
           "text": "2025 kurumlar vergisi beyannamesini (CPA Türk, 13 Eki) incele, onay/ödeme adımını netleştir",
           "due": "21 Eki",
           "owner": ""
+        },
+        {
+          "text": "Google Workspace aboneliği ödemesi reddedildi (1 Eki, kart sorunu), 'ödeme sorunu' uyarısı geldi: ödeme yöntemini güncelle, hesap askıya alınmasın",
+          "due": "Acil",
+          "owner": "",
+          "source": "gecmis-tarama"
+        },
+        {
+          "text": "Garanti BBVA kredi kartı gecikme uyarıları (24 Eyl, 30 Eyl): borcu kontrol et, ödeme planına ekle",
+          "due": "Acil",
+          "owner": "",
+          "source": "gecmis-tarama"
+        },
+        {
+          "text": "CPA Türk banka ekstresi talebi (2 Eki, 01.04-30.09.2026 TL ve döviz): ekstreler gönderildi mi teyit et",
+          "due": "19 Eki",
+          "owner": "",
+          "source": "gecmis-tarama"
+        },
+        {
+          "text": "Paraşüt'e gelen 2 e-fatura (Orya Otelcilik 13 Eki, Pharmago 12 Eki) işlenmeyi bekliyor",
+          "due": "",
+          "owner": "",
+          "source": "gecmis-tarama"
+        },
+        {
+          "text": "Payten e-ticaret sanal POS başvurusu (OP-432968) yazışması: son yanıt Payten'den, cevap bekliyor",
+          "due": "",
+          "owner": "",
+          "source": "gecmis-tarama"
+        },
+        {
+          "text": "İş Bankası 7. ve 8. ay POS hareketleri dökümü (28 Ağu) talebi: gelen döküm kontrol edildi mi",
+          "due": "",
+          "owner": "",
+          "source": "gecmis-tarama"
+        },
+        {
+          "text": "CPA Türk Eylül/Ağustos ücret bordroları ve vergi/SGK ödeme listeleri (28 Eyl, 1 Eki) incelenip ödemeler takvime işlendi mi",
+          "due": "",
+          "owner": "",
+          "source": "gecmis-tarama"
         }
       ],
       "summary": "SGK/CPA ödeme teyitleri bekliyor",
@@ -118,12 +188,18 @@
       "name": "DAMLA",
       "area": "Teşvik",
       "status": "yellow",
-      "updated": "2026-10-16 10:55",
+      "updated": "2026-10-16 15:30",
       "items": [
         {
           "text": "EK-21A ve IC Hospital dosya durumunu teyit et (yeni hareket görülmedi)",
           "due": "",
           "owner": ""
+        },
+        {
+          "text": "HİB (Hizmet İhracatçıları Birliği) 2026 yıllık aidat borcu bildirimi (8 Eyl): ödendi mi, teşvik uygunluğunu etkiliyor mu",
+          "due": "19 Eki",
+          "owner": "",
+          "source": "gecmis-tarama"
         }
       ],
       "summary": "Dosya durumu teyit edilecek"
@@ -133,12 +209,36 @@
       "name": "CANKAT",
       "area": "Hukuk",
       "status": "yellow",
-      "updated": "2026-10-16 10:55",
+      "updated": "2026-10-16 15:30",
       "items": [
         {
           "text": "HealthTürkiye 2026 üyelik yenileme ücreti: son ödeme tarihini mailden doğrula (3 hatırlatma geldi), USHAŞ/TÜRSAB yetkilendirmesine etkisini kontrol et",
           "due": "19 Eki",
           "owner": ""
+        },
+        {
+          "text": "'neome' marka başvurusu 2025/057803 kısmi tescil kararı (12 Eki): itiraz/başvuru süresini hesapla, karar verilecek",
+          "due": "Süre kontrolü",
+          "owner": "",
+          "source": "gecmis-tarama"
+        },
+        {
+          "text": "KVKK Kurumsal İletişim Denetimi İlke Kararı (Karaçamşır, 12 Eki): şirkete etkisini incele",
+          "due": "",
+          "owner": "",
+          "source": "gecmis-tarama"
+        },
+        {
+          "text": "Mecidiyeköy Çevre Hastanesi 'Sözleşme örneği' (21 Ağu, partnership kutusu): ~8 haftadır yanıtsız, incele ve dön",
+          "due": "",
+          "owner": "",
+          "source": "gecmis-tarama"
+        },
+        {
+          "text": "HealthTürkiye Uluslararası Sağlık Turizmi Performans Değerlendirme Formu bildirimi (29 Eyl): doldurulup gönderildi mi",
+          "due": "",
+          "owner": "",
+          "source": "gecmis-tarama"
         }
       ],
       "summary": "HealthTürkiye yenilemesi açık"
@@ -148,7 +248,7 @@
       "name": "ZEYNEP",
       "area": "Satış",
       "status": "yellow",
-      "updated": "2026-10-16 10:55",
+      "updated": "2026-10-16 15:30",
       "items": [
         {
           "text": "Bugün kapanış: Hamza B. (€4.980), Briahn T. (€2.646). Durumu Daily'de bildir",
@@ -179,6 +279,18 @@
           "text": "Deal aşama ID'lerini çöz, ghost lead analizi yap",
           "due": "",
           "owner": ""
+        },
+        {
+          "text": "Lusia M.: 2 Kasım operasyon takvimi (İstanbul Cerrahi, davet 23 Eyl) onaylı mı, hazırlıklar tamam mı",
+          "due": "2 Kas",
+          "owner": "",
+          "source": "gecmis-tarama"
+        },
+        {
+          "text": "Hülya'nın 9 Eki'de yönlendirdiği 2 yeni talep (hasta dosyaları): takip ediliyor mu",
+          "due": "Bu hafta",
+          "owner": "Hülya",
+          "source": "gecmis-tarama"
         }
       ],
       "summary": "2 deal bugün kapanıyor"
@@ -218,17 +330,96 @@
       "name": "ERKİN",
       "area": "Investor Relations",
       "status": "green",
-      "updated": "2026-10-16 10:55",
+      "updated": "2026-10-16 15:30",
       "items": [
         {
           "text": "Slush Helsinki (18-19 Kas) katılım kararı bekliyor; katılım olursa yatırımcı toplantılarını planla",
           "due": "",
           "owner": ""
+        },
+        {
+          "text": "Aiven 'Meet at Slush?' toplantı talebi (15 Eki): yanıtsız, Slush katılım kararına bağlı",
+          "due": "Karar bekliyor",
+          "owner": "",
+          "source": "gecmis-tarama"
+        },
+        {
+          "text": "Slush 'Private Dinner' başvurusu alındı (12 Eki): sonuç bekleniyor",
+          "due": "",
+          "owner": "",
+          "source": "gecmis-tarama"
         }
       ],
       "summary": "Slush kararı bekliyor"
+    },
+    {
+      "key": "idari",
+      "name": "İDARİ",
+      "area": "İdari & Ofis",
+      "status": "yellow",
+      "summary": "Bekleyen işler kontrol edilecek",
+      "updated": "2026-10-16 15:30",
+      "items": [
+        {
+          "text": "GBC (Galata Business Center) sanal ofis sözleşme yenilemesi: son ödeme 01.09.2026, ödeme gecikmede, faiz işliyor. Yenileme ve ücret yazısını kontrol et, öde",
+          "due": "Acil",
+          "owner": "",
+          "source": "gecmis-tarama"
+        },
+        {
+          "text": "GBC'ye adına gelen kargo (PTT, gönderen USHAŞ, zarf) resepsiyondan alınacak (7 Eki bildirimi)",
+          "due": "Bu hafta",
+          "owner": "",
+          "source": "gecmis-tarama"
+        },
+        {
+          "text": "Kanyon (bina) bakiye bilgilendirmeleri (25 Ağu, 25 Eyl, 2 Eki): açık bakiye var mı kontrol et",
+          "due": "",
+          "owner": "",
+          "source": "gecmis-tarama"
+        },
+        {
+          "text": "Superonline internet aboneliği 21 Eyl'de askıya alınıp 28 Eyl'de yeniden açılmış: ödeme düzenini kontrol et",
+          "due": "",
+          "owner": "",
+          "source": "gecmis-tarama"
+        },
+        {
+          "text": "Turkcell: 31 Ağu 'Abonelik Feshi' bildirimi ve düzenli faturalar; hangi hat iptal, hangisi aktif netleştir",
+          "due": "",
+          "owner": "",
+          "source": "gecmis-tarama"
+        },
+        {
+          "text": "Anthropic Team plan sorunu: destek 3+ takip sonrası 2-3 haftadır yanıtsız, tekrar yaz",
+          "due": "Bu hafta",
+          "owner": "",
+          "source": "gecmis-tarama"
+        },
+        {
+          "text": "Kanyon bina bakım duyuruları (otopark, fiber geçişi, balkon çalışması): ofisi etkiliyor mu bak",
+          "due": "",
+          "owner": "",
+          "source": "gecmis-tarama"
+        }
+      ]
     }
   ],
-  "updated": "2026-10-16 10:55",
-  "review": []
+  "updated": "2026-10-16 15:30",
+  "review": [
+    {
+      "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
+      "from": "moanamcrae@gmail.com",
+      "date": "2026-10-16",
+      "thread": "",
+      "note": "Takvim daveti, hangi departman belli değil"
+    },
+    {
+      "subject": "Surgery Accreditation (n=2)",
+      "from": "grace@growthstation.pro",
+      "date": "2026-09-30",
+      "thread": "",
+      "note": "Akreditasyon teklifi, yanıt durumu belli değil"
+    }
+  ]
 }
