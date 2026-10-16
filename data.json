@@ -50,11 +50,11 @@
     {
       "level": "red",
       "title": "4. HİB yıllık aidat",
-      "amount": "Tutar belli değil",
-      "due": "Gecikmede",
-      "note": "Para girince ilk ödenecek. CPA Türk'ün hazırladığı 2025 KV beyannamesini HİB'e ilet, tutarı öğren.",
+      "amount": "₺74.912,04",
+      "due": "Ekim sonu",
+      "note": "Para girince ilk ödenecek. Ödenmezse teşvik ödemeleri durdurulmuş durumda. Kasım'da gecikme zammı eklenecek. Ödeme sonrası dekont HİB'e mail ile iletilecek.",
       "action_type": "Ödeme",
-      "category": "Üyelik / Aidat",
+      "category": "Aidat",
       "party": "HİB",
       "status": "red"
     },
@@ -304,33 +304,44 @@
       "key": "damla",
       "name": "DAMLA",
       "area": "Teşvik",
-      "status": "yellow",
-      "updated": "2026-10-16 15:30",
+      "status": "red",
+      "updated": "2026-10-16 16:45",
       "items": [
         {
-          "text": "EK-21A ve IC Hospital dosya durumunu teyit et (yeni hareket görülmedi)",
+          "text": "EK-21A dosya durumunu teyit et (yeni hareket görülmedi)",
           "due": "",
           "owner": "",
           "action_type": "Başvuru",
           "category": "Teşvik",
-          "party": "EK-21A / IC Hospital",
+          "party": "EK-21A",
           "amount": "",
           "status": "yellow"
         },
         {
-          "text": "HİB 2026 aidatı: tutarı öğrenmek için 2025 kurumlar vergisi beyannamesini HİB'e (Salih Zileli, Üye İlişkileri) iletmek gerekiyor; Şubat sonrası gecikme zammı işler",
-          "due": "19 Eki",
-          "owner": "",
-          "source": "gecmis-tarama",
-          "action_type": "Belge",
-          "category": "Üyelik / Aidat",
-          "party": "HİB",
+          "text": "IC Hospital - Barış'tan revize sözleşme imzası bekleniyor",
+          "action_type": "Sözleşme",
+          "category": "Teşvik",
+          "party": "IC Hospital / Barış",
           "amount": "",
+          "due": "Hatırlatıldı 16 Eki",
+          "status": "yellow",
+          "owner": "",
+          "note": "Son hatırlatma 15 Eki, tekrar 16 Eki. Sonrasında Medcure anlaşması donuyor, teşvik işlerini kendimiz yapacağız."
+        },
+        {
+          "text": "HİB yıllık aidat ödemesi",
+          "action_type": "Ödeme",
+          "category": "Aidat",
+          "party": "HİB",
+          "amount": "₺74.912,04",
+          "due": "Ekim sonu",
           "status": "red",
-          "feed": false
+          "owner": "",
+          "feed": false,
+          "note": "Ödenmezse teşvik ödemeleri durdurulmuş durumda. Kasım'da gecikme zammı eklenecek. Ödeme sonrası dekont HİB'e mail ile iletilecek."
         }
       ],
-      "summary": "Dosya durumu teyit edilecek"
+      "summary": "HİB aidatı (₺74.912,04) ve IC Hospital imzası bekliyor"
     },
     {
       "key": "cankat",
@@ -659,7 +670,7 @@
       ]
     }
   ],
-  "updated": "2026-10-16 16:20",
+  "updated": "2026-10-16 16:45",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",

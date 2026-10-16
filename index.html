@@ -49,7 +49,8 @@
   .sub2{font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut);margin:12px 0 4px}
   .notes{margin:0;padding:0;list-style:none}.notes li{display:block;padding:5px 0;border-bottom:1px solid var(--line)}.notes small{color:var(--mut)}
   .nf{display:flex;gap:6px;margin-top:10px}.nf input{flex:1;font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:6px 8px;min-width:0}
-    .nd{float:right;border:0;background:none;color:var(--mut);cursor:pointer;padding:0 4px;font-size:15px;line-height:1}
+    .inote{display:block;color:var(--mut);font-size:12.5px;margin-top:2px}
+  .nd{float:right;border:0;background:none;color:var(--mut);cursor:pointer;padding:0 4px;font-size:15px;line-height:1}
   .feed .fr{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;padding:9px 0;border-bottom:1px solid var(--line)}
   .feed .fr:last-child{border:0}
   .feed .l1{font-size:14px;font-weight:600;line-height:1.35}.feed .l1 .sep{color:var(--mut);font-weight:400}
@@ -153,7 +154,7 @@ function render(){
   const openSet=new Set([...document.querySelectorAll("details.dept[open]")].map(e=>e.dataset.k));
   $("depts").innerHTML=d.departments.map(x=>{
     const items=x.items.map(norm), open=items.filter(i=>!i.done), done=items.filter(i=>i.done), notes=(x.notes||[]).slice(0,3);
-    const li=i=>`<li class="${i.done?"done":""}"><input type="checkbox" data-k="${esc(x.key)}" data-t="${esc(i.text)}" ${i.done?"checked":""} aria-label="Tamamlandı"><span class="tx">${i.due?`<span class="tag">${esc(i.due)}</span>`:""}${i.owner?`<span class="tag own">${esc(i.owner)}</span>`:""}${esc(i.text)}</span></li>`;
+    const li=i=>`<li class="${i.done?"done":""}"><input type="checkbox" data-k="${esc(x.key)}" data-t="${esc(i.text)}" ${i.done?"checked":""} aria-label="Tamamlandı"><span class="tx">${i.due?`<span class="tag">${esc(i.due)}</span>`:""}${i.owner?`<span class="tag own">${esc(i.owner)}</span>`:""}${esc(i.text)}${i.note?`<small class="inote">${esc(i.note)}</small>`:""}</span></li>`;
     return `<details class="card dept ${x.status}" data-k="${esc(x.key)}" ${openSet.has(x.key)?"open":""}>
       <summary><span class="dot">${ICON[x.status]}</span>
         <div style="flex:1;min-width:0"><span class="nm">${esc(x.area)}</span><span class="ar">${esc(x.name)}</span>
@@ -172,11 +173,11 @@ function render(){
   const rows=[];
   d.cash_alerts.forEach(a=>rows.push({st:a.status||a.level,a:a.action_type||"Ödeme",c:a.category,p:a.party||a.title,am:a.amount,du:a.due,tx:a.note,src:"Nakit"}));
   d.departments.forEach(x=>x.items.map(norm).forEach(i=>{ if(i.done||i.feed===false)return;
-    rows.push({st:i.status||"green",a:i.action_type||"Yanıt",c:i.category,p:i.party,am:i.amount,du:i.due,tx:i.text,src:x.area,k:x.key,t:i.text}); }));
+    rows.push({st:i.status||"green",a:i.action_type||"Yanıt",c:i.category,p:i.party,am:i.amount,du:i.due,tx:i.text,src:x.area,k:x.key,t:i.text,nt:i.note}); }));
   const urgent=rows.filter(r=>r.st==="red"||r.st==="yellow").sort((p,q)=>ORD[p.st]-ORD[q.st]);
   const lim=window.__all?urgent.length:12;
   const fr=r=>{const parts=[r.a,r.c,r.p,r.am,r.du].filter(Boolean).map(esc).join(' <span class="sep">·</span> ');
-    return `<div class="fr"><span class="st">${ICON[r.st]}</span><div class="l1">${r.k?`<input type="checkbox" data-k="${esc(r.k)}" data-t="${esc(r.t)}" aria-label="Tamamlandı">`:""}${parts}<span class="dp">${esc(r.src)}</span></div>${r.tx?`<div class="l2">${esc(r.tx)}</div>`:""}</div>`};
+    return `<div class="fr"><span class="st">${ICON[r.st]}</span><div class="l1">${r.k?`<input type="checkbox" data-k="${esc(r.k)}" data-t="${esc(r.t)}" aria-label="Tamamlandı">`:""}${parts}<span class="dp">${esc(r.src)}</span></div>${(r.tx||r.nt)?`<div class="l2">${esc(r.tx||"")}${r.tx&&r.nt?" · ":""}${esc(r.nt||"")}</div>`:""}</div>`};
   $("feed").innerHTML=urgent.slice(0,lim).map(fr).join("")||'<span class="date">Acil iş yok</span>';
   $("feedCount").textContent=`(${urgent.filter(r=>r.st==="red").length} acil, ${urgent.filter(r=>r.st==="yellow").length} yaklaşan)`;
   $("feedMore").hidden=urgent.length<=12; $("feedMore").textContent=window.__all?"Daha az göster":"Tümünü göster ("+urgent.length+")";
