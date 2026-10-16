@@ -16,10 +16,38 @@
   "cash_alerts": [
     {
       "level": "red",
+      "title": "1. GBC sanal ofis yenilemesi",
+      "amount": "₺41.828 (12 ay, KDV dahil)",
+      "due": "01.09.2026 vadesi geçti, 46 gün gecikme",
+      "note": "Para girince ilk ödenecek. Yeni dönem 31.08'de başladı, GBC 23 Tem, 13 Ağu, 1 Eyl ve 1 Eki'de hatırlattı. Gecikmede faiz işliyor."
+    },
+    {
+      "level": "red",
+      "title": "2. Garanti BBVA kredi kartı borcu",
+      "amount": "Tutar mailde yok, bankadan/uygulamadan bak",
+      "due": "Gecikme uyarıları 24 Eyl ve 30 Eyl",
+      "note": "Para girince ilk ödenecek. Banka 30 Eyl'de ödeme yapılmazsa 'yakın izleme' sürecini başlatacağını bildirdi."
+    },
+    {
+      "level": "red",
+      "title": "3. Google Workspace aboneliği",
+      "amount": "",
+      "due": "Ödeme 1 Eki'de reddedildi",
+      "note": "Para girince ilk ödenecek. Kartı güncelle, yoksa andnewme.com hesabı askıya alınabilir (mail, Drive, Admin)."
+    },
+    {
+      "level": "red",
+      "title": "4. HİB yıllık aidat",
+      "amount": "Tutar belli değil: önce 2025 kurumlar vergisi beyannamesini HİB'e göndermek gerekiyor",
+      "due": "8 Eyl bildirimi; aidat Şubat sonuna kadar ödenmeli, sonrası aylık gecikme zammı",
+      "note": "Para girince ilk ödenecek. CPA Türk'ün hazırladığı 2025 KV beyannamesini HİB'e ilet, tutarı öğren."
+    },
+    {
+      "level": "red",
       "title": "Ofis kirası (peşin)",
       "amount": "~40.000+ ₺",
       "due": "Bugün / en geç 19 Eki",
-      "note": "Son söz 14 Ekim'di, tutulamadı. Sheet'te ₺31.680 yazıyor, tutar farkı netleşmeli."
+      "note": "Son söz 14 Ekim'di, tutulamadı. Sheet'te ₺31.680 yazıyor, tutar farkı netleşmeli. Muhtemelen yukarıdaki GBC ₺41.828 ile aynı kalem, teyit et."
     },
     {
       "level": "red",
@@ -69,34 +97,6 @@
       "amount": "₺78.576 + maaş",
       "due": "31 Eki",
       "note": "Ahmet maaşı kararı bekliyor (₺320K vs ₺120K)."
-    },
-    {
-      "level": "red",
-      "title": "GBC sanal ofis yenilemesi",
-      "amount": "",
-      "due": "01.09.2026 vadesi geçti",
-      "note": "Faiz uygulanıyor, GBC yazısı 1 Eki'de geldi."
-    },
-    {
-      "level": "red",
-      "title": "Garanti BBVA kredi kartı borcu",
-      "amount": "",
-      "due": "Gecikme uyarıları 24 Eyl, 30 Eyl",
-      "note": ""
-    },
-    {
-      "level": "yellow",
-      "title": "Google Workspace aboneliği",
-      "amount": "",
-      "due": "Ödeme 1 Eki reddedildi",
-      "note": "Ödeme yöntemi güncellenmeli, hesap askıya alınabilir."
-    },
-    {
-      "level": "yellow",
-      "title": "HİB yıllık aidat",
-      "amount": "",
-      "due": "8 Eyl bildirimi",
-      "note": "Ödendi mi teyit edilecek."
     }
   ],
   "departments": [
@@ -144,7 +144,7 @@
           "source": "gecmis-tarama"
         },
         {
-          "text": "Garanti BBVA kredi kartı gecikme uyarıları (24 Eyl, 30 Eyl): borcu kontrol et, ödeme planına ekle",
+          "text": "Garanti BBVA kredi kartı gecikme uyarıları (24 Eyl, 30 Eyl): banka 30 Eyl'de 'yakın izleme' sürecini başlatacağını bildirdi, borcu kontrol et, para girince ilk öde",
           "due": "Acil",
           "owner": "",
           "source": "gecmis-tarama"
@@ -196,7 +196,7 @@
           "owner": ""
         },
         {
-          "text": "HİB (Hizmet İhracatçıları Birliği) 2026 yıllık aidat borcu bildirimi (8 Eyl): ödendi mi, teşvik uygunluğunu etkiliyor mu",
+          "text": "HİB 2026 aidatı: tutarı öğrenmek için 2025 kurumlar vergisi beyannamesini HİB'e (Salih Zileli, Üye İlişkileri) iletmek gerekiyor; Şubat sonrası gecikme zammı işler",
           "due": "19 Eki",
           "owner": "",
           "source": "gecmis-tarama"
@@ -361,7 +361,7 @@
       "updated": "2026-10-16 15:30",
       "items": [
         {
-          "text": "GBC (Galata Business Center) sanal ofis sözleşme yenilemesi: son ödeme 01.09.2026, ödeme gecikmede, faiz işliyor. Yenileme ve ücret yazısını kontrol et, öde",
+          "text": "GBC sanal ofis yenilemesi: ₺41.828 (12 ay, KDV dahil), yeni dönem 31.08'de başladı, ödeme 01.09'dan beri gecikmede, faiz işliyor. Para girince ilk öde, dekontu GBC'ye mail at",
           "due": "Acil",
           "owner": "",
           "source": "gecmis-tarama"
@@ -405,7 +405,7 @@
       ]
     }
   ],
-  "updated": "2026-10-16 15:30",
+  "updated": "2026-10-16 15:50",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
