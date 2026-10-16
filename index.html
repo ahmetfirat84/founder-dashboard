@@ -41,13 +41,23 @@
     .grid{grid-template-columns:1fr 1fr}
     aside{display:grid;gap:12px}
   }
+
+  .add{margin-left:6px;padding:0 9px;font-size:16px;line-height:24px;border-radius:12px}
+  .det li{display:flex;gap:8px;align-items:flex-start}
+  .det li input{margin-top:4px;flex:none}
+  .det li.done{opacity:.55}.det li.done .tx{text-decoration:line-through}
+  .sub2{font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut);margin:12px 0 4px}
+  .notes{margin:0;padding:0;list-style:none}.notes li{display:block;padding:5px 0;border-bottom:1px solid var(--line)}.notes small{color:var(--mut)}
+  .nf{display:flex;gap:6px;margin-top:10px}.nf input{flex:1;font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:6px 8px;min-width:0}
+  #toast{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:20px;font-size:13px;opacity:0;pointer-events:none;transition:opacity .2s;max-width:90vw}
+  #toast.on{opacity:.95}
 </style>
 </head>
 <body>
 <main>
   <header>
     <div><h1>&amp;NewMe · Founder</h1><div class="date" id="date"></div></div>
-    <button id="theme" aria-label="Tema">🌓</button>
+    <div><button id="gh" aria-label="GitHub token" title="Kayıt ayarı">⚙</button> <button id="theme" aria-label="Tema">🌓</button></div>
   </header>
 
   <section class="card prio"><h2>Bugünün Top 3 <button id="reset" hidden>sıfırla</button></h2><ol id="prio"></ol></section>
@@ -60,6 +70,7 @@
     <section class="card" id="reviewCard" hidden><h2>İnceleme bekleyenler</h2><div id="review"></div></section>
   </aside>
 </main>
+<div id="toast"></div>
 
 <script>
 const $=id=>document.getElementById(id);
@@ -73,28 +84,75 @@ const root=document.documentElement;
 root.dataset.theme=ls.get("theme")||(matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light");
 $("theme").onclick=()=>{root.dataset.theme=root.dataset.theme==="dark"?"light":"dark";ls.set("theme",root.dataset.theme)};
 
-fetch("data.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(d=>{
+const REPO="ahmetfirat84/founder-dashboard",API="https://api.github.com/repos/"+REPO+"/contents/data.json";
+const tok=()=>ls.get("gh_token")||"";
+const nowTR=()=>new Intl.DateTimeFormat("sv-SE",{timeZone:"Europe/Istanbul",dateStyle:"short",timeStyle:"short"}).format(new Date());
+const b64d=c=>decodeURIComponent(escape(atob(c.replace(/\n/g,""))));
+const b64e=t=>btoa(unescape(encodeURIComponent(t)));
+const toast=m=>{const t=$("toast");t.textContent=m;t.classList.add("on");clearTimeout(toast.h);toast.h=setTimeout(()=>t.classList.remove("on"),3500)};
+const ghHead=()=>({Authorization:"Bearer "+tok(),Accept:"application/vnd.github+json"});
+let D=null;
+
+// token ayarı
+$("gh").onclick=()=>{
+  const v=prompt("GitHub fine-grained token (yalnız founder-dashboard reposu, Contents: Read and write).\nBoş bırakıp Tamam = token'ı sil.",tok()?"(kayıtlı)":"");
+  if(v===null)return;
+  if(v.trim()===""||v==="(kayıtlı)"){ if(v.trim()==="")ls.del("gh_token"); }
+  else ls.set("gh_token",v.trim());
+  location.reload();
+};
+
+// veri işlemleri (hem bellekte hem GitHub'daki son sürümde uygulanır)
+function applyOp(d,op){
+  const dep=d.departments.find(x=>x.key===op.k); if(!dep)return;
+  if(op.t==="note"){ dep.notes=dep.notes||[]; dep.notes.unshift({text:op.text,at:op.at}); dep.notes=dep.notes.slice(0,30); }
+  if(op.t==="done"){
+    dep.items=dep.items.map(i=>typeof i==="string"?{text:i}:i);
+    const it=dep.items.find(i=>i.text===op.text); if(!it)return;
+    if(op.v){it.done=true;it.doneAt=op.at}else{delete it.done;delete it.doneAt}
+  }
+}
+async function commit(op){
+  op.at=nowTR(); applyOp(D,op); render();
+  if(!tok()){ const q=JSON.parse(ls.get("ops")||"[]"); q.push(op); ls.set("ops",JSON.stringify(q)); toast("Bu cihazda kaydedildi (⚙ ile token girersen data.json'a yazılır)"); return; }
+  try{
+    const r=await fetch(API+"?t="+Date.now(),{headers:ghHead()}); if(!r.ok)throw new Error("okuma "+r.status);
+    const f=await r.json(); const latest=JSON.parse(b64d(f.content)); applyOp(latest,op);
+    const p=await fetch(API,{method:"PUT",headers:{...ghHead(),"Content-Type":"application/json"},
+      body:JSON.stringify({message:"Dashboard: "+(op.t==="note"?"not":"aksiyon")+" "+op.at,content:b64e(JSON.stringify(latest,null,2)+"\n"),sha:f.sha})});
+    if(!p.ok)throw new Error("yazma "+p.status);
+    toast("data.json'a kaydedildi ✓");
+  }catch(e){ toast("Kaydedilemedi: "+e.message+" (token/izin?)"); }
+}
+
+async function load(){
+  if(tok()){
+    const r=await fetch(API+"?t="+Date.now(),{headers:ghHead()});
+    if(r.ok){const f=await r.json();return JSON.parse(b64d(f.content));}
+  }
+  const r=await fetch("data.json?"+Date.now()); if(!r.ok)throw new Error(r.status); return r.json();
+}
+
+const ts=t=>{if(!t)return"";const [dt,tm]=t.split(" ");return fmt(dt)+(tm?" "+tm:"")};
+const norm=i=>typeof i==="string"?{text:i}:i;
+
+function render(){
+  const d=D;
   $("date").textContent=new Date(d.date+"T12:00").toLocaleDateString("tr-TR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
-
-  // editable priorities: tarayıcıda saklanır, data.json'a dokunmaz
-  const key="prio-"+d.date;
-  let saved=null;try{saved=JSON.parse(ls.get(key))}catch(e){}
-  const prios=Array.isArray(saved)&&saved.length===3?saved:d.priorities;
-  $("prio").innerHTML=prios.map(p=>`<li contenteditable="true" spellcheck="false">${esc(p)}</li>`).join("");
-  $("reset").hidden=prios===d.priorities;
-  $("prio").addEventListener("input",()=>{
-    ls.set(key,JSON.stringify([...document.querySelectorAll("#prio li")].map(li=>li.textContent)));$("reset").hidden=false});
-  $("reset").onclick=()=>{ls.del(key);location.reload()};
-
-  const ts=t=>{if(!t)return"";const [dt,tm]=t.split(" ");return fmt(dt)+(tm?" "+tm:"")};
-  $("depts").innerHTML=d.departments.map(x=>`
-    <details class="card dept ${x.status}">
+  const openSet=new Set([...document.querySelectorAll("details.dept[open]")].map(e=>e.dataset.k));
+  $("depts").innerHTML=d.departments.map(x=>{
+    const items=x.items.map(norm), open=items.filter(i=>!i.done), done=items.filter(i=>i.done), notes=(x.notes||[]).slice(0,3);
+    const li=i=>`<li class="${i.done?"done":""}"><input type="checkbox" data-k="${esc(x.key)}" data-t="${esc(i.text)}" ${i.done?"checked":""} aria-label="Tamamlandı"><span class="tx">${i.due?`<span class="tag">${esc(i.due)}</span>`:""}${i.owner?`<span class="tag own">${esc(i.owner)}</span>`:""}${esc(i.text)}</span></li>`;
+    return `<details class="card dept ${x.status}" data-k="${esc(x.key)}" ${openSet.has(x.key)?"open":""}>
       <summary><span class="dot">${ICON[x.status]}</span>
         <div style="flex:1;min-width:0"><span class="nm">${esc(x.area)}</span><span class="ar">${esc(x.name)}</span>
           <div class="sm">${esc(x.summary)}</div><div class="ts">Son güncelleme: ${esc(ts(x.updated))}</div></div>
-        <span class="cnt">${x.items.length}</span><span class="chev">›</span></summary>
-      <div class="det"><ul>${x.items.map(i=>{i=typeof i==="string"?{text:i}:i;return `<li>${i.due?`<span class="tag">${esc(i.due)}</span>`:""}${i.owner?`<span class="tag own">${esc(i.owner)}</span>`:""}${esc(i.text)}</li>`}).join("")}</ul></div>
-    </details>`).join("");
+        <span class="cnt">${open.length}</span><button class="add" data-add="${esc(x.key)}" aria-label="Not ekle" title="Not ekle">+</button><span class="chev">›</span></summary>
+      <div class="det"><ul>${open.map(li).join("")||'<li><span class="tx">Açık aksiyon yok</span></li>'}</ul>
+        ${notes.length?`<div class="sub2">Son notlar</div><ul class="notes">${notes.map(n=>`<li>${esc(n.text)} <small>· ${esc(ts(n.at))}</small></li>`).join("")}</ul>`:""}
+        <form class="nf" data-k="${esc(x.key)}"><input placeholder="Not ekle…" maxlength="300" aria-label="Not"><button>Kaydet</button></form>
+        ${done.length?`<div class="sub2">Tamamlananlar (${done.length})</div><ul>${done.map(li).join("")}</ul>`:""}
+      </div></details>`;}).join("");
 
   const rv=d.review||[];$("reviewCard").hidden=!rv.length;
   $("review").innerHTML=rv.map(r=>`<div class="alert"><span>❔</span><div><strong>${esc(r.subject)}</strong><small>${esc(r.from)}${r.note?" · "+esc(r.note):""}</small></div><div></div></div>`).join("");
@@ -103,6 +161,37 @@ fetch("data.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error(r.status);retur
     <div class="alert ${a.level}"><span>${ICON[a.level]}</span>
       <div><strong>${esc(a.title)}</strong><small>${esc(a.due)}${a.note?" · "+esc(a.note):""}</small></div>
       <div class="amt">${esc(a.amount)}</div></div>`).join("");
+}
+
+// olaylar (delegation)
+$("depts").addEventListener("click",e=>{
+  const b=e.target.closest("[data-add]"); if(!b)return;
+  e.preventDefault(); e.stopPropagation();
+  const det=b.closest("details"); det.open=true; det.querySelector(".nf input").focus();
+});
+$("depts").addEventListener("change",e=>{
+  const c=e.target.closest('input[type=checkbox][data-k]'); if(!c)return;
+  commit({t:"done",k:c.dataset.k,text:c.dataset.t,v:c.checked});
+});
+$("depts").addEventListener("submit",e=>{
+  const f=e.target.closest("form.nf"); if(!f)return; e.preventDefault();
+  const v=f.querySelector("input").value.trim(); if(!v)return;
+  commit({t:"note",k:f.dataset.k,text:v});
+});
+
+load().then(d=>{
+  D=d;
+  if(!tok()){ try{JSON.parse(ls.get("ops")||"[]").forEach(op=>applyOp(D,op))}catch(e){} }
+  // editable priorities: tarayıcıda saklanır
+  const key="prio-"+d.date;
+  let saved=null;try{saved=JSON.parse(ls.get(key))}catch(e){}
+  const prios=Array.isArray(saved)&&saved.length===3?saved:d.priorities;
+  $("prio").innerHTML=prios.map(p=>`<li contenteditable="true" spellcheck="false">${esc(p)}</li>`).join("");
+  $("reset").hidden=prios===d.priorities;
+  $("prio").addEventListener("input",()=>{
+    ls.set(key,JSON.stringify([...document.querySelectorAll("#prio li")].map(li=>li.textContent)));$("reset").hidden=false});
+  $("reset").onclick=()=>{ls.del(key);location.reload()};
+  render();
 }).catch(e=>{$("date").innerHTML=`<span class="err">data.json okunamadı (${esc(e.message)}). Bir sunucudan aç: python3 -m http.server</span>`});
 </script>
 </body>
