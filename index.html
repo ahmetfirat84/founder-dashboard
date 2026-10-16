@@ -50,6 +50,14 @@
   .notes{margin:0;padding:0;list-style:none}.notes li{display:block;padding:5px 0;border-bottom:1px solid var(--line)}.notes small{color:var(--mut)}
   .nf{display:flex;gap:6px;margin-top:10px}.nf input{flex:1;font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:6px 8px;min-width:0}
     .nd{float:right;border:0;background:none;color:var(--mut);cursor:pointer;padding:0 4px;font-size:15px;line-height:1}
+  .feed .fr{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;padding:9px 0;border-bottom:1px solid var(--line)}
+  .feed .fr:last-child{border:0}
+  .feed .l1{font-size:14px;font-weight:600;line-height:1.35}.feed .l1 .sep{color:var(--mut);font-weight:400}
+  .feed .l2{grid-column:2;font-size:12.5px;color:var(--mut)}
+  .feed .dp{font-size:11px;border:1px solid var(--line);border-radius:6px;padding:0 5px;margin-left:6px;font-weight:400}
+  .feed .st{font-size:15px;line-height:1.35}
+  .feed input[type=checkbox]{margin-right:6px;vertical-align:-1px}
+  #feedMore{margin-top:8px;font-size:13px}
   #toast{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:20px;font-size:13px;opacity:0;pointer-events:none;transition:opacity .2s;max-width:90vw}
   #toast.on{opacity:.95}
 </style>
@@ -63,11 +71,12 @@
 
   <section class="card prio"><h2>Bugünün Top 3 <button id="reset" hidden>sıfırla</button></h2><ol id="prio"></ol></section>
 
+  <section class="card feed" id="feedCard"><h2>Acil Feed <span id="feedCount"></span></h2><div id="feed"></div><button id="feedMore" hidden>Tümünü göster</button></section>
+
   <section class="grid" id="depts"></section>
 
   <aside>
     <section class="card"><h2>Bugünkü toplantılar</h2><div id="meet"></div></section>
-    <section class="card"><h2>Ödeme uyarıları</h2><div id="cash"></div></section>
     <section class="card" id="reviewCard" hidden><h2>İnceleme bekleyenler</h2><div id="review"></div></section>
   </aside>
 </main>
@@ -159,12 +168,22 @@ function render(){
   const rv=d.review||[];$("reviewCard").hidden=!rv.length;
   $("review").innerHTML=rv.map(r=>`<div class="alert"><span>❔</span><div><strong>${esc(r.subject)}</strong><small>${esc(r.from)}${r.note?" · "+esc(r.note):""}</small></div><div></div></div>`).join("");
   $("meet").innerHTML=d.meetings.length?d.meetings.map(m=>`<div class="meet"><b>${esc(m.time)}</b><div>${esc(m.title)}${m.note?`<small>${esc(m.note)}</small>`:""}</div></div>`).join(""):'<span class="date">Bugün toplantı yok</span>';
-  $("cash").innerHTML=d.cash_alerts.slice().sort((a,b)=>ORD[a.level]-ORD[b.level]).map(a=>`
-    <div class="alert ${a.level}"><span>${ICON[a.level]}</span>
-      <div><strong>${esc(a.title)}</strong><small>${esc(a.due)}${a.note?" · "+esc(a.note):""}</small></div>
-      <div class="amt">${esc(a.amount)}</div></div>`).join("");
+  // ACİL FEED: [durum] ActionType · Category · Party · Amount · Deadline
+  const rows=[];
+  d.cash_alerts.forEach(a=>rows.push({st:a.status||a.level,a:a.action_type||"Ödeme",c:a.category,p:a.party||a.title,am:a.amount,du:a.due,tx:a.note,src:"Nakit"}));
+  d.departments.forEach(x=>x.items.map(norm).forEach(i=>{ if(i.done||i.feed===false)return;
+    rows.push({st:i.status||"green",a:i.action_type||"Yanıt",c:i.category,p:i.party,am:i.amount,du:i.due,tx:i.text,src:x.area,k:x.key,t:i.text}); }));
+  const urgent=rows.filter(r=>r.st==="red"||r.st==="yellow").sort((p,q)=>ORD[p.st]-ORD[q.st]);
+  const lim=window.__all?urgent.length:12;
+  const fr=r=>{const parts=[r.a,r.c,r.p,r.am,r.du].filter(Boolean).map(esc).join(' <span class="sep">·</span> ');
+    return `<div class="fr"><span class="st">${ICON[r.st]}</span><div class="l1">${r.k?`<input type="checkbox" data-k="${esc(r.k)}" data-t="${esc(r.t)}" aria-label="Tamamlandı">`:""}${parts}<span class="dp">${esc(r.src)}</span></div>${r.tx?`<div class="l2">${esc(r.tx)}</div>`:""}</div>`};
+  $("feed").innerHTML=urgent.slice(0,lim).map(fr).join("")||'<span class="date">Acil iş yok</span>';
+  $("feedCount").textContent=`(${urgent.filter(r=>r.st==="red").length} acil, ${urgent.filter(r=>r.st==="yellow").length} yaklaşan)`;
+  $("feedMore").hidden=urgent.length<=12; $("feedMore").textContent=window.__all?"Daha az göster":"Tümünü göster ("+urgent.length+")";
 }
 
+$("feedMore").onclick=()=>{window.__all=!window.__all;render()};
+$("feed").addEventListener("change",e=>{const c=e.target.closest("input[type=checkbox][data-k]");if(c)commit({t:"done",k:c.dataset.k,text:c.dataset.t,v:c.checked})});
 // olaylar (delegation)
 $("depts").addEventListener("click",e=>{
   const dl=e.target.closest("[data-del]");
