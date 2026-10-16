@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>&NewMe Founder Dashboard</title>
+<style>
+  :root{--bg:#f6f5f2;--card:#fff;--ink:#1d1d1f;--mut:#6b6b70;--line:#e4e2dc;
+    --red:#d93025;--yellow:#e8a100;--green:#1e8e3e;--redbg:#fdecea;--yellowbg:#fff6df;--greenbg:#e8f5ec}
+  @media (prefers-color-scheme:dark){:root{--bg:#161618;--card:#222226;--ink:#f1f1f3;--mut:#9a9aa2;--line:#34343a;
+    --redbg:#3a1f1c;--yellowbg:#3a2f14;--greenbg:#18301f}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+  main{max-width:1100px;margin:0 auto;padding:20px 16px 48px}
+  header{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+  h1{font-size:20px;margin:0}
+  .sub{color:var(--mut);font-size:13px}
+  h2{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--mut);margin:0 0 10px}
+  .top{display:grid;grid-template-columns:1fr;gap:12px;margin-bottom:12px}
+  @media(min-width:800px){.top{grid-template-columns:1.4fr 1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  ol,ul{margin:0;padding-left:20px} li{margin:5px 0}
+  .meet{display:flex;gap:10px;margin:6px 0}.meet b{min-width:46px}
+  .meet small{display:block;color:var(--mut)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin:12px 0}
+  .dept{border-left:5px solid var(--line)}
+  .dept.red{border-left-color:var(--red)}.dept.yellow{border-left-color:var(--yellow)}.dept.green{border-left-color:var(--green)}
+  .dh{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+  .dh strong{font-size:16px}.dh span.area{color:var(--mut);font-size:12px;margin-left:6px}
+  .upd{color:var(--mut);font-size:12px;margin-bottom:6px}
+  .dept ul{padding-left:18px;font-size:14px}
+  .alerts{margin-top:12px}
+  .alert{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:start;padding:9px 10px;border-radius:8px;margin:6px 0}
+  .alert.red{background:var(--redbg)}.alert.yellow{background:var(--yellowbg)}.alert.green{background:var(--greenbg)}
+  .alert .amt{font-weight:600;white-space:nowrap;text-align:right}
+  .alert .due{color:var(--mut);font-size:12.5px}
+  .alert .note{font-size:12.5px;color:var(--mut)}
+  .err{color:var(--red)}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>&amp;NewMe · Founder Dashboard</h1>
+    <div class="sub" id="meta">yükleniyor…</div>
+  </header>
+
+  <div class="top">
+    <section class="card"><h2>Bugünün Top 3 önceliği</h2><ol id="prio"></ol></section>
+    <section class="card"><h2>Bugünkü toplantılar</h2><div id="meet"></div></section>
+  </div>
+
+  <section class="grid" id="depts"></section>
+
+  <section class="card alerts"><h2>Nakit / ödeme uyarıları</h2><div id="cash"></div></section>
+</main>
+
+<script>
+const ICON={red:"🔴",yellow:"🟡",green:"🟢"};
+const LABEL={red:"acil",yellow:"yaklaşan",green:"normal"};
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt=d=>{const [y,m,day]=d.split("-");return `${day}.${m}.${y}`};
+
+fetch("data.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(d=>{
+  document.getElementById("meta").textContent=`Veri tarihi: ${fmt(d.date)} · Kaynak: ${d.source}`;
+  document.getElementById("prio").innerHTML=d.priorities.map(p=>`<li>${esc(p)}</li>`).join("");
+  document.getElementById("meet").innerHTML=d.meetings.length
+    ? d.meetings.map(m=>`<div class="meet"><b>${esc(m.time)}</b><div>${esc(m.title)}<small>${esc(m.note)}</small></div></div>`).join("")
+    : '<span class="sub">Bugün toplantı yok</span>';
+  const order={red:0,yellow:1,green:2};
+  document.getElementById("depts").innerHTML=d.departments.map(x=>`
+    <article class="card dept ${x.status}">
+      <div class="dh"><div><strong>${esc(x.name)}</strong><span class="area">${esc(x.area)}</span></div>
+        <span title="${LABEL[x.status]}">${ICON[x.status]} <small>${LABEL[x.status]}</small></span></div>
+      <div class="upd">Son güncelleme: ${fmt(x.updated)}</div>
+      <ul>${x.items.slice(0,2).map(i=>`<li>${esc(i)}</li>`).join("")}</ul>
+    </article>`).join("");
+  document.getElementById("cash").innerHTML=d.cash_alerts.slice().sort((a,b)=>order[a.level]-order[b.level]).map(a=>`
+    <div class="alert ${a.level}"><span>${ICON[a.level]}</span>
+      <div><strong>${esc(a.title)}</strong><div class="due">${esc(a.due)}</div>${a.note?`<div class="note">${esc(a.note)}</div>`:""}</div>
+      <div class="amt">${esc(a.amount)}</div></div>`).join("");
+}).catch(e=>{document.getElementById("meta").innerHTML=`<span class="err">data.json okunamadı (${esc(e.message)}). Sayfayı bir sunucudan aç: python3 -m http.server</span>`});
+</script>
+</body>
+</html>
