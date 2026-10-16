@@ -57,6 +57,7 @@
   <aside>
     <section class="card"><h2>Bugünkü toplantılar</h2><div id="meet"></div></section>
     <section class="card"><h2>Ödeme uyarıları</h2><div id="cash"></div></section>
+    <section class="card" id="reviewCard" hidden><h2>İnceleme bekleyenler</h2><div id="review"></div></section>
   </aside>
 </main>
 
@@ -95,6 +96,8 @@ fetch("data.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error(r.status);retur
       <div class="det"><ul>${x.items.map(i=>{i=typeof i==="string"?{text:i}:i;return `<li>${i.due?`<span class="tag">${esc(i.due)}</span>`:""}${i.owner?`<span class="tag own">${esc(i.owner)}</span>`:""}${esc(i.text)}</li>`}).join("")}</ul></div>
     </details>`).join("");
 
+  const rv=d.review||[];$("reviewCard").hidden=!rv.length;
+  $("review").innerHTML=rv.map(r=>`<div class="alert"><span>❔</span><div><strong>${esc(r.subject)}</strong><small>${esc(r.from)}${r.note?" · "+esc(r.note):""}</small></div><div></div></div>`).join("");
   $("meet").innerHTML=d.meetings.length?d.meetings.map(m=>`<div class="meet"><b>${esc(m.time)}</b><div>${esc(m.title)}${m.note?`<small>${esc(m.note)}</small>`:""}</div></div>`).join(""):'<span class="date">Bugün toplantı yok</span>';
   $("cash").innerHTML=d.cash_alerts.slice().sort((a,b)=>ORD[a.level]-ORD[b.level]).map(a=>`
     <div class="alert ${a.level}"><span>${ICON[a.level]}</span>
