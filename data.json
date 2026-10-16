@@ -115,17 +115,6 @@
     },
     {
       "level": "yellow",
-      "title": "KDV (Eylül) + Paraşüt yıllık",
-      "amount": "₺791 + ₺9.773",
-      "due": "28 Eki",
-      "note": "",
-      "action_type": "Ödeme",
-      "category": "Vergi / Abonelik",
-      "party": "KDV (Eylül) + Paraşüt yıllık",
-      "status": "yellow"
-    },
-    {
-      "level": "yellow",
       "title": "SGK cari ay primi + maaşlar",
       "amount": "₺78.576 + maaş",
       "due": "31 Eki",
@@ -706,7 +695,6 @@
     "c|Orya Hotel",
     "i|ilksen|Meta Ads (act_537657538463949) son 7 günde 0 harcama / 0 lead / 0 aktif reklam: bilinçli mi, ödeme/kampanya sorunu mu? Daily'de rapor ver",
     "c|Muhtasar (Eylül)",
-    "c|KDV (Eylül) + Paraşüt yıllık",
     "c|SGK cari ay primi + maaşlar",
     "i|batu|SGK ödeme planı dökümünü çıkar: taksit sayısı, ödenen/aksayan, ilk taksit (31.08) ödendi mi, bozulma tarihi; CPA Türk'ten (Yasemin Hanım) teyit al",
     "i|batu|Ofis tutarı farkını netleştir: sheet'te Galata ₺31.680, Ahmet 40 küsür bin diyor; sheet'i düzelt",
