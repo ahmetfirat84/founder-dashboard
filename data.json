@@ -1,67 +1,74 @@
 {
   "date": "2026-10-16",
-  "source": "Sabah brifingi (manuel)",
+  "source": "2026-10-16_sabah-brifing (Drive: 09_Management/briefing-system/handoffs)",
   "priorities": [
-    "HubSpot aylık kredi limitini sabitle (yenileme 17 Ekim)",
-    "Bugün kapanış tarihli deal'leri ve ulaşılamayan lead'leri netleştir",
-    "HealthTürkiye yenilemesi ve kurumlar vergisi beyannamesini kontrol et"
+    "HubSpot Maximum monthly credits = 3.000 gir (yenileme 17 Ekim, en geç 10:00)",
+    "Bugün kapanış tarihli dealleri (Hamza B. €4.980, Briahn T. €2.646) ve \"ulaşılmaya çalışıldı\" leadlerini netleştir",
+    "HealthTürkiye yenileme ücretini ve CPA Türk 2025 kurumlar vergisi beyannamesini kontrol et"
   ],
   "meetings": [
     {
       "time": "12:30",
       "title": "New Me_Daily",
-      "note": ""
+      "note": "Meta Ads durumu (İlksen), kapanış tarihli deal'ler (Hülya/Selin)"
     }
   ],
   "cash_alerts": [
     {
       "level": "red",
-      "title": "Ofis kirası",
-      "amount": "",
+      "title": "Ofis kirası (peşin)",
+      "amount": "~40.000+ ₺",
       "due": "Bugün / en geç 19 Eki",
-      "note": ""
+      "note": "Son söz 14 Ekim'di, tutulamadı. Sheet'te ₺31.680 yazıyor, tutar farkı netleşmeli."
     },
     {
       "level": "red",
-      "title": "Vergi/SGK taksit ödemesi",
-      "amount": "",
-      "due": "Bu hafta",
-      "note": ""
+      "title": "SGK yapılandırma taksiti",
+      "amount": "₺65.000/ay",
+      "due": "Eylül ödenmedi, Ekim 16 Eki",
+      "note": "Sayaç ilerliyor. İlk taksit (31.08) ödendi mi? Batu dökümü 19 Eki."
     },
     {
       "level": "red",
-      "title": "Muhasebe ofisi ödemesi",
-      "amount": "",
-      "due": "Vadesi geçti, teyit bekliyor",
-      "note": ""
+      "title": "CPA Türk",
+      "amount": "₺46.450",
+      "due": "Vade 15 Eki",
+      "note": "Ödeme durumu teyit bekliyor."
     },
     {
       "level": "yellow",
-      "title": "Provider (konaklama) ödemesi",
-      "amount": "",
+      "title": "Orya Hotel",
+      "amount": "~100.000+ ₺",
       "due": "19-23 Eki kısmi, 31 Eki kapanış",
-      "note": ""
+      "note": "Söz verildi. Provider borçları gider sheet'inde yok."
     },
     {
       "level": "yellow",
-      "title": "SaaS aboneliği yenilemesi",
-      "amount": "",
+      "title": "HubSpot",
+      "amount": "₺76.245",
       "due": "17 Eki",
+      "note": "Büyük ihtimalle kapanmış, Batu teyit edecek."
+    },
+    {
+      "level": "yellow",
+      "title": "Muhtasar (Eylül)",
+      "amount": "₺23.507",
+      "due": "26 Eki",
       "note": ""
     },
     {
       "level": "yellow",
-      "title": "Aylık vergi beyan/ödemeleri",
-      "amount": "",
-      "due": "26-28 Eki",
+      "title": "KDV (Eylül) + Paraşüt yıllık",
+      "amount": "₺791 + ₺9.773",
+      "due": "28 Eki",
       "note": ""
     },
     {
       "level": "yellow",
-      "title": "SGK cari prim + maaşlar",
-      "amount": "",
+      "title": "SGK cari ay primi + maaşlar",
+      "amount": "₺78.576 + maaş",
       "due": "31 Eki",
-      "note": ""
+      "note": "Ahmet maaşı kararı bekliyor (₺320K vs ₺120K)."
     }
   ],
   "departments": [
@@ -72,8 +79,8 @@
       "status": "red",
       "updated": "2026-10-16",
       "items": [
-        "Ödeme planı dökümü ve ödeme teyitleri (19 Eki)",
-        "Abonelik ödeme yöntemi sorunu (21 Eki)"
+        "SGK ödeme planı dökümü + CPA Türk teyidi (19 Eki)",
+        "Apple Billing Problem: HiNoter ödeme yöntemi (21 Eki)"
       ],
       "summary": "SGK/CPA ödeme teyitleri bekliyor"
     },
@@ -84,7 +91,7 @@
       "status": "yellow",
       "updated": "2026-10-16",
       "items": [
-        "Açık teşvik dosyalarının durumunu teyit et"
+        "EK-21A ve IC Hospital dosya durumunu teyit et (yeni hareket görülmedi)"
       ],
       "summary": "Dosya durumu teyit edilecek"
     },
@@ -95,7 +102,7 @@
       "status": "yellow",
       "updated": "2026-10-16",
       "items": [
-        "Üyelik yenileme: son tarih ve yetkilendirme etkisi (19 Eki)"
+        "HealthTürkiye 2026 yenileme ücreti: son ödeme tarihi + USHAŞ/TÜRSAB etkisi (19 Eki)"
       ],
       "summary": "HealthTürkiye yenilemesi açık"
     },
@@ -106,8 +113,8 @@
       "status": "yellow",
       "updated": "2026-10-16",
       "items": [
-        "Bugün kapanış tarihli 2 deal",
-        "Ulaşılmaya çalışılan lead'lerde ilk temas hızı"
+        "Bugün kapanış: Hamza B. €4.980, Briahn T. €2.646",
+        "Gassa F. €8.000 (kapanış 21 Eki), ulaşılamayan 3 lead"
       ],
       "summary": "2 deal bugün kapanıyor"
     },
@@ -118,7 +125,7 @@
       "status": "red",
       "updated": "2026-10-16",
       "items": [
-        "Meta Ads son 7 günde aktif değil: bilinçli mi? Daily'de rapor"
+        "Meta Ads son 7 günde 0 harcama / 0 aktif reklam: bilinçli mi? Daily'de rapor"
       ],
       "summary": "Meta Ads 7 gündür kapalı"
     },
@@ -129,7 +136,7 @@
       "status": "green",
       "updated": "2026-10-16",
       "items": [
-        "Bekleyen İK onayı"
+        "Selin'in 15 Eki izin talebi Kolay İK'te onay bekliyor (Ahmet)"
       ],
       "summary": "1 onay bekliyor"
     },
@@ -140,7 +147,7 @@
       "status": "green",
       "updated": "2026-10-16",
       "items": [
-        "Slush Helsinki katılım kararı bekliyor"
+        "Slush Helsinki (18-19 Kas) katılım kararı bekliyor"
       ],
       "summary": "Slush kararı bekliyor"
     }
