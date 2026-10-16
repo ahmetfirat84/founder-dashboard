@@ -60,14 +60,14 @@
     },
     {
       "level": "red",
-      "title": "Ofis kirası (peşin)",
-      "amount": "~₺40.000",
-      "due": "19 Eki",
-      "note": "Son söz 14 Ekim'di, tutulamadı. Sheet'te ₺31.680 yazıyor, tutar farkı netleşmeli. Muhtemelen yukarıdaki GBC ₺41.828 ile aynı kalem, teyit et.",
+      "status": "red",
+      "title": "5. VakıfBank kredi kartı asgari ödeme",
       "action_type": "Ödeme",
-      "category": "Ofis",
-      "party": "Ofis (GBC ile aynı olabilir)",
-      "status": "red"
+      "category": "Banka / Kart",
+      "party": "VakıfBank",
+      "amount": "₺154.544,00 (asgari)",
+      "due": "Vadesi geçti (15 Eki)",
+      "note": "Para girince ilk ödenecek. Bilgi: toplam ekstre borcu ₺377.293,60, asgari ödenmemiş (VakıfBank bildirimi 16 Eki)."
     },
     {
       "level": "red",
@@ -153,7 +153,7 @@
       "name": "BATU",
       "area": "Muhasebe",
       "status": "red",
-      "updated": "2026-10-16 15:30",
+      "updated": "2026-10-16 16:00",
       "items": [
         {
           "text": "SGK ödeme planı dökümünü çıkar: taksit sayısı, ödenen/aksayan, ilk taksit (31.08) ödendi mi, bozulma tarihi; CPA Türk'ten (Yasemin Hanım) teyit al",
@@ -295,6 +295,19 @@
           "party": "CPA Türk",
           "amount": "",
           "status": "green"
+        },
+        {
+          "text": "VakıfBank kart asgarisi ödenmedi: asgari ₺154.544,00 acil, toplam ekstre ₺377.293,60 (bilgi). Para girince ilk öde",
+          "due": "Vadesi geçti (15 Eki)",
+          "owner": "",
+          "action_type": "Ödeme",
+          "category": "Banka / Kart",
+          "party": "VakıfBank",
+          "amount": "₺154.544,00 (asgari)",
+          "status": "red",
+          "source": "asistan",
+          "id": "1a144b11f137335a",
+          "feed": false
         }
       ],
       "summary": "SGK/CPA ödeme teyitleri bekliyor",
@@ -670,7 +683,7 @@
       ]
     }
   ],
-  "updated": "2026-10-16 16:45",
+  "updated": "2026-10-16 16:00",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -686,5 +699,10 @@
       "thread": "",
       "note": "Akreditasyon teklifi, yanıt durumu belli değil"
     }
+  ],
+  "asistan_seen": [
+    "1a144b11f137335a",
+    "1a1447dfdea52540",
+    "1a14468679f061b9"
   ]
 }
