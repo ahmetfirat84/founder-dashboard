@@ -152,7 +152,7 @@ function deptHealth(x){ let h="green";
   return h; }
 function buildFeed(d){
   const rows=[];
-  d.cash_alerts.forEach(a=>rows.push({kind:"cash",k:fkey(a,"cash"),st:urgencyOf(a),a:a.action_type||"Ödeme",c:a.category,p:a.party||a.title,am:a.amount,du:a.due||fmtDate(a.due_date),dd:a.due_date,tx:a.note,src:"Nakit"}));
+  d.cash_alerts.filter(a=>!a.done).forEach(a=>rows.push({kind:"cash",k:fkey(a,"cash"),st:urgencyOf(a),a:a.action_type||"Ödeme",c:a.category,p:a.party||a.title,am:a.amount,du:a.due||fmtDate(a.due_date),dd:a.due_date,tx:a.note,src:"Nakit"}));
   d.departments.forEach(x=>x.items.forEach(i0=>{const i=norm(i0); if(i.done||i.feed===false)return;
     rows.push({kind:"item",dk:x.key,k:fkey(i,"item",x.key),st:urgencyOf(i),a:i.action_type||"Yanıt",c:i.category,p:i.party,am:i.amount,du:i.due||fmtDate(i.due_date),dd:i.due_date,tx:i.text,nt:i.note,src:x.area,t:i.text})}));
   const urgent=rows.sort((p,q)=>ORD[p.st]-ORD[q.st]);
