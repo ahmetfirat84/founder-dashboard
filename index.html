@@ -59,6 +59,14 @@
   .feed .st{font-size:15px;line-height:1.35}
   .feed input[type=checkbox]{margin-right:6px;vertical-align:-1px}
   #feedMore{margin-top:8px;font-size:13px}
+  .fa{grid-column:2;display:flex;gap:6px;margin-top:2px}
+  .fa button{font-size:12px;padding:0 9px;line-height:24px}
+  .fa button:disabled{opacity:.3;cursor:default}
+  .fe{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:8px 0 4px;padding:10px;border:1px solid var(--line);border-radius:10px;background:var(--bg)}
+  .fe textarea{font:inherit;font-size:14px;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:7px;min-width:0;width:100%;resize:vertical}
+  .fe input,.fe select{font:inherit;font-size:14px;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:7px;min-width:0;width:100%}
+  .fe .wide{grid-column:1/-1}.fbtn{grid-column:1/-1;display:flex;gap:6px}
+  #feedNew{font-size:12px;padding:2px 10px;text-transform:none;letter-spacing:0}
   #toast{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:20px;font-size:13px;opacity:0;pointer-events:none;transition:opacity .2s;max-width:90vw}
   #toast.on{opacity:.95}
 </style>
@@ -72,7 +80,7 @@
 
   <section class="card prio"><h2>Bugünün Top 3 <button id="reset" hidden>sıfırla</button></h2><ol id="prio"></ol></section>
 
-  <section class="card feed" id="feedCard"><h2>Acil Feed <span id="feedCount"></span></h2><div id="feed"></div><button id="feedMore" hidden>Tümünü göster</button></section>
+  <section class="card feed" id="feedCard"><h2><span>Acil Feed <span id="feedCount"></span></span> <button id="feedNew">+ Yeni</button></h2><div id="feed"></div><button id="feedMore" hidden>Tümünü göster</button></section>
 
   <section class="grid" id="depts"></section>
 
@@ -114,7 +122,42 @@ $("gh").onclick=()=>{
 };
 
 // veri işlemleri (hem bellekte hem GitHub'daki son sürümde uygulanır)
+const newUid=()=>Math.random().toString(36).slice(2,8);
+const norm=i=>typeof i==="string"?{text:i}:i;
+const fkey=(o,kind,dk)=>o.uid||(kind==="cash"?"c|"+(o.title||""):"i|"+dk+"|"+(o.text||""));
+const ATYPES=["Ödeme","Kargo","Sözleşme","Yanıt","Belge","Başvuru","Toplantı"];
+function buildFeed(d){
+  const rows=[];
+  d.cash_alerts.forEach(a=>rows.push({kind:"cash",k:fkey(a,"cash"),st:a.status||a.level||"yellow",a:a.action_type||"Ödeme",c:a.category,p:a.party||a.title,am:a.amount,du:a.due,tx:a.note,src:"Nakit"}));
+  d.departments.forEach(x=>x.items.forEach(i0=>{const i=norm(i0); if(i.done||i.feed===false)return;
+    rows.push({kind:"item",dk:x.key,k:fkey(i,"item",x.key),st:i.status||"green",a:i.action_type||"Yanıt",c:i.category,p:i.party,am:i.amount,du:i.due,tx:i.text,nt:i.note,src:x.area,t:i.text})}));
+  const urgent=rows.filter(r=>r.st==="red"||r.st==="yellow").sort((p,q)=>ORD[p.st]-ORD[q.st]);
+  const ord=d.feed_order||[]; const pos=k=>ord.indexOf(k);   // sırada olmayanlar (-1) en üste gelir
+  return urgent.sort((p,q)=>pos(p.k)-pos(q.k));
+}
+function findObj(d,key){
+  for(const a of d.cash_alerts) if(fkey(a,"cash")===key) return {o:a,kind:"cash",arr:d.cash_alerts};
+  for(const x of d.departments){ x.items=x.items.map(norm); for(const i of x.items) if(fkey(i,"item",x.key)===key) return {o:i,kind:"item",arr:x.items}; }
+  return null;
+}
+function applyFeedOp(d,op){
+  if(op.t==="feedmove"){ const rows=buildFeed(d); const i=rows.findIndex(r=>r.k===op.key), j=i+op.dir; if(i<0||j<0||j>=rows.length)return;
+    [rows[i],rows[j]]=[rows[j],rows[i]]; d.feed_order=rows.map(r=>r.k); return; }
+  if(op.t==="feeddel"){ const f=findObj(d,op.key); if(!f)return; f.arr.splice(f.arr.indexOf(f.o),1);
+    d.feed_order=(d.feed_order||[]).filter(k=>k!==op.key&&k!==f.o.uid); return; }
+  if(op.t==="feededit"){ const f=findObj(d,op.key); if(!f)return; const o=f.o, v=op.f;
+    if(!o.uid){ o.uid=op.uid; if(d.feed_order){const i=d.feed_order.indexOf(op.key); if(i>=0)d.feed_order[i]=o.uid} }
+    ["action_type","category","party","amount","due"].forEach(k=>{ if(v[k]!==undefined) o[k]=v[k]; });
+    if(v.status){ o.status=v.status; if(f.kind==="cash") o.level=v.status; }
+    if(v.tx!==undefined){ if(f.kind==="cash") o.note=v.tx; else if(v.tx) o.text=v.tx; }
+    if(f.kind==="item" && o.source==="email") o.source="manual"; return; }
+  if(op.t==="feedadd"){ const v=op.f;
+    const base={action_type:v.action_type||"Yanıt",category:v.category||"",party:v.party||"",amount:v.amount||"",due:v.due||"",status:v.status||"yellow",uid:op.uid};
+    if(op.dep==="cash") d.cash_alerts.push({...base,level:base.status,title:v.party||v.tx||"Yeni",note:v.tx||""});
+    else { const dep=d.departments.find(x=>x.key===op.dep); if(!dep)return; dep.items.push({...base,text:v.tx||v.party||"Yeni",owner:"",source:"manual"}); } }
+}
 function applyOp(d,op){
+  if(op.t.startsWith("feed")) return applyFeedOp(d,op);
   const dep=d.departments.find(x=>x.key===op.k); if(!dep)return;
   if(op.t==="note"){ dep.notes=dep.notes||[]; dep.notes.unshift({text:op.text,at:op.at}); dep.notes=dep.notes.slice(0,30); }
   if(op.t==="delnote"){ dep.notes=(dep.notes||[]).filter(n=>!(n.text===op.text&&n.at===op.nat)); }
@@ -125,13 +168,13 @@ function applyOp(d,op){
   }
 }
 async function commit(op){
-  op.at=nowTR(); applyOp(D,op); render();
+  op.at=nowTR(); op.uid=newUid(); applyOp(D,op); render();
   if(!tok()){ const q=JSON.parse(ls.get("ops")||"[]"); q.push(op); ls.set("ops",JSON.stringify(q)); toast("Bu cihazda kaydedildi (⚙ ile token girersen data.json'a yazılır)"); return; }
   try{
     const r=await fetch(API+"?t="+Date.now(),{headers:ghHead()}); if(!r.ok)throw new Error("okuma "+r.status);
     const f=await r.json(); const latest=JSON.parse(b64d(f.content)); applyOp(latest,op);
     const p=await fetch(API,{method:"PUT",headers:{...ghHead(),"Content-Type":"application/json"},
-      body:JSON.stringify({message:"Dashboard: "+(op.t==="note"?"not":op.t==="delnote"?"not silindi":"aksiyon")+" "+op.at,content:b64e(JSON.stringify(latest,null,2)+"\n"),sha:f.sha})});
+      body:JSON.stringify({message:"Dashboard: "+(op.t==="note"?"not":op.t==="delnote"?"not silindi":op.t.startsWith("feed")?"feed":"aksiyon")+" "+op.at,content:b64e(JSON.stringify(latest,null,2)+"\n"),sha:f.sha})});
     if(!p.ok)throw new Error("yazma "+p.status);
     toast("data.json'a kaydedildi ✓");
   }catch(e){ toast("Kaydedilemedi: "+e.message+" (token/izin?)"); }
@@ -146,8 +189,6 @@ async function load(){
 }
 
 const ts=t=>{if(!t)return"";const [dt,tm]=t.split(" ");return fmt(dt)+(tm?" "+tm:"")};
-const norm=i=>typeof i==="string"?{text:i}:i;
-
 function render(){
   const d=D;
   $("date").textContent=new Date(d.date+"T12:00").toLocaleDateString("tr-TR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
@@ -169,20 +210,39 @@ function render(){
   const rv=d.review||[];$("reviewCard").hidden=!rv.length;
   $("review").innerHTML=rv.map(r=>`<div class="alert"><span>❔</span><div><strong>${esc(r.subject)}</strong><small>${esc(r.from)}${r.note?" · "+esc(r.note):""}</small></div><div></div></div>`).join("");
   $("meet").innerHTML=d.meetings.length?d.meetings.map(m=>`<div class="meet"><b>${esc(m.time)}</b><div>${esc(m.title)}${m.note?`<small>${esc(m.note)}</small>`:""}</div></div>`).join(""):'<span class="date">Bugün toplantı yok</span>';
-  // ACİL FEED: [durum] ActionType · Category · Party · Amount · Deadline
-  const rows=[];
-  d.cash_alerts.forEach(a=>rows.push({st:a.status||a.level,a:a.action_type||"Ödeme",c:a.category,p:a.party||a.title,am:a.amount,du:a.due,tx:a.note,src:"Nakit"}));
-  d.departments.forEach(x=>x.items.map(norm).forEach(i=>{ if(i.done||i.feed===false)return;
-    rows.push({st:i.status||"green",a:i.action_type||"Yanıt",c:i.category,p:i.party,am:i.amount,du:i.due,tx:i.text,src:x.area,k:x.key,t:i.text,nt:i.note}); }));
-  const urgent=rows.filter(r=>r.st==="red"||r.st==="yellow").sort((p,q)=>ORD[p.st]-ORD[q.st]);
+  // ACİL FEED: [durum] ActionType · Category · Party · Amount · Deadline  (▲▼ taşı, ✎ düzenle, ✕ sil, + Yeni)
+  const urgent=buildFeed(d);
   const lim=window.__all?urgent.length:12;
-  const fr=r=>{const parts=[r.a,r.c,r.p,r.am,r.du].filter(Boolean).map(esc).join(' <span class="sep">·</span> ');
-    return `<div class="fr"><span class="st">${ICON[r.st]}</span><div class="l1">${r.k?`<input type="checkbox" data-k="${esc(r.k)}" data-t="${esc(r.t)}" aria-label="Tamamlandı">`:""}${parts}<span class="dp">${esc(r.src)}</span></div>${(r.tx||r.nt)?`<div class="l2">${esc(r.tx||"")}${r.tx&&r.nt?" · ":""}${esc(r.nt||"")}</div>`:""}</div>`};
-  $("feed").innerHTML=urgent.slice(0,lim).map(fr).join("")||'<span class="date">Acil iş yok</span>';
+  const sel=(n,opts,v)=>`<select name="${n}" aria-label="${n}">`+opts.map(([val,lab])=>`<option value="${esc(val)}" ${val===v?"selected":""}>${esc(lab)}</option>`).join("")+`</select>`;
+  const form=(key,r)=>{ r=r||{}; return `<form class="fe" data-key="${esc(key)}">`
+    +(key==="__new"?sel("dep",[["cash","Nakit uyarısı"],...d.departments.map(x=>[x.key,x.area])],"cash"):"")
+    +sel("action_type",ATYPES.map(a=>[a,a]),r.a||"Ödeme")
+    +`<input name="category" placeholder="Kategori" value="${esc(r.c||"")}">`
+    +`<input name="party" placeholder="Taraf (kurum/kişi)" value="${esc(r.p||"")}">`
+    +`<input name="amount" placeholder="Tutar" value="${esc(r.am||"")}">`
+    +`<input name="due" placeholder="Vade" value="${esc(r.du||"")}">`
+    +sel("status",[["red","🔴 Acil"],["yellow","🟡 Yaklaşan"],["green","🟢 Normal"]],r.st||"yellow")
+    +`<textarea name="tx" class="wide" rows="3" placeholder="Açıklama">${esc(r.tx||"")}</textarea>`
+    +`<span class="fbtn"><button>Kaydet</button><button type="button" data-fa="cancel">İptal</button></span></form>`};
+  const fr=(r,i)=>{const parts=[r.a,r.c,r.p,r.am,r.du].filter(Boolean).map(esc).join(' <span class="sep">·</span> ');
+    const k=esc(r.k);
+    return `<div class="fr"><span class="st">${ICON[r.st]}</span><div class="l1">${r.kind==="item"?`<input type="checkbox" data-k="${esc(r.dk)}" data-t="${esc(r.t)}" aria-label="Tamamlandı">`:""}${parts}<span class="dp">${esc(r.src)}</span></div>${(r.tx||r.nt)?`<div class="l2">${esc(r.tx||"")}${r.tx&&r.nt?" · ":""}${esc(r.nt||"")}</div>`:""}
+      <div class="fa"><button data-fa="up" data-key="${k}" ${i===0?"disabled":""} aria-label="Yukarı">▲</button><button data-fa="down" data-key="${k}" ${i===urgent.length-1?"disabled":""} aria-label="Aşağı">▼</button><button data-fa="edit" data-key="${k}" aria-label="Düzenle">✎</button><button data-fa="del" data-key="${k}" aria-label="Sil">✕</button></div>
+      ${window.__edit===r.k?form(r.k,r):""}</div>`};
+  $("feed").innerHTML=(window.__edit==="__new"?`<div class="fr">${form("__new")}</div>`:"")+(urgent.slice(0,lim).map(fr).join("")||'<span class="date">Acil iş yok</span>');
   $("feedCount").textContent=`(${urgent.filter(r=>r.st==="red").length} acil, ${urgent.filter(r=>r.st==="yellow").length} yaklaşan)`;
   $("feedMore").hidden=urgent.length<=12; $("feedMore").textContent=window.__all?"Daha az göster":"Tümünü göster ("+urgent.length+")";
 }
 
+$("feedNew").onclick=()=>{window.__edit=window.__edit==="__new"?null:"__new";render()};
+$("feed").addEventListener("click",e=>{const b=e.target.closest("[data-fa]"); if(!b)return; const a=b.dataset.fa,key=b.dataset.key;
+  if(a==="up"||a==="down") commit({t:"feedmove",key,dir:a==="up"?-1:1});
+  else if(a==="edit"){window.__edit=window.__edit===key?null:key;render()}
+  else if(a==="cancel"){window.__edit=null;render()}
+  else if(a==="del"){ if(confirm("Bu satır silinsin mi?")) commit({t:"feeddel",key}); }});
+$("feed").addEventListener("submit",e=>{const f=e.target.closest("form.fe"); if(!f)return; e.preventDefault();
+  const v=Object.fromEntries(new FormData(f)); const key=f.dataset.key; window.__edit=null;
+  if(key==="__new") commit({t:"feedadd",dep:v.dep,f:v}); else commit({t:"feededit",key,f:v}); });
 $("feedMore").onclick=()=>{window.__all=!window.__all;render()};
 $("feed").addEventListener("change",e=>{const c=e.target.closest("input[type=checkbox][data-k]");if(c)commit({t:"done",k:c.dataset.k,text:c.dataset.t,v:c.checked})});
 // olaylar (delegation)
