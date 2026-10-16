@@ -674,8 +674,8 @@
     "1a14468679f061b9"
   ],
   "feed_order": [
-    "c|5. VakıfBank kredi kartı asgari ödeme",
     "c|1. GBC sanal ofis yenilemesi",
+    "c|5. VakıfBank kredi kartı asgari ödeme",
     "c|SGK yapılandırma taksiti",
     "c|4. HİB yıllık aidat",
     "c|2. Garanti BBVA kredi kartı borcu",
@@ -708,6 +708,16 @@
     "i|idari|GBC'ye adına gelen kargo (PTT, gönderen USHAŞ, zarf) resepsiyondan alınacak (7 Eki bildirimi)",
     "i|idari|Kanyon (bina) bakiye bilgilendirmeleri (25 Ağu, 25 Eyl, 2 Eki): açık bakiye var mı kontrol et",
     "i|idari|Superonline internet aboneliği 21 Eyl'de askıya alınıp 28 Eyl'de yeniden açılmış: ödeme düzenini kontrol et",
-    "i|idari|Anthropic Team plan sorunu: destek 3+ takip sonrası 2-3 haftadır yanıtsız, tekrar yaz"
+    "i|idari|Anthropic Team plan sorunu: destek 3+ takip sonrası 2-3 haftadır yanıtsız, tekrar yaz",
+    "i|zeynep|Bella: ameliyat 27 Eki (NZD 6.590); diş temizliği/beyazlatma/botoks ek satış planı",
+    "i|zeynep|Lusia M.: 2 Kasım operasyon takvimi (İstanbul Cerrahi, davet 23 Eyl) onaylı mı, hazırlıklar tamam mı",
+    "i|batu|Paraşüt'e gelen 2 e-fatura (Orya Otelcilik 13 Eki, Pharmago 12 Eki) işlenmeyi bekliyor",
+    "i|batu|İş Bankası 7. ve 8. ay POS hareketleri dökümü (28 Ağu) talebi: gelen döküm kontrol edildi mi",
+    "i|batu|CPA Türk Eylül/Ağustos ücret bordroları ve vergi/SGK ödeme listeleri (28 Eyl, 1 Eki) incelenip ödemeler takvime işlendi mi",
+    "i|cankat|KVKK Kurumsal İletişim Denetimi İlke Kararı (Karaçamşır, 12 Eki): şirkete etkisini incele",
+    "i|zeynep|Deal aşama ID'lerini çöz, ghost lead analizi yap",
+    "i|erkin|Slush 'Private Dinner' başvurusu alındı (12 Eki): sonuç bekleniyor",
+    "i|idari|Turkcell: 31 Ağu 'Abonelik Feshi' bildirimi ve düzenli faturalar; hangi hat iptal, hangisi aktif netleştir",
+    "i|idari|Kanyon bina bakım duyuruları (otopark, fiber geçişi, balkon çalışması): ofisi etkiliyor mu bak"
   ]
 }
