@@ -156,8 +156,8 @@ function buildFeed(d){
   d.departments.forEach(x=>x.items.forEach(i0=>{const i=norm(i0); if(i.done||i.feed===false)return;
     rows.push({kind:"item",dk:x.key,k:fkey(i,"item",x.key),st:urgencyOf(i),a:i.action_type||"Yanıt",c:i.category,p:i.party,am:i.amount,du:i.due||fmtDate(i.due_date),dd:i.due_date,tx:i.text,nt:i.note,src:x.area,t:i.text})}));
   const urgent=rows.sort((p,q)=>ORD[p.st]-ORD[q.st]);
-  const ord=d.feed_order||[];   // elle sıra: sırada olmayan yeni satırlar en üste, tarihsiz (gri) olanlar en alta gelir
-  const pos=r=>{const i=ord.indexOf(r.k); return i>=0?i:(r.st==="gray"?1e6:-1);};
+  const ord=d.feed_order||[];   // elle sıra: sırada olmayan yeni satırlardan gecikmiş/bu hafta olanlar en üste, diğerleri en alta gelir
+  const pos=r=>{const i=ord.indexOf(r.k); return i>=0?i:((r.st==="red"||r.st==="orange")?-1:1e6);};
   return urgent.sort((p,q)=>pos(p)-pos(q));
 }
 function findObj(d,key){
