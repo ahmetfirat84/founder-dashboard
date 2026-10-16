@@ -396,16 +396,6 @@
       "updated": "2026-10-16 15:30",
       "items": [
         {
-          "text": "Bugün kapanış: Hamza B. (€4.980), Briahn T. (€2.646). Durumu Daily'de bildir",
-          "due": "16 Eki",
-          "owner": "Hülya / Selin",
-          "action_type": "Yanıt",
-          "category": "Satış",
-          "party": "Hamza B. / Briahn T.",
-          "amount": "€4.980 + €2.646",
-          "due_date": "2026-10-16"
-        },
-        {
           "text": "'Ulaşılmaya çalışıldı' leadleri (Israa M., Laura W., Melissa): ilk temas hızını izle",
           "due": "",
           "owner": "Hülya / Selin",
@@ -681,7 +671,6 @@
     "c|2. Garanti BBVA kredi kartı borcu",
     "c|3. Google Workspace aboneliği",
     "c|CPA Türk",
-    "i|zeynep|Bugün kapanış: Hamza B. (€4.980), Briahn T. (€2.646). Durumu Daily'de bildir",
     "c|Orya Hotel",
     "i|ilksen|Meta Ads (act_537657538463949) son 7 günde 0 harcama / 0 lead / 0 aktif reklam: bilinçli mi, ödeme/kampanya sorunu mu? Daily'de rapor ver",
     "c|Muhtasar (Eylül)",
