@@ -104,17 +104,6 @@
     },
     {
       "level": "yellow",
-      "title": "HubSpot",
-      "amount": "₺76.245",
-      "due": "17 Eki",
-      "note": "Büyük ihtimalle kapanmış, Batu teyit edecek.",
-      "action_type": "Ödeme",
-      "category": "Abonelik",
-      "party": "HubSpot",
-      "status": "yellow"
-    },
-    {
-      "level": "yellow",
       "title": "Muhtasar (Eylül)",
       "amount": "₺23.507",
       "due": "26 Eki",
@@ -716,7 +705,6 @@
     "i|zeynep|Bugün kapanış: Hamza B. (€4.980), Briahn T. (€2.646). Durumu Daily'de bildir",
     "c|Orya Hotel",
     "i|ilksen|Meta Ads (act_537657538463949) son 7 günde 0 harcama / 0 lead / 0 aktif reklam: bilinçli mi, ödeme/kampanya sorunu mu? Daily'de rapor ver",
-    "c|HubSpot",
     "c|Muhtasar (Eylül)",
     "c|KDV (Eylül) + Paraşüt yıllık",
     "c|SGK cari ay primi + maaşlar",
