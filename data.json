@@ -151,6 +151,20 @@
       "urgency": "yellow",
       "title": "Vital Hotel Fulya",
       "note": "Hasta konaklama folyosu (Warda A., 01-30 Eyl, 24.09.2026 tarihli): ödenmemiş bakiye ₺27.949,21, vade belgede yok."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Telekom",
+      "party": "Sonetel",
+      "amount": "$2,43",
+      "due": "bugün (bakiye negatif, aramalar duraklatıldı)",
+      "uid": "yq0078",
+      "source": "mail-gelen",
+      "origin": "E-posta (17 Eki 10:00): Sonetel · Calls Paused! Negative Balance in Account",
+      "wamid": "1a148a98897a1f4d",
+      "due_date": "2026-10-17",
+      "title": "Sonetel",
+      "note": "Sonetel prepaid bakiye negatif ($-2,43): aramalar ve mesajlar duraklatıldı, numara yenilemede kaybedilebilir. app.sonetel.com üzerinden bakiye yükle."
     }
   ],
   "departments": [
@@ -816,7 +830,8 @@
     "1a148cdec1f15fbf",
     "1a149a5e48884fa9",
     "1a14948ed11438ee",
-    "1a1492f5ce9c6f1d"
+    "1a1492f5ce9c6f1d",
+    "1a148a98897a1f4d"
   ],
   "feed_order": [
     "c|1. GBC sanal ofis yenilemesi",
