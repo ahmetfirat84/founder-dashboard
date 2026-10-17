@@ -182,6 +182,20 @@
       "title": "Sonetel",
       "note": "Sonetel prepaid bakiye negatif ($-2,43): aramalar ve mesajlar duraklatıldı, numara yenilemede kaybedilebilir. app.sonetel.com üzerinden bakiye yükle.",
       "imp": "low"
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Transfer",
+      "party": "Tetik Turizm",
+      "amount": "₺17.400",
+      "due": "Vadesi geçti (31.08)",
+      "uid": "j8blyl",
+      "source": "whatsapp",
+      "origin": "WhatsApp (17 Eki 16:11, belge: YEN_C4_B0BEN_20ELEKTRON_C4_B0K_20H_C4_B0)",
+      "wamid": "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEJDMjBCODVGREQyQUI1MTcwRQA=",
+      "due_date": "2026-08-31",
+      "title": "Tetik Turizm",
+      "note": "Transfer bedeli faturası TTE2026000000881 (31.08.2026, KDV dahil), alt taşeron kullanılmış; ödeme durumunu teyit et"
     }
   ],
   "departments": [
@@ -854,7 +868,8 @@
     "1a14948ed11438ee",
     "1a1492f5ce9c6f1d",
     "1a148a98897a1f4d",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDA4QjcwODM2QkY3REZFNjQ4QQA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDA4QjcwODM2QkY3REZFNjQ4QQA=",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEJDMjBCODVGREQyQUI1MTcwRQA="
   ],
   "feed_order": [
     "r3l7ss",
