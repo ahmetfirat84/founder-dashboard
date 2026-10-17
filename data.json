@@ -220,7 +220,7 @@
       "name": "BATU",
       "area": "Muhasebe",
       "status": "red",
-      "updated": "2026-10-17 17:45",
+      "updated": "2026-10-17 18:10",
       "items": [
         {
           "text": "SGK ödeme planı dökümünü çıkar: taksit sayısı, ödenen/aksayan, ilk taksit (31.08) ödendi mi, bozulma tarihi; CPA Türk'ten (Yasemin Hanım) teyit al",
@@ -406,8 +406,8 @@
       "summary": "SGK/CPA ödeme teyitleri bekliyor",
       "notes": [
         {
-          "text": "17 Eki: Cihan S.'dan şirkete $11.250 (≈ ₺557 bin, kur 49,53) borç geldi (reklam geliri paylaşımı anlaşması). Kasa bakiyesine dahil. Geri ödeme planı/vadesi belirsiz: sözleşme şartlarını nakit planına işle. (kaynak: Ahmet, WhatsApp/sohbet 17 Eki)",
-          "at": "2026-10-17 17:45"
+          "text": "17 Eki: Cihan S.'dan $11.250 (≈ ₺557 bin) geldi = €10.000 anapara. Şartlar: reklamdan kazanılan her satış için Cihan'a €100; anapara en erken 6 ay sonra (17 Nis 2027) iade. Nakit planında anapara iadesi 17 Nis 2027'de beklenen çıkış olarak duruyor.",
+          "at": "2026-10-17 18:10"
         },
         {
           "text": "Barivital 22.950 TL güncel bakiye bildirdi, Ahmet ekstre istedi. Ekstre (13.10) 05.01-12.10.2026, 14 kayıt: devir ₺22.575 + faturalar, toplam borç ₺87.950,05, 3 havale ile ödenen ₺65.000, bakiye ₺22.950,05. Ahmet: önümüzdeki hafta ödeme yapılacak. (kaynak: WhatsApp (17 Eki 16:35, iletilen yazışma, 9 mesaj, 1 ek))",
@@ -475,7 +475,7 @@
       "name": "CANKAT",
       "area": "Hukuk",
       "status": "yellow",
-      "updated": "2026-10-17 17:45",
+      "updated": "2026-10-17 18:10",
       "items": [
         {
           "text": "HealthTürkiye 2026 üyelik yenileme ücreti: son ödeme tarihini mailden doğrula (3 hatırlatma geldi), USHAŞ/TÜRSAB yetkilendirmesine etkisini kontrol et",
@@ -580,17 +580,17 @@
           "uid": "d1bafc"
         },
         {
-          "text": "Cihan S. borç / reklam geliri paylaşımı anlaşması: imzalı sözleşmeyi bul, geri ödeme şartı ve vadesini netleştir ($11.250 geldi)",
+          "text": "Cihan S. reklam kredisi: imzalı anlaşmayı bul/yaz (€10.000 anapara, en erken 6 ay sonra iade, kazanılan her satışa €100 pay)",
           "action_type": "Sözleşme",
           "category": "Finansman",
           "party": "Cihan S.",
-          "amount": "$11.250",
+          "amount": "€10.000",
           "amount_try": 557000,
-          "due": "Şartlar netleşince",
           "owner": "",
           "source": "manual",
           "origin": "Ahmet 17 Eki",
-          "uid": "07033c"
+          "uid": "07033c",
+          "due": "Anlaşma yazıya dökülsün"
         }
       ],
       "summary": "HealthTürkiye yenilemesi açık",
@@ -698,7 +698,7 @@
       "name": "İLKSEN",
       "area": "Marketing",
       "status": "yellow",
-      "updated": "2026-10-16 10:55",
+      "updated": "2026-10-17 18:10",
       "items": [
         {
           "text": "Meta Ads (act_537657538463949) son 7 günde 0 harcama / 0 lead / 0 aktif reklam: bilinçli mi, ödeme/kampanya sorunu mu? Daily'de rapor ver",
@@ -709,6 +709,18 @@
           "party": "Meta Ads",
           "amount": "",
           "due_date": "2026-10-16"
+        },
+        {
+          "text": "Cihan kredisi (~€10.000) ile reklam çıkılacak; kazanılan her satışta Cihan'a €100 ödenecek: reklamdan gelen satışları ayrı etiketle takip et",
+          "action_type": "Yanıt",
+          "category": "Reklam",
+          "party": "Cihan S. kredisi",
+          "amount": "€10.000 bütçe",
+          "due": "Reklam başlangıcı",
+          "owner": "",
+          "source": "manual",
+          "origin": "Ahmet 17 Eki",
+          "uid": "cb7094"
         }
       ],
       "summary": "Meta Ads 7 gündür kapalı"
@@ -881,7 +893,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 17:45",
+  "updated": "2026-10-17 18:10",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1109,7 +1121,7 @@
       "uid": "20b0b9",
       "dir": "in",
       "party": "Cihan S.",
-      "label": "Borç (reklam geliri paylaşımı anlaşması)",
+      "label": "Reklam kredisi (€10.000 karşılığı USD olarak alındı)",
       "amount": 11250,
       "cur": "USD",
       "fee_pct": 0,
@@ -1118,7 +1130,22 @@
       "patient": "",
       "done": true,
       "doneAt": "2026-10-17 17:45",
-      "note": "17 Eki'de şirkete geldi. Reklam geliri paylaşımı anlaşması kapsamında borç; geri ödeme şartları belgeye göre netleştirilecek.",
+      "note": "17 Eki'de $11.250 geldi = €10.000 anapara karşılığı (kur ~0,889). Reklam çıkmak için kullanılacak. Şartlar: reklamdan kazanılan her satış için Cihan'a €100; anapara (€10.000) en erken 6 ay sonra iade.",
+      "source": "manual",
+      "origin": "Ahmet 17 Eki"
+    },
+    {
+      "uid": "bf479e",
+      "dir": "out",
+      "party": "Cihan S.",
+      "label": "Reklam kredisi anapara iadesi (en erken)",
+      "amount": 10000,
+      "cur": "EUR",
+      "fee_pct": 0,
+      "expected_date": "2027-04-17",
+      "certainty": "tahmini",
+      "patient": "",
+      "note": "En erken 6 ay sonra (17 Nis 2027). Gerçek tarih Cihan'ın talebine bağlı; €10.000 EUR cinsinden (USD kuru oynarsa risk bizde değil, anapara EUR).",
       "source": "manual",
       "origin": "Ahmet 17 Eki"
     }
