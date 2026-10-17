@@ -894,7 +894,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 22:38",
+  "updated": "2026-10-17 19:20",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1098,14 +1098,14 @@
       "uid": "p3wcqw",
       "dir": "in",
       "party": "Nate",
-      "label": "Hasta tahsilatı: ilk ziyaret kalanı",
+      "label": "Diş tedavisi: 1. ziyaret kalanı",
       "amount": 1150,
       "cur": "EUR",
       "fee_pct": 0,
       "expected_date": "2026-10-20",
       "certainty": "tahmini",
       "patient": "Nate",
-      "note": "Son ödeme tarihi 20 Eki 2026. Ödeme linki henüz gönderilmedi; fonlar açılırsa uçuş öncesi ödenecek, değilse NZ'de ödenebilir.",
+      "note": "HubSpot: 1. ziyaret deal'ı €5.000, ödenen €3.850 (25 Ağu) → kalan €1.150. Hasta 20 Eki'ye kadar ödemeye çalışacak (fonlar açılırsa ödeme linki, değilse NZ'ye dönünce). Ödemeyle diş kliniğiyle bakiye kapatılacak.",
       "source": "whatsapp",
       "origin": "WhatsApp (17 Eki 18:53, iletilen yazışma, 2 mesaj)"
     },
@@ -1113,14 +1113,14 @@
       "uid": "ul6n77",
       "dir": "in",
       "party": "Nate",
-      "label": "Hasta tahsilatı: tedavi kalan bakiyesi",
-      "amount": 3950,
+      "label": "Diş tedavisi: 2. ziyaret bedeli",
+      "amount": 2800,
       "cur": "EUR",
       "fee_pct": 0,
-      "expected_date": null,
+      "expected_date": "2027-02-28",
       "certainty": "belirsiz",
       "patient": "Nate",
-      "note": "Toplam tedavi €7.800, ödenen €3.850, kalan €3.950. Tarih belirsiz, tedavi sözleşmesine dahil.",
+      "note": "Mesajdaki 'kalan €3.950' = €1.150 (1. ziyaret) + €2.800 (2. ziyaret); çifte sayım olmasın diye ayrıldı. HubSpot 2. ziyaret deal'ı €2.800, kapanış 28 Şub 2027, maliyeti de €2.800 (kâr 0). Tarih tahmini.",
       "source": "whatsapp",
       "origin": "WhatsApp (17 Eki 18:53, iletilen yazışma, 2 mesaj)"
     },
