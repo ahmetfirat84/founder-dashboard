@@ -916,7 +916,8 @@
           "owner": "",
           "source": "manual",
           "origin": "Ahmet 17 Eki (dekont akışı)",
-          "uid": "cbcd04"
+          "uid": "cbcd04",
+          "note": "2026-10-17 dekont: ₺41.786 gönderildi; alıcı/tutar eşleşmesi teyit bekliyor."
         }
       ],
       "notes": [
@@ -935,7 +936,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 00:00",
+  "updated": "2026-10-18 00:55",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -992,7 +993,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzMUE5NjYyRkZCMzA0NUVCM0UA",
     "1a14abb2ab8edbdd",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFEOTAxNTNCMDVFNEU5RkM3RDYA",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDJDMjIxNEVENzEyRkZCREZBNgA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDJDMjIxNEVENzEyRkZCREZBNgA=",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EwQjc2QThCN0U4RTg2MDExQzkA"
   ],
   "feed_order": [
     "r3l7ss",
