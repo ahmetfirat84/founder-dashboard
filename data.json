@@ -96,14 +96,16 @@
     },
     {
       "title": "Orya Hotel",
-      "amount": "~₺100.000",
+      "amount": "₺102.588,57 (toplam bakiye)",
       "due": "19-23 Eki kısmi, 31 Eki kapanış",
-      "note": "Söz verildi. Provider borçları gider sheet'inde yok. Orya e-fatura OHL2026000000236 (13 Eki): €450 / ₺24.833,39, fatura vadesi 13 Eki geçti; ~₺100.000 toplamın bir kalemi.",
+      "note": "Orya Hotel 17 Eki WhatsApp: toplam bakiye ₺102.588,57 (son fatura OHL2026000000236, €450 = ₺24.833,39, bunun yalnızca bir kalemi). Plan: önümüzdeki hafta (19-23 Eki) bir ödeme, ay sonuna (31 Eki) kadar kapanış. Provider borçları gider sheet'inde yok.",
       "action_type": "Ödeme",
       "category": "Provider",
       "party": "Orya Hotel",
       "due_date": "2026-10-23",
-      "uid": "ee55fc"
+      "uid": "ee55fc",
+      "origin": "WhatsApp (17 Eki 16:07, iletilen Orya mesajları + not)",
+      "source": "whatsapp"
     },
     {
       "title": "Muhtasar (Eylül)",
@@ -801,7 +803,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 15:40",
+  "updated": "2026-10-17 16:15",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
