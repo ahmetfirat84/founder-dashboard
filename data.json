@@ -138,6 +138,19 @@
       "note": "Önceki tahmin sermaye artırımı dahil ~₺50.000 (tescil danışmanı 15-20 bin + noter/harç; Cankat'ın 20 bin TL'si intro borcundan sayılacak). Sermaye artırımı 2027'ye ertelendiği için yalnız GK + YK/imza sirküleri tescili yapılırsa daha düşük olabilir: Cankat'tan net rakamı teyit et. Genel kurul/tescil Kasım ortasında.",
       "source": "asistan",
       "uid": "ac32ae"
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Otel",
+      "party": "Vital Hotel Fulya",
+      "amount": "₺27.949,21",
+      "due": "Vade belirsiz",
+      "uid": "tmtmkp",
+      "source": "whatsapp",
+      "wamid": "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDcwMTRDMjc4OUQ3NjdEMUQ4MwA=",
+      "urgency": "yellow",
+      "title": "Vital Hotel Fulya",
+      "note": "Hasta konaklama folyosu (Warda A., 01-30 Eyl, 24.09.2026 tarihli): ödenmemiş bakiye ₺27.949,21, vade belgede yok."
     }
   ],
   "departments": [
@@ -785,7 +798,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEUxRTlDMEE3ODEzNDE3NjhDQgA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDc0RTVFNzYzNDc0ODZGMTI4NgA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEU0NzU1RjVDODU4MTFBRDI0QwA=",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDNBMTAwODlERUQzOEJDMDdBMQA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDNBMTAwODlERUQzOEJDMDdBMQA=",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDcwMTRDMjc4OUQ3NjdEMUQ4MwA="
   ],
   "feed_order": [
     "c|1. GBC sanal ofis yenilemesi",
