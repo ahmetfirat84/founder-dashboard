@@ -164,7 +164,8 @@
       "wamid": "1a148a98897a1f4d",
       "due_date": "2026-10-17",
       "title": "Sonetel",
-      "note": "Sonetel prepaid bakiye negatif ($-2,43): aramalar ve mesajlar duraklatıldı, numara yenilemede kaybedilebilir. app.sonetel.com üzerinden bakiye yükle."
+      "note": "Sonetel prepaid bakiye negatif ($-2,43): aramalar ve mesajlar duraklatıldı, numara yenilemede kaybedilebilir. app.sonetel.com üzerinden bakiye yükle.",
+      "imp": "low"
     }
   ],
   "departments": [
@@ -748,7 +749,8 @@
           "amount": "",
           "uid": "hc3sqe",
           "due_date": "2026-10-24",
-          "origin": "E-posta (17 Eki 10:40): Turkcell · Kontratlı Kampanya Bilgilendirme"
+          "origin": "E-posta (17 Eki 10:40): Turkcell · Kontratlı Kampanya Bilgilendirme",
+          "imp": "low"
         },
         {
           "text": "Anthropic Team plan sorunu: destek 3+ takip sonrası 2-3 haftadır yanıtsız, tekrar yaz",
