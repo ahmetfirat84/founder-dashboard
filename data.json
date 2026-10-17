@@ -128,14 +128,14 @@
       "id": "1a1472d5074b5651"
     },
     {
-      "title": "Genel kurul / sermaye tescil masrafı",
+      "title": "Genel kurul / tescil masrafı",
       "action_type": "Ödeme",
       "category": "Hukuk",
       "party": "Cankat (tescil danışmanı) + noter/harç",
-      "amount": "~₺50.000",
+      "amount": "≤ ~₺50.000",
       "due": "Kasım ortası (GK + tescil)",
       "due_date": "2026-11-15",
-      "note": "Tescil danışmanı 15-20 bin TL (Cankat 20 bin TL'sini senden alacak, intro borcundan sayılır) + noter ve harçlar, toplam yaklaşık ₺50.000. Çağrı en geç bu hafta başlamalı; ilandan 15-20 gün sonra genel kurul, ardından tescil. Tahmini tarih, kesinleşince güncelle.",
+      "note": "Önceki tahmin sermaye artırımı dahil ~₺50.000 (tescil danışmanı 15-20 bin + noter/harç; Cankat'ın 20 bin TL'si intro borcundan sayılacak). Sermaye artırımı 2027'ye ertelendiği için yalnız GK + YK/imza sirküleri tescili yapılırsa daha düşük olabilir: Cankat'tan net rakamı teyit et. Genel kurul/tescil Kasım ortasında.",
       "source": "asistan",
       "uid": "ac32ae"
     }
@@ -372,7 +372,7 @@
       "name": "CANKAT",
       "area": "Hukuk",
       "status": "yellow",
-      "updated": "2026-10-17 14:05",
+      "updated": "2026-10-17 14:40",
       "items": [
         {
           "text": "HealthTürkiye 2026 üyelik yenileme ücreti: son ödeme tarihini mailden doğrula (3 hatırlatma geldi), USHAŞ/TÜRSAB yetkilendirmesine etkisini kontrol et",
@@ -429,7 +429,7 @@
           "urgency": "gray"
         },
         {
-          "text": "Genel kurul çağrısı sürecini başlat (ilanlar iadeli taahhütlü, tüm pay sahiplerine)",
+          "text": "Genel kurul çağrısını başlat: YK süresi 15 Kasım'da, imza sirküleri vb. yaklaşık 1 ay içinde doluyor (acil)",
           "action_type": "Belge",
           "category": "Hukuk",
           "party": "Cankat",
@@ -453,13 +453,13 @@
           "uid": "9907cb"
         },
         {
-          "text": "Sermayeyi 250.000 TL'ye çıkar (ocak başına kadar); yöntem: pay sahibi yatırımı veya emisyon primi aktarımı",
+          "text": "Sermayeyi 250.000 TL'ye çıkar (süre 31 Aralık 2027'ye uzadı, acelesi yok); yöntem: pay sahibi yatırımı veya emisyon primi aktarımı",
           "action_type": "Başvuru",
           "category": "Hukuk",
           "party": "Genel kurul",
           "amount": "₺250.000",
-          "due": "1 Ocak",
-          "due_date": "2027-01-01",
+          "due": "31 Aralık 2027",
+          "due_date": "2027-12-31",
           "owner": "",
           "source": "asistan",
           "uid": "b2b465"
@@ -479,6 +479,10 @@
       ],
       "summary": "HealthTürkiye yenilemesi açık",
       "notes": [
+        {
+          "text": "Güncelleme (17 Eki): Asgari sermaye uyum süresi Resmî Gazete'de (17.10.2026, Tebliğ) 31 Aralık 2026'dan 31 Aralık 2027'ye uzatıldı. 250 bin TL sermaye artırımının acelesi yok (notlarda kalsın, son tarih 31.12.2027). Genel kurul ise ACİL: YK süresi 15 Kasım, imza sirküleri vb. yaklaşık 1 ay içinde doluyor.",
+          "at": "2026-10-17 14:40"
+        },
         {
           "text": "Genel kurul ve sermaye artırımı (15 Eki yazışma): YK süresi 15 Kasım'da bitiyor. Genel kurul: geçmiş dönemler, yeni YK, finansal onay, ibra, sermaye 250.000 TL. Çağrı en geç haftaya başlamalı; ilan sonrası 15-20 gün, toplam 20 gün-1 ay. Maliyet: tescil danışmanı 15-20 bin TL, noter/harçlarla ~50 bin TL. Alternatifler: emisyon primi aktarımı veya emanet para (riskli). Cankat, danışman ücretini (20 bin TL) intro borcundan sayacak. Pzt-Salı oturum yapılacak.",
           "at": "2026-10-17 14:05"
@@ -738,7 +742,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 14:15",
+  "updated": "2026-10-17 14:40",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
