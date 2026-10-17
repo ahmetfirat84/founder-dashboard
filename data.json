@@ -929,7 +929,7 @@
           "urgency": "gray"
         },
         {
-          "text": "GBC'ye dekontu ilet, ödemeyi teyit ettir; yeni dönem faturası ve güncel sözleşmeyi iste (Gmail taslağı hazır, dekontu ekleyip gönder)",
+          "text": "GBC'ye hazır mail taslağını gönder (dekont ekli): ödemeyi teyit ettir, yeni dönem faturası ve güncel sözleşmeyi iste",
           "action_type": "Belge",
           "category": "Ofis",
           "party": "Galata Business Center",
@@ -940,7 +940,7 @@
           "source": "manual",
           "origin": "Ahmet 17 Eki (dekont akışı)",
           "uid": "cbcd04",
-          "note": "2026-10-17 dekont: ₺41.786 gönderildi; alıcı/tutar eşleşmesi teyit bekliyor. 2026-10-17 dekont: ₺41.786 gönderildi; alıcı/tutar eşleşmesi teyit bekliyor. Dekont Drive: https://drive.google.com/file/d/1UjvcU8KgK_U0FtKyNACWV8rx2qmMUqEX/view?usp=drivesdk"
+          "note": "Taslak Gmail'de hazır, dekont ekli. Gönderince bu maddeyi kapat. (₺41.786 ödeme satırı zaten kapalı.)"
         }
       ],
       "notes": [
@@ -959,7 +959,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 01:50",
+  "updated": "2026-10-18 02:00",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
