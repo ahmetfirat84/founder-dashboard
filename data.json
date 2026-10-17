@@ -149,13 +149,16 @@
       "category": "Otel",
       "party": "Vital Hotel Fulya",
       "amount": "₺27.949,21",
-      "due": "Vade belirsiz",
+      "due": "Vadesi geçti (30 Eyl konaklama bitişi)",
       "uid": "tmtmkp",
       "source": "whatsapp",
       "wamid": "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDcwMTRDMjc4OUQ3NjdEMUQ4MwA=",
-      "urgency": "yellow",
       "title": "Vital Hotel Fulya",
-      "note": "Hasta konaklama folyosu (Warda A., 01-30 Eyl, 24.09.2026 tarihli): ödenmemiş bakiye ₺27.949,21, vade belgede yok."
+      "note": "Hasta konaklama folyosu (Ad S., 01-30 Eyl, 24.09.2026 tarihli): ödenmemiş bakiye ₺27.949,21. Faturada vade yazmıyor, vade olarak konaklama bitişi (30 Eyl) alındı, kesin tarihi teyit et. GBC'den sonra ikinci acil ödeme.",
+      "due_date": "2026-09-30",
+      "pin": true,
+      "imp": "high",
+      "origin": "WhatsApp (17 Eki, belge: Vital Hotel folyosu)"
     },
     {
       "action_type": "Ödeme",
@@ -792,7 +795,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 15:33",
+  "updated": "2026-10-17 15:40",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -842,6 +845,7 @@
   ],
   "feed_order": [
     "r3l7ss",
+    "tmtmkp",
     "c|5. VakıfBank kredi kartı asgari ödeme",
     "c|SGK yapılandırma taksiti",
     "c|4. HİB yıllık aidat",
