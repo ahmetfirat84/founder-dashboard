@@ -676,7 +676,7 @@
       "area": "İdari & Ofis",
       "status": "red",
       "summary": "Bekleyen işler kontrol edilecek",
-      "updated": "2026-10-16 15:30",
+      "updated": "2026-10-17 15:05",
       "items": [
         {
           "text": "GBC sanal ofis yenilemesi: ₺41.828 (12 ay, KDV dahil), yeni dönem 31.08'de başladı, ödeme 01.09'dan beri gecikmede, faiz işliyor. Para girince ilk öde, dekontu GBC'ye mail at",
@@ -724,16 +724,17 @@
           "urgency": "gray"
         },
         {
-          "text": "Ana hat (ISTE Hesaplı Platin 25) kampanya sözleşmesi 24.10.2026'da bitiyor; yenileme veya iptal kararı ver.",
+          "text": "Ana hat (ISTE Hesaplı Platin 25, 0533 727 0000) kampanya sözleşmesi 24 Ekim'de bitiyor: karar ver, yenile mi iptal mi?",
           "due": "24 Eki sözleşme bitişi",
           "owner": "",
-          "source": "manual",
-          "action_type": "Ödeme",
-          "category": "Abonelik",
+          "source": "mail",
+          "action_type": "Sözleşme",
+          "category": "Abonelik / Hat",
           "party": "Turkcell",
           "amount": "",
           "uid": "hc3sqe",
-          "due_date": "2026-10-24"
+          "due_date": "2026-10-24",
+          "origin": "E-posta (17 Eki 10:40): Turkcell · Kontratlı Kampanya Bilgilendirme"
         },
         {
           "text": "Anthropic Team plan sorunu: destek 3+ takip sonrası 2-3 haftadır yanıtsız, tekrar yaz",
@@ -760,7 +761,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 14:36",
+  "updated": "2026-10-17 15:05",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",

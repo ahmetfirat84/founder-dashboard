@@ -167,7 +167,10 @@ const onDesk=r=>r.st==="red"||r.st==="orange"||r.pin;
 // 8 kontenjan: önce gecikmiş + 📌, sonra bu hafta; masada görünüm sırası elle sıraya uyar
 function deskRows(d){ const all=buildFeed(d).filter(onDesk);
   const rank=r=>(r.st==="red"||r.pin)?0:1;
-  const pick=new Set([...all.filter(r=>rank(r)===0),...all.filter(r=>rank(r)===1)].slice(0,DESK_MAX));
+  const r0=all.filter(r=>rank(r)===0), r1=all.filter(r=>rank(r)===1);
+  const reserve=Math.min(2,r1.length);   // bu hafta vadeli en az 2 iş, gecikmişler masayı tamamen doldurmasın
+  const top=r0.slice(0,DESK_MAX-reserve), rest=r1.slice(0,DESK_MAX-top.length);
+  const pick=new Set([...top,...rest]);
   return all.filter(r=>pick.has(r)); }
 // dept listesi ve feed AYNI satır biçimi: Aksiyon tipi · Kategori · Taraf · Tutar · Vade
 const srcTag=o=>{ const sc=o.source||o.src_; if(o.origin) return (String(o.origin).startsWith("WhatsApp")?"💬 ":"📧 ")+o.origin;
