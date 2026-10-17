@@ -197,6 +197,21 @@
       "title": "Tetik Turizm (transfer)",
       "note": "İki fatura: ₺14.700 (23.07.2026, TTE...762) + ₺17.400 (31.08.2026, TTE...881) = ₺32.100, işveren raporuyla uyumlu. Ahmet Tetik'e en geç önümüzdeki hafta ödeyeceğini bildirdi. Güncel ekstre Tetik'ten bekleniyor.",
       "plan_date": "2026-10-23"
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "",
+      "party": "Barivital",
+      "amount": "₺22.950",
+      "due": "Vadesi geçti (en eski açık fatura 22.04)",
+      "uid": "8zkm7p",
+      "source": "whatsapp",
+      "origin": "WhatsApp (17 Eki 16:35, iletilen yazışma, 9 mesaj, 1 ek)",
+      "wamid": "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEVFMTkzRjc2QTRGM0VBOUNBNgA=",
+      "plan_date": "2026-10-19",
+      "due_date": "2026-04-22",
+      "title": "Barivital",
+      "note": "Barivital güncel bakiye ₺22.950,05 (ekstre 13.10, borç ₺87.950,05 - ödenen ₺65.000). Son fatura 12.10.2026 ₺837,50. Ahmet: önümüzdeki hafta ödeme yapılacak."
     }
   ],
   "departments": [
@@ -390,6 +405,10 @@
       ],
       "summary": "SGK/CPA ödeme teyitleri bekliyor",
       "notes": [
+        {
+          "text": "Barivital 22.950 TL güncel bakiye bildirdi, Ahmet ekstre istedi. Ekstre (13.10) 05.01-12.10.2026, 14 kayıt: devir ₺22.575 + faturalar, toplam borç ₺87.950,05, 3 havale ile ödenen ₺65.000, bakiye ₺22.950,05. Ahmet: önümüzdeki hafta ödeme yapılacak. (kaynak: WhatsApp (17 Eki 16:35, iletilen yazışma, 9 mesaj, 1 ek))",
+          "at": "2026-10-17 16:36"
+        },
         {
           "text": "Tetik Turizm yazışması: muhasebeleri toplam bakiyeyi ₺32.100 bildirdi; Ahmet ay başı kapanış için güncel ekstre istedi, Tetik ekstreyi muhasebeden alıp iletecek. Ödeme henüz yapılmadı; Ahmet tahsilat aksaması nedeniyle en geç önümüzdeki hafta ödeyeceğini söyledi. Faturalar: TTE...762 (23.07.2026) ₺1 (kaynak: WhatsApp (17 Eki 16:27, iletilen yazışma, 16 mesaj, 3 ek))",
           "at": "2026-10-17 16:28"
@@ -835,7 +854,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 16:28",
+  "updated": "2026-10-17 16:36",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -886,7 +905,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEJDMjBCODVGREQyQUI1MTcwRQA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEVENUExRkI2Q0UxMTFCRUI3MgA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDQxNzZFNUIwMzdGNkQzODQyRQA=",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDVERjUwRjgxQTYxN0RCRkYzRQA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDVERjUwRjgxQTYxN0RCRkYzRQA=",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEVFMTkzRjc2QTRGM0VBOUNBNgA="
   ],
   "feed_order": [
     "r3l7ss",
