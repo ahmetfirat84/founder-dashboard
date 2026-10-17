@@ -105,6 +105,7 @@
     <div class="cgrid" id="cashTop"></div>
     <div class="clab">Çıkış (ödenecekler)</div><div class="cgrid" id="cashTiles"></div>
     <div class="clab">Giriş ve beklenen</div><div class="cgrid" id="cashIn"></div>
+    <div id="cashPat" style="margin-top:8px"></div>
     <div class="cfoot" id="cashFoot"></div>
     <details id="cashDet"><summary>Kalemleri göster</summary><div id="cashList"></div></details></section>
   <section class="card feed" id="feedCard"><h2><span>Acil Feed <span id="feedCount"></span></span> <button id="feedNew">+ Yeni</button></h2><div class="legend">Masada en çok 8 iş: 🔴 gecikmiş, 🟠 bu hafta, 📌 ya da ❗ hayati. Düşük önemli işler departmanlarda kalır. Satır rengi = <b>vade zamanlaması</b>: 🔴 gecikmiş · 🟠 bu hafta · 🟡 bu ay · ⚪ tarihsiz/belirsiz (tarih girersen renk kendiliğinden değişir)</div><div id="feed"></div><button id="feedMore" hidden>Tümünü göster</button></section>
@@ -288,10 +289,11 @@ function cashNeed(d){
     const n=days(e.expected_date);
     if(e.dir==="in"){ (n<=7?IN.h1:n<=30?IN.h2:[]).push(row); }
     else if(n<=7) B.hafta.push(row); else if(n<=30) B.ay.push(row); }
-  return {B,IN,undated,skip};
+  const pat={}; for(const e of d.cash_forecast||[]){ if(e.done||e.dir!=="out"||!e.patient||!e.funded) continue; (pat[e.patient]=pat[e.patient]||{v:0,eur:0}); pat[e.patient].v+=fcTL(e,d); }
+  return {B,IN,undated,skip,pat};
 }
 function renderCash(d){
-  const {B,IN,undated,skip}=cashNeed(d), sum=a=>a.reduce((s,r)=>s+r.v,0);
+  const {B,IN,undated,skip,pat}=cashNeed(d), sum=a=>a.reduce((s,r)=>s+r.v,0);
   const gec=sum(B.gec), haf=sum(B.hafta), ay=sum(B.ay), in1=sum(IN.h1), in2=sum(IN.h2), und=sum(undated);
   const kasa=d.kasa&&typeof d.kasa.amount_try==="number"?d.kasa.amount_try:null, rez=kasa===null?0:Math.min(+(d.kasa.rezerve_try||0),kasa), usable=kasa===null?null:kasa-rez;
   const p7=usable===null?null:usable+in1-gec-haf, p30=p7===null?null:p7+in2-ay;
@@ -302,6 +304,8 @@ function renderCash(d){
    +`<div class="ct ${col(p30)}"><b>${p30===null?"—":TL(p30)}</b><span>30 gün sonu tahmini</span></div>`;
   $("cashTiles").innerHTML=[["red","Gecikmiş (plansız)",gec,B.gec],["orange","Bu hafta",haf,B.hafta],["yellow","30 gün içinde",ay,B.ay]].map(([c,l,v,a])=>`<div class="ct ${c}"><b>${TL(v)}</b><span>${l} · ${a.length} kalem</span></div>`).join("");
   $("cashIn").innerHTML=`<div class="ct green"><b>${TL(in1)}</b><span>Giriş · 7 gün</span></div><div class="ct green"><b>${TL(in2)}</b><span>Giriş · 8-30 gün</span></div><div class="ct grey"><b>${TL(und)}</b><span>Tarihsiz beklenen çıkış · ${undated.length}</span></div>`;
+  const pn=Object.keys(pat), pv=pn.reduce((t,k)=>t+pat[k].v,0);
+  $("cashPat").innerHTML=pn.length?`<div class="ct yellow"><b>${TL(pv)}</b><span>Hasta parası alındı/harcandı, provider payı bekliyor · ${pn.length} hasta (${esc(pn.join(", "))})</span></div>`:"";
   $("cashFoot").innerHTML=`Kur €1 = ₺${FXR(d).toLocaleString("tr-TR")} · $1 = ₺${FXU(d).toLocaleString("tr-TR")}${d.fx&&d.fx.at?" ("+fmtDate(d.fx.at)+")":""}. Giriş tutarları komisyon sonrası net. Aksiyon günü (▶) varsa ona, yoksa vadeye göre.${skip.length?` Tutarı/tarihi olmayan ya da yabancı para: ${skip.length} kalem (${esc(skip.join(", "))}).`:""}`;
   const row=r=>`<div class="crow"><span>${esc(r.name)} <i>${r.eff?(r.plan?"▶ ":r.fc?"":"vade ")+fmtDate(r.eff):"tarihsiz"}${r.fc?" · "+r.orig+(r.est?" · tahmini":""):""}</i></span><span>${r.dir==="in"?"+":""}<b>${TL(r.v)}</b>${r.fc?` <button class="x" data-fcdone="${esc(r.fc)}" title="Tamamlandı">✓</button><button class="x" data-fcdel="${esc(r.fc)}" title="Sil">✕</button>`:""}</span></div>`;
   const grp=(t,a)=>a.length?`<div class="sub2">${t}</div>`+[...a].sort((x,y)=>(x.eff||"9")<(y.eff||"9")?-1:1).map(row).join(""):"";

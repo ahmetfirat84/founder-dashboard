@@ -894,7 +894,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 19:45",
+  "updated": "2026-10-17 20:15",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1047,7 +1047,8 @@
       "patient": "Jodie R.",
       "note": "Ameliyat 26 Eki (HubSpot treatment_date) + 1 hafta. IC Hospital vadesi genelde ameliyattan 1 hafta sonra.",
       "source": "manual",
-      "origin": "HubSpot line item maliyeti + Ahmet 17 Eki"
+      "origin": "HubSpot line item maliyeti + Ahmet 17 Eki",
+      "funded": true
     },
     {
       "uid": "eca966",
@@ -1062,7 +1063,8 @@
       "patient": "Jodie R.",
       "note": "€75 paket gecesi + €85 ekstra gece maliyeti. Yeni fatura kesilecek mi, mevcut bakiyede mi: teyit et.",
       "source": "manual",
-      "origin": "HubSpot line item maliyeti"
+      "origin": "HubSpot line item maliyeti",
+      "funded": true
     },
     {
       "uid": "071507",
@@ -1077,7 +1079,8 @@
       "patient": "Jodie R.",
       "note": "Satış €70, maliyet €100. Yeni fatura mı, mevcut bakiyede mi: teyit et.",
       "source": "manual",
-      "origin": "HubSpot line item maliyeti"
+      "origin": "HubSpot line item maliyeti",
+      "funded": true
     },
     {
       "uid": "cf5359",
@@ -1092,7 +1095,8 @@
       "patient": "Jodie R.",
       "note": "Alımlar ameliyat öncesi/sonrası yapılır; ödeme tarihi belirsiz.",
       "source": "manual",
-      "origin": "HubSpot line item maliyeti"
+      "origin": "HubSpot line item maliyeti",
+      "funded": true
     },
     {
       "uid": "p3wcqw",
@@ -1169,7 +1173,8 @@
       "patient": "Nate",
       "note": "Klinik bu hafta fatura keser, ay bitmeden ödenecek (HubSpot maliyeti €4.200). Henüz hiç ödeme yapılmadı.",
       "source": "manual",
-      "origin": "Ahmet 17 Eki + HubSpot maliyeti"
+      "origin": "Ahmet 17 Eki + HubSpot maliyeti",
+      "funded": true
     },
     {
       "uid": "01e505",
@@ -1184,7 +1189,72 @@
       "patient": "Nate",
       "note": "2. gelişte (5-6 ay sonra, ~Mart 2027) ödenecek; tahsilatı hastadan önden alıyoruz. HubSpot maliyeti €2.800 (kâr 0). Tarih tahmini.",
       "source": "manual",
-      "origin": "Ahmet 17 Eki + HubSpot maliyeti"
+      "origin": "Ahmet 17 Eki + HubSpot maliyeti",
+      "funded": false
+    },
+    {
+      "uid": "2321b9",
+      "dir": "out",
+      "party": "IC Hospital",
+      "label": "Ameliyat bedeli (Dr. Toydemir, Comfort)",
+      "amount": 1200,
+      "cur": "EUR",
+      "fee_pct": 0,
+      "expected_date": "2026-11-03",
+      "certainty": "tahmini",
+      "patient": "Bella R.",
+      "funded": true,
+      "note": "HubSpot: Gastric Bypass Comfort, ameliyat 27 Eki 2026; IC Hospital vadesi ameliyattan ~1 hafta sonra. Hasta tam ödedi, para kullanıldı.",
+      "source": "manual",
+      "origin": "HubSpot (deal maliyetleri) + Ahmet 17 Eki"
+    },
+    {
+      "uid": "f83d67",
+      "dir": "out",
+      "party": "Orya + Tetik + ilaç/protein",
+      "label": "Otel €75 + transfer €100 + ilaç €80 + protein €16",
+      "amount": 271,
+      "cur": "EUR",
+      "fee_pct": 0,
+      "expected_date": null,
+      "certainty": "belirsiz",
+      "patient": "Bella R.",
+      "funded": true,
+      "note": "HubSpot line item maliyetleri; yeni fatura mı mevcut bakiyede mi teyit et.",
+      "source": "manual",
+      "origin": "HubSpot (deal maliyetleri) + Ahmet 17 Eki"
+    },
+    {
+      "uid": "d9a296",
+      "dir": "out",
+      "party": "IC Hospital",
+      "label": "Ameliyat bedeli (Dr. Toydemir, Comfort)",
+      "amount": 1200,
+      "cur": "EUR",
+      "fee_pct": 0,
+      "expected_date": "2027-03-19",
+      "certainty": "belirsiz",
+      "patient": "Elaine M.",
+      "funded": true,
+      "note": "HubSpot: Gastric Sleeve Comfort, ameliyat 12 Mar 2027; ödeme ameliyattan ~1 hafta sonra. Hasta tam ödedi, para kullanıldı.",
+      "source": "manual",
+      "origin": "HubSpot (deal maliyetleri) + Ahmet 17 Eki"
+    },
+    {
+      "uid": "b29275",
+      "dir": "out",
+      "party": "Orya + Tetik + ilaç/protein",
+      "label": "Otel €75 + transfer €100 + ilaç €80 + protein €16",
+      "amount": 271,
+      "cur": "EUR",
+      "fee_pct": 0,
+      "expected_date": "2027-03-31",
+      "certainty": "belirsiz",
+      "patient": "Elaine M.",
+      "funded": true,
+      "note": "HubSpot line item maliyetleri; Mart 2027 civarı, tarih tahmini.",
+      "source": "manual",
+      "origin": "HubSpot (deal maliyetleri) + Ahmet 17 Eki"
     }
   ]
 }
