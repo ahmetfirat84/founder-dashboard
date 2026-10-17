@@ -68,7 +68,11 @@
       "amount": "₺154.544,00 (asgari)",
       "due": "Vadesi geçti (15 Eki)",
       "note": "Para girince ilk ödenecek. Bilgi: toplam ekstre borcu ₺377.293,60, asgari ödenmemiş (VakıfBank bildirimi 16 Eki).",
-      "due_date": "2026-10-15"
+      "due_date": "2026-10-15",
+      "uid": "bgftgs",
+      "urgency": "gray",
+      "pin": true,
+      "plan_date": "2026-10-19"
     },
     {
       "title": "SGK yapılandırma taksiti",
@@ -848,7 +852,7 @@
   "feed_order": [
     "r3l7ss",
     "tmtmkp",
-    "c|5. VakıfBank kredi kartı asgari ödeme",
+    "bgftgs",
     "c|SGK yapılandırma taksiti",
     "c|4. HİB yıllık aidat",
     "c|2. Garanti BBVA kredi kartı borcu",
