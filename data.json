@@ -850,6 +850,10 @@
       ],
       "notes": [
         {
+          "text": "Apple Premium (aylık) aboneliği ₺99 ödendi (KDV dahil); 18 Kasım 2026'da yenilenecek. (kaynak: E-posta (17 Eki 19:38): Apple · Your receipt from Apple.)",
+          "at": "2026-10-17 19:39"
+        },
+        {
           "text": "Yeni WhatsApp Business numarası satın alındı: +447822033161 (YourBusinessNumber, UK). Doğrulama kodu e-postaya gelecek. İlk hafta WhatsApp Web bağlamayın, grup eklemeyin ve toplu mesaj göndermeyin. (kaynak: E-posta (17 Eki 12:26): hello@yourbusinessnumber.com · YourBusinessNumber Order )",
           "at": "2026-10-17 15:33"
         },
@@ -860,7 +864,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 18:55",
+  "updated": "2026-10-17 19:39",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -914,7 +918,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDVERjUwRjgxQTYxN0RCRkYzRQA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEVFMTkzRjc2QTRGM0VBOUNBNgA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0ExN0YyODY3NjZENDc5OTgzODEA",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzMUE5NjYyRkZCMzA0NUVCM0UA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzMUE5NjYyRkZCMzA0NUVCM0UA",
+    "1a14abb2ab8edbdd"
   ],
   "feed_order": [
     "r3l7ss",
