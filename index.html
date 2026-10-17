@@ -18,6 +18,13 @@
   h2{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--mut);margin:0 0 8px;display:flex;justify-content:space-between}
   h2 button{font-size:11px;padding:2px 8px;text-transform:none;letter-spacing:0}
   .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+  #cashCard h2{margin:0 0 8px}.cgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+  .ct{border:1px solid var(--line);border-left:4px solid var(--line);border-radius:10px;padding:8px 10px;background:var(--bg)}
+  .ct b{display:block;font-size:17px;line-height:1.2}.ct span{font-size:11.5px;color:var(--mut)}
+  .ct.red{border-left-color:#d64545}.ct.orange{border-left-color:#e8892b}.ct.yellow{border-left-color:#d9b310}
+  .cfoot{font-size:12px;color:var(--mut);margin-top:8px}#cashDet summary{cursor:pointer;font-size:13px;margin-top:8px;color:var(--mut)}
+  .crow{display:flex;justify-content:space-between;gap:10px;font-size:13px;padding:4px 0;border-bottom:1px solid var(--line)}.crow i{font-style:normal;color:var(--mut);font-size:12px}
+  @media(max-width:420px){.ct b{font-size:15px}}
   ol{margin:0;padding-left:20px}li{margin:6px 0}
   [contenteditable]{outline:none;border-radius:4px}[contenteditable]:focus{background:var(--yellowbg)}
   .grid{display:grid;gap:10px;grid-template-columns:1fr}
@@ -40,7 +47,7 @@
     header,.prio{grid-column:1/-1}
     .grid{grid-template-columns:1fr 1fr}
     aside{display:grid;gap:12px;grid-column:2;grid-row:3 / span 3;position:sticky;top:12px}
-    #feedCard,#healthLegend,#depts{grid-column:1}
+    #cashCard,#feedCard,#healthLegend,#depts{grid-column:1}
   }
 
   .add{margin-left:6px;padding:0 9px;font-size:16px;line-height:24px;border-radius:12px}
@@ -91,6 +98,9 @@
 
   <section class="card prio"><h2>Bugünün Top 3 <button id="reset" hidden>sıfırla</button></h2><ol id="prio"></ol></section>
 
+  <section class="card" id="cashCard"><h2>Nakit ihtiyacı</h2>
+    <div class="cgrid" id="cashTiles"></div><div class="cfoot" id="cashFoot"></div>
+    <details id="cashDet"><summary>Kalemleri göster</summary><div id="cashList"></div></details></section>
   <section class="card feed" id="feedCard"><h2><span>Acil Feed <span id="feedCount"></span></span> <button id="feedNew">+ Yeni</button></h2><div class="legend">Masada en çok 8 iş: 🔴 gecikmiş, 🟠 bu hafta, 📌 ya da ❗ hayati. Düşük önemli işler departmanlarda kalır. Satır rengi = <b>vade zamanlaması</b>: 🔴 gecikmiş · 🟠 bu hafta · 🟡 bu ay · ⚪ tarihsiz/belirsiz (tarih girersen renk kendiliğinden değişir)</div><div id="feed"></div><button id="feedMore" hidden>Tümünü göster</button></section>
 
   <div class="legend" id="healthLegend">Kart etiketi = <b>genel durum</b>: <span class="pill green">Sorunsuz</span> acil iş yok · <span class="pill yellow">Bekleyen işler</span> 30 gün içinde vadeli iş var · <span class="pill red">Kritik</span> gecikmiş iş var (otomatik)</div>
@@ -190,6 +200,7 @@ function applyFeedOp(d,op){
     d.feed_order=(d.feed_order||[]).filter(k=>k!==op.key&&k!==f.o.uid); return; }
   if(op.t==="feededit"){ const f=findObj(d,op.key); if(!f)return; const o=f.o, v=op.f;
     if(!o.uid){ o.uid=op.uid; if(d.feed_order){const i=d.feed_order.indexOf(op.key); if(i>=0)d.feed_order[i]=o.uid} }
+    if(v.amount!==undefined&&v.amount!==o.amount) delete o.amount_try;   // metin değişti, eski sayı geçersiz
     ["action_type","category","party","amount","due"].forEach(k=>{ if(v[k]!==undefined) o[k]=v[k]; });
     if(v.urgency){ o.urgency=v.urgency; }
     if(v.pin) o.pin=true; else delete o.pin;
@@ -237,6 +248,34 @@ async function load(){
 }
 
 const ts=t=>{if(!t)return"";const [dt,tm]=t.split(" ");return fmt(dt)+(tm?" "+tm:"")};
+// NAKİT İHTİYACI: ₺ tutar (amount_try ya da metinden), etkin tarih = aksiyon günü || vade
+function tryAmount(a){
+  if(typeof a.amount_try==="number") return a.amount_try;
+  const t=String(a.amount||""); if(!t.trim()) return null;
+  if(/[€$£]|EUR|USD|GBP/.test(t)&&!/₺|TL/.test(t)) return null;
+  const m=t.match(/(\d{1,3}(?:\.\d{3})+(?:,\d+)?|\d+(?:,\d+)?|\d+(?:\.\d+)?)/); if(!m) return null;
+  let v=m[1]; if(v.includes(",")) v=v.replace(/\./g,"").replace(",","."); else if(/^\d{1,3}(\.\d{3})+$/.test(v)) v=v.replace(/\./g,"");
+  const n=parseFloat(v); return isFinite(n)?n:null;
+}
+const TL=n=>"₺"+Math.round(n).toLocaleString("tr-TR");
+function cashNeed(d){
+  const today=todayStr(), days=s=>Math.round((new Date(s+"T00:00:00")-new Date(today+"T00:00:00"))/864e5);
+  const B={gec:[],hafta:[],ay:[]}, skip=[];
+  for(const a of d.cash_alerts||[]){ if(a.done) continue;
+    const v=tryAmount(a), name=a.party||a.title||"?";
+    if(v===null){ skip.push(name+(a.amount?" ("+a.amount+")":"")); continue; }
+    const eff=a.plan_date||a.due_date, n=eff?days(eff):null, row={name,v,eff,plan:!!a.plan_date};
+    if(n===null) skip.push(name+" (tarihsiz)");
+    else if(n<0) B.gec.push(row); else if(n<=7) B.hafta.push(row); else if(n<=30) B.ay.push(row); }
+  return {B,skip};
+}
+function renderCash(d){
+  const {B,skip}=cashNeed(d), sum=k=>B[k].reduce((s,r)=>s+r.v,0);
+  const tiles=[["red","Gecikmiş (plansız)","gec"],["orange","Bu hafta","hafta"],["yellow","30 gün içinde","ay"]];
+  $("cashTiles").innerHTML=tiles.map(([c,l,k])=>`<div class="ct ${c}"><b>${TL(sum(k))}</b><span>${l} · ${B[k].length} kalem</span></div>`).join("");
+  $("cashFoot").innerHTML=`Aksiyon günü (▶) varsa ona, yoksa vadeye göre. Toplam <b>${TL(sum("gec")+sum("hafta")+sum("ay"))}</b>${skip.length?` · tutarı/tarihi olmayan ya da yabancı para: ${skip.length} kalem (${esc(skip.join(", "))})`:""}`;
+  $("cashList").innerHTML=tiles.map(([c,l,k])=>B[k].length?`<div class="sub2">${l}</div>`+B[k].sort((a,b)=>(a.eff||"")<(b.eff||"")?-1:1).map(r=>`<div class="crow"><span>${esc(r.name)} <i>${r.eff?(r.plan?"▶ ":"vade ")+fmtDate(r.eff):""}</i></span><b>${TL(r.v)}</b></div>`).join(""):"").join("");
+}
 function render(){
   const d=D;
   $("date").textContent=new Date(d.date+"T12:00").toLocaleDateString("tr-TR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
@@ -256,6 +295,7 @@ function render(){
         ${done.length?`<div class="sub2">Tamamlananlar (${done.length})</div><ul>${done.map(li).join("")}</ul>`:""}
       </div></details>`;}).join("");
 
+  renderCash(d);
   const rv=d.review||[];$("reviewCard").hidden=!rv.length;
   $("review").innerHTML=rv.map(r=>`<div class="alert"><span>❔</span><div><strong>${esc(r.subject)}</strong><small>${esc(r.from)}${r.note?" · "+esc(r.note):""}</small></div><div></div></div>`).join("");
   $("meet").innerHTML=d.meetings.length?d.meetings.map(m=>`<div class="meet"><b>${esc(m.time)}</b><div>${esc(m.title)}${m.note?`<small>${esc(m.note)}</small>`:""}</div></div>`).join(""):'<span class="date">Bugün toplantı yok</span>';
