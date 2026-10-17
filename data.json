@@ -126,19 +126,6 @@
       "due_date": "2026-10-28",
       "note": "Kart ödemesi başarısız, fatura vadesi 17 Eki geçti. Ödeme yenilenmezse 28 Eki'de hesap askıya alınır.",
       "id": "1a1472d5074b5651"
-    },
-    {
-      "action_type": "Ödeme",
-      "category": "",
-      "party": "Bayidat",
-      "amount": "₺80.000",
-      "due": "Ekim sonu",
-      "uid": "uiqsmp",
-      "source": "whatsapp",
-      "wamid": "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4RERCNENGRkMyMDMwRjIwRkQA",
-      "due_date": "2026-10-31",
-      "title": "Bayidat",
-      "note": "Bayidat'a ₺80.000 ödeme, vade Ekim sonu"
     }
   ],
   "departments": [
