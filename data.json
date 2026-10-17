@@ -758,10 +758,16 @@
           "amount": "",
           "urgency": "gray"
         }
+      ],
+      "notes": [
+        {
+          "text": "not: GitHub hesabına 17 Eki'de yeni bir erişim anahtarı (newme-asistant) eklendi. Size ait değilse GitHub güvenlik ayarlarından iptal edin. (kaynak: E-posta (17 Eki 12:54): GitHub · [GitHub] A fine-grained personal access token h)",
+          "at": "2026-10-17 15:33"
+        }
       ]
     }
   ],
-  "updated": "2026-10-17 15:05",
+  "updated": "2026-10-17 15:33",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -804,7 +810,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDcwMTRDMjc4OUQ3NjdEMUQ4MwA=",
     "1a144ace4d5d30d6",
     "1a148cdec1f15fbf",
-    "1a149a5e48884fa9"
+    "1a149a5e48884fa9",
+    "1a14948ed11438ee"
   ],
   "feed_order": [
     "c|1. GBC sanal ofis yenilemesi",
