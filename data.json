@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "source": "2026-10-16_sabah-brifing (Drive: 09_Management/briefing-system/handoffs)",
   "priorities": [
     "HubSpot Maximum monthly credits = 3.000 gir (yenileme 17 Ekim, en geç 10:00)",
@@ -113,6 +113,17 @@
       "category": "Vergi / SGK",
       "party": "SGK cari prim + maaşlar",
       "due_date": "2026-10-31"
+    },
+    {
+      "title": "HubSpot fatura 842326601 – kart reddedildi",
+      "action_type": "Ödeme",
+      "category": "Abonelik",
+      "party": "HubSpot",
+      "amount": "€320",
+      "due": "28 Eki (askıya alma)",
+      "due_date": "2026-10-28",
+      "note": "Kart ödemesi başarısız, fatura vadesi 17 Eki geçti. Ödeme yenilenmezse 28 Eki'de hesap askıya alınır.",
+      "id": "1a1472d5074b5651"
     }
   ],
   "departments": [
@@ -121,7 +132,7 @@
       "name": "BATU",
       "area": "Muhasebe",
       "status": "red",
-      "updated": "2026-10-16 16:00",
+      "updated": "2026-10-17 11:50",
       "items": [
         {
           "text": "SGK ödeme planı dökümünü çıkar: taksit sayısı, ödenen/aksayan, ilk taksit (31.08) ödendi mi, bozulma tarihi; CPA Türk'ten (Yasemin Hanım) teyit al",
@@ -276,6 +287,19 @@
           "id": "1a144b11f137335a",
           "feed": false,
           "due_date": "2026-10-15"
+        },
+        {
+          "text": "HubSpot kart ödemesi reddedildi (fatura 842326601, €320); kartı güncelle/ödemeyi yeniden dene, yoksa hesap 28 Eki'de askıya alınır",
+          "due": "28 Eki",
+          "owner": "",
+          "action_type": "Ödeme",
+          "category": "Abonelik",
+          "party": "HubSpot",
+          "amount": "€320",
+          "due_date": "2026-10-28",
+          "source": "email",
+          "id": "1a1472d5074b5651",
+          "feed": false
         }
       ],
       "summary": "SGK/CPA ödeme teyitleri bekliyor",
@@ -641,7 +665,7 @@
       ]
     }
   ],
-  "updated": "2026-10-16 17:15",
+  "updated": "2026-10-17 11:50",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
