@@ -18,7 +18,7 @@
       "title": "1. GBC sanal ofis yenilemesi",
       "amount": "₺41.828",
       "due": "Vadesi geçti (01.09)",
-      "note": "Para girince ilk ödenecek. Yeni dönem 31.08'de başladı, GBC 23 Tem, 13 Ağu, 1 Eyl ve 1 Eki'de hatırlattı. Gecikmede faiz işliyor.",
+      "note": "17.10 22:37 dekont: ₺41.786 (+₺8,38 havale ücreti) GBC'ye gönderildi, satır tutarı ₺41.828 (fark ₺42). Yeni dönem 31.08'de başladı, GBC 23 Tem, 13 Ağu, 1 Eyl ve 1 Eki faturaları.",
       "action_type": "Ödeme",
       "category": "Ofis",
       "party": "Galata Business Center",
@@ -27,7 +27,8 @@
       "urgency": "gray",
       "pin": true,
       "imp": "high",
-      "plan_date": "2026-10-19"
+      "plan_date": "2026-10-19",
+      "origin": "WhatsApp (17 Eki 22:38, belge)"
     },
     {
       "title": "2. Garanti BBVA kredi kartı borcu",
@@ -893,7 +894,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 18:30",
+  "updated": "2026-10-17 22:38",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -948,7 +949,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEVFMTkzRjc2QTRGM0VBOUNBNgA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0ExN0YyODY3NjZENDc5OTgzODEA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzMUE5NjYyRkZCMzA0NUVCM0UA",
-    "1a14abb2ab8edbdd"
+    "1a14abb2ab8edbdd",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFEOTAxNTNCMDVFNEU5RkM3RDYA"
   ],
   "feed_order": [
     "r3l7ss",
