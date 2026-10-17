@@ -60,7 +60,8 @@
   .feed .st{font-size:15px;line-height:1.35}
   .feed input[type=checkbox]{margin-right:6px;vertical-align:-1px}
   #feedMore{margin-top:8px;font-size:13px}
-  .l1d{display:block;font-weight:600}.lowimp{opacity:.62}.og{font-size:11.5px;color:var(--mut);margin-top:2px}.feed .og{grid-column:2;margin:0}.fe .pinl input{width:auto;flex:none}.pinl{grid-column:1/-1;font-size:13px;display:flex;gap:6px;align-items:center}
+  .l1d{display:block;font-weight:600}.lowimp{opacity:.62}.og{font-size:11.5px;color:var(--mut);margin-top:2px}.feed .og{grid-column:2;margin:0}.fe .pinl input{width:auto;flex:none}
+  .fe .dl{display:flex;flex-direction:column;gap:3px;font-size:12px;color:var(--mut)}.pinl{grid-column:1/-1;font-size:13px;display:flex;gap:6px;align-items:center}
   .fa{grid-column:2;display:flex;gap:6px;margin-top:2px}
   .fa button{font-size:12px;padding:0 9px;line-height:24px}
   .fa button:disabled{opacity:.3;cursor:default}
@@ -154,13 +155,14 @@ function deptHealth(x){ let h="green";
   return h; }
 function buildFeed(d){
   const rows=[];
-  d.cash_alerts.filter(a=>!a.done).forEach(a=>rows.push({kind:"cash",k:fkey(a,"cash"),st:urgencyOf(a),a:a.action_type||"Ödeme",c:a.category,p:a.party||a.title,am:a.amount,du:a.due||fmtDate(a.due_date),dd:a.due_date,tx:a.note,src:"Nakit",pin:!!a.pin,imp:a.imp||"",og:srcTag(a)}));
+  d.cash_alerts.filter(a=>!a.done).forEach(a=>rows.push({kind:"cash",k:fkey(a,"cash"),st:urgencyOf(a),a:a.action_type||"Ödeme",c:a.category,p:a.party||a.title,am:a.amount,du:a.due||fmtDate(a.due_date),dd:a.due_date,tx:a.note,src:"Nakit",pin:!!a.pin,imp:a.imp||"",pl:a.plan_date||"",og:srcTag(a)}));
   d.departments.forEach(x=>x.items.forEach(i0=>{const i=norm(i0); if(i.done||i.feed===false)return;
-    rows.push({kind:"item",dk:x.key,k:fkey(i,"item",x.key),st:urgencyOf(i),a:i.action_type||"Yanıt",c:i.category,p:i.party,am:i.amount,du:i.due||fmtDate(i.due_date),dd:i.due_date,tx:i.text,nt:i.note,src:x.area,t:i.text,pin:!!i.pin,imp:i.imp||"",og:srcTag(i)})}));
+    rows.push({kind:"item",dk:x.key,k:fkey(i,"item",x.key),st:urgencyOf(i),a:i.action_type||"Yanıt",c:i.category,p:i.party,am:i.amount,du:i.due||fmtDate(i.due_date),dd:i.due_date,tx:i.text,nt:i.note,src:x.area,t:i.text,pin:!!i.pin,imp:i.imp||"",pl:i.plan_date||"",og:srcTag(i)})}));
   const urgent=rows.sort((p,q)=>ORD[p.st]-ORD[q.st]);
   const ord=d.feed_order||[];   // elle sıra: sırada olmayan yeni satırlardan gecikmiş/bu hafta olanlar en üste, diğerleri en alta gelir
   const pos=r=>{const i=ord.indexOf(r.k); return i>=0?i:((r.st==="red"||r.st==="orange")?-1:1e6);};
-  return urgent.sort((p,q)=>pos(p)-pos(q));
+  const top=r=>(r.pin||r.imp==="high")?0:1;
+  return urgent.sort((p,q)=>pos(p)-pos(q)).sort((p,q)=>top(p)-top(q));
 }
 const DESK_MAX=8;
 const onDesk=r=>r.pin||r.imp==="high"||((r.st==="red"||r.st==="orange")&&r.imp!=="low");
@@ -175,7 +177,7 @@ function deskRows(d){ const all=buildFeed(d).filter(onDesk);
 // dept listesi ve feed AYNI satır biçimi: Aksiyon tipi · Kategori · Taraf · Tutar · Vade
 const srcTag=o=>{ const sc=o.source||o.src_; if(o.origin) return (String(o.origin).startsWith("WhatsApp")?"💬 ":"📧 ")+o.origin;
   return sc==="email"?"📧 e-posta taraması":sc==="gecmis-tarama"?"🕘 geçmiş tarama":sc==="asistan"?"📧 asistan":sc==="whatsapp"?"💬 WhatsApp":sc==="mail"||sc==="mail-gelen"?"📧 e-posta":""; };
-const lineParts=r=>[r.a,r.c,r.p,r.am,r.du].filter(Boolean).map(esc).join(' <span class="sep">·</span> ');
+const lineParts=r=>[r.a,r.c,r.p,r.am,r.du,r.pl?"▶ "+fmtDate(r.pl):""].filter(Boolean).map(esc).join(' <span class="sep">·</span> ');
 function findObj(d,key){
   for(const a of d.cash_alerts) if(fkey(a,"cash")===key) return {o:a,kind:"cash",arr:d.cash_alerts};
   for(const x of d.departments){ x.items=x.items.map(norm); for(const i of x.items) if(fkey(i,"item",x.key)===key) return {o:i,kind:"item",arr:x.items}; }
@@ -191,13 +193,14 @@ function applyFeedOp(d,op){
     ["action_type","category","party","amount","due"].forEach(k=>{ if(v[k]!==undefined) o[k]=v[k]; });
     if(v.urgency){ o.urgency=v.urgency; }
     if(v.pin) o.pin=true; else delete o.pin;
+    if(v.plan_date!==undefined){ if(v.plan_date) o.plan_date=v.plan_date; else delete o.plan_date; }
     if(v.imp==="low"||v.imp==="high") o.imp=v.imp; else delete o.imp;
     if(v.due_date!==undefined){ if(v.due_date) o.due_date=v.due_date; else delete o.due_date; }
     delete o.status; delete o.level;
     if(v.tx!==undefined){ if(f.kind==="cash") o.note=v.tx; else if(v.tx) o.text=v.tx; }
     if(f.kind==="item" && o.source==="email") o.source="manual"; return; }
   if(op.t==="feedadd"){ const v=op.f;
-    const base={action_type:v.action_type||"Yanıt",category:v.category||"",party:v.party||"",amount:v.amount||"",due:v.due||"",uid:op.uid}; if(v.due_date) base.due_date=v.due_date; else base.urgency=v.urgency||"gray"; if(v.pin) base.pin=true; if(v.imp==="low"||v.imp==="high") base.imp=v.imp;
+    const base={action_type:v.action_type||"Yanıt",category:v.category||"",party:v.party||"",amount:v.amount||"",due:v.due||"",uid:op.uid}; if(v.due_date) base.due_date=v.due_date; else base.urgency=v.urgency||"gray"; if(v.pin) base.pin=true; if(v.plan_date) base.plan_date=v.plan_date; if(v.imp==="low"||v.imp==="high") base.imp=v.imp;
     if(op.dep==="cash") d.cash_alerts.push({...base,title:v.party||v.tx||"Yeni",note:v.tx||""});
     else { const dep=d.departments.find(x=>x.key===op.dep); if(!dep)return; dep.items.push({...base,text:v.tx||v.party||"Yeni",owner:"",source:"manual"}); } }
 }
@@ -240,7 +243,7 @@ function render(){
   const openSet=new Set([...document.querySelectorAll("details.dept[open]")].map(e=>e.dataset.k));
   $("depts").innerHTML=d.departments.map(x=>{
     const h=deptHealth(x); const items=x.items.map(norm), open=items.filter(i=>!i.done), done=items.filter(i=>i.done), notes=(x.notes||[]).slice(0,3);
-    const li=i=>{ const lp=lineParts({a:i.action_type,c:i.category,p:i.party,am:i.amount,du:i.due||fmtDate(i.due_date)}); const hasS=i.action_type||i.category||i.party||i.amount||i.due||i.due_date;
+    const li=i=>{ const lp=lineParts({a:i.action_type,c:i.category,p:i.party,am:i.amount,du:i.due||fmtDate(i.due_date),pl:i.plan_date}); const hasS=i.action_type||i.category||i.party||i.amount||i.due||i.due_date;
       return `<li class="${i.done?"done":""}${i.imp==="low"?" lowimp":""}"><input type="checkbox" data-k="${esc(x.key)}" data-t="${esc(i.text)}" ${i.done?"checked":""} aria-label="Tamamlandı"><span class="ud ${urgencyOf(i)}" title="vade rengi"></span><span class="tx">${hasS?`<span class="l1d">${lp}${i.pin?" 📌":""}${i.imp==="high"?" ❗":""}${i.imp==="low"?' <span class="tag">düşük önem</span>':""}</span><small class="inote">${esc(i.text)}${i.note?" · "+esc(i.note):""}</small>`:`${esc(i.text)}${i.note?`<small class="inote">${esc(i.note)}</small>`:""}`}${i.owner?` <span class="tag own">${esc(i.owner)}</span>`:""}${srcTag(i)?`<small class="og">↳ ${esc(srcTag(i))}</small>`:""}</span></li>`; };
     return `<details class="card dept ${h}" data-k="${esc(x.key)}" ${openSet.has(x.key)?"open":""}>
       <summary>
@@ -268,7 +271,8 @@ function render(){
     +`<input name="party" placeholder="Taraf (kurum/kişi)" value="${esc(r.p||"")}">`
     +`<input name="amount" placeholder="Tutar" value="${esc(r.am||"")}">`
     +`<input name="due" placeholder="Vade (yazı)" value="${esc(r.du||"")}">`
-    +sel("urgency",[["red","🔴 Gecikmiş"],["orange","🟠 Bu hafta"],["yellow","🟡 Bu ay"],["gray","⚪ Tarihsiz"]],r.dd?"gray":(r.st||"gray"))+`<input name="due_date" type="date" title="Vade tarihi: girilirse renk otomatik" value="${esc(r.dd||"")}">`
+    +sel("urgency",[["red","🔴 Gecikmiş"],["orange","🟠 Bu hafta"],["yellow","🟡 Bu ay"],["gray","⚪ Tarihsiz"]],r.dd?"gray":(r.st||"gray"))+`<label class="dl">Vade tarihi (yapılması gereken, renk buna göre)<input name="due_date" type="date" value="${esc(r.dd||"")}"></label>`
+    +`<label class="dl">Aksiyon günü (ne zaman yapılacak)<input name="plan_date" type="date" value="${esc(r.pl||"")}"></label>`
     +sel("imp",[["","Önem: Normal"],["high","❗ Hayati"],["low","⬇ Düşük (feed'e girmez)"]],r.imp||"")
     +`<label class="pinl"><input type="checkbox" name="pin" ${r.pin?"checked":""}> 📌 Masada tut (onayım gerekli / önemli)</label>`
     +`<textarea name="tx" class="wide" rows="3" placeholder="Açıklama">${esc(r.tx||"")}</textarea>`
