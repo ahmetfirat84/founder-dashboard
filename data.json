@@ -759,7 +759,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 14:12",
+  "updated": "2026-10-17 14:19",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -774,6 +774,13 @@
       "date": "2026-09-30",
       "thread": "",
       "note": "Akreditasyon teklifi, yanıt durumu belli değil"
+    },
+    {
+      "subject": "Bilgilendirme: Kredi Kartı Asgari Ödeme Tutarı",
+      "from": "\"VakıfBank\" <bildirim@vakifbank.com.tr>",
+      "date": "2026-10-16T12:25:43.000Z",
+      "thread": "1a144ace4d5d30d6",
+      "note": "Bilinmeyen gönderen, onay gerekir"
     }
   ],
   "asistan_seen": [
@@ -799,7 +806,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDc0RTVFNzYzNDc0ODZGMTI4NgA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEU0NzU1RjVDODU4MTFBRDI0QwA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDNBMTAwODlERUQzOEJDMDdBMQA=",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDcwMTRDMjc4OUQ3NjdEMUQ4MwA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDcwMTRDMjc4OUQ3NjdEMUQ4MwA=",
+    "1a144ace4d5d30d6"
   ],
   "feed_order": [
     "c|1. GBC sanal ofis yenilemesi",
