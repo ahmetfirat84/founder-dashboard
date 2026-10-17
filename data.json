@@ -24,9 +24,10 @@
       "party": "Galata Business Center",
       "due_date": "2026-09-01",
       "uid": "r3l7ss",
-      "urgency": "red",
+      "urgency": "gray",
       "pin": true,
-      "imp": "high"
+      "imp": "high",
+      "plan_date": "2026-10-19"
     },
     {
       "title": "2. Garanti BBVA kredi kartı borcu",
