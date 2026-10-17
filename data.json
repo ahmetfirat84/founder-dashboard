@@ -761,6 +761,10 @@
       ],
       "notes": [
         {
+          "text": "Yeni WhatsApp Business numarası satın alındı: +447822033161 (YourBusinessNumber, UK). Doğrulama kodu e-postaya gelecek. İlk hafta WhatsApp Web bağlamayın, grup eklemeyin ve toplu mesaj göndermeyin. (kaynak: E-posta (17 Eki 12:26): hello@yourbusinessnumber.com · YourBusinessNumber Order )",
+          "at": "2026-10-17 15:33"
+        },
+        {
           "text": "not: GitHub hesabına 17 Eki'de yeni bir erişim anahtarı (newme-asistant) eklendi. Size ait değilse GitHub güvenlik ayarlarından iptal edin. (kaynak: E-posta (17 Eki 12:54): GitHub · [GitHub] A fine-grained personal access token h)",
           "at": "2026-10-17 15:33"
         }
@@ -811,7 +815,8 @@
     "1a144ace4d5d30d6",
     "1a148cdec1f15fbf",
     "1a149a5e48884fa9",
-    "1a14948ed11438ee"
+    "1a14948ed11438ee",
+    "1a1492f5ce9c6f1d"
   ],
   "feed_order": [
     "c|1. GBC sanal ofis yenilemesi",
