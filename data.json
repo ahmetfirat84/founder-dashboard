@@ -243,6 +243,25 @@
       "plan_date": "2026-10-19",
       "imp": "high",
       "pin": true
+    },
+    {
+      "title": "Neome marka tescil belge harcı (Saygın Patent)",
+      "party": "Saygın Patent",
+      "action_type": "Ödeme",
+      "category": "Hukuk",
+      "amount": "₺15.600 (13.000 + %20 KDV)",
+      "amount_try": 15600,
+      "due": "Bugün 18 Eki (son gün)",
+      "due_date": "2026-10-18",
+      "plan_date": "2026-10-18",
+      "urgency": "red",
+      "imp": "high",
+      "pin": true,
+      "source": "manual",
+      "origin": "Ahmet 18 Eki (e-posta: Saygın Patent, 12 Eki)",
+      "uid": "qt5dom",
+      "mail_thread": "1a12f26f8a909d20",
+      "note": "2025/057803 'neome' markası kısmen tescil edildi; tescil belge ücreti ₺13.000 + KDV = ₺15.600. Son gün 18 Ekim 2026, geçerse tescil işlemi düşebilir. Hesap bilgisi Saygın Patent'in 12 Eki tarihli e-postasında (IBAN burada tutulmuyor). Ödeme sonrası dekontu WhatsApp'a at, kapatılır."
     }
   ],
   "departments": [
@@ -940,7 +959,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 01:07",
+  "updated": "2026-10-18 01:30",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
