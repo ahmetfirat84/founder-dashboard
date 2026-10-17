@@ -391,6 +391,10 @@
       "summary": "SGK/CPA ödeme teyitleri bekliyor",
       "notes": [
         {
+          "text": "Ahmet, ekstre talebine ilişkin muhasebe yazışmasını iletti: ekstreler muhasebeden geldiği gibi iletilecek. Ahmet gecikme için özür diledi. Mevcut ekstre talebi r21 satırında takipte. (kaynak: WhatsApp (17 Eki 16:11, yazılı))",
+          "at": "2026-10-17 16:11"
+        },
+        {
           "text": "Muhasebeden gelen ekstre talebi yanıtı Ahmet'e iletildi; banka ekstresi talebi (r19) ile ilgili, yeni bir ödeme veya vade yok. (kaynak: WhatsApp (17 Eki 16:11, yazılı))",
           "at": "2026-10-17 16:11"
         },
@@ -884,7 +888,8 @@
     "1a148a98897a1f4d",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDA4QjcwODM2QkY3REZFNjQ4QQA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEJDMjBCODVGREQyQUI1MTcwRQA=",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEVENUExRkI2Q0UxMTFCRUI3MgA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEVENUExRkI2Q0UxMTFCRUI3MgA=",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDQxNzZFNUIwMzdGNkQzODQyRQA="
   ],
   "feed_order": [
     "r3l7ss",
