@@ -668,7 +668,13 @@
           "due_date": "2026-10-23"
         }
       ],
-      "summary": "2 deal bugün kapanıyor"
+      "summary": "2 deal bugün kapanıyor",
+      "notes": [
+        {
+          "text": "Toplam alacak €3950, HubSpot deal kaydıyla teyit edilecek (r23 Nate tahsilatı ile eşleşiyor olabilir). (kaynak: WhatsApp (17 Eki 18:55, yazılı))",
+          "at": "2026-10-17 18:55"
+        }
+      ]
     },
     {
       "key": "ilksen",
@@ -854,7 +860,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 18:54",
+  "updated": "2026-10-17 18:55",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -907,7 +913,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDQxNzZFNUIwMzdGNkQzODQyRQA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDVERjUwRjgxQTYxN0RCRkYzRQA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEVFMTkzRjc2QTRGM0VBOUNBNgA=",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0ExN0YyODY3NjZENDc5OTgzODEA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0ExN0YyODY3NjZENDc5OTgzODEA",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzMUE5NjYyRkZCMzA0NUVCM0UA"
   ],
   "feed_order": [
     "r3l7ss",
