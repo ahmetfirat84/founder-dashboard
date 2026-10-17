@@ -46,7 +46,7 @@
     },
     {
       "title": "4. HİB yıllık aidat",
-      "amount": "₺74.912,04",
+      "amount": "₺80.000",
       "due": "Ekim sonu",
       "note": "Para girince ilk ödenecek. Ödenmezse teşvik ödemeleri durdurulmuş durumda. Kasım'da gecikme zammı eklenecek. Ödeme sonrası dekont HİB'e mail ile iletilecek.",
       "action_type": "Ödeme",
@@ -672,7 +672,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 13:28",
+  "updated": "2026-10-17 13:30",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -699,7 +699,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4Q0NCMjIyMTM4QzRGNUQ3NDYA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FENUEzRTdFQTFGNTlDOUM4QUUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDZDNTNFQTUxQUY3NkI2QjE5MwA=",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4RERCNENGRkMyMDMwRjIwRkQA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4RERCNENGRkMyMDMwRjIwRkQA",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FFMzY4NzFCNzNBQUMxNUMzMzUA"
   ],
   "feed_order": [
     "c|1. GBC sanal ofis yenilemesi",
