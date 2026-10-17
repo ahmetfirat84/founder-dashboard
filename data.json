@@ -724,15 +724,16 @@
           "urgency": "gray"
         },
         {
-          "text": "Turkcell: 31 Ağu 'Abonelik Feshi' bildirimi ve düzenli faturalar; hangi hat iptal, hangisi aktif netleştir",
-          "due": "",
+          "text": "Hat 5337270000 (ISTE Hesaplı Platin 25) kampanya sözleşmesi 24.10.2026'da bitiyor; yenileme veya iptal kararı ver.",
+          "due": "24 Eki sözleşme bitişi",
           "owner": "",
-          "source": "gecmis-tarama",
+          "source": "manual",
           "action_type": "Ödeme",
           "category": "Abonelik",
           "party": "Turkcell",
           "amount": "",
-          "urgency": "gray"
+          "uid": "hc3sqe",
+          "due_date": "2026-10-24"
         },
         {
           "text": "Anthropic Team plan sorunu: destek 3+ takip sonrası 2-3 haftadır yanıtsız, tekrar yaz",
@@ -815,7 +816,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDNBMTAwODlERUQzOEJDMDdBMQA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDcwMTRDMjc4OUQ3NjdEMUQ4MwA=",
     "1a144ace4d5d30d6",
-    "1a148cdec1f15fbf"
+    "1a148cdec1f15fbf",
+    "1a149a5e48884fa9"
   ],
   "feed_order": [
     "c|1. GBC sanal ofis yenilemesi",
