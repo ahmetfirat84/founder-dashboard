@@ -854,7 +854,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 16:36",
+  "updated": "2026-10-17 17:20",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -961,5 +961,88 @@
     "ac32ae",
     "9907cb",
     "b2b465"
+  ],
+  "fx": {
+    "eur_try": 55.73,
+    "at": "2026-10-16",
+    "src": "frankfurter/ECB"
+  },
+  "kasa": null,
+  "cash_forecast": [
+    {
+      "uid": "a86e0e",
+      "dir": "in",
+      "party": "Jodie R.",
+      "label": "Hasta tahsilatı (İşPOS, kalan + ekstra gece)",
+      "amount": 2513,
+      "cur": "EUR",
+      "fee_pct": 2,
+      "expected_date": "2026-10-19",
+      "certainty": "kesin",
+      "patient": "Jodie R.",
+      "note": "16 Eki gece İşPOS ile tahsil edildi (€2.513 = ana deal kalan €2.403 + ekstra gece €110; depozito €130 3 Eylül'de alınmıştı). Hesaba pazartesi %2 kesintiyle yatar.",
+      "source": "manual",
+      "origin": "HubSpot (Jodie Rata deal'ları) + Ahmet 17 Eki"
+    },
+    {
+      "uid": "933610",
+      "dir": "out",
+      "party": "IC Hospital",
+      "label": "Ameliyat bedeli (Dr. Toydemir, Comfort)",
+      "amount": 1200,
+      "cur": "EUR",
+      "fee_pct": 0,
+      "expected_date": "2026-11-02",
+      "certainty": "tahmini",
+      "patient": "Jodie R.",
+      "note": "Ameliyat 26 Eki (HubSpot treatment_date) + 1 hafta. IC Hospital vadesi genelde ameliyattan 1 hafta sonra.",
+      "source": "manual",
+      "origin": "HubSpot line item maliyeti + Ahmet 17 Eki"
+    },
+    {
+      "uid": "eca966",
+      "dir": "out",
+      "party": "Orya Hotel",
+      "label": "Konaklama: 1 gece paket + ekstra gece",
+      "amount": 160,
+      "cur": "EUR",
+      "fee_pct": 0,
+      "expected_date": null,
+      "certainty": "belirsiz",
+      "patient": "Jodie R.",
+      "note": "€75 paket gecesi + €85 ekstra gece maliyeti. Yeni fatura kesilecek mi, mevcut bakiyede mi: teyit et.",
+      "source": "manual",
+      "origin": "HubSpot line item maliyeti"
+    },
+    {
+      "uid": "071507",
+      "dir": "out",
+      "party": "Tetik Turizm",
+      "label": "VIP transfer (gidiş-dönüş)",
+      "amount": 100,
+      "cur": "EUR",
+      "fee_pct": 0,
+      "expected_date": null,
+      "certainty": "belirsiz",
+      "patient": "Jodie R.",
+      "note": "Satış €70, maliyet €100. Yeni fatura mı, mevcut bakiyede mi: teyit et.",
+      "source": "manual",
+      "origin": "HubSpot line item maliyeti"
+    },
+    {
+      "uid": "cf5359",
+      "dir": "out",
+      "party": "İlaç + protein",
+      "label": "İlaç €80 + mix protein €16",
+      "amount": 96,
+      "cur": "EUR",
+      "fee_pct": 0,
+      "expected_date": null,
+      "certainty": "belirsiz",
+      "patient": "Jodie R.",
+      "note": "Alımlar ameliyat öncesi/sonrası yapılır; ödeme tarihi belirsiz.",
+      "source": "manual",
+      "origin": "HubSpot line item maliyeti"
+    }
   ]
 }
