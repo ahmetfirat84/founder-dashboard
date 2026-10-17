@@ -46,13 +46,14 @@
     },
     {
       "title": "4. HİB yıllık aidat",
-      "amount": "₺74.912,04",
+      "amount": "₺80.000",
       "due": "Ekim sonu",
       "note": "Para girince ilk ödenecek. Ödenmezse teşvik ödemeleri durdurulmuş durumda. Kasım'da gecikme zammı eklenecek. Ödeme sonrası dekont HİB'e mail ile iletilecek.",
       "action_type": "Ödeme",
       "category": "Aidat",
       "party": "HİB",
-      "due_date": "2026-10-31"
+      "due_date": "2026-10-31",
+      "uid": "uu9l9m"
     },
     {
       "title": "5. VakıfBank kredi kartı asgari ödeme",
@@ -665,7 +666,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 11:50",
+  "updated": "2026-10-17 13:01",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -685,7 +686,8 @@
   "asistan_seen": [
     "1a144b11f137335a",
     "1a1447dfdea52540",
-    "1a14468679f061b9"
+    "1a14468679f061b9",
+    "wamid.HBgUVFIuMjY4OTkwMDE3NjMxMDE1NTUVFAASGBQzQTM1QzZBQzM0OTRGNDlGOThFNgA="
   ],
   "feed_order": [
     "c|1. GBC sanal ofis yenilemesi",
