@@ -231,14 +231,14 @@
       "category": "Otel",
       "party": "Mustafa hoca (Clayton otel)",
       "amount": "€195",
-      "due": "tarih belirtilmedi",
+      "due": "Pzt 19 Eki (gecikti)",
       "uid": "ngdyez",
       "source": "whatsapp",
-      "origin": "WhatsApp (17 Eki 23:59, yazılı)",
+      "origin": "WhatsApp (18 Eki 01:07, yazılı)",
       "wamid": "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDJDMjIxNEVENzEyRkZCREZBNgA=",
-      "urgency": "gray",
       "title": "Mustafa hoca (Clayton otel)",
-      "note": "Clayton otel parası: 3 x €65 = €195, Mustafa hocaya ödenecek"
+      "note": "Clayton otel konaklaması: 3 gece x €65 = €195, Mustafa hocanın şahsi hesabına ödenecek. Gecikti, pzt 19 Eki'de ödenecek.",
+      "due_date": "2026-10-19"
     }
   ],
   "departments": [
@@ -936,7 +936,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 00:58",
+  "updated": "2026-10-18 01:07",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -995,7 +995,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFEOTAxNTNCMDVFNEU5RkM3RDYA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDJDMjIxNEVENzEyRkZCREZBNgA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EwQjc2QThCN0U4RTg2MDExQzkA",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FEREFGOEQ1QzZBMzkyRkMxNzAA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FEREFGOEQ1QzZBMzkyRkMxNzAA",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMENFRjk2NDdBNjQ4NzNEMTMyOQA="
   ],
   "feed_order": [
     "r3l7ss",
