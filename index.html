@@ -269,7 +269,10 @@ function tryAmount(a){
 const TL=n=>(n<0?"−":"")+"₺"+Math.abs(Math.round(n)).toLocaleString("tr-TR");
 const EUR=n=>"€"+Math.round(n).toLocaleString("tr-TR");
 const FXR=d=>+((d.fx&&d.fx.eur_try)||55);
-const fcTL=(e,d)=>(e.cur==="EUR"?e.amount*FXR(d):e.amount)*(e.dir==="in"?1-(e.fee_pct||0)/100:1);
+const FXU=d=>+((d.fx&&d.fx.usd_try)||49.5);
+const USD=n=>"$"+Math.round(n).toLocaleString("tr-TR");
+const rateOf=(e,d)=>e.cur==="EUR"?FXR(d):e.cur==="USD"?FXU(d):1;
+const fcTL=(e,d)=>(e.amount*rateOf(e,d))*(e.dir==="in"?1-(e.fee_pct||0)/100:1);
 function cashNeed(d){
   const today=todayStr(), days=s=>Math.round((new Date(s+"T00:00:00")-new Date(today+"T00:00:00"))/864e5);
   const B={gec:[],hafta:[],ay:[]}, skip=[], IN={h1:[],h2:[]}, undated=[];
@@ -280,7 +283,7 @@ function cashNeed(d){
     if(n===null) skip.push(name+" (tarihsiz)");
     else if(n<0) B.gec.push(row); else if(n<=7) B.hafta.push(row); else if(n<=30) B.ay.push(row); }
   for(const e of d.cash_forecast||[]){ if(e.done) continue;
-    const v=fcTL(e,d), row={name:e.party+" · "+e.label,v,eff:e.expected_date,fc:e.uid,est:e.certainty!=="kesin",orig:e.cur==="EUR"?EUR(e.amount):TL(e.amount),dir:e.dir};
+    const v=fcTL(e,d), row={name:e.party+" · "+e.label,v,eff:e.expected_date,fc:e.uid,est:e.certainty!=="kesin",orig:e.cur==="EUR"?EUR(e.amount):e.cur==="USD"?USD(e.amount):TL(e.amount),dir:e.dir};
     if(!e.expected_date){ if(e.dir==="out") undated.push(row); continue; }
     const n=days(e.expected_date);
     if(e.dir==="in"){ (n<=7?IN.h1:n<=30?IN.h2:[]).push(row); }
@@ -299,7 +302,7 @@ function renderCash(d){
    +`<div class="ct ${col(p30)}"><b>${p30===null?"—":TL(p30)}</b><span>30 gün sonu tahmini</span></div>`;
   $("cashTiles").innerHTML=[["red","Gecikmiş (plansız)",gec,B.gec],["orange","Bu hafta",haf,B.hafta],["yellow","30 gün içinde",ay,B.ay]].map(([c,l,v,a])=>`<div class="ct ${c}"><b>${TL(v)}</b><span>${l} · ${a.length} kalem</span></div>`).join("");
   $("cashIn").innerHTML=`<div class="ct green"><b>${TL(in1)}</b><span>Giriş · 7 gün</span></div><div class="ct green"><b>${TL(in2)}</b><span>Giriş · 8-30 gün</span></div><div class="ct grey"><b>${TL(und)}</b><span>Tarihsiz beklenen çıkış · ${undated.length}</span></div>`;
-  $("cashFoot").innerHTML=`Kur €1 = ₺${FXR(d).toLocaleString("tr-TR")}${d.fx&&d.fx.at?" ("+fmtDate(d.fx.at)+")":""}. Giriş tutarları komisyon sonrası net. Aksiyon günü (▶) varsa ona, yoksa vadeye göre.${skip.length?` Tutarı/tarihi olmayan ya da yabancı para: ${skip.length} kalem (${esc(skip.join(", "))}).`:""}`;
+  $("cashFoot").innerHTML=`Kur €1 = ₺${FXR(d).toLocaleString("tr-TR")} · $1 = ₺${FXU(d).toLocaleString("tr-TR")}${d.fx&&d.fx.at?" ("+fmtDate(d.fx.at)+")":""}. Giriş tutarları komisyon sonrası net. Aksiyon günü (▶) varsa ona, yoksa vadeye göre.${skip.length?` Tutarı/tarihi olmayan ya da yabancı para: ${skip.length} kalem (${esc(skip.join(", "))}).`:""}`;
   const row=r=>`<div class="crow"><span>${esc(r.name)} <i>${r.eff?(r.plan?"▶ ":r.fc?"":"vade ")+fmtDate(r.eff):"tarihsiz"}${r.fc?" · "+r.orig+(r.est?" · tahmini":""):""}</i></span><span>${r.dir==="in"?"+":""}<b>${TL(r.v)}</b>${r.fc?` <button class="x" data-fcdone="${esc(r.fc)}" title="Tamamlandı">✓</button><button class="x" data-fcdel="${esc(r.fc)}" title="Sil">✕</button>`:""}</span></div>`;
   const grp=(t,a)=>a.length?`<div class="sub2">${t}</div>`+[...a].sort((x,y)=>(x.eff||"9")<(y.eff||"9")?-1:1).map(row).join(""):"";
   $("cashList").innerHTML=grp("Gecikmiş (plansız)",B.gec)+grp("Bu hafta çıkış",B.hafta)+grp("30 gün içinde çıkış",B.ay)+grp("Giriş · 7 gün",IN.h1)+grp("Giriş · 8-30 gün",IN.h2)+grp("Tarihsiz beklenen çıkış (fatura gelince netleşir)",undated);

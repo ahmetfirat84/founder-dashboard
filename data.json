@@ -220,7 +220,7 @@
       "name": "BATU",
       "area": "Muhasebe",
       "status": "red",
-      "updated": "2026-10-17 16:40",
+      "updated": "2026-10-17 17:45",
       "items": [
         {
           "text": "SGK ödeme planı dökümünü çıkar: taksit sayısı, ödenen/aksayan, ilk taksit (31.08) ödendi mi, bozulma tarihi; CPA Türk'ten (Yasemin Hanım) teyit al",
@@ -406,6 +406,10 @@
       "summary": "SGK/CPA ödeme teyitleri bekliyor",
       "notes": [
         {
+          "text": "17 Eki: Cihan S.'dan şirkete $11.250 (≈ ₺557 bin, kur 49,53) borç geldi (reklam geliri paylaşımı anlaşması). Kasa bakiyesine dahil. Geri ödeme planı/vadesi belirsiz: sözleşme şartlarını nakit planına işle. (kaynak: Ahmet, WhatsApp/sohbet 17 Eki)",
+          "at": "2026-10-17 17:45"
+        },
+        {
           "text": "Barivital 22.950 TL güncel bakiye bildirdi, Ahmet ekstre istedi. Ekstre (13.10) 05.01-12.10.2026, 14 kayıt: devir ₺22.575 + faturalar, toplam borç ₺87.950,05, 3 havale ile ödenen ₺65.000, bakiye ₺22.950,05. Ahmet: önümüzdeki hafta ödeme yapılacak. (kaynak: WhatsApp (17 Eki 16:35, iletilen yazışma, 9 mesaj, 1 ek))",
           "at": "2026-10-17 16:36"
         },
@@ -471,7 +475,7 @@
       "name": "CANKAT",
       "area": "Hukuk",
       "status": "yellow",
-      "updated": "2026-10-17 14:40",
+      "updated": "2026-10-17 17:45",
       "items": [
         {
           "text": "HealthTürkiye 2026 üyelik yenileme ücreti: son ödeme tarihini mailden doğrula (3 hatırlatma geldi), USHAŞ/TÜRSAB yetkilendirmesine etkisini kontrol et",
@@ -574,6 +578,19 @@
           "owner": "",
           "source": "asistan",
           "uid": "d1bafc"
+        },
+        {
+          "text": "Cihan S. borç / reklam geliri paylaşımı anlaşması: imzalı sözleşmeyi bul, geri ödeme şartı ve vadesini netleştir ($11.250 geldi)",
+          "action_type": "Sözleşme",
+          "category": "Finansman",
+          "party": "Cihan S.",
+          "amount": "$11.250",
+          "amount_try": 557000,
+          "due": "Şartlar netleşince",
+          "owner": "",
+          "source": "manual",
+          "origin": "Ahmet 17 Eki",
+          "uid": "07033c"
         }
       ],
       "summary": "HealthTürkiye yenilemesi açık",
@@ -864,7 +881,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 19:39",
+  "updated": "2026-10-17 17:45",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -978,7 +995,8 @@
   "fx": {
     "eur_try": 55.73,
     "at": "2026-10-16",
-    "src": "frankfurter/ECB"
+    "src": "frankfurter/ECB",
+    "usd_try": 49.53
   },
   "kasa": null,
   "cash_forecast": [
@@ -1086,6 +1104,23 @@
       "note": "Toplam tedavi €7.800, ödenen €3.850, kalan €3.950. Tarih belirsiz, tedavi sözleşmesine dahil.",
       "source": "whatsapp",
       "origin": "WhatsApp (17 Eki 18:53, iletilen yazışma, 2 mesaj)"
+    },
+    {
+      "uid": "20b0b9",
+      "dir": "in",
+      "party": "Cihan S.",
+      "label": "Borç (reklam geliri paylaşımı anlaşması)",
+      "amount": 11250,
+      "cur": "USD",
+      "fee_pct": 0,
+      "expected_date": "2026-10-17",
+      "certainty": "kesin",
+      "patient": "",
+      "done": true,
+      "doneAt": "2026-10-17 17:45",
+      "note": "17 Eki'de şirkete geldi. Reklam geliri paylaşımı anlaşması kapsamında borç; geri ödeme şartları belgeye göre netleştirilecek.",
+      "source": "manual",
+      "origin": "Ahmet 17 Eki"
     }
   ]
 }
