@@ -22,7 +22,11 @@
       "action_type": "Ödeme",
       "category": "Ofis",
       "party": "Galata Business Center",
-      "due_date": "2026-09-01"
+      "due_date": "2026-09-01",
+      "uid": "r3l7ss",
+      "urgency": "red",
+      "pin": true,
+      "imp": "high"
     },
     {
       "title": "2. Garanti BBVA kredi kartı borcu",
@@ -836,7 +840,7 @@
     "1a148a98897a1f4d"
   ],
   "feed_order": [
-    "c|1. GBC sanal ofis yenilemesi",
+    "r3l7ss",
     "c|5. VakıfBank kredi kartı asgari ödeme",
     "c|SGK yapılandırma taksiti",
     "c|4. HİB yıllık aidat",
