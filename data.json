@@ -940,7 +940,9 @@
           "source": "manual",
           "origin": "Ahmet 17 Eki (dekont akışı)",
           "uid": "cbcd04",
-          "note": "Taslak Gmail'de hazır, dekont ekli. Gönderince bu maddeyi kapat. (₺41.786 ödeme satırı zaten kapalı.)"
+          "note": "Taslak Gmail'de hazır, dekont ekli. Gönderince bu maddeyi kapat. (₺41.786 ödeme satırı zaten kapalı.) Gönderildi 18 Eki; GBC'den fatura + sözleşme yanıtı bekleniyor.",
+          "done": true,
+          "doneAt": "2026-10-18 02:10"
         }
       ],
       "notes": [
@@ -959,7 +961,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 02:00",
+  "updated": "2026-10-18 02:10",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
