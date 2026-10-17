@@ -196,6 +196,20 @@
       "due_date": "2026-08-31",
       "title": "Tetik Turizm",
       "note": "Transfer bedeli faturası TTE2026000000881 (31.08.2026, KDV dahil), alt taşeron kullanılmış; ödeme durumunu teyit et"
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Transfer",
+      "party": "Tetik Turizm",
+      "amount": "₺14.700",
+      "due": "Vadesi geçti (23.07)",
+      "uid": "vmug0c",
+      "source": "whatsapp",
+      "origin": "WhatsApp (17 Eki 16:11, belge: YEN_C4_B0BEN_20ELEKTRON_C4_B0K.pdf)",
+      "wamid": "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEVENUExRkI2Q0UxMTFCRUI3MgA=",
+      "due_date": "2026-07-23",
+      "title": "Tetik Turizm",
+      "note": "Transfer bedeli faturası TTE2026000000762 (23.07.2026, KDV dahil), alt taşeron kullanılmış. r15'teki TTE2026000000881 faturasından ayrı."
     }
   ],
   "departments": [
@@ -869,7 +883,8 @@
     "1a1492f5ce9c6f1d",
     "1a148a98897a1f4d",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDA4QjcwODM2QkY3REZFNjQ4QQA=",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEJDMjBCODVGREQyQUI1MTcwRQA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEJDMjBCODVGREQyQUI1MTcwRQA=",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEVENUExRkI2Q0UxMTFCRUI3MgA="
   ],
   "feed_order": [
     "r3l7ss",
