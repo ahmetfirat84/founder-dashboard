@@ -16,9 +16,9 @@
   "cash_alerts": [
     {
       "title": "1. GBC sanal ofis yenilemesi",
-      "amount": "₺41.828",
-      "due": "Vadesi geçti (01.09)",
-      "note": "17.10 22:37 dekont: ₺41.786 (+₺8,38 havale ücreti) GBC'ye gönderildi, satır tutarı ₺41.828 (fark ₺42). Yeni dönem 31.08'de başladı, GBC 23 Tem, 13 Ağu, 1 Eyl ve 1 Eki faturaları.",
+      "amount": "₺41.786 (ödendi)",
+      "due": "Ödendi 17 Eki",
+      "note": "ÖDENDİ 17 Eki 2026: ₺41.786 havale (+₺8,38 havale ücreti). Borç tutarı Ahmet'e göre ₺41.786 (GBC teklifi ₺41.828, ₺42 fark GBC'ye bildirilmedi). Kanıt: İş Bankası dekontu (e-posta 17 Eki 19:37 ve WhatsApp). GBC'den fatura ve güncel sözleşme bekleniyor (mail taslağı hazır).",
       "action_type": "Ödeme",
       "category": "Ofis",
       "party": "Galata Business Center",
@@ -28,7 +28,18 @@
       "pin": true,
       "imp": "high",
       "plan_date": "2026-10-19",
-      "origin": "WhatsApp (17 Eki 22:38, belge)"
+      "origin": "WhatsApp (17 Eki 22:38, belge)",
+      "amount_try": 41786,
+      "done": true,
+      "doneAt": "2026-10-18 00:05",
+      "proof": {
+        "type": "banka dekontu",
+        "date": "2026-10-17",
+        "amount_try": 41786,
+        "fee_try": 8.38,
+        "channel": "İş Bankası havale; dekont e-postası (17 Eki 19:37) + WhatsApp (22:38)",
+        "verified_by": "Ahmet onayı"
+      }
     },
     {
       "title": "2. Garanti BBVA kredi kartı borcu",
@@ -794,7 +805,7 @@
       "area": "İdari & Ofis",
       "status": "red",
       "summary": "Bekleyen işler kontrol edilecek",
-      "updated": "2026-10-17 15:05",
+      "updated": "2026-10-18 00:05",
       "items": [
         {
           "text": "GBC sanal ofis yenilemesi: ₺41.828 (12 ay, KDV dahil), yeni dönem 31.08'de başladı, ödeme 01.09'dan beri gecikmede, faiz işliyor. Para girince ilk öde, dekontu GBC'ye mail at",
@@ -806,7 +817,9 @@
           "party": "Galata Business Center",
           "amount": "₺41.828",
           "feed": false,
-          "urgency": "red"
+          "urgency": "red",
+          "done": true,
+          "doneAt": "2026-10-18 00:05"
         },
         {
           "text": "GBC'ye adına gelen kargo (PTT, gönderen USHAŞ, zarf) resepsiyondan alınacak (7 Eki bildirimi)",
@@ -876,6 +889,19 @@
           "party": "Kanyon",
           "amount": "",
           "urgency": "gray"
+        },
+        {
+          "text": "GBC'ye dekontu ilet, ödemeyi teyit ettir; yeni dönem faturası ve güncel sözleşmeyi iste (Gmail taslağı hazır, dekontu ekleyip gönder)",
+          "action_type": "Belge",
+          "category": "Ofis",
+          "party": "Galata Business Center",
+          "amount": "",
+          "due": "Pzt 19 Eki",
+          "due_date": "2026-10-19",
+          "owner": "",
+          "source": "manual",
+          "origin": "Ahmet 17 Eki (dekont akışı)",
+          "uid": "cbcd04"
         }
       ],
       "notes": [
@@ -894,7 +920,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 20:40",
+  "updated": "2026-10-18 00:05",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
