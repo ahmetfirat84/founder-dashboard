@@ -759,7 +759,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 14:19",
+  "updated": "2026-10-17 14:36",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -780,6 +780,13 @@
       "from": "\"VakıfBank\" <bildirim@vakifbank.com.tr>",
       "date": "2026-10-16T12:25:43.000Z",
       "thread": "1a144ace4d5d30d6",
+      "note": "Bilinmeyen gönderen, onay gerekir"
+    },
+    {
+      "subject": "Kontratlı Kampanya Bilgilendirme",
+      "from": "<turkcell@turkcell.com.tr>",
+      "date": "2026-10-17T07:40:16.000Z",
+      "thread": "1a148cdec1f15fbf",
       "note": "Bilinmeyen gönderen, onay gerekir"
     }
   ],
@@ -807,7 +814,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEU0NzU1RjVDODU4MTFBRDI0QwA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDNBMTAwODlERUQzOEJDMDdBMQA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDcwMTRDMjc4OUQ3NjdEMUQ4MwA=",
-    "1a144ace4d5d30d6"
+    "1a144ace4d5d30d6",
+    "1a148cdec1f15fbf"
   ],
   "feed_order": [
     "c|1. GBC sanal ofis yenilemesi",
