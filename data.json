@@ -126,6 +126,19 @@
       "due_date": "2026-10-28",
       "note": "Kart ödemesi başarısız, fatura vadesi 17 Eki geçti. Ödeme yenilenmezse 28 Eki'de hesap askıya alınır.",
       "id": "1a1472d5074b5651"
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "",
+      "party": "Bayidat",
+      "amount": "₺80.000",
+      "due": "Ekim sonu",
+      "uid": "uiqsmp",
+      "source": "whatsapp",
+      "wamid": "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4RERCNENGRkMyMDMwRjIwRkQA",
+      "due_date": "2026-10-31",
+      "title": "Bayidat",
+      "note": "Bayidat'a ₺80.000 ödeme, vade Ekim sonu"
     }
   ],
   "departments": [
@@ -672,7 +685,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 13:08",
+  "updated": "2026-10-17 13:28",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -698,7 +711,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzMzQ5REY0M0UxRUVCNTU1RUUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4Q0NCMjIyMTM4QzRGNUQ3NDYA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FENUEzRTdFQTFGNTlDOUM4QUUA",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDZDNTNFQTUxQUY3NkI2QjE5MwA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDZDNTNFQTUxQUY3NkI2QjE5MwA=",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4RERCNENGRkMyMDMwRjIwRkQA"
   ],
   "feed_order": [
     "c|1. GBC sanal ofis yenilemesi",
