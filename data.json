@@ -893,7 +893,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 18:10",
+  "updated": "2026-10-17 18:30",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1010,7 +1010,12 @@
     "src": "frankfurter/ECB",
     "usd_try": 49.53
   },
-  "kasa": null,
+  "kasa": {
+    "amount_try": 557179,
+    "rezerve_try": 557179,
+    "at": "2026-10-17 18:30",
+    "note": "Kasa 0'dı; tek para Cihan S.'dan gelen $11.250 (11.250 × 49,53). Tamamı reklam bütçesine ayrıldı (rezerve), harcanabilir 0."
+  },
   "cash_forecast": [
     {
       "uid": "a86e0e",

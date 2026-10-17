@@ -223,7 +223,7 @@ function applyFeedOp(d,op){
 }
 function applyOp(d,op){
   if(op.t.startsWith("feed")) return applyFeedOp(d,op);
-  if(op.t==="kasa"){ d.kasa={amount_try:op.v,at:op.at}; return; }
+  if(op.t==="kasa"){ d.kasa={amount_try:op.v,rezerve_try:op.rez||0,at:op.at}; return; }
   if(op.t==="fcdel"){ d.cash_forecast=(d.cash_forecast||[]).filter(e=>e.uid!==op.uid); return; }
   if(op.t==="fcdone"){ const e=(d.cash_forecast||[]).find(e=>e.uid===op.uid); if(e){e.done=true;e.doneAt=op.at;} return; }
   const dep=d.departments.find(x=>x.key===op.k); if(!dep)return;
@@ -293,11 +293,11 @@ function cashNeed(d){
 function renderCash(d){
   const {B,IN,undated,skip}=cashNeed(d), sum=a=>a.reduce((s,r)=>s+r.v,0);
   const gec=sum(B.gec), haf=sum(B.hafta), ay=sum(B.ay), in1=sum(IN.h1), in2=sum(IN.h2), und=sum(undated);
-  const kasa=d.kasa&&typeof d.kasa.amount_try==="number"?d.kasa.amount_try:null;
-  const p7=kasa===null?null:kasa+in1-gec-haf, p30=p7===null?null:p7+in2-ay;
+  const kasa=d.kasa&&typeof d.kasa.amount_try==="number"?d.kasa.amount_try:null, rez=kasa===null?0:Math.min(+(d.kasa.rezerve_try||0),kasa), usable=kasa===null?null:kasa-rez;
+  const p7=usable===null?null:usable+in1-gec-haf, p30=p7===null?null:p7+in2-ay;
   const col=v=>v===null?"grey":v<0?"red":"green";
   $("cashTop").innerHTML=
-    `<button class="ct ctb ${kasa===null?"grey":"yellow"}" data-kasa="1"><b>${kasa===null?"Kasa gir":TL(kasa)}</b><span>${kasa===null?"bakiyeyi yaz":"Kasa ✎ "+(d.kasa.at?fmtDate(d.kasa.at.slice(0,10)):"")}</span></button>`
+    `<button class="ct ctb ${kasa===null?"grey":"yellow"}" data-kasa="1"><b>${kasa===null?"Kasa gir":TL(usable)}</b><span>${kasa===null?"bakiyeyi yaz":"Kullanılabilir kasa ✎"+(rez?" · rezerve "+TL(rez):"")}</span></button>`
    +`<div class="ct ${col(p7)}"><b>${p7===null?"—":TL(p7)}</b><span>7 gün sonu tahmini</span></div>`
    +`<div class="ct ${col(p30)}"><b>${p30===null?"—":TL(p30)}</b><span>30 gün sonu tahmini</span></div>`;
   $("cashTiles").innerHTML=[["red","Gecikmiş (plansız)",gec,B.gec],["orange","Bu hafta",haf,B.hafta],["yellow","30 gün içinde",ay,B.ay]].map(([c,l,v,a])=>`<div class="ct ${c}"><b>${TL(v)}</b><span>${l} · ${a.length} kalem</span></div>`).join("");
@@ -310,7 +310,10 @@ function renderCash(d){
 $("cashCard").addEventListener("click",e=>{
   const k=e.target.closest("[data-kasa]"), dn=e.target.closest("[data-fcdone]"), dl=e.target.closest("[data-fcdel]");
   if(k){ const t=prompt("Kasadaki toplam TL tutar (örn. 150000):", D.kasa&&D.kasa.amount_try||""); if(t===null) return;
-    const n=parseFloat(String(t).replace(/\./g,"").replace(",",".")); if(!isFinite(n)){toast("Sayı girin");return;} commit({t:"kasa",v:n}); }
+    const num=x=>parseFloat(String(x).replace(/\./g,"").replace(",","."));
+    const n=num(t); if(!isFinite(n)){toast("Sayı girin");return;}
+    const r=prompt("Bunun ne kadarı rezerve (reklam bütçesi vb., harcanamaz)? Boş = 0", D.kasa&&D.kasa.rezerve_try||""); const rv=r===null||r===""?0:num(r);
+    commit({t:"kasa",v:n,rez:isFinite(rv)?rv:0}); }
   else if(dn) commit({t:"fcdone",uid:dn.dataset.fcdone});
   else if(dl){ if(confirm("Bu beklenen kalem silinsin mi?")) commit({t:"fcdel",uid:dl.dataset.fcdel}); }
 });
