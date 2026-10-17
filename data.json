@@ -319,6 +319,10 @@
       "summary": "SGK/CPA ödeme teyitleri bekliyor",
       "notes": [
         {
+          "text": "Muhasebe ay kapanışı için bir taraf ödeme ne zaman yapılacağını sordu. Ahmet, ödemenin önümüzdeki hafta en geç yapılacağını yanıtladı.",
+          "at": "2026-10-17 14:12"
+        },
+        {
           "text": "Orya Otelcilik e-faturası (OHL2026000000236, 13 Eki): €450 = ₺24.833,39 (kur 55,1853), vade 13 Eki. Paraşüt'e işlenmeyi bekleyen Orya faturası bu olabilir (r17).",
           "at": "2026-10-17 13:08"
         }
@@ -742,7 +746,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 14:40",
+  "updated": "2026-10-17 14:12",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -780,7 +784,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDk4MTlCNTdFNTZGRkM3MjkxQwA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEUxRTlDMEE3ODEzNDE3NjhDQgA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDc0RTVFNzYzNDc0ODZGMTI4NgA=",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEU0NzU1RjVDODU4MTFBRDI0QwA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEU0NzU1RjVDODU4MTFBRDI0QwA=",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDNBMTAwODlERUQzOEJDMDdBMQA="
   ],
   "feed_order": [
     "c|1. GBC sanal ofis yenilemesi",
