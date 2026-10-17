@@ -238,7 +238,10 @@
       "wamid": "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDJDMjIxNEVENzEyRkZCREZBNgA=",
       "title": "Mustafa hoca (Clayton otel)",
       "note": "Clayton otel konaklaması: 3 gece x €65 = €195, Mustafa hocanın şahsi hesabına ödenecek. Gecikti, pzt 19 Eki'de ödenecek.",
-      "due_date": "2026-10-19"
+      "due_date": "2026-10-19",
+      "urgency": "red",
+      "plan_date": "2026-01-19",
+      "imp": "high"
     }
   ],
   "departments": [
