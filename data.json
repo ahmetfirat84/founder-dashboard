@@ -126,6 +126,18 @@
       "due_date": "2026-10-28",
       "note": "Kart ödemesi başarısız, fatura vadesi 17 Eki geçti. Ödeme yenilenmezse 28 Eki'de hesap askıya alınır.",
       "id": "1a1472d5074b5651"
+    },
+    {
+      "title": "Genel kurul / sermaye tescil masrafı",
+      "action_type": "Ödeme",
+      "category": "Hukuk",
+      "party": "Cankat (tescil danışmanı) + noter/harç",
+      "amount": "~₺50.000",
+      "due": "Kasım ortası (GK + tescil)",
+      "due_date": "2026-11-15",
+      "note": "Tescil danışmanı 15-20 bin TL (Cankat 20 bin TL'sini senden alacak, intro borcundan sayılır) + noter ve harçlar, toplam yaklaşık ₺50.000. Çağrı en geç bu hafta başlamalı; ilandan 15-20 gün sonra genel kurul, ardından tescil. Tahmini tarih, kesinleşince güncelle.",
+      "source": "asistan",
+      "uid": "ac32ae"
     }
   ],
   "departments": [
@@ -726,7 +738,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 14:05",
+  "updated": "2026-10-17 14:15",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
