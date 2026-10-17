@@ -894,7 +894,7 @@
       ]
     }
   ],
-  "updated": "2026-10-17 20:15",
+  "updated": "2026-10-17 20:40",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1255,6 +1255,38 @@
       "note": "HubSpot line item maliyetleri; Mart 2027 civarı, tarih tahmini.",
       "source": "manual",
       "origin": "HubSpot (deal maliyetleri) + Ahmet 17 Eki"
+    },
+    {
+      "uid": "04277d",
+      "dir": "out",
+      "party": "IC Hospital",
+      "label": "Nate: tüp mide ameliyat bedeli (13 Eki)",
+      "amount": 1200,
+      "cur": "EUR",
+      "fee_pct": 0,
+      "expected_date": "2026-10-21",
+      "certainty": "tahmini",
+      "patient": "Nate",
+      "funded": true,
+      "note": "Ameliyat 13 Eki 2026 (geçen salı). Hastane faturasını bu salı-çarşamba (20-21 Eki) keser. HubSpot: toplam €2.784 tahsil edildi (€140 + €1.000 + €1.644), maliyet €1.546. Para çok önce alındı, kullanıldı.",
+      "source": "manual",
+      "origin": "HubSpot (Nate Gastric Sleeve deal) + Ahmet 17 Eki"
+    },
+    {
+      "uid": "3b5574",
+      "dir": "out",
+      "party": "Orya + Tetik + ilaç/protein (+ek)",
+      "label": "Nate: tüp mide otel/transfer/ilaç/protein",
+      "amount": 346,
+      "cur": "EUR",
+      "fee_pct": 0,
+      "expected_date": null,
+      "certainty": "belirsiz",
+      "patient": "Nate",
+      "funded": true,
+      "note": "HubSpot maliyeti €1.546 − ameliyat €1.200 = €346 (otel, transfer, ilaç, protein ve olası ekler). Fatura mı mevcut bakiyede mi teyit et.",
+      "source": "manual",
+      "origin": "HubSpot (Nate Gastric Sleeve deal) + Ahmet 17 Eki"
     }
   ]
 }
