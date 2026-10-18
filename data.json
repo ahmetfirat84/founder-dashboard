@@ -2082,7 +2082,7 @@
       "next_payment_date": "2026-11-01",
       "type": "business",
       "status": "active",
-      "notes": "Oct 1 payment declined, Oct 2 payment of ₺1,366.40 received (resolved). Amount varies with user count (Aug: ₺837.47).",
+      "notes": "Oct 1 payment declined, Oct 2 payment of ₺1,366.40 received (resolved). Amount varies with user count (Aug: ₺837.47). Statement shows irregular amounts (₺1,366.40 plus catch-up charges ₺837.47 on Aug 20 and ₺528.93 on Sep 1) because the card was declined on Aug 1 (card ••4768) and Oct 1 (••3399); the Oct 2 payment of ₺1,366.40 then went through.",
       "manage_url": "https://admin.google.com/ac/billing/subscriptions",
       "manage_hint": "Admin console → Billing → Subscriptions (super-admin only). Payment method: Billing → Payment settings."
     },
@@ -2553,10 +2553,10 @@
       "currency": "TRY",
       "period": "monthly",
       "payment_method": "VakıfBank card ••3399",
-      "next_payment_date": "2026-11-03",
+      "next_payment_date": "",
       "type": "personal",
-      "status": "active",
-      "notes": "From VakıfBank statements (Jul–Oct 2026). Charged on the 28th/3rd (Jul 28, Aug 28, Oct 3).",
+      "status": "cancelled",
+      "notes": "Cancelled by Ahmet (Oct 18), will not continue. From VakıfBank statements (Jul–Oct 2026). Charged on the 28th/3rd (Jul 28, Aug 28, Oct 3).",
       "manage_url": "https://www.disneyplus.com/account",
       "manage_hint": "Disney+ → Account → Subscription → Cancel."
     },
@@ -2568,10 +2568,10 @@
       "currency": "TRY",
       "period": "monthly",
       "payment_method": "VakıfBank card ••3399",
-      "next_payment_date": "2026-11-02",
+      "next_payment_date": "",
       "type": "personal",
-      "status": "active",
-      "notes": "From VakıfBank statements (Jul–Oct 2026). Channel membership, charged Jul 10, Aug 21, Oct 2.",
+      "status": "cancelled",
+      "notes": "Cancelled by Ahmet (Oct 18), will not continue. From VakıfBank statements (Jul–Oct 2026). Channel membership, charged Jul 10, Aug 21, Oct 2.",
       "manage_url": "https://www.youtube.com/paid_memberships",
       "manage_hint": "YouTube → Paid memberships → Manage → Cancel membership."
     },
@@ -2583,10 +2583,10 @@
       "currency": "USD",
       "period": "monthly",
       "payment_method": "VakıfBank card ••3399",
-      "next_payment_date": "2026-10-25",
+      "next_payment_date": "",
       "type": "business",
-      "status": "active",
-      "notes": "From VakıfBank statements (Jul–Oct 2026). ≈₺1,880–1,910 per month, charged on the 25th.",
+      "status": "cancelled",
+      "notes": "Cancelled by Ahmet (Oct 18), will not continue. From VakıfBank statements (Jul–Oct 2026). ≈₺1,880–1,910 per month, charged on the 25th.",
       "manage_url": "https://www.skool.com/settings?t=payments",
       "manage_hint": "Skool → Settings → Payments → Cancel membership."
     },
@@ -2597,11 +2597,11 @@
       "amount": 10.59,
       "currency": "USD",
       "period": "monthly",
-      "payment_method": "VakıfBank card ••3399",
-      "next_payment_date": "",
+      "payment_method": "İşbank corporate card ••0149",
+      "next_payment_date": "2026-11-07",
       "type": "business",
       "status": "active",
-      "notes": "From VakıfBank statements (Jul–Oct 2026). ≈₺510, charged Jul 25 (not seen on later statements: check if still active).",
+      "notes": "Core plan (10,000 credits/month), billed $10.59 on the 7th. History: dropped to Free on Aug 25, resubscribed; Oct 7 payment failed, then paid Oct 9 (receipt #2130-2822, card ••0149). Sep 7 receipt also exists. Check that it renews cleanly on Nov 7. Gems AI Cemre scenarios depend on it.",
       "manage_url": "https://www.make.com/en/team/billing",
       "manage_hint": "Make → Organization → Billing → Cancel subscription."
     },
@@ -2615,55 +2615,10 @@
       "payment_method": "VakıfBank card ••3399",
       "next_payment_date": "",
       "type": "business",
-      "status": "active",
-      "notes": "From VakıfBank statements (Jul–Oct 2026). ≈₺587, charged Aug 20 only (check if still active).",
+      "status": "cancelled",
+      "notes": "Moved to the Free plan on Sep 20, 2026 (Airtable confirmation email). A final prorated invoice may still arrive. Last paid charge: ₺586.91 on Aug 20.",
       "manage_url": "https://airtable.com/account/billing",
       "manage_hint": "Airtable → Account → Billing → Cancel plan."
-    },
-    {
-      "uid": "3mknh0",
-      "name": "GoDaddy",
-      "category": "Other",
-      "amount": 518.4,
-      "currency": "TRY",
-      "period": "yearly",
-      "payment_method": "VakıfBank card ••3399",
-      "next_payment_date": "",
-      "type": "business",
-      "status": "active",
-      "notes": "From VakıfBank statements (Jul–Oct 2026). Charged Aug 25 (₺518.40). Period unknown, probably a domain renewal (yearly).",
-      "manage_url": "https://account.godaddy.com/subscriptions",
-      "manage_hint": "GoDaddy → My Products → Renewals & Billing → turn off auto-renew."
-    },
-    {
-      "uid": "7mohgm",
-      "name": "Krea (installments)",
-      "category": "AI",
-      "amount": 339,
-      "currency": "TRY",
-      "period": "monthly",
-      "payment_method": "VakıfBank card ••3399",
-      "next_payment_date": "2026-10-30",
-      "type": "business",
-      "status": "active",
-      "notes": "From VakıfBank statements (Jul–Oct 2026). 12 installments of ₺339 (1st on Aug 30, 2nd Sep 30), ends about Jul 2027.",
-      "manage_url": "",
-      "manage_hint": "Installment purchase: cannot be cancelled on the card; ask Krea."
-    },
-    {
-      "uid": "2zakrd",
-      "name": "Google Workspace (andnewme, 2nd line)",
-      "category": "SaaS",
-      "amount": "",
-      "currency": "TRY",
-      "period": "monthly",
-      "payment_method": "VakıfBank card ••3399",
-      "next_payment_date": "",
-      "type": "business",
-      "status": "active",
-      "notes": "From VakıfBank statements (Jul–Oct 2026). Extra Google Workspace charges: ₺837.47 (Aug 20) and ₺528.93 (Sep 1), varying amounts, probably per-seat or usage. Fill in the real amount.",
-      "manage_url": "https://admin.google.com/ac/billing/subscriptions",
-      "manage_hint": "Admin console → Billing → Subscriptions."
     },
     {
       "uid": "mzzw0w",
@@ -2681,19 +2636,19 @@
       "manage_hint": ""
     },
     {
-      "uid": "1ts4i6",
-      "name": "CONDOLIFE (iyzico)",
-      "category": "Other",
-      "amount": 500,
-      "currency": "TRY",
+      "uid": "37iwf5",
+      "name": "Netlify Personal (team ahmet-zdguy2u)",
+      "category": "SaaS",
+      "amount": "",
+      "currency": "USD",
       "period": "monthly",
-      "payment_method": "VakıfBank card ••3399",
-      "next_payment_date": "",
+      "payment_method": "",
+      "next_payment_date": "2026-11-07",
       "type": "personal",
       "status": "active",
-      "notes": "From VakıfBank statements (Jul–Oct 2026). Unknown. ₺500 + ₺15 fee charged Jul 21, Aug 18, Aug 22 (Aug 5 ₺15 fee only). Find out what this is.",
-      "manage_url": "",
-      "manage_hint": ""
+      "notes": "Upgraded from Free to the Personal plan on Oct 7, 2026 (credits ran out in Aug, Sep and Oct). Amount not stated in the email; check the Netlify billing page. Hosts Ahmet's personal apps such as Life OS. Supabase (project ahmet-life-os) is on the free tier and was paused: no cost.",
+      "manage_url": "https://app.netlify.com/teams",
+      "manage_hint": "Netlify → Team → Billing → Change plan / cancel (downgrade to Free)."
     }
   ],
   "payment_methods": {
@@ -2941,7 +2896,7 @@
         "d": "2026-07-21",
         "desc": "İyzico/CONDOLIFE",
         "amt": 500,
-        "cat": "Diğer",
+        "cat": "Konut / aidat",
         "st": 1
       },
       {
@@ -2949,7 +2904,7 @@
         "d": "2026-07-21",
         "desc": "İyzico/CONDOLIFE",
         "amt": 15,
-        "cat": "Diğer",
+        "cat": "Konut / aidat",
         "st": 1
       },
       {
@@ -3405,7 +3360,7 @@
         "d": "2026-08-05",
         "desc": "İyzico/CONDOLIFE",
         "amt": 15,
-        "cat": "Diğer",
+        "cat": "Konut / aidat",
         "st": 1
       },
       {
@@ -3573,7 +3528,7 @@
         "d": "2026-08-18",
         "desc": "İyzico/CONDOLIFE",
         "amt": 500,
-        "cat": "Diğer",
+        "cat": "Konut / aidat",
         "st": 2
       },
       {
@@ -3797,7 +3752,7 @@
         "d": "2026-08-22",
         "desc": "İyzico/CONDOLIFE",
         "amt": 500,
-        "cat": "Diğer",
+        "cat": "Konut / aidat",
         "st": 2
       },
       {
@@ -3805,7 +3760,7 @@
         "d": "2026-08-22",
         "desc": "İyzico/CONDOLIFE",
         "amt": 15,
-        "cat": "Diğer",
+        "cat": "Konut / aidat",
         "st": 2
       },
       {
@@ -4013,7 +3968,7 @@
         "d": "2026-08-30",
         "desc": "KREA İÇERİK HİZMETLE 1. Taksit",
         "amt": 339,
-        "cat": "Yazılım & iş aboneliği",
+        "cat": "Diğer",
         "st": 2
       },
       {
@@ -4349,7 +4304,7 @@
         "d": "2026-09-30",
         "desc": "KREA İÇERİK HİZMETLE 2. Taksit",
         "amt": 339,
-        "cat": "Yazılım & iş aboneliği",
+        "cat": "Diğer",
         "st": 3
       },
       {
