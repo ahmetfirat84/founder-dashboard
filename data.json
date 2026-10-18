@@ -970,7 +970,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 06:20",
+  "updated": "2026-10-18 06:30",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1460,8 +1460,8 @@
       "payment_method": "Visa ••3399",
       "next_payment_date": "",
       "type": "business",
-      "status": "active",
-      "notes": "Seen in a Sep 29 'insufficient limit' decline of ₺1,477.82. Billing period assumed monthly, please confirm."
+      "status": "cancelled",
+      "notes": "Cancelled by Ahmet (Oct 18), should not renew. Earlier note: Sep 29 charge of ₺1,477.82 was declined (insufficient limit). Check the next billing date in HeyGen to confirm no further charge."
     },
     {
       "uid": "tihojk",
