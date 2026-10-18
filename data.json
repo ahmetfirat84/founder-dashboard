@@ -961,7 +961,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 03:00",
+  "updated": "2026-10-18 03:30",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1361,5 +1361,98 @@
   ],
   "blocked_senders": [
     "growthstation.pro"
+  ],
+  "subscriptions": [
+    {
+      "name": "HubSpot",
+      "category": "CRM",
+      "amount": 76245,
+      "currency": "TRY",
+      "period": "aylık",
+      "payment_method": "",
+      "next_payment_date": "",
+      "type": "iş",
+      "status": "aktif",
+      "notes": "17 Eki'de ₺76.245 ödendi. Ayrıca €320'luk fatura 842326601 kart reddedildi, 28 Eki'de hesap askıya alınabilir. Ödeme kartını ve sonraki tarihi doldur.",
+      "uid": "b49r05"
+    },
+    {
+      "name": "Google Workspace",
+      "category": "SaaS",
+      "amount": "",
+      "currency": "TRY",
+      "period": "aylık",
+      "payment_method": "",
+      "next_payment_date": "",
+      "type": "iş",
+      "status": "aktif",
+      "notes": "1 Eki ödeme reddedildi (kart sorunu), hesap askıya alınabilir. Tutar girilmedi.",
+      "uid": "5gvnd7"
+    },
+    {
+      "name": "Anthropic Team",
+      "category": "AI",
+      "amount": "",
+      "currency": "USD",
+      "period": "aylık",
+      "payment_method": "",
+      "next_payment_date": "",
+      "type": "iş",
+      "status": "aktif",
+      "notes": "Team plan sorunu: destek 2-3 haftadır yanıtsız, tekrar yaz (bu hafta).",
+      "uid": "8fs3uo"
+    },
+    {
+      "name": "Superonline internet",
+      "category": "Telekom",
+      "amount": "",
+      "currency": "TRY",
+      "period": "aylık",
+      "payment_method": "",
+      "next_payment_date": "",
+      "type": "iş",
+      "status": "aktif",
+      "notes": "21 Eyl'de askıya alınıp 28 Eyl'de yeniden açıldı; ödeme düzenini kontrol et.",
+      "uid": "wd626r"
+    },
+    {
+      "name": "Turkcell ana hat (ISTE Hesaplı Platin 25)",
+      "category": "Telekom",
+      "amount": "",
+      "currency": "TRY",
+      "period": "aylık",
+      "payment_method": "",
+      "next_payment_date": "2026-10-24",
+      "type": "iş",
+      "status": "aktif",
+      "notes": "Kampanya sözleşmesi 24 Eki'de bitiyor: yenile mi iptal mi karar ver. Feshedilirse durumu 'iptal edildi' yap.",
+      "uid": "1ukqlo"
+    },
+    {
+      "name": "Apple Premium",
+      "category": "Eğlence",
+      "amount": 99,
+      "currency": "TRY",
+      "period": "aylık",
+      "payment_method": "",
+      "next_payment_date": "2026-11-18",
+      "type": "şahsi",
+      "status": "aktif",
+      "notes": "KDV dahil. İş mi şahsi mi teyit et. Ayrıca Apple Billing Problem (HiNoter) 21 Eki.",
+      "uid": "cqp5yd"
+    },
+    {
+      "name": "Sonetel",
+      "category": "Telekom",
+      "amount": "",
+      "currency": "USD",
+      "period": "aylık",
+      "payment_method": "",
+      "next_payment_date": "",
+      "type": "iş",
+      "status": "aktif",
+      "notes": "Prepaid: bakiye -$2,43, aramalar duraklatıldı. Abonelik mi bakiye yükleme mi netleştir.",
+      "uid": "nq2alh"
+    }
   ]
 }

@@ -94,6 +94,15 @@
   :root[data-theme=dark] .pill.green{background:#18301f;color:#5fd08a}:root[data-theme=dark] .pill.yellow{color:#f0c050}:root[data-theme=dark] .pill.red{color:#ff8a80}
   .ud{display:inline-block;width:9px;height:9px;border-radius:50%;margin:6px 2px 0 0;flex:none;background:#9a9aa2}
   .ud.red{background:#d93025}.ud.orange{background:#f07d00}.ud.yellow{background:#e8a100}.ud.gray{background:#b5b5bb}
+  .tabs{display:flex;gap:6px;grid-column:1/-1}.tabs button{flex:1;font-size:14px;padding:8px 10px;border-radius:10px}.tabs button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+  body.tab-subs main>*:not(.tabs):not(#subsCard):not(header){display:none!important}body:not(.tab-subs) #subsCard{display:none}
+  #subsCard h2{margin:0 0 8px}.sgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.sgrid .ct{text-align:left}
+  .sflt{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.sflt button{font-size:12.5px;padding:3px 10px;border-radius:14px}.sflt button.on{background:var(--ink);color:var(--bg)}
+  .sub{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;padding:9px 8px;border-bottom:1px solid var(--line);cursor:default}
+  .sub.sw{background:var(--yellowbg)}.sub.sx{opacity:.5}.sub.sx .sn{text-decoration:line-through}
+  .sub .sn{font-weight:600;font-size:14.5px}.sub .sa{font-weight:600;text-align:right;white-space:nowrap}.sub small{color:var(--mut);display:block;overflow-wrap:anywhere}
+  .sub .sbtn{grid-column:1/-1;display:flex;gap:6px;margin-top:4px}.sub .sbtn button{font-size:12px;padding:0 9px;line-height:24px}
+  .sf{display:grid;gap:6px;grid-template-columns:1fr 1fr;margin:8px 0}.sf input,.sf select,.sf textarea{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:6px 8px;min-width:0;width:100%;box-sizing:border-box}.sf .wide{grid-column:1/-1}
   #toast{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:20px;font-size:13px;opacity:0;pointer-events:none;transition:opacity .2s;max-width:90vw}
   #toast.on{opacity:.95}
 </style>
@@ -105,6 +114,9 @@
     <div><button id="gh" aria-label="GitHub token" title="Kayıt ayarı">⚙</button> <button id="theme" aria-label="Tema">🌓</button></div>
   </header>
 
+  <nav class="tabs"><button id="tabD" class="on">Dashboard</button><button id="tabS">Abonelikler</button></nav>
+  <section class="card" id="subsCard"><h2>Abonelikler <button id="subNew" class="add" aria-label="Yeni abonelik">+</button></h2>
+    <div class="sgrid" id="subSum"></div><div class="sflt" id="subFlt"></div><div id="subForm"></div><div id="subList"></div><div class="cfoot" id="subFoot"></div></section>
   <section class="card feed" id="feedCard"><h2><span>Bugün Yapılacaklar <span id="feedCount"></span></span> <button id="feedNew">+ Yeni</button></h2><div class="legend">Masada en çok 8 iş: 🔴 gecikmiş, 🟠 bu hafta, 📌 ya da ❗ hayati. Düşük önemli işler departmanlarda kalır. Satır rengi = <b>vade zamanlaması</b>: 🔴 gecikmiş · 🟠 bu hafta · 🟡 bu ay · ⚪ tarihsiz/belirsiz (tarih girersen renk kendiliğinden değişir)</div><div id="feed"></div><button id="feedMore" hidden>Tümünü göster</button></section>
 
   <div class="legend" id="healthLegend">Kart etiketi = <b>genel durum</b>: <span class="pill green">Sorunsuz</span> acil iş yok · <span class="pill yellow">Bekleyen işler</span> 30 gün içinde vadeli iş var · <span class="pill red">Kritik</span> gecikmiş iş var (otomatik)</div>
@@ -232,6 +244,9 @@ function applyFeedOp(d,op){
 function applyOp(d,op){
   if(op.t.startsWith("feed")) return applyFeedOp(d,op);
   if(op.t==="kasa"){ d.kasa={amount_try:op.v,rezerve_try:op.rez||0,at:op.at}; return; }
+  if(op.t==="subadd"){ d.subscriptions=d.subscriptions||[]; d.subscriptions.push({uid:op.uid,...op.f}); return; }
+  if(op.t==="subedit"){ const x=(d.subscriptions||[]).find(x=>x.uid===op.key); if(x)Object.assign(x,op.f); return; }
+  if(op.t==="subdel"){ d.subscriptions=(d.subscriptions||[]).filter(x=>x.uid!==op.key); return; }
   if(op.t==="revdel"){ d.review=(d.review||[]).filter(r=>!(r.from===op.from&&r.subject===op.subject)); return; }
   if(op.t==="revblock"){ const m=String(op.from).match(/<([^>]+)>/); const ad=(m?m[1]:op.from).trim().toLowerCase(), dom=ad.split("@")[1]||ad; d.blocked_senders=[...new Set([...(d.blocked_senders||[]),dom])];
     d.review=(d.review||[]).filter(r=>{const m2=String(r.from).match(/<([^>]+)>/); const a2=(m2?m2[1]:r.from).trim().toLowerCase(); return (a2.split("@")[1]||a2)!==dom}); return; }
@@ -253,7 +268,7 @@ async function commit(op){
     const r=await fetch(API+"?t="+Date.now(),{headers:ghHead()}); if(!r.ok)throw new Error("okuma "+r.status);
     const f=await r.json(); const latest=JSON.parse(b64d(f.content)); applyOp(latest,op);
     const p=await fetch(API,{method:"PUT",headers:{...ghHead(),"Content-Type":"application/json"},
-      body:JSON.stringify({message:"Dashboard: "+(op.t==="note"?"not":op.t==="delnote"?"not silindi":op.t.startsWith("feed")?"feed":op.t.startsWith("rev")?"inceleme":"aksiyon")+" "+op.at,content:b64e(JSON.stringify(latest,null,2)+"\n"),sha:f.sha})});
+      body:JSON.stringify({message:"Dashboard: "+(op.t==="note"?"not":op.t==="delnote"?"not silindi":op.t.startsWith("feed")?"feed":op.t.startsWith("rev")?"inceleme":op.t.startsWith("sub")?"abonelik":"aksiyon")+" "+op.at,content:b64e(JSON.stringify(latest,null,2)+"\n"),sha:f.sha})});
     if(!p.ok)throw new Error("yazma "+p.status);
     toast("data.json'a kaydedildi ✓");
   }catch(e){ toast("Kaydedilemedi: "+e.message+" (token/izin?)"); }
@@ -332,6 +347,32 @@ $("cashCard").addEventListener("click",e=>{
   else if(dn) commit({t:"fcdone",uid:dn.dataset.fcdone});
   else if(dl){ if(confirm("Bu beklenen kalem silinsin mi?")) commit({t:"fcdel",uid:dl.dataset.fcdel}); }
 });
+// ABONELİKLER
+const SUB_CAT=["CRM","AI","Eğlence","Muhasebe","SaaS","Ofis","Telekom","Pazarlama","Diğer"];
+window.__sf={typ:"",st:""};window.__sedit=null;
+const subTry=(x,d)=>{ const a=+x.amount||0, r=x.currency==="USD"?FXU(d):x.currency==="EUR"?FXR(d):1; return a*r/(x.period==="yıllık"?12:1); };
+const subAmt=x=>x.amount===""||x.amount==null?"tutar ?":({TRY:"₺",USD:"$",EUR:"€"}[x.currency]||"")+(+x.amount).toLocaleString("tr-TR",{maximumFractionDigits:2})+" / "+(x.period==="yıllık"?"yıl":"ay");
+function subForm(x){ x=x||{}; const sel2=(n,o,v)=>`<select name="${n}" aria-label="${n}">`+o.map(a=>`<option ${a===v?"selected":""}>${esc(a)}</option>`).join("")+`</select>`;
+  return `<form class="sf" data-key="${esc(x.uid||"")}"><input class="wide" name="name" placeholder="Abonelik adı" value="${esc(x.name||"")}" required>`
+  +`<input name="category" list="subcats" placeholder="Kategori" value="${esc(x.category||"")}"><datalist id="subcats">${SUB_CAT.map(c=>`<option>${c}</option>`).join("")}</datalist>`
+  +sel2("type",["iş","şahsi"],x.type||"iş")
+  +`<input name="amount" inputmode="decimal" placeholder="Tutar" value="${esc(x.amount??"")}">`+sel2("currency",["TRY","USD","EUR"],x.currency||"TRY")
+  +sel2("period",["aylık","yıllık"],x.period||"aylık")+sel2("status",["aktif","iptal edilecek","iptal edildi"],x.status||"aktif")
+  +`<input name="payment_method" placeholder="Ödeme yöntemi (kart/hesap)" value="${esc(x.payment_method||"")}"><label class="dl">Sonraki ödeme<input name="next_payment_date" type="date" value="${esc(x.next_payment_date||"")}"></label>`
+  +`<textarea class="wide" name="notes" rows="2" placeholder="Not">${esc(x.notes||"")}</textarea><span class="fbtn wide"><button>Kaydet</button> <button type="button" data-sa="cancel">İptal</button></span></form>`; }
+function renderSubs(d){
+  const all=d.subscriptions||[], f=window.__sf;
+  const live=all.filter(x=>x.status!=="iptal edildi"), sum=t=>live.filter(x=>x.type===t).reduce((s,x)=>s+subTry(x,d),0), unk=live.filter(x=>x.amount===""||x.amount==null).length;
+  $("subSum").innerHTML=`<div class="ct yellow"><b>${TL(sum("iş"))}</b><span>İş / ay</span></div><div class="ct yellow"><b>${TL(sum("şahsi"))}</b><span>Şahsi / ay</span></div><div class="ct green"><b>${TL(sum("iş")+sum("şahsi"))}</b><span>Toplam / ay (TRY)</span></div>`;
+  const fb=(k,v,l)=>`<button class="${f[k]===v?"on":""}" data-sf="${k}" data-v="${esc(v)}">${l}</button>`;
+  $("subFlt").innerHTML=fb("typ","","Hepsi")+fb("typ","iş","İş")+fb("typ","şahsi","Şahsi")+" · "+fb("st","","Tüm durum")+fb("st","aktif","Aktif")+fb("st","iptal edilecek","İptal edilecek")+fb("st","iptal edildi","İptal edildi");
+  const rows=all.filter(x=>(!f.typ||x.type===f.typ)&&(!f.st||x.status===f.st)).sort((a,b)=>(a.status==="iptal edildi")-(b.status==="iptal edildi")||String(a.name).localeCompare(String(b.name),"tr"));
+  $("subForm").innerHTML=window.__sedit==="__new"?subForm():"";
+  $("subList").innerHTML=rows.map(x=>window.__sedit===x.uid?`<div class="sub">${subForm(x)}</div>`:`<div class="sub ${x.status==="iptal edilecek"?"sw":x.status==="iptal edildi"?"sx":""}"><div><span class="sn">${esc(x.name)}</span><small>${esc(x.category||"")} · ${esc(x.type||"")}${x.payment_method?" · "+esc(x.payment_method):""}${x.next_payment_date?" · sonraki "+esc(fmtDate(x.next_payment_date)):""}${x.status!=="aktif"?" · <b>"+esc(x.status)+"</b>":""}</small>${x.notes?`<small>${esc(x.notes)}</small>`:""}</div><div class="sa">${esc(subAmt(x))}</div><div class="sbtn"><button data-sa="edit" data-key="${esc(x.uid)}">✎</button><button data-sa="del" data-key="${esc(x.uid)}">✕</button></div></div>`).join("")||'<span class="date">Kayıt yok</span>';
+  $("subFoot").textContent=`${live.length} abonelik sayılıyor${unk?` · ${unk} kalemin tutarı girilmemiş (toplama 0 olarak giriyor)`:""} · USD ve EUR güncel kurla TL'ye çevrilir, yıllıklar 12'ye bölünür.`;
+}
+function showTab(t){ document.body.classList.toggle("tab-subs",t==="subs"); $("tabD").classList.toggle("on",t!=="subs"); $("tabS").classList.toggle("on",t==="subs"); try{history.replaceState(null,"",t==="subs"?"#abonelikler":location.pathname+location.search)}catch(e){} }
+document.addEventListener("DOMContentLoaded",()=>{});
 function render(){
   const d=D;
   $("date").textContent=new Date(d.date+"T12:00").toLocaleDateString("tr-TR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
@@ -352,7 +393,7 @@ function render(){
         ${done.length?`<div class="sub2">Tamamlananlar (${done.length})</div><ul>${done.map(li).join("")}</ul>`:""}
       </div></details>`;}).join("");
 
-  renderCash(d);
+  renderCash(d); renderSubs(d);
   const rv=d.review||[];$("reviewCard").hidden=!rv.length;
   const rvAge=r=>{const t=Date.parse(r.date);return isNaN(t)?0:(Date.now()-t)/864e5};
   const rvShow=rv.filter(r=>rvAge(r)<=7); $("reviewCard").hidden=!rvShow.length;
@@ -401,6 +442,17 @@ $("feed").addEventListener("submit",e=>{const f=e.target.closest("form.fe"); if(
   if(key==="__new") commit({t:"feedadd",dep:v.dep,f:v}); else commit({t:"feededit",key,f:v}); });
 $("review").addEventListener("click",e=>{const b=e.target.closest("[data-rv]"); if(!b)return; const r=(window.__rvShow||[])[+b.dataset.i]; if(!r)return;
   if(b.dataset.rv==="block"){ if(!confirm("Bu göndericinin alanından gelen tüm mailler sessizce yok sayılsın mı?")) return; commit({t:"revblock",from:r.from}); } else commit({t:"revdel",from:r.from,subject:r.subject}); });
+$("tabD").onclick=()=>showTab("d"); $("tabS").onclick=()=>showTab("subs"); if(location.hash==="#abonelikler")showTab("subs");
+$("subNew").onclick=()=>{window.__sedit=window.__sedit==="__new"?null:"__new";renderSubs(D)};
+$("subsCard").addEventListener("click",e=>{
+  const fb=e.target.closest("[data-sf]"); if(fb){window.__sf[fb.dataset.sf]=fb.dataset.v;renderSubs(D);return;}
+  const b=e.target.closest("[data-sa]"); if(!b)return; const a=b.dataset.sa,key=b.dataset.key;
+  if(a==="edit"){window.__sedit=window.__sedit===key?null:key;renderSubs(D)} else if(a==="cancel"){window.__sedit=null;renderSubs(D)}
+  else if(a==="del"&&confirm("Bu abonelik silinsin mi?")) commit({t:"subdel",key}); });
+$("subsCard").addEventListener("submit",e=>{const f=e.target.closest("form.sf"); if(!f)return; e.preventDefault();
+  const v=Object.fromEntries(new FormData(f)); const key=f.dataset.key; window.__sedit=null;
+  v.amount=String(v.amount).trim()===""?"":parseFloat(String(v.amount).replace(/\./g,"").replace(",","."))||0;
+  if(key) commit({t:"subedit",key,f:v}); else commit({t:"subadd",f:v}); });
 $("feedMore").onclick=()=>{ if(window.__all){window.__all=false;render();return;} $("depts").scrollIntoView({behavior:"smooth",block:"start"}); };
 $("feed").addEventListener("change",e=>{const c=e.target.closest("input[type=checkbox][data-k]");if(c)commit({t:"done",k:c.dataset.k,text:c.dataset.t,v:c.checked})});
 // olaylar (delegation)
