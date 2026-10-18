@@ -283,11 +283,11 @@
       "items": [
         {
           "uid": "s9mc5u",
-          "text": "SGK şirket tecil (Yeniben A.Ş.): ilk taksit 19.08.2026'da ₺65.000 ödendi (VakıfBank kart ekstresi: 'SGK Ödem' ₺65.000 + ₺1.846 işlem bedeli). Ödeme planı belgesi henüz alınmadı; taksit ≈ ₺65.000/ay (19'u). 19.09 taksiti ÖDENMEDİ (1 taksit gecikmede), 19.10 yarın (Pzt). 4 taksit ödenmezse tecil bozulur: 19.09, 19.10, 19.11 ve 19.12 (Cumartesi → Pzt 21 Ara) ödenmezse 22 Ara'da bozulur. En güvenlisi 19.09 + 19.10'u (≈₺130.000) birlikte ödemek. Kartla ödemede %2,84 işlem bedeli çıkıyor (₺1.846): havale/EFT ile ödersen yok. Ödeme planını SGM'den/e-SGK'dan al. SGM'ye sorulacaklar: (1) ödeme planı + taksit/tecil faizi tutarları, (2) taksit hangi banka 'SGK Ödeme' tipiyle ödenir (bankada 'İşveren 48/A Taksit' boş, 'Mosip Genel Borç Sorgu' sicil kabul etmedi), (3) 19.08 tahsilatının (kart ekstresi ref 3055472618) hangi kaleme mahsup edildiği.",
+          "text": "SGK şirket tecil (Yeniben A.Ş.): bankada bulundu, ÖDEME TİPİ 'İşveren İcra Taksit Tahsilatı' (borç kodu 4112, referans 117762-2026-<kalem>-<taksit no>). Her taksit 3 kalem: Prim ₺58.280,24 + İşsizlik (Iss) ₺2.929,05 + İPC ₺89,08 = ₺61.298,37 (gecikme zammı ve tecil faizi içinde). Taksit 1 (19.08) ödendi (kartla ₺65.000 + ₺1.846 işlem bedeli). Taksit 2 (vade 21.09, 19'u Cumartesi) ÖDENMEDİ = 1 taksit gecikmede; taksit 3 vade 19.10 (Pzt, yarın); taksit 4 19.11; taksit 5 21.12 (19'u Cumartesi). 4 taksit ödenmezse tecil bozulur: 21.09, 19.10, 19.11 ve 21.12 ödenmezse bozulur. Önce en eskiyi (taksit 2) öde, 3 kalemi birlikte seç; 'Kısmi ödeme' seçme. Tüm taksitler (ekranda kaç taksit kaldığı) listenin altından kontrol edilmeli. Hesaptan ödemede işlem bedeli çıkıp çıkmadığını onay ekranında gör (kartta %2,84 çıkmıştı). SGM'ye sorulacak: (1) tam ödeme planı ve kaç taksit kaldığı, (2) geçmiş taksit için ödeme günü gecikme zammı eklenir mi (ekranda 21.09 tutarı aynı görünüyor), (3) 19.08 tahsilatının (ref 3055472618) mahsubu.",
           "action_type": "Ödeme",
           "category": "Borç/Yapılandırma",
           "party": "SGK (şirket)",
-          "amount": "₺65.000 / taksit",
+          "amount": "₺61.298,37 / taksit",
           "due": "Pzt 19 Eki",
           "due_date": "2026-10-19",
           "plan_date": "2026-10-19",
@@ -299,7 +299,7 @@
             "channel": "bank",
             "from": "VakıfBank kart ekstresi (••3399)",
             "date": "2026-08-19",
-            "note": "'SGK Ödem' ₺65.000 + ₺1.846 işlem bedeli, Ahmet teyit etti; kural SGK Genelge 2024/12 §17.8.1 (2026/7: 4 taksit)"
+            "note": "'SGK Ödem' ₺65.000 + ₺1.846 işlem bedeli, Ahmet teyit etti; kural SGK Genelge 2024/12 §17.8.1 (2026/7: 4 taksit) | 18.10.2026 banka 'Borç Seçimi' ekran görüntüleri: taksit 2–5 listesi (Ahmet attı)."
           }
         },
         {
