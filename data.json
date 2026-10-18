@@ -324,8 +324,29 @@
           }
         },
         {
+          "uid": "pzk37f",
+          "text": "Bağ-Kur 4/B cari ve geçmiş dönem PRİMLERİ (taksitten ayrı): banka 'SGK Ödemesi' ekranında 4 borç listeleniyor: (1) 4005 Geçmiş Dönem Prim ₺39.375,87, son ödeme 19.10.2026 (yarın!), (2) 4027 Cari Dönem Prim ₺11.808,23, son ödeme 02.11.2026, (3) 4041 Vadesi Gelmeyen Borç ₺11.808,23, son ödeme 30.11.2026 (sonraki ayın primi), (4) 4006 taksitlendirme. 4005'in hangi aylardan oluştuğunu (3 ay ≈ ₺35.425 + gecikme?) kalem detayından bak: takvim yılında 4 cari ayın primi ödenmezse Bağ-Kur taksitlendirmesi de bozulur. Aylık maliyet: prim ₺11.808 + taksit ≈₺4.800 ≈ ₺16.600.",
+          "action_type": "Ödeme",
+          "category": "Borç/Yapılandırma",
+          "party": "SGK Bağ-Kur 4/B (Ahmet)",
+          "amount": "₺39.375,87 + ₺11.808,23",
+          "due": "Pzt 19 Eki / 2 Kas",
+          "due_date": "2026-10-19",
+          "plan_date": "2026-10-19",
+          "urgency": "red",
+          "pin": true,
+          "imp": "high",
+          "source": "manual",
+          "src_detail": {
+            "channel": "manual",
+            "from": "Ahmet Fırat (banka uygulaması ekran görüntüsü)",
+            "date": "2026-10-18",
+            "note": "SGK Ödemesi ekranı, 4/1-B Kendi Nam ve Hesabına Çalışma; 'ödenmemiş toplam 4 adet borç'. Referans numaraları (Bağ-Kur no, TC) dashboard'a yazılmadı"
+          }
+        },
+        {
           "uid": "nq4r9c",
-          "text": "Bağkur 4/B (şahsi) 72 taksit: peşinat hariç hiç taksit ödenmedi. Vadesi geçen: taksit 2 (31 Ağu) ₺4.567,88 + taksit 3 (30 Eyl) ₺4.675,26 = 2 taksit gecikmede. 31 Eki taksiti ₺4.786,29 (31 Eki Cumartesi, Pzt 2 Kas mesai bitimine kadar ödenebilir). 4. ödenmeyen taksitte (30 Kas, ₺4.893,73) yapılandırma BOZULUR (ertesi gün, 1 Ara). Gecikenler tecil faiziyle birlikte son taksit tarihine (30.06.2032) kadar ödenirse bozulmaz, ama en güvenlisi 2 gecikmiş + Ekim taksitini 2 Kas'a kadar ödemek. Cari ay Bağ-Kur primleri de ayrıca ödenmeli.",
+          "text": "Bağkur 4/B (şahsi) 72 taksit: peşinat hariç hiç taksit ödenmedi. Vadesi geçen: taksit 2 (31 Ağu) ₺4.567,88 + taksit 3 (30 Eyl) ₺4.675,26 = 2 taksit gecikmede. 31 Eki taksiti ₺4.786,29 (31 Eki Cumartesi, Pzt 2 Kas mesai bitimine kadar ödenebilir). 4. ödenmeyen taksitte (30 Kas, ₺4.893,73) yapılandırma BOZULUR (ertesi gün, 1 Ara). Gecikenler tecil faiziyle birlikte son taksit tarihine (30.06.2032) kadar ödenirse bozulmaz, ama en güvenlisi 2 gecikmiş + Ekim taksitini 2 Kas'a kadar ödemek. Cari ay Bağ-Kur primleri de ayrıca ödenmeli. ÖDEME KANALI (banka uygulaması 'SGK Ödemesi', 4/1-B kendi nam ve hesabına): taksit için 'Borç Kodu 4006 · 4B Bağkur G.D. Taksitlendirme Tahsilatı' seçilir; ekranda ₺595.308,06 (toplam kalan) görünür, TAMAMINI ÖDEME: plandaki taksit tutarını elle yaz (Ağu ₺4.567,88, Eyl ₺4.675,26, Eki ₺4.786,29).",
           "action_type": "Ödeme",
           "category": "Borç/Yapılandırma",
           "party": "SGK Beşiktaş SGM (Bağ-Kur 4/B)",
@@ -1594,7 +1615,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 20:30",
+  "updated": "2026-10-18 21:00",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
