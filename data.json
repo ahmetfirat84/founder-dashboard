@@ -970,7 +970,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 06:30",
+  "updated": "2026-10-18 06:40",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1461,7 +1461,7 @@
       "next_payment_date": "",
       "type": "business",
       "status": "cancelled",
-      "notes": "Cancelled by Ahmet (Oct 18), should not renew. Earlier note: Sep 29 charge of ₺1,477.82 was declined (insufficient limit). Check the next billing date in HeyGen to confirm no further charge."
+      "notes": "Cancelled by Ahmet (Oct 18). No cancellation email from HeyGen in Gmail (HeyGen mails nothing, only VakıfBank decline notices). Charges seen on the 24th–29th: ₺1,402.37 (Jun 24), ₺1,473.17 (Sep 24), ₺1,477.82 (Sep 29), all declined for insufficient limit. Billing about the 24th, so check on Oct 24 that no charge arrives."
     },
     {
       "uid": "tihojk",
@@ -1735,6 +1735,32 @@
       "type": "business",
       "status": "active",
       "notes": "Ordered Oct 17. WhatsApp Business line used by the dashboard assistant. Price not in the confirmation (assumed same £6.99/month), check the first invoice. Forwarding to Ahmet's +90 533 727 0000 is not supported, callers are told to use WhatsApp."
+    },
+    {
+      "uid": "1lvakp",
+      "name": "Exxen",
+      "category": "Entertainment",
+      "amount": 388,
+      "currency": "TRY",
+      "period": "monthly",
+      "payment_method": "Visa ••3399",
+      "next_payment_date": "",
+      "type": "personal",
+      "status": "active",
+      "notes": "Seen in a Sep 24 'insufficient limit' decline of ₺388 (merchant PARATI/EXXEN.COM). Period and current status unconfirmed."
+    },
+    {
+      "uid": "chs1df",
+      "name": "Hepsiburada (iyzico, recurring?)",
+      "category": "Other",
+      "amount": 69.9,
+      "currency": "TRY",
+      "period": "monthly",
+      "payment_method": "Visa ••3399",
+      "next_payment_date": "",
+      "type": "personal",
+      "status": "active",
+      "notes": "Sep 24 'insufficient limit' decline of ₺69.90 (IYZICO/HEPSIBURADA). May be Hepsiburada Premium, confirm or delete."
     }
   ]
 }
