@@ -970,7 +970,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 06:00",
+  "updated": "2026-10-18 06:20",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1682,20 +1682,7 @@
       "next_payment_date": "",
       "type": "business",
       "status": "to cancel",
-      "notes": "NZ number set up in June for HubSpot calling, now IDLE (Ahmet). Cancel it: balance is -$2.43, calls paused, renewal $3.99 due. Cancel or let it lapse at app.sonetel.com rather than topping up."
-    },
-    {
-      "uid": "3i18h5",
-      "name": "UK virtual number (Selin, Sales)",
-      "category": "Telecom",
-      "amount": 6.99,
-      "currency": "GBP",
-      "period": "monthly",
-      "payment_method": "Visa ••3399",
-      "next_payment_date": "",
-      "type": "business",
-      "status": "active",
-      "notes": "UK number for Selin (Sales). Number itself not found in emails. Likely the 'YOURBUSINESSNUMBER +44208040110' £6.99 charge that was declined on Jun 9 (insufficient limit). Please confirm provider, number and amount."
+      "notes": "Only one Sonetel number/account exists (ahmet@andnewme.com). NZ number set up in June for HubSpot calling, now IDLE: cancel it. Balance -$2.43, calls paused since Sep 9, renewal $3.99 failed, number at risk of loss. Cancel at app.sonetel.com instead of topping up."
     },
     {
       "uid": "fzr6mr",
@@ -1722,6 +1709,32 @@
       "type": "business",
       "status": "active",
       "notes": "PLACEHOLDER: no Vodafone line or invoice found in emails (only a Vodafone employee's personal mails). Add details or delete."
+    },
+    {
+      "uid": "1xaqqw",
+      "name": "YourBusinessNumber UK · +44 7822 032650",
+      "category": "Telecom",
+      "amount": 6.99,
+      "currency": "GBP",
+      "period": "monthly",
+      "payment_method": "Visa ••3399 (backup via Link)",
+      "next_payment_date": "2026-11-01",
+      "type": "business",
+      "status": "active",
+      "notes": "Account 'Sales_Patient' (WhatsApp Business number, probably Selin's Sales line, confirm). Charged £6.99 on the 1st; invoices Apr–Oct. June charges were declined (insufficient limit) and YBN warned of losing WhatsApp Business access."
+    },
+    {
+      "uid": "t68u7o",
+      "name": "YourBusinessNumber UK · +44 7822 033161 (assistant)",
+      "category": "Telecom",
+      "amount": 6.99,
+      "currency": "GBP",
+      "period": "monthly",
+      "payment_method": "",
+      "next_payment_date": "2026-11-17",
+      "type": "business",
+      "status": "active",
+      "notes": "Ordered Oct 17. WhatsApp Business line used by the dashboard assistant. Price not in the confirmation (assumed same £6.99/month), check the first invoice. Forwarding to Ahmet's +90 533 727 0000 is not supported, callers are told to use WhatsApp."
     }
   ]
 }
