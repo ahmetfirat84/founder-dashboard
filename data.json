@@ -970,7 +970,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 07:00",
+  "updated": "2026-10-18 07:20",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1774,6 +1774,32 @@
       "type": "personal",
       "status": "active",
       "notes": "Channel membership (merchant 'Google YouTube Member'). ₺1,000 charge was declined for insufficient limit and retried on Sep 24, 25 and 29. Which channel is not in the emails, add it here. Billing period assumed monthly."
+    },
+    {
+      "uid": "b2xvth",
+      "name": "Kanyon residence dues (aidat)",
+      "category": "Home",
+      "amount": 23478.6,
+      "currency": "TRY",
+      "period": "monthly",
+      "payment_method": "",
+      "next_payment_date": "2026-11-01",
+      "type": "personal",
+      "status": "active",
+      "notes": "Amount from Ahmet (₺23,478.60). Kanyon Yönetim İşletim issues the e-arşiv invoice around the 1st each month (KEB2026000003617 on Oct 1, 000003020 on Sep 1, 000002656 on Aug 3). The amount is not readable in the email text, confirm it on the invoice PDF. Payment method not in emails."
+    },
+    {
+      "uid": "2hy3eq",
+      "name": "Electricity (CK Boğaziçi, contract 0111796919)",
+      "category": "Home",
+      "amount": 595,
+      "currency": "TRY",
+      "period": "monthly",
+      "payment_method": "İş Bankası auto-pay (1235-••••084)",
+      "next_payment_date": "2026-10-19",
+      "type": "personal",
+      "status": "active",
+      "notes": "Bills are ₺580–605 but several invoices arrive per month. Sep 17 auto-pay of ₺595 FAILED (insufficient balance), debt reminder Sep 20. Open now: ₺580 (due Oct 12, check paid), ₺415 (due Oct 19), ₺18.57 (due Oct 20)."
     }
   ]
 }
