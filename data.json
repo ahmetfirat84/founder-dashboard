@@ -308,7 +308,8 @@
             "channel": "WhatsApp (18 Eki 18:56, belge)",
             "note": "taksit 2 son kalem (İPC)"
           },
-          "note": "18.10.2026: TAKSİT 2 TAMAMEN ÖDENDİ (Prim ₺58.280,34 + İşsizlik ₺2.929,41 + İPC ₺88,61 = ₺61.298,36; 3 dekont). Asistanın 'kalan ₺2.841' hesabı yanlıştı (taksit 2 kapandı). Sıradaki: taksit 3, vade 19.10 (Pzt), ₺61.298,37."
+          "note": "18.10.2026: TAKSİT 2 TAMAMEN ÖDENDİ (Prim ₺58.280,34 + İşsizlik ₺2.929,41 + İPC ₺88,61 = ₺61.298,36; 3 dekont). Asistanın 'kalan ₺2.841' hesabı yanlıştı (taksit 2 kapandı). Sıradaki: taksit 3, vade 19.10 (Pzt), ₺61.298,37.",
+          "recurring": true
         },
         {
           "uid": "f2dpoa",
@@ -371,7 +372,8 @@
             "from": "Ahmet Fırat",
             "date": "2026-10-18",
             "note": "Kaynak: Bağkur-Yapılandırma Ödeme Planı.pdf (talep 28.07.2026, Beşiktaş SGM; plan ve 'Açıklamalar' maddeleri) + SGK Genelge 2024/12'nin 2026/7 değişikliği (3 yerine 4 taksit). Ödenmeyen taksit sayımı teyit için Beşiktaş SGM'ye sorulmalı"
-          }
+          },
+          "recurring": true
         },
         {
           "text": "VakıfBank kart asgarisi ödenmedi: asgari ₺154.544,00 acil, toplam ekstre ₺377.293,60 (bilgi). Para girince ilk öde",
