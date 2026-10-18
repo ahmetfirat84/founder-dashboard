@@ -62,6 +62,8 @@
   .dh{color:var(--mut);font-size:17px;line-height:1;padding:4px 2px 4px 8px;cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none;align-self:center;letter-spacing:-3px}
   .feed .fr.cx{grid-template-columns:auto minmax(0,1fr) auto auto}.cx.dragging{opacity:.9;background:var(--card);box-shadow:0 6px 22px #0003;position:relative;z-index:5;border-radius:10px}
   .og a{font-weight:600;color:#027eff;text-decoration:none}.og b{font-weight:600}
+  .catrow{display:none;margin-top:6px;font-size:12px;color:var(--mut)}.catrow select{font:inherit;font-size:12.5px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:2px 8px;margin-left:4px}
+  .det li.cx.open .catrow,.feed .fr.cx.open .catrow{display:block}
   .add{margin-left:6px;padding:0 9px;font-size:16px;line-height:24px;border-radius:12px}
   .det li{display:flex;gap:8px;align-items:flex-start}
   .det li input{margin-top:4px;flex:none}
@@ -221,6 +223,7 @@ const srcHtml=o=>{ const sd=o.src_detail; if(!sd) return esc(srcTag(o));
   const to=(sd.to||[]).length?" · alıcılar: "+esc(sd.to.join(", ")):"", cc=(sd.cc||[]).length?" · cc: "+esc(sd.cc.join(", ")):"";
   const url=sd.url||(sd.thread?gmailUrl(sd.thread):"");
   return "<b>Kaynak:</b> "+ch+(sd.from?" · "+esc(sd.from):"")+(sd.date?" · "+esc(fmtDate(sd.date)+(sd.date.slice(0,4)!==todayStr().slice(0,4)?" "+sd.date.slice(0,4):"")):"")+(sd.subject?" · “"+esc(sd.subject)+"”":"")+to+cc+(sd.note?" · "+esc(sd.note):"")+(url?` · <a href="${esc(url)}" target="_blank" rel="noopener noreferrer">Maili aç ↗</a>`:"")+((sd.more||[]).length?" · <b>İlgili:</b> "+sd.more.map(m=>`<a href="${esc(gmailUrl(m.thread))}" target="_blank" rel="noopener noreferrer">${esc(m.label)} ↗</a>`).join(" · "):""); };
+const catSel=(d,dk,t)=>`<span class="catrow"><label>🏷 Category <select class="catsel" data-dk="${esc(dk)}" data-t="${esc(t)}">${d.departments.map(x=>`<option value="${esc(x.key)}" ${x.key===dk?"selected":""}>${esc(x.area)}</option>`).join("")}</select></label></span>`;
 const shortParts=r=>[r.a,r.p,r.am,r.du].filter(Boolean).map(esc).join(' <span class="sep">·</span> ');
 window.__op=window.__op||new Set();
 const lineParts=r=>[r.a,r.c,r.p,r.am,r.du,r.pl?"▶ "+fmtDate(r.pl):""].filter(Boolean).map(esc).join(' <span class="sep">·</span> ');
@@ -257,6 +260,8 @@ function applyOp(d,op){
   if(op.t==="kasa"){ d.kasa={amount_try:op.v,rezerve_try:op.rez||0,at:op.at}; return; }
   if(op.t==="itemorder"){ const x=d.departments.find(x=>x.key===op.dep); if(!x)return; const it=x.items, pos=t=>op.texts.indexOf((norm(t).text)||""); 
     const open=it.filter(i=>!norm(i).done&&pos(i)>=0).sort((a,b)=>pos(a)-pos(b)); let n=0; x.items=it.map(i=>(!norm(i).done&&pos(i)>=0)?open[n++]:i); return; }
+  if(op.t==="moveitem"){ const f=d.departments.find(x=>x.key===op.from), to=d.departments.find(x=>x.key===op.to); if(!f||!to||f===to)return;
+    const i=f.items.findIndex(it=>norm(it).text===op.text&&!norm(it).done); if(i<0)return; let it=f.items.splice(i,1)[0]; if(typeof it==="string") it={text:it}; it.moved_from=f.area; to.items.unshift(it); return; }
   if(op.t==="subadd"){ d.subscriptions=d.subscriptions||[]; d.subscriptions.push({uid:op.uid,...op.f}); return; }
   if(op.t==="subedit"){ const x=(d.subscriptions||[]).find(x=>x.uid===op.key); if(x)Object.assign(x,op.f); return; }
   if(op.t==="subdel"){ d.subscriptions=(d.subscriptions||[]).filter(x=>x.uid!==op.key); return; }
@@ -281,7 +286,7 @@ async function commit(op){
     const r=await fetch(API+"?t="+Date.now(),{headers:ghHead()}); if(!r.ok)throw new Error("okuma "+r.status);
     const f=await r.json(); const latest=JSON.parse(b64d(f.content)); applyOp(latest,op);
     const p=await fetch(API,{method:"PUT",headers:{...ghHead(),"Content-Type":"application/json"},
-      body:JSON.stringify({message:"Dashboard: "+(op.t==="note"?"not":op.t==="delnote"?"not silindi":op.t.startsWith("feed")?"feed":op.t.startsWith("rev")?"inceleme":op.t.endsWith("order")?"reorder":op.t.startsWith("sub")?"subscription":"aksiyon")+" "+op.at,content:b64e(JSON.stringify(latest,null,2)+"\n"),sha:f.sha})});
+      body:JSON.stringify({message:"Dashboard: "+(op.t==="note"?"not":op.t==="delnote"?"not silindi":op.t.startsWith("feed")?"feed":op.t.startsWith("rev")?"inceleme":op.t.endsWith("order")?"reorder":op.t==="moveitem"?"category":op.t.startsWith("sub")?"subscription":"aksiyon")+" "+op.at,content:b64e(JSON.stringify(latest,null,2)+"\n"),sha:f.sha})});
     if(!p.ok)throw new Error("yazma "+p.status);
     toast("data.json'a kaydedildi ✓");
   }catch(e){ toast("Kaydedilemedi: "+e.message+" (token/izin?)"); }
@@ -401,7 +406,7 @@ function render(){
     const h=deptHealth(x); const items=x.items.map(norm), open=items.filter(i=>!i.done), done=items.filter(i=>i.done), notes=(x.notes||[]).slice(0,3);
     const li=i=>{ const lp=lineParts({a:i.action_type,c:i.category,p:i.party,am:i.amount,du:i.due||fmtDate(i.due_date),pl:i.plan_date}); const hasS=i.action_type||i.category||i.party||i.amount||i.due||i.due_date;
       const sp=shortParts({a:i.action_type,p:i.party,am:i.amount,du:i.due||fmtDate(i.due_date)})+(i.pin?" 📌":"")+(i.imp==="high"?" ❗":""), ck="d|"+x.key+"|"+i.text;
-      return `<li class="cx${window.__op.has(ck)?" open":""} ${i.done?"done":""}${i.imp==="low"?" lowimp":""}" data-ck="${esc(ck)}"><input type="checkbox" data-k="${esc(x.key)}" data-t="${esc(i.text)}" ${i.done?"checked":""} aria-label="Tamamlandı"><span class="ud ${urgencyOf(i)}" title="vade rengi"></span><span class="tx">${hasS?`<span class="l1d"><span class="lc">${hasS?sp:esc(i.text)}</span><span class="lf">${lp}</span>${i.pin?" 📌":""}${i.imp==="high"?" ❗":""}${i.imp==="low"?' <span class="tag">düşük önem</span>':""}</span><small class="inote">${esc(i.text)}${i.note?" · "+esc(i.note):""}</small>`:`${esc(i.text)}${i.note?`<small class="inote">${esc(i.note)}</small>`:""}`}${i.owner?` <span class="tag own">${esc(i.owner)}</span>`:""}${(i.src_detail||srcTag(i))?`<small class="og">↳ ${srcHtml(i)}</small>`:""}</span><span class="chv">›</span><span class="dh" title="Drag to reorder" aria-label="Drag to reorder">⋮⋮</span></li>`; };
+      return `<li class="cx${window.__op.has(ck)?" open":""} ${i.done?"done":""}${i.imp==="low"?" lowimp":""}" data-ck="${esc(ck)}"><input type="checkbox" data-k="${esc(x.key)}" data-t="${esc(i.text)}" ${i.done?"checked":""} aria-label="Tamamlandı"><span class="ud ${urgencyOf(i)}" title="vade rengi"></span><span class="tx">${hasS?`<span class="l1d"><span class="lc">${hasS?sp:esc(i.text)}</span><span class="lf">${lp}</span>${i.pin?" 📌":""}${i.imp==="high"?" ❗":""}${i.imp==="low"?' <span class="tag">düşük önem</span>':""}</span><small class="inote">${esc(i.text)}${i.note?" · "+esc(i.note):""}</small>`:`${esc(i.text)}${i.note?`<small class="inote">${esc(i.note)}</small>`:""}`}${i.owner?` <span class="tag own">${esc(i.owner)}</span>`:""}${(i.src_detail||srcTag(i))?`<small class="og">↳ ${srcHtml(i)}</small>`:""}${catSel(d,x.key,i.text)}</span><span class="chv">›</span><span class="dh" title="Drag to reorder" aria-label="Drag to reorder">⋮⋮</span></li>`; };
     return `<details class="card dept ${h}" data-k="${esc(x.key)}" ${openSet.has(x.key)?"open":""}>
       <summary>
         <div style="flex:1;min-width:0"><span class="nm">${esc(x.area)}</span><span class="ar">${esc(x.name)} <span class="pill ${h}">${HL[h]}</span></span>
@@ -441,7 +446,7 @@ function render(){
   const fr=(r,i)=>{const parts=lineParts(r)+(r.pin?" 📌":"")+(r.imp==="high"?" ❗":"");
     const k=esc(r.k);
     const sp=shortParts(r)+(r.pin?" 📌":"")+(r.imp==="high"?" ❗":""), op=window.__op.has(r.k)||window.__edit===r.k;
-    return `<div class="fr cx${op?" open":""}" data-ck="${k}"><span class="st">${ICON[r.st]}</span><div class="l1">${r.kind==="item"?`<input type="checkbox" data-k="${esc(r.dk)}" data-t="${esc(r.t)}" aria-label="Tamamlandı">`:""}<span class="lc">${sp}</span><span class="lf">${parts}<span class="dp">${esc(r.src)}</span></span></div><span class="chv">›</span><span class="dh" title="Drag to reorder" aria-label="Drag to reorder">⋮⋮</span>${(r.tx||r.nt)?`<div class="l2">${esc(r.tx||"")}${r.tx&&r.nt?" · ":""}${esc(r.nt||"")}</div>`:""}${(r.ogh||r.og)?`<div class="og">↳ ${r.ogh||esc(r.og)}</div>`:""}
+    return `<div class="fr cx${op?" open":""}" data-ck="${k}"><span class="st">${ICON[r.st]}</span><div class="l1">${r.kind==="item"?`<input type="checkbox" data-k="${esc(r.dk)}" data-t="${esc(r.t)}" aria-label="Tamamlandı">`:""}<span class="lc">${sp}</span><span class="lf">${parts}<span class="dp">${esc(r.src)}</span></span></div><span class="chv">›</span><span class="dh" title="Drag to reorder" aria-label="Drag to reorder">⋮⋮</span>${(r.tx||r.nt)?`<div class="l2">${esc(r.tx||"")}${r.tx&&r.nt?" · ":""}${esc(r.nt||"")}</div>`:""}${(r.ogh||r.og)?`<div class="og">↳ ${r.ogh||esc(r.og)}</div>`:""}${r.kind==="item"?`<div class="og">${catSel(d,r.dk,r.t)}</div>`:""}
       <div class="fa"><button data-fa="up" data-key="${k}" ${i===0?"disabled":""} aria-label="Yukarı">▲</button><button data-fa="down" data-key="${k}" ${i===urgent.length-1?"disabled":""} aria-label="Aşağı">▼</button><button data-fa="edit" data-key="${k}" aria-label="Düzenle">✎</button><button data-fa="del" data-key="${k}" aria-label="Sil">✕</button></div>
       ${window.__edit===r.k?form(r.k,r):""}</div>`};
   $("feed").innerHTML=(window.__edit==="__new"?`<div class="fr">${form("__new")}</div>`:"")+(urgent.slice(0,lim).map(fr).join("")||'<span class="date">Acil iş yok</span>');
@@ -490,6 +495,7 @@ $("subsCard").addEventListener("submit",e=>{const f=e.target.closest("form.sf");
   { const t=String(v.amount).trim(); const tr=/^\d{1,3}(\.\d{3})+(,\d+)?$/.test(t)||/,\d{1,2}$/.test(t); v.amount=t===""?"":parseFloat(tr?t.replace(/\./g,"").replace(",","."):t.replace(/,/g,""))||0; }
   if(key) commit({t:"subedit",key,f:v}); else commit({t:"subadd",f:v}); });
 $("feedMore").onclick=()=>{ if(window.__all){window.__all=false;render();return;} $("depts").scrollIntoView({behavior:"smooth",block:"start"}); };
+document.addEventListener("change",e=>{ const sl=e.target.closest(".catsel"); if(!sl)return; if(sl.value!==sl.dataset.dk) commit({t:"moveitem",from:sl.dataset.dk,to:sl.value,text:sl.dataset.t}); });
 $("feed").addEventListener("change",e=>{const c=e.target.closest("input[type=checkbox][data-k]");if(c)commit({t:"done",k:c.dataset.k,text:c.dataset.t,v:c.checked})});
 // olaylar (delegation)
 $("depts").addEventListener("click",e=>{
