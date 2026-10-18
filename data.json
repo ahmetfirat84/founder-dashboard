@@ -1659,19 +1659,6 @@
       "notes": "Stripe: $9.99 charge failed Sep 21, receipt Oct 4. Confirm what this is."
     },
     {
-      "uid": "17xof8",
-      "name": "Aesty AI Stylist Pro",
-      "category": "Entertainment",
-      "amount": 299.99,
-      "currency": "TRY",
-      "period": "weekly",
-      "payment_method": "Visa ••0149",
-      "next_payment_date": "",
-      "type": "personal",
-      "status": "cancelled",
-      "notes": "Weekly via Apple. Last receipt Sep 15 (renewal Sep 22 never charged). Looks cancelled, confirm."
-    },
-    {
       "uid": "d2d0nx",
       "name": "Bevel Pro",
       "category": "SaaS",
