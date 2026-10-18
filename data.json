@@ -283,7 +283,7 @@
       "items": [
         {
           "uid": "s9mc5u",
-          "text": "SGK şirket tecil (Yeniben A.Ş.): ilk taksit 19.08.2026'da ₺65.000 ödendi (VakıfBank kart ekstresi: 'SGK Ödem' ₺65.000 + ₺1.846 işlem bedeli). Ödeme planı belgesi henüz alınmadı; taksit ≈ ₺65.000/ay (19'u). 19.09 taksiti ÖDENMEDİ (1 taksit gecikmede), 19.10 yarın (Pzt). 4 taksit ödenmezse tecil bozulur: 19.09, 19.10, 19.11 ve 19.12 (Cumartesi → Pzt 21 Ara) ödenmezse 22 Ara'da bozulur. En güvenlisi 19.09 + 19.10'u (≈₺130.000) birlikte ödemek. Kartla ödemede %2,84 işlem bedeli çıkıyor (₺1.846): havale/EFT ile ödersen yok. Ödeme planını SGM'den/e-SGK'dan al.",
+          "text": "SGK şirket tecil (Yeniben A.Ş.): ilk taksit 19.08.2026'da ₺65.000 ödendi (VakıfBank kart ekstresi: 'SGK Ödem' ₺65.000 + ₺1.846 işlem bedeli). Ödeme planı belgesi henüz alınmadı; taksit ≈ ₺65.000/ay (19'u). 19.09 taksiti ÖDENMEDİ (1 taksit gecikmede), 19.10 yarın (Pzt). 4 taksit ödenmezse tecil bozulur: 19.09, 19.10, 19.11 ve 19.12 (Cumartesi → Pzt 21 Ara) ödenmezse 22 Ara'da bozulur. En güvenlisi 19.09 + 19.10'u (≈₺130.000) birlikte ödemek. Kartla ödemede %2,84 işlem bedeli çıkıyor (₺1.846): havale/EFT ile ödersen yok. Ödeme planını SGM'den/e-SGK'dan al. SGM'ye sorulacaklar: (1) ödeme planı + taksit/tecil faizi tutarları, (2) taksit hangi banka 'SGK Ödeme' tipiyle ödenir (bankada 'İşveren 48/A Taksit' boş, 'Mosip Genel Borç Sorgu' sicil kabul etmedi), (3) 19.08 tahsilatının (kart ekstresi ref 3055472618) hangi kaleme mahsup edildiği.",
           "action_type": "Ödeme",
           "category": "Borç/Yapılandırma",
           "party": "SGK (şirket)",
@@ -1615,7 +1615,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 21:00",
+  "updated": "2026-10-18 22:30",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
