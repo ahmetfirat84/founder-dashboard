@@ -1646,19 +1646,6 @@
       "notes": "4 Eki Stripe makbuzu 'X' adına geldi. Tutar bulunamadı, teyit et."
     },
     {
-      "uid": "5ctjse",
-      "name": "Bevel Pro",
-      "category": "SaaS",
-      "amount": "",
-      "currency": "TRY",
-      "period": "aylık",
-      "payment_method": "Apple",
-      "next_payment_date": "",
-      "type": "şahsi",
-      "status": "iptal edildi",
-      "notes": "Son makbuz 4 Eyl (4 Eki'de yenilenecekti), sonrası yok. İptal olmuş görünüyor, teyit et."
-    },
-    {
       "uid": "fjc2yb",
       "name": "EatBetter Clubs",
       "category": "Eğlence",
