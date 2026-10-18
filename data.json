@@ -287,7 +287,7 @@
           "action_type": "Ödeme",
           "category": "Borç/Yapılandırma",
           "party": "SGK (şirket)",
-          "amount": "₺88,61 (taksit 2 İPC kalan) + taksit 3 ₺61.298,37",
+          "amount": "₺2.841 (kalan; ₺89 ödendi)",
           "due": "Taksit 3: Pzt 19 Eki",
           "due_date": "2026-10-19",
           "plan_date": "2026-10-19",
@@ -301,16 +301,15 @@
             "date": "2026-08-19",
             "note": "'SGK Ödem' ₺65.000 + ₺1.846 işlem bedeli, Ahmet teyit etti; kural SGK Genelge 2024/12 §17.8.1 (2026/7: 4 taksit) | 18.10.2026 banka 'Borç Seçimi' ekran görüntüleri: taksit 2–5 listesi (Ahmet attı)."
           },
-          "amount_try": 2929.41,
+          "amount_try": 2840.7999999999997,
           "proof": {
             "type": "banka dekontu",
             "date": "2026-10-18",
-            "amount_try": 2929.41,
-            "channel": "WhatsApp (18 Eki 18:54, belge)",
-            "drive_url": "https://drive.google.com/file/d/1kTMZHirFH0aaXoN2eLWJpMsFbri3mCxf/view?usp=drivesdk",
-            "draft_url": ""
+            "amount_try": 88.61,
+            "channel": "WhatsApp (18 Eki 18:56, belge)",
+            "partial": true
           },
-          "note": "18.10.2026: taksit 2'den Prim ₺58.280,34 ve İşsizlik ₺2.929,41 ödendi (dekontlar Drive'da). KALAN: İPC ₺88,61 (referans 117762-2026-3-2-Ipc). Asistan kalemi yanlışlıkla 'ödendi' diye kapatmıştı, geri açıldı. Taksit 3 (19.10) ve sonrası açık."
+          "note": "18.10.2026: taksit 2'den Prim ₺58.280,34 ve İşsizlik ₺2.929,41 ödendi (dekontlar Drive'da). KALAN: İPC ₺88,61 (referans 117762-2026-3-2-Ipc). Asistan kalemi yanlışlıkla 'ödendi' diye kapatmıştı, geri açıldı. Taksit 3 (19.10) ve sonrası açık. KISMİ ÖDEME 2026-10-18: ₺89 ödendi, kalan ₺2.841."
         },
         {
           "uid": "f2dpoa",
@@ -1633,7 +1632,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 18:55",
+  "updated": "2026-10-18 18:56",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1691,7 +1690,8 @@
     "1a14fb69e4c5b1f8",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEEyNzc4NjY0QzQwMjZDNjUzNjUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEEyMzc3MjkxRDBEMDJDNEFGRUQA",
-    "1a14fb95b55d8a48"
+    "1a14fb95b55d8a48",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1NjVDREU3OERERjdBNzBFNTgA"
   ],
   "feed_order": [
     "qt5dom",
