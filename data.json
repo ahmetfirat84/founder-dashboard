@@ -1644,19 +1644,6 @@
       "type": "şahsi",
       "status": "aktif",
       "notes": "4 Eki Stripe makbuzu 'X' adına geldi. Tutar bulunamadı, teyit et."
-    },
-    {
-      "uid": "fjc2yb",
-      "name": "EatBetter Clubs",
-      "category": "Eğlence",
-      "amount": "",
-      "currency": "TRY",
-      "period": "aylık",
-      "payment_method": "Apple",
-      "next_payment_date": "",
-      "type": "şahsi",
-      "status": "iptal edildi",
-      "notes": "Son makbuz 29 Ağu (29 Eyl'de yenilenecekti), sonrası yok. İptal olmuş görünüyor, teyit et."
     }
   ]
 }
