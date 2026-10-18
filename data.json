@@ -1713,21 +1713,6 @@
       "manage_hint": "Billed via Apple: iPhone Settings → your name → Subscriptions, or this link. Cancel there, not in the app."
     },
     {
-      "uid": "tasa6e",
-      "name": "Disney+ Ad-free",
-      "category": "Entertainment",
-      "amount": 449.9,
-      "currency": "TRY",
-      "period": "monthly",
-      "payment_method": "VakıfBank card ••3399",
-      "next_payment_date": "",
-      "type": "personal",
-      "status": "active",
-      "notes": "Current plan: Disney+ Reklamsız (ad-free), ₺449.90/month (confirmed by Ahmet). PAYMENT FAILING: the charge failed on Sep 30 and Oct 2 (card limit insufficient) and also in May, June and July. Update the card or cancel.",
-      "manage_url": "https://www.disneyplus.com/account",
-      "manage_hint": "disneyplus.com → profile → Account → Subscription → Cancel. If billed through Apple/Google/Turkcell, cancel there. Help: help.disneyplus.com → Account & Billing → chat."
-    },
-    {
       "uid": "kecfpo",
       "name": "Netflix Premium",
       "category": "Entertainment",
