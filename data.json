@@ -970,7 +970,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 06:40",
+  "updated": "2026-10-18 06:50",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1747,11 +1747,11 @@
       "next_payment_date": "",
       "type": "personal",
       "status": "active",
-      "notes": "Seen in a Sep 24 'insufficient limit' decline of ₺388 (merchant PARATI/EXXEN.COM). Period and current status unconfirmed."
+      "notes": "Confirmed by Ahmet. ₺388 charge declined Sep 24 (insufficient limit, merchant PARATI/EXXEN.COM)."
     },
     {
       "uid": "chs1df",
-      "name": "Hepsiburada (iyzico, recurring?)",
+      "name": "Hepsiburada (iyzico)",
       "category": "Other",
       "amount": 69.9,
       "currency": "TRY",
@@ -1760,7 +1760,20 @@
       "next_payment_date": "",
       "type": "personal",
       "status": "active",
-      "notes": "Sep 24 'insufficient limit' decline of ₺69.90 (IYZICO/HEPSIBURADA). May be Hepsiburada Premium, confirm or delete."
+      "notes": "Confirmed by Ahmet. ₺69.90 charge declined Sep 24 (insufficient limit, merchant IYZICO/HEPSIBURADA). Exact plan not in emails."
+    },
+    {
+      "uid": "h23iie",
+      "name": "YouTube channel membership",
+      "category": "Entertainment",
+      "amount": 1000,
+      "currency": "TRY",
+      "period": "monthly",
+      "payment_method": "Visa ••3399",
+      "next_payment_date": "",
+      "type": "personal",
+      "status": "active",
+      "notes": "Channel membership (merchant 'Google YouTube Member'). ₺1,000 charge was declined for insufficient limit and retried on Sep 24, 25 and 29. Which channel is not in the emails, add it here. Billing period assumed monthly."
     }
   ]
 }
