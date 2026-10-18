@@ -974,7 +974,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 12:20",
+  "updated": "2026-10-18 12:40",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1460,10 +1460,10 @@
       "currency": "TRY",
       "period": "weekly",
       "payment_method": "Mastercard ••2051",
-      "next_payment_date": "",
+      "next_payment_date": "2026-10-22",
       "type": "business",
       "status": "active",
-      "notes": "Billed weekly via Apple (about ₺802/month). Apple billing problem on Oct 16. Consider a cheaper plan.",
+      "notes": "Apple Subscriptions: weekly ₺184.99, continues Oct 22 (about ₺802/month). Apple billing problem on Oct 16. Consider a cheaper plan or cancel.",
       "manage_url": "https://apps.apple.com/account/subscriptions",
       "manage_hint": "Billed via Apple: iPhone Settings → your name → Subscriptions, or this link. Cancel there, not in the app."
     },
@@ -1508,7 +1508,7 @@
       "next_payment_date": "2027-08-28",
       "type": "business",
       "status": "active",
-      "notes": "Used for the Yeniben nutrition app Apple Health sync. Billed via Apple.",
+      "notes": "Used for the Yeniben nutrition app Apple Health sync. Billed via Apple, ₺299.99 yearly, continues Aug 28 2027 (confirmed).",
       "manage_url": "https://apps.apple.com/account/subscriptions",
       "manage_hint": "Billed via Apple: iPhone Settings → your name → Subscriptions, or this link. Cancel there, not in the app."
     },
@@ -1565,10 +1565,10 @@
       "currency": "TRY",
       "period": "monthly",
       "payment_method": "İşbank corporate card ••0149",
-      "next_payment_date": "2026-11-18",
+      "next_payment_date": "2026-11-17",
       "type": "personal",
-      "status": "active",
-      "notes": "Billed via Apple. Apple billing problem on Oct 16, charged Oct 17.",
+      "status": "cancelled",
+      "notes": "Apple Subscriptions shows 'Expires on 17 November': auto-renew is OFF, it ends Nov 17 and will not be charged again. (Was ₺99/month.)",
       "manage_url": "https://apps.apple.com/account/subscriptions",
       "manage_hint": "Billed via Apple: iPhone Settings → your name → Subscriptions, or this link. Cancel there, not in the app."
     },
@@ -1583,7 +1583,7 @@
       "next_payment_date": "2026-11-18",
       "type": "personal",
       "status": "active",
-      "notes": "Billed via Apple. Apple billing problem on Oct 16, charged Oct 17/18.",
+      "notes": "Billed via Apple, continues Nov 18 (confirmed in Apple Subscriptions).",
       "manage_url": "https://apps.apple.com/account/subscriptions",
       "manage_hint": "Billed via Apple: iPhone Settings → your name → Subscriptions, or this link. Cancel there, not in the app."
     },
@@ -1598,7 +1598,7 @@
       "next_payment_date": "2026-11-12",
       "type": "personal",
       "status": "active",
-      "notes": "Billed via Apple.",
+      "notes": "Billed via Apple, continues Nov 12 (confirmed in Apple Subscriptions).",
       "manage_url": "https://apps.apple.com/account/subscriptions",
       "manage_hint": "Billed via Apple: iPhone Settings → your name → Subscriptions, or this link. Cancel there, not in the app."
     },
@@ -1613,7 +1613,7 @@
       "next_payment_date": "2027-08-09",
       "type": "personal",
       "status": "active",
-      "notes": "Annual, renewed Aug 19.",
+      "notes": "Shown as 'Microsoft Word / Microsoft 365', ₺3,299.99, continues Aug 9 2027 (confirmed in Apple Subscriptions).",
       "manage_url": "https://apps.apple.com/account/subscriptions",
       "manage_hint": "Billed via Apple: iPhone Settings → your name → Subscriptions, or this link. Cancel there, not in the app."
     },
@@ -1865,6 +1865,66 @@
       "type": "personal",
       "status": "active",
       "notes": "Bills are ₺580–605 but several invoices arrive per month. Sep 17 auto-pay of ₺595 FAILED (insufficient balance), debt reminder Sep 20. Open now: ₺580 (due Oct 12, check paid), ₺415 (due Oct 19), ₺18.57 (due Oct 20)."
+    },
+    {
+      "uid": "0vebmm",
+      "name": "Instagram subscription (melisa.mrsl)",
+      "category": "Entertainment",
+      "amount": 79.99,
+      "currency": "TRY",
+      "period": "monthly",
+      "payment_method": "Apple",
+      "next_payment_date": "2026-11-13",
+      "type": "personal",
+      "status": "active",
+      "notes": "Creator subscription to the Instagram account melisa.mrsl, via Apple, continues Nov 13.",
+      "manage_url": "https://apps.apple.com/account/subscriptions",
+      "manage_hint": "Billed via Apple: iPhone Settings → your name → Subscriptions, or this link. Cancel there, not in the app."
+    },
+    {
+      "uid": "upte91",
+      "name": "Notability",
+      "category": "SaaS",
+      "amount": 599.99,
+      "currency": "TRY",
+      "period": "yearly",
+      "payment_method": "Apple",
+      "next_payment_date": "2027-02-26",
+      "type": "personal",
+      "status": "active",
+      "notes": "Apple subscription, ₺599.99, continues Feb 26 2027 (period assumed yearly). Cancel if unused.",
+      "manage_url": "https://apps.apple.com/account/subscriptions",
+      "manage_hint": "Billed via Apple: iPhone Settings → your name → Subscriptions, or this link. Cancel there, not in the app."
+    },
+    {
+      "uid": "yitw9m",
+      "name": "Foodvisor Premium",
+      "category": "SaaS",
+      "amount": "",
+      "currency": "TRY",
+      "period": "yearly",
+      "payment_method": "Apple",
+      "next_payment_date": "2027-06-21",
+      "type": "personal",
+      "status": "cancelled",
+      "notes": "Apple shows 'Expires on 21 June 2027': auto-renew is off, no more charges. Price not shown.",
+      "manage_url": "https://apps.apple.com/account/subscriptions",
+      "manage_hint": "Billed via Apple: iPhone Settings → your name → Subscriptions, or this link. Cancel there, not in the app."
+    },
+    {
+      "uid": "j1au7h",
+      "name": "HaloScape (Personal Health OS)",
+      "category": "SaaS",
+      "amount": "",
+      "currency": "TRY",
+      "period": "yearly",
+      "payment_method": "Apple",
+      "next_payment_date": "2027-08-26",
+      "type": "personal",
+      "status": "cancelled",
+      "notes": "Apple shows 'Expires on 26 August 2027': auto-renew is off, no more charges. Price not shown.",
+      "manage_url": "https://apps.apple.com/account/subscriptions",
+      "manage_hint": "Billed via Apple: iPhone Settings → your name → Subscriptions, or this link. Cancel there, not in the app."
     }
   ],
   "payment_methods": {
