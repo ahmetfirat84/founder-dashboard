@@ -1679,6 +1679,10 @@
       ],
       "notes": [
         {
+          "text": "Not: asistan-mail-to-dashboard Apps Script 18 Eki'de yetkilendirme ve sunucu hatalarıyla 3 kez başarısız oldu; e-posta işleme etkilenmiş olabilir. (kaynak: E-posta (19 Eki 00:50): noreply-apps-scripts-notifications@googl · Summary of fa)",
+          "at": "2026-10-19 00:51"
+        },
+        {
           "text": "Apple abonelik: HiNoter AI Note Taker haftalık ₺184,99 (KDV dahil). 14 Ekim'de Visa ile ödendi, 22 Ekim'de otomatik yenilenecek. İptal edilecekse App Store abonelik ayarlarından kapatılmalı. (kaynak: E-posta (18 Eki 20:00): Apple · Your receipt from Apple.)",
           "at": "2026-10-18 20:01"
         },
@@ -1697,7 +1701,7 @@
       ]
     }
   ],
-  "updated": "2026-10-19 00:15",
+  "updated": "2026-10-19 00:51",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1759,7 +1763,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1NjVDREU3OERERjdBNzBFNTgA",
     "1a14fba5ead88963",
     "1a14ff59be436502",
-    "1a150de2ea177123"
+    "1a150de2ea177123",
+    "1a150feafbbd8e4d"
   ],
   "feed_order": [
     "qt5dom",
