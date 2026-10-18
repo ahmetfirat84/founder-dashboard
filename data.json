@@ -283,12 +283,12 @@
       "items": [
         {
           "uid": "s9mc5u",
-          "text": "SGK şirket tecil (Yeniben A.Ş.): bankada bulundu, ÖDEME TİPİ 'İşveren İcra Taksit Tahsilatı' (borç kodu 4112, referans 117762-2026-<kalem>-<taksit no>). Her taksit 3 kalem: Prim ₺58.280,24 + İşsizlik (Iss) ₺2.929,05 + İPC ₺89,08 = ₺61.298,37 (gecikme zammı ve tecil faizi içinde). Taksit 1 (19.08) ödendi. Taksit 2: Prim ve İşsizlik 18.10'da ödendi, İPC ₺88,61 kaldı (kartla ₺65.000 + ₺1.846 işlem bedeli). Taksit 2 (vade 21.09, 19'u Cumartesi) ÖDENMEDİ = 1 taksit gecikmede; taksit 3 vade 19.10 (Pzt, yarın); taksit 4 19.11; taksit 5 21.12 (19'u Cumartesi). 4 taksit ödenmezse tecil bozulur: 21.09, 19.10, 19.11 ve 21.12 ödenmezse bozulur. Önce en eskiyi (taksit 2) öde, 3 kalemi birlikte seç; 'Kısmi ödeme' seçme. VakıfBank 'SGK Ödemesi' ekranı: Ödeme Türü '4/1-A İşveren Tahsilatları', Ödeme Tipi 'İşveren İcra Taksidi', referans = 26 haneli işyeri sicil. Ödenmemiş 213 borç kalemi = 71 taksit x 3 kalem (plan 72 taksit, 1'i ödendi); kalan toplam yaklaşık ₺4,35 milyon (tutarlar sabit kalırsa). Ödeme için vadesiz hesaba para yatırılmalı (hesapta ₺956 var). Hesaptan ödemede işlem bedeli çıkıp çıkmadığını onay ekranında gör (kartta %2,84 çıkmıştı). SGM'ye sorulacak: (1) tam ödeme planı ve kaç taksit kaldığı, (2) geçmiş taksit için ödeme günü gecikme zammı eklenir mi (ekranda 21.09 tutarı aynı görünüyor), (3) 19.08 tahsilatının (ref 3055472618) mahsubu.",
+          "text": "SGK şirket tecil (Yeniben A.Ş.): bankada bulundu, ÖDEME TİPİ 'İşveren İcra Taksit Tahsilatı' (borç kodu 4112, referans 117762-2026-<kalem>-<taksit no>). Her taksit 3 kalem: Prim ₺58.280,24 + İşsizlik (Iss) ₺2.929,05 + İPC ₺89,08 = ₺61.298,37 (gecikme zammı ve tecil faizi içinde). Taksit 1 (19.08) ödendi. Taksit 2 18.10'da tamamen ödendi (3 kalem) (kartla ₺65.000 + ₺1.846 işlem bedeli). Taksit 2 (vade 21.09) 18.10'da ödendi, gecikmede taksit yok; taksit 3 vade 19.10 (Pzt, yarın); taksit 4 19.11; taksit 5 21.12 (19'u Cumartesi). 4 taksit ödenmezse tecil bozulur: 21.09, 19.10, 19.11 ve 21.12 ödenmezse bozulur. Sıradaki taksit 3: 3 kalemi birlikte seç; 'Kısmi ödeme' seçme. VakıfBank 'SGK Ödemesi' ekranı: Ödeme Türü '4/1-A İşveren Tahsilatları', Ödeme Tipi 'İşveren İcra Taksidi', referans = 26 haneli işyeri sicil. Ödenmemiş 213 borç kalemi = 71 taksit x 3 kalem (plan 72 taksit, 1'i ödendi); kalan toplam yaklaşık ₺4,35 milyon (tutarlar sabit kalırsa). Ödeme için vadesiz hesaba para yatırılmalı (hesapta ₺956 var). Hesaptan ödemede işlem bedeli çıkıp çıkmadığını onay ekranında gör (kartta %2,84 çıkmıştı). SGM'ye sorulacak: (1) tam ödeme planı ve kaç taksit kaldığı, (2) geçmiş taksit için ödeme günü gecikme zammı eklenir mi (ekranda 21.09 tutarı aynı görünüyor), (3) 19.08 tahsilatının (ref 3055472618) mahsubu.",
           "action_type": "Ödeme",
           "category": "Borç/Yapılandırma",
           "party": "SGK (şirket)",
-          "amount": "₺2.841 (kalan; ₺89 ödendi)",
-          "due": "Taksit 3: Pzt 19 Eki",
+          "amount": "₺61.298,37 (taksit 3)",
+          "due": "Pzt 19 Eki",
           "due_date": "2026-10-19",
           "plan_date": "2026-10-19",
           "urgency": "red",
@@ -301,15 +301,14 @@
             "date": "2026-08-19",
             "note": "'SGK Ödem' ₺65.000 + ₺1.846 işlem bedeli, Ahmet teyit etti; kural SGK Genelge 2024/12 §17.8.1 (2026/7: 4 taksit) | 18.10.2026 banka 'Borç Seçimi' ekran görüntüleri: taksit 2–5 listesi (Ahmet attı)."
           },
-          "amount_try": 2840.7999999999997,
           "proof": {
             "type": "banka dekontu",
             "date": "2026-10-18",
             "amount_try": 88.61,
             "channel": "WhatsApp (18 Eki 18:56, belge)",
-            "partial": true
+            "note": "taksit 2 son kalem (İPC)"
           },
-          "note": "18.10.2026: taksit 2'den Prim ₺58.280,34 ve İşsizlik ₺2.929,41 ödendi (dekontlar Drive'da). KALAN: İPC ₺88,61 (referans 117762-2026-3-2-Ipc). Asistan kalemi yanlışlıkla 'ödendi' diye kapatmıştı, geri açıldı. Taksit 3 (19.10) ve sonrası açık. KISMİ ÖDEME 2026-10-18: ₺89 ödendi, kalan ₺2.841."
+          "note": "18.10.2026: TAKSİT 2 TAMAMEN ÖDENDİ (Prim ₺58.280,34 + İşsizlik ₺2.929,41 + İPC ₺88,61 = ₺61.298,36; 3 dekont). Asistanın 'kalan ₺2.841' hesabı yanlıştı (taksit 2 kapandı). Sıradaki: taksit 3, vade 19.10 (Pzt), ₺61.298,37."
         },
         {
           "uid": "f2dpoa",
