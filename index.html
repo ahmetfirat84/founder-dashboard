@@ -46,13 +46,10 @@
   .err{color:var(--red)}
   @media(min-width:700px){.grid{grid-template-columns:1fr 1fr}}
   @media(min-width:1000px){
-    main{grid-template-columns:2fr 1fr;align-items:start}
-    header,.prio{grid-column:1/-1}
     .grid{grid-template-columns:1fr 1fr}
-    aside{display:grid;gap:12px;grid-column:2;grid-row:3 / span 3;position:sticky;top:12px}
-    #cashCard,#feedCard,#healthLegend,#depts{grid-column:1}
   }
 
+  .row2{display:grid;gap:12px;grid-template-columns:1fr;align-items:start}@media(min-width:700px){.row2{grid-template-columns:1fr 1fr}}
   .add{margin-left:6px;padding:0 9px;font-size:16px;line-height:24px;border-radius:12px}
   .det li{display:flex;gap:8px;align-items:flex-start}
   .det li input{margin-top:4px;flex:none}
@@ -99,25 +96,23 @@
     <div><button id="gh" aria-label="GitHub token" title="Kayıt ayarı">⚙</button> <button id="theme" aria-label="Tema">🌓</button></div>
   </header>
 
-  <section class="card prio"><h2>Bugünün Top 3 <button id="reset" hidden>sıfırla</button></h2><ol id="prio"></ol></section>
-
-  <section class="card feed" id="feedCard"><h2><span>Acil Feed <span id="feedCount"></span></span> <button id="feedNew">+ Yeni</button></h2><div class="legend">Masada en çok 8 iş: 🔴 gecikmiş, 🟠 bu hafta, 📌 ya da ❗ hayati. Düşük önemli işler departmanlarda kalır. Satır rengi = <b>vade zamanlaması</b>: 🔴 gecikmiş · 🟠 bu hafta · 🟡 bu ay · ⚪ tarihsiz/belirsiz (tarih girersen renk kendiliğinden değişir)</div><div id="feed"></div><button id="feedMore" hidden>Tümünü göster</button></section>
+  <section class="card feed" id="feedCard"><h2><span>Bugün Yapılacaklar <span id="feedCount"></span></span> <button id="feedNew">+ Yeni</button></h2><div class="legend">Masada en çok 8 iş: 🔴 gecikmiş, 🟠 bu hafta, 📌 ya da ❗ hayati. Düşük önemli işler departmanlarda kalır. Satır rengi = <b>vade zamanlaması</b>: 🔴 gecikmiş · 🟠 bu hafta · 🟡 bu ay · ⚪ tarihsiz/belirsiz (tarih girersen renk kendiliğinden değişir)</div><div id="feed"></div><button id="feedMore" hidden>Tümünü göster</button></section>
 
   <div class="legend" id="healthLegend">Kart etiketi = <b>genel durum</b>: <span class="pill green">Sorunsuz</span> acil iş yok · <span class="pill yellow">Bekleyen işler</span> 30 gün içinde vadeli iş var · <span class="pill red">Kritik</span> gecikmiş iş var (otomatik)</div>
   <section class="grid" id="depts"></section>
 
-  <section class="card" id="cashCard"><details id="finDoor"><summary><h2>💰 Finans <small id="finSum"></small></h2></summary>
-    <div class="cgrid" id="cashTop"></div>
-    <div class="clab">Çıkış (ödenecekler)</div><div class="cgrid" id="cashTiles"></div>
-    <div class="clab">Giriş ve beklenen</div><div class="cgrid" id="cashIn"></div>
-    <div id="cashPat" style="margin-top:8px"></div>
-    <div class="cfoot" id="cashFoot"></div>
-    <details id="cashDet"><summary>Kalemleri göster</summary><div id="cashList"></div></details></details></section>
 
-  <aside>
+  <div class="row2">
+    <section class="card" id="cashCard"><details id="finDoor"><summary><h2>💰 Finans <small id="finSum"></small></h2></summary>
+      <div class="cgrid" id="cashTop"></div>
+      <div class="clab">Çıkış (ödenecekler)</div><div class="cgrid" id="cashTiles"></div>
+      <div class="clab">Giriş ve beklenen</div><div class="cgrid" id="cashIn"></div>
+      <div id="cashPat" style="margin-top:8px"></div>
+      <div class="cfoot" id="cashFoot"></div>
+      <details id="cashDet"><summary>Kalemleri göster</summary><div id="cashList"></div></details></details></section>
     <section class="card"><h2>Bugünkü toplantılar</h2><div id="meet"></div></section>
-    <section class="card" id="reviewCard" hidden><h2>İnceleme bekleyenler</h2><div id="review"></div></section>
-  </aside>
+  </div>
+  <section class="card" id="reviewCard" hidden><h2>İnceleme bekleyenler</h2><div id="review"></div></section>
 </main>
 <div id="toast"></div>
 
@@ -407,15 +402,6 @@ $("depts").addEventListener("submit",e=>{
 load().then(d=>{
   D=d;
   if(!tok()){ try{JSON.parse(ls.get("ops")||"[]").forEach(op=>applyOp(D,op))}catch(e){} }
-  // editable priorities: tarayıcıda saklanır
-  const key="prio-"+d.date;
-  let saved=null;try{saved=JSON.parse(ls.get(key))}catch(e){}
-  const prios=Array.isArray(saved)&&saved.length===3?saved:d.priorities;
-  $("prio").innerHTML=prios.map(p=>`<li contenteditable="true" spellcheck="false">${esc(p)}</li>`).join("");
-  $("reset").hidden=prios===d.priorities;
-  $("prio").addEventListener("input",()=>{
-    ls.set(key,JSON.stringify([...document.querySelectorAll("#prio li")].map(li=>li.textContent)));$("reset").hidden=false});
-  $("reset").onclick=()=>{ls.del(key);location.reload()};
   render();
 }).catch(e=>{$("date").innerHTML=`<span class="err">data.json okunamadı (${esc(e.message)}). Bir sunucudan aç: python3 -m http.server</span>`});
 </script>
