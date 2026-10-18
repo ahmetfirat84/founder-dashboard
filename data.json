@@ -482,28 +482,6 @@
           }
         },
         {
-          "text": "Payten e-ticaret sanal POS başvurusu (OP-432968) yazışması: son yanıt Payten'den, cevap bekliyor",
-          "due": "",
-          "owner": "",
-          "source": "gecmis-tarama",
-          "action_type": "Yanıt",
-          "category": "Ödeme altyapısı",
-          "party": "Payten",
-          "amount": "",
-          "urgency": "gray",
-          "src_detail": {
-            "channel": "email",
-            "from": "Payten Support (tr.paytensupport@payten.com)",
-            "date": "2026-10-01",
-            "subject": "OP-432968 685272023 - E-ticaret sanal POS (3D Pay Hosting / API) ve döviz tahsilat talebi",
-            "to": [
-              "ahmet@yeniben.com"
-            ],
-            "thread": "1a0ddfda1a6177aa",
-            "note": "İş Bankası (Cengiz Dinçer) 29 Eyl: başvuru formu + yıllık ücret ₺13.999"
-          }
-        },
-        {
           "text": "CPA Türk bordro ve ödemeler: 09/2026 bordrosu (1 Eki) incelenmedi; 08/2026 vergi/SGK tahakkukları (28 Eyl: muhtasar+KDV 28 Eyl, SGK 30 Eyl) ödendi mi teyit et, tutarlar mailde sadece PDF'te.",
           "due": "",
           "owner": "",
@@ -995,6 +973,29 @@
       "status": "yellow",
       "updated": "2026-10-16 10:55",
       "items": [
+        {
+          "text": "Payten e-ticaret sanal POS başvurusu (OP-432968) yazışması: son yanıt Payten'den, cevap bekliyor",
+          "due": "",
+          "owner": "",
+          "source": "gecmis-tarama",
+          "action_type": "Yanıt",
+          "category": "Ödeme altyapısı",
+          "party": "Payten",
+          "amount": "",
+          "urgency": "gray",
+          "src_detail": {
+            "channel": "email",
+            "from": "Payten Support (tr.paytensupport@payten.com)",
+            "date": "2026-10-01",
+            "subject": "OP-432968 685272023 - E-ticaret sanal POS (3D Pay Hosting / API) ve döviz tahsilat talebi",
+            "to": [
+              "ahmet@yeniben.com"
+            ],
+            "thread": "1a0ddfda1a6177aa",
+            "note": "İş Bankası (Cengiz Dinçer) 29 Eyl: başvuru formu + yıllık ücret ₺13.999"
+          },
+          "moved_from": "Muhasebe"
+        },
         {
           "text": "Selin'in 15 Eki izin talebi Kolay İK'te onay bekliyor (14 Eki'den beri), Ahmet onaylayacak. Süreç takibi",
           "due": "16 Eki",
