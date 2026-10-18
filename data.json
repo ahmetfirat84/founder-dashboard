@@ -736,6 +736,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "VakıfBank bildirimi: 21.09.2026 tarihli SGK tahsilatı 88,61 TL ödenmiş (Mosip). Açık SGK kalemleriyle eşleşmiyor, mutabakatta kontrol edilebilir. (kaynak: E-posta (18 Eki 18:56): VakıfBank · Bilgilendirme: 21.09.2026 Tarihli SGK Ödemes)",
+          "at": "2026-10-18 18:56"
+        },
+        {
           "text": "VakıfBank bilgilendirmesi: 21.09.2026 tarihli SGK tahsilatı ₺2.929,41 ödenmiş görünüyor (Mosip). Aksiyon gerekmiyor. (kaynak: E-posta (18 Eki 18:55): VakıfBank · Bilgilendirme: 21.09.2026 Tarihli SGK Ödemes)",
           "at": "2026-10-18 18:55"
         },
@@ -1691,7 +1695,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEEyNzc4NjY0QzQwMjZDNjUzNjUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEEyMzc3MjkxRDBEMDJDNEFGRUQA",
     "1a14fb95b55d8a48",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1NjVDREU3OERERjdBNzBFNTgA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1NjVDREU3OERERjdBNzBFNTgA",
+    "1a14fba5ead88963"
   ],
   "feed_order": [
     "qt5dom",
