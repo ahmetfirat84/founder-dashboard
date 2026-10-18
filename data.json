@@ -295,6 +295,19 @@
           "due_date": "2026-10-15"
         },
         {
+          "text": "HubSpot kart ödemesi reddedildi (fatura 842326601, €320); kartı güncelle/ödemeyi yeniden dene, yoksa hesap 28 Eki'de askıya alınır",
+          "due": "28 Eki",
+          "owner": "",
+          "action_type": "Ödeme",
+          "category": "Abonelik",
+          "party": "HubSpot",
+          "amount": "€320",
+          "due_date": "2026-10-28",
+          "source": "email",
+          "id": "1a1472d5074b5651",
+          "feed": false
+        },
+        {
           "text": "SGK yapılandırma: ödeme planı dökümünü çıkar (taksit sayısı, ödenen/aksayan, ilk taksit 31.08 ödendi mi, bozulma tarihi). Form 25 Tem'de kargoyla gitti, Yasemin Hanım 'arayacağım' dedi, sonrası mailde yok: ondan teyit al.",
           "due": "19 Eki",
           "owner": "",
@@ -302,17 +315,6 @@
           "category": "Vergi / SGK",
           "party": "CPA Türk",
           "amount": "",
-          "due_date": "2026-10-19"
-        },
-        {
-          "text": "CPA Türk ücret planı: 15 Eylül–15 Aralık her ay ₺46.450 (10.800 aylık + 35.650 eski borç taksiti; toplam kalan 7 Ağu'da ₺142.600). 15 Eki taksiti ödendi mi, mailde görünmüyor, teyit et. Sıradaki 15 Kas, 15 Ara.",
-          "due": "19 Eki",
-          "owner": "",
-          "action_type": "Ödeme",
-          "category": "Muhasebe",
-          "party": "CPA Türk",
-          "amount": "₺46.450",
-          "feed": false,
           "due_date": "2026-10-19"
         },
         {
@@ -328,6 +330,17 @@
           "urgency": "red",
           "done": true,
           "doneAt": "2026-10-18 11:46"
+        },
+        {
+          "text": "CPA Türk ücret planı: 15 Eylül–15 Aralık her ay ₺46.450 (10.800 aylık + 35.650 eski borç taksiti; toplam kalan 7 Ağu'da ₺142.600). 15 Eki taksiti ödendi mi, mailde görünmüyor, teyit et. Sıradaki 15 Kas, 15 Ara.",
+          "due": "19 Eki",
+          "owner": "",
+          "action_type": "Ödeme",
+          "category": "Muhasebe",
+          "party": "CPA Türk",
+          "amount": "₺46.450",
+          "feed": false,
+          "due_date": "2026-10-19"
         },
         {
           "text": "2025 kurumlar vergisi beyannamesi (Yasemin Hanım, 13 Eki, PDF): mail gövdesinde tutar/vade yok. PDF'ten vergi tutarını ve ödeme/onay tarihini çıkar, onay ver.",
@@ -385,19 +398,6 @@
           "party": "CPA Türk",
           "amount": "",
           "urgency": "gray"
-        },
-        {
-          "text": "HubSpot kart ödemesi reddedildi (fatura 842326601, €320); kartı güncelle/ödemeyi yeniden dene, yoksa hesap 28 Eki'de askıya alınır",
-          "due": "28 Eki",
-          "owner": "",
-          "action_type": "Ödeme",
-          "category": "Abonelik",
-          "party": "HubSpot",
-          "amount": "€320",
-          "due_date": "2026-10-28",
-          "source": "email",
-          "id": "1a1472d5074b5651",
-          "feed": false
         },
         {
           "text": "Tetik Turizm: güncel hesap ekstresini iste/teyit et (ay başı kapanış, işveren raporuyla eşleştir)",
