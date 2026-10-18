@@ -2582,7 +2582,7 @@
         "id": "1-0",
         "d": "2026-07-06",
         "desc": "ALLIANZ SIGORTA A.S.",
-        "amt": 2184.0,
+        "amt": 2184,
         "cat": "Sigorta",
         "st": 1
       },
@@ -2590,7 +2590,7 @@
         "id": "1-1",
         "d": "2026-07-07",
         "desc": "Adobe/ADOBE.COM",
-        "amt": 399.0,
+        "amt": 399,
         "cat": "Yazılım & iş aboneliği",
         "st": 1
       },
@@ -2598,7 +2598,7 @@
         "id": "1-2",
         "d": "2026-07-10",
         "desc": "GOOGLE *YouTube Member/g.co/helppay#",
-        "amt": 1000.0,
+        "amt": 1000,
         "cat": "Abonelik (kişisel)",
         "st": 1
       },
@@ -2606,7 +2606,7 @@
         "id": "1-3",
         "d": "2026-07-10",
         "desc": "PARATIKA/WWW.EXXEN.COM/ISTANBUL",
-        "amt": 388.0,
+        "amt": 388,
         "cat": "Abonelik (kişisel)",
         "st": 1
       },
@@ -2622,7 +2622,7 @@
         "id": "1-5",
         "d": "2026-07-11",
         "desc": "HEPSIPAY /HEPSIBU 1. Taksit",
-        "amt": 427.0,
+        "amt": 427,
         "cat": "Alışveriş",
         "st": 1
       },
@@ -2646,7 +2646,7 @@
         "id": "1-8",
         "d": "2026-07-15",
         "desc": "IYZICO/UBER.COM/ISTANBUL",
-        "amt": 1405.0,
+        "amt": 1405,
         "cat": "Ulaşım & seyahat",
         "st": 1
       },
@@ -2678,7 +2678,7 @@
         "id": "1-12",
         "d": "2026-07-17",
         "desc": "KABURGACI CABBAR/İSTANBUL",
-        "amt": 3580.0,
+        "amt": 3580,
         "cat": "Restoran & kafe",
         "st": 1
       },
@@ -2686,7 +2686,7 @@
         "id": "1-13",
         "d": "2026-07-18",
         "desc": "HEPSIPAY /HEPSIBU 1. Taksit",
-        "amt": 467.0,
+        "amt": 467,
         "cat": "Alışveriş",
         "st": 1
       },
@@ -2694,7 +2694,7 @@
         "id": "1-14",
         "d": "2026-07-18",
         "desc": "LİDİO /GASTROCLUB/ISTANBUL",
-        "amt": 2880.0,
+        "amt": 2880,
         "cat": "Restoran & kafe",
         "st": 1
       },
@@ -2702,7 +2702,7 @@
         "id": "1-15",
         "d": "2026-07-19",
         "desc": "GETİR PERAKENDE",
-        "amt": 448.0,
+        "amt": 448,
         "cat": "Market & gıda",
         "st": 1
       },
@@ -2750,7 +2750,7 @@
         "id": "1-21",
         "d": "2026-07-20",
         "desc": "PAYCELL/BİTAKSİ/İSTANBUL",
-        "amt": 453.0,
+        "amt": 453,
         "cat": "Ulaşım & seyahat",
         "st": 1
       },
@@ -2758,7 +2758,7 @@
         "id": "1-22",
         "d": "2026-07-20",
         "desc": "PAYCELL/BİTAKSİ/İSTANBUL",
-        "amt": 280.0,
+        "amt": 280,
         "cat": "Ulaşım & seyahat",
         "st": 1
       },
@@ -2766,7 +2766,7 @@
         "id": "1-23",
         "d": "2026-07-20",
         "desc": "MAHİR RESTORANLARI/İSTANBUL",
-        "amt": 1495.0,
+        "amt": 1495,
         "cat": "Restoran & kafe",
         "st": 1
       },
@@ -2774,7 +2774,7 @@
         "id": "1-24",
         "d": "2026-07-20",
         "desc": "AKB VALE KARTAL ACIBADEM/İSTANBUL",
-        "amt": 400.0,
+        "amt": 400,
         "cat": "Ulaşım & seyahat",
         "st": 1
       },
@@ -2782,7 +2782,7 @@
         "id": "1-25",
         "d": "2026-07-20",
         "desc": "NISPET ECZANESI/ISTANBUL",
-        "amt": 34750.0,
+        "amt": 34750,
         "cat": "Sağlık",
         "st": 1
       },
@@ -2790,7 +2790,7 @@
         "id": "1-26",
         "d": "2026-07-21",
         "desc": "İyzico/CONDOLIFE",
-        "amt": 500.0,
+        "amt": 500,
         "cat": "Diğer",
         "st": 1
       },
@@ -2798,7 +2798,7 @@
         "id": "1-27",
         "d": "2026-07-21",
         "desc": "İyzico/CONDOLIFE",
-        "amt": 15.0,
+        "amt": 15,
         "cat": "Diğer",
         "st": 1
       },
@@ -2806,7 +2806,7 @@
         "id": "1-28",
         "d": "2026-07-21",
         "desc": "DIVAN-FENERBAHCE ST",
-        "amt": 80.0,
+        "amt": 80,
         "cat": "Restoran & kafe",
         "st": 1
       },
@@ -2814,7 +2814,7 @@
         "id": "1-29",
         "d": "2026-07-21",
         "desc": "ONUR KADIKOY TERMINAL YEM/ISTANBUL",
-        "amt": 4980.0,
+        "amt": 4980,
         "cat": "Restoran & kafe",
         "st": 1
       },
@@ -2838,7 +2838,7 @@
         "id": "1-32",
         "d": "2026-07-22",
         "desc": "QNBPAY/LE PAIN QUOTI",
-        "amt": 545.0,
+        "amt": 545,
         "cat": "Restoran & kafe",
         "st": 1
       },
@@ -2854,7 +2854,7 @@
         "id": "1-34",
         "d": "2026-07-22",
         "desc": "JOE & JUICE KANYON/ISTANBUL",
-        "amt": 520.0,
+        "amt": 520,
         "cat": "Restoran & kafe",
         "st": 1
       },
@@ -2862,7 +2862,7 @@
         "id": "1-35",
         "d": "2026-07-22",
         "desc": "V.İ.P. TEKEL ŞARKÜTERİ/İSTANBUL",
-        "amt": 200.0,
+        "amt": 200,
         "cat": "Market & gıda",
         "st": 1
       },
@@ -2878,7 +2878,7 @@
         "id": "1-37",
         "d": "2026-07-24",
         "desc": "QNBPAY/LE PAIN QUOTI",
-        "amt": 2350.0,
+        "amt": 2350,
         "cat": "Restoran & kafe",
         "st": 1
       },
@@ -2886,7 +2886,7 @@
         "id": "1-38",
         "d": "2026-07-24",
         "desc": "ARAS KUAFÖR",
-        "amt": 2450.0,
+        "amt": 2450,
         "cat": "Kişisel bakım",
         "st": 1
       },
@@ -2894,7 +2894,7 @@
         "id": "1-39",
         "d": "2026-07-24",
         "desc": "SUSHICO",
-        "amt": 2630.0,
+        "amt": 2630,
         "cat": "Restoran & kafe",
         "st": 1
       },
@@ -2902,7 +2902,7 @@
         "id": "1-40",
         "d": "2026-07-24",
         "desc": "CCOKSHOP KANYON",
-        "amt": 710.0,
+        "amt": 710,
         "cat": "Alışveriş",
         "st": 1
       },
@@ -2918,7 +2918,7 @@
         "id": "1-42",
         "d": "2026-07-25",
         "desc": "FULYA ADA ECZANESİ",
-        "amt": 13500.0,
+        "amt": 13500,
         "cat": "Sağlık",
         "st": 1
       },
@@ -2942,7 +2942,7 @@
         "id": "1-45",
         "d": "2026-07-25",
         "desc": "RANCHERO/İSTANBUL",
-        "amt": 4600.0,
+        "amt": 4600,
         "cat": "Restoran & kafe",
         "st": 1
       },
@@ -2950,7 +2950,7 @@
         "id": "1-46",
         "d": "2026-07-25",
         "desc": "JOE & JUICE KANYON/ISTANBUL",
-        "amt": 1480.0,
+        "amt": 1480,
         "cat": "Restoran & kafe",
         "st": 1
       },
@@ -2958,7 +2958,7 @@
         "id": "1-47",
         "d": "2026-07-25",
         "desc": "AKB VALE KARTAL ACIBADEM/İSTANBUL",
-        "amt": 400.0,
+        "amt": 400,
         "cat": "Ulaşım & seyahat",
         "st": 1
       },
@@ -2974,7 +2974,7 @@
         "id": "1-49",
         "d": "2026-07-25",
         "desc": "4600.00 alşv ind",
-        "amt": -345.0,
+        "amt": -345,
         "cat": "İade & indirim",
         "st": 1
       },
@@ -2982,7 +2982,7 @@
         "id": "1-50",
         "d": "2026-07-26",
         "desc": "AUTOWINNPARK OTOMOTİV/İSTANBUL",
-        "amt": 900.0,
+        "amt": 900,
         "cat": "Ulaşım & seyahat",
         "st": 1
       },
@@ -2990,7 +2990,7 @@
         "id": "1-51",
         "d": "2026-07-26",
         "desc": "CUP OF JOY TERSANE ISTA/ISTANBUL",
-        "amt": 975.0,
+        "amt": 975,
         "cat": "Restoran & kafe",
         "st": 1
       },
@@ -2998,7 +2998,7 @@
         "id": "1-52",
         "d": "2026-07-26",
         "desc": "ALİEE OTEL/İSTANBUL",
-        "amt": 4400.0,
+        "amt": 4400,
         "cat": "Ulaşım & seyahat",
         "st": 1
       },
@@ -3006,7 +3006,7 @@
         "id": "1-53",
         "d": "2026-07-27",
         "desc": "ALLIANZ SIGORTA A.S.",
-        "amt": 2184.0,
+        "amt": 2184,
         "cat": "Sigorta",
         "st": 1
       },
@@ -3030,7 +3030,7 @@
         "id": "1-56",
         "d": "2026-07-27",
         "desc": "BURSA İSKENDER KEBAP",
-        "amt": 460.0,
+        "amt": 460,
         "cat": "Restoran & kafe",
         "st": 1
       },
@@ -3062,7 +3062,7 @@
         "id": "1-60",
         "d": "2026-07-28",
         "desc": "SGK Ödem/26297426682/3033470810",
-        "amt": 37900.0,
+        "amt": 37900,
         "cat": "Vergi / SGK / Resmî",
         "st": 1
       },
@@ -3078,7 +3078,7 @@
         "id": "1-62",
         "d": "2026-07-28",
         "desc": "FULYA ADA ECZANESİ",
-        "amt": 26500.0,
+        "amt": 26500,
         "cat": "Sağlık",
         "st": 1
       },
@@ -3086,7 +3086,7 @@
         "id": "1-63",
         "d": "2026-07-28",
         "desc": "KİRPİ RESTORANT/İSTANBUL",
-        "amt": 1437.0,
+        "amt": 1437,
         "cat": "Restoran & kafe",
         "st": 1
       },
@@ -3118,7 +3118,7 @@
         "id": "1-67",
         "d": "2026-07-29",
         "desc": "BAYEM BÜFE GIDA ŞARK",
-        "amt": 250.0,
+        "amt": 250,
         "cat": "Market & gıda",
         "st": 1
       },
@@ -3126,7 +3126,7 @@
         "id": "1-68",
         "d": "2026-07-29",
         "desc": "BURSA İSKENDER KEBAP",
-        "amt": 1110.0,
+        "amt": 1110,
         "cat": "Restoran & kafe",
         "st": 1
       },
@@ -3142,7 +3142,7 @@
         "id": "1-70",
         "d": "2026-07-30",
         "desc": "COMMON GIDA DANIŞMAN/İSTANBUL",
-        "amt": 1470.0,
+        "amt": 1470,
         "cat": "Market & gıda",
         "st": 1
       },
@@ -3150,7 +3150,7 @@
         "id": "1-71",
         "d": "2026-07-31",
         "desc": "ADANALI KEBAPÇI MEHM",
-        "amt": 1850.0,
+        "amt": 1850,
         "cat": "Restoran & kafe",
         "st": 1
       },
@@ -3158,7 +3158,7 @@
         "id": "1-72",
         "d": "2026-07-31",
         "desc": "LEONIDAS KANYON/ISTANBUL",
-        "amt": 450.0,
+        "amt": 450,
         "cat": "Market & gıda",
         "st": 1
       },
@@ -3166,7 +3166,7 @@
         "id": "1-73",
         "d": "2026-07-31",
         "desc": "BARHAL GIDA - OTOPARK/İSTANBUL",
-        "amt": 450.0,
+        "amt": 450,
         "cat": "Ulaşım & seyahat",
         "st": 1
       },
@@ -3174,7 +3174,7 @@
         "id": "1-74",
         "d": "2026-07-31",
         "desc": "EMİRGAN SÜTİŞ/İSTANBUL",
-        "amt": 1845.0,
+        "amt": 1845,
         "cat": "Market & gıda",
         "st": 1
       },
@@ -3182,7 +3182,7 @@
         "id": "1-75",
         "d": "2026-08-01",
         "desc": "Adobe/ADOBE.COM",
-        "amt": 399.0,
+        "amt": 399,
         "cat": "Yazılım & iş aboneliği",
         "st": 1
       },
@@ -3190,7 +3190,7 @@
         "id": "1-76",
         "d": "2026-08-02",
         "desc": "NEVA VALE/ISTANBUL",
-        "amt": 400.0,
+        "amt": 400,
         "cat": "Ulaşım & seyahat",
         "st": 1
       },
@@ -3198,7 +3198,7 @@
         "id": "1-77",
         "d": "2026-08-02",
         "desc": "NAZLIM FOTOĞRAFÇILIK/İSTANBUL",
-        "amt": 400.0,
+        "amt": 400,
         "cat": "Alışveriş",
         "st": 1
       },
@@ -3206,7 +3206,7 @@
         "id": "1-78",
         "d": "2026-08-03",
         "desc": "DEMTAS RESTORAN ISLETMECI/ISTANBUL",
-        "amt": 1065.0,
+        "amt": 1065,
         "cat": "Restoran & kafe",
         "st": 1
       },
@@ -3222,7 +3222,7 @@
         "id": "1-80",
         "d": "2026-08-04",
         "desc": "AHLAT GIDA URUNLERI VE TI/ISTANBUL",
-        "amt": 275.0,
+        "amt": 275,
         "cat": "Market & gıda",
         "st": 1
       },
@@ -3230,7 +3230,7 @@
         "id": "1-81",
         "d": "2026-08-05",
         "desc": "MEDICANA ZİNCİRLİKYU",
-        "amt": 100.0,
+        "amt": 100,
         "cat": "Sağlık",
         "st": 1
       },
@@ -3238,7 +3238,7 @@
         "id": "1-82",
         "d": "2026-08-05",
         "desc": "MEDICANA ZİNCİRLİKYU",
-        "amt": 6450.0,
+        "amt": 6450,
         "cat": "Sağlık",
         "st": 1
       },
@@ -3246,7 +3246,7 @@
         "id": "1-83",
         "d": "2026-08-05",
         "desc": "DIVAN ZINCIRLIKUYU M",
-        "amt": 310.0,
+        "amt": 310,
         "cat": "Restoran & kafe",
         "st": 1
       },
@@ -3254,7 +3254,7 @@
         "id": "1-84",
         "d": "2026-08-05",
         "desc": "İyzico/CONDOLIFE",
-        "amt": 15.0,
+        "amt": 15,
         "cat": "Diğer",
         "st": 1
       },
@@ -3262,7 +3262,7 @@
         "id": "1-85",
         "d": "2026-08-05",
         "desc": "MEDICANA - ŞİŞLİ/İSTANBUL",
-        "amt": 100.0,
+        "amt": 100,
         "cat": "Sağlık",
         "st": 1
       },
@@ -3270,7 +3270,7 @@
         "id": "1-86",
         "d": "2026-08-05",
         "desc": "MEDICANA - ŞİŞLİ/İSTANBUL",
-        "amt": 100.0,
+        "amt": 100,
         "cat": "Sağlık",
         "st": 1
       },
@@ -3278,7 +3278,7 @@
         "id": "1-87",
         "d": "2026-08-05",
         "desc": "PAYCELL/BİTAKSİ/İSTANBUL",
-        "amt": 280.0,
+        "amt": 280,
         "cat": "Ulaşım & seyahat",
         "st": 1
       },
@@ -3286,7 +3286,7 @@
         "id": "1-88",
         "d": "2026-08-06",
         "desc": "BAYEM BÜFE GIDA ŞARKÜTERİ/İSTANBUL",
-        "amt": 540.0,
+        "amt": 540,
         "cat": "Market & gıda",
         "st": 1
       },
@@ -3326,7 +3326,7 @@
         "id": "1-93",
         "d": "2026-08-07",
         "desc": "MEDICANA ZİNCİRLİKYU",
-        "amt": 100.0,
+        "amt": 100,
         "cat": "Sağlık",
         "st": 1
       },
@@ -3334,7 +3334,7 @@
         "id": "1-94",
         "d": "2026-08-07",
         "desc": "MEDICANA ZİNCİRLİKYU",
-        "amt": 100.0,
+        "amt": 100,
         "cat": "Sağlık",
         "st": 1
       },
@@ -3342,7 +3342,7 @@
         "id": "1-95",
         "d": "2026-07-06",
         "desc": "MASSIMO DUTTI KANYON 3. Taksit",
-        "amt": 1168.0,
+        "amt": 1168,
         "cat": "Alışveriş",
         "st": 1
       },
@@ -3358,7 +3358,7 @@
         "id": "2-97",
         "d": "2026-08-07",
         "desc": "HEPSIPAY /HEPSIBU 2. Taksit",
-        "amt": 426.0,
+        "amt": 426,
         "cat": "Alışveriş",
         "st": 2
       },
@@ -3366,7 +3366,7 @@
         "id": "2-98",
         "d": "2026-08-07",
         "desc": "HEPSIPAY /HEPSIBU 2. Taksit",
-        "amt": 466.0,
+        "amt": 466,
         "cat": "Alışveriş",
         "st": 2
       },
@@ -3382,7 +3382,7 @@
         "id": "2-100",
         "d": "2026-08-07",
         "desc": "MACROCENTER KANYON",
-        "amt": 235.0,
+        "amt": 235,
         "cat": "Market & gıda",
         "st": 2
       },
@@ -3398,7 +3398,7 @@
         "id": "2-102",
         "d": "2026-08-18",
         "desc": "İyzico/istanbulkart.",
-        "amt": 306.0,
+        "amt": 306,
         "cat": "Ulaşım & seyahat",
         "st": 2
       },
@@ -3406,7 +3406,7 @@
         "id": "2-103",
         "d": "2026-08-18",
         "desc": "BURSA İSKENDER KEBAP",
-        "amt": 1370.0,
+        "amt": 1370,
         "cat": "Restoran & kafe",
         "st": 2
       },
@@ -3414,7 +3414,7 @@
         "id": "2-104",
         "d": "2026-08-18",
         "desc": "ARAS KUAFÖR",
-        "amt": 2450.0,
+        "amt": 2450,
         "cat": "Kişisel bakım",
         "st": 2
       },
@@ -3422,7 +3422,7 @@
         "id": "2-105",
         "d": "2026-08-18",
         "desc": "İyzico/CONDOLIFE",
-        "amt": 500.0,
+        "amt": 500,
         "cat": "Diğer",
         "st": 2
       },
@@ -3438,7 +3438,7 @@
         "id": "2-107",
         "d": "2026-08-18",
         "desc": "DIVAN-FENERBAHCE ST",
-        "amt": 270.0,
+        "amt": 270,
         "cat": "Restoran & kafe",
         "st": 2
       },
@@ -3446,7 +3446,7 @@
         "id": "2-108",
         "d": "2026-08-18",
         "desc": "BACKHAUS/İSTANBUL",
-        "amt": 140.0,
+        "amt": 140,
         "cat": "Restoran & kafe",
         "st": 2
       },
@@ -3486,7 +3486,7 @@
         "id": "2-113",
         "d": "2026-08-18",
         "desc": "MATİK OTOMAT 317/İSTANBUL",
-        "amt": 17.0,
+        "amt": 17,
         "cat": "Market & gıda",
         "st": 2
       },
@@ -3494,7 +3494,7 @@
         "id": "2-114",
         "d": "2026-08-19",
         "desc": "SGK Ödem/247910202128253/3055472618",
-        "amt": 65000.0,
+        "amt": 65000,
         "cat": "Vergi / SGK / Resmî",
         "st": 2
       },
@@ -3502,7 +3502,7 @@
         "id": "2-115",
         "d": "2026-08-19",
         "desc": "SGK Ödem 247910202128253 İŞLEM BEDELİ",
-        "amt": 1846.0,
+        "amt": 1846,
         "cat": "Faiz & banka ücreti",
         "st": 2
       },
@@ -3510,7 +3510,7 @@
         "id": "2-116",
         "d": "2026-08-19",
         "desc": "IYZICO/HEPSIBURADA.C",
-        "amt": 3343.0,
+        "amt": 3343,
         "cat": "Alışveriş",
         "st": 2
       },
@@ -3550,7 +3550,7 @@
         "id": "2-121",
         "d": "2026-08-19",
         "desc": "PARATIKA/WWW.EXXEN.COM/ISTANBUL",
-        "amt": 388.0,
+        "amt": 388,
         "cat": "Abonelik (kişisel)",
         "st": 2
       },
@@ -3558,7 +3558,7 @@
         "id": "2-122",
         "d": "2026-08-19",
         "desc": "CANVA* I04966-19521336/CANVA.COM",
-        "amt": 100.0,
+        "amt": 100,
         "cat": "Yazılım & iş aboneliği",
         "st": 2
       },
@@ -3606,7 +3606,7 @@
         "id": "2-128",
         "d": "2026-08-21",
         "desc": "KANYON ECZANESI/ISTANBUL",
-        "amt": 728.0,
+        "amt": 728,
         "cat": "Sağlık",
         "st": 2
       },
@@ -3614,7 +3614,7 @@
         "id": "2-129",
         "d": "2026-08-21",
         "desc": "DAVUL GIDA/İZMİR",
-        "amt": 2435.0,
+        "amt": 2435,
         "cat": "Market & gıda",
         "st": 2
       },
@@ -3622,7 +3622,7 @@
         "id": "2-130",
         "d": "2026-08-21",
         "desc": "Google YouTube Member/London",
-        "amt": 1000.0,
+        "amt": 1000,
         "cat": "Abonelik (kişisel)",
         "st": 2
       },
@@ -3646,7 +3646,7 @@
         "id": "2-133",
         "d": "2026-08-22",
         "desc": "İyzico/CONDOLIFE",
-        "amt": 500.0,
+        "amt": 500,
         "cat": "Diğer",
         "st": 2
       },
@@ -3654,7 +3654,7 @@
         "id": "2-134",
         "d": "2026-08-22",
         "desc": "İyzico/CONDOLIFE",
-        "amt": 15.0,
+        "amt": 15,
         "cat": "Diğer",
         "st": 2
       },
@@ -3662,7 +3662,7 @@
         "id": "2-135",
         "d": "2026-08-22",
         "desc": "DIVAN-FENERBAHCE ST",
-        "amt": 80.0,
+        "amt": 80,
         "cat": "Restoran & kafe",
         "st": 2
       },
@@ -3670,7 +3670,7 @@
         "id": "2-136",
         "d": "2026-08-22",
         "desc": "PAYNKOLAY /PASSOLIG COM/İSTANBUL",
-        "amt": 1200.0,
+        "amt": 1200,
         "cat": "Ulaşım & seyahat",
         "st": 2
       },
@@ -3678,7 +3678,7 @@
         "id": "2-137",
         "d": "2026-08-23",
         "desc": "IYZICO/DL UBERRİDE/ISTANBUL",
-        "amt": 1270.0,
+        "amt": 1270,
         "cat": "Ulaşım & seyahat",
         "st": 2
       },
@@ -3686,7 +3686,7 @@
         "id": "2-138",
         "d": "2026-08-24",
         "desc": "BAYEM BÜFE GIDA ŞARK",
-        "amt": 250.0,
+        "amt": 250,
         "cat": "Market & gıda",
         "st": 2
       },
@@ -3702,7 +3702,7 @@
         "id": "2-140",
         "d": "2026-08-24",
         "desc": "GARAJ GIDA PAZARLAMA DANI/ISTANBUL",
-        "amt": 545.0,
+        "amt": 545,
         "cat": "Market & gıda",
         "st": 2
       },
@@ -3718,7 +3718,7 @@
         "id": "2-142",
         "d": "2026-08-25",
         "desc": "QNBPAY/LE PAIN QUOTI",
-        "amt": 1170.0,
+        "amt": 1170,
         "cat": "Restoran & kafe",
         "st": 2
       },
@@ -3742,7 +3742,7 @@
         "id": "2-145",
         "d": "2026-08-26",
         "desc": "PEGASUS HAVA TAŞIMAC",
-        "amt": 2814.0,
+        "amt": 2814,
         "cat": "Ulaşım & seyahat",
         "st": 2
       },
@@ -3750,7 +3750,7 @@
         "id": "2-146",
         "d": "2026-08-26",
         "desc": "ACE RESTAURANT & LOUNGE/ISTANBUL",
-        "amt": 4720.0,
+        "amt": 4720,
         "cat": "Restoran & kafe",
         "st": 2
       },
@@ -3766,7 +3766,7 @@
         "id": "2-148",
         "d": "2026-08-27",
         "desc": "ASMANA GIDA/İSTANBUL",
-        "amt": 1240.0,
+        "amt": 1240,
         "cat": "Market & gıda",
         "st": 2
       },
@@ -3782,7 +3782,7 @@
         "id": "2-150",
         "d": "2026-08-28",
         "desc": "SARAY MUHALLEBİCİSİ/İSTANBUL",
-        "amt": 895.0,
+        "amt": 895,
         "cat": "Restoran & kafe",
         "st": 2
       },
@@ -3790,7 +3790,7 @@
         "id": "2-151",
         "d": "2026-08-28",
         "desc": "TABUFOODS GIDA SAN./İSTANBUL",
-        "amt": 300.0,
+        "amt": 300,
         "cat": "Market & gıda",
         "st": 2
       },
@@ -3806,7 +3806,7 @@
         "id": "2-153",
         "d": "2026-08-29",
         "desc": "Ferdi Usta Ortaköy",
-        "amt": 2235.0,
+        "amt": 2235,
         "cat": "Restoran & kafe",
         "st": 2
       },
@@ -3814,7 +3814,7 @@
         "id": "2-154",
         "d": "2026-08-29",
         "desc": "YILDIZ ECZANESİ",
-        "amt": 997.0,
+        "amt": 997,
         "cat": "Sağlık",
         "st": 2
       },
@@ -3822,7 +3822,7 @@
         "id": "2-155",
         "d": "2026-08-29",
         "desc": "BOND COFFEE CO",
-        "amt": 670.0,
+        "amt": 670,
         "cat": "Restoran & kafe",
         "st": 2
       },
@@ -3838,7 +3838,7 @@
         "id": "2-157",
         "d": "2026-08-29",
         "desc": "HATAY PAZARI/İSTANBUL",
-        "amt": 2700.0,
+        "amt": 2700,
         "cat": "Market & gıda",
         "st": 2
       },
@@ -3854,7 +3854,7 @@
         "id": "2-159",
         "d": "2026-08-30",
         "desc": "QNBPAY/HONEST KAHVE",
-        "amt": 4005.0,
+        "amt": 4005,
         "cat": "Restoran & kafe",
         "st": 2
       },
@@ -3862,7 +3862,7 @@
         "id": "2-160",
         "d": "2026-08-30",
         "desc": "KREA İÇERİK HİZMETLE 1. Taksit",
-        "amt": 339.0,
+        "amt": 339,
         "cat": "Yazılım & iş aboneliği",
         "st": 2
       },
@@ -3886,7 +3886,7 @@
         "id": "2-163",
         "d": "2026-08-31",
         "desc": "BYOMAR GIDA/İSTANBUL",
-        "amt": 300.0,
+        "amt": 300,
         "cat": "Market & gıda",
         "st": 2
       },
@@ -3894,7 +3894,7 @@
         "id": "2-164",
         "d": "2026-09-01",
         "desc": "İSPARK OTOPARK İŞLET",
-        "amt": 300.0,
+        "amt": 300,
         "cat": "Ulaşım & seyahat",
         "st": 2
       },
@@ -3902,7 +3902,7 @@
         "id": "2-165",
         "d": "2026-09-01",
         "desc": "MK HASTANE İŞLETMELE/İSTANBUL",
-        "amt": 260.0,
+        "amt": 260,
         "cat": "Sağlık",
         "st": 2
       },
@@ -3910,7 +3910,7 @@
         "id": "2-166",
         "d": "2026-09-01",
         "desc": "PAYCELL/BİTAKSİ/İSTANBUL",
-        "amt": 300.0,
+        "amt": 300,
         "cat": "Ulaşım & seyahat",
         "st": 2
       },
@@ -3918,7 +3918,7 @@
         "id": "2-167",
         "d": "2026-09-01",
         "desc": "PAYCELL/BİTAKSİ/İSTANBUL",
-        "amt": 310.0,
+        "amt": 310,
         "cat": "Ulaşım & seyahat",
         "st": 2
       },
@@ -3926,7 +3926,7 @@
         "id": "2-168",
         "d": "2026-09-01",
         "desc": "Adobe/ADOBE.COM",
-        "amt": 399.0,
+        "amt": 399,
         "cat": "Yazılım & iş aboneliği",
         "st": 2
       },
@@ -3958,7 +3958,7 @@
         "id": "2-172",
         "d": "2026-09-02",
         "desc": "MACROCENTER KANYON",
-        "amt": 265.0,
+        "amt": 265,
         "cat": "Market & gıda",
         "st": 2
       },
@@ -3966,7 +3966,7 @@
         "id": "2-173",
         "d": "2026-09-02",
         "desc": "HAVAALANI LOUNGE SAB",
-        "amt": 2000.0,
+        "amt": 2000,
         "cat": "Ulaşım & seyahat",
         "st": 2
       },
@@ -3974,7 +3974,7 @@
         "id": "2-174",
         "d": "2026-09-02",
         "desc": "HAVAALANI LOUNGE SAB İndirim",
-        "amt": -2000.0,
+        "amt": -2000,
         "cat": "İade & indirim",
         "st": 2
       },
@@ -3982,7 +3982,7 @@
         "id": "2-175",
         "d": "2026-09-03",
         "desc": "İMAJ ERKEK KUAFÖRÜ",
-        "amt": 750.0,
+        "amt": 750,
         "cat": "Kişisel bakım",
         "st": 2
       },
@@ -4006,7 +4006,7 @@
         "id": "2-178",
         "d": "2026-09-03",
         "desc": "ÇAKILTAŞI RESTAURANT/MUĞLA",
-        "amt": 1970.0,
+        "amt": 1970,
         "cat": "Restoran & kafe",
         "st": 2
       },
@@ -4014,7 +4014,7 @@
         "id": "2-179",
         "d": "2026-09-04",
         "desc": "ALLIANZ SIGORTA A.S.",
-        "amt": 2508.0,
+        "amt": 2508,
         "cat": "Sigorta",
         "st": 2
       },
@@ -4030,15 +4030,15 @@
         "id": "2-181",
         "d": "2026-09-04",
         "desc": "MIDYECI SEHMUS USTA GIDA/MUGLA",
-        "amt": 1950.0,
-        "cat": "Market & gıda",
+        "amt": 1950,
+        "cat": "Restoran & kafe",
         "st": 2
       },
       {
         "id": "2-182",
         "d": "2026-09-04",
         "desc": "ATİLAY BALIK/MUĞLA",
-        "amt": 500.0,
+        "amt": 500,
         "cat": "Restoran & kafe",
         "st": 2
       },
@@ -4046,7 +4046,7 @@
         "id": "2-183",
         "d": "2026-09-04",
         "desc": "ATİLAY BALIK/MUĞLA",
-        "amt": 9350.0,
+        "amt": 9350,
         "cat": "Restoran & kafe",
         "st": 2
       },
@@ -4102,7 +4102,7 @@
         "id": "2-190",
         "d": "2026-09-05",
         "desc": "6000.00 alşv ind",
-        "amt": -450.0,
+        "amt": -450,
         "cat": "İade & indirim",
         "st": 2
       },
@@ -4110,7 +4110,7 @@
         "id": "3-191",
         "d": "2026-09-05",
         "desc": "HEPSIPAY /HEPSIBU 3. Taksit",
-        "amt": 426.0,
+        "amt": 426,
         "cat": "Alışveriş",
         "st": 3
       },
@@ -4118,7 +4118,7 @@
         "id": "3-192",
         "d": "2026-09-05",
         "desc": "HEPSIPAY /HEPSIBU 3. Taksit",
-        "amt": 466.0,
+        "amt": 466,
         "cat": "Alışveriş",
         "st": 3
       },
@@ -4134,7 +4134,7 @@
         "id": "3-194",
         "d": "2026-09-05",
         "desc": "DIVAN-FENERBAHCE ST",
-        "amt": 1730.0,
+        "amt": 1730,
         "cat": "Restoran & kafe",
         "st": 3
       },
@@ -4142,7 +4142,7 @@
         "id": "3-195",
         "d": "2026-09-05",
         "desc": "GÜNER ORGANİZASYON/İSTANBUL",
-        "amt": 3020.0,
+        "amt": 3020,
         "cat": "Diğer",
         "st": 3
       },
@@ -4150,7 +4150,7 @@
         "id": "3-196",
         "d": "2026-09-05",
         "desc": "TÜRKBÜKÜ SAHİL OTOPARK/MUĞLA",
-        "amt": 600.0,
+        "amt": 600,
         "cat": "Ulaşım & seyahat",
         "st": 3
       },
@@ -4158,7 +4158,7 @@
         "id": "3-197",
         "d": "2026-09-05",
         "desc": "BIZTUR YIYECEK ICE.DAN./MUGLA",
-        "amt": 430.0,
+        "amt": 430,
         "cat": "Restoran & kafe",
         "st": 3
       },
@@ -4166,7 +4166,7 @@
         "id": "3-198",
         "d": "2026-09-05",
         "desc": "MİAM RESTAURANT/MUĞLA",
-        "amt": 6000.0,
+        "amt": 6000,
         "cat": "Restoran & kafe",
         "st": 3
       },
@@ -4182,7 +4182,7 @@
         "id": "3-200",
         "d": "2026-09-06",
         "desc": "TAV MİLAS BODRUM/İSTANBUL",
-        "amt": 340.0,
+        "amt": 340,
         "cat": "Ulaşım & seyahat",
         "st": 3
       },
@@ -4198,7 +4198,7 @@
         "id": "3-202",
         "d": "2026-09-30",
         "desc": "KREA İÇERİK HİZMETLE 2. Taksit",
-        "amt": 339.0,
+        "amt": 339,
         "cat": "Yazılım & iş aboneliği",
         "st": 3
       },
@@ -4214,7 +4214,7 @@
         "id": "3-204",
         "d": "2026-10-02",
         "desc": "HAVAALANI LOUNGE SAB",
-        "amt": 2000.0,
+        "amt": 2000,
         "cat": "Ulaşım & seyahat",
         "st": 3
       },
@@ -4222,7 +4222,7 @@
         "id": "3-205",
         "d": "2026-10-02",
         "desc": "UZUM HALL/MARDIN",
-        "amt": 240.0,
+        "amt": 240,
         "cat": "Restoran & kafe",
         "st": 3
       },
@@ -4230,7 +4230,7 @@
         "id": "3-206",
         "d": "2026-10-02",
         "desc": "UZUM HALL/MARDIN",
-        "amt": 1530.0,
+        "amt": 1530,
         "cat": "Restoran & kafe",
         "st": 3
       },
@@ -4238,7 +4238,7 @@
         "id": "3-207",
         "d": "2026-10-02",
         "desc": "IYZICO/YENIBEN.COM/ISTANBUL",
-        "amt": 10.0,
+        "amt": 10,
         "cat": "Abonelik (kişisel)",
         "st": 3
       },
@@ -4254,7 +4254,7 @@
         "id": "3-209",
         "d": "2026-10-02",
         "desc": "Google YouTube Member/London",
-        "amt": 1000.0,
+        "amt": 1000,
         "cat": "Abonelik (kişisel)",
         "st": 3
       },
@@ -4262,7 +4262,7 @@
         "id": "3-210",
         "d": "2026-10-02",
         "desc": "HAVAALANI LOUNGE SAB İndirim",
-        "amt": -2000.0,
+        "amt": -2000,
         "cat": "İade & indirim",
         "st": 3
       },
@@ -4270,7 +4270,7 @@
         "id": "3-211",
         "d": "2026-10-03",
         "desc": "Adobe/Saggart, Dubl",
-        "amt": 399.0,
+        "amt": 399,
         "cat": "Yazılım & iş aboneliği",
         "st": 3
       },
@@ -4286,7 +4286,7 @@
         "id": "3-213",
         "d": "2026-10-04",
         "desc": "KEBAPÇI RIDO",
-        "amt": 1800.0,
+        "amt": 1800,
         "cat": "Restoran & kafe",
         "st": 3
       },
@@ -4294,7 +4294,7 @@
         "id": "3-214",
         "d": "2026-10-04",
         "desc": "Rubik/CENGIZLER UNLU",
-        "amt": 1090.0,
+        "amt": 1090,
         "cat": "Market & gıda",
         "st": 3
       },
@@ -4302,7 +4302,7 @@
         "id": "3-215",
         "d": "2026-10-04",
         "desc": "AKYÜZ GÜMÜŞ İSHAK AK/MARDİN",
-        "amt": 4300.0,
+        "amt": 4300,
         "cat": "Alışveriş",
         "st": 3
       },
@@ -4310,7 +4310,7 @@
         "id": "3-216",
         "d": "2026-10-04",
         "desc": "SULUKLU HAN/DIYARBAKIR",
-        "amt": 450.0,
+        "amt": 450,
         "cat": "Restoran & kafe",
         "st": 3
       },
@@ -4374,7 +4374,7 @@
         "id": "3-224",
         "d": "2026-10-05",
         "desc": "SS HEVSEL KADIN GİRİ",
-        "amt": 940.0,
+        "amt": 940,
         "cat": "Kişisel bakım",
         "st": 3
       }
