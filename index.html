@@ -350,14 +350,14 @@ $("cashCard").addEventListener("click",e=>{
 // SUBSCRIPTIONS (English)
 const SUB_CAT=["CRM","AI","Entertainment","Accounting","SaaS","Office","Telecom","Marketing","Other"];
 window.__sf={typ:"",st:""};window.__sedit=null;
-const subTry=(x,d)=>{ const a=+x.amount||0, r=x.currency==="USD"?FXU(d):x.currency==="EUR"?FXR(d):1; return a*r*(x.period==="yearly"?1/12:x.period==="weekly"?52/12:1); };
+const subTry=(x,d)=>{ const a=+x.amount||0, r=x.currency==="USD"?FXU(d):x.currency==="EUR"?FXR(d):x.currency==="GBP"?(+(d.fx&&d.fx.gbp_try)||FXR(d)*1.16):1; return a*r*(x.period==="yearly"?1/12:x.period==="weekly"?52/12:1); };
 const subDate=s=>{ if(!s)return""; const [y,m,d]=s.split("-"); return ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][+m-1]+" "+(+d)+(y!==String(new Date().getFullYear())?", "+y:""); };
-const subAmt=x=>x.amount===""||x.amount==null?"amount ?":({TRY:"₺",USD:"$",EUR:"€"}[x.currency]||"")+(+x.amount).toLocaleString("en-US",{minimumFractionDigits:Number.isInteger(+x.amount)?0:2,maximumFractionDigits:2})+" / "+({yearly:"yr",weekly:"wk"}[x.period]||"mo");
+const subAmt=x=>x.amount===""||x.amount==null?"amount ?":({TRY:"₺",USD:"$",EUR:"€",GBP:"£"}[x.currency]||"")+(+x.amount).toLocaleString("en-US",{minimumFractionDigits:Number.isInteger(+x.amount)?0:2,maximumFractionDigits:2})+" / "+({yearly:"yr",weekly:"wk"}[x.period]||"mo");
 function subForm(x){ x=x||{}; const sel2=(n,o,v)=>`<select name="${n}" aria-label="${n}">`+o.map(a=>`<option ${a===v?"selected":""}>${esc(a)}</option>`).join("")+`</select>`;
   return `<form class="sf" data-key="${esc(x.uid||"")}"><input class="wide" name="name" placeholder="Subscription name" value="${esc(x.name||"")}" required>`
   +`<input name="category" list="subcats" placeholder="Category" value="${esc(x.category||"")}"><datalist id="subcats">${SUB_CAT.map(c=>`<option>${c}</option>`).join("")}</datalist>`
   +sel2("type",["business","personal"],x.type||"business")
-  +`<input name="amount" inputmode="decimal" placeholder="Amount" value="${esc(x.amount??"")}">`+sel2("currency",["TRY","USD","EUR"],x.currency||"TRY")
+  +`<input name="amount" inputmode="decimal" placeholder="Amount" value="${esc(x.amount??"")}">`+sel2("currency",["TRY","USD","EUR","GBP"],x.currency||"TRY")
   +sel2("period",["monthly","yearly","weekly"],x.period||"monthly")+sel2("status",["active","to cancel","cancelled"],x.status||"active")
   +`<input name="payment_method" placeholder="Payment method (card/account)" value="${esc(x.payment_method||"")}"><label class="dl">Next payment<input name="next_payment_date" type="date" value="${esc(x.next_payment_date||"")}"></label>`
   +`<textarea class="wide" name="notes" rows="2" placeholder="Notes">${esc(x.notes||"")}</textarea><span class="fbtn wide"><button>Save</button> <button type="button" data-sa="cancel">Cancel</button></span></form>`; }
@@ -370,7 +370,7 @@ function renderSubs(d){
   const rows=all.filter(x=>(!f.typ||x.type===f.typ)&&(!f.st||x.status===f.st)).sort((a,b)=>(a.status==="cancelled")-(b.status==="cancelled")||String(a.name).localeCompare(String(b.name),"en"));
   $("subForm").innerHTML=window.__sedit==="__new"?subForm():"";
   $("subList").innerHTML=rows.map(x=>window.__sedit===x.uid?`<div class="sub">${subForm(x)}</div>`:`<div class="sub ${x.status==="to cancel"?"sw":x.status==="cancelled"?"sx":""}"><div><span class="sn">${esc(x.name)}</span><small>${esc(x.category||"")} · ${esc(x.type||"")}${x.payment_method?" · "+esc(x.payment_method):""}${x.next_payment_date?" · next "+esc(subDate(x.next_payment_date)):""}${x.status!=="active"?" · <b>"+esc(x.status)+"</b>":""}</small>${x.notes?`<small>${esc(x.notes)}</small>`:""}</div><div class="sa">${esc(subAmt(x))}</div><div class="sbtn"><button data-sa="edit" data-key="${esc(x.uid)}" aria-label="Edit">✎</button><button data-sa="del" data-key="${esc(x.uid)}" aria-label="Delete">✕</button></div></div>`).join("")||'<span class="date">No subscriptions</span>';
-  $("subFoot").textContent=`${live.length} subscriptions counted${unk?` · ${unk} without an amount (counted as 0)`:""} · USD and EUR converted at the current rate, yearly ÷ 12, weekly × 52/12.`;
+  $("subFoot").textContent=`${live.length} subscriptions counted${unk?` · ${unk} without an amount (counted as 0)`:""} · USD and EUR converted at the current rate (GBP approximate), yearly ÷ 12, weekly × 52/12.`;
 }
 function showTab(t){ document.body.classList.toggle("tab-subs",t==="subs"); $("tabD").classList.toggle("on",t!=="subs"); $("tabS").classList.toggle("on",t==="subs"); try{history.replaceState(null,"",t==="subs"?"#subscriptions":location.pathname+location.search)}catch(e){} }
 document.addEventListener("DOMContentLoaded",()=>{});

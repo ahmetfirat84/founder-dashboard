@@ -970,7 +970,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 05:20",
+  "updated": "2026-10-18 05:40",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1477,58 +1477,6 @@
       "notes": "Seen in a Jul 3 'insufficient limit' decline of ₺100. Period and current status unconfirmed."
     },
     {
-      "uid": "iqf9lk",
-      "name": "Superonline internet",
-      "category": "Telecom",
-      "amount": 551.7,
-      "currency": "TRY",
-      "period": "monthly",
-      "payment_method": "İş Bankası auto-pay",
-      "next_payment_date": "",
-      "type": "business",
-      "status": "active",
-      "notes": "Sep 11 invoice failed (insufficient balance). Suspended Sep 21, reopened Sep 28."
-    },
-    {
-      "uid": "ilhlfc",
-      "name": "Turkcell main line (ISTE Hesaplı Platin 25)",
-      "category": "Telecom",
-      "amount": 3753.7,
-      "currency": "TRY",
-      "period": "monthly",
-      "payment_method": "İş Bankası auto-pay",
-      "next_payment_date": "2026-10-24",
-      "type": "business",
-      "status": "active",
-      "notes": "Campaign contract ends Oct 24: decide renew or cancel. Oct 7 auto-pay of ₺3,753.70 failed (insufficient balance)."
-    },
-    {
-      "uid": "hxliph",
-      "name": "Turkcell second line",
-      "category": "Telecom",
-      "amount": 712.6,
-      "currency": "TRY",
-      "period": "monthly",
-      "payment_method": "İş Bankası auto-pay",
-      "next_payment_date": "",
-      "type": "business",
-      "status": "active",
-      "notes": "Oct 7 auto-pay of ₺712.60 failed (insufficient balance)."
-    },
-    {
-      "uid": "zbbbmg",
-      "name": "Sonetel",
-      "category": "Telecom",
-      "amount": "",
-      "currency": "USD",
-      "period": "monthly",
-      "payment_method": "",
-      "next_payment_date": "",
-      "type": "business",
-      "status": "active",
-      "notes": "Prepaid: balance -$2.43, calls paused. Subscription or top-up, clarify."
-    },
-    {
       "uid": "rcsacg",
       "name": "Health Auto Export Premium",
       "category": "SaaS",
@@ -1657,6 +1605,136 @@
       "type": "business",
       "status": "active",
       "notes": "Stripe: $9.99 charge failed Sep 21, receipt Oct 4. Confirm what this is."
+    },
+    {
+      "uid": "snyvk8",
+      "name": "Turkcell · Ahmet · 0533 727 0000",
+      "category": "Telecom",
+      "amount": 3753.7,
+      "currency": "TRY",
+      "period": "monthly",
+      "payment_method": "İş Bankası auto-pay",
+      "next_payment_date": "2026-10-24",
+      "type": "business",
+      "status": "active",
+      "notes": "Company line, plan ISTE Hesaplı Platin 25, campaign contract ends Oct 24: decide renew or cancel. ₺3,753.70 is the auto-pay invoice tied to this number (Oct 7, failed: insufficient balance). Yeniben's multi-line corporate bill (25th each month) ranges ₺1,440–4,375, so overage is likely. Per-line split is in the CSV attached to the Oct 10 invoice email."
+    },
+    {
+      "uid": "jekv0h",
+      "name": "Turkcell · 0530 547 1042 (owner ?)",
+      "category": "Telecom",
+      "amount": 712.6,
+      "currency": "TRY",
+      "period": "monthly",
+      "payment_method": "İş Bankası auto-pay",
+      "next_payment_date": "",
+      "type": "business",
+      "status": "active",
+      "notes": "Owner not stated in the emails (Hülya?), please fill in. Bills vary: ₺889.70 (Jul), ₺77.60 (Sep), ₺712.60 (Oct). Auto-pay failed for insufficient balance each time."
+    },
+    {
+      "uid": "9fw3ox",
+      "name": "Turkcell · 0532 401 0411 (owner ?)",
+      "category": "Telecom",
+      "amount": 372.3,
+      "currency": "TRY",
+      "period": "monthly",
+      "payment_method": "İş Bankası card auto-pay",
+      "next_payment_date": "",
+      "type": "business",
+      "status": "active",
+      "notes": "Owner not stated, please fill in. Bills ₺416.20 (Jun), ₺372.30 (Jul). No invoice since July: may already be cancelled."
+    },
+    {
+      "uid": "f8ne7q",
+      "name": "Turkcell · Ahmet personal · 0536 511 5006",
+      "category": "Telecom",
+      "amount": 1430.2,
+      "currency": "TRY",
+      "period": "monthly",
+      "payment_method": "Garanti auto-pay",
+      "next_payment_date": "",
+      "type": "personal",
+      "status": "cancelled",
+      "notes": "Terminated Aug 31 2026 (cancel request Aug 25, final invoice ₺1,277.87). Bills were ₺1,430–2,425, so it often exceeded its base price."
+    },
+    {
+      "uid": "1x4chq",
+      "name": "Superonline fiber internet (Kanyon home)",
+      "category": "Telecom",
+      "amount": 966.5,
+      "currency": "TRY",
+      "period": "monthly",
+      "payment_method": "İş Bankası auto-pay (1235-••••084)",
+      "next_payment_date": "2026-11-11",
+      "type": "personal",
+      "status": "active",
+      "notes": "Home internet at Kanyon, service no. 101848882254. Bill is usually about ₺950 but ranges ₺551–1,665. Due around the 11th–13th. Pattern: auto-pay fails, speed throttled to 512 Kbps, restored after a manual payment (Aug 21, Sep 21–28). Kanyon notice: Türk Telekom is converting the building to fiber."
+    },
+    {
+      "uid": "4vlw09",
+      "name": "Sonetel NZ number · +64 9 887 9052",
+      "category": "Telecom",
+      "amount": 3.99,
+      "currency": "USD",
+      "period": "monthly",
+      "payment_method": "Prepaid balance (card saved)",
+      "next_payment_date": "",
+      "type": "business",
+      "status": "active",
+      "notes": "Virtual number set up in June for HubSpot calling. Renewal $3.99 (period not stated, assumed monthly). Balance is -$2.43, calls paused, number at risk of being lost: top up at app.sonetel.com. Forwarding target not visible in emails (Selin?)."
+    },
+    {
+      "uid": "3i18h5",
+      "name": "UK virtual number (Selin, Sales)",
+      "category": "Telecom",
+      "amount": 6.99,
+      "currency": "GBP",
+      "period": "monthly",
+      "payment_method": "Visa ••3399",
+      "next_payment_date": "",
+      "type": "business",
+      "status": "active",
+      "notes": "UK number for Selin (Sales). Number itself not found in emails. Likely the 'YOURBUSINESSNUMBER +44208040110' £6.99 charge that was declined on Jun 9 (insufficient limit). Please confirm provider, number and amount."
+    },
+    {
+      "uid": "u6uke2",
+      "name": "Hülya phone line (fill in)",
+      "category": "Telecom",
+      "amount": "",
+      "currency": "TRY",
+      "period": "monthly",
+      "payment_method": "",
+      "next_payment_date": "",
+      "type": "business",
+      "status": "active",
+      "notes": "PLACEHOLDER: no email names Hülya's line. Add operator, number and amount."
+    },
+    {
+      "uid": "fzr6mr",
+      "name": "Data lines (company / personal) (fill in)",
+      "category": "Telecom",
+      "amount": "",
+      "currency": "TRY",
+      "period": "monthly",
+      "payment_method": "",
+      "next_payment_date": "",
+      "type": "business",
+      "status": "active",
+      "notes": "PLACEHOLDER: no data-only line or eSIM found in emails. Add one row per line."
+    },
+    {
+      "uid": "x9wfe1",
+      "name": "Vodafone line (fill in)",
+      "category": "Telecom",
+      "amount": "",
+      "currency": "TRY",
+      "period": "monthly",
+      "payment_method": "",
+      "next_payment_date": "",
+      "type": "business",
+      "status": "active",
+      "notes": "PLACEHOLDER: no Vodafone line or invoice found in emails (only a Vodafone employee's personal mails). Add details or delete."
     }
   ]
 }
