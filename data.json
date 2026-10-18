@@ -4512,5 +4512,1015 @@
         "st": 3
       }
     ]
-  }
+  },
+  "debts": [
+    {
+      "id": "sgk-tecil",
+      "name": "SGK şirket tecil (Yeniben A.Ş.)",
+      "kind": "Taksit · 72 taksit",
+      "left": 4290885.9,
+      "left_est": true,
+      "brk": {
+        "n": 4,
+        "scope": "all",
+        "txt": "Ödenmeyen taksit sayısı 4 olursa tecil bozulur (SGK Genelge 2026/7)"
+      },
+      "link": "s9mc5u",
+      "note": "Her taksit 3 kalem (Prim + İşsizlik + İPC) = ₺61.298,37. Banka: SGK Ödemesi > 4/1-A İşveren Tahsilatları > İşveren İcra Taksidi. Taksit 1 ve 2 ödendi. Hafta sonuna denk gelen 19'u Pazartesiye kaydırıldı; tutarlar sabit varsayıldı.",
+      "rows": [
+        {
+          "d": "2026-10-19",
+          "amt": 61298.37,
+          "label": "Taksit 3",
+          "inst": true
+        },
+        {
+          "d": "2026-11-19",
+          "amt": 61298.37,
+          "label": "Taksit 4",
+          "inst": true
+        },
+        {
+          "d": "2026-12-21",
+          "amt": 61298.37,
+          "label": "Taksit 5",
+          "inst": true
+        },
+        {
+          "d": "2027-01-19",
+          "amt": 61298.37,
+          "label": "Taksit 6",
+          "inst": true
+        },
+        {
+          "d": "2027-02-19",
+          "amt": 61298.37,
+          "label": "Taksit 7",
+          "inst": true
+        },
+        {
+          "d": "2027-03-19",
+          "amt": 61298.37,
+          "label": "Taksit 8",
+          "inst": true
+        },
+        {
+          "d": "2027-04-19",
+          "amt": 61298.37,
+          "label": "Taksit 9",
+          "inst": true
+        },
+        {
+          "d": "2027-05-19",
+          "amt": 61298.37,
+          "label": "Taksit 10",
+          "inst": true
+        },
+        {
+          "d": "2027-06-21",
+          "amt": 61298.37,
+          "label": "Taksit 11",
+          "inst": true
+        },
+        {
+          "d": "2027-07-19",
+          "amt": 61298.37,
+          "label": "Taksit 12",
+          "inst": true
+        },
+        {
+          "d": "2027-08-19",
+          "amt": 61298.37,
+          "label": "Taksit 13",
+          "inst": true
+        },
+        {
+          "d": "2027-09-20",
+          "amt": 61298.37,
+          "label": "Taksit 14",
+          "inst": true
+        },
+        {
+          "d": "2027-10-19",
+          "amt": 61298.37,
+          "label": "Taksit 15",
+          "inst": true
+        },
+        {
+          "d": "2027-11-19",
+          "amt": 61298.37,
+          "label": "Taksit 16",
+          "inst": true
+        },
+        {
+          "d": "2027-12-20",
+          "amt": 61298.37,
+          "label": "Taksit 17",
+          "inst": true
+        },
+        {
+          "d": "2028-01-19",
+          "amt": 61298.37,
+          "label": "Taksit 18",
+          "inst": true
+        },
+        {
+          "d": "2028-02-21",
+          "amt": 61298.37,
+          "label": "Taksit 19",
+          "inst": true
+        },
+        {
+          "d": "2028-03-20",
+          "amt": 61298.37,
+          "label": "Taksit 20",
+          "inst": true
+        },
+        {
+          "d": "2028-04-19",
+          "amt": 61298.37,
+          "label": "Taksit 21",
+          "inst": true
+        },
+        {
+          "d": "2028-05-19",
+          "amt": 61298.37,
+          "label": "Taksit 22",
+          "inst": true
+        },
+        {
+          "d": "2028-06-19",
+          "amt": 61298.37,
+          "label": "Taksit 23",
+          "inst": true
+        },
+        {
+          "d": "2028-07-19",
+          "amt": 61298.37,
+          "label": "Taksit 24",
+          "inst": true
+        },
+        {
+          "d": "2028-08-21",
+          "amt": 61298.37,
+          "label": "Taksit 25",
+          "inst": true
+        },
+        {
+          "d": "2028-09-19",
+          "amt": 61298.37,
+          "label": "Taksit 26",
+          "inst": true
+        },
+        {
+          "d": "2028-10-19",
+          "amt": 61298.37,
+          "label": "Taksit 27",
+          "inst": true
+        },
+        {
+          "d": "2028-11-20",
+          "amt": 61298.37,
+          "label": "Taksit 28",
+          "inst": true
+        },
+        {
+          "d": "2028-12-19",
+          "amt": 61298.37,
+          "label": "Taksit 29",
+          "inst": true
+        },
+        {
+          "d": "2029-01-19",
+          "amt": 61298.37,
+          "label": "Taksit 30",
+          "inst": true
+        },
+        {
+          "d": "2029-02-19",
+          "amt": 61298.37,
+          "label": "Taksit 31",
+          "inst": true
+        },
+        {
+          "d": "2029-03-19",
+          "amt": 61298.37,
+          "label": "Taksit 32",
+          "inst": true
+        },
+        {
+          "d": "2029-04-19",
+          "amt": 61298.37,
+          "label": "Taksit 33",
+          "inst": true
+        },
+        {
+          "d": "2029-05-21",
+          "amt": 61298.37,
+          "label": "Taksit 34",
+          "inst": true
+        },
+        {
+          "d": "2029-06-19",
+          "amt": 61298.37,
+          "label": "Taksit 35",
+          "inst": true
+        },
+        {
+          "d": "2029-07-19",
+          "amt": 61298.37,
+          "label": "Taksit 36",
+          "inst": true
+        },
+        {
+          "d": "2029-08-20",
+          "amt": 61298.37,
+          "label": "Taksit 37",
+          "inst": true
+        },
+        {
+          "d": "2029-09-19",
+          "amt": 61298.37,
+          "label": "Taksit 38",
+          "inst": true
+        },
+        {
+          "d": "2029-10-19",
+          "amt": 61298.37,
+          "label": "Taksit 39",
+          "inst": true
+        },
+        {
+          "d": "2029-11-19",
+          "amt": 61298.37,
+          "label": "Taksit 40",
+          "inst": true
+        },
+        {
+          "d": "2029-12-19",
+          "amt": 61298.37,
+          "label": "Taksit 41",
+          "inst": true
+        },
+        {
+          "d": "2030-01-21",
+          "amt": 61298.37,
+          "label": "Taksit 42",
+          "inst": true
+        },
+        {
+          "d": "2030-02-19",
+          "amt": 61298.37,
+          "label": "Taksit 43",
+          "inst": true
+        },
+        {
+          "d": "2030-03-19",
+          "amt": 61298.37,
+          "label": "Taksit 44",
+          "inst": true
+        },
+        {
+          "d": "2030-04-19",
+          "amt": 61298.37,
+          "label": "Taksit 45",
+          "inst": true
+        },
+        {
+          "d": "2030-05-20",
+          "amt": 61298.37,
+          "label": "Taksit 46",
+          "inst": true
+        },
+        {
+          "d": "2030-06-19",
+          "amt": 61298.37,
+          "label": "Taksit 47",
+          "inst": true
+        },
+        {
+          "d": "2030-07-19",
+          "amt": 61298.37,
+          "label": "Taksit 48",
+          "inst": true
+        },
+        {
+          "d": "2030-08-19",
+          "amt": 61298.37,
+          "label": "Taksit 49",
+          "inst": true
+        },
+        {
+          "d": "2030-09-19",
+          "amt": 61298.37,
+          "label": "Taksit 50",
+          "inst": true
+        },
+        {
+          "d": "2030-10-21",
+          "amt": 61298.37,
+          "label": "Taksit 51",
+          "inst": true
+        },
+        {
+          "d": "2030-11-19",
+          "amt": 61298.37,
+          "label": "Taksit 52",
+          "inst": true
+        },
+        {
+          "d": "2030-12-19",
+          "amt": 61298.37,
+          "label": "Taksit 53",
+          "inst": true
+        },
+        {
+          "d": "2031-01-20",
+          "amt": 61298.37,
+          "label": "Taksit 54",
+          "inst": true
+        },
+        {
+          "d": "2031-02-19",
+          "amt": 61298.37,
+          "label": "Taksit 55",
+          "inst": true
+        },
+        {
+          "d": "2031-03-19",
+          "amt": 61298.37,
+          "label": "Taksit 56",
+          "inst": true
+        },
+        {
+          "d": "2031-04-21",
+          "amt": 61298.37,
+          "label": "Taksit 57",
+          "inst": true
+        },
+        {
+          "d": "2031-05-19",
+          "amt": 61298.37,
+          "label": "Taksit 58",
+          "inst": true
+        },
+        {
+          "d": "2031-06-19",
+          "amt": 61298.37,
+          "label": "Taksit 59",
+          "inst": true
+        },
+        {
+          "d": "2031-07-21",
+          "amt": 61298.37,
+          "label": "Taksit 60",
+          "inst": true
+        },
+        {
+          "d": "2031-08-19",
+          "amt": 61298.37,
+          "label": "Taksit 61",
+          "inst": true
+        },
+        {
+          "d": "2031-09-19",
+          "amt": 61298.37,
+          "label": "Taksit 62",
+          "inst": true
+        },
+        {
+          "d": "2031-10-20",
+          "amt": 61298.37,
+          "label": "Taksit 63",
+          "inst": true
+        },
+        {
+          "d": "2031-11-19",
+          "amt": 61298.37,
+          "label": "Taksit 64",
+          "inst": true
+        },
+        {
+          "d": "2031-12-19",
+          "amt": 61298.37,
+          "label": "Taksit 65",
+          "inst": true
+        },
+        {
+          "d": "2032-01-19",
+          "amt": 61298.37,
+          "label": "Taksit 66",
+          "inst": true
+        },
+        {
+          "d": "2032-02-19",
+          "amt": 61298.37,
+          "label": "Taksit 67",
+          "inst": true
+        },
+        {
+          "d": "2032-03-19",
+          "amt": 61298.37,
+          "label": "Taksit 68",
+          "inst": true
+        },
+        {
+          "d": "2032-04-19",
+          "amt": 61298.37,
+          "label": "Taksit 69",
+          "inst": true
+        },
+        {
+          "d": "2032-05-19",
+          "amt": 61298.37,
+          "label": "Taksit 70",
+          "inst": true
+        },
+        {
+          "d": "2032-06-21",
+          "amt": 61298.37,
+          "label": "Taksit 71",
+          "inst": true
+        },
+        {
+          "d": "2032-07-19",
+          "amt": 61298.37,
+          "label": "Taksit 72",
+          "inst": true
+        }
+      ]
+    },
+    {
+      "id": "bagkur-taksit",
+      "name": "Bağ-Kur 4/B taksit (şahsi)",
+      "kind": "Taksit · 72 taksit",
+      "left": 595117.99,
+      "brk": {
+        "n": 4,
+        "scope": "year",
+        "txt": "Takvim yılında 4 taksit ödenmezse yapılandırma bozulur; 3'e kadar ödenmeyen, tecil faiziyle son taksite kadar ödenirse bozulmaz"
+      },
+      "link": "nq4r9c",
+      "note": "Banka: SGK Ödemesi > 4/1-B > Borç Kodu 4006 · 'Kısmi ödeme' ile plandaki tutarı elle yaz (ekranda toplam kalan çıkar, tamamını ödeme). Son ödeme günü tatile denk gelirse ilk iş günü.",
+      "rows": [
+        {
+          "d": "2026-08-31",
+          "amt": 4567.88,
+          "label": "Taksit 2",
+          "inst": true
+        },
+        {
+          "d": "2026-09-30",
+          "amt": 4675.26,
+          "label": "Taksit 3",
+          "inst": true
+        },
+        {
+          "d": "2026-10-31",
+          "amt": 4786.29,
+          "label": "Taksit 4",
+          "inst": true
+        },
+        {
+          "d": "2026-11-30",
+          "amt": 4893.73,
+          "label": "Taksit 5",
+          "inst": true
+        },
+        {
+          "d": "2026-12-31",
+          "amt": 5004.76,
+          "label": "Taksit 6",
+          "inst": true
+        },
+        {
+          "d": "2027-01-31",
+          "amt": 5115.79,
+          "label": "Taksit 7",
+          "inst": true
+        },
+        {
+          "d": "2027-02-28",
+          "amt": 5216.07,
+          "label": "Taksit 8",
+          "inst": true
+        },
+        {
+          "d": "2027-03-31",
+          "amt": 5327.1,
+          "label": "Taksit 9",
+          "inst": true
+        },
+        {
+          "d": "2027-04-30",
+          "amt": 5434.54,
+          "label": "Taksit 10",
+          "inst": true
+        },
+        {
+          "d": "2027-05-31",
+          "amt": 5545.57,
+          "label": "Taksit 11",
+          "inst": true
+        },
+        {
+          "d": "2027-06-30",
+          "amt": 5653.02,
+          "label": "Taksit 12",
+          "inst": true
+        },
+        {
+          "d": "2027-07-31",
+          "amt": 5764.04,
+          "label": "Taksit 13",
+          "inst": true
+        },
+        {
+          "d": "2027-08-31",
+          "amt": 5875.07,
+          "label": "Taksit 14",
+          "inst": true
+        },
+        {
+          "d": "2027-09-30",
+          "amt": 5982.52,
+          "label": "Taksit 15",
+          "inst": true
+        },
+        {
+          "d": "2027-10-31",
+          "amt": 6093.54,
+          "label": "Taksit 16",
+          "inst": true
+        },
+        {
+          "d": "2027-11-30",
+          "amt": 6200.99,
+          "label": "Taksit 17",
+          "inst": true
+        },
+        {
+          "d": "2027-12-31",
+          "amt": 6312.02,
+          "label": "Taksit 18",
+          "inst": true
+        },
+        {
+          "d": "2028-01-31",
+          "amt": 6423.05,
+          "label": "Taksit 19",
+          "inst": true
+        },
+        {
+          "d": "2028-02-29",
+          "amt": 6526.91,
+          "label": "Taksit 20",
+          "inst": true
+        },
+        {
+          "d": "2028-03-31",
+          "amt": 6637.94,
+          "label": "Taksit 21",
+          "inst": true
+        },
+        {
+          "d": "2028-04-30",
+          "amt": 6745.38,
+          "label": "Taksit 22",
+          "inst": true
+        },
+        {
+          "d": "2028-05-31",
+          "amt": 6856.41,
+          "label": "Taksit 23",
+          "inst": true
+        },
+        {
+          "d": "2028-06-30",
+          "amt": 6963.86,
+          "label": "Taksit 24",
+          "inst": true
+        },
+        {
+          "d": "2028-07-31",
+          "amt": 7074.88,
+          "label": "Taksit 25",
+          "inst": true
+        },
+        {
+          "d": "2028-08-31",
+          "amt": 7185.91,
+          "label": "Taksit 26",
+          "inst": true
+        },
+        {
+          "d": "2028-09-30",
+          "amt": 7293.36,
+          "label": "Taksit 27",
+          "inst": true
+        },
+        {
+          "d": "2028-10-31",
+          "amt": 7404.39,
+          "label": "Taksit 28",
+          "inst": true
+        },
+        {
+          "d": "2028-11-30",
+          "amt": 7511.83,
+          "label": "Taksit 29",
+          "inst": true
+        },
+        {
+          "d": "2028-12-31",
+          "amt": 7622.86,
+          "label": "Taksit 30",
+          "inst": true
+        },
+        {
+          "d": "2029-01-31",
+          "amt": 7733.89,
+          "label": "Taksit 31",
+          "inst": true
+        },
+        {
+          "d": "2029-02-28",
+          "amt": 7834.17,
+          "label": "Taksit 32",
+          "inst": true
+        },
+        {
+          "d": "2029-03-31",
+          "amt": 7945.2,
+          "label": "Taksit 33",
+          "inst": true
+        },
+        {
+          "d": "2029-04-30",
+          "amt": 8052.64,
+          "label": "Taksit 34",
+          "inst": true
+        },
+        {
+          "d": "2029-05-31",
+          "amt": 8163.67,
+          "label": "Taksit 35",
+          "inst": true
+        },
+        {
+          "d": "2029-06-30",
+          "amt": 8271.12,
+          "label": "Taksit 36",
+          "inst": true
+        },
+        {
+          "d": "2029-07-31",
+          "amt": 8382.14,
+          "label": "Taksit 37",
+          "inst": true
+        },
+        {
+          "d": "2029-08-31",
+          "amt": 8493.17,
+          "label": "Taksit 38",
+          "inst": true
+        },
+        {
+          "d": "2029-09-30",
+          "amt": 8600.62,
+          "label": "Taksit 39",
+          "inst": true
+        },
+        {
+          "d": "2029-10-31",
+          "amt": 8711.64,
+          "label": "Taksit 40",
+          "inst": true
+        },
+        {
+          "d": "2029-11-30",
+          "amt": 8819.09,
+          "label": "Taksit 41",
+          "inst": true
+        },
+        {
+          "d": "2029-12-31",
+          "amt": 8930.12,
+          "label": "Taksit 42",
+          "inst": true
+        },
+        {
+          "d": "2030-01-31",
+          "amt": 9041.15,
+          "label": "Taksit 43",
+          "inst": true
+        },
+        {
+          "d": "2030-02-28",
+          "amt": 9141.43,
+          "label": "Taksit 44",
+          "inst": true
+        },
+        {
+          "d": "2030-03-31",
+          "amt": 9252.46,
+          "label": "Taksit 45",
+          "inst": true
+        },
+        {
+          "d": "2030-04-30",
+          "amt": 9359.9,
+          "label": "Taksit 46",
+          "inst": true
+        },
+        {
+          "d": "2030-05-31",
+          "amt": 9470.93,
+          "label": "Taksit 47",
+          "inst": true
+        },
+        {
+          "d": "2030-06-30",
+          "amt": 9578.38,
+          "label": "Taksit 48",
+          "inst": true
+        },
+        {
+          "d": "2030-07-31",
+          "amt": 9689.4,
+          "label": "Taksit 49",
+          "inst": true
+        },
+        {
+          "d": "2030-08-31",
+          "amt": 9800.43,
+          "label": "Taksit 50",
+          "inst": true
+        },
+        {
+          "d": "2030-09-30",
+          "amt": 9907.88,
+          "label": "Taksit 51",
+          "inst": true
+        },
+        {
+          "d": "2030-10-31",
+          "amt": 10018.9,
+          "label": "Taksit 52",
+          "inst": true
+        },
+        {
+          "d": "2030-11-30",
+          "amt": 10126.35,
+          "label": "Taksit 53",
+          "inst": true
+        },
+        {
+          "d": "2030-12-31",
+          "amt": 10237.38,
+          "label": "Taksit 54",
+          "inst": true
+        },
+        {
+          "d": "2031-01-31",
+          "amt": 10348.41,
+          "label": "Taksit 55",
+          "inst": true
+        },
+        {
+          "d": "2031-02-28",
+          "amt": 10448.69,
+          "label": "Taksit 56",
+          "inst": true
+        },
+        {
+          "d": "2031-03-31",
+          "amt": 10559.72,
+          "label": "Taksit 57",
+          "inst": true
+        },
+        {
+          "d": "2031-04-30",
+          "amt": 10667.16,
+          "label": "Taksit 58",
+          "inst": true
+        },
+        {
+          "d": "2031-05-31",
+          "amt": 10778.19,
+          "label": "Taksit 59",
+          "inst": true
+        },
+        {
+          "d": "2031-06-30",
+          "amt": 10885.63,
+          "label": "Taksit 60",
+          "inst": true
+        },
+        {
+          "d": "2031-07-31",
+          "amt": 10996.66,
+          "label": "Taksit 61",
+          "inst": true
+        },
+        {
+          "d": "2031-08-31",
+          "amt": 11107.69,
+          "label": "Taksit 62",
+          "inst": true
+        },
+        {
+          "d": "2031-09-30",
+          "amt": 11215.14,
+          "label": "Taksit 63",
+          "inst": true
+        },
+        {
+          "d": "2031-10-31",
+          "amt": 11326.16,
+          "label": "Taksit 64",
+          "inst": true
+        },
+        {
+          "d": "2031-11-30",
+          "amt": 11433.61,
+          "label": "Taksit 65",
+          "inst": true
+        },
+        {
+          "d": "2031-12-31",
+          "amt": 11544.64,
+          "label": "Taksit 66",
+          "inst": true
+        },
+        {
+          "d": "2032-01-31",
+          "amt": 11655.66,
+          "label": "Taksit 67",
+          "inst": true
+        },
+        {
+          "d": "2032-02-29",
+          "amt": 11759.53,
+          "label": "Taksit 68",
+          "inst": true
+        },
+        {
+          "d": "2032-03-31",
+          "amt": 11870.56,
+          "label": "Taksit 69",
+          "inst": true
+        },
+        {
+          "d": "2032-04-30",
+          "amt": 11978.0,
+          "label": "Taksit 70",
+          "inst": true
+        },
+        {
+          "d": "2032-05-31",
+          "amt": 12089.03,
+          "label": "Taksit 71",
+          "inst": true
+        },
+        {
+          "d": "2032-06-30",
+          "amt": 12196.48,
+          "label": "Taksit 72",
+          "inst": true
+        }
+      ]
+    },
+    {
+      "id": "bagkur-prim",
+      "name": "Bağ-Kur 4/B cari ve geçmiş dönem prim",
+      "kind": "Prim (taksitten ayrı)",
+      "left": 62992.33,
+      "brk": {
+        "n": 4,
+        "scope": "year",
+        "txt": "Takvim yılında 4 cari ayın primi ödenmezse taksitlendirme de bozulur"
+      },
+      "link": "pzk37f",
+      "rows": [
+        {
+          "d": "2026-10-19",
+          "amt": 39375.87,
+          "label": "4005 Geçmiş dönem prim",
+          "inst": true
+        },
+        {
+          "d": "2026-11-02",
+          "amt": 11808.23,
+          "label": "4027 Cari dönem prim",
+          "inst": true
+        },
+        {
+          "d": "2026-11-30",
+          "amt": 11808.23,
+          "label": "4041 Sonraki ay primi",
+          "inst": true
+        }
+      ]
+    },
+    {
+      "id": "sgk-cari",
+      "name": "SGK cari ay primleri (şirket)",
+      "kind": "Prim · aylık",
+      "left": 71419.8,
+      "left_est": true,
+      "brk": {
+        "n": 4,
+        "scope": "year",
+        "txt": "Takvim yılında 4 cari ayın primi ödenmezse tecil bozulur (SGK Genelge 2026/7)"
+      },
+      "link": "f2dpoa",
+      "note": "Ağustos primi (vade 30.09) SGK kayıtlarında ödenmemiş görünüyor, dekont bulunamadı; doğrula. Eylül primi vadesi ≈30.10, tutar tahmini.",
+      "rows": [
+        {
+          "d": "2026-09-30",
+          "amt": 71419.8,
+          "label": "Ağustos primi",
+          "inst": true
+        },
+        {
+          "d": "2026-10-30",
+          "amt": null,
+          "label": "Eylül primi (tutar bekleniyor)",
+          "inst": true,
+          "est": true
+        }
+      ]
+    },
+    {
+      "id": "vd-tecil",
+      "name": "Vergi dairesi tecil / yapılandırma (Zincirlikuyu VD)",
+      "kind": "Taksit · yaklaşık ₺1,3M",
+      "left": 1300000,
+      "left_est": true,
+      "note": "TAHMİNİ KAYIT, VD ekranından doğrula. Vyv yapılandırma (belge 2026071425Vyv0000001) taksidi ≈₺16.296/ay; taksit 2 kısmen ödenmiş (≈₺14.772 kalan). 'Borcu yoktur' için toplamın %10'u ≈₺130.000, ödenen ≈₺37.786. CPA Türk (Yasemin Hanım) ile teyit et.",
+      "rows": [
+        {
+          "d": "2026-10-31",
+          "amt": 14772,
+          "label": "Taksit 2 (kalan, tahmini)",
+          "est": true
+        },
+        {
+          "d": "2026-11-30",
+          "amt": 16296,
+          "label": "Taksit 3 (tahmini)",
+          "est": true
+        }
+      ]
+    },
+    {
+      "id": "cpa",
+      "name": "CPA Türk mali müşavirlik (geçmiş bakiye)",
+      "kind": "Kapama planı",
+      "left": 142600,
+      "left_est": true,
+      "note": "Geçmiş bakiye ₺142.600 (5 Ağu itibarıyla). Plan: Eyl–Ara her ayın ~15'i ₺46.450 (aylık ücret ₺10.800 + ₺35.650). Eylül ve Ekim ödemelerinin yapılıp yapılmadığı DOĞRULANMADI, yapıldıysa ilgili satırı işaretle.",
+      "rows": [
+        {
+          "d": "2026-10-15",
+          "amt": 46450,
+          "label": "Ekim ödemesi (doğrula)",
+          "est": true
+        },
+        {
+          "d": "2026-11-15",
+          "amt": 46450,
+          "label": "Kasım ödemesi",
+          "est": true
+        },
+        {
+          "d": "2026-12-15",
+          "amt": 46450,
+          "label": "Aralık ödemesi",
+          "est": true
+        }
+      ]
+    },
+    {
+      "id": "vb-kart",
+      "name": "VakıfBank kredi kartı ••3399",
+      "kind": "Kart borcu",
+      "left": 377293.6,
+      "link": "",
+      "note": "Ekstre ₺377.293,60, limit ₺371.250. Asgari ödeme ₺154.544 vadesi 15.10 geçti. Sonraki hesap kesim 06.11, son ödeme 16.11. Aylık faiz %4,25, gecikme %4,55.",
+      "rows": [
+        {
+          "d": "2026-10-15",
+          "amt": 154544,
+          "label": "Asgari ödeme (gecikti)"
+        },
+        {
+          "d": "2026-11-16",
+          "amt": null,
+          "label": "Sonraki ekstre son ödeme"
+        }
+      ]
+    }
+  ]
 }

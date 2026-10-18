@@ -101,10 +101,14 @@
   :root[data-theme=dark] .pill.green{background:#18301f;color:#5fd08a}:root[data-theme=dark] .pill.yellow{color:#f0c050}:root[data-theme=dark] .pill.red{color:#ff8a80}
   .ud{display:inline-block;width:9px;height:9px;border-radius:50%;margin:6px 2px 0 0;flex:none;background:#9a9aa2}
   .ud.red{background:#d93025}.ud.orange{background:#f07d00}.ud.yellow{background:#e8a100}.ud.gray{background:#b5b5bb}
-  .tabs{display:flex;gap:6px;grid-column:1/-1}.tabs button{flex:1;font-size:14px;padding:8px 10px;border-radius:10px}.tabs button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+  .tabs{display:flex;gap:6px;grid-column:1/-1}.tabs button{flex:1 1 0;min-width:0;font-size:13px;padding:8px 4px;border-radius:10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.tabs button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
   body.tab-subs main>*:not(.tabs):not(#subsCard):not(header){display:none!important}body:not(.tab-subs) #subsCard{display:none}
   body.tab-sp main>*:not(.tabs):not(#spCard):not(header){display:none!important}body:not(.tab-sp) #spCard{display:none}
   #spCard{min-width:0;max-width:100%;overflow:hidden}.spm,.spr,.spx{min-width:0}
+  body.tab-db main>*:not(.tabs):not(#dbCard):not(header){display:none!important}body:not(.tab-db) #dbCard{display:none}
+  #dbCard{min-width:0;max-width:100%;overflow:hidden}#dbCard h2{margin:0 0 8px}.dbr{padding:9px 8px;border-bottom:1px solid var(--line);cursor:pointer}.dbr .h{display:flex;justify-content:space-between;gap:10px;align-items:baseline}.dbr .h b{font-weight:600;min-width:0;overflow-wrap:anywhere}.dbr .h b:last-child{white-space:nowrap}.dbr small{color:var(--mut);display:block;margin-top:2px}
+  .dbx{padding:4px 8px 10px 14px;border-bottom:1px solid var(--line);font-size:12.5px}.dbx .n{color:var(--mut);margin:4px 0 8px}.dbl{display:grid;grid-template-columns:56px minmax(0,1fr) auto auto;gap:2px 8px;padding:5px 0;border-bottom:1px dashed var(--line);align-items:center}.dbl.od{color:#d93025}:root[data-theme=dark] .dbl.od{color:#ff8a80}.dbl button{font-size:11px;padding:1px 7px;border-radius:10px}
+  .dbcal{margin:10px 0 4px}.dbcal h3{font-size:13px;margin:10px 0 2px;color:var(--mut)}
   #spCard h2{margin:0 0 8px}.spr{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;padding:9px 8px;border-bottom:1px solid var(--line);cursor:pointer}.spr b{font-weight:600}.spr small{color:var(--mut)}
   .spbar{grid-column:1/-1;height:5px;border-radius:3px;background:var(--line);margin-top:3px}.spbar i{display:block;height:100%;border-radius:3px;background:var(--ink);opacity:.7}
   .spx{display:grid;grid-template-columns:42px minmax(0,1fr) auto;gap:2px 8px;padding:6px 8px 6px 14px;font-size:12.5px;border-bottom:1px dashed var(--line)}.spx span:nth-child(2){overflow-wrap:anywhere}.spx select{grid-column:2/4;font-size:12px;max-width:100%}
@@ -128,9 +132,11 @@
     <div><button id="gh" aria-label="GitHub token" title="Kayıt ayarı">⚙</button> <button id="theme" aria-label="Tema">🌓</button></div>
   </header>
 
-  <nav class="tabs"><button id="tabD" class="on">Dashboard</button><button id="tabS">Subscriptions</button><button id="tabP">Harcamalar</button></nav>
+  <nav class="tabs"><button id="tabD" class="on">Dashboard</button><button id="tabS">Subscriptions</button><button id="tabP">Harcamalar</button><button id="tabB">Borçlar</button></nav>
   <section class="card" id="subsCard"><h2>Subscriptions <button id="subNew" class="add" aria-label="New subscription">+</button></h2>
     <div class="sgrid" id="subSum"></div><div class="sflt" id="subFlt"></div><div id="subForm"></div><div id="subList"></div><div class="cfoot" id="subFoot"></div></section>
+  <section class="card" id="dbCard"><h2>Borçlar <small id="dbSub" style="font-weight:400;color:var(--mut)"></small></h2>
+    <div class="sgrid" id="dbSum"></div><div class="dbcal" id="dbCal"></div><div id="dbList"></div><div class="cfoot" id="dbFoot"></div></section>
   <section class="card" id="spCard"><h2>Harcamalar <small id="spSub" style="font-weight:400;color:var(--mut)"></small></h2>
     <div class="sgrid" id="spSum"></div><div class="sflt" id="spFlt"></div><div id="spList"></div><div class="spm" id="spMat"></div><div class="cfoot" id="spFoot"></div></section>
   <section class="card feed" id="feedCard"><h2><span>Bugün Yapılacaklar <span id="feedCount"></span></span> <button id="feedNew">+ Yeni</button></h2><div class="legend">Masada en çok 8 iş: 🔴 gecikmiş, 🟠 bu hafta, 📌 ya da ❗ hayati. Düşük önemli işler departmanlarda kalır. Satır rengi = <b>vade zamanlaması</b>: 🔴 gecikmiş · 🟠 bu hafta · 🟡 bu ay · ⚪ tarihsiz/belirsiz (tarih girersen renk kendiliğinden değişir)</div><div id="feed"></div><button id="feedMore" hidden>Tümünü göster</button></section>
@@ -277,6 +283,7 @@ function applyOp(d,op){
   if(op.t==="subadd"){ d.subscriptions=d.subscriptions||[]; d.subscriptions.push({uid:op.uid,...op.f}); return; }
   if(op.t==="subedit"){ const x=(d.subscriptions||[]).find(x=>x.uid===op.key); if(x)Object.assign(x,op.f); return; }
   if(op.t==="sptcat"){ const x=((d.spending||{}).tx||[]).find(x=>x.id===op.id); if(x)x.cat=op.cat; return; }
+  if(op.t==="debtpay"){ const x=(d.debts||[]).find(x=>x.id===op.id); const r=x&&x.rows.find(r=>r.d===op.d&&r.label===op.label); if(r){ if(op.v){r.paid=op.at.slice(0,10)}else{delete r.paid} } return; }
   if(op.t==="subdel"){ d.subscriptions=(d.subscriptions||[]).filter(x=>x.uid!==op.key); return; }
   if(op.t==="revdel"){ d.review=(d.review||[]).filter(r=>!(r.from===op.from&&r.subject===op.subject)); return; }
   if(op.t==="revblock"){ const m=String(op.from).match(/<([^>]+)>/); const ad=(m?m[1]:op.from).trim().toLowerCase(), dom=ad.split("@")[1]||ad; d.blocked_senders=[...new Set([...(d.blocked_senders||[]),dom])];
@@ -299,7 +306,7 @@ async function commit(op){
     const r=await fetch(API+"?t="+Date.now(),{headers:ghHead()}); if(!r.ok)throw new Error("okuma "+r.status);
     const f=await r.json(); const latest=JSON.parse(b64d(f.content)); applyOp(latest,op);
     const p=await fetch(API,{method:"PUT",headers:{...ghHead(),"Content-Type":"application/json"},
-      body:JSON.stringify({message:"Dashboard: "+(op.t==="note"?"not":op.t==="delnote"?"not silindi":op.t.startsWith("feed")?"feed":op.t.startsWith("rev")?"inceleme":op.t.endsWith("order")?"reorder":op.t==="moveitem"?"category":op.t.startsWith("sub")?"subscription":op.t.startsWith("sp")?"harcama":"aksiyon")+" "+op.at,content:b64e(JSON.stringify(latest,null,2)+"\n"),sha:f.sha})});
+      body:JSON.stringify({message:"Dashboard: "+(op.t==="note"?"not":op.t==="delnote"?"not silindi":op.t.startsWith("feed")?"feed":op.t.startsWith("rev")?"inceleme":op.t.endsWith("order")?"reorder":op.t==="moveitem"?"category":op.t.startsWith("sub")?"subscription":op.t.startsWith("sp")?"harcama":op.t.startsWith("debt")?"borc":"aksiyon")+" "+op.at,content:b64e(JSON.stringify(latest,null,2)+"\n"),sha:f.sha})});
     if(!p.ok)throw new Error("yazma "+p.status);
     toast("data.json'a kaydedildi ✓");
   }catch(e){ toast("Kaydedilemedi: "+e.message+" (token/izin?)"); }
@@ -409,7 +416,7 @@ function renderSubs(d){
   $("subList").innerHTML=rows.map(x=>window.__sedit===x.uid?`<div class="sub">${subForm(x)}</div>`:`<div class="sub ${x.status==="to cancel"?"sw":x.status==="cancelled"?"sx":""}"><div><span class="sn">${esc(x.name)}</span><small>${esc(x.category||"")} · ${esc(x.type||"")}${x.payment_method?" · "+esc(x.payment_method):""}${x.next_payment_date?" · next "+esc(subDate(x.next_payment_date)):""}${x.status!=="active"?" · <b>"+esc(x.status)+"</b>":""}</small>${x.notes?`<small>${esc(x.notes)}</small>`:""}${(x.manage_url||x.manage_hint)?`<small class="mg">${/^https:\/\//.test(x.manage_url||"")?`<a href="${esc(x.manage_url)}" target="_blank" rel="noopener noreferrer">Manage / cancel ↗</a> `:""}${x.manage_hint?esc(x.manage_hint):""}</small>`:""}</div><div class="sa">${esc(subAmt(x))}</div><div class="sbtn"><button data-sa="edit" data-key="${esc(x.uid)}" aria-label="Edit">✎</button><button data-sa="del" data-key="${esc(x.uid)}" aria-label="Delete">✕</button></div></div>`).join("")||'<span class="date">No subscriptions</span>';
   $("subFoot").textContent=(fAny?`Filtered: ${rows.length} rows, ${TL(ft)}/mo (cancelled excluded). `:"")+`${live.length} subscriptions counted${unk?` · ${unk} without an amount (counted as 0)`:""} · USD and EUR converted at the current rate (GBP approximate), yearly ÷ 12, weekly × 52/12.`;
 }
-function showTab(t){ document.body.classList.toggle("tab-subs",t==="subs"); document.body.classList.toggle("tab-sp",t==="sp"); $("tabD").classList.toggle("on",t!=="subs"&&t!=="sp"); $("tabS").classList.toggle("on",t==="subs"); $("tabP").classList.toggle("on",t==="sp"); try{history.replaceState(null,"",t==="subs"?"#subscriptions":t==="sp"?"#harcamalar":location.pathname+location.search)}catch(e){} }
+function showTab(t){ document.body.classList.toggle("tab-subs",t==="subs"); document.body.classList.toggle("tab-sp",t==="sp"); document.body.classList.toggle("tab-db",t==="db"); $("tabD").classList.toggle("on",!["subs","sp","db"].includes(t)); $("tabS").classList.toggle("on",t==="subs"); $("tabP").classList.toggle("on",t==="sp"); $("tabB").classList.toggle("on",t==="db"); try{history.replaceState(null,"",t==="subs"?"#subscriptions":t==="sp"?"#harcamalar":t==="db"?"#borclar":location.pathname+location.search)}catch(e){} }
 window.__sp={m:"",cat:""};
 const SP_MON=["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara"], SP_NET="Faiz & banka ücreti", SP_REF="İade & indirim";
 const spM=m=>SP_MON[+m.slice(5)-1]+" "+m.slice(2,4), spD=d=>d.slice(8)+"."+d.slice(5,7);
@@ -433,6 +440,26 @@ function renderSp(d){
     +`<tr class="tot"><td>Toplam</td>`+months.map(m=>`<td>${TL(sum(tx.filter(x=>x.d.slice(0,7)===m)))}</td>`).join("")+`<td>${TL(sum(tx))}</td></tr></table>`;
   const st=sp.statements||[]; $("spFoot").textContent=`Kaynak: VakıfBank *3399 ekstreleri (${st.length}): ${st.map(s=>spD(s.from)+"–"+spD(s.to)).join(", ")}. İlk ve son ay kısmi olabilir. Taksitler her ekstrede o ayın harcaması sayılır. Bir işlemin kategorisini listede açılır kutudan değiştirebilirsin. Ödemeler (kart borcu ödemesi) dahil değil.`;
 }
+window.__db={open:""};
+const dbT=()=>new Date().toISOString().slice(0,10), dbD=d=>d.slice(8)+"."+d.slice(5,7)+"."+d.slice(2,4), dbDays=d=>Math.round((new Date(d)-new Date(dbT()))/864e5);
+function dbCnt(x,t){ if(!x.brk)return 0; const y=t.slice(0,4); return x.rows.filter(r=>r.inst&&!r.paid&&r.d<t&&(x.brk.scope!=="year"||r.d.slice(0,4)===y)).length; }
+function renderDb(d){
+  const ds=d.debts; if(!ds)return; const t=dbT(), f=window.__db;
+  const od=[], soon=[]; ds.forEach(x=>x.rows.filter(r=>!r.paid).forEach(r=>{ const o={...r,debt:x.name,id:x.id}; if(r.d<t)od.push(o); else if(dbDays(r.d)<=30)soon.push(o); }));
+  const sum=a=>a.reduce((s,r)=>s+(r.amt||0),0), left=ds.reduce((s,x)=>s+(x.left||0),0);
+  $("dbSub").textContent="bugün "+dbD(t);
+  $("dbSum").innerHTML=`<div class="ct ${od.length?"red":"green"}"><b>${TL(sum(od))}</b><span>Gecikmiş (${od.length} kalem)</span></div><div class="ct yellow"><b>${TL(sum(soon))}</b><span>30 gün içinde (${soon.length})</span></div><div class="ct yellow"><b>${TL(left)}</b><span>Kalan toplam (yaklaşık)</span></div>`;
+  const up=[...od,...soon].sort((a,b)=>a.d.localeCompare(b.d)); let cur="";
+  $("dbCal").innerHTML="<b>Gecikmiş ve önümüzdeki 30 gün</b>"+(up.map(r=>{const h=r.d<t?"Gecikmiş":r.d.slice(0,7);const hh=h!==cur?(cur=h,`<h3>${h==="Gecikmiş"?"Gecikmiş":SP_MON[+h.slice(5)-1]+" "+h.slice(0,4)}</h3>`):"";return hh+`<div class="dbl ${r.d<t?"od":""}"><span>${dbD(r.d)}</span><span>${esc(r.debt.replace(/ \(.*$/,""))} · ${esc(r.label)}${r.est?" ~":""}</span><span>${r.amt?TL(r.amt):"?"}</span><span></span></div>`}).join("")||'<div class="legend">Vadeli kalem yok.</div>');
+  $("dbList").innerHTML="<h3 style=\"font-size:13px;margin:14px 0 2px;color:var(--mut)\">Borçlar</h3>"+ds.map(x=>{
+    const c=dbCnt(x,t), open=f.open===x.id, nxt=x.rows.filter(r=>!r.paid).sort((a,b)=>a.d.localeCompare(b.d)), n0=nxt[0];
+    const late=nxt.filter(r=>r.d<t).length, pill=late?`<span class="pill red">${late} gecikmiş</span>`:`<span class="pill green">Güncel</span>`;
+    const brk=x.brk?` · sayaç ${c}/${x.brk.n}${c>=x.brk.n-1?" ⚠":""}`:"";
+    let h=`<div class="dbr" data-dbo="${esc(x.id)}"><div class="h"><b>${esc(x.name)}</b><b>${TL(x.left||0)}${x.left_est?" ~":""}</b></div><small>${esc(x.kind||"")} · ${pill}${brk}${n0?` · sıradaki ${dbD(n0.d)} ${n0.amt?TL(n0.amt):"?"}`:""}</small></div>`;
+    if(open) h+=`<div class="dbx">${x.brk?`<div class="n">${esc(x.brk.txt)}</div>`:""}${x.note?`<div class="n">${esc(x.note)}</div>`:""}`+nxt.slice(0,8).map(r=>`<div class="dbl ${r.d<t?"od":""}"><span>${dbD(r.d)}</span><span>${esc(r.label)}${r.est?" ~":""}</span><span>${r.amt?TL(r.amt):"?"}</span><button data-dbp="${esc(x.id)}" data-d="${r.d}" data-l="${esc(r.label)}">ödendi</button></div>`).join("")+(nxt.length>8?`<div class="n">… ve ${nxt.length-8} satır daha (son: ${dbD(nxt[nxt.length-1].d)})</div>`:"")+`</div>`;
+    return h; }).join("");
+  $("dbFoot").textContent="Tutarlar belgelerden/ekranlardan alındı; ~ işaretliler tahmindir. 'ödendi' butonu satırı listeden düşürür ve kalan sayacı günceller. Kalan toplam, kalemlerin ödenmemiş kısmıdır.";
+}
 document.addEventListener("DOMContentLoaded",()=>{});
 function render(){
   const d=D;
@@ -454,7 +481,7 @@ function render(){
         ${done.length?`<div class="sub2">Tamamlananlar (${done.length})</div><ul>${done.map(li).join("")}</ul>`:""}
       </div></details>`;}).join("");
 
-  renderCash(d); renderSubs(d); renderSp(d);
+  renderCash(d); renderSubs(d); renderSp(d); renderDb(d);
   const rv=d.review||[];$("reviewCard").hidden=!rv.length;
   const rvAge=r=>{const t=Date.parse(r.date);return isNaN(t)?0:(Date.now()-t)/864e5};
   const rvShow=rv.filter(r=>rvAge(r)<=7); $("reviewCard").hidden=!rvShow.length;
@@ -519,7 +546,8 @@ $("feed").addEventListener("submit",e=>{const f=e.target.closest("form.fe"); if(
   if(key==="__new") commit({t:"feedadd",dep:v.dep,f:v}); else commit({t:"feededit",key,f:v}); });
 $("review").addEventListener("click",e=>{const b=e.target.closest("[data-rv]"); if(!b)return; const r=(window.__rvShow||[])[+b.dataset.i]; if(!r)return;
   if(b.dataset.rv==="block"){ if(!confirm("Bu göndericinin alanından gelen tüm mailler sessizce yok sayılsın mı?")) return; commit({t:"revblock",from:r.from}); } else commit({t:"revdel",from:r.from,subject:r.subject}); });
-$("tabD").onclick=()=>showTab("d"); $("tabS").onclick=()=>showTab("subs"); $("tabP").onclick=()=>showTab("sp"); if(location.hash==="#harcamalar")showTab("sp");
+$("tabD").onclick=()=>showTab("d"); $("tabS").onclick=()=>showTab("subs"); $("tabP").onclick=()=>showTab("sp"); $("tabB").onclick=()=>showTab("db"); if(location.hash==="#borclar")showTab("db");
+$("dbCard").addEventListener("click",e=>{ const p=e.target.closest("[data-dbp]"); if(p){ commit({t:"debtpay",id:p.dataset.dbp,d:p.dataset.d,label:p.dataset.l,v:true}); return; } const r=e.target.closest("[data-dbo]"); if(r){ window.__db.open=window.__db.open===r.dataset.dbo?"":r.dataset.dbo; renderDb(D); } }); if(location.hash==="#harcamalar")showTab("sp");
 $("spCard").addEventListener("click",e=>{ if(e.target.closest("select"))return; const c=e.target.closest("[data-spcat]"); if(c){window.__sp={m:c.dataset.spm,cat:c.dataset.spcat};renderSp(D);return;}
   const m=e.target.closest("[data-spm]"); if(m){window.__sp={m:m.dataset.spm,cat:""};renderSp(D);return;}
   const r=e.target.closest("[data-spc]"); if(r){window.__sp.cat=window.__sp.cat===r.dataset.spc?"":r.dataset.spc;renderSp(D);} });
