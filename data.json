@@ -727,6 +727,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "VakıfBank bildirimi (18 Ekim): 21.09.2026 tarihinde SGK tahsilatı ₺58.280,34 ödenmiş. Hangi SGK kalemine (r4 / r33 / r35) denk geldiği teyit edilmeli. (kaynak: E-posta (18 Eki 18:52): VakıfBank · Bilgilendirme: 21.09.2026 Tarihli SGK Ödemes)",
+          "at": "2026-10-18 18:52"
+        },
+        {
           "text": "VakıfBank'a 18 Eki 11:19'da FAST ile 18.000 TL giriş (Garanti'den gönderim, sorgu no 2004000082). Güncel VakıfBank bakiyesi 20.500 TL. Bu tutar r3 VakıfBank asgari ödemesini (₺154.544) karşılamıyor. (kaynak: E-posta (18 Eki 11:20): VakıfBank · VAKIFBANK - FAST Anlık Ödeme Bilgilendirmesi)",
           "at": "2026-10-18 11:20"
         },
@@ -1615,7 +1619,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 22:30",
+  "updated": "2026-10-18 18:52",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1669,7 +1673,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EwQjc2QThCN0U4RTg2MDExQzkA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FEREFGOEQ1QzZBMzkyRkMxNzAA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMENFRjk2NDdBNjQ4NzNEMTMyOQA=",
-    "1a14e18bf1229ab8"
+    "1a14e18bf1229ab8",
+    "1a14fb69e4c5b1f8"
   ],
   "feed_order": [
     "qt5dom",
