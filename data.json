@@ -304,11 +304,11 @@
         },
         {
           "uid": "f2dpoa",
-          "text": "SGK CARİ AY primleri (Yeniben): Temmuz (vade 31 Ağu), Ağustos (30 Eyl) ve Eylül (≈30 Eki) SGK primleri ödendi mi? Taksitler düzenli olsa bile bir takvim yılında 4 cari ayın primi ödenmezse tecil BOZULUR (SGK Genelge 2024/12 §17.8.2.2, 2026/7 ile 3→4); ödenmeyen cari ay izleyen yıl sonuna kadar kapanmazsa da 1 Ocak'ta bozulur. CPA Türk'ün aylık tahakkuk mailleri (28 Eyl: Ağustos dönemi, SGK vadesi 30 Eyl) ile ödeme dekontlarını karşılaştır.",
+          "text": "SGK CARİ AY primleri (Yeniben): Temmuz 2026 primi ÖDENDİ (31.08.2026, ₺79.878,19, Garanti dekontu 'SGK PRİM TAHSİLATI 4101-4A'). AĞUSTOS 2026 primi (vade 30 Eyl) SGK kayıtlarında ÖDENMEMİŞ görünüyor: prim ₺71.419,80 (+GZ ₺3.426,99, işsizlik ₺6.055,83), bilgisayarda ve Gmail'de dekont yok. Garanti ekstresinde 28–30 Eyl SGK ödemesi var mı bak; yoksa öde (cari ay sayacı şimdi 1). Eylül primi vadesi ≈30 Eki. Bir takvim yılında 4 cari ayın primi ödenmezse tecil bozulur (SGK Genelge 2024/12 §17.8.2.2, 2026/7).",
           "action_type": "Ödeme",
           "category": "Borç/Yapılandırma",
           "party": "SGK (şirket)",
-          "amount": "",
+          "amount": "₺71.419,80 (Ağustos prim)",
           "due": "Bu hafta",
           "due_date": "2026-10-21",
           "urgency": "orange",
@@ -316,16 +316,11 @@
           "imp": "high",
           "source": "manual",
           "src_detail": {
-            "channel": "email",
-            "from": "Yasemin Hızarcı (CPA Türk)",
-            "date": "2026-09-28",
-            "subject": "2026 AĞUSTOS DÖNEMİ VERGİ VE SGK ÖDEMELERİ",
-            "to": [
-              "ahmet@andnewme.com",
-              "ahmet@yeniben.com"
-            ],
-            "thread": "1a0e7d1beadcbdf6",
-            "note": "Ağustos dönemi tahakkuk (muhtasar+KDV 28 Eyl, SGK 30 Eyl); ödendiğine dair dekont izi yok"
+            "channel": "manual",
+            "from": "e-SGK İşveren Borç Sorgu (18.10.2026) + Garanti dekontu 31.08.2026",
+            "date": "2026-10-18",
+            "note": "Temmuz ödendi (dekont); Ağustos satırı 'Dönem Borçları'nda açık. CPA tahakkuk: 28 Eyl 'Ağustos dönemi vergi ve SGK ödemeleri'",
+            "thread": "1a0e7d1beadcbdf6"
           }
         },
         {
@@ -1366,7 +1361,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 18:20",
+  "updated": "2026-10-18 19:30",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
