@@ -970,7 +970,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 07:20",
+  "updated": "2026-10-18 07:40",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1699,7 +1699,7 @@
     },
     {
       "uid": "x9wfe1",
-      "name": "Vodafone line (fill in)",
+      "name": "Vodafone mobile modem line · 0542 5xx xx 14",
       "category": "Telecom",
       "amount": "",
       "currency": "TRY",
@@ -1707,8 +1707,8 @@
       "payment_method": "",
       "next_payment_date": "",
       "type": "business",
-      "status": "active",
-      "notes": "PLACEHOLDER: no Vodafone line or invoice found in emails (only a Vodafone employee's personal mails). Add details or delete."
+      "status": "to cancel",
+      "notes": "Bought for a mobile modem, NOT used (Ahmet). No Vodafone invoice, tariff, commitment or cancellation email found in Gmail (only Vodafone Business marketing mails to ahmet@yeniben.com, 2023–24), so the amount and terms are unknown. Next step: check the Vodafone app/customer service for tariff and commitment end date, and search bank statements (auto-pay or card) for 'Vodafone' to find the monthly charge. Then cancel or switch it to a cheaper tariff."
     },
     {
       "uid": "1xaqqw",
