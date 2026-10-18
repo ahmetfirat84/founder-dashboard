@@ -1826,21 +1826,6 @@
       "manage_hint": "Web only (not app): Hesabım → Premium → Premium'u Yönet → Üyelik İptali → decline discount → complete. Customer service may call; the cancellation goes through anyway."
     },
     {
-      "uid": "h23iie",
-      "name": "YouTube channel membership",
-      "category": "Entertainment",
-      "amount": 1000,
-      "currency": "TRY",
-      "period": "monthly",
-      "payment_method": "VakıfBank card ••3399",
-      "next_payment_date": "",
-      "type": "personal",
-      "status": "active",
-      "notes": "Channel membership (merchant 'Google YouTube Member'). ₺1,000 charge was declined for insufficient limit and retried on Sep 24, 25 and 29. Which channel is not in the emails, add it here. Billing period assumed monthly.",
-      "manage_url": "https://www.youtube.com/paid_memberships",
-      "manage_hint": "YouTube → profile → Purchases and memberships → Memberships → Manage / Cancel."
-    },
-    {
       "uid": "b2xvth",
       "name": "Kanyon residence dues (aidat)",
       "category": "Home",
