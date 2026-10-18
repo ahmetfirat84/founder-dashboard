@@ -64,6 +64,8 @@
   .og a{font-weight:600;color:#027eff;text-decoration:none}.og b{font-weight:600}
   .catrow{display:none;margin-top:6px;font-size:12px;color:var(--mut)}.catrow select{font:inherit;font-size:12.5px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:2px 8px;margin-left:4px}
   .det li.cx.open .catrow,.feed .fr.cx.open .catrow{display:block}
+  .drawer{margin:6px 0 10px;border:1px solid var(--line);border-radius:10px;padding:2px 10px}.drawer>summary{cursor:pointer;font-weight:600;padding:8px 0}.drawer summary small{color:var(--mut);font-weight:400}
+  .dri{padding:5px 0;border-bottom:1px solid var(--line);overflow-wrap:anywhere}.dri:last-child{border:0}.dri a{font-weight:600;color:#027eff;text-decoration:none}.dri small{display:block;color:var(--mut)}.dri.old a,.dri.old .drm{opacity:.6}.dri .drm{font-weight:600;color:var(--red,#d93025)}
   .add{margin-left:6px;padding:0 9px;font-size:16px;line-height:24px;border-radius:12px}
   .det li{display:flex;gap:8px;align-items:flex-start}
   .det li input{margin-top:4px;flex:none}
@@ -224,6 +226,8 @@ const srcHtml=o=>{ const sd=o.src_detail; if(!sd) return esc(srcTag(o));
   const url=sd.url||(sd.thread?gmailUrl(sd.thread):"");
   return "<b>Kaynak:</b> "+ch+(sd.from?" · "+esc(sd.from):"")+(sd.date?" · "+esc(fmtDate(sd.date)+(sd.date.slice(0,4)!==todayStr().slice(0,4)?" "+sd.date.slice(0,4):"")):"")+(sd.subject?" · “"+esc(sd.subject)+"”":"")+to+cc+(sd.note?" · "+esc(sd.note):"")+(url?` · <a href="${esc(url)}" target="_blank" rel="noopener noreferrer">Maili aç ↗</a>`:"")+((sd.more||[]).length?" · <b>İlgili:</b> "+sd.more.map(m=>`<a href="${esc(gmailUrl(m.thread))}" target="_blank" rel="noopener noreferrer">${esc(m.label)} ↗</a>`).join(" · "):""); };
 const catSel=(d,dk,t)=>`<span class="catrow"><label>🏷 Category <select class="catsel" data-dk="${esc(dk)}" data-t="${esc(t)}">${d.departments.map(x=>`<option value="${esc(x.key)}" ${x.key===dk?"selected":""}>${esc(x.area)}</option>`).join("")}</select></label></span>`;
+const drawerHtml=x=>{ const dr=x.drawer||[]; if(!dr.length) return ""; const groups=[...new Set(dr.map(i=>i.g))];
+  return `<details class="drawer"><summary>🗂 Çekmece <small>(${dr.length} evrak)</small></summary>`+groups.map(g=>`<div class="sub2">${esc(g)}</div>`+dr.filter(i=>i.g===g).map(i=>`<div class="dri${i.cur===false?" old":""}">${/^https:\/\//.test(i.u||"")?`<a href="${esc(i.u)}" target="_blank" rel="noopener noreferrer">${esc(i.t)} ↗</a>`:`<span class="drm">${esc(i.t)}</span>`}${i.n?`<small>${esc(i.n)}</small>`:""}</div>`).join("")).join("")+`</details>`; };
 const shortParts=r=>[r.a,r.p,r.am,r.du].filter(Boolean).map(esc).join(' <span class="sep">·</span> ');
 window.__op=window.__op||new Set();
 const lineParts=r=>[r.a,r.c,r.p,r.am,r.du,r.pl?"▶ "+fmtDate(r.pl):""].filter(Boolean).map(esc).join(' <span class="sep">·</span> ');
@@ -412,7 +416,7 @@ function render(){
         <div style="flex:1;min-width:0"><span class="nm">${esc(x.area)}</span><span class="ar">${esc(x.name)} <span class="pill ${h}">${HL[h]}</span></span>
           <div class="sm">${esc(x.summary)}</div><div class="ts">Son güncelleme: ${esc(ts(x.updated))}</div></div>
         <span class="cnt">${open.length}</span><button class="add" data-add="${esc(x.key)}" aria-label="Not ekle" title="Not ekle">+</button><span class="chev">›</span></summary>
-      <div class="det"><ul>${open.map(li).join("")||'<li><span class="tx">Açık aksiyon yok</span></li>'}</ul>
+      <div class="det">${drawerHtml(x)}<ul>${open.map(li).join("")||'<li><span class="tx">Açık aksiyon yok</span></li>'}</ul>
         ${notes.length?`<div class="sub2">Son notlar</div><ul class="notes">${notes.map(n=>`<li><button class="nd" data-del="${esc(x.key)}" data-nat="${esc(n.at)}" data-nt="${esc(n.text)}" aria-label="Notu sil" title="Notu sil">✕</button>${esc(n.text)} <small>· ${esc(ts(n.at))}</small></li>`).join("")}</ul>`:""}
         <form class="nf" data-k="${esc(x.key)}"><input placeholder="Not ekle…" maxlength="300" aria-label="Not"><button>Kaydet</button></form>
         ${done.length?`<div class="sub2">Tamamlananlar (${done.length})</div><ul>${done.map(li).join("")}</ul>`:""}
