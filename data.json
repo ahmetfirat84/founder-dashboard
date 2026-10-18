@@ -1476,7 +1476,13 @@
           "uid": "cb7094"
         }
       ],
-      "summary": "Meta Ads 7 gündür kapalı"
+      "summary": "Meta Ads 7 gündür kapalı",
+      "notes": [
+        {
+          "text": "Meta reklam makbuzu (18 Eki): 26 Ağu–13 Eyl dönemi, toplam €1.268,44, manuel ödeme yapılmış. Kampanyalar: GS | LEADS | UK €102,69; GS | LEADS | AU-NZ | Core €1.163,72. Faturalar artık Meta Platforms Ireland Limited adına kesiliyor. (kaynak: E-posta (19 Eki 00:15): Meta for Business · Meta reklamlar makbuzunuz (Hesap Num)",
+          "at": "2026-10-19 00:15"
+        }
+      ]
     },
     {
       "key": "ecem",
@@ -1691,7 +1697,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 20:01",
+  "updated": "2026-10-19 00:15",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1752,7 +1758,8 @@
     "1a14fb95b55d8a48",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1NjVDREU3OERERjdBNzBFNTgA",
     "1a14fba5ead88963",
-    "1a14ff59be436502"
+    "1a14ff59be436502",
+    "1a150de2ea177123"
   ],
   "feed_order": [
     "qt5dom",
