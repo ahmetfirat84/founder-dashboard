@@ -961,7 +961,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 02:10",
+  "updated": "2026-10-18 03:00",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -969,13 +969,6 @@
       "date": "2026-10-16",
       "thread": "",
       "note": "Takvim daveti, hangi departman belli değil"
-    },
-    {
-      "subject": "Surgery Accreditation (n=2)",
-      "from": "grace@growthstation.pro",
-      "date": "2026-09-30",
-      "thread": "",
-      "note": "Akreditasyon teklifi, yanıt durumu belli değil"
     }
   ],
   "asistan_seen": [
@@ -1365,5 +1358,8 @@
       "source": "manual",
       "origin": "HubSpot (Nate Gastric Sleeve deal) + Ahmet 17 Eki"
     }
+  ],
+  "blocked_senders": [
+    "growthstation.pro"
   ]
 }

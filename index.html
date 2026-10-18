@@ -232,6 +232,9 @@ function applyFeedOp(d,op){
 function applyOp(d,op){
   if(op.t.startsWith("feed")) return applyFeedOp(d,op);
   if(op.t==="kasa"){ d.kasa={amount_try:op.v,rezerve_try:op.rez||0,at:op.at}; return; }
+  if(op.t==="revdel"){ d.review=(d.review||[]).filter(r=>!(r.from===op.from&&r.subject===op.subject)); return; }
+  if(op.t==="revblock"){ const m=String(op.from).match(/<([^>]+)>/); const ad=(m?m[1]:op.from).trim().toLowerCase(), dom=ad.split("@")[1]||ad; d.blocked_senders=[...new Set([...(d.blocked_senders||[]),dom])];
+    d.review=(d.review||[]).filter(r=>{const m2=String(r.from).match(/<([^>]+)>/); const a2=(m2?m2[1]:r.from).trim().toLowerCase(); return (a2.split("@")[1]||a2)!==dom}); return; }
   if(op.t==="fcdel"){ d.cash_forecast=(d.cash_forecast||[]).filter(e=>e.uid!==op.uid); return; }
   if(op.t==="fcdone"){ const e=(d.cash_forecast||[]).find(e=>e.uid===op.uid); if(e){e.done=true;e.doneAt=op.at;} return; }
   const dep=d.departments.find(x=>x.key===op.k); if(!dep)return;
@@ -250,7 +253,7 @@ async function commit(op){
     const r=await fetch(API+"?t="+Date.now(),{headers:ghHead()}); if(!r.ok)throw new Error("okuma "+r.status);
     const f=await r.json(); const latest=JSON.parse(b64d(f.content)); applyOp(latest,op);
     const p=await fetch(API,{method:"PUT",headers:{...ghHead(),"Content-Type":"application/json"},
-      body:JSON.stringify({message:"Dashboard: "+(op.t==="note"?"not":op.t==="delnote"?"not silindi":op.t.startsWith("feed")?"feed":"aksiyon")+" "+op.at,content:b64e(JSON.stringify(latest,null,2)+"\n"),sha:f.sha})});
+      body:JSON.stringify({message:"Dashboard: "+(op.t==="note"?"not":op.t==="delnote"?"not silindi":op.t.startsWith("feed")?"feed":op.t.startsWith("rev")?"inceleme":"aksiyon")+" "+op.at,content:b64e(JSON.stringify(latest,null,2)+"\n"),sha:f.sha})});
     if(!p.ok)throw new Error("yazma "+p.status);
     toast("data.json'a kaydedildi ✓");
   }catch(e){ toast("Kaydedilemedi: "+e.message+" (token/izin?)"); }
@@ -351,7 +354,10 @@ function render(){
 
   renderCash(d);
   const rv=d.review||[];$("reviewCard").hidden=!rv.length;
-  $("review").innerHTML=rv.map(r=>`<div class="alert"><span>❔</span><div><strong>${esc(r.subject)}</strong><small>${esc(r.from)}${r.note?" · "+esc(r.note):""}</small></div><div></div></div>`).join("");
+  const rvAge=r=>{const t=Date.parse(r.date);return isNaN(t)?0:(Date.now()-t)/864e5};
+  const rvShow=rv.filter(r=>rvAge(r)<=7); $("reviewCard").hidden=!rvShow.length;
+  $("review").innerHTML=rvShow.map((r,i)=>`<div class="alert"><span>❔</span><div><strong>${esc(r.subject)}</strong><small>${esc(r.from)}${r.note?" · "+esc(r.note):""}</small><span class="fa" style="display:flex"><button data-rv="del" data-i="${i}" title="Yok say">✕ Yok say</button><button data-rv="block" data-i="${i}" title="Bu gönderenin alanını engelle">🚫 Engelle</button></span></div><div></div></div>`).join("")+'<small class="date">7 günden eski maddeler kendiliğinden düşer.</small>';
+  window.__rvShow=rvShow;
   $("meet").innerHTML=d.meetings.length?d.meetings.map(m=>`<div class="meet"><b>${esc(m.time)}</b><div>${esc(m.title)}${m.note?`<small>${esc(m.note)}</small>`:""}</div></div>`).join(""):'<span class="date">Bugün toplantı yok</span>';
   // ACİL FEED: [durum] ActionType · Category · Party · Amount · Deadline  (▲▼ taşı, ✎ düzenle, ✕ sil, + Yeni)
   const allRows=buildFeed(d);
@@ -393,6 +399,8 @@ $("feed").addEventListener("click",e=>{ if(toggleCx(e))return; const b=e.target.
 $("feed").addEventListener("submit",e=>{const f=e.target.closest("form.fe"); if(!f)return; e.preventDefault();
   const v=Object.fromEntries(new FormData(f)); const key=f.dataset.key; window.__edit=null;
   if(key==="__new") commit({t:"feedadd",dep:v.dep,f:v}); else commit({t:"feededit",key,f:v}); });
+$("review").addEventListener("click",e=>{const b=e.target.closest("[data-rv]"); if(!b)return; const r=(window.__rvShow||[])[+b.dataset.i]; if(!r)return;
+  if(b.dataset.rv==="block"){ if(!confirm("Bu göndericinin alanından gelen tüm mailler sessizce yok sayılsın mı?")) return; commit({t:"revblock",from:r.from}); } else commit({t:"revdel",from:r.from,subject:r.subject}); });
 $("feedMore").onclick=()=>{ if(window.__all){window.__all=false;render();return;} $("depts").scrollIntoView({behavior:"smooth",block:"start"}); };
 $("feed").addEventListener("change",e=>{const c=e.target.closest("input[type=checkbox][data-k]");if(c)commit({t:"done",k:c.dataset.k,text:c.dataset.t,v:c.checked})});
 // olaylar (delegation)
