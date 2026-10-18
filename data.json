@@ -303,6 +303,32 @@
           }
         },
         {
+          "uid": "f2dpoa",
+          "text": "SGK CARİ AY primleri (Yeniben): Temmuz (vade 31 Ağu), Ağustos (30 Eyl) ve Eylül (≈30 Eki) SGK primleri ödendi mi? Taksitler düzenli olsa bile bir takvim yılında 4 cari ayın primi ödenmezse tecil BOZULUR (SGK Genelge 2024/12 §17.8.2.2, 2026/7 ile 3→4); ödenmeyen cari ay izleyen yıl sonuna kadar kapanmazsa da 1 Ocak'ta bozulur. CPA Türk'ün aylık tahakkuk mailleri (28 Eyl: Ağustos dönemi, SGK vadesi 30 Eyl) ile ödeme dekontlarını karşılaştır.",
+          "action_type": "Ödeme",
+          "category": "Borç/Yapılandırma",
+          "party": "SGK (şirket)",
+          "amount": "",
+          "due": "Bu hafta",
+          "due_date": "2026-10-21",
+          "urgency": "orange",
+          "pin": true,
+          "imp": "high",
+          "source": "manual",
+          "src_detail": {
+            "channel": "email",
+            "from": "Yasemin Hızarcı (CPA Türk)",
+            "date": "2026-09-28",
+            "subject": "2026 AĞUSTOS DÖNEMİ VERGİ VE SGK ÖDEMELERİ",
+            "to": [
+              "ahmet@andnewme.com",
+              "ahmet@yeniben.com"
+            ],
+            "thread": "1a0e7d1beadcbdf6",
+            "note": "Ağustos dönemi tahakkuk (muhtasar+KDV 28 Eyl, SGK 30 Eyl); ödendiğine dair dekont izi yok"
+          }
+        },
+        {
           "uid": "nq4r9c",
           "text": "Bağkur 4/B (şahsi) 72 taksit: peşinat hariç hiç taksit ödenmedi. Vadesi geçen: taksit 2 (31 Ağu) ₺4.567,88 + taksit 3 (30 Eyl) ₺4.675,26 = 2 taksit gecikmede. 31 Eki taksiti ₺4.786,29 (31 Eki Cumartesi, Pzt 2 Kas mesai bitimine kadar ödenebilir). 4. ödenmeyen taksitte (30 Kas, ₺4.893,73) yapılandırma BOZULUR (ertesi gün, 1 Ara). Gecikenler tecil faiziyle birlikte son taksit tarihine (30.06.2032) kadar ödenirse bozulmaz, ama en güvenlisi 2 gecikmiş + Ekim taksitini 2 Kas'a kadar ödemek. Cari ay Bağ-Kur primleri de ayrıca ödenmeli.",
           "action_type": "Ödeme",
@@ -1340,7 +1366,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 17:45",
+  "updated": "2026-10-18 18:20",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
