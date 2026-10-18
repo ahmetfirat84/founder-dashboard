@@ -287,7 +287,7 @@
           "action_type": "Ödeme",
           "category": "Borç/Yapılandırma",
           "party": "SGK (şirket)",
-          "amount": "₺61.298,37 / taksit",
+          "amount": "₺3.018 (kalan; ₺58.280 ödendi)",
           "due": "Pzt 19 Eki",
           "due_date": "2026-10-19",
           "plan_date": "2026-10-19",
@@ -300,7 +300,16 @@
             "from": "VakıfBank kart ekstresi (••3399)",
             "date": "2026-08-19",
             "note": "'SGK Ödem' ₺65.000 + ₺1.846 işlem bedeli, Ahmet teyit etti; kural SGK Genelge 2024/12 §17.8.1 (2026/7: 4 taksit) | 18.10.2026 banka 'Borç Seçimi' ekran görüntüleri: taksit 2–5 listesi (Ahmet attı)."
-          }
+          },
+          "amount_try": 3018.030000000006,
+          "proof": {
+            "type": "banka dekontu",
+            "date": "2026-10-18",
+            "amount_try": 58280.34,
+            "channel": "WhatsApp (18 Eki 18:53, belge)",
+            "partial": true
+          },
+          "note": "KISMİ ÖDEME 2026-10-18: ₺58.280 ödendi, kalan ₺3.018."
         },
         {
           "uid": "f2dpoa",
@@ -1619,7 +1628,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 18:52",
+  "updated": "2026-10-18 18:53",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1674,7 +1683,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FEREFGOEQ1QzZBMzkyRkMxNzAA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMENFRjk2NDdBNjQ4NzNEMTMyOQA=",
     "1a14e18bf1229ab8",
-    "1a14fb69e4c5b1f8"
+    "1a14fb69e4c5b1f8",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEEyNzc4NjY0QzQwMjZDNjUzNjUA"
   ],
   "feed_order": [
     "qt5dom",
