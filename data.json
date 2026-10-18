@@ -283,11 +283,11 @@
       "items": [
         {
           "uid": "s9mc5u",
-          "text": "SGK şirket tecil (Yeniben A.Ş.): ilk taksit 19.08.2026'da ödendi (VakıfBank kartından SGK'ya ₺65.000, teyit et), ödeme planı belgesi henüz alınmadı. 19.09 taksiti ÖDENMEDİ (1 taksit gecikmede), 19.10 taksiti yarın (Pzt). 4 taksit ödenmezse tecil bozulur: 19.09, 19.10, 19.11 ve 19.12 (Cumartesi → Pzt 21 Ara) ödenmezse 22 Ara'da bozulur. En güvenlisi 19.09 + 19.10'u (≈₺130.000) birlikte ödemek. Ödeme planını Beşiktaş/Şişli SGM'den veya e-SGK'dan al ve taksit tutarını kesinleştir.",
+          "text": "SGK şirket tecil (Yeniben A.Ş.): ilk taksit 19.08.2026'da ₺65.000 ödendi (VakıfBank kart ekstresi: 'SGK Ödem' ₺65.000 + ₺1.846 işlem bedeli). Ödeme planı belgesi henüz alınmadı; taksit ≈ ₺65.000/ay (19'u). 19.09 taksiti ÖDENMEDİ (1 taksit gecikmede), 19.10 yarın (Pzt). 4 taksit ödenmezse tecil bozulur: 19.09, 19.10, 19.11 ve 19.12 (Cumartesi → Pzt 21 Ara) ödenmezse 22 Ara'da bozulur. En güvenlisi 19.09 + 19.10'u (≈₺130.000) birlikte ödemek. Kartla ödemede %2,84 işlem bedeli çıkıyor (₺1.846): havale/EFT ile ödersen yok. Ödeme planını SGM'den/e-SGK'dan al.",
           "action_type": "Ödeme",
           "category": "Borç/Yapılandırma",
           "party": "SGK (şirket)",
-          "amount": "~₺65.000 / taksit (tahmini)",
+          "amount": "₺65.000 / taksit",
           "due": "Pzt 19 Eki",
           "due_date": "2026-10-19",
           "plan_date": "2026-10-19",
@@ -296,10 +296,10 @@
           "imp": "high",
           "source": "manual",
           "src_detail": {
-            "channel": "manual",
-            "from": "Ahmet Fırat",
-            "date": "2026-10-18",
-            "note": "Ahmet WhatsApp/sohbet: ilk taksit 19.08'de ödendi, 19.09 ödenmedi. Tutar VakıfBank 19.08.2026 'SGK Mosip' ₺65.000 bildiriminden (1a019990ce0ecbf2). Kural: SGK Genelge 2024/12 §17.8.1, 2026/7 ile 3→4 taksit"
+            "channel": "bank",
+            "from": "VakıfBank kart ekstresi (••3399)",
+            "date": "2026-08-19",
+            "note": "'SGK Ödem' ₺65.000 + ₺1.846 işlem bedeli, Ahmet teyit etti; kural SGK Genelge 2024/12 §17.8.1 (2026/7: 4 taksit)"
           }
         },
         {
@@ -1340,7 +1340,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 17:30",
+  "updated": "2026-10-18 17:45",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
