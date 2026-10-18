@@ -61,6 +61,7 @@
   .det li.cx:not(.open) .tx{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;flex:1}.det li.cx .l1d{display:inline}.det li.cx.open .l1d{display:block}
   .dh{color:var(--mut);font-size:17px;line-height:1;padding:4px 2px 4px 8px;cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none;align-self:center;letter-spacing:-3px}
   .feed .fr.cx{grid-template-columns:auto minmax(0,1fr) auto auto}.cx.dragging{opacity:.9;background:var(--card);box-shadow:0 6px 22px #0003;position:relative;z-index:5;border-radius:10px}
+  .og a{font-weight:600;color:#027eff;text-decoration:none}.og b{font-weight:600}
   .add{margin-left:6px;padding:0 9px;font-size:16px;line-height:24px;border-radius:12px}
   .det li{display:flex;gap:8px;align-items:flex-start}
   .det li input{margin-top:4px;flex:none}
@@ -105,7 +106,7 @@
   .sub .sn{font-weight:600;font-size:14.5px}.sub .sa{font-weight:600;text-align:right;white-space:nowrap}.sub small{color:var(--mut);display:block;overflow-wrap:anywhere}
   .sub .sbtn{grid-column:1/-1;display:flex;gap:6px;margin-top:4px}.sub .sbtn button{font-size:12px;padding:0 9px;line-height:24px}
   .sf{display:grid;gap:6px;grid-template-columns:1fr 1fr;margin:8px 0}.sf input,.sf select,.sf textarea{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:6px 8px;min-width:0;width:100%;box-sizing:border-box}.sf .wide{grid-column:1/-1}
-  .sub .mg a{font-weight:600;color:#027eff;text-decoration:none}.sub .mg{color:var(--mut)}
+  .og a,.sub .mg a{font-weight:600;color:#027eff;text-decoration:none}.sub .mg{color:var(--mut)}
   #toast{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:20px;font-size:13px;opacity:0;pointer-events:none;transition:opacity .2s;max-width:90vw}
   #toast.on{opacity:.95}
 </style>
@@ -192,9 +193,9 @@ function deptHealth(x){ let h="green";
   return h; }
 function buildFeed(d){
   const rows=[];
-  d.cash_alerts.filter(a=>!a.done).forEach(a=>rows.push({kind:"cash",k:fkey(a,"cash"),st:urgencyOf(a),a:a.action_type||"Ödeme",c:a.category,p:a.party||a.title,am:a.amount,du:a.due||fmtDate(a.due_date),dd:a.due_date,tx:a.note,src:"Nakit",pin:!!a.pin,imp:a.imp||"",pl:a.plan_date||"",og:srcTag(a)}));
+  d.cash_alerts.filter(a=>!a.done).forEach(a=>rows.push({kind:"cash",k:fkey(a,"cash"),st:urgencyOf(a),a:a.action_type||"Ödeme",c:a.category,p:a.party||a.title,am:a.amount,du:a.due||fmtDate(a.due_date),dd:a.due_date,tx:a.note,src:"Nakit",pin:!!a.pin,imp:a.imp||"",pl:a.plan_date||"",og:srcTag(a),ogh:srcHtml(a)}));
   d.departments.forEach(x=>x.items.forEach(i0=>{const i=norm(i0); if(i.done||i.feed===false)return;
-    rows.push({kind:"item",dk:x.key,k:fkey(i,"item",x.key),st:urgencyOf(i),a:i.action_type||"Yanıt",c:i.category,p:i.party,am:i.amount,du:i.due||fmtDate(i.due_date),dd:i.due_date,tx:i.text,nt:i.note,src:x.area,t:i.text,pin:!!i.pin,imp:i.imp||"",pl:i.plan_date||"",og:srcTag(i)})}));
+    rows.push({kind:"item",dk:x.key,k:fkey(i,"item",x.key),st:urgencyOf(i),a:i.action_type||"Yanıt",c:i.category,p:i.party,am:i.amount,du:i.due||fmtDate(i.due_date),dd:i.due_date,tx:i.text,nt:i.note,src:x.area,t:i.text,pin:!!i.pin,imp:i.imp||"",pl:i.plan_date||"",og:srcTag(i),ogh:srcHtml(i)})}));
   const urgent=rows.sort((p,q)=>ORD[p.st]-ORD[q.st]);
   const ord=d.feed_order||[];   // elle sıra: sırada olmayan yeni satırlardan gecikmiş/bu hafta olanlar en üste, diğerleri en alta gelir
   const pos=r=>{const i=ord.indexOf(r.k); return i>=0?i:((r.st==="red"||r.st==="orange")?-1:1e6);};
@@ -214,6 +215,12 @@ function deskRows(d){ const all=buildFeed(d).filter(onDesk);
 // dept listesi ve feed AYNI satır biçimi: Aksiyon tipi · Kategori · Taraf · Tutar · Vade
 const srcTag=o=>{ const sc=o.source||o.src_; if(o.origin) return (String(o.origin).startsWith("WhatsApp")?"💬 ":"📧 ")+o.origin;
   return sc==="email"?"📧 e-posta taraması":sc==="gecmis-tarama"?"🕘 geçmiş tarama":sc==="asistan"?"📧 asistan":sc==="whatsapp"?"💬 WhatsApp":sc==="mail"||sc==="mail-gelen"?"📧 e-posta":""; };
+const gmailUrl=h=>{ try{ return "https://mail.google.com/mail/?authuser=ahmet@andnewme.com#all/thread-f:"+BigInt("0x"+h).toString(); }catch(e){ return ""; } };
+const srcHtml=o=>{ const sd=o.src_detail; if(!sd) return esc(srcTag(o));
+  const ch=sd.channel==="whatsapp"?"💬 WhatsApp":sd.channel==="manual"?"✍️ Ahmet":sd.channel==="bank"?"🏦 banka bildirimi":"📧 e-posta";
+  const to=(sd.to||[]).length?" · alıcılar: "+esc(sd.to.join(", ")):"", cc=(sd.cc||[]).length?" · cc: "+esc(sd.cc.join(", ")):"";
+  const url=sd.url||(sd.thread?gmailUrl(sd.thread):"");
+  return "<b>Kaynak:</b> "+ch+(sd.from?" · "+esc(sd.from):"")+(sd.date?" · "+esc(fmtDate(sd.date)+(sd.date.slice(0,4)!==todayStr().slice(0,4)?" "+sd.date.slice(0,4):"")):"")+(sd.subject?" · “"+esc(sd.subject)+"”":"")+to+cc+(sd.note?" · "+esc(sd.note):"")+(url?` · <a href="${esc(url)}" target="_blank" rel="noopener noreferrer">Maili aç ↗</a>`:"")+((sd.more||[]).length?" · <b>İlgili:</b> "+sd.more.map(m=>`<a href="${esc(gmailUrl(m.thread))}" target="_blank" rel="noopener noreferrer">${esc(m.label)} ↗</a>`).join(" · "):""); };
 const shortParts=r=>[r.a,r.p,r.am,r.du].filter(Boolean).map(esc).join(' <span class="sep">·</span> ');
 window.__op=window.__op||new Set();
 const lineParts=r=>[r.a,r.c,r.p,r.am,r.du,r.pl?"▶ "+fmtDate(r.pl):""].filter(Boolean).map(esc).join(' <span class="sep">·</span> ');
@@ -394,7 +401,7 @@ function render(){
     const h=deptHealth(x); const items=x.items.map(norm), open=items.filter(i=>!i.done), done=items.filter(i=>i.done), notes=(x.notes||[]).slice(0,3);
     const li=i=>{ const lp=lineParts({a:i.action_type,c:i.category,p:i.party,am:i.amount,du:i.due||fmtDate(i.due_date),pl:i.plan_date}); const hasS=i.action_type||i.category||i.party||i.amount||i.due||i.due_date;
       const sp=shortParts({a:i.action_type,p:i.party,am:i.amount,du:i.due||fmtDate(i.due_date)})+(i.pin?" 📌":"")+(i.imp==="high"?" ❗":""), ck="d|"+x.key+"|"+i.text;
-      return `<li class="cx${window.__op.has(ck)?" open":""} ${i.done?"done":""}${i.imp==="low"?" lowimp":""}" data-ck="${esc(ck)}"><input type="checkbox" data-k="${esc(x.key)}" data-t="${esc(i.text)}" ${i.done?"checked":""} aria-label="Tamamlandı"><span class="ud ${urgencyOf(i)}" title="vade rengi"></span><span class="tx">${hasS?`<span class="l1d"><span class="lc">${hasS?sp:esc(i.text)}</span><span class="lf">${lp}</span>${i.pin?" 📌":""}${i.imp==="high"?" ❗":""}${i.imp==="low"?' <span class="tag">düşük önem</span>':""}</span><small class="inote">${esc(i.text)}${i.note?" · "+esc(i.note):""}</small>`:`${esc(i.text)}${i.note?`<small class="inote">${esc(i.note)}</small>`:""}`}${i.owner?` <span class="tag own">${esc(i.owner)}</span>`:""}${srcTag(i)?`<small class="og">↳ ${esc(srcTag(i))}</small>`:""}</span><span class="chv">›</span><span class="dh" title="Drag to reorder" aria-label="Drag to reorder">⋮⋮</span></li>`; };
+      return `<li class="cx${window.__op.has(ck)?" open":""} ${i.done?"done":""}${i.imp==="low"?" lowimp":""}" data-ck="${esc(ck)}"><input type="checkbox" data-k="${esc(x.key)}" data-t="${esc(i.text)}" ${i.done?"checked":""} aria-label="Tamamlandı"><span class="ud ${urgencyOf(i)}" title="vade rengi"></span><span class="tx">${hasS?`<span class="l1d"><span class="lc">${hasS?sp:esc(i.text)}</span><span class="lf">${lp}</span>${i.pin?" 📌":""}${i.imp==="high"?" ❗":""}${i.imp==="low"?' <span class="tag">düşük önem</span>':""}</span><small class="inote">${esc(i.text)}${i.note?" · "+esc(i.note):""}</small>`:`${esc(i.text)}${i.note?`<small class="inote">${esc(i.note)}</small>`:""}`}${i.owner?` <span class="tag own">${esc(i.owner)}</span>`:""}${(i.src_detail||srcTag(i))?`<small class="og">↳ ${srcHtml(i)}</small>`:""}</span><span class="chv">›</span><span class="dh" title="Drag to reorder" aria-label="Drag to reorder">⋮⋮</span></li>`; };
     return `<details class="card dept ${h}" data-k="${esc(x.key)}" ${openSet.has(x.key)?"open":""}>
       <summary>
         <div style="flex:1;min-width:0"><span class="nm">${esc(x.area)}</span><span class="ar">${esc(x.name)} <span class="pill ${h}">${HL[h]}</span></span>
@@ -434,7 +441,7 @@ function render(){
   const fr=(r,i)=>{const parts=lineParts(r)+(r.pin?" 📌":"")+(r.imp==="high"?" ❗":"");
     const k=esc(r.k);
     const sp=shortParts(r)+(r.pin?" 📌":"")+(r.imp==="high"?" ❗":""), op=window.__op.has(r.k)||window.__edit===r.k;
-    return `<div class="fr cx${op?" open":""}" data-ck="${k}"><span class="st">${ICON[r.st]}</span><div class="l1">${r.kind==="item"?`<input type="checkbox" data-k="${esc(r.dk)}" data-t="${esc(r.t)}" aria-label="Tamamlandı">`:""}<span class="lc">${sp}</span><span class="lf">${parts}<span class="dp">${esc(r.src)}</span></span></div><span class="chv">›</span><span class="dh" title="Drag to reorder" aria-label="Drag to reorder">⋮⋮</span>${(r.tx||r.nt)?`<div class="l2">${esc(r.tx||"")}${r.tx&&r.nt?" · ":""}${esc(r.nt||"")}</div>`:""}${r.og?`<div class="og">↳ ${esc(r.og)}</div>`:""}
+    return `<div class="fr cx${op?" open":""}" data-ck="${k}"><span class="st">${ICON[r.st]}</span><div class="l1">${r.kind==="item"?`<input type="checkbox" data-k="${esc(r.dk)}" data-t="${esc(r.t)}" aria-label="Tamamlandı">`:""}<span class="lc">${sp}</span><span class="lf">${parts}<span class="dp">${esc(r.src)}</span></span></div><span class="chv">›</span><span class="dh" title="Drag to reorder" aria-label="Drag to reorder">⋮⋮</span>${(r.tx||r.nt)?`<div class="l2">${esc(r.tx||"")}${r.tx&&r.nt?" · ":""}${esc(r.nt||"")}</div>`:""}${(r.ogh||r.og)?`<div class="og">↳ ${r.ogh||esc(r.og)}</div>`:""}
       <div class="fa"><button data-fa="up" data-key="${k}" ${i===0?"disabled":""} aria-label="Yukarı">▲</button><button data-fa="down" data-key="${k}" ${i===urgent.length-1?"disabled":""} aria-label="Aşağı">▼</button><button data-fa="edit" data-key="${k}" aria-label="Düzenle">✎</button><button data-fa="del" data-key="${k}" aria-label="Sil">✕</button></div>
       ${window.__edit===r.k?form(r.k,r):""}</div>`};
   $("feed").innerHTML=(window.__edit==="__new"?`<div class="fr">${form("__new")}</div>`:"")+(urgent.slice(0,lim).map(fr).join("")||'<span class="date">Acil iş yok</span>');

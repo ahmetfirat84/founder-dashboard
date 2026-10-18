@@ -292,7 +292,18 @@
           "source": "asistan",
           "id": "1a144b11f137335a",
           "feed": false,
-          "due_date": "2026-10-15"
+          "due_date": "2026-10-15",
+          "src_detail": {
+            "channel": "email",
+            "from": "VakıfBank (bildirim@vakifbank.com.tr)",
+            "date": "2026-10-16",
+            "subject": "Bilgilendirme: Kredi Kartı Asgari Ödeme Tutarı",
+            "to": [
+              "ahmet@yeniben.com"
+            ],
+            "thread": "1a144ace4d5d30d6",
+            "note": "Ahmet asistan@'a iletti; ₺154.544 asgari tutarı ekstrede, ekstre maili 6 Eki 'Hesap Özetiniz'"
+          }
         },
         {
           "text": "HubSpot kart ödemesi reddedildi (fatura 842326601, €320); kartı güncelle/ödemeyi yeniden dene, yoksa hesap 28 Eki'de askıya alınır",
@@ -305,7 +316,18 @@
           "due_date": "2026-10-28",
           "source": "email",
           "id": "1a1472d5074b5651",
-          "feed": false
+          "feed": false,
+          "src_detail": {
+            "channel": "email",
+            "from": "HubSpot Collections (collections@hubspot.com)",
+            "date": "2026-10-17",
+            "subject": "Action needed: Card payment failed – retry your payment to avoid service disruption",
+            "to": [
+              "ahmet@yeniben.com"
+            ],
+            "thread": "1a1472d5074b5651",
+            "note": "fatura 842326601 ayrı mail, 28 Eki'de hesap askıya alınır"
+          }
         },
         {
           "text": "Ersun Bey'e banka ekstreleri: TÜM TL ve döviz hesapları, 01.04–30.09.2026 (2 Eki talebi; Q3 geçici vergi için). Yanıt ve ekstre gönderimi mailde yok. Önceki dönemler (01.01–31.03, 01.04–30.06) için de gönderim görünmüyor, hepsini tek pakette gönder.",
@@ -318,10 +340,25 @@
           "amount": "",
           "due_date": "2026-11-10",
           "plan_date": "2026-10-21",
-          "urgency": "orange"
+          "urgency": "orange",
+          "src_detail": {
+            "channel": "email",
+            "from": "Ersun Oruç (CPA Türk)",
+            "date": "2026-10-02",
+            "subject": "RE: BANKA EKSTRELERİ hk",
+            "to": [
+              "ahmet@yeniben.com"
+            ],
+            "cc": [
+              "finance@andnewme.com",
+              "yaseminhizarci@cpaturk.com.tr"
+            ],
+            "thread": "19df7cdfe842f328",
+            "note": "aynı konu başlığında 5 Mayıs ve 29 Temmuz'da da istendi, gönderim yok"
+          }
         },
         {
-          "text": "Garanti BBVA kredi kartı gecikme uyarıları (24 Eyl, 30 Eyl): banka 30 Eyl'de 'yakın izleme' sürecini başlatacağını bildirdi, borcu kontrol et, para girince ilk öde",
+          "text": "DOĞRULANMADI: Garanti BBVA kredi kartı gecikme uyarıları (24 Eyl, 30 Eyl): banka 30 Eyl'de 'yakın izleme' sürecini başlatacağını bildirdi, borcu kontrol et, para girince ilk öde",
           "due": "Acil",
           "owner": "",
           "source": "gecmis-tarama",
@@ -332,7 +369,11 @@
           "feed": false,
           "urgency": "red",
           "done": true,
-          "doneAt": "2026-10-18 11:46"
+          "doneAt": "2026-10-18 11:46",
+          "src_detail": {
+            "channel": "manual",
+            "note": "KAYNAK MAİL BULUNAMADI: Gmail'de Garanti BBVA gecikme/'yakın izleme' maili yok. 24/30 Eyl bildirimleri VakıfBank 'limit yetersiz' veya İş Bankası 'kart ödeme planı' mailleri olabilir. Doğrula ya da sil"
+          }
         },
         {
           "text": "SGK yapılandırma: ödeme planı dökümünü çıkar (taksit sayısı, ödenen/aksayan, ilk taksit 31.08 ödendi mi, bozulma tarihi). Form 25 Tem'de kargoyla gitti, Yasemin Hanım 'arayacağım' dedi, sonrası mailde yok: ondan teyit al.",
@@ -342,7 +383,19 @@
           "category": "Vergi / SGK",
           "party": "CPA Türk",
           "amount": "",
-          "due_date": "2026-10-19"
+          "due_date": "2026-10-19",
+          "src_detail": {
+            "channel": "email",
+            "from": "Ahmet Fırat → CPA Türk",
+            "date": "2026-07-25",
+            "subject": "SGK Yapılandırması için doldurulması gereken form",
+            "to": [
+              "yaseminhizarci@cpaturk.com.tr",
+              "ersunoruc@cpaturk.com.tr"
+            ],
+            "thread": "19f98dfdfc1f952d",
+            "note": "Yasemin 27 Tem: 'Evet geldi, yarın arayacağım', sonrası yok"
+          }
         },
         {
           "text": "CPA Türk ücret planı: 15 Eylül–15 Aralık her ay ₺46.450 (10.800 aylık + 35.650 eski borç taksiti; toplam kalan 7 Ağu'da ₺142.600). 15 Eki taksiti ödendi mi, mailde görünmüyor, teyit et. Sıradaki 15 Kas, 15 Ara.",
@@ -353,7 +406,21 @@
           "party": "CPA Türk",
           "amount": "₺46.450",
           "feed": false,
-          "due_date": "2026-10-19"
+          "due_date": "2026-10-19",
+          "src_detail": {
+            "channel": "email",
+            "from": "Ahmet Fırat → Yasemin (CPA Türk)",
+            "date": "2026-08-07",
+            "subject": "Re: ÖDEMELER HAKKINDA",
+            "to": [
+              "yaseminhizarci@cpaturk.com.tr"
+            ],
+            "cc": [
+              "finance@andnewme.com"
+            ],
+            "thread": "19fcbfbff0b9415f",
+            "note": "Yasemin 4–5 Ağu: ₺23.000 alındı, ₺142.600 kaldı; Ahmet planı önerdi, o kabul etti"
+          }
         },
         {
           "text": "2025 kurumlar vergisi beyannamesi (Yasemin Hanım, 13 Eki, PDF): mail gövdesinde tutar/vade yok. PDF'ten vergi tutarını ve ödeme/onay tarihini çıkar, onay ver.",
@@ -363,7 +430,19 @@
           "category": "Vergi",
           "party": "CPA Türk",
           "amount": "",
-          "due_date": "2026-10-21"
+          "due_date": "2026-10-21",
+          "src_detail": {
+            "channel": "email",
+            "from": "Yasemin Hızarcı (CPA Türk)",
+            "date": "2026-10-13",
+            "subject": "2025 YILI KURUMLAR VERGİSİ BEYANNAMESİ",
+            "to": [
+              "ahmet@andnewme.com",
+              "ahmet@yeniben.com"
+            ],
+            "thread": "1a135bf68efa7c7c",
+            "note": "beyanname PDF ekte"
+          }
         },
         {
           "text": "Paraşüt ticari e-faturaları 8 gün içinde kabul/red edilmeli: Pharmago ₺837,50 (12 Eki, son 20 Eki), Orya Otelcilik (13 Eki, son 21 Eki). Daha önce gelen BHT Clinic ₺53.800 (9 Eki) ve Erguvan ₺2.500 (8 Eki) için süre doldu, durumlarını kontrol et.",
@@ -375,7 +454,32 @@
           "party": "Paraşüt (Orya, Pharmago)",
           "amount": "",
           "urgency": "orange",
-          "due_date": "2026-10-20"
+          "due_date": "2026-10-20",
+          "src_detail": {
+            "channel": "email",
+            "from": "Paraşüt (iletisim@parasut.com)",
+            "date": "2026-10-12",
+            "subject": "Yeni bir e-Faturanız var (Pharmago ₺837,50)",
+            "to": [
+              "ahmet@yeniben.com",
+              "finans@yeniben.com"
+            ],
+            "thread": "1a12fb5d4c7ab03b",
+            "more": [
+              {
+                "label": "Orya €450 (13 Eki)",
+                "thread": "1a1346d5743ed421"
+              },
+              {
+                "label": "BHT Clinic ₺53.800 (9 Eki)",
+                "thread": "1a11ef495a9c9fe3"
+              },
+              {
+                "label": "Erguvan ₺2.500 (8 Eki)",
+                "thread": "1a11b1a966c2bbc0"
+              }
+            ]
+          }
         },
         {
           "text": "Payten e-ticaret sanal POS başvurusu (OP-432968) yazışması: son yanıt Payten'den, cevap bekliyor",
@@ -386,7 +490,18 @@
           "category": "Ödeme altyapısı",
           "party": "Payten",
           "amount": "",
-          "urgency": "gray"
+          "urgency": "gray",
+          "src_detail": {
+            "channel": "email",
+            "from": "Payten Support (tr.paytensupport@payten.com)",
+            "date": "2026-10-01",
+            "subject": "OP-432968 685272023 - E-ticaret sanal POS (3D Pay Hosting / API) ve döviz tahsilat talebi",
+            "to": [
+              "ahmet@yeniben.com"
+            ],
+            "thread": "1a0ddfda1a6177aa",
+            "note": "İş Bankası (Cengiz Dinçer) 29 Eyl: başvuru formu + yıllık ücret ₺13.999"
+          }
         },
         {
           "text": "CPA Türk bordro ve ödemeler: 09/2026 bordrosu (1 Eki) incelenmedi; 08/2026 vergi/SGK tahakkukları (28 Eyl: muhtasar+KDV 28 Eyl, SGK 30 Eyl) ödendi mi teyit et, tutarlar mailde sadece PDF'te.",
@@ -397,7 +512,24 @@
           "category": "Bordro / SGK",
           "party": "CPA Türk",
           "amount": "",
-          "urgency": "gray"
+          "urgency": "gray",
+          "src_detail": {
+            "channel": "email",
+            "from": "Yasemin Hızarcı (CPA Türk)",
+            "date": "2026-10-01",
+            "subject": "2026 EYLÜL DÖNEMİ ÜCRET BORDROSU",
+            "to": [
+              "ahmet@andnewme.com",
+              "ahmet@yeniben.com"
+            ],
+            "thread": "1a0f72f827b0dc3f",
+            "more": [
+              {
+                "label": "28 Eyl: Ağustos vergi ve SGK ödemeleri",
+                "thread": "1a0e7d1beadcbdf6"
+              }
+            ]
+          }
         },
         {
           "text": "Tetik Turizm: güncel hesap ekstresini iste/teyit et (ay başı kapanış, işveren raporuyla eşleştir)",
@@ -410,7 +542,18 @@
           "owner": "",
           "source": "whatsapp",
           "origin": "WhatsApp (17 Eki 16:11, iletilen Tetik Turizm yazışması)",
-          "uid": "733f15"
+          "uid": "733f15",
+          "src_detail": {
+            "channel": "whatsapp",
+            "date": "2026-10-17",
+            "note": "Ahmet 16:11'de Tetik Turizm yazışmasını iletti (Tetik ile doğrudan mail yok). Paraşüt e-faturaları: ₺17.400 (31 Ağu), ₺14.700 (23 Tem), ₺9.300 (12 Haz)",
+            "more": [
+              {
+                "label": "Tetik e-fatura 31 Ağu ₺17.400",
+                "thread": "1a058af49b0b3a9b"
+              }
+            ]
+          }
         },
         {
           "text": "09/2026 KDV paketi: Ersun Bey'e KDV raporu, varsa KDV 2 faturaları, İşpos ve iyzico tahsilat dökümleri. Her ay 18–25'inde istiyor, KDV 2 son günü yaklaşık 25'i. Ağustos paketi 25 Eyl'de gitti, Eylül talebi henüz gelmedi.",
@@ -423,7 +566,21 @@
           "amount": "",
           "uid": "um38n6",
           "source": "manual",
-          "origin": "Ahmet 18 Eki, mail taraması (CPA Türk)"
+          "src_detail": {
+            "channel": "email",
+            "from": "Ersun Oruç (CPA Türk)",
+            "date": "2026-09-23",
+            "subject": "08/2026 dönem fatura listesi hk",
+            "to": [
+              "ahmet@yeniben.com"
+            ],
+            "cc": [
+              "finance@andnewme.com",
+              "yaseminhizarci@cpaturk.com.tr"
+            ],
+            "thread": "1a0ce9ff728e1076",
+            "note": "Ağustos paketi örnek: 23 ve 25 Eyl'de istendi, Ahmet 25 Eyl'de KDV raporu + İşpos/iyzico dökümlerini gönderdi. Eylül talebi henüz gelmedi"
+          }
         },
         {
           "text": "09/2026 vergi ve SGK ödemeleri: tahakkuk dosyaları ~26–28 Eki'de gelir (muhtasar + KDV ~28 Eki, SGK 30 Eki). Ödeme için nakit planla, tutarlar PDF'te.",
@@ -436,7 +593,18 @@
           "amount": "",
           "uid": "6muwx6",
           "source": "manual",
-          "origin": "Ahmet 18 Eki, mail taraması (CPA Türk)"
+          "src_detail": {
+            "channel": "email",
+            "from": "Yasemin Hızarcı (CPA Türk)",
+            "date": "2026-09-28",
+            "subject": "2026 AĞUSTOS DÖNEMİ VERGİ VE SGK ÖDEMELERİ",
+            "to": [
+              "ahmet@andnewme.com",
+              "ahmet@yeniben.com"
+            ],
+            "thread": "1a0e7d1beadcbdf6",
+            "note": "Ağustos örneği: muhtasar+KDV 28 Eyl, SGK 30 Eyl; Eylül için aynı ritim bekleniyor"
+          }
         },
         {
           "text": "Multident serbest meslek makbuzu: Yasemin Hanım 19.887 TL stopajın işletmece kesilip muhtasarla beyan edilmesi gerekir mi diye sordu (27 Tem), yanıt yok. Yanıtla ya da muhasebecinin kararını sor.",
@@ -448,7 +616,21 @@
           "amount": "₺19.887 (stopaj)",
           "uid": "mx8ill",
           "source": "manual",
-          "origin": "Ahmet 18 Eki, mail taraması (CPA Türk)"
+          "src_detail": {
+            "channel": "email",
+            "from": "Yasemin Hızarcı (CPA Türk)",
+            "date": "2026-07-27",
+            "subject": "RE: Multident diş tedavisi serbest meslek makbuzu — stopaj ve gider işleyişi hk.",
+            "to": [
+              "ahmet@andnewme.com",
+              "ersunoruc@cpaturk.com.tr"
+            ],
+            "cc": [
+              "finance@andnewme.com"
+            ],
+            "thread": "19f9962abe302cbb",
+            "note": "Ahmet'in 25 Tem'deki makbuz sorusuna yanıt; Ahmet cevap vermedi"
+          }
         },
         {
           "text": "Vergi/SGK borcu 72 taksit yapılandırma sorusu (29 Haz) ve YMM mali bilgi formu (Haz–Tem): CPA Türk'ten yanıt/dönüş yok, takip et.",
@@ -460,7 +642,24 @@
           "amount": "",
           "uid": "j0hufu",
           "source": "manual",
-          "origin": "Ahmet 18 Eki, mail taraması (CPA Türk)"
+          "src_detail": {
+            "channel": "email",
+            "from": "Ahmet Fırat → CPA Türk",
+            "date": "2026-06-29",
+            "subject": "Vergi ve SGK borcu taksitlendirme hk",
+            "to": [
+              "yaseminhizarci@cpaturk.com.tr",
+              "ersunoruc@cpaturk.com.tr"
+            ],
+            "thread": "19f13b65a53ec91a",
+            "note": "yanıt yok",
+            "more": [
+              {
+                "label": "YMM mali bilgi formu (5 Haz–1 Tem)",
+                "thread": "19e9827fdd498850"
+              }
+            ]
+          }
         }
       ],
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
@@ -975,7 +1174,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 13:30",
+  "updated": "2026-10-18 14:10",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
