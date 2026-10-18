@@ -87,14 +87,16 @@
       "action_type": "Ödeme",
       "category": "Banka / Kart",
       "party": "VakıfBank",
-      "amount": "₺154.544,00 (asgari)",
+      "amount": "₺154.544 (asgari ödendi)",
       "due": "Vadesi geçti (15 Eki)",
-      "note": "Para girince ilk ödenecek. Bilgi: toplam ekstre borcu ₺377.293,60, asgari ödenmemiş (VakıfBank bildirimi 16 Eki).",
+      "note": "Para girince ilk ödenecek. Bilgi: toplam ekstre borcu ₺377.293,60, asgari ödenmemiş (VakıfBank bildirimi 16 Eki). ÖDENDİ (Ahmet, 18.10.2026).",
       "due_date": "2026-10-15",
       "uid": "bgftgs",
       "urgency": "gray",
       "pin": true,
-      "plan_date": "2026-10-19"
+      "plan_date": "2026-10-19",
+      "done": true,
+      "doneAt": "2026-10-18 20:00"
     },
     {
       "title": "SGK yapılandırma taksiti",
@@ -397,7 +399,9 @@
             ],
             "thread": "1a144ace4d5d30d6",
             "note": "Ahmet asistan@'a iletti; ₺154.544 asgari tutarı ekstrede, ekstre maili 6 Eki 'Hesap Özetiniz'"
-          }
+          },
+          "done": true,
+          "doneAt": "2026-10-18 20:00"
         },
         {
           "text": "HubSpot kart ödemesi reddedildi (fatura 842326601, €320); kartı güncelle/ödemeyi yeniden dene, yoksa hesap 28 Eki'de askıya alınır",
@@ -5952,21 +5956,17 @@
       "id": "vb-kart",
       "name": "VakıfBank kredi kartı ••3399",
       "kind": "Kart borcu",
-      "left": 377293.6,
+      "left": 334000,
       "link": "",
-      "note": "Ekstre ₺377.293,60, limit ₺371.250. Asgari ödeme ₺154.544 vadesi 15.10 geçti. Sonraki hesap kesim 06.11, son ödeme 16.11. Aylık faiz %4,25, gecikme %4,55. 18.10: Kanyon aidatına ₺50.000 harcama yapıldı, sonraki ekstreye yansır (borç ≈₺427K olabilir).",
+      "note": "Ekstre ₺377.293,60 idi (limit ₺371.250). Asgari ödeme ₺154.544 18.10'da ödendi. Aynı gün kartla SGK taksit 2 (₺61.298) ve Kanyon aidat (₺50.000) ödendi. Kalan ≈ ₺334 bin, tahmini; sonraki ekstreyle netleşir. Sonraki hesap kesim 06.11, son ödeme 16.11. Aylık faiz %4,25, gecikme %4,55.",
       "rows": [
-        {
-          "d": "2026-10-15",
-          "amt": 154544,
-          "label": "Asgari ödeme (gecikti)"
-        },
         {
           "d": "2026-11-16",
           "amt": null,
           "label": "Sonraki ekstre son ödeme"
         }
-      ]
+      ],
+      "left_est": true
     },
     {
       "id": "kanyon-aidat",
