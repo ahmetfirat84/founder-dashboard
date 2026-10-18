@@ -970,7 +970,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 05:40",
+  "updated": "2026-10-18 06:00",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1634,7 +1634,7 @@
     },
     {
       "uid": "9fw3ox",
-      "name": "Turkcell · 0532 401 0411 (owner ?)",
+      "name": "Turkcell · Hülya (business line) · 0532 401 0411",
       "category": "Telecom",
       "amount": 372.3,
       "currency": "TRY",
@@ -1643,7 +1643,7 @@
       "next_payment_date": "",
       "type": "business",
       "status": "active",
-      "notes": "Owner not stated, please fill in. Bills ₺416.20 (Jun), ₺372.30 (Jul). No invoice since July: may already be cancelled."
+      "notes": "Hülya's current business line (confirmed by Ahmet). Bills were ₺416.20 (Jun), ₺372.30 (Jul); no auto-pay notice or invoice found since July, check the latest bill. Overage possible."
     },
     {
       "uid": "f8ne7q",
@@ -1681,8 +1681,8 @@
       "payment_method": "Prepaid balance (card saved)",
       "next_payment_date": "",
       "type": "business",
-      "status": "active",
-      "notes": "Virtual number set up in June for HubSpot calling. Renewal $3.99 (period not stated, assumed monthly). Balance is -$2.43, calls paused, number at risk of being lost: top up at app.sonetel.com. Forwarding target not visible in emails (Selin?)."
+      "status": "to cancel",
+      "notes": "NZ number set up in June for HubSpot calling, now IDLE (Ahmet). Cancel it: balance is -$2.43, calls paused, renewal $3.99 due. Cancel or let it lapse at app.sonetel.com rather than topping up."
     },
     {
       "uid": "3i18h5",
@@ -1696,19 +1696,6 @@
       "type": "business",
       "status": "active",
       "notes": "UK number for Selin (Sales). Number itself not found in emails. Likely the 'YOURBUSINESSNUMBER +44208040110' £6.99 charge that was declined on Jun 9 (insufficient limit). Please confirm provider, number and amount."
-    },
-    {
-      "uid": "u6uke2",
-      "name": "Hülya phone line (fill in)",
-      "category": "Telecom",
-      "amount": "",
-      "currency": "TRY",
-      "period": "monthly",
-      "payment_method": "",
-      "next_payment_date": "",
-      "type": "business",
-      "status": "active",
-      "notes": "PLACEHOLDER: no email names Hülya's line. Add operator, number and amount."
     },
     {
       "uid": "fzr6mr",
