@@ -349,8 +349,10 @@ $("cashCard").addEventListener("click",e=>{
 });
 // SUBSCRIPTIONS (English)
 const SUB_CAT=["CRM","AI","Entertainment","Accounting","SaaS","Office","Telecom","Marketing","Other"];
-window.__sf={typ:"",st:""};window.__sedit=null;
+window.__sf={typ:"",st:"",pm:""};window.__sedit=null;
 const subTry=(x,d)=>{ const a=+x.amount||0, r=x.currency==="USD"?FXU(d):x.currency==="EUR"?FXR(d):x.currency==="GBP"?(+(d.fx&&d.fx.gbp_try)||FXR(d)*1.16):1; return a*r*(x.period==="yearly"?1/12:x.period==="weekly"?52/12:1); };
+const pmKey=x=>{ const p=String(x.payment_method||"").trim(); if(!p) return "—"; const m=p.match(/••\s?(\d{4})/); if(m) return m[1]; return p.replace(/\s*\(.*\)\s*$/,""); };
+const pmLabel=(k,d)=>k==="—"?"No method set":/^\d{4}$/.test(k)?((d.payment_methods&&d.payment_methods[k])||"Card")+" ••"+k:k;
 const subDate=s=>{ if(!s)return""; const [y,m,d]=s.split("-"); return ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][+m-1]+" "+(+d)+(y!==String(new Date().getFullYear())?", "+y:""); };
 const subAmt=x=>x.amount===""||x.amount==null?"amount ?":({TRY:"₺",USD:"$",EUR:"€",GBP:"£"}[x.currency]||"")+(+x.amount).toLocaleString("en-US",{minimumFractionDigits:Number.isInteger(+x.amount)?0:2,maximumFractionDigits:2})+" / "+({yearly:"yr",weekly:"wk"}[x.period]||"mo");
 function subForm(x){ x=x||{}; const sel2=(n,o,v)=>`<select name="${n}" aria-label="${n}">`+o.map(a=>`<option ${a===v?"selected":""}>${esc(a)}</option>`).join("")+`</select>`;
@@ -367,10 +369,14 @@ function renderSubs(d){
   $("subSum").innerHTML=`<div class="ct yellow"><b>${TL(sum("business"))}</b><span>Business / mo</span></div><div class="ct yellow"><b>${TL(sum("personal"))}</b><span>Personal / mo</span></div><div class="ct green"><b>${TL(sum("business")+sum("personal"))}</b><span>Total / mo (TRY)</span></div>`;
   const fb=(k,v,l)=>`<button class="${f[k]===v?"on":""}" data-sf="${k}" data-v="${esc(v)}">${l}</button>`;
   $("subFlt").innerHTML=fb("typ","","All")+fb("typ","business","Business")+fb("typ","personal","Personal")+" · "+fb("st","","All statuses")+fb("st","active","Active")+fb("st","to cancel","To cancel")+fb("st","cancelled","Cancelled");
-  const rows=all.filter(x=>(!f.typ||x.type===f.typ)&&(!f.st||x.status===f.st)).sort((a,b)=>(a.status==="cancelled")-(b.status==="cancelled")||String(a.name).localeCompare(String(b.name),"en"));
+  const pms={}; all.filter(x=>x.status!=="cancelled").forEach(x=>{const k=pmKey(x); pms[k]=(pms[k]||0)+1});
+  const pmKeys=Object.keys(pms).sort((a,b)=>pms[b]-pms[a]);
+  $("subFlt").innerHTML+='<div style="flex-basis:100%"></div>'+fb("pm","","All payment methods")+pmKeys.map(k=>fb("pm",k,esc(pmLabel(k,d))+" ("+pms[k]+")")).join("");
+  const rows=all.filter(x=>(!f.typ||x.type===f.typ)&&(!f.st||x.status===f.st)&&(!f.pm||pmKey(x)===f.pm)).sort((a,b)=>(a.status==="cancelled")-(b.status==="cancelled")||String(a.name).localeCompare(String(b.name),"en"));
+  const ft=rows.filter(x=>x.status!=="cancelled").reduce((t,x)=>t+subTry(x,d),0); const fAny=f.typ||f.st||f.pm;
   $("subForm").innerHTML=window.__sedit==="__new"?subForm():"";
   $("subList").innerHTML=rows.map(x=>window.__sedit===x.uid?`<div class="sub">${subForm(x)}</div>`:`<div class="sub ${x.status==="to cancel"?"sw":x.status==="cancelled"?"sx":""}"><div><span class="sn">${esc(x.name)}</span><small>${esc(x.category||"")} · ${esc(x.type||"")}${x.payment_method?" · "+esc(x.payment_method):""}${x.next_payment_date?" · next "+esc(subDate(x.next_payment_date)):""}${x.status!=="active"?" · <b>"+esc(x.status)+"</b>":""}</small>${x.notes?`<small>${esc(x.notes)}</small>`:""}</div><div class="sa">${esc(subAmt(x))}</div><div class="sbtn"><button data-sa="edit" data-key="${esc(x.uid)}" aria-label="Edit">✎</button><button data-sa="del" data-key="${esc(x.uid)}" aria-label="Delete">✕</button></div></div>`).join("")||'<span class="date">No subscriptions</span>';
-  $("subFoot").textContent=`${live.length} subscriptions counted${unk?` · ${unk} without an amount (counted as 0)`:""} · USD and EUR converted at the current rate (GBP approximate), yearly ÷ 12, weekly × 52/12.`;
+  $("subFoot").textContent=(fAny?`Filtered: ${rows.length} rows, ${TL(ft)}/mo (cancelled excluded). `:"")+`${live.length} subscriptions counted${unk?` · ${unk} without an amount (counted as 0)`:""} · USD and EUR converted at the current rate (GBP approximate), yearly ÷ 12, weekly × 52/12.`;
 }
 function showTab(t){ document.body.classList.toggle("tab-subs",t==="subs"); $("tabD").classList.toggle("on",t!=="subs"); $("tabS").classList.toggle("on",t==="subs"); try{history.replaceState(null,"",t==="subs"?"#subscriptions":location.pathname+location.search)}catch(e){} }
 document.addEventListener("DOMContentLoaded",()=>{});
@@ -452,7 +458,7 @@ $("subsCard").addEventListener("click",e=>{
   else if(a==="del"&&confirm("Delete this subscription?")) commit({t:"subdel",key}); });
 $("subsCard").addEventListener("submit",e=>{const f=e.target.closest("form.sf"); if(!f)return; e.preventDefault();
   const v=Object.fromEntries(new FormData(f)); const key=f.dataset.key; window.__sedit=null;
-  v.amount=String(v.amount).trim()===""?"":parseFloat(String(v.amount).replace(/\./g,"").replace(",","."))||0;
+  { const t=String(v.amount).trim(); const tr=/^\d{1,3}(\.\d{3})+(,\d+)?$/.test(t)||/,\d{1,2}$/.test(t); v.amount=t===""?"":parseFloat(tr?t.replace(/\./g,"").replace(",","."):t.replace(/,/g,""))||0; }
   if(key) commit({t:"subedit",key,f:v}); else commit({t:"subadd",f:v}); });
 $("feedMore").onclick=()=>{ if(window.__all){window.__all=false;render();return;} $("depts").scrollIntoView({behavior:"smooth",block:"start"}); };
 $("feed").addEventListener("change",e=>{const c=e.target.closest("input[type=checkbox][data-k]");if(c)commit({t:"done",k:c.dataset.k,text:c.dataset.t,v:c.checked})});
