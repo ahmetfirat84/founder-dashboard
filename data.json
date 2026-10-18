@@ -287,8 +287,8 @@
           "action_type": "Ödeme",
           "category": "Borç/Yapılandırma",
           "party": "SGK (şirket)",
-          "amount": "₺3.018 (kalan; ₺58.280 ödendi)",
-          "due": "Pzt 19 Eki",
+          "amount": "₺2.929 (ödendi)",
+          "due": "Ödendi 18.10",
           "due_date": "2026-10-19",
           "plan_date": "2026-10-19",
           "urgency": "red",
@@ -301,15 +301,18 @@
             "date": "2026-08-19",
             "note": "'SGK Ödem' ₺65.000 + ₺1.846 işlem bedeli, Ahmet teyit etti; kural SGK Genelge 2024/12 §17.8.1 (2026/7: 4 taksit) | 18.10.2026 banka 'Borç Seçimi' ekran görüntüleri: taksit 2–5 listesi (Ahmet attı)."
           },
-          "amount_try": 3018.030000000006,
+          "amount_try": 2929.41,
           "proof": {
             "type": "banka dekontu",
             "date": "2026-10-18",
-            "amount_try": 58280.34,
-            "channel": "WhatsApp (18 Eki 18:53, belge)",
-            "partial": true
+            "amount_try": 2929.41,
+            "channel": "WhatsApp (18 Eki 18:54, belge)",
+            "drive_url": "https://drive.google.com/file/d/1kTMZHirFH0aaXoN2eLWJpMsFbri3mCxf/view?usp=drivesdk",
+            "draft_url": ""
           },
-          "note": "KISMİ ÖDEME 2026-10-18: ₺58.280 ödendi, kalan ₺3.018."
+          "note": "KISMİ ÖDEME 2026-10-18: ₺58.280 ödendi, kalan ₺3.018. ÖDENDİ 2026-10-18: ₺2.929 (dekont). Satır tutarı ₺3.018, fark ₺89.",
+          "done": true,
+          "doneAt": "2026-10-18 18:54"
         },
         {
           "uid": "f2dpoa",
@@ -1628,7 +1631,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 18:53",
+  "updated": "2026-10-18 18:54",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1684,7 +1687,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMENFRjk2NDdBNjQ4NzNEMTMyOQA=",
     "1a14e18bf1229ab8",
     "1a14fb69e4c5b1f8",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEEyNzc4NjY0QzQwMjZDNjUzNjUA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEEyNzc4NjY0QzQwMjZDNjUzNjUA",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEEyMzc3MjkxRDBEMDJDNEFGRUQA"
   ],
   "feed_order": [
     "qt5dom",
