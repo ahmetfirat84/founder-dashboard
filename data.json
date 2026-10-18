@@ -688,16 +688,6 @@
           "due_date": "2026-10-31"
         },
         {
-          "text": "EK-21A dosya durumunu teyit et (yeni hareket görülmedi)",
-          "due": "",
-          "owner": "",
-          "action_type": "Başvuru",
-          "category": "Teşvik",
-          "party": "EK-21A",
-          "amount": "",
-          "urgency": "gray"
-        },
-        {
           "text": "IC Hospital - Barış'tan revize sözleşme imzası bekleniyor",
           "action_type": "Sözleşme",
           "category": "Teşvik",
@@ -706,6 +696,16 @@
           "due": "Hatırlatıldı 16 Eki",
           "owner": "",
           "note": "Son hatırlatma 15 Eki, tekrar 16 Eki. Sonrasında Medcure anlaşması donuyor, teşvik işlerini kendimiz yapacağız.",
+          "urgency": "gray"
+        },
+        {
+          "text": "EK-21A dosya durumunu teyit et (yeni hareket görülmedi)",
+          "due": "",
+          "owner": "",
+          "action_type": "Başvuru",
+          "category": "Teşvik",
+          "party": "EK-21A",
+          "amount": "",
           "urgency": "gray"
         }
       ],
