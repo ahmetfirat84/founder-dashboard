@@ -350,14 +350,14 @@ $("cashCard").addEventListener("click",e=>{
 // ABONELİKLER
 const SUB_CAT=["CRM","AI","Eğlence","Muhasebe","SaaS","Ofis","Telekom","Pazarlama","Diğer"];
 window.__sf={typ:"",st:""};window.__sedit=null;
-const subTry=(x,d)=>{ const a=+x.amount||0, r=x.currency==="USD"?FXU(d):x.currency==="EUR"?FXR(d):1; return a*r/(x.period==="yıllık"?12:1); };
-const subAmt=x=>x.amount===""||x.amount==null?"tutar ?":({TRY:"₺",USD:"$",EUR:"€"}[x.currency]||"")+(+x.amount).toLocaleString("tr-TR",{maximumFractionDigits:2})+" / "+(x.period==="yıllık"?"yıl":"ay");
+const subTry=(x,d)=>{ const a=+x.amount||0, r=x.currency==="USD"?FXU(d):x.currency==="EUR"?FXR(d):1; return a*r*(x.period==="yıllık"?1/12:x.period==="haftalık"?52/12:1); };
+const subAmt=x=>x.amount===""||x.amount==null?"tutar ?":({TRY:"₺",USD:"$",EUR:"€"}[x.currency]||"")+(+x.amount).toLocaleString("tr-TR",{maximumFractionDigits:2})+" / "+(x.period==="yıllık"?"yıl":x.period==="haftalık"?"hafta":"ay");
 function subForm(x){ x=x||{}; const sel2=(n,o,v)=>`<select name="${n}" aria-label="${n}">`+o.map(a=>`<option ${a===v?"selected":""}>${esc(a)}</option>`).join("")+`</select>`;
   return `<form class="sf" data-key="${esc(x.uid||"")}"><input class="wide" name="name" placeholder="Abonelik adı" value="${esc(x.name||"")}" required>`
   +`<input name="category" list="subcats" placeholder="Kategori" value="${esc(x.category||"")}"><datalist id="subcats">${SUB_CAT.map(c=>`<option>${c}</option>`).join("")}</datalist>`
   +sel2("type",["iş","şahsi"],x.type||"iş")
   +`<input name="amount" inputmode="decimal" placeholder="Tutar" value="${esc(x.amount??"")}">`+sel2("currency",["TRY","USD","EUR"],x.currency||"TRY")
-  +sel2("period",["aylık","yıllık"],x.period||"aylık")+sel2("status",["aktif","iptal edilecek","iptal edildi"],x.status||"aktif")
+  +sel2("period",["aylık","yıllık","haftalık"],x.period||"aylık")+sel2("status",["aktif","iptal edilecek","iptal edildi"],x.status||"aktif")
   +`<input name="payment_method" placeholder="Ödeme yöntemi (kart/hesap)" value="${esc(x.payment_method||"")}"><label class="dl">Sonraki ödeme<input name="next_payment_date" type="date" value="${esc(x.next_payment_date||"")}"></label>`
   +`<textarea class="wide" name="notes" rows="2" placeholder="Not">${esc(x.notes||"")}</textarea><span class="fbtn wide"><button>Kaydet</button> <button type="button" data-sa="cancel">İptal</button></span></form>`; }
 function renderSubs(d){
@@ -369,7 +369,7 @@ function renderSubs(d){
   const rows=all.filter(x=>(!f.typ||x.type===f.typ)&&(!f.st||x.status===f.st)).sort((a,b)=>(a.status==="iptal edildi")-(b.status==="iptal edildi")||String(a.name).localeCompare(String(b.name),"tr"));
   $("subForm").innerHTML=window.__sedit==="__new"?subForm():"";
   $("subList").innerHTML=rows.map(x=>window.__sedit===x.uid?`<div class="sub">${subForm(x)}</div>`:`<div class="sub ${x.status==="iptal edilecek"?"sw":x.status==="iptal edildi"?"sx":""}"><div><span class="sn">${esc(x.name)}</span><small>${esc(x.category||"")} · ${esc(x.type||"")}${x.payment_method?" · "+esc(x.payment_method):""}${x.next_payment_date?" · sonraki "+esc(fmtDate(x.next_payment_date)):""}${x.status!=="aktif"?" · <b>"+esc(x.status)+"</b>":""}</small>${x.notes?`<small>${esc(x.notes)}</small>`:""}</div><div class="sa">${esc(subAmt(x))}</div><div class="sbtn"><button data-sa="edit" data-key="${esc(x.uid)}">✎</button><button data-sa="del" data-key="${esc(x.uid)}">✕</button></div></div>`).join("")||'<span class="date">Kayıt yok</span>';
-  $("subFoot").textContent=`${live.length} abonelik sayılıyor${unk?` · ${unk} kalemin tutarı girilmemiş (toplama 0 olarak giriyor)`:""} · USD ve EUR güncel kurla TL'ye çevrilir, yıllıklar 12'ye bölünür.`;
+  $("subFoot").textContent=`${live.length} abonelik sayılıyor${unk?` · ${unk} kalemin tutarı girilmemiş (toplama 0 olarak giriyor)`:""} · USD ve EUR güncel kurla TL'ye çevrilir, yıllıklar 12'ye bölünür, haftalıklar ×52/12 ile aya çevrilir.`;
 }
 function showTab(t){ document.body.classList.toggle("tab-subs",t==="subs"); $("tabD").classList.toggle("on",t!=="subs"); $("tabS").classList.toggle("on",t==="subs"); try{history.replaceState(null,"",t==="subs"?"#abonelikler":location.pathname+location.search)}catch(e){} }
 document.addEventListener("DOMContentLoaded",()=>{});
