@@ -1646,19 +1646,6 @@
       "notes": "4 Eki Stripe makbuzu 'X' adına geldi. Tutar bulunamadı, teyit et."
     },
     {
-      "uid": "2zlvjq",
-      "name": "Aesty AI Stylist (Pro)",
-      "category": "Eğlence",
-      "amount": "",
-      "currency": "TRY",
-      "period": "haftalık",
-      "payment_method": "Apple",
-      "next_payment_date": "",
-      "type": "şahsi",
-      "status": "iptal edildi",
-      "notes": "Son makbuz 15 Eyl (haftalık). Sonrası yok, iptal olmuş görünüyor, teyit et."
-    },
-    {
       "uid": "5ctjse",
       "name": "Bevel Pro",
       "category": "SaaS",
