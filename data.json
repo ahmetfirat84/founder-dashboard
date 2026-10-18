@@ -1657,19 +1657,6 @@
       "type": "business",
       "status": "active",
       "notes": "Stripe: $9.99 charge failed Sep 21, receipt Oct 4. Confirm what this is."
-    },
-    {
-      "uid": "e8zlyv",
-      "name": "EatBetter Clubs",
-      "category": "Entertainment",
-      "amount": 499.99,
-      "currency": "TRY",
-      "period": "monthly",
-      "payment_method": "Visa ••3399",
-      "next_payment_date": "",
-      "type": "personal",
-      "status": "cancelled",
-      "notes": "Last receipt Aug 29 (renewal Sep 29 not charged). Looks cancelled or lapsed, confirm."
     }
   ]
 }
