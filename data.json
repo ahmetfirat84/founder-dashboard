@@ -974,7 +974,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 11:50",
+  "updated": "2026-10-18 12:20",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1388,7 +1388,9 @@
       "next_payment_date": "2026-11-03",
       "type": "business",
       "status": "active",
-      "notes": "Standard plan, $25 per seat × 4. Seats went 3→4 on Oct 6 (prorated $22.69). Support ticket unanswered, follow up."
+      "notes": "Standard plan, $25 per seat × 4. Seats went 3→4 on Oct 6 (prorated $22.69). Support ticket unanswered, follow up.",
+      "manage_url": "https://claude.ai/settings/billing",
+      "manage_hint": "Claude → Settings → Billing (team admin) → manage plan / seats."
     },
     {
       "uid": "bxacbq",
@@ -1401,7 +1403,9 @@
       "next_payment_date": "2026-11-05",
       "type": "personal",
       "status": "active",
-      "notes": "Max 5x plan on ahmet@andnewme.com. Includes $100 API credit grant. One-off API top-ups are not tracked here (startup credits cover API)."
+      "notes": "Max 5x plan on ahmet@andnewme.com. Includes $100 API credit grant. One-off API top-ups are not tracked here (startup credits cover API).",
+      "manage_url": "https://claude.ai/settings/billing",
+      "manage_hint": "Claude → Settings → Billing → Cancel subscription."
     },
     {
       "uid": "1prnnl",
@@ -1414,7 +1418,9 @@
       "next_payment_date": "2026-11-17",
       "type": "business",
       "status": "active",
-      "notes": "€320/month after the 75% renewal discount (order Oct 14). The Oct 17 invoice 842326601 card payment FAILED: pay by Oct 28 or the account is suspended. Update the card and retry."
+      "notes": "€320/month after the 75% renewal discount (order Oct 14). The Oct 17 invoice 842326601 card payment FAILED: pay by Oct 28 or the account is suspended. Update the card and retry.",
+      "manage_url": "https://app-eu1.hubspot.com/account-and-billing/143451706",
+      "manage_hint": "Account & Billing → Subscriptions: switch off auto-renew / request cancellation. Fix the failed card here too (retry payment)."
     },
     {
       "uid": "tiz2cl",
@@ -1427,7 +1433,9 @@
       "next_payment_date": "2026-11-01",
       "type": "business",
       "status": "active",
-      "notes": "Oct 1 payment declined, Oct 2 payment of ₺1,366.40 received (resolved). Amount varies with user count (Aug: ₺837.47)."
+      "notes": "Oct 1 payment declined, Oct 2 payment of ₺1,366.40 received (resolved). Amount varies with user count (Aug: ₺837.47).",
+      "manage_url": "https://admin.google.com/ac/billing/subscriptions",
+      "manage_hint": "Admin console → Billing → Subscriptions (super-admin only). Payment method: Billing → Payment settings."
     },
     {
       "uid": "tkzjve",
@@ -1440,7 +1448,9 @@
       "next_payment_date": "2026-10-31",
       "type": "business",
       "status": "active",
-      "notes": "Annual plan billed monthly. Price rises from ₺399 to ₺557.50 on Oct 31. Cancel in Adobe account if not needed. Earlier ₺399 charges were declined on this card in May and July."
+      "notes": "Annual plan billed monthly. Price rises from ₺399 to ₺557.50 on Oct 31. Cancel in Adobe account if not needed. Earlier ₺399 charges were declined on this card in May and July.",
+      "manage_url": "https://account.adobe.com/plans",
+      "manage_hint": "Adobe account → Plans → Manage plan → Cancel. Annual plan billed monthly may charge an early-termination fee."
     },
     {
       "uid": "7yy5pq",
@@ -1453,7 +1463,9 @@
       "next_payment_date": "",
       "type": "business",
       "status": "active",
-      "notes": "Billed weekly via Apple (about ₺802/month). Apple billing problem on Oct 16. Consider a cheaper plan."
+      "notes": "Billed weekly via Apple (about ₺802/month). Apple billing problem on Oct 16. Consider a cheaper plan.",
+      "manage_url": "https://apps.apple.com/account/subscriptions",
+      "manage_hint": "Billed via Apple: iPhone Settings → your name → Subscriptions, or this link. Cancel there, not in the app."
     },
     {
       "uid": "lby4al",
@@ -1466,7 +1478,9 @@
       "next_payment_date": "",
       "type": "business",
       "status": "cancelled",
-      "notes": "Cancelled by Ahmet (Oct 18). No cancellation email from HeyGen in Gmail (HeyGen mails nothing, only VakıfBank decline notices). Charges seen on the 24th–29th: ₺1,402.37 (Jun 24), ₺1,473.17 (Sep 24), ₺1,477.82 (Sep 29), all declined for insufficient limit. Billing about the 24th, so check on Oct 24 that no charge arrives."
+      "notes": "Cancelled by Ahmet (Oct 18). No cancellation email from HeyGen in Gmail (HeyGen mails nothing, only VakıfBank decline notices). Charges seen on the 24th–29th: ₺1,402.37 (Jun 24), ₺1,473.17 (Sep 24), ₺1,477.82 (Sep 29), all declined for insufficient limit. Billing about the 24th, so check on Oct 24 that no charge arrives.",
+      "manage_url": "https://app.heygen.com/settings",
+      "manage_hint": "HeyGen → Settings → Billing / Subscription (menu names may differ). Watch for a charge around Oct 24."
     },
     {
       "uid": "tihojk",
@@ -1479,7 +1493,9 @@
       "next_payment_date": "",
       "type": "business",
       "status": "active",
-      "notes": "Seen in a Jul 3 'insufficient limit' decline of ₺100. Period and current status unconfirmed."
+      "notes": "Seen in a Jul 3 'insufficient limit' decline of ₺100. Period and current status unconfirmed.",
+      "manage_url": "https://www.canva.com/settings/billing-and-teams",
+      "manage_hint": "Canva → Account settings → Billing & plans → Cancel plan."
     },
     {
       "uid": "rcsacg",
@@ -1492,7 +1508,9 @@
       "next_payment_date": "2027-08-28",
       "type": "business",
       "status": "active",
-      "notes": "Used for the Yeniben nutrition app Apple Health sync. Billed via Apple."
+      "notes": "Used for the Yeniben nutrition app Apple Health sync. Billed via Apple.",
+      "manage_url": "https://apps.apple.com/account/subscriptions",
+      "manage_hint": "Billed via Apple: iPhone Settings → your name → Subscriptions, or this link. Cancel there, not in the app."
     },
     {
       "uid": "tasa6e",
@@ -1505,7 +1523,9 @@
       "next_payment_date": "",
       "type": "personal",
       "status": "active",
-      "notes": "Current plan: Disney+ Reklamsız (ad-free), ₺449.90/month (confirmed by Ahmet). PAYMENT FAILING: the charge failed on Sep 30 and Oct 2 (card limit insufficient) and also in May, June and July. Update the card or cancel."
+      "notes": "Current plan: Disney+ Reklamsız (ad-free), ₺449.90/month (confirmed by Ahmet). PAYMENT FAILING: the charge failed on Sep 30 and Oct 2 (card limit insufficient) and also in May, June and July. Update the card or cancel.",
+      "manage_url": "https://www.disneyplus.com/account",
+      "manage_hint": "disneyplus.com → profile → Account → Subscription → Cancel. If billed through Apple/Google/Turkcell, cancel there. Help: help.disneyplus.com → Account & Billing → chat."
     },
     {
       "uid": "kecfpo",
@@ -1518,7 +1538,9 @@
       "next_payment_date": "2026-10-28",
       "type": "personal",
       "status": "active",
-      "notes": "Premium plan. Account was suspended Oct 1 after a failed payment, payment details updated Oct 2. Next charge Oct 28 on the Visa ••3399 card, which often declines (insufficient limit): make sure it has room."
+      "notes": "Premium plan. Account was suspended Oct 1 after a failed payment, payment details updated Oct 2. Next charge Oct 28 on the Visa ••3399 card, which often declines (insufficient limit): make sure it has room.",
+      "manage_url": "https://www.netflix.com/cancelplan",
+      "manage_hint": "netflix.com → profile → Account → Cancel membership (access continues until the billing date)."
     },
     {
       "uid": "3k2n4o",
@@ -1531,7 +1553,9 @@
       "next_payment_date": "2026-11-12",
       "type": "personal",
       "status": "active",
-      "notes": "Family plan. Price rose from ₺165 to ₺199 starting with the November bill. Next invoice Nov 12."
+      "notes": "Family plan. Price rose from ₺165 to ₺199 starting with the November bill. Next invoice Nov 12.",
+      "manage_url": "https://www.spotify.com/account/subscription/",
+      "manage_hint": "spotify.com → Account → Your plan → Change plan / Cancel Premium. Family plan: the plan manager must cancel."
     },
     {
       "uid": "g94ayo",
@@ -1544,7 +1568,9 @@
       "next_payment_date": "2026-11-18",
       "type": "personal",
       "status": "active",
-      "notes": "Billed via Apple. Apple billing problem on Oct 16, charged Oct 17."
+      "notes": "Billed via Apple. Apple billing problem on Oct 16, charged Oct 17.",
+      "manage_url": "https://apps.apple.com/account/subscriptions",
+      "manage_hint": "Billed via Apple: iPhone Settings → your name → Subscriptions, or this link. Cancel there, not in the app."
     },
     {
       "uid": "vjqdj5",
@@ -1557,7 +1583,9 @@
       "next_payment_date": "2026-11-18",
       "type": "personal",
       "status": "active",
-      "notes": "Billed via Apple. Apple billing problem on Oct 16, charged Oct 17/18."
+      "notes": "Billed via Apple. Apple billing problem on Oct 16, charged Oct 17/18.",
+      "manage_url": "https://apps.apple.com/account/subscriptions",
+      "manage_hint": "Billed via Apple: iPhone Settings → your name → Subscriptions, or this link. Cancel there, not in the app."
     },
     {
       "uid": "um52zr",
@@ -1570,7 +1598,9 @@
       "next_payment_date": "2026-11-12",
       "type": "personal",
       "status": "active",
-      "notes": "Billed via Apple."
+      "notes": "Billed via Apple.",
+      "manage_url": "https://apps.apple.com/account/subscriptions",
+      "manage_hint": "Billed via Apple: iPhone Settings → your name → Subscriptions, or this link. Cancel there, not in the app."
     },
     {
       "uid": "3vkey4",
@@ -1583,7 +1613,9 @@
       "next_payment_date": "2027-08-09",
       "type": "personal",
       "status": "active",
-      "notes": "Annual, renewed Aug 19."
+      "notes": "Annual, renewed Aug 19.",
+      "manage_url": "https://apps.apple.com/account/subscriptions",
+      "manage_hint": "Billed via Apple: iPhone Settings → your name → Subscriptions, or this link. Cancel there, not in the app."
     },
     {
       "uid": "4h81g3",
@@ -1596,7 +1628,9 @@
       "next_payment_date": "",
       "type": "personal",
       "status": "active",
-      "notes": "Seen in a Sep 29 'insufficient limit' decline of ₺56.25. Stripe receipt Oct 4 on ahmet@yeniben.com. Period unconfirmed."
+      "notes": "Seen in a Sep 29 'insufficient limit' decline of ₺56.25. Stripe receipt Oct 4 on ahmet@yeniben.com. Period unconfirmed.",
+      "manage_url": "https://x.com/settings/premium",
+      "manage_hint": "X → Settings → Premium → Manage subscription (if bought on iOS, cancel in Apple Subscriptions)."
     },
     {
       "uid": "oc9sg8",
@@ -1609,7 +1643,9 @@
       "next_payment_date": "",
       "type": "business",
       "status": "active",
-      "notes": "Stripe: $9.99 charge failed Sep 21, receipt Oct 4. Confirm what this is."
+      "notes": "Stripe: $9.99 charge failed Sep 21, receipt Oct 4. Confirm what this is.",
+      "manage_url": "",
+      "manage_hint": "No portal link known. Use the 'Manage billing' / invoice link in the Stripe receipt email (ManoByte, Oct 4) or reply to that email."
     },
     {
       "uid": "snyvk8",
@@ -1622,7 +1658,9 @@
       "next_payment_date": "2026-10-24",
       "type": "business",
       "status": "active",
-      "notes": "Company line, plan ISTE Hesaplı Platin 25, campaign contract ends Oct 24: decide renew or cancel. ₺3,753.70 is the auto-pay invoice tied to this number (Oct 7, failed: insufficient balance). Yeniben's multi-line corporate bill (25th each month) ranges ₺1,440–4,375, so overage is likely. Per-line split is in the CSV attached to the Oct 10 invoice email."
+      "notes": "Company line, plan ISTE Hesaplı Platin 25, campaign contract ends Oct 24: decide renew or cancel. ₺3,753.70 is the auto-pay invoice tied to this number (Oct 7, failed: insufficient balance). Yeniben's multi-line corporate bill (25th each month) ranges ₺1,440–4,375, so overage is likely. Per-line split is in the CSV attached to the Oct 10 invoice email.",
+      "manage_url": "https://www.turkcell.com.tr/destek/hattiniz/abonelik-islemleri/hattimi-nasil-iptal-ettirebilirim",
+      "manage_hint": "Turkcell app → Yardım → Evraklı Talepler → Hat İptali; or 532 customer service; or hatiptal@turkcell.com.tr from the registered email; or e-Devlet 'Abonelik Fesih Başvurusu'. Check commitment (taahhüt) fee first."
     },
     {
       "uid": "jekv0h",
@@ -1635,7 +1673,9 @@
       "next_payment_date": "",
       "type": "business",
       "status": "active",
-      "notes": "Ahmet Fırat's data line for the iPad (confirmed by Ahmet). Fixed base price, but bills vary: ₺889.70 (Jul), ₺77.60 (Sep), ₺712.60 (Oct), so overage is possible. Auto-pay (İş Bankası) failed for insufficient balance each time."
+      "notes": "Ahmet Fırat's data line for the iPad (confirmed by Ahmet). Fixed base price, but bills vary: ₺889.70 (Jul), ₺77.60 (Sep), ₺712.60 (Oct), so overage is possible. Auto-pay (İş Bankası) failed for insufficient balance each time.",
+      "manage_url": "https://www.turkcell.com.tr/destek/hattiniz/abonelik-islemleri/hattimi-nasil-iptal-ettirebilirim",
+      "manage_hint": "Turkcell app → Yardım → Evraklı Talepler → Hat İptali; or 532 customer service; or hatiptal@turkcell.com.tr from the registered email; or e-Devlet 'Abonelik Fesih Başvurusu'. Check commitment (taahhüt) fee first."
     },
     {
       "uid": "9fw3ox",
@@ -1648,7 +1688,9 @@
       "next_payment_date": "",
       "type": "business",
       "status": "active",
-      "notes": "Hülya's current business line (confirmed by Ahmet). Bills were ₺416.20 (Jun), ₺372.30 (Jul); no auto-pay notice or invoice found since July, check the latest bill. Overage possible."
+      "notes": "Hülya's current business line (confirmed by Ahmet). Bills were ₺416.20 (Jun), ₺372.30 (Jul); no auto-pay notice or invoice found since July, check the latest bill. Overage possible.",
+      "manage_url": "https://www.turkcell.com.tr/destek/hattiniz/abonelik-islemleri/hattimi-nasil-iptal-ettirebilirim",
+      "manage_hint": "Turkcell app → Yardım → Evraklı Talepler → Hat İptali; or 532 customer service; or hatiptal@turkcell.com.tr from the registered email; or e-Devlet 'Abonelik Fesih Başvurusu'. Check commitment (taahhüt) fee first."
     },
     {
       "uid": "f8ne7q",
@@ -1661,7 +1703,9 @@
       "next_payment_date": "",
       "type": "personal",
       "status": "cancelled",
-      "notes": "Terminated Aug 31 2026 (cancel request Aug 25, final invoice ₺1,277.87). Bills were ₺1,430–2,425, so it often exceeded its base price."
+      "notes": "Terminated Aug 31 2026 (cancel request Aug 25, final invoice ₺1,277.87). Bills were ₺1,430–2,425, so it often exceeded its base price.",
+      "manage_url": "https://www.turkcell.com.tr/destek/hattiniz/abonelik-islemleri/hattimi-nasil-iptal-ettirebilirim",
+      "manage_hint": "Turkcell app → Yardım → Evraklı Talepler → Hat İptali; or 532 customer service; or hatiptal@turkcell.com.tr from the registered email; or e-Devlet 'Abonelik Fesih Başvurusu'. Check commitment (taahhüt) fee first."
     },
     {
       "uid": "1x4chq",
@@ -1674,7 +1718,9 @@
       "next_payment_date": "2026-11-11",
       "type": "personal",
       "status": "active",
-      "notes": "Home internet at Kanyon, service no. 101848882254. Bill is usually about ₺950 but ranges ₺551–1,665. Due around the 11th–13th. Pattern: auto-pay fails, speed throttled to 512 Kbps, restored after a manual payment (Aug 21, Sep 21–28). Kanyon notice: Türk Telekom is converting the building to fiber."
+      "notes": "Home internet at Kanyon, service no. 101848882254. Bill is usually about ₺950 but ranges ₺551–1,665. Due around the 11th–13th. Pattern: auto-pay fails, speed throttled to 512 Kbps, restored after a manual payment (Aug 21, Sep 21–28). Kanyon notice: Türk Telekom is converting the building to fiber.",
+      "manage_url": "https://www.turkcell.com.tr/destek/hattiniz/abonelik-islemleri/hattimi-nasil-iptal-ettirebilirim",
+      "manage_hint": "Internet cancellation: Turkcell Superonline customer service or e-Devlet 'Abonelik Fesih Başvurusu' (turkiye.gov.tr)."
     },
     {
       "uid": "4vlw09",
@@ -1687,7 +1733,9 @@
       "next_payment_date": "",
       "type": "business",
       "status": "to cancel",
-      "notes": "Only one Sonetel number/account exists (ahmet@andnewme.com). NZ number set up in June for HubSpot calling, now IDLE: cancel it. Balance -$2.43, calls paused since Sep 9, renewal $3.99 failed, number at risk of loss. Cancel at app.sonetel.com instead of topping up."
+      "notes": "Only one Sonetel number/account exists (ahmet@andnewme.com). NZ number set up in June for HubSpot calling, now IDLE: cancel it. Balance -$2.43, calls paused since Sep 9, renewal $3.99 failed, number at risk of loss. Cancel at app.sonetel.com instead of topping up.",
+      "manage_url": "https://sonetel.com/en/help/help-topics/telephony/how-can-i-delete-a-phone-number/",
+      "manage_hint": "app.sonetel.com → Phone numbers → open number → Number details → set it to not renew (number removed at next renewal date). Whole-account deletion: email support@sonetel.com."
     },
     {
       "uid": "fzr6mr",
@@ -1713,7 +1761,9 @@
       "next_payment_date": "",
       "type": "business",
       "status": "to cancel",
-      "notes": "Bought for a mobile modem, NOT used (Ahmet). No Vodafone invoice (searched the full number 0542 514 84 14 in all of Gmail: zero hits), tariff, commitment or cancellation email found in Gmail (only Vodafone Business marketing mails to ahmet@yeniben.com, 2023–24), so the amount and terms are unknown. Next step: check the Vodafone app/customer service for tariff and commitment end date, and search bank statements (auto-pay or card) for 'Vodafone' to find the monthly charge. Then cancel or switch it to a cheaper tariff."
+      "notes": "Bought for a mobile modem, NOT used (Ahmet). No Vodafone invoice (searched the full number 0542 514 84 14 in all of Gmail: zero hits), tariff, commitment or cancellation email found in Gmail (only Vodafone Business marketing mails to ahmet@yeniben.com, 2023–24), so the amount and terms are unknown. Next step: check the Vodafone app/customer service for tariff and commitment end date, and search bank statements (auto-pay or card) for 'Vodafone' to find the monthly charge. Then cancel or switch it to a cheaper tariff.",
+      "manage_url": "https://www.vodafone.com.tr/",
+      "manage_hint": "Vodafone Yanımda app or customer service; or e-Devlet 'Abonelik Fesih Başvurusu'. Ask for tariff, commitment end date and early-termination fee first."
     },
     {
       "uid": "1xaqqw",
@@ -1726,7 +1776,9 @@
       "next_payment_date": "2026-11-01",
       "type": "business",
       "status": "active",
-      "notes": "Account 'Sales_Patient' (WhatsApp Business number, probably Selin's Sales line, confirm). Charged £6.99 on the 1st; invoices Apr–Oct. June charges were declined (insufficient limit) and YBN warned of losing WhatsApp Business access."
+      "notes": "Account 'Sales_Patient' (WhatsApp Business number, probably Selin's Sales line, confirm). Charged £6.99 on the 1st; invoices Apr–Oct. June charges were declined (insufficient limit) and YBN warned of losing WhatsApp Business access.",
+      "manage_url": "https://www.yourbusinessnumber.com/",
+      "manage_hint": "Log in with ahmet@andnewme.com → account / billing. Cancel before the 1st of the month (charged then). Support line in the invoice emails."
     },
     {
       "uid": "t68u7o",
@@ -1739,7 +1791,9 @@
       "next_payment_date": "2026-11-17",
       "type": "business",
       "status": "active",
-      "notes": "Ordered Oct 17. WhatsApp Business line used by the dashboard assistant. Price not in the confirmation (assumed same £6.99/month), check the first invoice. Forwarding to Ahmet's +90 533 727 0000 is not supported, callers are told to use WhatsApp."
+      "notes": "Ordered Oct 17. WhatsApp Business line used by the dashboard assistant. Price not in the confirmation (assumed same £6.99/month), check the first invoice. Forwarding to Ahmet's +90 533 727 0000 is not supported, callers are told to use WhatsApp.",
+      "manage_url": "https://www.yourbusinessnumber.com/",
+      "manage_hint": "Log in with ahmet@andnewme.com → account / billing. Cancel before the 1st of the month (charged then). Support line in the invoice emails."
     },
     {
       "uid": "1lvakp",
@@ -1752,7 +1806,9 @@
       "next_payment_date": "",
       "type": "personal",
       "status": "active",
-      "notes": "Confirmed by Ahmet. ₺388 charge declined Sep 24 (insufficient limit, merchant PARATI/EXXEN.COM)."
+      "notes": "Confirmed by Ahmet. ₺388 charge declined Sep 24 (insufficient limit, merchant PARATI/EXXEN.COM).",
+      "manage_url": "https://www.exxen.com/",
+      "manage_hint": "exxen.com → profile → Hesap ve Ayarlar → Üyelik Bilgilerim → Aboneliğimi İptal Et (password asked). Not cancellable by SMS/phone; sports pack is cancelled separately."
     },
     {
       "uid": "chs1df",
@@ -1765,7 +1821,9 @@
       "next_payment_date": "",
       "type": "personal",
       "status": "active",
-      "notes": "Confirmed by Ahmet. ₺69.90 charge declined Sep 24 (insufficient limit, merchant IYZICO/HEPSIBURADA). Exact plan not in emails."
+      "notes": "Confirmed by Ahmet. ₺69.90 charge declined Sep 24 (insufficient limit, merchant IYZICO/HEPSIBURADA). Exact plan not in emails.",
+      "manage_url": "https://www.hepsiburada.com/",
+      "manage_hint": "Web only (not app): Hesabım → Premium → Premium'u Yönet → Üyelik İptali → decline discount → complete. Customer service may call; the cancellation goes through anyway."
     },
     {
       "uid": "h23iie",
@@ -1778,7 +1836,9 @@
       "next_payment_date": "",
       "type": "personal",
       "status": "active",
-      "notes": "Channel membership (merchant 'Google YouTube Member'). ₺1,000 charge was declined for insufficient limit and retried on Sep 24, 25 and 29. Which channel is not in the emails, add it here. Billing period assumed monthly."
+      "notes": "Channel membership (merchant 'Google YouTube Member'). ₺1,000 charge was declined for insufficient limit and retried on Sep 24, 25 and 29. Which channel is not in the emails, add it here. Billing period assumed monthly.",
+      "manage_url": "https://www.youtube.com/paid_memberships",
+      "manage_hint": "YouTube → profile → Purchases and memberships → Memberships → Manage / Cancel."
     },
     {
       "uid": "b2xvth",
