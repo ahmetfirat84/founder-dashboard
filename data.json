@@ -707,9 +707,104 @@
           "party": "EK-21A",
           "amount": "",
           "urgency": "gray"
+        },
+        {
+          "uid": "5tl36v",
+          "text": "🔁 AYLIK · Hasta Yol (DYS) başvuru taraması: Airtable Teşvik Hub 'Hasta Yol' tablosunda deadline (= TR giriş + 6 ay) yaklaşan / 'Yeni geçti' hastaları ve eksik evrakı (Grants klasörü 11/38 dolu) çıkar, DYS'ye başvuruları gir.",
+          "action_type": "Başvuru",
+          "category": "Teşvik",
+          "party": "DYS / HİB",
+          "amount": "",
+          "due": "Her ay başı",
+          "due_date": "2026-11-01",
+          "repeat": "periodic",
+          "owner": "",
+          "source": "manual",
+          "src_detail": {
+            "channel": "manual",
+            "from": "Ahmet / asistan notları",
+            "date": "2026-10-18",
+            "note": "Teşvik Hub notu + genelge (başvuru süresi = TR giriş + 6 ay, eksik tamamlama 3+3 ay)"
+          }
+        },
+        {
+          "uid": "4an551",
+          "text": "🔁 AYLIK · Teşvik faturası: tedavisi tamamlanan hastalar için Paraşüt'te 4 satırlı teşvik uyumlu fatura (indirim = bilet/2, kur = bilet satın alma tarihi), tahsilat gir, taslak bırak (skill: tesvik-fatura).",
+          "action_type": "Belge",
+          "category": "Teşvik",
+          "party": "DYS / HİB",
+          "amount": "",
+          "due": "Her ay başı",
+          "due_date": "2026-11-01",
+          "repeat": "periodic",
+          "owner": "",
+          "source": "manual",
+          "src_detail": {
+            "channel": "manual",
+            "from": "Ahmet / asistan notları",
+            "date": "2026-10-18",
+            "note": "tesvik_kurallar notu + tesvik-fatura skill"
+          }
+        },
+        {
+          "uid": "irdwpu",
+          "text": "🔁 AYLIK · Reklam/Tanıtım teşviği (HRTP): Meta ödemelerini ve kart ekstresini topla (Enpara 0410, Oca 2026'dan beri), DYS'de harcama kalemi olarak Harcama Belgesi + Ödeme Belgesi yükle, KAYDET. (Meta hesabı Ağu'da borçla kapalı, reklam durmuş olabilir.)",
+          "action_type": "Başvuru",
+          "category": "Teşvik",
+          "party": "DYS / HİB",
+          "amount": "",
+          "due": "Her ay sonu",
+          "due_date": "2026-10-31",
+          "repeat": "periodic",
+          "owner": "",
+          "source": "manual",
+          "src_detail": {
+            "channel": "manual",
+            "from": "Ahmet / asistan notları",
+            "date": "2026-10-18",
+            "note": "DYS belge mimarisi notu (30 Tem) + tesvik_reklam_kart_belge"
+          }
+        },
+        {
+          "uid": "zqpvi8",
+          "text": "🔁 AYLIK · DYS 'Excel'e Aktar' (başvurular + tahakkuklar) → Airtable Teşvik Hub'a işle; HubSpot ti_* alanlarıyla mutabakat. Hasta yol başvurusu 26.HUST.001463 (16 Haz, 'Yeni') durumunu da bu turda bak.",
+          "action_type": "Belge",
+          "category": "Teşvik",
+          "party": "DYS / HİB",
+          "amount": "",
+          "due": "Her ay sonu",
+          "due_date": "2026-10-31",
+          "repeat": "periodic",
+          "owner": "",
+          "source": "manual",
+          "src_detail": {
+            "channel": "manual",
+            "from": "Ahmet / asistan notları",
+            "date": "2026-10-18",
+            "note": "Teşvik Hub 'kalan işler' #4 + DYS tracker"
+          }
+        },
+        {
+          "uid": "j29fge",
+          "text": "DYS yetki süresi: Ahmet 'Tam Yetkili' 15 Kasım 2026'da bitiyor: dys.ticaret.gov.tr / dyop yetki tanımını yenile (Hülya Zengi de kullanıcı).",
+          "action_type": "Başvuru",
+          "category": "Teşvik",
+          "party": "DYS / HİB",
+          "amount": "",
+          "due": "15 Kas",
+          "due_date": "2026-11-15",
+          "repeat": "periodic",
+          "owner": "",
+          "source": "manual",
+          "src_detail": {
+            "channel": "manual",
+            "from": "Ahmet / asistan notları",
+            "date": "2026-10-18",
+            "note": "DYS portal bilgisi (30 Tem, Ahmet e-Devlet ile girdi)"
+          }
         }
       ],
-      "summary": "HİB aidatı (₺74.912,04) ve IC Hospital imzası bekliyor"
+      "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri"
     },
     {
       "key": "cankat",
@@ -719,14 +814,26 @@
       "updated": "2026-10-17 18:10",
       "items": [
         {
-          "text": "HealthTürkiye 2026 üyelik yenileme ücreti: son ödeme tarihini mailden doğrula (3 hatırlatma geldi), USHAŞ/TÜRSAB yetkilendirmesine etkisini kontrol et",
-          "due": "19 Eki",
+          "text": "HealthTürkiye 2026 portal üyelik yenileme ücreti: SON GÜN 9 KASIM 2026 (mail 'son ödeme 19 Eki' değil). Ödenmezse portal üyeliği iptal, USHAŞ sözleşmeyi feshedebilir. Tutar mailde yok: portala gir → 'Abonelik' paneli → tutarı gör, öde. Mail 10 Eki'den beri her gün geliyor.",
+          "due": "9 Kas",
           "owner": "",
           "action_type": "Ödeme",
           "category": "Üyelik",
           "party": "HealthTürkiye",
           "amount": "",
-          "due_date": "2026-10-19"
+          "due_date": "2026-11-09",
+          "urgency": "orange",
+          "src_detail": {
+            "channel": "email",
+            "from": "HealthTürkiye (info@healthturkiye.gov.tr)",
+            "date": "2026-10-17",
+            "subject": "HealthTürkiye Üyelik Yenileme İşlemleri Hakkında",
+            "to": [
+              "ahmet@yeniben.com"
+            ],
+            "thread": "1a14993dfb2805ca",
+            "note": "10–17 Eki arası günlük 8 kopya, ücret portalda tahakkuk etti, yanıt/ödeme izi yok"
+          }
         },
         {
           "text": "'neome' marka başvurusu 2025/057803 kısmi tescil kararı (12 Eki): itiraz/başvuru süresini hesapla, karar verilecek",
@@ -762,15 +869,27 @@
           "urgency": "gray"
         },
         {
-          "text": "HealthTürkiye Uluslararası Sağlık Turizmi Performans Değerlendirme Formu bildirimi (29 Eyl): doldurulup gönderildi mi",
-          "due": "",
+          "text": "HealthTürkiye Performans Değerlendirme Formu (yıllık zorunlu denetim formu, 26 Nis–31 Ara 2025 dönemi): .xlsx'i doldur, açıklama alanlarına dayanak belge adlarını yaz, portala 29 Eki'ye kadar yükle (pencere 29.09–29.10.2026). Sadece acenta verisi, doğruluk sorumluluğu sende. Destek: 0 850 733 77 07. Yüklendiğine dair mail izi yok.",
+          "due": "29 Eki",
           "owner": "",
           "source": "gecmis-tarama",
-          "action_type": "Belge",
+          "action_type": "Başvuru",
           "category": "Üyelik",
           "party": "HealthTürkiye",
           "amount": "",
-          "urgency": "gray"
+          "urgency": "orange",
+          "due_date": "2026-10-29",
+          "src_detail": {
+            "channel": "email",
+            "from": "HealthTürkiye (info@healthturkiye.gov.tr)",
+            "date": "2026-09-29",
+            "subject": "Uluslararası Sağlık Turizmi Performans Değerlendirme Formu Bildirimi",
+            "to": [
+              "ahmet@yeniben.com"
+            ],
+            "thread": "1a0eeed840055fe8",
+            "note": "form maile .xlsx ekli; yönetmelik RG 32882 (26.04.2025); 2026 formları 01.01.2027'de yüklenecek"
+          }
         },
         {
           "text": "Genel kurul çağrısını başlat: YK süresi 15 Kasım'da, imza sirküleri vb. yaklaşık 1 ay içinde doluyor (acil)",
@@ -836,6 +955,10 @@
       ],
       "summary": "HealthTürkiye yenilemesi açık",
       "notes": [
+        {
+          "text": "HealthTürkiye mailleri ayıklandı: GERÇEK olanlar (1) üyelik yenileme, son gün 9 Kas; (2) performans formu, son gün 29 Eki. SPAM/pazarlama: Türksoy Danışmanlık ('YETKİ BELGENİZ İÇİN SON 3 AY', '31 ARALIK KRİTİK TARİH', resmi görünür ama özel danışmanlık, acentaya uygulanmaz), USTTAK, HİB fuar duyuruları. Giriş doğrulama kodu mailleri portal girişi, aksiyon değil.",
+          "at": "2026-10-18 15:00"
+        },
         {
           "text": "Güncelleme (17 Eki): Asgari sermaye uyum süresi Resmî Gazete'de (17.10.2026, Tebliğ) 31 Aralık 2026'dan 31 Aralık 2027'ye uzatıldı. 250 bin TL sermaye artırımının acelesi yok (notlarda kalsın, son tarih 31.12.2027). Genel kurul ise ACİL: YK süresi 15 Kasım, imza sirküleri vb. yaklaşık 1 ay içinde doluyor.",
           "at": "2026-10-17 14:40"
@@ -1175,7 +1298,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 14:10",
+  "updated": "2026-10-18 15:10",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
