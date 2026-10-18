@@ -114,8 +114,8 @@
     <div><button id="gh" aria-label="GitHub token" title="Kayıt ayarı">⚙</button> <button id="theme" aria-label="Tema">🌓</button></div>
   </header>
 
-  <nav class="tabs"><button id="tabD" class="on">Dashboard</button><button id="tabS">Abonelikler</button></nav>
-  <section class="card" id="subsCard"><h2>Abonelikler <button id="subNew" class="add" aria-label="Yeni abonelik">+</button></h2>
+  <nav class="tabs"><button id="tabD" class="on">Dashboard</button><button id="tabS">Subscriptions</button></nav>
+  <section class="card" id="subsCard"><h2>Subscriptions <button id="subNew" class="add" aria-label="New subscription">+</button></h2>
     <div class="sgrid" id="subSum"></div><div class="sflt" id="subFlt"></div><div id="subForm"></div><div id="subList"></div><div class="cfoot" id="subFoot"></div></section>
   <section class="card feed" id="feedCard"><h2><span>Bugün Yapılacaklar <span id="feedCount"></span></span> <button id="feedNew">+ Yeni</button></h2><div class="legend">Masada en çok 8 iş: 🔴 gecikmiş, 🟠 bu hafta, 📌 ya da ❗ hayati. Düşük önemli işler departmanlarda kalır. Satır rengi = <b>vade zamanlaması</b>: 🔴 gecikmiş · 🟠 bu hafta · 🟡 bu ay · ⚪ tarihsiz/belirsiz (tarih girersen renk kendiliğinden değişir)</div><div id="feed"></div><button id="feedMore" hidden>Tümünü göster</button></section>
 
@@ -268,7 +268,7 @@ async function commit(op){
     const r=await fetch(API+"?t="+Date.now(),{headers:ghHead()}); if(!r.ok)throw new Error("okuma "+r.status);
     const f=await r.json(); const latest=JSON.parse(b64d(f.content)); applyOp(latest,op);
     const p=await fetch(API,{method:"PUT",headers:{...ghHead(),"Content-Type":"application/json"},
-      body:JSON.stringify({message:"Dashboard: "+(op.t==="note"?"not":op.t==="delnote"?"not silindi":op.t.startsWith("feed")?"feed":op.t.startsWith("rev")?"inceleme":op.t.startsWith("sub")?"abonelik":"aksiyon")+" "+op.at,content:b64e(JSON.stringify(latest,null,2)+"\n"),sha:f.sha})});
+      body:JSON.stringify({message:"Dashboard: "+(op.t==="note"?"not":op.t==="delnote"?"not silindi":op.t.startsWith("feed")?"feed":op.t.startsWith("rev")?"inceleme":op.t.startsWith("sub")?"subscription":"aksiyon")+" "+op.at,content:b64e(JSON.stringify(latest,null,2)+"\n"),sha:f.sha})});
     if(!p.ok)throw new Error("yazma "+p.status);
     toast("data.json'a kaydedildi ✓");
   }catch(e){ toast("Kaydedilemedi: "+e.message+" (token/izin?)"); }
@@ -347,31 +347,32 @@ $("cashCard").addEventListener("click",e=>{
   else if(dn) commit({t:"fcdone",uid:dn.dataset.fcdone});
   else if(dl){ if(confirm("Bu beklenen kalem silinsin mi?")) commit({t:"fcdel",uid:dl.dataset.fcdel}); }
 });
-// ABONELİKLER
-const SUB_CAT=["CRM","AI","Eğlence","Muhasebe","SaaS","Ofis","Telekom","Pazarlama","Diğer"];
+// SUBSCRIPTIONS (English)
+const SUB_CAT=["CRM","AI","Entertainment","Accounting","SaaS","Office","Telecom","Marketing","Other"];
 window.__sf={typ:"",st:""};window.__sedit=null;
-const subTry=(x,d)=>{ const a=+x.amount||0, r=x.currency==="USD"?FXU(d):x.currency==="EUR"?FXR(d):1; return a*r*(x.period==="yıllık"?1/12:x.period==="haftalık"?52/12:1); };
-const subAmt=x=>x.amount===""||x.amount==null?"tutar ?":({TRY:"₺",USD:"$",EUR:"€"}[x.currency]||"")+(+x.amount).toLocaleString("tr-TR",{maximumFractionDigits:2})+" / "+(x.period==="yıllık"?"yıl":x.period==="haftalık"?"hafta":"ay");
+const subTry=(x,d)=>{ const a=+x.amount||0, r=x.currency==="USD"?FXU(d):x.currency==="EUR"?FXR(d):1; return a*r*(x.period==="yearly"?1/12:x.period==="weekly"?52/12:1); };
+const subDate=s=>{ if(!s)return""; const [y,m,d]=s.split("-"); return ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][+m-1]+" "+(+d)+(y!==String(new Date().getFullYear())?", "+y:""); };
+const subAmt=x=>x.amount===""||x.amount==null?"amount ?":({TRY:"₺",USD:"$",EUR:"€"}[x.currency]||"")+(+x.amount).toLocaleString("en-US",{minimumFractionDigits:Number.isInteger(+x.amount)?0:2,maximumFractionDigits:2})+" / "+({yearly:"yr",weekly:"wk"}[x.period]||"mo");
 function subForm(x){ x=x||{}; const sel2=(n,o,v)=>`<select name="${n}" aria-label="${n}">`+o.map(a=>`<option ${a===v?"selected":""}>${esc(a)}</option>`).join("")+`</select>`;
-  return `<form class="sf" data-key="${esc(x.uid||"")}"><input class="wide" name="name" placeholder="Abonelik adı" value="${esc(x.name||"")}" required>`
-  +`<input name="category" list="subcats" placeholder="Kategori" value="${esc(x.category||"")}"><datalist id="subcats">${SUB_CAT.map(c=>`<option>${c}</option>`).join("")}</datalist>`
-  +sel2("type",["iş","şahsi"],x.type||"iş")
-  +`<input name="amount" inputmode="decimal" placeholder="Tutar" value="${esc(x.amount??"")}">`+sel2("currency",["TRY","USD","EUR"],x.currency||"TRY")
-  +sel2("period",["aylık","yıllık","haftalık"],x.period||"aylık")+sel2("status",["aktif","iptal edilecek","iptal edildi"],x.status||"aktif")
-  +`<input name="payment_method" placeholder="Ödeme yöntemi (kart/hesap)" value="${esc(x.payment_method||"")}"><label class="dl">Sonraki ödeme<input name="next_payment_date" type="date" value="${esc(x.next_payment_date||"")}"></label>`
-  +`<textarea class="wide" name="notes" rows="2" placeholder="Not">${esc(x.notes||"")}</textarea><span class="fbtn wide"><button>Kaydet</button> <button type="button" data-sa="cancel">İptal</button></span></form>`; }
+  return `<form class="sf" data-key="${esc(x.uid||"")}"><input class="wide" name="name" placeholder="Subscription name" value="${esc(x.name||"")}" required>`
+  +`<input name="category" list="subcats" placeholder="Category" value="${esc(x.category||"")}"><datalist id="subcats">${SUB_CAT.map(c=>`<option>${c}</option>`).join("")}</datalist>`
+  +sel2("type",["business","personal"],x.type||"business")
+  +`<input name="amount" inputmode="decimal" placeholder="Amount" value="${esc(x.amount??"")}">`+sel2("currency",["TRY","USD","EUR"],x.currency||"TRY")
+  +sel2("period",["monthly","yearly","weekly"],x.period||"monthly")+sel2("status",["active","to cancel","cancelled"],x.status||"active")
+  +`<input name="payment_method" placeholder="Payment method (card/account)" value="${esc(x.payment_method||"")}"><label class="dl">Next payment<input name="next_payment_date" type="date" value="${esc(x.next_payment_date||"")}"></label>`
+  +`<textarea class="wide" name="notes" rows="2" placeholder="Notes">${esc(x.notes||"")}</textarea><span class="fbtn wide"><button>Save</button> <button type="button" data-sa="cancel">Cancel</button></span></form>`; }
 function renderSubs(d){
   const all=d.subscriptions||[], f=window.__sf;
-  const live=all.filter(x=>x.status!=="iptal edildi"), sum=t=>live.filter(x=>x.type===t).reduce((s,x)=>s+subTry(x,d),0), unk=live.filter(x=>x.amount===""||x.amount==null).length;
-  $("subSum").innerHTML=`<div class="ct yellow"><b>${TL(sum("iş"))}</b><span>İş / ay</span></div><div class="ct yellow"><b>${TL(sum("şahsi"))}</b><span>Şahsi / ay</span></div><div class="ct green"><b>${TL(sum("iş")+sum("şahsi"))}</b><span>Toplam / ay (TRY)</span></div>`;
+  const live=all.filter(x=>x.status!=="cancelled"), sum=t=>live.filter(x=>x.type===t).reduce((s,x)=>s+subTry(x,d),0), unk=live.filter(x=>x.amount===""||x.amount==null).length;
+  $("subSum").innerHTML=`<div class="ct yellow"><b>${TL(sum("business"))}</b><span>Business / mo</span></div><div class="ct yellow"><b>${TL(sum("personal"))}</b><span>Personal / mo</span></div><div class="ct green"><b>${TL(sum("business")+sum("personal"))}</b><span>Total / mo (TRY)</span></div>`;
   const fb=(k,v,l)=>`<button class="${f[k]===v?"on":""}" data-sf="${k}" data-v="${esc(v)}">${l}</button>`;
-  $("subFlt").innerHTML=fb("typ","","Hepsi")+fb("typ","iş","İş")+fb("typ","şahsi","Şahsi")+" · "+fb("st","","Tüm durum")+fb("st","aktif","Aktif")+fb("st","iptal edilecek","İptal edilecek")+fb("st","iptal edildi","İptal edildi");
-  const rows=all.filter(x=>(!f.typ||x.type===f.typ)&&(!f.st||x.status===f.st)).sort((a,b)=>(a.status==="iptal edildi")-(b.status==="iptal edildi")||String(a.name).localeCompare(String(b.name),"tr"));
+  $("subFlt").innerHTML=fb("typ","","All")+fb("typ","business","Business")+fb("typ","personal","Personal")+" · "+fb("st","","All statuses")+fb("st","active","Active")+fb("st","to cancel","To cancel")+fb("st","cancelled","Cancelled");
+  const rows=all.filter(x=>(!f.typ||x.type===f.typ)&&(!f.st||x.status===f.st)).sort((a,b)=>(a.status==="cancelled")-(b.status==="cancelled")||String(a.name).localeCompare(String(b.name),"en"));
   $("subForm").innerHTML=window.__sedit==="__new"?subForm():"";
-  $("subList").innerHTML=rows.map(x=>window.__sedit===x.uid?`<div class="sub">${subForm(x)}</div>`:`<div class="sub ${x.status==="iptal edilecek"?"sw":x.status==="iptal edildi"?"sx":""}"><div><span class="sn">${esc(x.name)}</span><small>${esc(x.category||"")} · ${esc(x.type||"")}${x.payment_method?" · "+esc(x.payment_method):""}${x.next_payment_date?" · sonraki "+esc(fmtDate(x.next_payment_date)):""}${x.status!=="aktif"?" · <b>"+esc(x.status)+"</b>":""}</small>${x.notes?`<small>${esc(x.notes)}</small>`:""}</div><div class="sa">${esc(subAmt(x))}</div><div class="sbtn"><button data-sa="edit" data-key="${esc(x.uid)}">✎</button><button data-sa="del" data-key="${esc(x.uid)}">✕</button></div></div>`).join("")||'<span class="date">Kayıt yok</span>';
-  $("subFoot").textContent=`${live.length} abonelik sayılıyor${unk?` · ${unk} kalemin tutarı girilmemiş (toplama 0 olarak giriyor)`:""} · USD ve EUR güncel kurla TL'ye çevrilir, yıllıklar 12'ye bölünür, haftalıklar ×52/12 ile aya çevrilir.`;
+  $("subList").innerHTML=rows.map(x=>window.__sedit===x.uid?`<div class="sub">${subForm(x)}</div>`:`<div class="sub ${x.status==="to cancel"?"sw":x.status==="cancelled"?"sx":""}"><div><span class="sn">${esc(x.name)}</span><small>${esc(x.category||"")} · ${esc(x.type||"")}${x.payment_method?" · "+esc(x.payment_method):""}${x.next_payment_date?" · next "+esc(subDate(x.next_payment_date)):""}${x.status!=="active"?" · <b>"+esc(x.status)+"</b>":""}</small>${x.notes?`<small>${esc(x.notes)}</small>`:""}</div><div class="sa">${esc(subAmt(x))}</div><div class="sbtn"><button data-sa="edit" data-key="${esc(x.uid)}" aria-label="Edit">✎</button><button data-sa="del" data-key="${esc(x.uid)}" aria-label="Delete">✕</button></div></div>`).join("")||'<span class="date">No subscriptions</span>';
+  $("subFoot").textContent=`${live.length} subscriptions counted${unk?` · ${unk} without an amount (counted as 0)`:""} · USD and EUR converted at the current rate, yearly ÷ 12, weekly × 52/12.`;
 }
-function showTab(t){ document.body.classList.toggle("tab-subs",t==="subs"); $("tabD").classList.toggle("on",t!=="subs"); $("tabS").classList.toggle("on",t==="subs"); try{history.replaceState(null,"",t==="subs"?"#abonelikler":location.pathname+location.search)}catch(e){} }
+function showTab(t){ document.body.classList.toggle("tab-subs",t==="subs"); $("tabD").classList.toggle("on",t!=="subs"); $("tabS").classList.toggle("on",t==="subs"); try{history.replaceState(null,"",t==="subs"?"#subscriptions":location.pathname+location.search)}catch(e){} }
 document.addEventListener("DOMContentLoaded",()=>{});
 function render(){
   const d=D;
@@ -442,13 +443,13 @@ $("feed").addEventListener("submit",e=>{const f=e.target.closest("form.fe"); if(
   if(key==="__new") commit({t:"feedadd",dep:v.dep,f:v}); else commit({t:"feededit",key,f:v}); });
 $("review").addEventListener("click",e=>{const b=e.target.closest("[data-rv]"); if(!b)return; const r=(window.__rvShow||[])[+b.dataset.i]; if(!r)return;
   if(b.dataset.rv==="block"){ if(!confirm("Bu göndericinin alanından gelen tüm mailler sessizce yok sayılsın mı?")) return; commit({t:"revblock",from:r.from}); } else commit({t:"revdel",from:r.from,subject:r.subject}); });
-$("tabD").onclick=()=>showTab("d"); $("tabS").onclick=()=>showTab("subs"); if(location.hash==="#abonelikler")showTab("subs");
+$("tabD").onclick=()=>showTab("d"); $("tabS").onclick=()=>showTab("subs"); if((location.hash==="#subscriptions"||location.hash==="#abonelikler"))showTab("subs");
 $("subNew").onclick=()=>{window.__sedit=window.__sedit==="__new"?null:"__new";renderSubs(D)};
 $("subsCard").addEventListener("click",e=>{
   const fb=e.target.closest("[data-sf]"); if(fb){window.__sf[fb.dataset.sf]=fb.dataset.v;renderSubs(D);return;}
   const b=e.target.closest("[data-sa]"); if(!b)return; const a=b.dataset.sa,key=b.dataset.key;
   if(a==="edit"){window.__sedit=window.__sedit===key?null:key;renderSubs(D)} else if(a==="cancel"){window.__sedit=null;renderSubs(D)}
-  else if(a==="del"&&confirm("Bu abonelik silinsin mi?")) commit({t:"subdel",key}); });
+  else if(a==="del"&&confirm("Delete this subscription?")) commit({t:"subdel",key}); });
 $("subsCard").addEventListener("submit",e=>{const f=e.target.closest("form.sf"); if(!f)return; e.preventDefault();
   const v=Object.fromEntries(new FormData(f)); const key=f.dataset.key; window.__sedit=null;
   v.amount=String(v.amount).trim()===""?"":parseFloat(String(v.amount).replace(/\./g,"").replace(",","."))||0;
