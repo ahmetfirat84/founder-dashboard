@@ -970,7 +970,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 06:50",
+  "updated": "2026-10-18 07:00",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1621,7 +1621,7 @@
     },
     {
       "uid": "jekv0h",
-      "name": "Turkcell · 0530 547 1042 (owner ?)",
+      "name": "Turkcell · Ahmet data line (iPad) · 0530 547 1042",
       "category": "Telecom",
       "amount": 712.6,
       "currency": "TRY",
@@ -1630,7 +1630,7 @@
       "next_payment_date": "",
       "type": "business",
       "status": "active",
-      "notes": "Owner not stated in the emails (Hülya?), please fill in. Bills vary: ₺889.70 (Jul), ₺77.60 (Sep), ₺712.60 (Oct). Auto-pay failed for insufficient balance each time."
+      "notes": "Ahmet Fırat's data line for the iPad (confirmed by Ahmet). Fixed base price, but bills vary: ₺889.70 (Jul), ₺77.60 (Sep), ₺712.60 (Oct), so overage is possible. Auto-pay (İş Bankası) failed for insufficient balance each time."
     },
     {
       "uid": "9fw3ox",
@@ -1686,7 +1686,7 @@
     },
     {
       "uid": "fzr6mr",
-      "name": "Data lines (company / personal) (fill in)",
+      "name": "Other data lines (fill in)",
       "category": "Telecom",
       "amount": "",
       "currency": "TRY",
@@ -1695,7 +1695,7 @@
       "next_payment_date": "",
       "type": "business",
       "status": "active",
-      "notes": "PLACEHOLDER: no data-only line or eSIM found in emails. Add one row per line."
+      "notes": "PLACEHOLDER: the iPad data line is listed above. Add any other data lines (company / personal) here, or delete this row."
     },
     {
       "uid": "x9wfe1",
