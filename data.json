@@ -282,6 +282,27 @@
       "updated": "2026-10-17 18:10",
       "items": [
         {
+          "uid": "s9mc5u",
+          "text": "SGK şirket tecil (Yeniben A.Ş.): ilk taksit 19.08.2026'da ödendi (VakıfBank kartından SGK'ya ₺65.000, teyit et), ödeme planı belgesi henüz alınmadı. 19.09 taksiti ÖDENMEDİ (1 taksit gecikmede), 19.10 taksiti yarın (Pzt). 4 taksit ödenmezse tecil bozulur: 19.09, 19.10, 19.11 ve 19.12 (Cumartesi → Pzt 21 Ara) ödenmezse 22 Ara'da bozulur. En güvenlisi 19.09 + 19.10'u (≈₺130.000) birlikte ödemek. Ödeme planını Beşiktaş/Şişli SGM'den veya e-SGK'dan al ve taksit tutarını kesinleştir.",
+          "action_type": "Ödeme",
+          "category": "Borç/Yapılandırma",
+          "party": "SGK (şirket)",
+          "amount": "~₺65.000 / taksit (tahmini)",
+          "due": "Pzt 19 Eki",
+          "due_date": "2026-10-19",
+          "plan_date": "2026-10-19",
+          "urgency": "red",
+          "pin": true,
+          "imp": "high",
+          "source": "manual",
+          "src_detail": {
+            "channel": "manual",
+            "from": "Ahmet Fırat",
+            "date": "2026-10-18",
+            "note": "Ahmet WhatsApp/sohbet: ilk taksit 19.08'de ödendi, 19.09 ödenmedi. Tutar VakıfBank 19.08.2026 'SGK Mosip' ₺65.000 bildiriminden (1a019990ce0ecbf2). Kural: SGK Genelge 2024/12 §17.8.1, 2026/7 ile 3→4 taksit"
+          }
+        },
+        {
           "uid": "nq4r9c",
           "text": "Bağkur 4/B (şahsi) 72 taksit: peşinat hariç hiç taksit ödenmedi. Vadesi geçen: taksit 2 (31 Ağu) ₺4.567,88 + taksit 3 (30 Eyl) ₺4.675,26 = 2 taksit gecikmede. 31 Eki taksiti ₺4.786,29 (31 Eki Cumartesi, Pzt 2 Kas mesai bitimine kadar ödenebilir). 4. ödenmeyen taksitte (30 Kas, ₺4.893,73) yapılandırma BOZULUR (ertesi gün, 1 Ara). Gecikenler tecil faiziyle birlikte son taksit tarihine (30.06.2032) kadar ödenirse bozulmaz, ama en güvenlisi 2 gecikmiş + Ekim taksitini 2 Kas'a kadar ödemek. Cari ay Bağ-Kur primleri de ayrıca ödenmeli.",
           "action_type": "Ödeme",
@@ -1319,7 +1340,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 17:00",
+  "updated": "2026-10-18 17:30",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
