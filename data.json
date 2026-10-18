@@ -970,7 +970,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 05:00",
+  "updated": "2026-10-18 05:10",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1556,16 +1556,16 @@
     },
     {
       "uid": "kecfpo",
-      "name": "Netflix",
+      "name": "Netflix Premium",
       "category": "Entertainment",
-      "amount": "",
+      "amount": 379.99,
       "currency": "TRY",
       "period": "monthly",
-      "payment_method": "Mastercard ••9016",
-      "next_payment_date": "",
+      "payment_method": "Visa ••3399",
+      "next_payment_date": "2026-10-28",
       "type": "personal",
       "status": "active",
-      "notes": "Account was suspended Oct 1 after a failed payment, payment details updated Oct 2. No amount in the emails. The card expired 8/2026, check it."
+      "notes": "Premium plan. Account was suspended Oct 1 after a failed payment, payment details updated Oct 2. Next charge Oct 28 on the Visa ••3399 card, which often declines (insufficient limit): make sure it has room."
     },
     {
       "uid": "3k2n4o",
