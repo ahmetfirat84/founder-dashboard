@@ -5954,7 +5954,7 @@
       "kind": "Kart borcu",
       "left": 377293.6,
       "link": "",
-      "note": "Ekstre ₺377.293,60, limit ₺371.250. Asgari ödeme ₺154.544 vadesi 15.10 geçti. Sonraki hesap kesim 06.11, son ödeme 16.11. Aylık faiz %4,25, gecikme %4,55.",
+      "note": "Ekstre ₺377.293,60, limit ₺371.250. Asgari ödeme ₺154.544 vadesi 15.10 geçti. Sonraki hesap kesim 06.11, son ödeme 16.11. Aylık faiz %4,25, gecikme %4,55. 18.10: Kanyon aidatına ₺50.000 harcama yapıldı, sonraki ekstreye yansır (borç ≈₺427K olabilir).",
       "rows": [
         {
           "d": "2026-10-15",
@@ -5965,6 +5965,20 @@
           "d": "2026-11-16",
           "amt": null,
           "label": "Sonraki ekstre son ödeme"
+        }
+      ]
+    },
+    {
+      "id": "kanyon-aidat",
+      "name": "Kanyon ev aidatı (geçmiş dönem)",
+      "kind": "Aidat borcu",
+      "left": 24171.27,
+      "note": "18.10.2026: ₺50.000 ödendi (VakıfBank kart ••3399), geçmiş dönemden ₺24.171,27 kaldı. Aylık güncel aidat ayrıca ₺23.478,60 (Apsiyon). Kalan tutarı Apsiyon'dan kontrol et.",
+      "rows": [
+        {
+          "d": "2026-10-18",
+          "amt": 24171.27,
+          "label": "Geçmiş dönem kalan"
         }
       ]
     }
