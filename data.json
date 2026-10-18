@@ -1673,6 +1673,10 @@
       ],
       "notes": [
         {
+          "text": "Apple abonelik: HiNoter AI Note Taker haftalık ₺184,99 (KDV dahil). 14 Ekim'de Visa ile ödendi, 22 Ekim'de otomatik yenilenecek. İptal edilecekse App Store abonelik ayarlarından kapatılmalı. (kaynak: E-posta (18 Eki 20:00): Apple · Your receipt from Apple.)",
+          "at": "2026-10-18 20:01"
+        },
+        {
           "text": "Apple Premium (aylık) aboneliği ₺99 ödendi (KDV dahil); 18 Kasım 2026'da yenilenecek. (kaynak: E-posta (17 Eki 19:38): Apple · Your receipt from Apple.)",
           "at": "2026-10-17 19:39"
         },
@@ -1687,7 +1691,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 18:56",
+  "updated": "2026-10-18 20:01",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1747,7 +1751,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEEyMzc3MjkxRDBEMDJDNEFGRUQA",
     "1a14fb95b55d8a48",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1NjVDREU3OERERjdBNzBFNTgA",
-    "1a14fba5ead88963"
+    "1a14fba5ead88963",
+    "1a14ff59be436502"
   ],
   "feed_order": [
     "qt5dom",
@@ -5423,7 +5428,7 @@
         },
         {
           "d": "2032-04-30",
-          "amt": 11978.0,
+          "amt": 11978,
           "label": "Taksit 70",
           "inst": true
         },
