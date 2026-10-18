@@ -974,7 +974,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 11:40",
+  "updated": "2026-10-18 11:50",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1496,7 +1496,7 @@
     },
     {
       "uid": "tasa6e",
-      "name": "Disney+",
+      "name": "Disney+ Ad-free",
       "category": "Entertainment",
       "amount": 449.9,
       "currency": "TRY",
@@ -1505,7 +1505,7 @@
       "next_payment_date": "",
       "type": "personal",
       "status": "active",
-      "notes": "PAYMENT FAILING: ₺449.90 charge failed on Sep 30 and Oct 2 (card limit insufficient), also in May, June and July. Update the card or cancel."
+      "notes": "Current plan: Disney+ Reklamsız (ad-free), ₺449.90/month (confirmed by Ahmet). PAYMENT FAILING: the charge failed on Sep 30 and Oct 2 (card limit insufficient) and also in May, June and July. Update the card or cancel."
     },
     {
       "uid": "kecfpo",
