@@ -282,6 +282,19 @@
       "updated": "2026-10-17 18:10",
       "items": [
         {
+          "text": "VakıfBank kart asgarisi ödenmedi: asgari ₺154.544,00 acil, toplam ekstre ₺377.293,60 (bilgi). Para girince ilk öde",
+          "due": "Vadesi geçti (15 Eki)",
+          "owner": "",
+          "action_type": "Ödeme",
+          "category": "Banka / Kart",
+          "party": "VakıfBank",
+          "amount": "₺154.544,00 (asgari)",
+          "source": "asistan",
+          "id": "1a144b11f137335a",
+          "feed": false,
+          "due_date": "2026-10-15"
+        },
+        {
           "text": "SGK yapılandırma: ödeme planı dökümünü çıkar (taksit sayısı, ödenen/aksayan, ilk taksit 31.08 ödendi mi, bozulma tarihi). Form 25 Tem'de kargoyla gitti, Yasemin Hanım 'arayacağım' dedi, sonrası mailde yok: ondan teyit al.",
           "due": "19 Eki",
           "owner": "",
@@ -303,16 +316,6 @@
           "due_date": "2026-10-19"
         },
         {
-          "text": "2025 kurumlar vergisi beyannamesi (Yasemin Hanım, 13 Eki, PDF): mail gövdesinde tutar/vade yok. PDF'ten vergi tutarını ve ödeme/onay tarihini çıkar, onay ver.",
-          "due": "21 Eki",
-          "owner": "",
-          "action_type": "Belge",
-          "category": "Vergi",
-          "party": "CPA Türk",
-          "amount": "",
-          "due_date": "2026-10-21"
-        },
-        {
           "text": "Garanti BBVA kredi kartı gecikme uyarıları (24 Eyl, 30 Eyl): banka 30 Eyl'de 'yakın izleme' sürecini başlatacağını bildirdi, borcu kontrol et, para girince ilk öde",
           "due": "Acil",
           "owner": "",
@@ -325,6 +328,16 @@
           "urgency": "red",
           "done": true,
           "doneAt": "2026-10-18 11:46"
+        },
+        {
+          "text": "2025 kurumlar vergisi beyannamesi (Yasemin Hanım, 13 Eki, PDF): mail gövdesinde tutar/vade yok. PDF'ten vergi tutarını ve ödeme/onay tarihini çıkar, onay ver.",
+          "due": "21 Eki",
+          "owner": "",
+          "action_type": "Belge",
+          "category": "Vergi",
+          "party": "CPA Türk",
+          "amount": "",
+          "due_date": "2026-10-21"
         },
         {
           "text": "Ersun Bey'e banka ekstreleri: TÜM TL ve döviz hesapları, 01.04–30.09.2026 (2 Eki talebi; Q3 geçici vergi için). Yanıt ve ekstre gönderimi mailde yok. Önceki dönemler (01.01–31.03, 01.04–30.06) için de gönderim görünmüyor, hepsini tek pakette gönder.",
@@ -372,19 +385,6 @@
           "party": "CPA Türk",
           "amount": "",
           "urgency": "gray"
-        },
-        {
-          "text": "VakıfBank kart asgarisi ödenmedi: asgari ₺154.544,00 acil, toplam ekstre ₺377.293,60 (bilgi). Para girince ilk öde",
-          "due": "Vadesi geçti (15 Eki)",
-          "owner": "",
-          "action_type": "Ödeme",
-          "category": "Banka / Kart",
-          "party": "VakıfBank",
-          "amount": "₺154.544,00 (asgari)",
-          "source": "asistan",
-          "id": "1a144b11f137335a",
-          "feed": false,
-          "due_date": "2026-10-15"
         },
         {
           "text": "HubSpot kart ödemesi reddedildi (fatura 842326601, €320); kartı güncelle/ödemeyi yeniden dene, yoksa hesap 28 Eki'de askıya alınır",
