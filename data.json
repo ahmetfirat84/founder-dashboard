@@ -970,7 +970,7 @@
       ]
     }
   ],
-  "updated": "2026-10-18 05:10",
+  "updated": "2026-10-18 05:20",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1569,16 +1569,16 @@
     },
     {
       "uid": "3k2n4o",
-      "name": "Spotify Premium",
+      "name": "Spotify Premium Family",
       "category": "Entertainment",
       "amount": 199,
       "currency": "TRY",
       "period": "monthly",
-      "payment_method": "",
-      "next_payment_date": "",
+      "payment_method": "Mastercard ••9934",
+      "next_payment_date": "2026-11-12",
       "type": "personal",
       "status": "active",
-      "notes": "Price rises from ₺165 to ₺199 on the November billing date."
+      "notes": "Family plan. Price rose from ₺165 to ₺199 starting with the November bill. Next invoice Nov 12."
     },
     {
       "uid": "g94ayo",
