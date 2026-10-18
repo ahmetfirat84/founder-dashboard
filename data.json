@@ -676,6 +676,18 @@
       "updated": "2026-10-16 16:45",
       "items": [
         {
+          "text": "HİB yıllık aidat ödemesi",
+          "action_type": "Ödeme",
+          "category": "Aidat",
+          "party": "HİB",
+          "amount": "₺74.912,04",
+          "due": "Ekim sonu",
+          "owner": "",
+          "feed": false,
+          "note": "Ödenmezse teşvik ödemeleri durdurulmuş durumda. Kasım'da gecikme zammı eklenecek. Ödeme sonrası dekont HİB'e mail ile iletilecek.",
+          "due_date": "2026-10-31"
+        },
+        {
           "text": "EK-21A dosya durumunu teyit et (yeni hareket görülmedi)",
           "due": "",
           "owner": "",
@@ -695,18 +707,6 @@
           "owner": "",
           "note": "Son hatırlatma 15 Eki, tekrar 16 Eki. Sonrasında Medcure anlaşması donuyor, teşvik işlerini kendimiz yapacağız.",
           "urgency": "gray"
-        },
-        {
-          "text": "HİB yıllık aidat ödemesi",
-          "action_type": "Ödeme",
-          "category": "Aidat",
-          "party": "HİB",
-          "amount": "₺74.912,04",
-          "due": "Ekim sonu",
-          "owner": "",
-          "feed": false,
-          "note": "Ödenmezse teşvik ödemeleri durdurulmuş durumda. Kasım'da gecikme zammı eklenecek. Ödeme sonrası dekont HİB'e mail ile iletilecek.",
-          "due_date": "2026-10-31"
         }
       ],
       "summary": "HİB aidatı (₺74.912,04) ve IC Hospital imzası bekliyor"
