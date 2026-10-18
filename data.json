@@ -322,7 +322,9 @@
           "party": "Garanti BBVA",
           "amount": "",
           "feed": false,
-          "urgency": "red"
+          "urgency": "red",
+          "done": true,
+          "doneAt": "2026-10-18 11:46"
         },
         {
           "text": "Ersun Bey'e banka ekstreleri: TÜM TL ve döviz hesapları, 01.04–30.09.2026 (2 Eki talebi; Q3 geçici vergi için). Yanıt ve ekstre gönderimi mailde yok. Önceki dönemler (01.01–31.03, 01.04–30.06) için de gönderim görünmüyor, hepsini tek pakette gönder.",
