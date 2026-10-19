@@ -290,9 +290,9 @@
       "party": "Saygın Patent",
       "action_type": "Ödeme",
       "category": "Hukuk",
-      "amount": "₺15.600 (13.000 + %20 KDV)",
+      "amount": "₺15.600 (ödendi)",
       "amount_try": 15600,
-      "due": "BUGÜN 17:00'a kadar (son gün)",
+      "due": "Ödendi 19.10",
       "due_date": "2026-10-19",
       "plan_date": "2026-10-19",
       "urgency": "red",
@@ -302,7 +302,18 @@
       "origin": "Ahmet 18 Eki (e-posta: Saygın Patent, 12 Eki)",
       "uid": "qt5dom",
       "mail_thread": "1a12f26f8a909d20",
-      "note": "2025/057803 'neome' markası kısmen tescil edildi; tescil belge ücreti ₺13.000 + KDV = ₺15.600. Son gün 19 Ekim 2026 (Enes WhatsApp'tan teyit etti; ilk mailde 18 Eki yazıyordu), geçerse tescil işlemi düşebilir. Alıcı: SAYGIN PATENT A.Ş. Denizbank IBAN TR42 0013 4000 0144 4059 2000 01 · Garanti IBAN TR34 0006 2001 3960 0006 2983 23. Ödeme sonrası dekontu WhatsApp'a at, kapatılır. 19.10 11:00 Enes yeniden hatırlattı (mail): resmi son tarih bugün, saat 17:00'a kadar ödeme."
+      "note": "2025/057803 'neome' markası kısmen tescil edildi; tescil belge ücreti ₺13.000 + KDV = ₺15.600. Son gün 19 Ekim 2026 (Enes WhatsApp'tan teyit etti; ilk mailde 18 Eki yazıyordu), geçerse tescil işlemi düşebilir. Alıcı: SAYGIN PATENT A.Ş. Denizbank IBAN TR42 0013 4000 0144 4059 2000 01 · Garanti IBAN TR34 0006 2001 3960 0006 2983 23. Ödeme sonrası dekontu WhatsApp'a at, kapatılır. 19.10 11:00 Enes yeniden hatırlattı (mail): resmi son tarih bugün, saat 17:00'a kadar ödeme. ÖDENDİ 2026-10-19: ₺15.600 (dekont, havale ücreti ₺16.76). Satır tutarı ₺15.600.",
+      "done": true,
+      "doneAt": "2026-10-19 12:17",
+      "proof": {
+        "type": "banka dekontu",
+        "date": "2026-10-19",
+        "amount_try": 15600,
+        "fee_try": 16.76,
+        "channel": "WhatsApp (19 Eki 12:17, belge)",
+        "drive_url": "https://drive.google.com/file/d/1Gb9YmdgrHEGWz5yZyBlExBOUZqnalK8n/view?usp=drivesdk",
+        "draft_url": ""
+      }
     }
   ],
   "departments": [
@@ -1745,7 +1756,7 @@
       ]
     }
   ],
-  "updated": "2026-10-19 11:57",
+  "updated": "2026-10-19 12:17",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1812,7 +1823,8 @@
     "1a1532b6804fa8f9",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FENzA0OEVGRTlDOUE5NUZGMTUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E2MjJFREQ1QzMxOUM3OTYxQUMA",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFERDcwOEZGQ0YzNThFOThBNEYA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFERDcwOEZGQ0YzNThFOThBNEYA",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFBRkFDQjJFMDhGMkYyNjYyQTYA"
   ],
   "feed_order": [
     "qt5dom",
