@@ -1515,6 +1515,22 @@
       "updated": "2026-10-17 18:10",
       "items": [
         {
+          "text": "Reklam harcamaları, leadler ve satışları izleyecek ayrı bir dashboard kur ve Yeni Zelanda gastric sleeve akışıyla kontrollü reklam yatırımını başlat (dönüşüm maliyeti hedefi 300-400 € altı).",
+          "action_type": "Yanıt",
+          "category": "Toplantı",
+          "party": "Yeni Zelanda gastric sleeve",
+          "source": "toplanti",
+          "uid": "6uqqmy",
+          "src_detail": {
+            "channel": "toplantı",
+            "subject": "& New Me_Weekly",
+            "date": "2026-10-19",
+            "thread": "1a153c2606709ab9",
+            "note": "HiNoter notundan, Ahmet onayladı"
+          },
+          "urgency": "gray"
+        },
+        {
           "text": "Meta Ads (act_537657538463949) son 7 günde 0 harcama / 0 lead / 0 aktif reklam: bilinçli mi, ödeme/kampanya sorunu mu? Daily'de rapor ver",
           "due": "16 Eki 12:30",
           "owner": "",
@@ -6253,7 +6269,7 @@
           "dep": "ilksen",
           "owner": "",
           "party": "Yeni Zelanda gastric sleeve",
-          "status": "proposed"
+          "status": "added"
         },
         {
           "id": "sc881z",
