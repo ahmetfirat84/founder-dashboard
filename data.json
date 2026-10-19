@@ -1770,7 +1770,7 @@
       ]
     }
   ],
-  "updated": "2026-10-19 12:37",
+  "updated": "2026-10-19 13:44",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1841,7 +1841,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFBRkFDQjJFMDhGMkYyNjYyQTYA",
     "1a12f26f8a909d20",
     "1a1537970f658954",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDhCRTEzOEJGMEFDMTUwQzdCOQA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDhCRTEzOEJGMEFDMTUwQzdCOQA=",
+    "1a153c2606709ab9"
   ],
   "feed_order": [
     "qt5dom",
@@ -6207,6 +6208,66 @@
         "phone": "905395737017",
         "greet": "Enes Bey"
       }
+    }
+  ],
+  "meeting_notes": [
+    {
+      "id": "p5430s",
+      "title": "& New Me_Weekly",
+      "date": "2026-10-19",
+      "summary": "Toplantıda lead kalitesi, satış dönüşümü, doktor seçimi ve fiyatlandırma süreçleri ile kontrollü reklam yatırımı modeli ele alındı. Ocak ayına kadar hızlı yanıt ve ortak konsültasyonlarla en az dört-beş satış hedeflendi; ilk reklam odağı Yeni Zelanda gastric sleeve akışı olacak. Site geçişi nedeniyle teklif bağlantıları güncellenecek ve nakit akışı için erken ödemeler öncelikli tutulacak.",
+      "thread": "1a153c2606709ab9",
+      "actions": [
+        {
+          "id": "zl9hh1",
+          "text": "Site geçişi nedeniyle mevcut teklif bağlantılarını güncelle ve yeni tekliflerde standartlaştırılmış kodu kullan.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "ig1ru0",
+          "text": "Şubat ayı işlemleri için ilerleyen Yeni Zelanda ve Amerika'daki hastaların ödeme, depozito ve operasyon tarihlerini doğrula; yanıt vermeyen leadleri aktif listeden ele.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "Yeni Zelanda ve Amerika'daki hastalar",
+          "status": "proposed"
+        },
+        {
+          "id": "gwp26h",
+          "text": "Ocak ayına kadar hızlı yanıt ve ortak konsültasyonlarla en az dört-beş satış kapat.",
+          "dep": "zeynep",
+          "owner": "",
+          "due_date": "2027-01-31",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "c3zhjp",
+          "text": "Reklam harcamaları, leadler ve satışları izleyecek ayrı bir dashboard kur ve Yeni Zelanda gastric sleeve akışıyla kontrollü reklam yatırımını başlat (dönüşüm maliyeti hedefi 300-400 € altı).",
+          "dep": "ilksen",
+          "owner": "",
+          "party": "Yeni Zelanda gastric sleeve",
+          "status": "proposed"
+        },
+        {
+          "id": "sc881z",
+          "text": "Codi için sağlık değerleri nedeniyle ek takip yap; uçuş, konaklama, ödeme ve ameliyat öncesi kontrolleri birlikte izle.",
+          "dep": "ecem",
+          "owner": "",
+          "party": "Codi",
+          "status": "proposed"
+        },
+        {
+          "id": "qj4tkl",
+          "text": "Hatcher üzerinden kullanıcı davranışı, doktor eşleşmesi ve dönüşüm kayıplarını analiz et; rakipleri araştır ve yeni arama promptlarıyla yapay zekâ görünürlüğünü düzenli takip et.",
+          "dep": "ilksen",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        }
+      ]
     }
   ]
 }
