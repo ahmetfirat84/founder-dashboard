@@ -322,6 +322,22 @@
         "amount_try": 15600,
         "drive_url": "https://drive.google.com/file/d/1B0r2zLI4g1nnrsK2qJAMs_-999AQJspE/view?usp=drivesdk"
       }
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Yazılım",
+      "party": "Anthropic",
+      "amount": "",
+      "due": "~2 gün içinde",
+      "uid": "8ssaix",
+      "source": "mail-gelen",
+      "origin": "E-posta (19 Eki 14:54): Anthropic · New Me is running low on usage credits",
+      "wamid": "1a15403246b9cbdf",
+      "mail_thread": "1a15403246b9cbdf",
+      "imp": "high",
+      "due_date": "2026-10-21",
+      "title": "Anthropic",
+      "note": "Claude Team kredi bakiyesi $1,11, günlük ~$0,56 harcamayla yaklaşık 2 günde bitiyor; kredi yüklenmezse ekip erişimi duracak."
     }
   ],
   "departments": [
@@ -1788,7 +1804,7 @@
       ]
     }
   ],
-  "updated": "2026-10-19 14:17",
+  "updated": "2026-10-19 14:54",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1862,7 +1878,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDhCRTEzOEJGMEFDMTUwQzdCOQA=",
     "1a153c2606709ab9",
     "1a153c54e1afd570",
-    "1a153e15801f7b0c"
+    "1a153e15801f7b0c",
+    "1a15403246b9cbdf"
   ],
   "feed_order": [
     "qt5dom",
