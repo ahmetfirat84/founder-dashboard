@@ -1858,7 +1858,7 @@
       ]
     }
   ],
-  "updated": "2026-10-19 17:23",
+  "updated": "2026-10-19 18:25",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1944,7 +1944,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDg2NEVEQTY2RDY4NEU2QkU0MAA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDFEODJFNDRCRTE5QTFCMTRDMQA=",
     "1a15449c993ebd0b",
-    "1a1548b1edc7f4a4"
+    "1a1548b1edc7f4a4",
+    "1a154c3a538e55a9"
   ],
   "feed_order": [
     "qt5dom",
@@ -6313,6 +6314,63 @@
     }
   ],
   "meeting_notes": [
+    {
+      "id": "1r9xbt",
+      "title": "Mo x ANDNEWME",
+      "date": "2026-10-19",
+      "summary": "Yeni Zelanda ve Türkiye şirketleri lisanslama, koordinatör istihdamı, ödeme akışları ve seyahat organizasyonu konularında iş birliğini görüştü. Oceanscape New Zealand'in resmi seyahat partneri olması ilke olarak kabul edildi. Lisans denetimi sonrası koordinatör ve sözleşme adımları netleşecek.",
+      "thread": "1a154c3a538e55a9",
+      "actions": [
+        {
+          "id": "i9huxr",
+          "text": "Yeni Zelanda şirketi, yaklaşan ofis denetimini tamamlayacak; sorun sürerse lisans danışmanını yeniden değerlendirecek.",
+          "dep": "cankat",
+          "owner": "",
+          "party": "ANDNEWME",
+          "status": "proposed"
+        },
+        {
+          "id": "66gkdi",
+          "text": "Önerilen İstanbul'daki koordinatörün CV'si incelenecek, görüşme ayarlanacak ve maliyetin paylaşılıp paylaşılamayacağı belirlenecek.",
+          "dep": "ecem",
+          "owner": "",
+          "party": "Koordinatör adayı",
+          "status": "proposed"
+        },
+        {
+          "id": "04zixr",
+          "text": "Lisanslama, ödeme akışları, koordinatör sorumlulukları, seyahat organizasyonu, teşvikler, gizlilik ve müşteri sahipliğini kapsayan sözleşmeler hazırlanacak.",
+          "dep": "cankat",
+          "owner": "",
+          "party": "ANDNEWME / Oceanscape New Zealand",
+          "status": "proposed"
+        },
+        {
+          "id": "tlmcs7",
+          "text": "Hastaların web sitesi veya marketplace üzerinden seyahat talep edebilmesi için seyahat rezervasyon linki ile ödeme linki örnekleri ve kullanım talimatları oluşturulup paylaşılacak.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "Oceanscape New Zealand",
+          "status": "proposed"
+        },
+        {
+          "id": "2q9xj4",
+          "text": "Rakip fiyatları, ilgili hizmet maliyetleri ve teşvik uygunluğu araştırılacak.",
+          "dep": "damla",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "qe23wg",
+          "text": "Tekrarlayan hasta soruları, ödeme sorunları ve gecikmeler derlenecek; seyahat rezervasyon süreci hastalara net şekilde anlatılacak.",
+          "dep": "ecem",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        }
+      ]
+    },
     {
       "id": "p5430s",
       "title": "& New Me_Weekly",
