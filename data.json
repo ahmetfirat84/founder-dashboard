@@ -260,12 +260,12 @@
       "due": "Vadesi geçti (en eski açık fatura 22.04)",
       "uid": "8zkm7p",
       "source": "whatsapp",
-      "origin": "WhatsApp (17 Eki 16:35, iletilen yazışma, 9 mesaj, 1 ek)",
+      "origin": "WhatsApp (19 Eki 16:11, yazılı)",
       "wamid": "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEVFMTkzRjc2QTRGM0VBOUNBNgA=",
       "plan_date": "2026-10-19",
       "due_date": "2026-04-22",
       "title": "Barivital",
-      "note": "Barivital güncel bakiye ₺22.950,05 (ekstre 13.10, borç ₺87.950,05 - ödenen ₺65.000). Son fatura 12.10.2026 ₺837,50. Ahmet: önümüzdeki hafta ödeme yapılacak."
+      "note": "Barivital'den ödeme bilgisi (IBAN/bakiye teyidi) istendi; güncel bakiye ₺22.950,05"
     },
     {
       "action_type": "Ödeme",
@@ -1858,7 +1858,7 @@
       ]
     }
   ],
-  "updated": "2026-10-19 16:10",
+  "updated": "2026-10-19 16:11",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1941,7 +1941,8 @@
     "1a0e6f682a4f6e8c",
     "1a0f0c53058a928f",
     "1a15382a4d7014e5",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDg2NEVEQTY2RDY4NEU2QkU0MAA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDg2NEVEQTY2RDY4NEU2QkU0MAA=",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDFEODJFNDRCRTE5QTFCMTRDMQA="
   ],
   "feed_order": [
     "qt5dom",
