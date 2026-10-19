@@ -6149,7 +6149,8 @@
       "iban": "",
       "contact": {
         "person": "Esra Hanım",
-        "phone": "905539490826"
+        "phone": "905539490826",
+        "greet": "Esra Hanım"
       },
       "note": "Muhasebe. Numara WhatsApp Business olabilir.",
       "updated": "2026-10-19"
@@ -6159,18 +6160,21 @@
       "name": "Tetik Turizm",
       "iban": "",
       "contact": {
-        "person": "Emre Bey (Emre Toprak)",
-        "phone": "905340214061"
+        "person": "Emre Bey",
+        "phone": "905340214061",
+        "greet": "Emre Bey"
       },
-      "updated": "2026-10-19"
+      "updated": "2026-10-19",
+      "note": " Yetkili: Emre Toprak."
     },
     {
       "id": "hayns2",
       "name": "Orya Hotel",
       "iban": "",
       "contact": {
-        "person": "Orya Hotel yetkilisi (isim bilinmiyor)",
-        "phone": "905307029729"
+        "person": "Orya Hotel yetkilisi",
+        "phone": "905307029729",
+        "greet": ""
       },
       "updated": "2026-10-19"
     },
@@ -6179,10 +6183,11 @@
       "name": "Fulya Ada Eczanesi",
       "iban": "",
       "contact": {
-        "person": "Ömer Faruk Kılınç",
-        "phone": "905308539758"
+        "person": "Ömer Faruk Bey",
+        "phone": "905308539758",
+        "greet": "Ömer Faruk Bey"
       },
-      "note": "Eczane yetkilisi.",
+      "note": "Eczane yetkilisi: Ömer Faruk Kılınç.",
       "updated": "2026-10-19"
     },
     {
@@ -6191,7 +6196,8 @@
       "iban": "",
       "contact": {
         "person": "Barivital muhasebe",
-        "phone": "905069292429"
+        "phone": "905069292429",
+        "greet": ""
       },
       "note": "Protein supplement (gastric sleeve sonrası). WhatsApp Business hattı.",
       "updated": "2026-10-19"
@@ -6201,7 +6207,7 @@
       "name": "Saygın Patent",
       "holder": "SAYGIN PATENT A.Ş.",
       "updated": "2026-10-19",
-      "note": "Marka işlemleri. Aynı IBAN'lar Enes'in 19.10 tarihli mailinde de var.",
+      "note": "Marka işlemleri. Muhasebe ve operasyon: Ahmet Enes Şahin. Aynı IBAN'lar 19.10 tarihli mailde de var.",
       "bank": "Denizbank",
       "iban": "TR420013400001444059200001",
       "alt": [
@@ -6211,8 +6217,9 @@
         }
       ],
       "contact": {
-        "person": "Enes Bey (Ahmet Enes Şahin, Saygın Patent muhasebe)",
-        "phone": "905395737017"
+        "person": "Enes Bey",
+        "phone": "905395737017",
+        "greet": "Enes Bey"
       }
     }
   ]
