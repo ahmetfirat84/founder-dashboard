@@ -759,6 +759,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Vital Hotel Fulya banka bilgi belgesi geldi: ödeme alıcı unvanı VİTAL FULYA TURİZM A.Ş. (Halk Bankası, TL/EUR/USD/GBP hesapları var). Açık ₺27.949,21 borcu (r11) ödenirken dekont alıcı unvanı bununla eşleşmeli; IBAN kaydedilmedi. (kaynak: WhatsApp (19 Eki 11:51, iletilen yazışma, 2 mesaj, 1 ek))",
+          "at": "2026-10-19 11:51"
+        },
+        {
           "text": "VakıfBank bildirimi: 21.09.2026 tarihli SGK tahsilatı 88,61 TL ödenmiş (Mosip). Açık SGK kalemleriyle eşleşmiyor, mutabakatta kontrol edilebilir. (kaynak: E-posta (18 Eki 18:56): VakıfBank · Bilgilendirme: 21.09.2026 Tarihli SGK Ödemes)",
           "at": "2026-10-18 18:56"
         },
@@ -1794,7 +1798,8 @@
     "1a150de2ea177123",
     "1a150feafbbd8e4d",
     "1a1532b6804fa8f9",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FENzA0OEVGRTlDOUE5NUZGMTUA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FENzA0OEVGRTlDOUE5NUZGMTUA",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E2MjJFREQ1QzMxOUM3OTYxQUMA"
   ],
   "feed_order": [
     "tmtmkp",
