@@ -141,7 +141,7 @@
   <section class="card" id="subsCard"><h2>Subscriptions <button id="subNew" class="add" aria-label="New subscription">+</button></h2>
     <div class="sgrid" id="subSum"></div><div class="sflt" id="subFlt"></div><div id="subForm"></div><div id="subList"></div><div class="cfoot" id="subFoot"></div></section>
   <section class="card" id="rhCard"><h2>Rehber <small style="font-weight:400;color:var(--mut)">şirket IBAN'ları</small> <button id="rhNew" class="add" aria-label="Yeni kayıt">+</button></h2>
-    <input id="rhQ" type="search" placeholder="Ara: firma, banka, IBAN…" autocomplete="off"><div id="rhForm"></div><div id="rhList"></div><div class="cfoot" id="rhFoot"></div></section>
+    <input id="rhQ" type="search" placeholder="Ara: firma, banka, IBAN…" autocomplete="off"><div id="rhForm"></div><div id="rhList"></div><div class="cfoot" id="rhFoot"></div><h3 style="font-size:13px;margin:16px 0 4px;color:var(--mut)">Asistan hafızası</h3><div id="rhMem"></div></section>
   <section class="card" id="dbCard"><h2>Borçlar <small id="dbSub" style="font-weight:400;color:var(--mut)"></small></h2>
     <div class="sgrid" id="dbSum"></div><div class="dbcal" id="dbCal"></div><div id="dbList"></div><div class="cfoot" id="dbFoot"></div></section>
   <section class="card" id="spCard"><h2>Harcamalar <small id="spSub" style="font-weight:400;color:var(--mut)"></small></h2>
@@ -298,6 +298,7 @@ function applyOp(d,op){
       dep.items=dep.items.map(i=>typeof i==="string"?{text:i}:i);
       const it={text:a.text,action_type:"Yanıt",category:"Toplantı",party:a.party||a.owner||"",source:"toplanti",uid:op.uid,src_detail:{channel:"toplantı",subject:n.title,date:n.date,thread:n.thread,note:"HiNoter notundan, Ahmet onayladı"+(a.owner?" · sahibi: "+a.owner:"")}};
       if(a.due_date)it.due_date=a.due_date; else it.urgency="gray"; dep.items.unshift(it); a.status="added"; } else a.status="skipped"; return; }
+  if(op.t==="memdel"){ d.memory=(d.memory||[]).filter(x=>x.id!==op.key); return; }
   if(op.t==="subdel"){ d.subscriptions=(d.subscriptions||[]).filter(x=>x.uid!==op.key); return; }
   if(op.t==="revdel"){ d.review=(d.review||[]).filter(r=>!(r.from===op.from&&r.subject===op.subject)); return; }
   if(op.t==="revblock"){ const m=String(op.from).match(/<([^>]+)>/); const ad=(m?m[1]:op.from).trim().toLowerCase(), dom=ad.split("@")[1]||ad; d.blocked_senders=[...new Set([...(d.blocked_senders||[]),dom])];
@@ -320,7 +321,7 @@ async function commit(op){
     const r=await fetch(API+"?t="+Date.now(),{headers:ghHead()}); if(!r.ok)throw new Error("okuma "+r.status);
     const f=await r.json(); const latest=JSON.parse(b64d(f.content)); applyOp(latest,op);
     const p=await fetch(API,{method:"PUT",headers:{...ghHead(),"Content-Type":"application/json"},
-      body:JSON.stringify({message:"Dashboard: "+(op.t==="note"?"not":op.t==="delnote"?"not silindi":op.t.startsWith("feed")?"feed":op.t.startsWith("rev")?"inceleme":op.t.endsWith("order")?"reorder":op.t==="moveitem"?"category":op.t.startsWith("sub")?"subscription":op.t.startsWith("sp")?"harcama":op.t.startsWith("debt")?"borc":op.t.startsWith("dir")?"rehber":op.t.startsWith("mt")?"toplanti":"aksiyon")+" "+op.at,content:b64e(JSON.stringify(latest,null,2)+"\n"),sha:f.sha})});
+      body:JSON.stringify({message:"Dashboard: "+(op.t==="note"?"not":op.t==="delnote"?"not silindi":op.t.startsWith("feed")?"feed":op.t.startsWith("rev")?"inceleme":op.t.endsWith("order")?"reorder":op.t==="moveitem"?"category":op.t.startsWith("sub")?"subscription":op.t.startsWith("sp")?"harcama":op.t.startsWith("debt")?"borc":op.t.startsWith("dir")?"rehber":op.t==="memdel"?"hafiza":op.t.startsWith("mt")?"toplanti":"aksiyon")+" "+op.at,content:b64e(JSON.stringify(latest,null,2)+"\n"),sha:f.sha})});
     if(!p.ok)throw new Error("yazma "+p.status);
     toast("data.json'a kaydedildi ✓");
   }catch(e){ toast("Kaydedilemedi: "+e.message+" (token/izin?)"); }
@@ -483,6 +484,7 @@ function renderRh(d){
   const rows=all.filter(x=>!q||[x.name,x.holder,x.bank,x.iban,x.vkn,x.note].join(" ").toLowerCase().replace(/\s+/g,"").includes(q.replace(/\s+/g,"")));
   $("rhForm").innerHTML=window.__rh.edit==="__new"?rhForm():"";
   $("rhList").innerHTML=rows.map(x=>window.__rh.edit===x.id?`<div class="rhr">${rhForm(x)}</div>`:`<div class="rhr"><b>${esc(x.name)}</b>${x.holder?`<small>${esc(x.holder)}</small>`:""}<div class="ib">${x.iban?esc(rhFmt(x.iban)):"<small>IBAN henüz yok (banka bilgisini WhatsApp'tan gönder)</small>"}</div>${(x.alt||[]).map((y,i)=>`<div class="ib">${esc(y.bank||"")}: ${esc(rhFmt(y.iban))} <button data-rha="copy" data-key="${esc(x.id)}" data-i="${i}">kopyala</button></div>`).join("")}<small>${esc([x.bank,x.vkn?"VKN "+x.vkn:"",x.note].filter(Boolean).join(" · "))}</small><div class="bt">${x.iban?`<button data-rha="copy" data-key="${esc(x.id)}">IBAN kopyala</button>`:""}${x.contact&&x.contact.phone?`<button data-rha="wa" data-key="${esc(x.id)}">WhatsApp${x.contact.person?": "+esc(x.contact.person):""}</button>`:""}<button data-rha="edit" data-key="${esc(x.id)}">Düzenle</button><button data-rha="del" data-key="${esc(x.id)}">Sil</button></div></div>`).join("")||'<div class="legend">Kayıt yok. WhatsApp\'tan firmanın banka bilgisini yaz ya da + ile ekle.</div>';
+  $("rhMem").innerHTML=((d.memory||[]).map(m=>`<div class="rhr"><span>${esc(m.text)}</span> <small>${esc(m.at||"")}</small> <div class="bt"><button data-rhm="${esc(m.id)}">Sil</button></div></div>`).join(""))||'<div class="legend">Boş. WhatsApp\'tan "hatırla: …" yaz ya da asistanın bir varsayımını düzelt, öğrenir.</div>';
   $("rhFoot").textContent=all.length+" kayıt. WhatsApp hattına gönderilen şirket banka bilgileri buraya otomatik düşer; e-postadan IBAN alınmaz (dolandırıcılık riski).";
 }
 function renderMn(d){
@@ -581,7 +583,7 @@ $("review").addEventListener("click",e=>{const b=e.target.closest("[data-rv]"); 
 $("tabD").onclick=()=>showTab("d"); $("tabS").onclick=()=>showTab("subs"); $("tabP").onclick=()=>showTab("sp"); $("mnotes").addEventListener("click",e=>{ const b=e.target.closest("[data-mta]"); if(!b)return; commit({t:"mtact",nid:b.dataset.n,aid:b.dataset.a,v:b.dataset.mta}); });
 $("tabB").onclick=()=>showTab("db"); $("tabR").onclick=()=>showTab("rh"); if(location.hash==="#rehber")showTab("rh");
 $("rhNew").onclick=()=>{window.__rh.edit=window.__rh.edit==="__new"?null:"__new";renderRh(D)}; $("rhQ").oninput=e=>{window.__rh.q=e.target.value;renderRh(D)};
-$("rhCard").addEventListener("click",e=>{ const b=e.target.closest("[data-rha]"); if(!b)return; const a=b.dataset.rha,key=b.dataset.key; const x=(D.directory||[]).find(x=>x.id===key);
+$("rhCard").addEventListener("click",e=>{ const mb=e.target.closest("[data-rhm]"); if(mb){ commit({t:"memdel",key:mb.dataset.rhm}); return; } const b=e.target.closest("[data-rha]"); if(!b)return; const a=b.dataset.rha,key=b.dataset.key; const x=(D.directory||[]).find(x=>x.id===key);
   if(a==="edit"){window.__rh.edit=window.__rh.edit===key?null:key;renderRh(D)} else if(a==="cancel"){window.__rh.edit=null;renderRh(D)}
   else if(a==="del"&&x&&confirm(x.name+" silinsin mi?")) commit({t:"dirdel",key});
   else if(a==="wa"&&x&&x.contact){ window.open("https://wa.me/"+x.contact.phone,"_blank","noopener"); }
