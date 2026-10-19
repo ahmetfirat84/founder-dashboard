@@ -337,7 +337,7 @@
       "imp": "high",
       "due_date": "2026-10-21",
       "title": "Anthropic",
-      "note": "Claude Team kredi bakiyesi $1,11, günlük ~$0,56 harcamayla yaklaşık 2 günde bitiyor; kredi yüklenmezse ekip erişimi duracak."
+      "note": "Claude Team kredi bakiyesi $1,11, günlük ~$0,56 harcamayla yaklaşık 2 günde bitiyor; kredi yüklenmezse ekip erişimi duracak. YENİ MAİL 19.10 17:23 (19 Eki 17:22 · Anthropic · Your organization is out of usage credits): 19 Eki 14:22 Anthropic bildirimi: kredi tamamen bitti, Claude kullanıcıları erişemiyor; kredi yüklenmeli (auto-reload de açılabilir)."
     },
     {
       "action_type": "Ödeme",
@@ -1858,7 +1858,7 @@
       ]
     }
   ],
-  "updated": "2026-10-19 16:11",
+  "updated": "2026-10-19 17:23",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1943,7 +1943,8 @@
     "1a15382a4d7014e5",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDg2NEVEQTY2RDY4NEU2QkU0MAA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDFEODJFNDRCRTE5QTFCMTRDMQA=",
-    "1a15449c993ebd0b"
+    "1a15449c993ebd0b",
+    "1a1548b1edc7f4a4"
   ],
   "feed_order": [
     "qt5dom",
