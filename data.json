@@ -6141,6 +6141,17 @@
       },
       "note": "Eczane yetkilisi.",
       "updated": "2026-10-19"
+    },
+    {
+      "id": "q3tmqy",
+      "name": "Barivital",
+      "iban": "",
+      "contact": {
+        "person": "Barivital muhasebe",
+        "phone": "905069292429"
+      },
+      "note": "Protein supplement (gastric sleeve sonrası). WhatsApp Business hattı.",
+      "updated": "2026-10-19"
     }
   ]
 }
