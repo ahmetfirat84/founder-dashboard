@@ -196,19 +196,31 @@
       "action_type": "Ödeme",
       "category": "Otel",
       "party": "Vital Hotel Fulya",
-      "amount": "₺27.949,21",
-      "due": "Vadesi geçti (30 Eyl konaklama bitişi)",
+      "amount": "₺27.949 (ödendi)",
+      "due": "Ödendi 19.10",
       "uid": "tmtmkp",
       "source": "whatsapp",
       "wamid": "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDcwMTRDMjc4OUQ3NjdEMUQ4MwA=",
       "title": "Vital Hotel Fulya",
-      "note": "Hasta konaklama folyosu (Ad S., 01-30 Eyl, 24.09.2026 tarihli): ödenmemiş bakiye ₺27.949,21. Faturada vade yazmıyor, vade olarak konaklama bitişi (30 Eyl) alındı, kesin tarihi teyit et. GBC'den sonra ikinci acil ödeme.",
+      "note": "Hasta konaklama folyosu (Ad S., 01-30 Eyl, 24.09.2026 tarihli): ödenmemiş bakiye ₺27.949,21. Faturada vade yazmıyor, vade olarak konaklama bitişi (30 Eyl) alındı, kesin tarihi teyit et. GBC'den sonra ikinci acil ödeme. ÖDENDİ 2026-10-19: ₺27.949 (dekont, havale ücreti ₺16.76). Satır tutarı ₺27.949.",
       "due_date": "2026-09-30",
       "pin": true,
       "imp": "high",
       "origin": "WhatsApp (17 Eki, belge: Vital Hotel folyosu)",
       "urgency": "gray",
-      "plan_date": "2026-10-19"
+      "plan_date": "2026-10-19",
+      "done": true,
+      "doneAt": "2026-10-19 11:57",
+      "amount_try": 27949.21,
+      "proof": {
+        "type": "banka dekontu",
+        "date": "2026-10-19",
+        "amount_try": 27949.21,
+        "fee_try": 16.76,
+        "channel": "WhatsApp (19 Eki 11:57, belge)",
+        "drive_url": "https://drive.google.com/file/d/1CMoiBYGCEN4GVEtEYZAuiLfBuKdwAUOr/view?usp=drivesdk",
+        "draft_url": ""
+      }
     },
     {
       "action_type": "Ödeme",
@@ -1733,7 +1745,7 @@
       ]
     }
   ],
-  "updated": "2026-10-19 11:51",
+  "updated": "2026-10-19 11:57",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1799,7 +1811,8 @@
     "1a150feafbbd8e4d",
     "1a1532b6804fa8f9",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FENzA0OEVGRTlDOUE5NUZGMTUA",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E2MjJFREQ1QzMxOUM3OTYxQUMA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E2MjJFREQ1QzMxOUM3OTYxQUMA",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFERDcwOEZGQ0YzNThFOThBNEYA"
   ],
   "feed_order": [
     "tmtmkp",
