@@ -360,6 +360,22 @@
         "amount_try": 66951.48,
         "drive_url": "https://drive.google.com/file/d/14bPeYqOm9zyb9MPoUnFae_ckEMyWNj6j/view?usp=drivesdk"
       }
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Hastane ödemesi",
+      "party": "İstanbul Cerrahi",
+      "amount": "",
+      "due": "09.09 gecikmiş (hatırlatma 21.09)",
+      "uid": "nljwcu",
+      "source": "mail-gelen",
+      "origin": "E-posta (21 Eyl 15:53): Nurcan Sarıbal · Re: new me bakiye",
+      "wamid": "1a0c408276ad8e4d",
+      "mail_thread": "1a07ba462aa5d81f",
+      "imp": "high",
+      "due_date": "2026-09-09",
+      "title": "İstanbul Cerrahi",
+      "note": "Kurum faturası ve kalan bakiye için ödeme hatırlatması (mutabakat tamam). Tutar mail ekinde, teyit edilmeli."
     }
   ],
   "departments": [
@@ -1838,7 +1854,7 @@
       ]
     }
   ],
-  "updated": "2026-10-19 16:07",
+  "updated": "2026-10-19 16:08",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1916,7 +1932,8 @@
     "1a15403246b9cbdf",
     "1a07ba462aa5d81f",
     "1a07bea189a201ed",
-    "1a0a8c164de211fa"
+    "1a0a8c164de211fa",
+    "1a0c408276ad8e4d"
   ],
   "feed_order": [
     "qt5dom",
