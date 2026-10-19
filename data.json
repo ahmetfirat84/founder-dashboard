@@ -1525,7 +1525,13 @@
           "due_date": "2026-10-16"
         }
       ],
-      "summary": "1 onay bekliyor"
+      "summary": "1 onay bekliyor",
+      "notes": [
+        {
+          "text": "Hafsa H. konsültasyonu 21 Ekim 10:00, Terrace Fulya Center (Selin takvim daveti). 22 Ekim ameliyat tarihi alınmış; otel ve transfer planlaması gerekebilir. (kaynak: E-posta (19 Eki 10:58): Selin Sezgin · Invitation: Hafsa Consultation with Dr Ay)",
+          "at": "2026-10-19 10:59"
+        }
+      ]
     },
     {
       "key": "erkin",
@@ -1701,7 +1707,7 @@
       ]
     }
   ],
-  "updated": "2026-10-19 00:51",
+  "updated": "2026-10-19 10:59",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1764,7 +1770,8 @@
     "1a14fba5ead88963",
     "1a14ff59be436502",
     "1a150de2ea177123",
-    "1a150feafbbd8e4d"
+    "1a150feafbbd8e4d",
+    "1a1532b6804fa8f9"
   ],
   "feed_order": [
     "qt5dom",
