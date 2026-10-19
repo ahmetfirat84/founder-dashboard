@@ -375,7 +375,7 @@
       "imp": "high",
       "due_date": "2026-09-09",
       "title": "İstanbul Cerrahi",
-      "note": "Kurum faturası ve kalan bakiye için ödeme hatırlatması (mutabakat tamam). Tutar mail ekinde, teyit edilmeli. YENİ MAİL 19.10 16:08 (28 Eyl 10:40 · Nurcan Sarıbal · Re: new me bakiye): 28 Eyl'de Nurcan Sarıbal hatırlatma gönderdi: Priyer D. N. (protokol 1005896) için ₺66.951,48 ödeme bekleniyor. YENİ MAİL 19.10 16:08 (30 Eyl 08:23 · Finance New Me · Re: new me bakiye): Finance New Me 30 Eyl: 'Bakiye kapanmıştır' (Nurcan Sarıbal yazışması); satır kapatılmadı, teyit edin. YENİ MAİL 19.10 16:08 (19 Eki 12:32 · Nurcan Sarıbal · Re: new me bakiye): Nurcan Sarıbal (09:32): mutabakat sonrası fatura kesildi, güncel kalan bakiye ekte, ödeme için dönüş istendi."
+      "note": "Kurum faturası ve kalan bakiye için ödeme hatırlatması (mutabakat tamam). Tutar mail ekinde, teyit edilmeli. YENİ MAİL 19.10 16:08 (28 Eyl 10:40 · Nurcan Sarıbal · Re: new me bakiye): 28 Eyl'de Nurcan Sarıbal hatırlatma gönderdi: Priyer D. N. (protokol 1005896) için ₺66.951,48 ödeme bekleniyor. YENİ MAİL 19.10 16:08 (30 Eyl 08:23 · Finance New Me · Re: new me bakiye): Finance New Me 30 Eyl: 'Bakiye kapanmıştır' (Nurcan Sarıbal yazışması); satır kapatılmadı, teyit edin. YENİ MAİL 19.10 16:08 (19 Eki 12:32 · Nurcan Sarıbal · Re: new me bakiye): Nurcan Sarıbal (09:32): mutabakat sonrası fatura kesildi, güncel kalan bakiye ekte, ödeme için dönüş istendi. YENİ MAİL 19.10 16:11 (19 Eki 16:11 · Finance New Me · Re: new me bakiye): 19 Eki: Nurcan Sarıbal (İstanbul Cerrahi) bakiye mutabakatını onayladı, fatura kesilebilir."
     }
   ],
   "departments": [
@@ -1942,7 +1942,8 @@
     "1a0f0c53058a928f",
     "1a15382a4d7014e5",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDg2NEVEQTY2RDY4NEU2QkU0MAA=",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDFEODJFNDRCRTE5QTFCMTRDMQA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDFEODJFNDRCRTE5QTFCMTRDMQA=",
+    "1a15449c993ebd0b"
   ],
   "feed_order": [
     "qt5dom",
