@@ -257,15 +257,15 @@
       "category": "",
       "party": "Barivital",
       "amount": "₺22.950",
-      "due": "Vadesi geçti (en eski açık fatura 22.04)",
+      "due": "Ödeme sözü: Perşembe 22 ya da Cuma 23 Eki",
       "uid": "8zkm7p",
       "source": "whatsapp",
       "origin": "WhatsApp (19 Eki 16:11, yazılı)",
       "wamid": "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEVFMTkzRjc2QTRGM0VBOUNBNgA=",
-      "plan_date": "2026-10-19",
+      "plan_date": "2026-10-22",
       "due_date": "2026-04-22",
       "title": "Barivital",
-      "note": "Barivital'den ödeme bilgisi (IBAN/bakiye teyidi) istendi; güncel bakiye ₺22.950,05"
+      "note": "Protein supplement alımı (gastric sleeve sonrası hasta ürünü). 19.10 WhatsApp yazışması (7 mesaj): Barivital muhasebe ödeme günü sordu; Ahmet 'Perşembe ya da Cuma' (22 veya 23 Eki) dedi; ödeme için IBAN ve bakiye teyidi istendi. Güncel bakiye ₺22.950,05; en eski açık fatura 22.04'ten. IBAN gelince rehbere işlenecek (Barivital kaydında)."
     },
     {
       "action_type": "Ödeme",
