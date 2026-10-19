@@ -844,6 +844,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Barivital (r13, ₺22.950): karşı taraf ödeme günü sordu; Ahmet 'Perşembe ya da Cuma' (22 veya 23 Eki) yanıtını verdi, teyit bekleniyor. (kaynak: WhatsApp (19 Eki 16:09, iletilen yazışma, 7 mesaj))",
+          "at": "2026-10-19 16:10"
+        },
+        {
           "text": "📎 fatura-gelen arşivlendi: IC Hospital (MK Hastane İşletmeleri) 2026-09-07 no MKY2026000000273 ₺66.951 → https://drive.google.com/file/d/14bPeYqOm9zyb9MPoUnFae_ckEMyWNj6j/view?usp=drivesdk",
           "at": "2026-10-19 16:07"
         },
@@ -1854,7 +1858,7 @@
       ]
     }
   ],
-  "updated": "2026-10-19 16:08",
+  "updated": "2026-10-19 16:10",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1936,7 +1940,8 @@
     "1a0c408276ad8e4d",
     "1a0e6f682a4f6e8c",
     "1a0f0c53058a928f",
-    "1a15382a4d7014e5"
+    "1a15382a4d7014e5",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDg2NEVEQTY2RDY4NEU2QkU0MAA="
   ],
   "feed_order": [
     "qt5dom",
