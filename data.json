@@ -283,7 +283,9 @@
       "urgency": "red",
       "plan_date": "2026-10-19",
       "imp": "high",
-      "pin": true
+      "pin": true,
+      "done": true,
+      "doneAt": "2026-10-19 12:37"
     },
     {
       "title": "Neome marka tescil belge harcı (Saygın Patent)",
@@ -1768,7 +1770,7 @@
       ]
     }
   ],
-  "updated": "2026-10-19 12:24",
+  "updated": "2026-10-19 12:37",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1838,7 +1840,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFERDcwOEZGQ0YzNThFOThBNEYA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFBRkFDQjJFMDhGMkYyNjYyQTYA",
     "1a12f26f8a909d20",
-    "1a1537970f658954"
+    "1a1537970f658954",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDhCRTEzOEJGMEFDMTUwQzdCOQA="
   ],
   "feed_order": [
     "qt5dom",
