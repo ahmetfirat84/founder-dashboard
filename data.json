@@ -314,6 +314,23 @@
         "drive_url": "https://drive.google.com/file/d/1Gb9YmdgrHEGWz5yZyBlExBOUZqnalK8n/view?usp=drivesdk",
         "draft_url": ""
       }
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Marka tescil harcı",
+      "party": "Saygın Patent",
+      "amount": "₺15.600",
+      "due": "18 Eki (geçti)",
+      "uid": "9vggfj",
+      "source": "mail-gelen",
+      "origin": "E-posta (12 Eki 11:07): Ahmet Enes Şahin · 2025/057803 \"neome\" kısmi tescil kararı hk.",
+      "wamid": "1a12f26f8a909d20",
+      "mail_thread": "1a12f26f8a909d20",
+      "imp": "high",
+      "amount_try": 15600,
+      "due_date": "2026-10-18",
+      "title": "Saygın Patent",
+      "note": "neome (2025/057803) kısmi tescil belge ücreti: ₺13.000 + KDV. Son gün 18 Eki'ydi, süre durumunu Saygın Patent'ten teyit et."
     }
   ],
   "departments": [
@@ -1301,7 +1318,9 @@
           "category": "Marka",
           "party": "TÜRKPATENT (neome)",
           "amount": "",
-          "urgency": "gray"
+          "urgency": "gray",
+          "uid": "cf40qh",
+          "note": "YENİ MAİL 19.10 12:24 (12 Eki 11:07 · Ahmet Enes Şahin · 2025/057803 \"neome\" kısmi tescil kararı hk.): Saygın Patent 12 Eki: tescil belge ücreti ₺13.000 + KDV, son gün 18 Eki 2026; ödeme satırı nakitte açıldı."
         },
         {
           "text": "KVKK Kurumsal İletişim Denetimi İlke Kararı (Karaçamşır, 12 Eki): şirkete etkisini incele",
@@ -1756,7 +1775,7 @@
       ]
     }
   ],
-  "updated": "2026-10-19 12:17",
+  "updated": "2026-10-19 12:24",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1824,7 +1843,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FENzA0OEVGRTlDOUE5NUZGMTUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E2MjJFREQ1QzMxOUM3OTYxQUMA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFERDcwOEZGQ0YzNThFOThBNEYA",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFBRkFDQjJFMDhGMkYyNjYyQTYA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFBRkFDQjJFMDhGMkYyNjYyQTYA",
+    "1a12f26f8a909d20"
   ],
   "feed_order": [
     "qt5dom",
