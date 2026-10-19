@@ -487,7 +487,7 @@ function render(){
   const rvShow=rv.filter(r=>rvAge(r)<=7); $("reviewCard").hidden=!rvShow.length;
   $("review").innerHTML=rvShow.map((r,i)=>`<div class="alert"><span>❔</span><div><strong>${esc(r.subject)}</strong><small>${esc(r.from)}${r.note?" · "+esc(r.note):""}</small><span class="fa" style="display:flex"><button data-rv="del" data-i="${i}" title="Yok say">✕ Yok say</button><button data-rv="block" data-i="${i}" title="Bu gönderenin alanını engelle">🚫 Engelle</button></span></div><div></div></div>`).join("")+'<small class="date">7 günden eski maddeler kendiliğinden düşer.</small>';
   window.__rvShow=rvShow;
-  $("meet").innerHTML=d.meetings.length?d.meetings.map(m=>`<div class="meet"><b>${esc(m.time)}</b><div>${esc(m.title)}${m.note?`<small>${esc(m.note)}</small>`:""}</div></div>`).join(""):'<span class="date">Bugün toplantı yok</span>';
+  $("meet").dataset.stale=(d.meetings_date&&d.meetings_date!==new Date().toISOString().slice(0,10))?"1":""; $("meet").innerHTML=(d.meetings_date&&d.meetings_date!==new Date().toISOString().slice(0,10)?`<div class="legend">Takvim ${esc(d.meetings_date)} tarihli, bugüne ait değil.</div>`:"")+(d.meetings.length?d.meetings.map(m=>`<div class="meet"><b>${esc(m.time)}</b><div>${esc(m.title)}${m.note?`<small>${esc(m.note)}</small>`:""}</div></div>`).join(""):'<span class="date">Bugün toplantı yok</span>');
   // ACİL FEED: [durum] ActionType · Category · Party · Amount · Deadline  (▲▼ taşı, ✎ düzenle, ✕ sil, + Yeni)
   const allRows=buildFeed(d);
   const urgent=window.__all?allRows:deskRows(d);

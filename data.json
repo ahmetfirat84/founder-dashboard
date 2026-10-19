@@ -9,11 +9,29 @@
   "meetings": [
     {
       "time": "12:30",
-      "title": "New Me_Daily",
-      "note": "Meta Ads durumu (İlksen), kapanış tarihli deal'ler (Hülya/Selin)"
+      "title": "& New Me_Weekly",
+      "note": "Hülya, Selin, Cemre; Meet"
+    },
+    {
+      "time": "14:00",
+      "title": "Mo x ANDNEWME",
+      "note": "Oceanscape Group; Meet"
     }
   ],
   "cash_alerts": [
+    {
+      "title": "Turkcell 0533 727 0000 hattı ödenmediği için kapandı (SMS geldi): bugün son ödeme günü",
+      "action_type": "Ödeme",
+      "category": "Abonelik / Hat",
+      "party": "Turkcell",
+      "amount": "₺3.753,70 (aylık tutar; fatura tutarını doğrula)",
+      "amount_try": 3753.7,
+      "due": "Bugün son gün",
+      "due_date": "2026-10-19",
+      "note": "Hat borç nedeniyle kapatıldı. Ödenince açılır; İş Bankası otomatik ödeme talimatı neden çalışmadı kontrol et.",
+      "uid": "bj3b6k",
+      "pin": true
+    },
     {
       "title": "1. GBC sanal ofis yenilemesi",
       "amount": "₺41.786 (ödendi)",
@@ -6056,5 +6074,6 @@
         }
       ]
     }
-  ]
+  ],
+  "meetings_date": "2026-10-19"
 }
