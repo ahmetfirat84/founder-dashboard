@@ -6098,5 +6098,49 @@
       ]
     }
   ],
-  "meetings_date": "2026-10-19"
+  "meetings_date": "2026-10-19",
+  "directory": [
+    {
+      "id": "g5cmcp",
+      "name": "Vital Hotel",
+      "iban": "",
+      "contact": {
+        "person": "Esra Hanım",
+        "phone": "905539490826"
+      },
+      "note": "Muhasebe. Numara WhatsApp Business olabilir.",
+      "updated": "2026-10-19"
+    },
+    {
+      "id": "x74ox5",
+      "name": "Tetik Turizm",
+      "iban": "",
+      "contact": {
+        "person": "Emre Bey (Emre Toprak)",
+        "phone": "905340214061"
+      },
+      "updated": "2026-10-19"
+    },
+    {
+      "id": "hayns2",
+      "name": "Orya Hotel",
+      "iban": "",
+      "contact": {
+        "person": "Orya Hotel yetkilisi (isim bilinmiyor)",
+        "phone": "905307029729"
+      },
+      "updated": "2026-10-19"
+    },
+    {
+      "id": "coigu2",
+      "name": "Fulya Ada Eczanesi",
+      "iban": "",
+      "contact": {
+        "person": "Ömer Faruk Kılınç",
+        "phone": "905308539758"
+      },
+      "note": "Eczane yetkilisi.",
+      "updated": "2026-10-19"
+    }
+  ]
 }
