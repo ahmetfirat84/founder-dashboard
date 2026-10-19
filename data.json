@@ -1097,7 +1097,9 @@
             "note": "10–17 Eki arası günlük 8 kopya, ücret portalda tahakkuk etti, yanıt/ödeme izi yok"
           },
           "moved_from": "Hukuk",
-          "imp": "high"
+          "imp": "high",
+          "uid": "wpdx4t",
+          "note": "YENİ MAİL 19.10 14:17 (19 Eki 14:17 · info@healthturkiye.gov.tr · HealthTürkiye Üyelik Yenileme İşlemleri Hakkınd): 19 Eki maili: ücret portal Abonelik panelinde görünür, son ödeme 9 Kas 2026, ödenmezse üyelik iptal edilir; mailde sözleşme 10/3 ve Kullanım Şartları 8/2 atıfları var (15 gün yanıt süresi)."
         },
         {
           "text": "HealthTürkiye Performans Değerlendirme Formu (yıllık zorunlu denetim formu, 26 Nis–31 Ara 2025 dönemi): .xlsx'i doldur, açıklama alanlarına dayanak belge adlarını yaz, portala 29 Eki'ye kadar yükle (pencere 29.09–29.10.2026). Sadece acenta verisi, doğruluk sorumluluğu sende. Destek: 0 850 733 77 07. Yüklendiğine dair mail izi yok.",
@@ -1770,7 +1772,7 @@
       ]
     }
   ],
-  "updated": "2026-10-19 13:47",
+  "updated": "2026-10-19 14:17",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1843,7 +1845,8 @@
     "1a1537970f658954",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDhCRTEzOEJGMEFDMTUwQzdCOQA=",
     "1a153c2606709ab9",
-    "1a153c54e1afd570"
+    "1a153c54e1afd570",
+    "1a153e15801f7b0c"
   ],
   "feed_order": [
     "qt5dom",
