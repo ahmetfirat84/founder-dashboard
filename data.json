@@ -129,12 +129,12 @@
     {
       "title": "CPA Türk",
       "amount": "₺46.450",
-      "due": "Vadesi geçti (15 Eki)",
-      "note": "Ödeme durumu teyit bekliyor.",
+      "due": "Söz: en geç 31 Eki",
+      "note": "Ödeme durumu teyit bekliyor. 19.10: Ahmet ay sonuna kadar ilk taksiti ödeme sözü verdi.",
       "action_type": "Ödeme",
       "category": "Muhasebe",
       "party": "CPA Türk",
-      "due_date": "2026-10-15"
+      "due_date": "2026-10-31"
     },
     {
       "title": "Orya Hotel",
@@ -6178,12 +6178,12 @@
       "kind": "Kapama planı",
       "left": 142600,
       "left_est": true,
-      "note": "Geçmiş bakiye ₺142.600 (5 Ağu itibarıyla). Plan: Eyl–Ara her ayın ~15'i ₺46.450 (aylık ücret ₺10.800 + ₺35.650). Eylül ve Ekim ödemelerinin yapılıp yapılmadığı DOĞRULANMADI, yapıldıysa ilgili satırı işaretle.",
+      "note": "Geçmiş bakiye ₺142.600 (5 Ağu itibarıyla). Plan: Eyl–Ara her ayın ~15'i ₺46.450 (aylık ücret ₺10.800 + ₺35.650). Eylül ve Ekim ödemelerinin yapılıp yapılmadığı DOĞRULANMADI, yapıldıysa ilgili satırı işaretle. 19.10: CPA Türk'e 'en geç ay sonuna kadar ilk taksit (40 küsür bin = ₺46.450)' sözü verildi. Eylül/Ekim taksitlerinin durumu hâlâ doğrulanmadı.",
       "rows": [
         {
-          "d": "2026-10-15",
+          "d": "2026-10-31",
           "amt": 46450,
-          "label": "Ekim ödemesi (doğrula)",
+          "label": "Ödeme sözü: ilk taksit, en geç ay sonu (Ahmet verdi)",
           "est": true
         },
         {
@@ -6227,6 +6227,119 @@
           "d": "2026-10-18",
           "amt": 24171.27,
           "label": "Geçmiş dönem kalan"
+        }
+      ]
+    },
+    {
+      "id": "parasut-cari",
+      "name": "Tedarikçi borçları (Paraşüt'te açık görünen)",
+      "kind": "Bilgi · doğrulanmadı",
+      "info": true,
+      "left": 2037573.53,
+      "left_est": true,
+      "note": "Paraşüt gider faturalarında 'kalan' tutarı olan tedarikçiler (19.10.2026). Toplama DAHİL DEĞİL: bazıları gerçekte ödenmiş ama Paraşüt'e işlenmemiş olabilir (eski sheet: 'Paraşüt'te ödenmemiş görünüyor'). Her satırı gerçek durumla doğrula: ödenmişse Paraşüt'ten ödeme kaydı gir, açıksa vade ve plan ver. Eczaneler: Fulya Ada, Nispet, Tanrıverdi, Pharmago. MWC = teşvik danışmanı (Medcure ile aynı mı teyit et).",
+      "rows": [
+        {
+          "d": "2025-08-19",
+          "amt": 1056863.36,
+          "label": "İstanbul Cerrahi (IC Hospital) · 20 fatura",
+          "est": true
+        },
+        {
+          "d": "2025-09-15",
+          "amt": 259059.29,
+          "label": "Orya Otelcilik · 31 fatura (€4.666)",
+          "est": true
+        },
+        {
+          "d": "2026-09-14",
+          "amt": 226500.0,
+          "label": "Multident · 1 fatura",
+          "est": true
+        },
+        {
+          "d": "2025-06-27",
+          "amt": 170400.0,
+          "label": "MWC Yönetim ve Danışmanlık (teşvik danışmanı) · 13 fatura",
+          "est": true
+        },
+        {
+          "d": "2026-01-05",
+          "amt": 66206.08,
+          "label": "Vital Fulya Turizm · 2 fatura",
+          "est": true
+        },
+        {
+          "d": "2025-09-29",
+          "amt": 58800.0,
+          "label": "CG YMM (eski müşavir) · 7 fatura",
+          "est": true
+        },
+        {
+          "d": "2026-05-10",
+          "amt": 57750.0,
+          "label": "Doğuş Spor · 4 fatura",
+          "est": true
+        },
+        {
+          "d": "2026-03-13",
+          "amt": 42112.51,
+          "label": "Pharmago (ilaç/sağlık ürünü) · 6 fatura",
+          "est": true
+        },
+        {
+          "d": "2026-06-11",
+          "amt": 41400.0,
+          "label": "Tetik Turizm · 3 fatura",
+          "est": true
+        },
+        {
+          "d": "2026-09-02",
+          "amt": 18244.98,
+          "label": "Fulya Ada Eczanesi · 4 fatura",
+          "est": true
+        },
+        {
+          "d": "2026-07-13",
+          "amt": 10800.0,
+          "label": "Kalabalık Ev Turizm · 1 fatura",
+          "est": true
+        },
+        {
+          "d": "2026-07-10",
+          "amt": 8045.94,
+          "label": "Nispet Eczanesi · 1 fatura",
+          "est": true
+        },
+        {
+          "d": "2026-01-07",
+          "amt": 5974.11,
+          "label": "Turkcell · 6 fatura",
+          "est": true
+        },
+        {
+          "d": "2026-09-07",
+          "amt": 4343.04,
+          "label": "Kolay Yazılım · 1 fatura",
+          "est": true
+        },
+        {
+          "d": "2025-06-08",
+          "amt": 4066.8,
+          "label": "Empark · 3 fatura",
+          "est": true
+        },
+        {
+          "d": "2026-10-06",
+          "amt": 3973.42,
+          "label": "Tanrıverdi Eczanesi · 1 fatura",
+          "est": true
+        },
+        {
+          "d": "2026-01-28",
+          "amt": 3034.0,
+          "label": "Gülbi̇n Azi̇zoğlu · 1 fatura",
+          "est": true
         }
       ]
     }

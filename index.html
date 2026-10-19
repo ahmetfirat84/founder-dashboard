@@ -460,15 +460,15 @@ const dbT=()=>new Date().toISOString().slice(0,10), dbD=d=>d.slice(8)+"."+d.slic
 function dbCnt(x,t){ if(!x.brk)return 0; const y=t.slice(0,4); return x.rows.filter(r=>r.inst&&!r.paid&&r.d<t&&(x.brk.scope!=="year"||r.d.slice(0,4)===y)).length; }
 function renderDb(d){
   const ds=d.debts; if(!ds)return; const t=dbT(), f=window.__db;
-  const od=[], soon=[]; ds.forEach(x=>x.rows.filter(r=>!r.paid).forEach(r=>{ const o={...r,debt:x.name,id:x.id}; if(r.d<t)od.push(o); else if(dbDays(r.d)<=30)soon.push(o); }));
-  const sum=a=>a.reduce((s,r)=>s+(r.amt||0),0), left=ds.reduce((s,x)=>s+(x.left||0),0);
+  const od=[], soon=[]; ds.filter(x=>!x.info).forEach(x=>x.rows.filter(r=>!r.paid).forEach(r=>{ const o={...r,debt:x.name,id:x.id}; if(r.d<t)od.push(o); else if(dbDays(r.d)<=30)soon.push(o); }));
+  const sum=a=>a.reduce((s,r)=>s+(r.amt||0),0), left=ds.filter(x=>!x.info).reduce((s,x)=>s+(x.left||0),0);
   $("dbSub").textContent="bugün "+dbD(t);
   $("dbSum").innerHTML=`<div class="ct ${od.length?"red":"green"}"><b>${TL(sum(od))}</b><span>Gecikmiş (${od.length} kalem)</span></div><div class="ct yellow"><b>${TL(sum(soon))}</b><span>30 gün içinde (${soon.length})</span></div><div class="ct yellow"><b>${TL(left)}</b><span>Kalan toplam (yaklaşık)</span></div>`;
   const up=[...od,...soon].sort((a,b)=>a.d.localeCompare(b.d)); let cur="";
   $("dbCal").innerHTML="<b>Gecikmiş ve önümüzdeki 30 gün</b>"+(up.map(r=>{const h=r.d<t?"Gecikmiş":r.d.slice(0,7);const hh=h!==cur?(cur=h,`<h3>${h==="Gecikmiş"?"Gecikmiş":SP_MON[+h.slice(5)-1]+" "+h.slice(0,4)}</h3>`):"";return hh+`<div class="dbl ${r.d<t?"od":""}"><span>${dbD(r.d)}</span><span>${esc(r.debt.replace(/ \(.*$/,""))} · ${esc(r.label)}${r.est?" ~":""}</span><span>${r.amt?TL(r.amt):"?"}</span><span></span></div>`}).join("")||'<div class="legend">Vadeli kalem yok.</div>');
   $("dbList").innerHTML="<h3 style=\"font-size:13px;margin:14px 0 2px;color:var(--mut)\">Borçlar</h3>"+ds.map(x=>{
     const c=dbCnt(x,t), open=f.open===x.id, nxt=x.rows.filter(r=>!r.paid).sort((a,b)=>a.d.localeCompare(b.d)), n0=nxt[0];
-    const late=nxt.filter(r=>r.d<t).length, pill=late?`<span class="pill red">${late} gecikmiş</span>`:`<span class="pill green">Güncel</span>`;
+    const late=nxt.filter(r=>r.d<t).length, pill=x.info?`<span class="pill yellow">bilgi, toplama dahil değil</span>`:late?`<span class="pill red">${late} gecikmiş</span>`:`<span class="pill green">Güncel</span>`;
     const brk=x.brk?` · sayaç ${c}/${x.brk.n}${c>=x.brk.n-1?" ⚠":""}`:"";
     let h=`<div class="dbr" data-dbo="${esc(x.id)}"><div class="h"><b>${esc(x.name)}</b><b>${TL(x.left||0)}${x.left_est?" ~":""}</b></div><small>${esc(x.kind||"")} · ${pill}${brk}${n0?` · sıradaki ${dbD(n0.d)} ${n0.amt?TL(n0.amt):"?"}`:""}</small></div>`;
     if(open) h+=`<div class="dbx">${x.brk?`<div class="n">${esc(x.brk.txt)}</div>`:""}${x.note?`<div class="n">${esc(x.note)}</div>`:""}`+nxt.slice(0,8).map(r=>`<div class="dbl ${r.d<t?"od":""}"><span>${dbD(r.d)}</span><span>${esc(r.label)}${r.est?" ~":""}</span><span>${r.amt?TL(r.amt):"?"}</span><button data-dbp="${esc(x.id)}" data-d="${r.d}" data-l="${esc(r.label)}">ödendi</button></div>`).join("")+(nxt.length>8?`<div class="n">… ve ${nxt.length-8} satır daha (son: ${dbD(nxt[nxt.length-1].d)})</div>`:"")+`</div>`;
