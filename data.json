@@ -330,7 +330,13 @@
       "amount_try": 15600,
       "due_date": "2026-10-18",
       "title": "Saygın Patent",
-      "note": "neome (2025/057803) kısmi tescil belge ücreti: ₺13.000 + KDV. Son gün 18 Eki'ydi, süre durumunu Saygın Patent'ten teyit et."
+      "note": "neome (2025/057803) kısmi tescil belge ücreti: ₺13.000 + KDV. Son gün 18 Eki'ydi, süre durumunu Saygın Patent'ten teyit et. YENİ MAİL 19.10 12:24 (19 Eki 12:23 · Ahmet Enes Şahin · RE:  2025/057803 \"neome\" kısmi tescil kararı hk.): Saygın Patent 19 Eki maili: ödeme alındı, işlemler başlatıldı; fatura SP02026000000671 (₺15.600) ekte geldi.",
+      "invoice": {
+        "no": "SP02026000000671",
+        "date": "2026-10-19",
+        "amount_try": 15600,
+        "drive_url": "https://drive.google.com/file/d/1B0r2zLI4g1nnrsK2qJAMs_-999AQJspE/view?usp=drivesdk"
+      }
     }
   ],
   "departments": [
@@ -798,6 +804,10 @@
       ],
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
+        {
+          "text": "📎 fatura-gelen arşivlendi: Saygın Patent 2026-10-19 no SP02026000000671 ₺15.600 → https://drive.google.com/file/d/1B0r2zLI4g1nnrsK2qJAMs_-999AQJspE/view?usp=drivesdk",
+          "at": "2026-10-19 12:24"
+        },
         {
           "text": "Vital Hotel Fulya banka bilgi belgesi geldi: ödeme alıcı unvanı VİTAL FULYA TURİZM A.Ş. (Halk Bankası, TL/EUR/USD/GBP hesapları var). Açık ₺27.949,21 borcu (r11) ödenirken dekont alıcı unvanı bununla eşleşmeli; IBAN kaydedilmedi. (kaynak: WhatsApp (19 Eki 11:51, iletilen yazışma, 2 mesaj, 1 ek))",
           "at": "2026-10-19 11:51"
@@ -1844,7 +1854,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E2MjJFREQ1QzMxOUM3OTYxQUMA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFERDcwOEZGQ0YzNThFOThBNEYA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFBRkFDQjJFMDhGMkYyNjYyQTYA",
-    "1a12f26f8a909d20"
+    "1a12f26f8a909d20",
+    "1a1537970f658954"
   ],
   "feed_order": [
     "qt5dom",
