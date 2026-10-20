@@ -9,13 +9,8 @@
   "meetings": [
     {
       "time": "12:30",
-      "title": "& New Me_Weekly",
+      "title": "& New Me_Daily",
       "note": "Hülya, Selin, Cemre; Meet"
-    },
-    {
-      "time": "14:00",
-      "title": "Mo x ANDNEWME",
-      "note": "Oceanscape Group; Meet"
     }
   ],
   "cash_alerts": [
@@ -6552,7 +6547,7 @@
       ]
     }
   ],
-  "meetings_date": "2026-10-19",
+  "meetings_date": "2026-10-20",
   "directory": [
     {
       "id": "g5cmcp",
