@@ -407,7 +407,7 @@
       "amount_try": 415,
       "due_date": "2026-10-19",
       "title": "CK BEPSAŞ (CK Boğaziçi Elektrik)",
-      "note": "İş Bankası talimatlı elektrik faturası (abone 0111796919) bakiye yetersizliği nedeniyle ödenemedi; hesaba bakiye koyup manuel ödeme yap."
+      "note": "İş Bankası talimatlı elektrik faturası (abone 0111796919) bakiye yetersizliği nedeniyle ödenemedi; hesaba bakiye koyup manuel ödeme yap. YENİ MAİL 21.10 02:15 (21 Eki 02:15 · CK Enerji Boğaziçi Elektrik · Borç Bilgilendirme): 20.10 e-posta: CK Enerji 0111796919 numaralı fatura ₺415 hâlâ ödenmemiş görünüyor; online ödeme ya da CK Enerji uygulamasından ödenebilir."
     }
   ],
   "departments": [
@@ -1947,7 +1947,7 @@
       ]
     }
   ],
-  "updated": "2026-10-20 17:47",
+  "updated": "2026-10-21 02:15",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2058,7 +2058,8 @@
     "1a158dfad6e54bef",
     "1a158f314690b634",
     "1a15906fc30a1fcf",
-    "1a159c74c7ef97ea"
+    "1a159c74c7ef97ea",
+    "1a15b9932b03307c"
   ],
   "feed_order": [
     "qt5dom",
