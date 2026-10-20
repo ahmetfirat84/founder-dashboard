@@ -6317,7 +6317,7 @@
         {
           "d": "",
           "amt": 170400,
-          "label": "MWC Yönetim ve Danışmanlık (teşvik danışmanı, Medcure ile aynı mı teyit): 13 fatura, Paraşüt'te açık; danışmanlık Temmuz'da bitti. Gerçek açık tutar ve ödeme planı doğrulanacak",
+          "label": "MWC = Medcure (teşvik danışmanı): 13 fatura ₺170.400, Paraşüt'te açık; danışmanlık Temmuz'da bitti. Gerçek açık tutar ve ödeme/hakediş planı doğrulanacak",
           "est": true
         }
       ]
@@ -6686,6 +6686,11 @@
     }
   ],
   "memory": [
+    {
+      "id": "mwcmed",
+      "text": "MWC Yönetim ve Danışmanlık = Medcure (teşvik danışmanı, Damla/Hülya Zengi'nin firması); Paraşüt'te MWC adıyla.",
+      "at": "2026-10-20"
+    },
     {
       "id": "nobrc",
       "text": "Hastanın ödemesi alınmış ama ameliyat olmamış ve hastane faturası kesilmemişse borç doğmamıştır (Shaun, Bella, Elaine); Borçlar'a yazma, sadece beklenen çıkış (cash_forecast).",
