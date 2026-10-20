@@ -391,6 +391,23 @@
       "due_date": "2026-09-09",
       "title": "İstanbul Cerrahi",
       "note": "Kurum faturası ve kalan bakiye için ödeme hatırlatması (mutabakat tamam). Tutar mail ekinde, teyit edilmeli. YENİ MAİL 19.10 16:08 (28 Eyl 10:40 · Nurcan Sarıbal · Re: new me bakiye): 28 Eyl'de Nurcan Sarıbal hatırlatma gönderdi: Priyer D. N. (protokol 1005896) için ₺66.951,48 ödeme bekleniyor. YENİ MAİL 19.10 16:08 (30 Eyl 08:23 · Finance New Me · Re: new me bakiye): Finance New Me 30 Eyl: 'Bakiye kapanmıştır' (Nurcan Sarıbal yazışması); satır kapatılmadı, teyit edin. YENİ MAİL 19.10 16:08 (19 Eki 12:32 · Nurcan Sarıbal · Re: new me bakiye): Nurcan Sarıbal (09:32): mutabakat sonrası fatura kesildi, güncel kalan bakiye ekte, ödeme için dönüş istendi. YENİ MAİL 19.10 16:11 (19 Eki 16:11 · Finance New Me · Re: new me bakiye): 19 Eki: Nurcan Sarıbal (İstanbul Cerrahi) bakiye mutabakatını onayladı, fatura kesilebilir."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Elektrik",
+      "party": "CK BEPSAŞ (CK Boğaziçi Elektrik)",
+      "amount": "₺415",
+      "due": "19 Eki (talimat ödenemedi, bakiye yetersiz)",
+      "uid": "p7qkcx",
+      "source": "mail-gelen",
+      "origin": "E-posta (20 Eki 12:14): Turkiye Is Bankasi A.S · Ödenemeyen Talimatlı Fatura Bilgisi",
+      "wamid": "1a15897830409c61",
+      "mail_thread": "1a15897830409c61",
+      "imp": "high",
+      "amount_try": 415,
+      "due_date": "2026-10-19",
+      "title": "CK BEPSAŞ (CK Boğaziçi Elektrik)",
+      "note": "İş Bankası talimatlı elektrik faturası (abone 0111796919) bakiye yetersizliği nedeniyle ödenemedi; hesaba bakiye koyup manuel ödeme yap."
     }
   ],
   "departments": [
@@ -1991,7 +2008,8 @@
     "1a157c4637a089e3",
     "1a15801633352d7f",
     "1a1582ec96c83526",
-    "1a1589773a39d16e"
+    "1a1589773a39d16e",
+    "1a15897830409c61"
   ],
   "feed_order": [
     "qt5dom",
