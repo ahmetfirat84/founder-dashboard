@@ -6259,10 +6259,10 @@
       "id": "tedarikci",
       "name": "Tedarikçi borçları (Alacak-Verecek sheet)",
       "kind": "Cari · vade çoğu belirsiz",
-      "left": 329046.57,
+      "left": 261420.13,
       "left_est": true,
       "link": "",
-      "note": "Kaynak: Ahmet'in 'Alacak-Verecek Takip Sheet'i (docs.google.com/spreadsheets/d/1youuRhFstBXYHFNFBiSdCWo04RVZ45JPSdnLKJkN2fg) ve Paraşüt. Vital Hotel Fulya ₺27.949 19.10'da ÖDENDİ (listeden çıktı). Multident'in önceki borcu (Dallas, ₺181.200) geçen hafta ÖDENDİ; şu an ödenmemiş Multident faturası yok, sadece Nate için fatura beklenecek. Temmuz stopaj farkı makbuzda mahsup edilmişti. Tarihsiz satırlar fatura var, vade/plan henüz belirlenmedi: ödeme günü verince tarih ver. Eski IC faturaları (₺989.911) Nurcan Sarıbal mail mutabakatıyla kapalı. BHT (Clayton K., ₺89.600) geçen hafta ÖDENDİ (listeden çıktı). IC Hospital Priyer Nand (₺66.951,48) 30.09'da ÖDENDİ (Nurcan Sarıbal yazışması: 'Bakiye kapanmıştır'); Paraşüt'e ödeme kaydı girilmemiş. 19.10'da Nurcan yeni bakiye/fatura bildirdi (muhtemelen Nate): fatura gelince eklenecek.",
+      "note": "Kaynak: Ahmet'in 'Alacak-Verecek Takip Sheet'i (docs.google.com/spreadsheets/d/1youuRhFstBXYHFNFBiSdCWo04RVZ45JPSdnLKJkN2fg) ve Paraşüt. Vital Hotel Fulya ₺27.949 19.10'da ÖDENDİ (listeden çıktı). Multident'in önceki borcu (Dallas, ₺181.200) geçen hafta ÖDENDİ; şu an ödenmemiş Multident faturası yok, sadece Nate için fatura beklenecek. Temmuz stopaj farkı makbuzda mahsup edilmişti. Tarihsiz satırlar fatura var, vade/plan henüz belirlenmedi: ödeme günü verince tarih ver. Eski IC faturaları (₺989.911) Nurcan Sarıbal mail mutabakatıyla kapalı. BHT (Clayton K., ₺89.600) geçen hafta ÖDENDİ (listeden çıktı). IC Hospital Priyer Nand (₺66.951,48) 30.09'da ÖDENDİ (Nurcan Sarıbal yazışması: 'Bakiye kapanmıştır'); Paraşüt'e ödeme kaydı girilmemiş. 19.10'da Nurcan yeni bakiye/fatura bildirdi (muhtemelen Nate): fatura gelince eklenecek. Shaun, Bella ve Elaine (IC): hasta ödemeyi yaptı ama ameliyat olmadı, hastane faturası kesilmedi, BORÇ DOĞMADI (Ahmet); bunlar gelecek maliyet olarak nakit planında (cash_forecast) izlenir.",
       "rows": [
         {
           "d": "",
@@ -6293,14 +6293,8 @@
         },
         {
           "d": "",
-          "amt": 67000,
-          "label": "IC Hospital · Nate M. gastric sleeve (hastane faturası henüz kesilmedi, tutar tahmini ₺67.000, vade belli olunca tarih ver)",
-          "est": true
-        },
-        {
-          "d": "2026-12-29",
-          "amt": 67000,
-          "label": "IC Hospital · Shaun M. gastric sleeve (tahmini)",
+          "amt": 66373.56,
+          "label": "IC Hospital · Nate M. gastric sleeve: tutar ₺66.373,56 (Nurcan Hanım listesi, mail mutabakatı yapıldı). E-fatura bugün gelecek, gelince vade belli olur",
           "est": true
         }
       ]
@@ -6651,6 +6645,11 @@
     }
   ],
   "memory": [
+    {
+      "id": "nobrc",
+      "text": "Hastanın ödemesi alınmış ama ameliyat olmamış ve hastane faturası kesilmemişse borç doğmamıştır (Shaun, Bella, Elaine); Borçlar'a yazma, sadece beklenen çıkış (cash_forecast).",
+      "at": "2026-10-20"
+    },
     {
       "id": "icp66",
       "text": "IC Hospital Priyer Nand ₺66.951 30 Eylül'de ödendi; 'Paraşüt açık' görünen eski IC faturaları ödenmiş sayılır (Nurcan Sarıbal mail mutabakatı).",
