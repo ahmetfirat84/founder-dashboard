@@ -32,7 +32,7 @@
       "imp": "high",
       "pin": true,
       "uid": "e1f81k",
-      "note": "4 fatura 02.09: ECZ2026000000031 ₺5.820 + 032 ₺5.325 + 033 ₺1.279,98 + 034 ₺5.820 (Paraşüt bill 125330572/558/543/488). Hasta ilaçları (Raylene, Kyllie, Warda, Priyer). Ödeme sonrası dekontu WhatsApp'a at, Ömer Faruk Bey'e hazır mesaj çıkar. IBAN rehberde yok."
+      "note": "4 fatura 02.09: ECZ2026000000031 ₺5.820 + 032 ₺5.325 + 033 ₺1.279,98 + 034 ₺5.820 (Paraşüt bill 125330572/558/543/488). Hasta ilaçları (Raylene, Kyllie, Warda, Priyer). Ödeme sonrası dekontu WhatsApp'a at, Ömer Faruk Bey'e hazır mesaj çıkar. IBAN Rehber'de: ARİN ERDOĞMUŞ, VakıfBank, önceki ödemeler de bu hesaba gitmişti."
     },
     {
       "title": "Turkcell 0533 727 0000 hattı ödenmediği için kapandı (SMS geldi): bugün son ödeme günü",
@@ -6502,14 +6502,16 @@
     {
       "id": "coigu2",
       "name": "Fulya Ada Eczanesi",
-      "iban": "",
+      "iban": "TR770001500158007378090059",
       "contact": {
         "person": "Ömer Faruk Bey",
         "phone": "905308539758",
         "greet": "Ömer Faruk Bey"
       },
-      "note": "Eczane yetkilisi: Ömer Faruk Kılınç.",
-      "updated": "2026-10-19"
+      "note": "Eczane yetkilisi: Ömer Faruk Kılınç. Önceki ödemeler bu hesaba gitti (Ahmet, 20.10.2026).",
+      "updated": "2026-10-20",
+      "holder": "ARİN ERDOĞMUŞ (şahıs hesabı, eczane ödemeleri)",
+      "bank": "VakıfBank"
     },
     {
       "id": "q3tmqy",
