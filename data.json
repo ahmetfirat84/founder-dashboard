@@ -20,6 +20,21 @@
   ],
   "cash_alerts": [
     {
+      "title": "Fulya Ada Eczanesi ilaç faturaları",
+      "action_type": "Ödeme",
+      "category": "Eczane",
+      "party": "Fulya Ada Eczanesi",
+      "amount": "₺18.244,98",
+      "amount_try": 18244.98,
+      "due": "BUGÜN (çok gecikti)",
+      "due_date": "2026-10-20",
+      "plan_date": "2026-10-20",
+      "imp": "high",
+      "pin": true,
+      "uid": "e1f81k",
+      "note": "4 fatura 02.09: ECZ2026000000031 ₺5.820 + 032 ₺5.325 + 033 ₺1.279,98 + 034 ₺5.820 (Paraşüt bill 125330572/558/543/488). Hasta ilaçları (Raylene, Kyllie, Warda, Priyer). Ödeme sonrası dekontu WhatsApp'a at, Ömer Faruk Bey'e hazır mesaj çıkar. IBAN rehberde yok."
+    },
+    {
       "title": "Turkcell 0533 727 0000 hattı ödenmediği için kapandı (SMS geldi): bugün son ödeme günü",
       "action_type": "Ödeme",
       "category": "Abonelik / Hat",
@@ -6259,7 +6274,7 @@
       "id": "tedarikci",
       "name": "Tedarikçi borçları (Alacak-Verecek sheet)",
       "kind": "Cari · vade çoğu belirsiz",
-      "left": 261420.13,
+      "left": 242257.16,
       "left_est": true,
       "link": "",
       "note": "Kaynak: Ahmet'in 'Alacak-Verecek Takip Sheet'i (docs.google.com/spreadsheets/d/1youuRhFstBXYHFNFBiSdCWo04RVZ45JPSdnLKJkN2fg) ve Paraşüt. Vital Hotel Fulya ₺27.949 19.10'da ÖDENDİ (listeden çıktı). Multident'in önceki borcu (Dallas, ₺181.200) geçen hafta ÖDENDİ; şu an ödenmemiş Multident faturası yok, sadece Nate için fatura beklenecek. Temmuz stopaj farkı makbuzda mahsup edilmişti. Tarihsiz satırlar fatura var, vade/plan henüz belirlenmedi: ödeme günü verince tarih ver. Eski IC faturaları (₺989.911) Nurcan Sarıbal mail mutabakatıyla kapalı. BHT (Clayton K., ₺89.600) geçen hafta ÖDENDİ (listeden çıktı). IC Hospital Priyer Nand (₺66.951,48) 30.09'da ÖDENDİ (Nurcan Sarıbal yazışması: 'Bakiye kapanmıştır'); Paraşüt'e ödeme kaydı girilmemiş. 19.10'da Nurcan yeni bakiye/fatura bildirdi (muhtemelen Nate): fatura gelince eklenecek. Shaun, Bella ve Elaine (IC): hasta ödemeyi yaptı ama ameliyat olmadı, hastane faturası kesilmedi, BORÇ DOĞMADI (Ahmet); bunlar gelecek maliyet olarak nakit planında (cash_forecast) izlenir.",
@@ -6271,9 +6286,9 @@
           "est": true
         },
         {
-          "d": "",
+          "d": "2026-10-31",
           "amt": 32100,
-          "label": "Tetik Turizm · 2 transfer faturası (23.07 ₺14.700 + 31.08 ₺17.400; Emre Bey bakiyesiyle birebir)"
+          "label": "Tetik Turizm · 2 transfer faturası ₺32.100 (Emre Bey'in bildirdiği bakiye); ödeme ay sonuna kadar (31.10) konuşuldu"
         },
         {
           "d": "2026-10-31",
@@ -6282,14 +6297,16 @@
           "est": false
         },
         {
-          "d": "",
-          "amt": 18245,
-          "label": "Fulya Ada Eczanesi · 4 ilaç faturası (02.09)"
+          "d": "2026-10-20",
+          "amt": 18244.98,
+          "label": "Fulya Ada Eczanesi · 4 ilaç faturası (02.09, ECZ…31–34): 5.820 + 5.325 + 1.279,98 + 5.820 = ₺18.244,98. Çok gecikti: BUGÜN ödenecek",
+          "est": false
         },
         {
-          "d": "",
-          "amt": 42113,
-          "label": "Pharmago · protein ürünleri (Nis 2026 ve önceki açık faturalar)"
+          "d": "2026-10-23",
+          "amt": 22950.05,
+          "label": "Barivital (= Pharmago) · protein: Barivital muhasebesinin bakiyesi ₺22.950,05, ödeme sözü Cuma 23.10. (Paraşüt'te 3 yeni fatura ₺19.225 daha açık görünüyor, onların Barivital bakiyesinde olmadığı doğrulanacak)",
+          "est": false
         },
         {
           "d": "",
