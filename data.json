@@ -6260,114 +6260,183 @@
       ]
     },
     {
-      "id": "parasut-cari",
-      "name": "Tedarikçi borçları (Paraşüt'te açık görünen)",
-      "kind": "Bilgi · doğrulanmadı",
-      "info": true,
-      "left": 2037573.53,
+      "id": "tedarikci",
+      "name": "Tedarikçi borçları (Alacak-Verecek sheet)",
+      "kind": "Cari · vade çoğu belirsiz",
+      "left": 687265,
       "left_est": true,
-      "note": "Paraşüt gider faturalarında 'kalan' tutarı olan tedarikçiler (19.10.2026). Toplama DAHİL DEĞİL: bazıları gerçekte ödenmiş ama Paraşüt'e işlenmemiş olabilir (eski sheet: 'Paraşüt'te ödenmemiş görünüyor'). Her satırı gerçek durumla doğrula: ödenmişse Paraşüt'ten ödeme kaydı gir, açıksa vade ve plan ver. Eczaneler: Fulya Ada, Nispet, Tanrıverdi, Pharmago. MWC = teşvik danışmanı (Medcure ile aynı mı teyit et).",
+      "link": "",
+      "note": "Kaynak: Ahmet'in 'Alacak-Verecek Takip Sheet'i (docs.google.com/spreadsheets/d/1youuRhFstBXYHFNFBiSdCWo04RVZ45JPSdnLKJkN2fg) ve Paraşüt. Vital Hotel Fulya ₺27.949 19.10'da ÖDENDİ (listeden çıktı). Multident bize ₺19.887 borçlu (stopaj farkı, sonraki işten mahsup). Tarihsiz satırlar fatura var, vade/plan henüz belirlenmedi: ödeme günü verince tarih ver. Eski IC faturaları (₺989.911) Nurcan Sarıbal mail mutabakatıyla kapalı.",
       "rows": [
         {
-          "d": "2025-08-19",
-          "amt": 1056863.36,
-          "label": "İstanbul Cerrahi (IC Hospital) · 20 fatura",
-          "est": true
-        },
-        {
-          "d": "2025-09-15",
-          "amt": 259059.29,
-          "label": "Orya Otelcilik · 31 fatura (€4.666)",
-          "est": true
-        },
-        {
-          "d": "2026-09-14",
+          "d": "",
           "amt": 226500,
-          "label": "Multident · 1 fatura",
+          "label": "Multident · 9. ay diş tedavisi (net; ayrıca Multident'in bize borcu ₺19.887 stopaj farkı var)"
+        },
+        {
+          "d": "",
+          "amt": 32100,
+          "label": "Tetik Turizm · 2 transfer faturası (23.07 ₺14.700 + 31.08 ₺17.400; Emre Bey bakiyesiyle birebir)"
+        },
+        {
+          "d": "",
+          "amt": 77756,
+          "label": "Orya Hotel · 8 konaklama faturası (Tem–Eyl 2026)"
+        },
+        {
+          "d": "",
+          "amt": 18245,
+          "label": "Fulya Ada Eczanesi · 4 ilaç faturası (02.09)"
+        },
+        {
+          "d": "",
+          "amt": 66951,
+          "label": "IC Hospital · Priyer Nand tedavi bedeli (vadesi geçmiş)"
+        },
+        {
+          "d": "",
+          "amt": 42113,
+          "label": "Pharmago · protein ürünleri (Nis 2026 ve önceki açık faturalar)"
+        },
+        {
+          "d": "2026-10-05",
+          "amt": 89600,
+          "label": "BHT Hospital · Clayton K. gastric sleeve (€1.600; hastane faturası bekleniyor)",
           "est": true
         },
         {
-          "d": "2025-06-27",
+          "d": "2026-10-20",
+          "amt": 67000,
+          "label": "IC Hospital · Nate M. gastric sleeve (tahmini, fatura ameliyat sonrası)",
+          "est": true
+        },
+        {
+          "d": "2026-12-29",
+          "amt": 67000,
+          "label": "IC Hospital · Shaun M. gastric sleeve (tahmini)",
+          "est": true
+        }
+      ]
+    },
+    {
+      "id": "sahsi",
+      "name": "Şahsi / diğer borçlar",
+      "kind": "Kişi ve kart",
+      "left": 1089814,
+      "left_est": true,
+      "note": "Sheet'in 'Şahsi Borçlar' sekmesi. Kur: €55,98, $48,14. Diğer kartlar satırı eski ve güncel değil (VakıfBank kartı ayrı satırda).",
+      "rows": [
+        {
+          "d": "",
+          "amt": 297254,
+          "label": "Merve Kesat · €5.310",
+          "est": true
+        },
+        {
+          "d": "",
+          "amt": 192560,
+          "label": "Ahmet Tosun · $4.000",
+          "est": true
+        },
+        {
+          "d": "",
+          "amt": 600000,
+          "label": "Diğer kartlar (Garanti, İş Bankası vb.) asgari ödenmemiş, sheet'ten, güncel değil",
+          "est": true
+        }
+      ]
+    },
+    {
+      "id": "parasut-fark",
+      "name": "Paraşüt'te açık ama sheet'te olmayanlar",
+      "kind": "Bilgi · doğrulanmadı",
+      "info": true,
+      "left": 1545959,
+      "left_est": true,
+      "note": "Paraşüt gider faturalarında 'kalan' görünen ama Alacak-Verecek sheet'inde olmayan kalemler. Çoğu muhtemelen ödenmiş ve Paraşüt'e kayıt girilmemiş. Gerçek borç olanları söyle, 'Tedarikçi borçları'na alırım. MWC (teşvik danışmanı) ve Medcure aynı firma mı?",
+      "rows": [
+        {
+          "d": "",
           "amt": 170400,
-          "label": "MWC Yönetim ve Danışmanlık (teşvik danışmanı) · 13 fatura",
+          "label": "MWC Yönetim ve Danışmanlık (teşvik danışmanı) · 13 fatura, Haz 2025–Ara 2025",
           "est": true
         },
         {
-          "d": "2026-01-05",
-          "amt": 66206.08,
-          "label": "Vital Fulya Turizm · 2 fatura",
-          "est": true
-        },
-        {
-          "d": "2025-09-29",
+          "d": "",
           "amt": 58800,
           "label": "CG YMM (eski müşavir) · 7 fatura",
           "est": true
         },
         {
-          "d": "2026-05-10",
+          "d": "",
           "amt": 57750,
           "label": "Doğuş Spor · 4 fatura",
           "est": true
         },
         {
-          "d": "2026-03-13",
-          "amt": 42112.51,
-          "label": "Pharmago (ilaç/sağlık ürünü) · 6 fatura",
+          "d": "",
+          "amt": 989912,
+          "label": "IC Hospital eski 19 fatura: mail mutabakatıyla kapalı, Paraşüt'e ödeme kaydı girilmemiş",
           "est": true
         },
         {
-          "d": "2026-06-11",
-          "amt": 41400,
-          "label": "Tetik Turizm · 3 fatura",
+          "d": "",
+          "amt": 181303,
+          "label": "Orya Hotel eski faturalar (Paraşüt'te açık, sheet'te yok)",
           "est": true
         },
         {
-          "d": "2026-09-02",
-          "amt": 18244.98,
-          "label": "Fulya Ada Eczanesi · 4 fatura",
+          "d": "",
+          "amt": 38257,
+          "label": "Vital Fulya, Paraşüt'te açık 2 fatura (otelin kesmediği ekstre hariç)",
           "est": true
         },
         {
-          "d": "2026-07-13",
+          "d": "",
+          "amt": 9300,
+          "label": "Tetik Turizm 3. fatura (sheet'te yok)",
+          "est": true
+        },
+        {
+          "d": "",
+          "amt": 8046,
+          "label": "Nispet Eczanesi",
+          "est": true
+        },
+        {
+          "d": "",
+          "amt": 3973,
+          "label": "Tanrıverdi Eczanesi",
+          "est": true
+        },
+        {
+          "d": "",
           "amt": 10800,
-          "label": "Kalabalık Ev Turizm · 1 fatura",
+          "label": "Kalabalık Ev Turizm",
           "est": true
         },
         {
-          "d": "2026-07-10",
-          "amt": 8045.94,
-          "label": "Nispet Eczanesi · 1 fatura",
-          "est": true
-        },
-        {
-          "d": "2026-01-07",
-          "amt": 5974.11,
+          "d": "",
+          "amt": 5974,
           "label": "Turkcell · 6 fatura",
           "est": true
         },
         {
-          "d": "2026-09-07",
-          "amt": 4343.04,
-          "label": "Kolay Yazılım · 1 fatura",
+          "d": "",
+          "amt": 4343,
+          "label": "Kolay Yazılım",
           "est": true
         },
         {
-          "d": "2025-06-08",
-          "amt": 4066.8,
+          "d": "",
+          "amt": 4067,
           "label": "Empark · 3 fatura",
           "est": true
         },
         {
-          "d": "2026-10-06",
-          "amt": 3973.42,
-          "label": "Tanrıverdi Eczanesi · 1 fatura",
-          "est": true
-        },
-        {
-          "d": "2026-01-28",
+          "d": "",
           "amt": 3034,
-          "label": "Gülbi̇n Azi̇zoğlu · 1 fatura",
+          "label": "Gülbin Azizoğlu",
           "est": true
         }
       ]
