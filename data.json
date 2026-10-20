@@ -6199,33 +6199,29 @@
       "id": "cpa",
       "name": "CPA Türk mali müşavirlik (geçmiş bakiye)",
       "kind": "Kapama planı",
-      "left": 142600,
-      "left_est": true,
-      "note": "Geçmiş bakiye ₺142.600 (5 Ağu itibarıyla). Plan: 4 taksit × ₺46.450 (aylık ücret ₺10.800 + eski borç taksiti ₺35.650), ayın ~15'i. 20.10: Eylül taksiti ödenmedi; ilk taksit bu ay (en geç 31 Ekim) ödenecek, yani plan 1 ay kaydı: son taksit Aralık yerine Ocak 2027. Temmuz'da ₺23.000 ödenmişti. Yasemin Hanım'a yeni takvimi yazılı bildirmek iyi olur.",
+      "left": 185800,
+      "left_est": false,
+      "note": "Kaynak: 4–7 Ağustos 2026 yazışması (Yasemin Hızarcı). 5 Ağu: toplam 165.600 (90.000 + 7×10.800), 23.000 ödenmiş, kalan 142.600. Ahmet'in 7 Ağu planı: Eylül–Aralık her ayın 15'i ₺46.450 (önceki ayın hizmet bedeli 10.800 + bakiye taksiti 35.650), toplam 185.800; Aralık faturası Ocak'ta olağan akışta. 5 Ağu'dan beri hiç ödeme olmadı: 15 Eylül taksiti ödenmedi. 20.10: ilk taksit en geç ay sonuna kadar ödenecek, plan bir ay kayıyor (her taksitte ücret + bakiye birlikte kaydığı için son taksit 15 Ocak 2027). Yasemin Hanım'a yeni takvimi yazılı bildir. Dikkat: kalan 185.800 = 142.600 bakiye + Ağu–Kas hizmet bedelleri (4×10.800).",
       "rows": [
         {
           "d": "2026-10-31",
           "amt": 46450,
-          "label": "Taksit 1 (Eylül'den kaydı): ödeme sözü, en geç ay sonu",
-          "est": true
+          "label": "Taksit 1 (planda 15 Eylül, ödenmedi): Ağustos faturası 10.800 + bakiye taksiti 35.650. Söz: en geç ay sonu"
         },
         {
           "d": "2026-11-15",
           "amt": 46450,
-          "label": "Taksit 2",
-          "est": true
+          "label": "Taksit 2: Eylül faturası 10.800 + bakiye taksiti 35.650"
         },
         {
           "d": "2026-12-15",
           "amt": 46450,
-          "label": "Taksit 3",
-          "est": true
+          "label": "Taksit 3: Ekim faturası 10.800 + bakiye taksiti 35.650"
         },
         {
           "d": "2027-01-15",
           "amt": 46450,
-          "label": "Taksit 4 (son)",
-          "est": true
+          "label": "Taksit 4 (son): Kasım faturası 10.800 + bakiye taksiti 35.650"
         }
       ]
     },
