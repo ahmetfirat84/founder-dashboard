@@ -6259,10 +6259,10 @@
       "id": "tedarikci",
       "name": "Tedarikçi borçları (Alacak-Verecek sheet)",
       "kind": "Cari · vade çoğu belirsiz",
-      "left": 460765,
+      "left": 371165,
       "left_est": true,
       "link": "",
-      "note": "Kaynak: Ahmet'in 'Alacak-Verecek Takip Sheet'i (docs.google.com/spreadsheets/d/1youuRhFstBXYHFNFBiSdCWo04RVZ45JPSdnLKJkN2fg) ve Paraşüt. Vital Hotel Fulya ₺27.949 19.10'da ÖDENDİ (listeden çıktı). Multident'in önceki borcu (Dallas, ₺181.200) geçen hafta ÖDENDİ; şu an ödenmemiş Multident faturası yok, sadece Nate için fatura beklenecek. Temmuz stopaj farkı makbuzda mahsup edilmişti. Tarihsiz satırlar fatura var, vade/plan henüz belirlenmedi: ödeme günü verince tarih ver. Eski IC faturaları (₺989.911) Nurcan Sarıbal mail mutabakatıyla kapalı.",
+      "note": "Kaynak: Ahmet'in 'Alacak-Verecek Takip Sheet'i (docs.google.com/spreadsheets/d/1youuRhFstBXYHFNFBiSdCWo04RVZ45JPSdnLKJkN2fg) ve Paraşüt. Vital Hotel Fulya ₺27.949 19.10'da ÖDENDİ (listeden çıktı). Multident'in önceki borcu (Dallas, ₺181.200) geçen hafta ÖDENDİ; şu an ödenmemiş Multident faturası yok, sadece Nate için fatura beklenecek. Temmuz stopaj farkı makbuzda mahsup edilmişti. Tarihsiz satırlar fatura var, vade/plan henüz belirlenmedi: ödeme günü verince tarih ver. Eski IC faturaları (₺989.911) Nurcan Sarıbal mail mutabakatıyla kapalı. BHT (Clayton K., ₺89.600) geçen hafta ÖDENDİ (listeden çıktı).",
       "rows": [
         {
           "d": "",
@@ -6296,15 +6296,9 @@
           "label": "Pharmago · protein ürünleri (Nis 2026 ve önceki açık faturalar)"
         },
         {
-          "d": "2026-10-05",
-          "amt": 89600,
-          "label": "BHT Hospital · Clayton K. gastric sleeve (€1.600; hastane faturası bekleniyor)",
-          "est": true
-        },
-        {
-          "d": "2026-10-20",
+          "d": "",
           "amt": 67000,
-          "label": "IC Hospital · Nate M. gastric sleeve (tahmini, fatura ameliyat sonrası)",
+          "label": "IC Hospital · Nate M. gastric sleeve (hastane faturası henüz kesilmedi, tutar tahmini ₺67.000, vade belli olunca tarih ver)",
           "est": true
         },
         {
