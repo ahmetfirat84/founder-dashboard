@@ -6406,7 +6406,7 @@
       "name": "Paraşüt'te açık ama sheet'te olmayanlar",
       "kind": "Bilgi · doğrulanmadı",
       "info": true,
-      "left": 1375559,
+      "left": 1317809,
       "left_est": true,
       "note": "Paraşüt gider faturalarında 'kalan' görünen ama Alacak-Verecek sheet'inde olmayan kalemler. Çoğu muhtemelen ödenmiş ve Paraşüt'e kayıt girilmemiş. Gerçek borç olanları söyle, 'Tedarikçi borçları'na alırım. MWC (teşvik danışmanı) ve Medcure aynı firma mı?",
       "rows": [
@@ -6414,12 +6414,6 @@
           "d": "",
           "amt": 58800,
           "label": "CG YMM (eski müşavir) · 7 fatura",
-          "est": true
-        },
-        {
-          "d": "",
-          "amt": 57750,
-          "label": "Doğuş Spor · 4 fatura",
           "est": true
         },
         {
@@ -6737,6 +6731,11 @@
     }
   ],
   "memory": [
+    {
+      "id": "dogus1",
+      "text": "Doğuş Spor faturaları (₺14.437,50/ay, spor üyeliği) Ahmet'in ablasının şahsi gideri: KDV için şirkete kesiliyor, ücreti kendisi ödüyor. Şirket borcu DEĞİL, Paraşüt'te 'şahsi/şirket dışı gider' etiketli giderler gibi ele al.",
+      "at": "2026-10-20"
+    },
     {
       "id": "mwcmed",
       "text": "MWC Yönetim ve Danışmanlık = Medcure (teşvik danışmanı, Damla/Hülya Zengi'nin firması); Paraşüt'te MWC adıyla.",
