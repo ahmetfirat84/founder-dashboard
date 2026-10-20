@@ -6259,15 +6259,15 @@
       "id": "tedarikci",
       "name": "Tedarikçi borçları (Alacak-Verecek sheet)",
       "kind": "Cari · vade çoğu belirsiz",
-      "left": 622078,
+      "left": 641965,
       "left_est": true,
       "link": "",
-      "note": "Kaynak: Ahmet'in 'Alacak-Verecek Takip Sheet'i (docs.google.com/spreadsheets/d/1youuRhFstBXYHFNFBiSdCWo04RVZ45JPSdnLKJkN2fg) ve Paraşüt. Vital Hotel Fulya ₺27.949 19.10'da ÖDENDİ (listeden çıktı). Multident'in ₺19.887 stopaj farkı (Temmuz) Eylül makbuzundan mahsup edildi. Tarihsiz satırlar fatura var, vade/plan henüz belirlenmedi: ödeme günü verince tarih ver. Eski IC faturaları (₺989.911) Nurcan Sarıbal mail mutabakatıyla kapalı.",
+      "note": "Kaynak: Ahmet'in 'Alacak-Verecek Takip Sheet'i (docs.google.com/spreadsheets/d/1youuRhFstBXYHFNFBiSdCWo04RVZ45JPSdnLKJkN2fg) ve Paraşüt. Vital Hotel Fulya ₺27.949 19.10'da ÖDENDİ (listeden çıktı). Multident'in Temmuz stopaj farkı (₺19.887) 30.09 makbuzunda mahsup edildi (Ahmet teyit etti), ek düşüm yok. Tarihsiz satırlar fatura var, vade/plan henüz belirlenmedi: ödeme günü verince tarih ver. Eski IC faturaları (₺989.911) Nurcan Sarıbal mail mutabakatıyla kapalı.",
       "rows": [
         {
           "d": "",
-          "amt": 161313,
-          "label": "Multident · 9. ay diş tedavisi: düzeltilmiş makbuz FVR2026000000020 (30.09) net ₺181.200 − Temmuz stopaj farkı mahsubu ₺19.887 = ₺161.313. İlk makbuz SMM…182 (14.09, net ₺226.500) hatalıydı, İPTAL edilmeli"
+          "amt": 181200,
+          "label": "Multident · 9. ay diş tedavisi (Dallas): düzeltilmiş makbuz FVR2026000000020 (30.09), net ₺181.200 (Temmuz stopaj farkı bu makbuzda mahsup edilmiş). İlk makbuz SMM…182 hatalıydı, İPTAL edilmeli"
         },
         {
           "d": "",
