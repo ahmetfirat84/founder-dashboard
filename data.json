@@ -1787,6 +1787,31 @@
       "updated": "2026-10-18 00:05",
       "items": [
         {
+          "uid": "vlmdj8",
+          "text": "GBC takibi: ödeme 17.10'da yapıldı (₺41.786). 20.10 12:14'te finans@'tan GBC'ye (Duygu, Melissa, Dilek) mail atıldı: yeni dönem (31.08) faturası + güncel sözleşme gelmedi, ayrıca kargodaki 2 ürün 1-2 gün içinde teslim edilmeli. 23 Ekim'e kadar cevap yoksa telefonla ara / ofise git.",
+          "action_type": "Yanıt",
+          "category": "Ofis",
+          "party": "Galata Business Center",
+          "due": "23 Eki (cevap yoksa ara)",
+          "due_date": "2026-10-23",
+          "plan_date": "2026-10-23",
+          "imp": "normal",
+          "source": "manual",
+          "src_detail": {
+            "channel": "email",
+            "from": "finans@yeniben.com (Ahmet)",
+            "date": "2026-10-20",
+            "subject": "Re: YENİBEN ... GBC SÖZLEŞME YENİLEME & ÜCRET BİLGİLENDİRMENİZ",
+            "to": [
+              "duygu@galatabusinesscenter.com.tr",
+              "melissa@galatabusinesscenter.com.tr",
+              "dilek@galatabusinesscenter.com.tr"
+            ],
+            "thread": "19f8edb5dc77da2d",
+            "note": "Ahmet manuel gönderdi, takip asistanda"
+          }
+        },
+        {
           "text": "GBC sanal ofis yenilemesi: ₺41.828 (12 ay, KDV dahil), yeni dönem 31.08'de başladı, ödeme 01.09'dan beri gecikmede, faiz işliyor. Para girince ilk öde, dekontu GBC'ye mail at",
           "due": "Acil",
           "owner": "",
