@@ -5717,7 +5717,7 @@
       "id": "sgk-cari",
       "name": "SGK cari ay primleri (şirket)",
       "kind": "Prim · aylık",
-      "left": 71419.8,
+      "left": 149995.8,
       "left_est": true,
       "brk": {
         "n": 4,
@@ -5735,8 +5735,8 @@
         },
         {
           "d": "2026-10-30",
-          "amt": null,
-          "label": "Eylül primi (tutar bekleniyor)",
+          "amt": 78576,
+          "label": "Eylül primi (vade ≈30.10, bordro tahmini ₺78.576)",
           "inst": true,
           "est": true
         }
@@ -6274,7 +6274,7 @@
       "id": "tedarikci",
       "name": "Tedarikçi borçları (Alacak-Verecek sheet)",
       "kind": "Cari · vade çoğu belirsiz",
-      "left": 242257.16,
+      "left": 412657.16000000003,
       "left_est": true,
       "link": "",
       "note": "Kaynak: Ahmet'in 'Alacak-Verecek Takip Sheet'i (docs.google.com/spreadsheets/d/1youuRhFstBXYHFNFBiSdCWo04RVZ45JPSdnLKJkN2fg) ve Paraşüt. Vital Hotel Fulya ₺27.949 19.10'da ÖDENDİ (listeden çıktı). Multident'in önceki borcu (Dallas, ₺181.200) geçen hafta ÖDENDİ; şu an ödenmemiş Multident faturası yok, sadece Nate için fatura beklenecek. Temmuz stopaj farkı makbuzda mahsup edilmişti. Tarihsiz satırlar fatura var, vade/plan henüz belirlenmedi: ödeme günü verince tarih ver. Eski IC faturaları (₺989.911) Nurcan Sarıbal mail mutabakatıyla kapalı. BHT (Clayton K., ₺89.600) geçen hafta ÖDENDİ (listeden çıktı). IC Hospital Priyer Nand (₺66.951,48) 30.09'da ÖDENDİ (Nurcan Sarıbal yazışması: 'Bakiye kapanmıştır'); Paraşüt'e ödeme kaydı girilmemiş. 19.10'da Nurcan yeni bakiye/fatura bildirdi (muhtemelen Nate): fatura gelince eklenecek. Shaun, Bella ve Elaine (IC): hasta ödemeyi yaptı ama ameliyat olmadı, hastane faturası kesilmedi, BORÇ DOĞMADI (Ahmet); bunlar gelecek maliyet olarak nakit planında (cash_forecast) izlenir.",
@@ -6313,6 +6313,12 @@
           "amt": 66373.56,
           "label": "IC Hospital · Nate M. gastric sleeve: tutar ₺66.373,56 (Nurcan Hanım listesi, mail mutabakatı yapıldı). E-fatura bugün gelecek, gelince vade belli olur",
           "est": true
+        },
+        {
+          "d": "",
+          "amt": 170400,
+          "label": "MWC Yönetim ve Danışmanlık (teşvik danışmanı, Medcure ile aynı mı teyit): 13 fatura, Paraşüt'te açık; danışmanlık Temmuz'da bitti. Gerçek açık tutar ve ödeme planı doğrulanacak",
+          "est": true
         }
       ]
     },
@@ -6349,16 +6355,10 @@
       "name": "Paraşüt'te açık ama sheet'te olmayanlar",
       "kind": "Bilgi · doğrulanmadı",
       "info": true,
-      "left": 1545959,
+      "left": 1375559,
       "left_est": true,
       "note": "Paraşüt gider faturalarında 'kalan' görünen ama Alacak-Verecek sheet'inde olmayan kalemler. Çoğu muhtemelen ödenmiş ve Paraşüt'e kayıt girilmemiş. Gerçek borç olanları söyle, 'Tedarikçi borçları'na alırım. MWC (teşvik danışmanı) ve Medcure aynı firma mı?",
       "rows": [
-        {
-          "d": "",
-          "amt": 170400,
-          "label": "MWC Yönetim ve Danışmanlık (teşvik danışmanı) · 13 fatura, Haz 2025–Ara 2025",
-          "est": true
-        },
         {
           "d": "",
           "amt": 58800,
@@ -6457,6 +6457,28 @@
           "d": "2026-10-28",
           "amt": 791,
           "label": "KDV 2026/09",
+          "est": true
+        }
+      ]
+    },
+    {
+      "id": "ay-sonu",
+      "name": "Ekim sonu yaklaşan diğer ödemeler",
+      "kind": "Takvim (toplama dahil değil: maaş borç değil)",
+      "left": 9773,
+      "left_est": true,
+      "note": "Kaynak: Ahmet'in 'aylık gider analizi' sheet'i, Ekim 2026 Ödemeler sekmesi. Paraşüt yıllık yenileme ₺9.773 (28.10). Maaşlar (Ahmet + Hülya + Selin) ≈₺320.000 (31.10) takvim için gösterilir, 'Kalan toplam'a sadece Paraşüt yıllık dahil. HubSpot ₺76.245 (kart reddedildi, 28.10 askı) ve SGK Eylül primi ayrı satırlarda.",
+      "rows": [
+        {
+          "d": "2026-10-28",
+          "amt": 9773,
+          "label": "Paraşüt yıllık abonelik",
+          "est": true
+        },
+        {
+          "d": "2026-10-31",
+          "amt": 320000,
+          "label": "Maaşlar: Ahmet + Hülya + Selin (net, tahmini)",
           "est": true
         }
       ]
