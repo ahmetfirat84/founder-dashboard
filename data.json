@@ -1947,7 +1947,7 @@
       ]
     }
   ],
-  "updated": "2026-10-20 12:25",
+  "updated": "2026-10-20 13:34",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2047,7 +2047,8 @@
     "1a1582ec96c83526",
     "1a1589773a39d16e",
     "1a15897830409c61",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCNDFBMjE3RUJFMzkzQTZGMTIA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCNDFBMjE3RUJFMzkzQTZGMTIA",
+    "1a158dfad6e54bef"
   ],
   "feed_order": [
     "qt5dom",
@@ -6637,6 +6638,63 @@
     }
   ],
   "meeting_notes": [
+    {
+      "id": "5r9zsr",
+      "title": "& New Me_Daily",
+      "date": "2026-10-20",
+      "summary": "Toplantıda reklamdan ve eski lead'lerden gelen kişilerin takibi, depozito ve hasta operasyonları konuşuldu. Reklam performansı erken bulundu; bütçe artışı için birkaç gün izleme kararlaştırıldı. Moana ile uçuş ve yerel ödeme iş birliği küçük bir denemeyle başlatılacak.",
+      "thread": "1a158dfad6e54bef",
+      "actions": [
+        {
+          "id": "vbxbux",
+          "text": "Selin Sezgin, e-postayı görüp planlanan aramaya yanıt vermeyen lead'i tekrar arayacak.",
+          "dep": "zeynep",
+          "owner": "Selin Sezgin",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "v8khqb",
+          "text": "Hülya Alkan, D, Rebecca ve Lipo tedavisiyle ilgilenen sıcak lead'lerle görüşmeleri ilerletip depozito ihtimalini test edecek.",
+          "dep": "zeynep",
+          "owner": "Hülya Alkan",
+          "party": "D, Rebecca",
+          "status": "proposed"
+        },
+        {
+          "id": "si9jtg",
+          "text": "Satış ekibi, akreditasyon, komplikasyon oranı ve tedavi ayrıntıları sorularını WhatsApp grubundaki geri bildirim kanalına aktaracak.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "rg3sm3",
+          "text": "Ödemede gecikme yaşayan müşteriden önce kısmi ödeme alınarak iyi niyet test edilecek.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "imoaah",
+          "text": "Ahmet Fırat, mevcut reklam sonuçlarına göre birkaç yeni kreatif hazırlayıp farklı reklam varyasyonlarını test edecek.",
+          "dep": "ilksen",
+          "owner": "Ahmet Fırat",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "fh6c6z",
+          "text": "Selin Sezgin, ilk uygun fırsatta Moana'nın uçuş fiyatlarını Mix&Match ve Skyscanner ile karşılaştıracak.",
+          "dep": "zeynep",
+          "owner": "Selin Sezgin",
+          "party": "Moana",
+          "status": "proposed"
+        }
+      ]
+    },
     {
       "id": "1r9xbt",
       "title": "Mo x ANDNEWME",
