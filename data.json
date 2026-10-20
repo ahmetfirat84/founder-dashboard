@@ -6259,15 +6259,15 @@
       "id": "tedarikci",
       "name": "Tedarikçi borçları (Alacak-Verecek sheet)",
       "kind": "Cari · vade çoğu belirsiz",
-      "left": 687265,
+      "left": 622078,
       "left_est": true,
       "link": "",
-      "note": "Kaynak: Ahmet'in 'Alacak-Verecek Takip Sheet'i (docs.google.com/spreadsheets/d/1youuRhFstBXYHFNFBiSdCWo04RVZ45JPSdnLKJkN2fg) ve Paraşüt. Vital Hotel Fulya ₺27.949 19.10'da ÖDENDİ (listeden çıktı). Multident bize ₺19.887 borçlu (stopaj farkı, sonraki işten mahsup). Tarihsiz satırlar fatura var, vade/plan henüz belirlenmedi: ödeme günü verince tarih ver. Eski IC faturaları (₺989.911) Nurcan Sarıbal mail mutabakatıyla kapalı.",
+      "note": "Kaynak: Ahmet'in 'Alacak-Verecek Takip Sheet'i (docs.google.com/spreadsheets/d/1youuRhFstBXYHFNFBiSdCWo04RVZ45JPSdnLKJkN2fg) ve Paraşüt. Vital Hotel Fulya ₺27.949 19.10'da ÖDENDİ (listeden çıktı). Multident'in ₺19.887 stopaj farkı (Temmuz) Eylül makbuzundan mahsup edildi. Tarihsiz satırlar fatura var, vade/plan henüz belirlenmedi: ödeme günü verince tarih ver. Eski IC faturaları (₺989.911) Nurcan Sarıbal mail mutabakatıyla kapalı.",
       "rows": [
         {
           "d": "",
-          "amt": 226500,
-          "label": "Multident · 9. ay diş tedavisi (net; ayrıca Multident'in bize borcu ₺19.887 stopaj farkı var)"
+          "amt": 161313,
+          "label": "Multident · 9. ay diş tedavisi: düzeltilmiş makbuz FVR2026000000020 (30.09) net ₺181.200 − Temmuz stopaj farkı mahsubu ₺19.887 = ₺161.313. İlk makbuz SMM…182 (14.09, net ₺226.500) hatalıydı, İPTAL edilmeli"
         },
         {
           "d": "",
@@ -6433,6 +6433,28 @@
           "d": "",
           "amt": 3034,
           "label": "Gülbin Azizoğlu",
+          "est": true
+        }
+      ]
+    },
+    {
+      "id": "vd-yaklasan",
+      "name": "Yaklaşan vergi ödemeleri (Eylül dönemi)",
+      "kind": "Beyan sonrası ödeme",
+      "left": 69598,
+      "left_est": true,
+      "note": "Eylül dönemi: muhtasar vadesi 26.10 (normal maaş stopajı ≈₺23.507 + Multident SMM stopajı ₺45.300), KDV vadesi 28.10 (≈₺791). Tutarlar CPA Türk'ün tahakkuk fişleriyle (≈26–28 Eki) kesinleşir. İlk Multident makbuzu (SMM…182, stopaj ₺56.625) iptal edilmezse muhtasar ₺56.625 daha fazla çıkar: CPA Türk'e iptali haber ver.",
+      "rows": [
+        {
+          "d": "2026-10-26",
+          "amt": 68807,
+          "label": "Muhtasar 2026/09 (23.507 + 45.300 Multident stopajı)",
+          "est": true
+        },
+        {
+          "d": "2026-10-28",
+          "amt": 791,
+          "label": "KDV 2026/09",
           "est": true
         }
       ]
