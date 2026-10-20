@@ -384,7 +384,7 @@
       "name": "BATU",
       "area": "Muhasebe",
       "status": "red",
-      "updated": "2026-10-17 18:10",
+      "updated": "2026-10-20 09:31",
       "items": [
         {
           "uid": "s9mc5u",
@@ -839,6 +839,22 @@
               }
             ]
           }
+        },
+        {
+          "action_type": "Belge",
+          "category": "Resmi yazı",
+          "party": "Gelir İdaresi Başkanlığı (KETSİS)",
+          "amount": "",
+          "due": "25 Eki tebliğ",
+          "uid": "9qop4d",
+          "source": "mail-gelen",
+          "origin": "E-posta (20 Eki 09:30): ketsis-noreply@gelirler.gov.tr · KETSİS Tebliğ Bilgilendirme İletisi - BELGE NO[2026101966Vyt",
+          "wamid": "1a15801633352d7f",
+          "mail_thread": "1a15801633352d7f",
+          "imp": "high",
+          "due_date": "2026-10-25",
+          "text": "KETSİS e-tebligat 2026101966Vyt0000330 (20.10 gönderildi, 25.10'da tebliğ sayılır): belgeyi dijital.gib.gov.tr üzerinden doğrudan giriş yaparak oku, e-postadaki bağlantıya tıklama.",
+          "owner": ""
         }
       ],
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
@@ -1862,7 +1878,7 @@
       ]
     }
   ],
-  "updated": "2026-10-20 08:24",
+  "updated": "2026-10-20 09:31",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1950,7 +1966,8 @@
     "1a15449c993ebd0b",
     "1a1548b1edc7f4a4",
     "1a154c3a538e55a9",
-    "1a157c4637a089e3"
+    "1a157c4637a089e3",
+    "1a15801633352d7f"
   ],
   "feed_order": [
     "qt5dom",
