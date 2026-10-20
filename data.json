@@ -6259,10 +6259,10 @@
       "id": "tedarikci",
       "name": "Tedarikçi borçları (Alacak-Verecek sheet)",
       "kind": "Cari · vade çoğu belirsiz",
-      "left": 395997.57,
+      "left": 329046.57,
       "left_est": true,
       "link": "",
-      "note": "Kaynak: Ahmet'in 'Alacak-Verecek Takip Sheet'i (docs.google.com/spreadsheets/d/1youuRhFstBXYHFNFBiSdCWo04RVZ45JPSdnLKJkN2fg) ve Paraşüt. Vital Hotel Fulya ₺27.949 19.10'da ÖDENDİ (listeden çıktı). Multident'in önceki borcu (Dallas, ₺181.200) geçen hafta ÖDENDİ; şu an ödenmemiş Multident faturası yok, sadece Nate için fatura beklenecek. Temmuz stopaj farkı makbuzda mahsup edilmişti. Tarihsiz satırlar fatura var, vade/plan henüz belirlenmedi: ödeme günü verince tarih ver. Eski IC faturaları (₺989.911) Nurcan Sarıbal mail mutabakatıyla kapalı. BHT (Clayton K., ₺89.600) geçen hafta ÖDENDİ (listeden çıktı).",
+      "note": "Kaynak: Ahmet'in 'Alacak-Verecek Takip Sheet'i (docs.google.com/spreadsheets/d/1youuRhFstBXYHFNFBiSdCWo04RVZ45JPSdnLKJkN2fg) ve Paraşüt. Vital Hotel Fulya ₺27.949 19.10'da ÖDENDİ (listeden çıktı). Multident'in önceki borcu (Dallas, ₺181.200) geçen hafta ÖDENDİ; şu an ödenmemiş Multident faturası yok, sadece Nate için fatura beklenecek. Temmuz stopaj farkı makbuzda mahsup edilmişti. Tarihsiz satırlar fatura var, vade/plan henüz belirlenmedi: ödeme günü verince tarih ver. Eski IC faturaları (₺989.911) Nurcan Sarıbal mail mutabakatıyla kapalı. BHT (Clayton K., ₺89.600) geçen hafta ÖDENDİ (listeden çıktı). IC Hospital Priyer Nand (₺66.951,48) 30.09'da ÖDENDİ (Nurcan Sarıbal yazışması: 'Bakiye kapanmıştır'); Paraşüt'e ödeme kaydı girilmemiş. 19.10'da Nurcan yeni bakiye/fatura bildirdi (muhtemelen Nate): fatura gelince eklenecek.",
       "rows": [
         {
           "d": "",
@@ -6285,11 +6285,6 @@
           "d": "",
           "amt": 18245,
           "label": "Fulya Ada Eczanesi · 4 ilaç faturası (02.09)"
-        },
-        {
-          "d": "",
-          "amt": 66951,
-          "label": "IC Hospital · Priyer Nand tedavi bedeli (vadesi geçmiş)"
         },
         {
           "d": "",
@@ -6656,6 +6651,11 @@
     }
   ],
   "memory": [
+    {
+      "id": "icp66",
+      "text": "IC Hospital Priyer Nand ₺66.951 30 Eylül'de ödendi; 'Paraşüt açık' görünen eski IC faturaları ödenmiş sayılır (Nurcan Sarıbal mail mutabakatı).",
+      "at": "2026-10-20"
+    },
     {
       "id": "1gafnx",
       "text": "Barivital: protein supplement firması (gastric sleeve sonrası hasta ürünü), otel değil.",
