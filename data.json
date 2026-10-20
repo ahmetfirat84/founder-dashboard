@@ -6259,7 +6259,7 @@
       "id": "tedarikci",
       "name": "Tedarikçi borçları (Alacak-Verecek sheet)",
       "kind": "Cari · vade çoğu belirsiz",
-      "left": 371165,
+      "left": 395997.57,
       "left_est": true,
       "link": "",
       "note": "Kaynak: Ahmet'in 'Alacak-Verecek Takip Sheet'i (docs.google.com/spreadsheets/d/1youuRhFstBXYHFNFBiSdCWo04RVZ45JPSdnLKJkN2fg) ve Paraşüt. Vital Hotel Fulya ₺27.949 19.10'da ÖDENDİ (listeden çıktı). Multident'in önceki borcu (Dallas, ₺181.200) geçen hafta ÖDENDİ; şu an ödenmemiş Multident faturası yok, sadece Nate için fatura beklenecek. Temmuz stopaj farkı makbuzda mahsup edilmişti. Tarihsiz satırlar fatura var, vade/plan henüz belirlenmedi: ödeme günü verince tarih ver. Eski IC faturaları (₺989.911) Nurcan Sarıbal mail mutabakatıyla kapalı. BHT (Clayton K., ₺89.600) geçen hafta ÖDENDİ (listeden çıktı).",
@@ -6276,9 +6276,10 @@
           "label": "Tetik Turizm · 2 transfer faturası (23.07 ₺14.700 + 31.08 ₺17.400; Emre Bey bakiyesiyle birebir)"
         },
         {
-          "d": "",
-          "amt": 77756,
-          "label": "Orya Hotel · 8 konaklama faturası (Tem–Eyl 2026)"
+          "d": "2026-10-31",
+          "amt": 102588.57,
+          "label": "Orya Hotel · toplam bakiye ₺102.588,57 (9 fatura, son OHL…236 ₺24.833,39). Plan: 19–23 Eki bir kısmi ödeme, 31 Eki'ye kadar kapanış",
+          "est": false
         },
         {
           "d": "",
