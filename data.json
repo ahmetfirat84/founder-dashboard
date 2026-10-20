@@ -1476,6 +1476,10 @@
       "summary": "HealthTürkiye yenilemesi açık",
       "notes": [
         {
+          "text": "Google Workspace hizmet koşulları güncellendi (12 Eki 2026'dan geçerli): AI ajan kullanımı, fikri mülkiyet ve sorumluluk maddeleri değişti. Google Cloud Agentic AI kullanım kılavuzu yayımlandı. Kullanıcı, iç politikalarını bu şartlara uyarlamalı. Son tarih yok. (kaynak: E-posta (20 Eki 08:24): The Google Workspace Team · [Legal Notice] Updates to Go)",
+          "at": "2026-10-20 08:24"
+        },
+        {
           "text": "HealthTürkiye mailleri ayıklandı: GERÇEK olanlar (1) üyelik yenileme, son gün 9 Kas; (2) performans formu, son gün 29 Eki. SPAM/pazarlama: Türksoy Danışmanlık ('YETKİ BELGENİZ İÇİN SON 3 AY', '31 ARALIK KRİTİK TARİH', resmi görünür ama özel danışmanlık, acentaya uygulanmaz), USTTAK, HİB fuar duyuruları. Giriş doğrulama kodu mailleri portal girişi, aksiyon değil.",
           "at": "2026-10-18 15:00"
         },
@@ -1858,7 +1862,7 @@
       ]
     }
   ],
-  "updated": "2026-10-19 18:25",
+  "updated": "2026-10-20 08:24",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -1945,7 +1949,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDFEODJFNDRCRTE5QTFCMTRDMQA=",
     "1a15449c993ebd0b",
     "1a1548b1edc7f4a4",
-    "1a154c3a538e55a9"
+    "1a154c3a538e55a9",
+    "1a157c4637a089e3"
   ],
   "feed_order": [
     "qt5dom",
@@ -6253,13 +6258,13 @@
         },
         {
           "d": "2026-09-14",
-          "amt": 226500.0,
+          "amt": 226500,
           "label": "Multident · 1 fatura",
           "est": true
         },
         {
           "d": "2025-06-27",
-          "amt": 170400.0,
+          "amt": 170400,
           "label": "MWC Yönetim ve Danışmanlık (teşvik danışmanı) · 13 fatura",
           "est": true
         },
@@ -6271,13 +6276,13 @@
         },
         {
           "d": "2025-09-29",
-          "amt": 58800.0,
+          "amt": 58800,
           "label": "CG YMM (eski müşavir) · 7 fatura",
           "est": true
         },
         {
           "d": "2026-05-10",
-          "amt": 57750.0,
+          "amt": 57750,
           "label": "Doğuş Spor · 4 fatura",
           "est": true
         },
@@ -6289,7 +6294,7 @@
         },
         {
           "d": "2026-06-11",
-          "amt": 41400.0,
+          "amt": 41400,
           "label": "Tetik Turizm · 3 fatura",
           "est": true
         },
@@ -6301,7 +6306,7 @@
         },
         {
           "d": "2026-07-13",
-          "amt": 10800.0,
+          "amt": 10800,
           "label": "Kalabalık Ev Turizm · 1 fatura",
           "est": true
         },
@@ -6337,7 +6342,7 @@
         },
         {
           "d": "2026-01-28",
-          "amt": 3034.0,
+          "amt": 3034,
           "label": "Gülbi̇n Azi̇zoğlu · 1 fatura",
           "est": true
         }
