@@ -926,6 +926,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "📎 fatura-gelen arşivlendi: ManoByte 2026-10-21 no MOGOE5GN-0010 → https://drive.google.com/file/d/1RsfjxaK4sExmZsCYd4LWVtK9r-2v7ykV/view?usp=drivesdk",
+          "at": "2026-10-21 17:59"
+        },
+        {
           "text": "📎 belge arşivlendi: Seçil N. Fırat 2026-10-21 → https://drive.google.com/file/d/1WfGKQBoZBfyFmMKswiGlYWP3R1deMgIX/view?usp=drivesdk",
           "at": "2026-10-21 14:50"
         },
@@ -2319,7 +2323,8 @@
     "1a15e6e3fe5cd58d",
     "1a15eeb7b6e88eb8",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5N0M3NzI2NTgwQTE5RjE5QkMA",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFGMEQyMUFCNEI3MDVBNzY1N0QA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFGMEQyMUFCNEI3MDVBNzY1N0QA",
+    "1a15ef8ecb0d1ea2"
   ],
   "feed_order": [
     "qt5dom",
