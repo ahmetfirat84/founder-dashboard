@@ -422,7 +422,6 @@
           "amount": "₺61.298,37 (taksit 3)",
           "due": "Pzt 19 Eki",
           "due_date": "2026-10-19",
-          "plan_date": "2026-10-19",
           "urgency": "red",
           "pin": true,
           "imp": "high",
@@ -473,7 +472,6 @@
           "amount": "₺39.375,87 + ₺11.808,23",
           "due": "Pzt 19 Eki / 2 Kas",
           "due_date": "2026-10-19",
-          "plan_date": "2026-10-19",
           "urgency": "red",
           "pin": true,
           "imp": "high",
@@ -494,7 +492,6 @@
           "amount": "₺14.029,43 (3 taksit)",
           "due": "Pzt 2 Kas",
           "due_date": "2026-11-02",
-          "plan_date": "2026-10-21",
           "urgency": "red",
           "pin": true,
           "imp": "high",
@@ -1198,6 +1195,18 @@
       "updated": "2026-10-16 16:45",
       "items": [
         {
+          "text": "IC Hospital (Barış): EK-21 imzalarını takip et",
+          "action_type": "Belge",
+          "category": "Todo",
+          "party": "",
+          "amount": "",
+          "due": "",
+          "urgency": "gray",
+          "uid": "3f6lqi",
+          "source": "manual",
+          "plan_date": "2026-10-21"
+        },
+        {
           "text": "HealthTürkiye 2026 portal üyelik yenileme ücreti: SON GÜN 9 KASIM 2026 (mail 'son ödeme 19 Eki' değil). Ödenmezse portal üyeliği iptal, USHAŞ sözleşmeyi feshedebilir. Tutar mailde yok: portala gir → 'Abonelik' paneli → tutarı gör, öde. Mail 10 Eki'den beri her gün geliyor.",
           "due": "9 Kas",
           "owner": "",
@@ -1500,16 +1509,17 @@
           "uid": "b2b465"
         },
         {
-          "text": "Cankat ile sermaye/genel kurul yöntemini netleştir (pzt-salı oturum)",
+          "text": "Cankat ile Genel Kurul konusunu konuş (CPA Türk'ten de teklif alınacak)",
           "action_type": "Toplantı",
           "category": "Hukuk",
           "party": "Cankat",
           "amount": "",
-          "due": "Pzt-Salı",
-          "due_date": "2026-10-20",
+          "due": "",
           "owner": "",
           "source": "asistan",
-          "uid": "d1bafc"
+          "uid": "d1bafc",
+          "plan_date": "2026-10-21",
+          "urgency": "gray"
         },
         {
           "text": "Cihan S. reklam kredisi: imzalı anlaşmayı bul/yaz (€10.000 anapara, en erken 6 ay sonra iade, kazanılan her satışa €100 pay)",
@@ -1752,6 +1762,54 @@
       "updated": "2026-10-16 15:30",
       "items": [
         {
+          "text": "Booking vs New Me animasyonunu tamamla",
+          "action_type": "Belge",
+          "category": "Todo",
+          "party": "",
+          "amount": "",
+          "due": "",
+          "urgency": "gray",
+          "uid": "9plrjr",
+          "source": "manual",
+          "plan_date": "2026-10-21"
+        },
+        {
+          "text": "New Me Pitch Deck güncelle",
+          "action_type": "Belge",
+          "category": "Todo",
+          "party": "",
+          "amount": "",
+          "due": "",
+          "urgency": "gray",
+          "uid": "fo11bz",
+          "source": "manual",
+          "plan_date": "2026-10-21"
+        },
+        {
+          "text": "Slush meeting'leri book et",
+          "action_type": "Toplantı",
+          "category": "Todo",
+          "party": "",
+          "amount": "",
+          "due": "",
+          "urgency": "gray",
+          "uid": "ok2bmf",
+          "source": "manual",
+          "plan_date": "2026-10-21"
+        },
+        {
+          "text": "Claus'a yanıt yaz (DM'den)",
+          "action_type": "Yanıt",
+          "category": "Todo",
+          "party": "",
+          "amount": "",
+          "due": "",
+          "urgency": "gray",
+          "uid": "sgd478",
+          "source": "manual",
+          "plan_date": "2026-10-21"
+        },
+        {
           "text": "Slush Helsinki (18-19 Kas) katılım kararı bekliyor; katılım olursa yatırımcı toplantılarını planla",
           "due": "",
           "owner": "",
@@ -1947,9 +2005,34 @@
           "at": "2026-10-17 15:33"
         }
       ]
+    },
+    {
+      "key": "sahsi",
+      "name": "AHMET",
+      "area": "Şahsi-Todo",
+      "status": "gray",
+      "summary": "Şahsi yapılacaklar",
+      "updated": "2026-10-21 11:30",
+      "items": [
+        {
+          "text": "Seçil'e 500 USD gönder",
+          "action_type": "Yanıt",
+          "category": "Todo",
+          "party": "",
+          "amount": "",
+          "due": "",
+          "urgency": "gray",
+          "uid": "nhcy3n",
+          "source": "manual",
+          "plan_date": "2026-10-21",
+          "imp": "high",
+          "pin": true
+        }
+      ],
+      "notes": []
     }
   ],
-  "updated": "2026-10-21 10:56",
+  "updated": "2026-10-21 11:30",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
