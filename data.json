@@ -416,18 +416,28 @@
       "action_type": "Ödeme",
       "category": "Elektrik",
       "party": "CK BEPSAŞ (CK Boğaziçi Elektrik)",
-      "amount": "₺415",
-      "due": "19 Eki (talimat ödenemedi, bakiye yetersiz)",
+      "amount": "₺416 (ödendi)",
+      "due": "Ödendi 21.10",
       "uid": "p7qkcx",
       "source": "mail-gelen",
       "origin": "E-posta (20 Eki 12:14): Turkiye Is Bankasi A.S · Ödenemeyen Talimatlı Fatura Bilgisi",
       "wamid": "1a15897830409c61",
       "mail_thread": "1a15897830409c61",
       "imp": "high",
-      "amount_try": 415,
+      "amount_try": 416.13,
       "due_date": "2026-10-19",
       "title": "CK BEPSAŞ (CK Boğaziçi Elektrik)",
-      "note": "İş Bankası talimatlı elektrik faturası (abone 0111796919) bakiye yetersizliği nedeniyle ödenemedi; hesaba bakiye koyup manuel ödeme yap. YENİ MAİL 21.10 02:15 (21 Eki 02:15 · CK Enerji Boğaziçi Elektrik · Borç Bilgilendirme): 20.10 e-posta: CK Enerji 0111796919 numaralı fatura ₺415 hâlâ ödenmemiş görünüyor; online ödeme ya da CK Enerji uygulamasından ödenebilir."
+      "note": "İş Bankası talimatlı elektrik faturası (abone 0111796919) bakiye yetersizliği nedeniyle ödenemedi; hesaba bakiye koyup manuel ödeme yap. YENİ MAİL 21.10 02:15 (21 Eki 02:15 · CK Enerji Boğaziçi Elektrik · Borç Bilgilendirme): 20.10 e-posta: CK Enerji 0111796919 numaralı fatura ₺415 hâlâ ödenmemiş görünüyor; online ödeme ya da CK Enerji uygulamasından ödenebilir. ÖDENDİ 2026-10-21: ₺416 (dekont). Satır tutarı ₺415, fark ₺1.",
+      "done": true,
+      "doneAt": "2026-10-21 18:18",
+      "proof": {
+        "type": "banka dekontu",
+        "date": "2026-10-21",
+        "amount_try": 416.13,
+        "channel": "WhatsApp (21 Eki 18:18, belge)",
+        "drive_url": "https://drive.google.com/file/d/1pjVV3wSnnY-DqOoRMPcC7T-UJLjz_l38/view?usp=drivesdk",
+        "draft_url": ""
+      }
     },
     {
       "action_type": "Ödeme",
@@ -2180,7 +2190,7 @@
       ]
     }
   ],
-  "updated": "2026-10-21 18:17",
+  "updated": "2026-10-21 18:18",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2325,7 +2335,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5N0M3NzI2NTgwQTE5RjE5QkMA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFGMEQyMUFCNEI3MDVBNzY1N0QA",
     "1a15ef8ecb0d1ea2",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1QURBMDY3MjMyNTNCOTU0MEQA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1QURBMDY3MjMyNTNCOTU0MEQA",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5OTJERTA1MkFBQTFENzBENDEA"
   ],
   "feed_order": [
     "qt5dom",
