@@ -1920,7 +1920,7 @@
       "area": "İdari & Ofis",
       "status": "red",
       "summary": "Bekleyen işler kontrol edilecek",
-      "updated": "2026-10-18 00:05",
+      "updated": "2026-10-21 15:27",
       "items": [
         {
           "uid": "vlmdj8",
@@ -2048,6 +2048,22 @@
           "note": "Taslak Gmail'de hazır, dekont ekli. Gönderince bu maddeyi kapat. (₺41.786 ödeme satırı zaten kapalı.) Gönderildi 18 Eki; GBC'den fatura + sözleşme yanıtı bekleniyor.",
           "done": true,
           "doneAt": "2026-10-18 02:10"
+        },
+        {
+          "action_type": "Sözleşme",
+          "category": "Yazılım abonelik",
+          "party": "Slack",
+          "amount": "",
+          "due": "21 Kas 2026 (ücretsiz plana geçiş)",
+          "uid": "wxwt5h",
+          "source": "mail-gelen",
+          "origin": "E-posta (21 Eki 15:27): Slack · Your Slack plan for &amp; New Me is changing",
+          "wamid": "1a15e6e3fe5cd58d",
+          "mail_thread": "1a15e6e3fe5cd58d",
+          "imp": "low",
+          "due_date": "2026-11-21",
+          "text": "Karar ver: Slack paid planı devam mı, free plana geçiş mi (21 Kas'ta free plana düşüyor; 90 gün mesaj geçmişi, Slack Connect, grup huddle, 10 uygulama sınırı).",
+          "owner": ""
         }
       ],
       "notes": [
@@ -2126,7 +2142,7 @@
       "notes": []
     }
   ],
-  "updated": "2026-10-21 14:50",
+  "updated": "2026-10-21 15:27",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2265,7 +2281,8 @@
     "1a15e1b4d4397991",
     "1a15e2d8f76fdbea",
     "1a15e3d6e145e736",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFCODMwMzdBOThCOTEwNkE5NTUA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFCODMwMzdBOThCOTEwNkE5NTUA",
+    "1a15e6e3fe5cd58d"
   ],
   "feed_order": [
     "qt5dom",
