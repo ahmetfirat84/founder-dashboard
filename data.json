@@ -1917,7 +1917,8 @@
             ],
             "thread": "19f8edb5dc77da2d",
             "note": "Ahmet manuel gönderdi, takip asistanda"
-          }
+          },
+          "note": "YENİ MAİL 21.10 13:53 (21 Eki 13:52 · Paraşüt · Yeni bir e-Faturanız var): Paraşüt'e GBC (Galata Advisors) e-faturası düştü: ₺41.785,92, 21 Eki; 8 gün içinde kabul/red gerekiyor."
         },
         {
           "text": "GBC sanal ofis yenilemesi: ₺41.828 (12 ay, KDV dahil), yeni dönem 31.08'de başladı, ödeme 01.09'dan beri gecikmede, faiz işliyor. Para girince ilk öde, dekontu GBC'ye mail at",
@@ -2090,7 +2091,7 @@
       "notes": []
     }
   ],
-  "updated": "2026-10-21 13:33",
+  "updated": "2026-10-21 13:53",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2217,7 +2218,8 @@
     "1a15dcb1bfa32035",
     "1a15dcb18dae536e",
     "1a15df1491a25751",
-    "1a15e056234491a6"
+    "1a15e056234491a6",
+    "1a15e17bb182e8d2"
   ],
   "feed_order": [
     "qt5dom",
