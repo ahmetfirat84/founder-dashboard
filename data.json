@@ -1196,6 +1196,18 @@
       "updated": "2026-10-16 16:45",
       "items": [
         {
+          "text": "Medcure_Claude, KDV'siz fatura vb teşvik dokümanları problemini çöz (Barış'ı ara)",
+          "action_type": "Belge",
+          "category": "Todoist",
+          "party": "",
+          "amount": "",
+          "due": "",
+          "urgency": "gray",
+          "uid": "td_6hQjM36cF62wQ2q9",
+          "source": "todoist",
+          "plan_date": "2026-10-21"
+        },
+        {
           "text": "IC Hospital (Barış): EK-21 imzalarını takip et",
           "action_type": "Belge",
           "category": "Todo",
@@ -1439,6 +1451,18 @@
       "updated": "2026-10-17 18:10",
       "items": [
         {
+          "text": "GK sürecini başlat (imza sirküsü için)",
+          "action_type": "Belge",
+          "category": "Todoist",
+          "party": "",
+          "amount": "",
+          "due": "",
+          "urgency": "gray",
+          "uid": "td_6hpFH4r6PQh9F9Vh",
+          "source": "todoist",
+          "plan_date": "2026-10-21"
+        },
+        {
           "text": "'neome' marka başvurusu 2025/057803 kısmi tescil kararı (12 Eki): itiraz/başvuru süresini hesapla, karar verilecek",
           "due": "Süre kontrolü",
           "owner": "",
@@ -1656,6 +1680,18 @@
       "updated": "2026-10-17 18:10",
       "items": [
         {
+          "text": "Yeni reklam leadlerinin tam akışını analiz et/izle (kaçak olmasın, qualified lead oranları)",
+          "action_type": "Yanıt",
+          "category": "Todoist",
+          "party": "",
+          "amount": "",
+          "due": "",
+          "urgency": "gray",
+          "uid": "td_6hpVfJmv9Phr7X2h",
+          "source": "todoist",
+          "plan_date": "2026-10-21"
+        },
+        {
           "text": "Reklam harcamaları, leadler ve satışları izleyecek ayrı bir dashboard kur ve Yeni Zelanda gastric sleeve akışıyla kontrollü reklam yatırımını başlat (dönüşüm maliyeti hedefi 300-400 € altı).",
           "action_type": "Yanıt",
           "category": "Toplantı",
@@ -1794,8 +1830,8 @@
           "amount": "",
           "due": "",
           "urgency": "gray",
-          "uid": "ok2bmf",
-          "source": "manual",
+          "uid": "td_6hjq3gFRr7cwQGX9",
+          "source": "todoist",
           "plan_date": "2026-10-21"
         },
         {
@@ -1806,8 +1842,8 @@
           "amount": "",
           "due": "",
           "urgency": "gray",
-          "uid": "sgd478",
-          "source": "manual",
+          "uid": "td_6hpj89JrjWrh5JF9",
+          "source": "todoist",
           "plan_date": "2026-10-21"
         },
         {
@@ -2016,6 +2052,18 @@
       "updated": "2026-10-21 11:30",
       "items": [
         {
+          "text": "OC: dünkü toplantı notlarını mail at, yapılacakları netleştir; gönderdiği bilet linkine bak, işe yararsa siteye embed et",
+          "action_type": "Yanıt",
+          "category": "Todoist",
+          "party": "",
+          "amount": "",
+          "due": "",
+          "urgency": "gray",
+          "uid": "td_6hpVf873vfxFHMF9",
+          "source": "todoist",
+          "plan_date": "2026-10-21"
+        },
+        {
           "text": "Seçil'e 500 USD gönder",
           "action_type": "Yanıt",
           "category": "Todo",
@@ -2033,7 +2081,7 @@
       "notes": []
     }
   ],
-  "updated": "2026-10-21 11:30",
+  "updated": "2026-10-21 12:00",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
