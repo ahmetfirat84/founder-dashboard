@@ -1925,6 +1925,10 @@
       ],
       "notes": [
         {
+          "text": "Google Apps Script 'asistan-mail-to-dashboard' 4 kez sunucu hatasıyla başarısız oldu (20 Eki, 06:05–17:55 TRT); mail-to-dashboard akışı kontrol edilmeli. (kaynak: E-posta (21 Eki 06:06): noreply-apps-scripts-notifications@googl · Summary of fa)",
+          "at": "2026-10-21 06:07"
+        },
+        {
           "text": "Not: asistan-mail-to-dashboard Apps Script 18 Eki'de yetkilendirme ve sunucu hatalarıyla 3 kez başarısız oldu; e-posta işleme etkilenmiş olabilir. (kaynak: E-posta (19 Eki 00:50): noreply-apps-scripts-notifications@googl · Summary of fa)",
           "at": "2026-10-19 00:51"
         },
@@ -1947,7 +1951,7 @@
       ]
     }
   ],
-  "updated": "2026-10-21 02:15",
+  "updated": "2026-10-21 06:07",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2059,7 +2063,8 @@
     "1a158f314690b634",
     "1a15906fc30a1fcf",
     "1a159c74c7ef97ea",
-    "1a15b9932b03307c"
+    "1a15b9932b03307c",
+    "1a15c6cb7f824885"
   ],
   "feed_order": [
     "qt5dom",
