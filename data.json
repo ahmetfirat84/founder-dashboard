@@ -1939,7 +1939,9 @@
           "category": "Yatırımcı",
           "party": "Aiven",
           "amount": "",
-          "urgency": "gray"
+          "urgency": "gray",
+          "uid": "eva568",
+          "note": "YENİ MAİL 21.10 19:01 (21 Eki 19:01 · Colm Hornibrook · Re: Meet at Slush?): Colm Hornibrook takip maili (21 Eki): Slush'ta 20 dakikalık görüşme uygun mu diye soruyor."
         },
         {
           "text": "Slush 'Private Dinner' başvurusu alındı (12 Eki): sonuç bekleniyor",
@@ -2190,7 +2192,7 @@
       ]
     }
   ],
-  "updated": "2026-10-21 18:18",
+  "updated": "2026-10-21 19:01",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2336,7 +2338,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFGMEQyMUFCNEI3MDVBNzY1N0QA",
     "1a15ef8ecb0d1ea2",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1QURBMDY3MjMyNTNCOTU0MEQA",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5OTJERTA1MkFBQTFENzBENDEA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5OTJERTA1MkFBQTFENzBENDEA",
+    "1a15f31d55ce0358"
   ],
   "feed_order": [
     "qt5dom",
