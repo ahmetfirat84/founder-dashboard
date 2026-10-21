@@ -936,6 +936,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "📎 fatura-gelen arşivlendi: CK Boğaziçi Elektrik 2026-10-21 no BEA2026045741397 ₺1 → https://drive.google.com/file/d/1bILw6dYZHx2u3pb148w7JN9ajLZXT1hQ/view?usp=drivesdk",
+          "at": "2026-10-22 00:47"
+        },
+        {
           "text": "📎 fatura-gelen arşivlendi: ManoByte 2026-10-21 no MOGOE5GN-0010 → https://drive.google.com/file/d/1RsfjxaK4sExmZsCYd4LWVtK9r-2v7ykV/view?usp=drivesdk",
           "at": "2026-10-21 17:59"
         },
@@ -2196,7 +2200,7 @@
       ]
     }
   ],
-  "updated": "2026-10-21 22:31",
+  "updated": "2026-10-22 00:47",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2344,7 +2348,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1QURBMDY3MjMyNTNCOTU0MEQA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5OTJERTA1MkFBQTFENzBENDEA",
     "1a15f31d55ce0358",
-    "1a15ff1dde640a93"
+    "1a15ff1dde640a93",
+    "1a1606f13a596d97"
   ],
   "feed_order": [
     "qt5dom",
