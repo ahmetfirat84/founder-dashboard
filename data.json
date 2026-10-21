@@ -2028,7 +2028,7 @@
           "amount": "",
           "urgency": "gray",
           "uid": "dw2s3x",
-          "note": "YENİ MAİL 21.10 08:33 (21 Eki 08:32 · Memorae · Evden çalışma ve günlük kontroller · 21 Ekim Çarşamba): Memorae hatırlatması (21 Ekim 09:00): ev fiber ödemesi ₺966,50."
+          "note": "YENİ MAİL 21.10 08:33 (21 Eki 08:32 · Memorae · Evden çalışma ve günlük kontroller · 21 Ekim Çarşamba): Memorae hatırlatması (21 Ekim 09:00): ev fiber ödemesi ₺966,50. 2026-10-21 dekont: ₺1.124 gönderildi; alıcı/tutar eşleşmesi teyit bekliyor. Dekont Drive: https://drive.google.com/file/d/1r7mTx02m_Lak6IIq6uCDYbKBtgT-Ht5B/view?usp=drivesdk"
         },
         {
           "text": "Ana hat (ISTE Hesaplı Platin 25, 0533 727 0000) kampanya sözleşmesi 24 Ekim'de bitiyor: karar ver, yenile mi iptal mi?",
@@ -2180,7 +2180,7 @@
       ]
     }
   ],
-  "updated": "2026-10-21 17:59",
+  "updated": "2026-10-21 18:17",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2324,7 +2324,8 @@
     "1a15eeb7b6e88eb8",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5N0M3NzI2NTgwQTE5RjE5QkMA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFGMEQyMUFCNEI3MDVBNzY1N0QA",
-    "1a15ef8ecb0d1ea2"
+    "1a15ef8ecb0d1ea2",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1QURBMDY3MjMyNTNCOTU0MEQA"
   ],
   "feed_order": [
     "qt5dom",
