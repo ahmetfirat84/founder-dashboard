@@ -791,7 +791,8 @@
             ],
             "thread": "1a0ce9ff728e1076",
             "note": "Ağustos paketi örnek: 23 ve 25 Eyl'de istendi, Ahmet 25 Eyl'de KDV raporu + İşpos/iyzico dökümlerini gönderdi. Eylül talebi henüz gelmedi"
-          }
+          },
+          "note": "YENİ MAİL 21.10 10:56 (21 Eki 10:55 · Ersun Oruc · 9/2026 dönem fatura listesi hk): Ersun Oruç 21 Ekim 07:55'te 09/2026 KDV listelerini ve KDV 2 faturalarını yeniden istedi."
         },
         {
           "text": "09/2026 vergi ve SGK ödemeleri: tahakkuk dosyaları ~26–28 Eki'de gelir (muhtasar + KDV ~28 Eki, SGK 30 Eki). Ödeme için nakit planla, tutarlar PDF'te.",
@@ -1953,7 +1954,7 @@
       ]
     }
   ],
-  "updated": "2026-10-21 08:33",
+  "updated": "2026-10-21 10:56",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2067,7 +2068,8 @@
     "1a159c74c7ef97ea",
     "1a15b9932b03307c",
     "1a15c6cb7f824885",
-    "1a15cf294ceb0c2f"
+    "1a15cf294ceb0c2f",
+    "1a15d7579f0be307"
   ],
   "feed_order": [
     "qt5dom",
