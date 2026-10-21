@@ -2023,6 +2023,10 @@
       ],
       "notes": [
         {
+          "text": "Slack Pro plan yükseltme bildirimi (pazarlama/ürün e-postası), aksiyon gerektirmiyor. (kaynak: E-posta (21 Eki 12:29): Slack · &amp; New Me just unlocked premium benefits to h)",
+          "at": "2026-10-21 12:29"
+        },
+        {
           "text": "Google Apps Script 'asistan-mail-to-dashboard' 4 kez sunucu hatasıyla başarısız oldu (20 Eki, 06:05–17:55 TRT); mail-to-dashboard akışı kontrol edilmeli. (kaynak: E-posta (21 Eki 06:06): noreply-apps-scripts-notifications@googl · Summary of fa)",
           "at": "2026-10-21 06:07"
         },
@@ -2203,7 +2207,8 @@
     "1a15cf294ceb0c2f",
     "1a15d7579f0be307",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDQ4RDNBMkM4MjExRTJBRjQ2MwA=",
-    "1a15dcb1bfa32035"
+    "1a15dcb1bfa32035",
+    "1a15dcb18dae536e"
   ],
   "feed_order": [
     "qt5dom",
