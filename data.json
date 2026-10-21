@@ -405,6 +405,22 @@
       "due_date": "2026-10-19",
       "title": "CK BEPSAŞ (CK Boğaziçi Elektrik)",
       "note": "İş Bankası talimatlı elektrik faturası (abone 0111796919) bakiye yetersizliği nedeniyle ödenemedi; hesaba bakiye koyup manuel ödeme yap. YENİ MAİL 21.10 02:15 (21 Eki 02:15 · CK Enerji Boğaziçi Elektrik · Borç Bilgilendirme): 20.10 e-posta: CK Enerji 0111796919 numaralı fatura ₺415 hâlâ ödenmemiş görünüyor; online ödeme ya da CK Enerji uygulamasından ödenebilir."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Genel kurul masrafları",
+      "party": "SME Raporlama Teknolojileri A.Ş.",
+      "amount": "₺164.199,50",
+      "due": "Vade belirsiz",
+      "uid": "h8o67z",
+      "source": "mail-gelen",
+      "origin": "E-posta (21 Eki 13:56): Ahmet Tosun · Fwd: GENEL KURUL MASRAFLARI HK",
+      "wamid": "1a15e1b4d4397991",
+      "mail_thread": "1a15e1b4d4397991",
+      "amount_try": 164199.5,
+      "urgency": "gray",
+      "title": "SME Raporlama Teknolojileri A.Ş.",
+      "note": "Genel kurul işlemi masraf dökümü: toplam ₺214.199,50 (hizmet bedeli faturası SME2026000000246, 30.06.2026, ₺120.000 KDV dahil + tescil ilan, noter, komser, PTT masrafları ₺94.199,50). ₺50.000 tahsilat düşülünce ödenecek kalan ₺164.199,50."
     }
   ],
   "departments": [
@@ -886,6 +902,14 @@
       ],
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
+        {
+          "text": "📎 belge arşivlendi: SME Raporlama 2026-06-30 ₺214.200 → https://drive.google.com/file/d/1Dhb7DUFv8k_k-qljUiORh22cpyqWuK7J/view?usp=drivesdk",
+          "at": "2026-10-21 13:57"
+        },
+        {
+          "text": "📎 fatura-gelen arşivlendi: SME Raporlama 2026-06-30 no SME2026000000246 ₺120.000 → https://drive.google.com/file/d/1xhshPEc4BhgVQq46UAXbp2dPRb2qQWAE/view?usp=drivesdk",
+          "at": "2026-10-21 13:57"
+        },
         {
           "text": "📎 fatura-gelen arşivlendi: Slack 2026-10-21 no SBIE-13161633 → https://drive.google.com/file/d/118MUlc9UmupE66-dkq16gQQKtnXZ2P29/view?usp=drivesdk",
           "at": "2026-10-21 12:29"
@@ -2091,7 +2115,7 @@
       "notes": []
     }
   ],
-  "updated": "2026-10-21 13:53",
+  "updated": "2026-10-21 13:57",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2219,7 +2243,8 @@
     "1a15dcb18dae536e",
     "1a15df1491a25751",
     "1a15e056234491a6",
-    "1a15e17bb182e8d2"
+    "1a15e17bb182e8d2",
+    "1a15e1b4d4397991"
   ],
   "feed_order": [
     "qt5dom",
