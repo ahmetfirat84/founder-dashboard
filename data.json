@@ -19,15 +19,26 @@
       "action_type": "Ödeme",
       "category": "Eczane",
       "party": "Fulya Ada Eczanesi",
-      "amount": "₺18.244,98",
+      "amount": "₺18.245 (ödendi)",
       "amount_try": 18244.98,
-      "due": "BUGÜN (çok gecikti)",
+      "due": "Ödendi 21.10",
       "due_date": "2026-10-20",
       "plan_date": "2026-10-20",
       "imp": "high",
       "pin": true,
       "uid": "e1f81k",
-      "note": "4 fatura 02.09: ECZ2026000000031 ₺5.820 + 032 ₺5.325 + 033 ₺1.279,98 + 034 ₺5.820 (Paraşüt bill 125330572/558/543/488). Hasta ilaçları (Raylene, Kyllie, Warda, Priyer). Ödeme sonrası dekontu WhatsApp'a at, Ömer Faruk Bey'e hazır mesaj çıkar. IBAN Rehber'de: ARİN ERDOĞMUŞ, VakıfBank, önceki ödemeler de bu hesaba gitmişti."
+      "note": "4 fatura 02.09: ECZ2026000000031 ₺5.820 + 032 ₺5.325 + 033 ₺1.279,98 + 034 ₺5.820 (Paraşüt bill 125330572/558/543/488). Hasta ilaçları (Raylene, Kyllie, Warda, Priyer). Ödeme sonrası dekontu WhatsApp'a at, Ömer Faruk Bey'e hazır mesaj çıkar. IBAN Rehber'de: ARİN ERDOĞMUŞ, VakıfBank, önceki ödemeler de bu hesaba gitmişti. ÖDENDİ 2026-10-21: ₺18.245 (dekont, havale ücreti ₺16.76). Satır tutarı ₺18.245.",
+      "done": true,
+      "doneAt": "2026-10-21 17:51",
+      "proof": {
+        "type": "banka dekontu",
+        "date": "2026-10-21",
+        "amount_try": 18244.98,
+        "fee_try": 16.76,
+        "channel": "WhatsApp (21 Eki 17:51, belge)",
+        "drive_url": "https://drive.google.com/file/d/1C0Gwh9-hXwjw8BW7FQy9jRuD8vhdUDch/view?usp=drivesdk",
+        "draft_url": ""
+      }
     },
     {
       "title": "Turkcell 0533 727 0000 hattı ödenmediği için kapandı (SMS geldi): bugün son ödeme günü",
@@ -2153,7 +2164,7 @@
       ]
     }
   ],
-  "updated": "2026-10-21 17:44",
+  "updated": "2026-10-21 17:51",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2294,7 +2305,8 @@
     "1a15e3d6e145e736",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFCODMwMzdBOThCOTEwNkE5NTUA",
     "1a15e6e3fe5cd58d",
-    "1a15eeb7b6e88eb8"
+    "1a15eeb7b6e88eb8",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5N0M3NzI2NTgwQTE5RjE5QkMA"
   ],
   "feed_order": [
     "qt5dom",
