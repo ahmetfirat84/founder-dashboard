@@ -265,16 +265,28 @@
       "action_type": "Ödeme",
       "category": "Transfer (alt taşeron)",
       "party": "Tetik Turizm",
-      "amount": "₺32.100 (toplam bakiye)",
-      "due": "Vadesi geçti (23.07 ve 31.08 faturaları)",
+      "amount": "₺32.100 (ödendi)",
+      "due": "Ödendi 21.10",
       "uid": "j8blyl",
       "source": "whatsapp",
       "origin": "WhatsApp (17 Eki 16:27, iletilen yazışma, 16 mesaj, 3 ek)",
       "wamid": "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEJDMjBCODVGREQyQUI1MTcwRQA=",
       "due_date": "2026-07-23",
       "title": "Tetik Turizm (transfer)",
-      "note": "İki fatura: ₺14.700 (23.07.2026, TTE...762) + ₺17.400 (31.08.2026, TTE...881) = ₺32.100, işveren raporuyla uyumlu. Ahmet Tetik'e en geç önümüzdeki hafta ödeyeceğini bildirdi. Güncel ekstre Tetik'ten bekleniyor.",
-      "plan_date": "2026-10-23"
+      "note": "İki fatura: ₺14.700 (23.07.2026, TTE...762) + ₺17.400 (31.08.2026, TTE...881) = ₺32.100, işveren raporuyla uyumlu. Ahmet Tetik'e en geç önümüzdeki hafta ödeyeceğini bildirdi. Güncel ekstre Tetik'ten bekleniyor. ÖDENDİ 2026-10-21: ₺32.100 (dekont, havale ücreti ₺8.38). Satır tutarı ₺32.100.",
+      "plan_date": "2026-10-23",
+      "done": true,
+      "doneAt": "2026-10-21 17:59",
+      "amount_try": 32100,
+      "proof": {
+        "type": "banka dekontu",
+        "date": "2026-10-21",
+        "amount_try": 32100,
+        "fee_try": 8.38,
+        "channel": "WhatsApp (21 Eki 17:59, belge)",
+        "drive_url": "https://drive.google.com/file/d/1cWxFlqiiJp6p8-NR4oQ2k7R8JAsk9YI8/view?usp=drivesdk",
+        "draft_url": ""
+      }
     },
     {
       "action_type": "Ödeme",
@@ -2164,7 +2176,7 @@
       ]
     }
   ],
-  "updated": "2026-10-21 17:51",
+  "updated": "2026-10-21 17:59",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2306,7 +2318,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFCODMwMzdBOThCOTEwNkE5NTUA",
     "1a15e6e3fe5cd58d",
     "1a15eeb7b6e88eb8",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5N0M3NzI2NTgwQTE5RjE5QkMA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5N0M3NzI2NTgwQTE5RjE5QkMA",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFGMEQyMUFCNEI3MDVBNzY1N0QA"
   ],
   "feed_order": [
     "qt5dom",
