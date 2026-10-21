@@ -1868,7 +1868,9 @@
           "category": "Abonelik",
           "party": "Superonline",
           "amount": "",
-          "urgency": "gray"
+          "urgency": "gray",
+          "uid": "dw2s3x",
+          "note": "YENİ MAİL 21.10 08:33 (21 Eki 08:32 · Memorae · Evden çalışma ve günlük kontroller · 21 Ekim Çarşamba): Memorae hatırlatması (21 Ekim 09:00): ev fiber ödemesi ₺966,50."
         },
         {
           "text": "Ana hat (ISTE Hesaplı Platin 25, 0533 727 0000) kampanya sözleşmesi 24 Ekim'de bitiyor: karar ver, yenile mi iptal mi?",
@@ -1951,7 +1953,7 @@
       ]
     }
   ],
-  "updated": "2026-10-21 06:07",
+  "updated": "2026-10-21 08:33",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2064,7 +2066,8 @@
     "1a15906fc30a1fcf",
     "1a159c74c7ef97ea",
     "1a15b9932b03307c",
-    "1a15c6cb7f824885"
+    "1a15c6cb7f824885",
+    "1a15cf294ceb0c2f"
   ],
   "feed_order": [
     "qt5dom",
