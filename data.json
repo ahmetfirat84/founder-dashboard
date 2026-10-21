@@ -1852,6 +1852,10 @@
       "summary": "1 onay bekliyor",
       "notes": [
         {
+          "text": "Perşembe 22 Ekim 07:00: Uber transfer, Elite Brand Hotel → İstanbul Aesthetic Center (Balmumcu), tahmini ₺669-806, Isbank Startup kartıyla ödenecek; iptal ücretsiz son 1 saat. (kaynak: E-posta (21 Eki 22:30): Uber · Reservation confirmed for Thursday, October 22)",
+          "at": "2026-10-21 22:31"
+        },
+        {
           "text": "İlksen Hilal Koc'un Google Workspace hesabı silindi; verileri Ahmet Fırat'a aktarıldı (21 Ekim 2026). (kaynak: E-posta (21 Eki 17:44): The Google Workspace Team · İlksen Hilal Koc adlı kullan)",
           "at": "2026-10-21 17:44"
         },
@@ -2192,7 +2196,7 @@
       ]
     }
   ],
-  "updated": "2026-10-21 19:01",
+  "updated": "2026-10-21 22:31",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2339,7 +2343,8 @@
     "1a15ef8ecb0d1ea2",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1QURBMDY3MjMyNTNCOTU0MEQA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5OTJERTA1MkFBQTFENzBENDEA",
-    "1a15f31d55ce0358"
+    "1a15f31d55ce0358",
+    "1a15ff1dde640a93"
   ],
   "feed_order": [
     "qt5dom",
