@@ -7133,5 +7133,19 @@
       "text": "Dekont ve ödeme yazışmaları tedarikçilerle WhatsApp üzerinden yürür (mail değil).",
       "at": "2026-10-19"
     }
+  ],
+  "cards_due": [
+    {
+      "name": "Garanti Bonus",
+      "due_date": "2026-10-21",
+      "min_try": null,
+      "paid": false
+    },
+    {
+      "name": "Garanti SM",
+      "due_date": "2026-10-21",
+      "min_try": null,
+      "paid": false
+    }
   ]
 }
