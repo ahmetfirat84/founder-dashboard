@@ -2090,7 +2090,7 @@
       "notes": []
     }
   ],
-  "updated": "2026-10-21 13:11",
+  "updated": "2026-10-21 13:33",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2111,6 +2111,13 @@
       "from": "\"Duygu Yılmaz\" <duygu@galatabusinesscenter.com.tr>",
       "date": "2026-10-20T10:54:32.000Z",
       "thread": "1a158f314690b634",
+      "note": "Bilinmeyen gönderen, onay gerekir"
+    },
+    {
+      "subject": "Re: YENİBEN ELEKTRONİK HİZMETLER VE TİCARET ANONİM ŞİRKET - GBC SÖZLEŞME YENİLEME & ÜCRET BİLGİLENDİRMENİZ",
+      "from": "Finance New Me <finance@andnewme.com>",
+      "date": "2026-10-21T10:32:40.000Z",
+      "thread": "1a15e056234491a6",
       "note": "Bilinmeyen gönderen, onay gerekir"
     }
   ],
@@ -2209,7 +2216,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDQ4RDNBMkM4MjExRTJBRjQ2MwA=",
     "1a15dcb1bfa32035",
     "1a15dcb18dae536e",
-    "1a15df1491a25751"
+    "1a15df1491a25751",
+    "1a15e056234491a6"
   ],
   "feed_order": [
     "qt5dom",
