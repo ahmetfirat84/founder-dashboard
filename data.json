@@ -38,9 +38,11 @@
       "amount_try": 3753.7,
       "due": "Bugün son gün",
       "due_date": "2026-10-19",
-      "note": "Hat borç nedeniyle kapatıldı. Ödenince açılır; İş Bankası otomatik ödeme talimatı neden çalışmadı kontrol et.",
+      "note": "Hat borç nedeniyle kapatıldı. Ödenince açılır; İş Bankası otomatik ödeme talimatı neden çalışmadı kontrol et. 21.10: Ahmet dün ödendiğini söyledi.",
       "uid": "bj3b6k",
-      "pin": true
+      "pin": true,
+      "done": true,
+      "doneAt": "2026-10-20 23:59"
     },
     {
       "title": "1. GBC sanal ofis yenilemesi",
@@ -382,7 +384,6 @@
       "origin": "E-posta (21 Eyl 15:53): Nurcan Sarıbal · Re: new me bakiye",
       "wamid": "1a0c408276ad8e4d",
       "mail_thread": "1a07ba462aa5d81f",
-      "imp": "high",
       "due_date": "2026-09-09",
       "title": "İstanbul Cerrahi",
       "note": "Kurum faturası ve kalan bakiye için ödeme hatırlatması (mutabakat tamam). Tutar mail ekinde, teyit edilmeli. YENİ MAİL 19.10 16:08 (28 Eyl 10:40 · Nurcan Sarıbal · Re: new me bakiye): 28 Eyl'de Nurcan Sarıbal hatırlatma gönderdi: Priyer D. N. (protokol 1005896) için ₺66.951,48 ödeme bekleniyor. YENİ MAİL 19.10 16:08 (30 Eyl 08:23 · Finance New Me · Re: new me bakiye): Finance New Me 30 Eyl: 'Bakiye kapanmıştır' (Nurcan Sarıbal yazışması); satır kapatılmadı, teyit edin. YENİ MAİL 19.10 16:08 (19 Eki 12:32 · Nurcan Sarıbal · Re: new me bakiye): Nurcan Sarıbal (09:32): mutabakat sonrası fatura kesildi, güncel kalan bakiye ekte, ödeme için dönüş istendi. YENİ MAİL 19.10 16:11 (19 Eki 16:11 · Finance New Me · Re: new me bakiye): 19 Eki: Nurcan Sarıbal (İstanbul Cerrahi) bakiye mutabakatını onayladı, fatura kesilebilir."
