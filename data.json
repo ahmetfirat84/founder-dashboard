@@ -158,8 +158,9 @@
       "party": "Orya Hotel",
       "due_date": "2026-10-23",
       "uid": "ee55fc",
-      "origin": "WhatsApp (17 Eki 16:07, iletilen Orya mesajları + not)",
-      "source": "whatsapp"
+      "origin": "WhatsApp (21 Eki 12:23, iletilen yazışma, 4 mesaj)",
+      "source": "whatsapp",
+      "plan_date": "2026-10-23"
     },
     {
       "title": "Muhtasar (Eylül)",
@@ -2081,7 +2082,7 @@
       "notes": []
     }
   ],
-  "updated": "2026-10-21 12:00",
+  "updated": "2026-10-21 12:23",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2196,7 +2197,8 @@
     "1a15b9932b03307c",
     "1a15c6cb7f824885",
     "1a15cf294ceb0c2f",
-    "1a15d7579f0be307"
+    "1a15d7579f0be307",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDQ4RDNBMkM4MjExRTJBRjQ2MwA="
   ],
   "feed_order": [
     "qt5dom",
