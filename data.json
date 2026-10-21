@@ -2141,7 +2141,12 @@
           }
         }
       ],
-      "notes": []
+      "notes": [
+        {
+          "text": "Eve kurutma makinesi alınacak",
+          "at": "2026-10-21 16:53"
+        }
+      ]
     }
   ],
   "updated": "2026-10-21 15:27",
