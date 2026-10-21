@@ -887,6 +887,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "📎 fatura-gelen arşivlendi: Slack 2026-10-21 no SBIE-13161633 → https://drive.google.com/file/d/118MUlc9UmupE66-dkq16gQQKtnXZ2P29/view?usp=drivesdk",
+          "at": "2026-10-21 12:29"
+        },
+        {
           "text": "📎 fatura-gelen arşivlendi: MWC (Medcure) 2026-06-06 no MWC2026000000056 ₺33.600 → https://drive.google.com/file/d/19Ka87FeGuu5yxPuzG4gIGOCjJhC0i-Sa/view?usp=drivesdk",
           "at": "2026-10-20 12:25"
         },
@@ -2082,7 +2086,7 @@
       "notes": []
     }
   ],
-  "updated": "2026-10-21 12:23",
+  "updated": "2026-10-21 12:29",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2198,7 +2202,8 @@
     "1a15c6cb7f824885",
     "1a15cf294ceb0c2f",
     "1a15d7579f0be307",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDQ4RDNBMkM4MjExRTJBRjQ2MwA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDQ4RDNBMkM4MjExRTJBRjQ2MwA=",
+    "1a15dcb1bfa32035"
   ],
   "feed_order": [
     "qt5dom",
