@@ -2090,7 +2090,7 @@
       "notes": []
     }
   ],
-  "updated": "2026-10-21 12:29",
+  "updated": "2026-10-21 13:11",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2208,7 +2208,8 @@
     "1a15d7579f0be307",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDQ4RDNBMkM4MjExRTJBRjQ2MwA=",
     "1a15dcb1bfa32035",
-    "1a15dcb18dae536e"
+    "1a15dcb18dae536e",
+    "1a15df1491a25751"
   ],
   "feed_order": [
     "qt5dom",
@@ -6798,6 +6799,55 @@
     }
   ],
   "meeting_notes": [
+    {
+      "id": "pneuzm",
+      "title": "& New Me_Daily",
+      "date": "2026-10-21",
+      "summary": "Hasta transferlerindeki aksaklıklar (yanlış noktaya bırakılan ve geç kalan hasta) ele alındı ve bundan sonra transferlerin ekip tarafından organize edilmesinde görüş birliğine varıldı. Doktor vaka bilgilerini yapay zekâ ile ön değerlendirmeye dönüştürmek için Cloud'a bağlı, tedavi ve platform bazlı yeni WhatsApp grupları kurulması planlandı. Artan lead akışı ve Hülya'nın 3 hastadan depozito alma i",
+      "thread": "1a15df1491a25751",
+      "actions": [
+        {
+          "id": "xf2la8",
+          "text": "Randevu önemli olsun ya da olmasın, bundan sonra tüm hasta transferleri ekip tarafından önceden organize edilecek.",
+          "dep": "ecem",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "pgkbew",
+          "text": "Cloud'a bağlı, tedavi ve platform bazlı yeni WhatsApp gruplarının kurulması ve paylaşımlarda tedavi/platform bilgisinin belirtilmesi sağlanacak.",
+          "dep": "idari",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "5bl8n8",
+          "text": "Burun estetiği ve revizyon vakalarına ait doktor yanıtları, hasta soruları ve genel açıklamalar için ayrı bir bilgi havuzu oluşturulacak.",
+          "dep": "idari",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "oo6ba4",
+          "text": "Hülya, biri lipödem hastası olmak üzere 3 hastadan depozito alma sürecini takip edecek.",
+          "dep": "zeynep",
+          "owner": "Hülya",
+          "party": "Lipödem hastası ve 2 diğer hasta",
+          "status": "proposed"
+        },
+        {
+          "id": "fv6t48",
+          "text": "Selin, iletişimi devam eden 6 lead'in takibini sürdürecek (4'ü daha nitelikli/kodlanmış).",
+          "dep": "zeynep",
+          "owner": "Selin",
+          "party": "6 lead",
+          "status": "proposed"
+        }
+      ]
+    },
     {
       "id": "5r9zsr",
       "title": "& New Me_Daily",
