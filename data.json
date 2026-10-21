@@ -1832,6 +1832,16 @@
       "updated": "2026-10-16 15:30",
       "items": [
         {
+          "text": "Slush Helsinki (18-19 Kas) katılım kararı bekliyor; katılım olursa yatırımcı toplantılarını planla",
+          "due": "",
+          "owner": "",
+          "action_type": "Başvuru",
+          "category": "Yatırımcı",
+          "party": "Slush Helsinki",
+          "amount": "",
+          "urgency": "gray"
+        },
+        {
           "text": "Booking vs New Me animasyonunu tamamla",
           "action_type": "Belge",
           "category": "Todo",
@@ -1878,16 +1888,6 @@
           "uid": "td_6hpj89JrjWrh5JF9",
           "source": "todoist",
           "plan_date": "2026-10-21"
-        },
-        {
-          "text": "Slush Helsinki (18-19 Kas) katılım kararı bekliyor; katılım olursa yatırımcı toplantılarını planla",
-          "due": "",
-          "owner": "",
-          "action_type": "Başvuru",
-          "category": "Yatırımcı",
-          "party": "Slush Helsinki",
-          "amount": "",
-          "urgency": "gray"
         },
         {
           "text": "Aiven 'Meet at Slush?' toplantı talebi (15 Eki): yanıtsız, Slush katılım kararına bağlı",
