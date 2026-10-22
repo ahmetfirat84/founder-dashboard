@@ -2125,6 +2125,10 @@
       ],
       "notes": [
         {
+          "text": "Apple makbuzu: HiNoter AI Note Taker haftalık abonelik ₺184,99 (Mastercard ••2051, ödendi), yenileme 29 Ekim 2026. Haftalık yenileniyor, iptal kararı verilebilir. (kaynak: E-posta (22 Eki 09:06): Apple · Your receipt from Apple.)",
+          "at": "2026-10-22 09:07"
+        },
+        {
           "text": "Slack Pro plan yükseltme bildirimi (pazarlama/ürün e-postası), aksiyon gerektirmiyor. (kaynak: E-posta (21 Eki 12:29): Slack · &amp; New Me just unlocked premium benefits to h)",
           "at": "2026-10-21 12:29"
         },
@@ -2204,7 +2208,7 @@
       ]
     }
   ],
-  "updated": "2026-10-22 07:39",
+  "updated": "2026-10-22 09:07",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2354,7 +2358,8 @@
     "1a15f31d55ce0358",
     "1a15ff1dde640a93",
     "1a1606f13a596d97",
-    "1a161e776af9865a"
+    "1a161e776af9865a",
+    "1a162381ebbbed6a"
   ],
   "feed_order": [
     "qt5dom",
