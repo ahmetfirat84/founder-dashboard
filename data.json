@@ -7311,13 +7311,15 @@
       "name": "Garanti Bonus",
       "due_date": "2026-10-21",
       "min_try": null,
-      "paid": false
+      "paid": true,
+      "note": "Ahmet: 21.10'da ödendi"
     },
     {
       "name": "Garanti SM",
       "due_date": "2026-10-21",
       "min_try": null,
-      "paid": false
+      "paid": true,
+      "note": "Ahmet: 21.10'da ödendi"
     }
   ],
   "extra_events": []
