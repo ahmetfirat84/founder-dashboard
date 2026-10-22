@@ -2282,7 +2282,7 @@
       ]
     }
   ],
-  "updated": "2026-10-22 12:30",
+  "updated": "2026-10-22 13:37",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2442,7 +2442,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FENDI1QzI4NUQyMTRGNzU1NTUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E2RkRCRDE4RjRBM0E5MTZFQTMA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEJFQjVFQzZFODUwQjUxQzYwMAA=",
-    "1a162f26e6c404f4"
+    "1a162f26e6c404f4",
+    "1a1632fc81b456ef"
   ],
   "feed_order": [
     "qt5dom",
@@ -7032,6 +7033,63 @@
     }
   ],
   "meeting_notes": [
+    {
+      "id": "q9gfuq",
+      "title": "& New Me_Daily",
+      "date": "2026-10-22",
+      "summary": "Toplantıda leadlerin satışa dönüştürülmesi, ülkelere ve bütçelere göre fiyatlandırma ve tercüme paketleri, hasta operasyonları ve marketplace akışının geliştirilmesi ele alındı. Ekip, hızlı dijital satışlar ile yoğun insan desteği gerektiren uluslararası hastaları birbirinden ayırma konusunda aynı yönde ilerledi. Bir sonraki görüşme ertesi gün benzer saatte yapılacak.",
+      "thread": "1a1632fc81b456ef",
+      "actions": [
+        {
+          "id": "ocb2m6",
+          "text": "Selin Sezgin, fiyat nedeniyle bekleyen meme ve burun adaylarına daha uygun doktor ve paket seçenekleri ile yıl içi işlemler için daha düşük fiyatları iletecek.",
+          "dep": "zeynep",
+          "owner": "Selin Sezgin",
+          "party": "Meme ve burun adayları",
+          "status": "proposed"
+        },
+        {
+          "id": "2ovtx8",
+          "text": "Fiyat nedeniyle kesilen marketplace adaylarına maliyetleri düşürülmüş, kapsamı sadeleştirilmiş (do-it-yourself) yeni teklifler gönderilecek.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "Marketplace adayları",
+          "status": "proposed"
+        },
+        {
+          "id": "x76b3w",
+          "text": "Almanca, Fransızca ve Arapça için tercümenin dahil olduğu hazır paket seçenekleri oluşturulacak.",
+          "dep": "zeynep",
+          "owner": "Ahmet Fırat",
+          "party": "Arapça konuşan aday",
+          "status": "proposed"
+        },
+        {
+          "id": "9fs2u4",
+          "text": "Facebook ve Nimi paylaşımlarının altında yorum yapanları sisteme lead olarak düzenli aktaracak bir yapı kurulacak.",
+          "dep": "ilksen",
+          "owner": "Ahmet Fırat",
+          "party": "Facebook ve Nimi yorumcuları",
+          "status": "proposed"
+        },
+        {
+          "id": "ev3nmz",
+          "text": "Ameliyathaneye yakın, güvenilir ve uygun otellerden oluşan bir öneri listesi hazırlanacak.",
+          "dep": "ecem",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "aafwcz",
+          "text": "Marketplace akış kayıtları toplu incelenip doktor profili butonu, kapatma/geri dönme seçenekleri ve güncel olmayan hastane bilgileri gibi eksikler giderilecek.",
+          "dep": "erkin",
+          "owner": "Ahmet Fırat",
+          "party": "",
+          "status": "proposed"
+        }
+      ]
+    },
     {
       "id": "pneuzm",
       "title": "& New Me_Daily",
