@@ -464,6 +464,22 @@
       "urgency": "gray",
       "title": "SME Raporlama Teknolojileri A.Ş.",
       "note": "Genel kurul işlemi masraf dökümü: toplam ₺214.199,50 (hizmet bedeli faturası SME2026000000246, 30.06.2026, ₺120.000 KDV dahil + tescil ilan, noter, komser, PTT masrafları ₺94.199,50). ₺50.000 tahsilat düşülünce ödenecek kalan ₺164.199,50."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Kredi kartı",
+      "party": "İş Bankası kredi kartı",
+      "amount": "",
+      "due": "Gecikmede",
+      "uid": "d0zg6m",
+      "source": "mail-gelen",
+      "origin": "E-posta (22 Eki 13:37): Turkiye Is Bankasi A.S · Kredi Kartı Ödeme Planınız Hazır",
+      "wamid": "1a16330760a40eb9",
+      "mail_thread": "1a16330760a40eb9",
+      "imp": "high",
+      "urgency": "red",
+      "title": "İş Bankası kredi kartı",
+      "note": "İş Bankası kredi kartı borcu gecikmede. Banka 60 aya kadar yapılandırma sunuyor (İşCep Kartlar menüsü, 0 850 724 04 04). Tutar e-postada yok."
     }
   ],
   "departments": [
@@ -2282,7 +2298,7 @@
       ]
     }
   ],
-  "updated": "2026-10-22 13:37",
+  "updated": "2026-10-22 13:38",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2443,7 +2459,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E2RkRCRDE4RjRBM0E5MTZFQTMA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEJFQjVFQzZFODUwQjUxQzYwMAA=",
     "1a162f26e6c404f4",
-    "1a1632fc81b456ef"
+    "1a1632fc81b456ef",
+    "1a16330760a40eb9"
   ],
   "feed_order": [
     "qt5dom",
