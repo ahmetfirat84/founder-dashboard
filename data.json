@@ -1916,6 +1916,10 @@
       "summary": "1 onay bekliyor",
       "notes": [
         {
+          "text": "22.10.2026: Hülya Alkan'a €500 prim ödemesi için ₺28.000 havale yapıldı (Garanti, masraf ₺8,38), dekont alındı. (kaynak: WhatsApp (22 Eki 13:55, belge))",
+          "at": "2026-10-22 13:56"
+        },
+        {
           "text": "Perşembe 22 Ekim 07:00: Uber transfer, Elite Brand Hotel → İstanbul Aesthetic Center (Balmumcu), tahmini ₺669-806, Isbank Startup kartıyla ödenecek; iptal ücretsiz son 1 saat. (kaynak: E-posta (21 Eki 22:30): Uber · Reservation confirmed for Thursday, October 22)",
           "at": "2026-10-21 22:31"
         },
@@ -2298,7 +2302,7 @@
       ]
     }
   ],
-  "updated": "2026-10-22 13:38",
+  "updated": "2026-10-22 13:56",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2460,7 +2464,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEJFQjVFQzZFODUwQjUxQzYwMAA=",
     "1a162f26e6c404f4",
     "1a1632fc81b456ef",
-    "1a16330760a40eb9"
+    "1a16330760a40eb9",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE2MENFRTA5Qzk0REEyMzAzMkMA"
   ],
   "feed_order": [
     "qt5dom",
@@ -7047,6 +7052,15 @@
       "vkn": "6232137954",
       "note": "Teşvik danışmanı",
       "updated": "2026-10-20"
+    },
+    {
+      "id": "02yxlr",
+      "name": "Hülya Alkan",
+      "iban": "TR730006200069300006666729",
+      "holder": "HÜLYA ALKAN",
+      "bank": "Garanti BBVA",
+      "note": "Şahıs hesabı, prim ödemeleri",
+      "updated": "2026-10-22"
     }
   ],
   "meeting_notes": [
