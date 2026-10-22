@@ -1987,7 +1987,7 @@
       "area": "İdari & Ofis",
       "status": "red",
       "summary": "Bekleyen işler kontrol edilecek",
-      "updated": "2026-10-21 15:27",
+      "updated": "2026-10-22 11:23",
       "items": [
         {
           "uid": "vlmdj8",
@@ -2135,6 +2135,21 @@
           "due_date": "2026-11-21",
           "text": "Karar ver: Slack paid planı devam mı, free plana geçiş mi (21 Kas'ta free plana düşüyor; 90 gün mesaj geçmişi, Slack Connect, grup huddle, 10 uygulama sınırı).",
           "owner": ""
+        },
+        {
+          "action_type": "Toplantı",
+          "category": "Transfer",
+          "party": "Seçil",
+          "amount": "",
+          "due": "bugün 23:00 çıkış",
+          "uid": "nkeirq",
+          "source": "whatsapp",
+          "origin": "WhatsApp (22 Eki 11:23, yazılı)",
+          "wamid": "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FENDI1QzI4NUQyMTRGNzU1NTUA",
+          "plan_date": "2026-10-22",
+          "due_date": "2026-10-22",
+          "text": "Seçil havaalanı transferi: 23:00 çıkış, 23:45 havaalanında",
+          "owner": ""
         }
       ],
       "notes": [
@@ -2226,7 +2241,7 @@
       ]
     }
   ],
-  "updated": "2026-10-22 11:22",
+  "updated": "2026-10-22 11:23",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2382,7 +2397,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0ExNDQ1QkMxNzVFMDhERDBFNjEA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3NkY1QUJBRDA5RjJBNzFFRjQA",
     "1a16254be8fb4b29",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4OTdGNTM0MEYyRUU2ODFGNkIA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4OTdGNTM0MEYyRUU2ODFGNkIA",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FENDI1QzI4NUQyMTRGNzU1NTUA"
   ],
   "feed_order": [
     "qt5dom",
