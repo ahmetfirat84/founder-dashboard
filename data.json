@@ -2202,6 +2202,10 @@
       ],
       "notes": [
         {
+          "text": "Google Apps Script 'asistan-mail-to-dashboard' 21-22 Ekim arasında 5 kez hata verdi (4 sunucu hatası, 1 'Gmail operation not allowed'); mail-to-dashboard otomasyonu çalışmıyor olabilir, kontrol edilmeli. (kaynak: E-posta (22 Eki 14:10): noreply-apps-scripts-notifications@googl · Summary of fa)",
+          "at": "2026-10-22 14:11"
+        },
+        {
           "text": "Google Workspace güvenlik uyarısı (22 Eki): 6 kullanıcıda 2SV eksik, 1 kullanıcı phishing/malware linki almış, 1 güvensiz cihazdan uygulama erişimi var. Admin Console'dan incelenmeli. (kaynak: E-posta (22 Eki 12:30): The Google Workspace Team · [Notice] Possible unresolved)",
           "at": "2026-10-22 12:30"
         },
@@ -2302,7 +2306,7 @@
       ]
     }
   ],
-  "updated": "2026-10-22 13:57",
+  "updated": "2026-10-22 14:11",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2466,7 +2470,8 @@
     "1a1632fc81b456ef",
     "1a16330760a40eb9",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE2MENFRTA5Qzk0REEyMzAzMkMA",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3OEZEODEwRUVDMTFEMjIwQjEA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3OEZEODEwRUVDMTFEMjIwQjEA",
+    "1a1634e2d23ef78c"
   ],
   "feed_order": [
     "qt5dom",
