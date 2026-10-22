@@ -2202,6 +2202,10 @@
       ],
       "notes": [
         {
+          "text": "YourBusinessNumber sipariş onayı (22.10): İngiltere WhatsApp Business numarası +447457413907 satın alındı. Numara WhatsApp Business'ta kullanılmadan önce uygulamanın 1 hafta web/masaüstü bağlantısı ve ilk 7 gün grup kısıtlarına dikkat edilmeli. (kaynak: E-posta (22 Eki 16:01): hello@yourbusinessnumber.com · YourBusinessNumber Order )",
+          "at": "2026-10-22 16:02"
+        },
+        {
           "text": "Google Apps Script 'asistan-mail-to-dashboard' 21-22 Ekim arasında 5 kez hata verdi (4 sunucu hatası, 1 'Gmail operation not allowed'); mail-to-dashboard otomasyonu çalışmıyor olabilir, kontrol edilmeli. (kaynak: E-posta (22 Eki 14:10): noreply-apps-scripts-notifications@googl · Summary of fa)",
           "at": "2026-10-22 14:11"
         },
@@ -2306,7 +2310,7 @@
       ]
     }
   ],
-  "updated": "2026-10-22 14:58",
+  "updated": "2026-10-22 16:02",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2473,7 +2477,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3OEZEODEwRUVDMTFEMjIwQjEA",
     "1a1634e2d23ef78c",
     "1a1635328b907425",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEE0REY1RjNDOEUzNUI3QUM3OQA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEE0REY1RjNDOEUzNUI3QUM3OQA=",
+    "1a163b436e54ae67"
   ],
   "feed_order": [
     "qt5dom",
