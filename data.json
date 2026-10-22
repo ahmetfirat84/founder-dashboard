@@ -7320,12 +7320,5 @@
       "paid": false
     }
   ],
-  "extra_events": [
-    {
-      "date": "2026-10-23",
-      "time": "10:00",
-      "title": "deneme etkinliği",
-      "note": "Ahmet'in WhatsApp notundan eklendi"
-    }
-  ]
+  "extra_events": []
 }
