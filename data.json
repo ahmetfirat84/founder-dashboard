@@ -2139,6 +2139,10 @@
       ],
       "notes": [
         {
+          "text": "Seçil havaalanına bırakma talebi: 23:00 gibi çıkış, 23:45'te orada olunması isteniyor (taksi 2000+ TL). (kaynak: WhatsApp (22 Eki 11:22, iletilen yazışma, 4 mesaj))",
+          "at": "2026-10-22 11:22"
+        },
+        {
           "text": "Apple makbuzu: HiNoter AI Note Taker haftalık abonelik ₺184,99 (Mastercard ••2051, ödendi), yenileme 29 Ekim 2026. Haftalık yenileniyor, iptal kararı verilebilir. (kaynak: E-posta (22 Eki 09:06): Apple · Your receipt from Apple.)",
           "at": "2026-10-22 09:07"
         },
@@ -2222,7 +2226,7 @@
       ]
     }
   ],
-  "updated": "2026-10-22 09:38",
+  "updated": "2026-10-22 11:22",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2377,7 +2381,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzMzlENjQzNTMyM0RDQ0IzQzgA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0ExNDQ1QkMxNzVFMDhERDBFNjEA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3NkY1QUJBRDA5RjJBNzFFRjQA",
-    "1a16254be8fb4b29"
+    "1a16254be8fb4b29",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4OTdGNTM0MEYyRUU2ODFGNkIA"
   ],
   "feed_order": [
     "qt5dom",
