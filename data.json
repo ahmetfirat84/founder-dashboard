@@ -2182,6 +2182,10 @@
       ],
       "notes": [
         {
+          "text": "Google Workspace güvenlik uyarısı (22 Eki): 6 kullanıcıda 2SV eksik, 1 kullanıcı phishing/malware linki almış, 1 güvensiz cihazdan uygulama erişimi var. Admin Console'dan incelenmeli. (kaynak: E-posta (22 Eki 12:30): The Google Workspace Team · [Notice] Possible unresolved)",
+          "at": "2026-10-22 12:30"
+        },
+        {
           "text": "Seçil havaalanına bırakma talebi: 23:00 gibi çıkış, 23:45'te orada olunması isteniyor (taksi 2000+ TL). (kaynak: WhatsApp (22 Eki 11:22, iletilen yazışma, 4 mesaj))",
           "at": "2026-10-22 11:22"
         },
@@ -2278,7 +2282,7 @@
       ]
     }
   ],
-  "updated": "2026-10-22 12:14",
+  "updated": "2026-10-22 12:30",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2437,7 +2441,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4OTdGNTM0MEYyRUU2ODFGNkIA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FENDI1QzI4NUQyMTRGNzU1NTUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E2RkRCRDE4RjRBM0E5MTZFQTMA",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEJFQjVFQzZFODUwQjUxQzYwMAA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEJFQjVFQzZFODUwQjUxQzYwMAA=",
+    "1a162f26e6c404f4"
   ],
   "feed_order": [
     "qt5dom",
