@@ -1920,6 +1920,10 @@
       "summary": "1 onay bekliyor",
       "notes": [
         {
+          "text": "Cloudflare uyarısı: yeniben.com'da 21 Ekim'de sunucu hatalarında (502/504/520-524) %40 artış var; origin sunucu durumu kontrol edilmeli. (kaynak: E-posta (22 Eki 22:52): Cloudflare · Unexpected increase in server errors for ye)",
+          "at": "2026-10-22 22:52"
+        },
+        {
           "text": "22.10.2026: Hülya Alkan'a €500 prim ödemesi için ₺28.000 havale yapıldı (Garanti, masraf ₺8,38), dekont alındı. (kaynak: WhatsApp (22 Eki 13:55, belge))",
           "at": "2026-10-22 13:56"
         },
@@ -2314,7 +2318,7 @@
       ]
     }
   ],
-  "updated": "2026-10-22 18:51",
+  "updated": "2026-10-22 22:52",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2483,7 +2487,8 @@
     "1a1635328b907425",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEE0REY1RjNDOEUzNUI3QUM3OQA=",
     "1a163b436e54ae67",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4NDEyMzdFQUJGMzJFREVGNzgA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4NDEyMzdFQUJGMzJFREVGNzgA",
+    "1a1652bd7a011311"
   ],
   "feed_order": [
     "qt5dom",
