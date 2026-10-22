@@ -2306,7 +2306,7 @@
       ]
     }
   ],
-  "updated": "2026-10-22 14:16",
+  "updated": "2026-10-22 14:58",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2472,7 +2472,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE2MENFRTA5Qzk0REEyMzAzMkMA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3OEZEODEwRUVDMTFEMjIwQjEA",
     "1a1634e2d23ef78c",
-    "1a1635328b907425"
+    "1a1635328b907425",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEE0REY1RjNDOEUzNUI3QUM3OQA="
   ],
   "feed_order": [
     "qt5dom",
@@ -7431,6 +7432,14 @@
       "note": "Bugünkü 14:00 toplantısından yarına taşındı",
       "location": "",
       "calendar": "is"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "10:50",
+      "title": "Yangın dedektörü kontrolü (site teknik servisi)",
+      "note": "Sitenin teknik servisi yangın dedektörü kontrolüne gelecek. Katılımcı eklenecek: cemreyamaner@gmail.com (Cemre)",
+      "location": "Ev",
+      "calendar": "sahsi"
     }
   ]
 }
