@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-22",
   "source": "2026-10-16_sabah-brifing (Drive: 09_Management/briefing-system/handoffs)",
   "priorities": [
     "HubSpot Maximum monthly credits = 3.000 gir (yenileme 17 Ekim, en geç 10:00)",
@@ -11,6 +11,16 @@
       "time": "12:30",
       "title": "& New Me_Daily",
       "note": "Hülya, Selin, Cemre; Meet"
+    },
+    {
+      "time": "14:00",
+      "title": "Ahmet <> Hülya 1:1",
+      "note": "Hülya; Meet"
+    },
+    {
+      "time": "17:00",
+      "title": "Ahmet <> Selin 1:1",
+      "note": "Selin; Meet"
     }
   ],
   "cash_alerts": [
@@ -1271,7 +1281,7 @@
       "name": "DAMLA",
       "area": "Teşvik",
       "status": "yellow",
-      "updated": "2026-10-16 16:45",
+      "updated": "2026-10-22 11:40",
       "items": [
         {
           "text": "Medcure_Claude, KDV'siz fatura vb teşvik dokümanları problemini çöz (Barış'ı ara)",
@@ -1283,7 +1293,7 @@
           "urgency": "gray",
           "uid": "td_6hQjM36cF62wQ2q9",
           "source": "todoist",
-          "plan_date": "2026-10-21"
+          "plan_date": "2026-10-22"
         },
         {
           "text": "IC Hospital (Barış): EK-21 imzalarını takip et",
@@ -1517,6 +1527,24 @@
             "date": "2026-10-18",
             "note": "DYS portal bilgisi (30 Tem, Ahmet e-Devlet ile girdi)"
           }
+        },
+        {
+          "text": "Teşvik evrakları güncelle",
+          "action_type": "Yanıt",
+          "category": "Todoist",
+          "urgency": "gray",
+          "uid": "td_6hjq3jpc9wG4H229",
+          "source": "todoist",
+          "plan_date": "2026-10-22"
+        },
+        {
+          "text": "Bekleyen teşvik evraklarını yükle (eski EK-21'ler vb.), düzeltme istenirse vakit ayır",
+          "action_type": "Yanıt",
+          "category": "Todoist",
+          "urgency": "gray",
+          "uid": "td_6hpxwX6W839Grfv9",
+          "source": "todoist",
+          "plan_date": "2026-10-22"
         }
       ],
       "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri"
@@ -1538,7 +1566,7 @@
           "urgency": "gray",
           "uid": "td_6hpFH4r6PQh9F9Vh",
           "source": "todoist",
-          "plan_date": "2026-10-21"
+          "plan_date": "2026-10-22"
         },
         {
           "text": "'neome' marka başvurusu 2025/057803 kısmi tescil kararı (12 Eki): itiraz/başvuru süresini hesapla, karar verilecek",
@@ -1767,7 +1795,7 @@
           "urgency": "gray",
           "uid": "td_6hpVfJmv9Phr7X2h",
           "source": "todoist",
-          "plan_date": "2026-10-21"
+          "plan_date": "2026-10-22"
         },
         {
           "text": "Reklam harcamaları, leadler ve satışları izleyecek ayrı bir dashboard kur ve Yeni Zelanda gastric sleeve akışıyla kontrollü reklam yatırımını başlat (dönüşüm maliyeti hedefi 300-400 € altı).",
@@ -1940,7 +1968,7 @@
           "urgency": "gray",
           "uid": "td_6hjq3gFRr7cwQGX9",
           "source": "todoist",
-          "plan_date": "2026-10-21"
+          "plan_date": "2026-10-22"
         },
         {
           "text": "Claus'a yanıt yaz (DM'den)",
@@ -1952,7 +1980,7 @@
           "urgency": "gray",
           "uid": "td_6hpj89JrjWrh5JF9",
           "source": "todoist",
-          "plan_date": "2026-10-21"
+          "plan_date": "2026-10-22"
         },
         {
           "text": "Aiven 'Meet at Slush?' toplantı talebi (15 Eki): yanıtsız, Slush katılım kararına bağlı",
@@ -2197,7 +2225,7 @@
       "area": "Şahsi-Todo",
       "status": "gray",
       "summary": "Şahsi yapılacaklar",
-      "updated": "2026-10-21 11:30",
+      "updated": "2026-10-22 11:40",
       "items": [
         {
           "text": "OC: dünkü toplantı notlarını mail at, yapılacakları netleştir; gönderdiği bilet linkine bak, işe yararsa siteye embed et",
@@ -2209,7 +2237,7 @@
           "urgency": "gray",
           "uid": "td_6hpVf873vfxFHMF9",
           "source": "todoist",
-          "plan_date": "2026-10-21"
+          "plan_date": "2026-10-22"
         },
         {
           "text": "Seçil'e 500 USD gönder",
@@ -2231,6 +2259,15 @@
             "date": "2026-10-21",
             "drive_url": "https://drive.google.com/file/d/1WfGKQBoZBfyFmMKswiGlYWP3R1deMgIX/view?usp=drivesdk"
           }
+        },
+        {
+          "text": "WA grupları aç (LLM'li)",
+          "action_type": "Yanıt",
+          "category": "Todoist",
+          "urgency": "gray",
+          "uid": "td_6hpm9JRfHvMWrmr9",
+          "source": "todoist",
+          "plan_date": "2026-10-22"
         }
       ],
       "notes": [
@@ -2241,7 +2278,7 @@
       ]
     }
   ],
-  "updated": "2026-10-22 11:24",
+  "updated": "2026-10-22 11:40",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -6894,7 +6931,7 @@
       ]
     }
   ],
-  "meetings_date": "2026-10-21",
+  "meetings_date": "2026-10-22",
   "directory": [
     {
       "id": "g5cmcp",
