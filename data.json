@@ -316,8 +316,8 @@
       "action_type": "Ödeme",
       "category": "",
       "party": "Barivital",
-      "amount": "₺22.950",
-      "due": "Ödeme sözü: Cuma 23 Eki",
+      "amount": "₺22.950 (ödendi)",
+      "due": "Ödendi 23.10",
       "uid": "8zkm7p",
       "source": "whatsapp",
       "origin": "WhatsApp (19 Eki 16:11, yazılı)",
@@ -325,7 +325,19 @@
       "plan_date": "2026-10-23",
       "due_date": "2026-04-22",
       "title": "Barivital",
-      "note": "Protein supplement alımı (gastric sleeve sonrası hasta ürünü). 19.10 yazışma: Barivital muhasebe ödeme gününü sordu; Ahmet 'Perşembe ya da Cuma' dedi, sonra Cuma (23 Eki) olarak netleşti. Güncel bakiye ₺22.950,05; en eski açık fatura 22.04'ten. IBAN henüz gelmedi: gelince rehbere işlenecek."
+      "note": "Protein supplement alımı (gastric sleeve sonrası hasta ürünü). 19.10 yazışma: Barivital muhasebe ödeme gününü sordu; Ahmet 'Perşembe ya da Cuma' dedi, sonra Cuma (23 Eki) olarak netleşti. Güncel bakiye ₺22.950,05; en eski açık fatura 22.04'ten. IBAN henüz gelmedi: gelince rehbere işlenecek. ÖDENDİ 2026-10-23: ₺22.950 (dekont, havale ücreti ₺16.76). Satır tutarı ₺22.950.",
+      "done": true,
+      "doneAt": "2026-10-23 16:11",
+      "amount_try": 22950,
+      "proof": {
+        "type": "banka dekontu",
+        "date": "2026-10-23",
+        "amount_try": 22950,
+        "fee_try": 16.76,
+        "channel": "WhatsApp (23 Eki 16:11, belge)",
+        "drive_url": "https://drive.google.com/file/d/1AJ7LWcgMTntSdlJmiwx-632DpyxW465b/view?usp=drivesdk",
+        "draft_url": ""
+      }
     },
     {
       "action_type": "Ödeme",
@@ -2406,7 +2418,7 @@
       ]
     }
   ],
-  "updated": "2026-10-23 16:09",
+  "updated": "2026-10-23 16:11",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2590,7 +2602,8 @@
     "1a16878180a4aeab",
     "1a1688f4576d552d",
     "1a168c93a53d4a51",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5NDZEQjcyNEMyNEFFREQ3RDkA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5NDZEQjcyNEMyNEFFREQ3RDkA",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1RUQzRTcwODFDNjM4MkE0NTEA"
   ],
   "feed_order": [
     "qt5dom",
