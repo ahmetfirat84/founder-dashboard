@@ -503,7 +503,7 @@
       "name": "BATU",
       "area": "Muhasebe",
       "status": "red",
-      "updated": "2026-10-23 07:39",
+      "updated": "2026-10-23 10:34",
       "items": [
         {
           "uid": "s9mc5u",
@@ -985,6 +985,21 @@
           "source": "email",
           "id": "1a16615813383299",
           "feed": false
+        },
+        {
+          "action_type": "Belge",
+          "category": "e-Fatura",
+          "party": "Paraşüt",
+          "amount": "",
+          "due": "Düzeltip tekrar gönder",
+          "uid": "41sggm",
+          "source": "mail-gelen",
+          "origin": "E-posta (23 Eki 10:33): Paraşüt · e-Fatura gönderimi başarısız oldu",
+          "wamid": "1a167ae271c7bfa9",
+          "mail_thread": "1a167ae271c7bfa9",
+          "urgency": "yellow",
+          "text": "YB02026000000006 e-fatura GİB'e ulaştı ama 1181 hatası aldı (VKN/etiket eşleşmesi). Alıcı VKN/etiket bilgisini kontrol edip faturayı tekrar gönder.",
+          "owner": ""
         }
       ],
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
@@ -2367,7 +2382,7 @@
       ]
     }
   ],
-  "updated": "2026-10-23 10:26",
+  "updated": "2026-10-23 10:34",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2541,7 +2556,8 @@
     "1a1653fa8d180de8",
     "1a16685425d4ed41",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E0ODgzOTFCREIwNTVERTU0NzcA",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDdBRTBENUIwMTkxQTJGQUQxRAA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDdBRTBENUIwMTkxQTJGQUQxRAA=",
+    "1a167ae271c7bfa9"
   ],
   "feed_order": [
     "qt5dom",
