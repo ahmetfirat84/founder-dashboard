@@ -2367,7 +2367,7 @@
       ]
     }
   ],
-  "updated": "2026-10-23 09:06",
+  "updated": "2026-10-23 10:26",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2540,7 +2540,8 @@
     "1a1652bd7a011311",
     "1a1653fa8d180de8",
     "1a16685425d4ed41",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E0ODgzOTFCREIwNTVERTU0NzcA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E0ODgzOTFCREIwNTVERTU0NzcA",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDdBRTBENUIwMTkxQTJGQUQxRAA="
   ],
   "feed_order": [
     "qt5dom",
@@ -7507,6 +7508,14 @@
       "note": "Sitenin teknik servisi yangın dedektörü kontrolüne gelecek. Katılımcı eklenecek: cemreyamaner@gmail.com (Cemre)",
       "location": "Ev",
       "calendar": "sahsi"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "15:30",
+      "title": "Merve Kesat ile iş toplantısı",
+      "note": "Karşı tarafa 'Kanyona gelirim' yazıldı.",
+      "location": "Lepain (Kanyon)",
+      "calendar": "is"
     }
   ]
 }
