@@ -1006,6 +1006,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Paraşüt'ten MikroGrup portal erişim bilgisi geldi (finans@yeniben hesabı, fatura kesiminde kontör düşer). Giriş bilgileri kaydedilmedi. (kaynak: E-posta (23 Eki 12:45): Paraşüt İletişim · [ ref:!00D0O0qYJM.!500QC0jPeA3:ref ])",
+          "at": "2026-10-23 12:46"
+        },
+        {
           "text": "Uber B.V. adına 40,00 TL temel e-Fatura Paraşüt'e düştü (2026-10-22). Küçük tutarlı rutin gider, vade yok. (kaynak: E-posta (22 Eki 07:38): Paraşüt · Yeni bir e-Faturanız var)",
           "at": "2026-10-22 07:39"
         },
@@ -2383,7 +2387,7 @@
       ]
     }
   ],
-  "updated": "2026-10-23 12:09",
+  "updated": "2026-10-23 12:46",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2560,7 +2564,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDdBRTBENUIwMTkxQTJGQUQxRAA=",
     "1a167ae271c7bfa9",
     "1a167cab182bf1eb",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDA5NzkyMjY1M0VERDI1NTAwOQA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDA5NzkyMjY1M0VERDI1NTAwOQA=",
+    "1a16826d37655a4f"
   ],
   "feed_order": [
     "qt5dom",
