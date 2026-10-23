@@ -425,7 +425,13 @@
       "mail_thread": "1a07ba462aa5d81f",
       "due_date": "2026-09-09",
       "title": "İstanbul Cerrahi",
-      "note": "Kurum faturası ve kalan bakiye için ödeme hatırlatması (mutabakat tamam). Tutar mail ekinde, teyit edilmeli. YENİ MAİL 19.10 16:08 (28 Eyl 10:40 · Nurcan Sarıbal · Re: new me bakiye): 28 Eyl'de Nurcan Sarıbal hatırlatma gönderdi: Priyer D. N. (protokol 1005896) için ₺66.951,48 ödeme bekleniyor. YENİ MAİL 19.10 16:08 (30 Eyl 08:23 · Finance New Me · Re: new me bakiye): Finance New Me 30 Eyl: 'Bakiye kapanmıştır' (Nurcan Sarıbal yazışması); satır kapatılmadı, teyit edin. YENİ MAİL 19.10 16:08 (19 Eki 12:32 · Nurcan Sarıbal · Re: new me bakiye): Nurcan Sarıbal (09:32): mutabakat sonrası fatura kesildi, güncel kalan bakiye ekte, ödeme için dönüş istendi. YENİ MAİL 19.10 16:11 (19 Eki 16:11 · Finance New Me · Re: new me bakiye): 19 Eki: Nurcan Sarıbal (İstanbul Cerrahi) bakiye mutabakatını onayladı, fatura kesilebilir."
+      "note": "Kurum faturası ve kalan bakiye için ödeme hatırlatması (mutabakat tamam). Tutar mail ekinde, teyit edilmeli. YENİ MAİL 19.10 16:08 (28 Eyl 10:40 · Nurcan Sarıbal · Re: new me bakiye): 28 Eyl'de Nurcan Sarıbal hatırlatma gönderdi: Priyer D. N. (protokol 1005896) için ₺66.951,48 ödeme bekleniyor. YENİ MAİL 19.10 16:08 (30 Eyl 08:23 · Finance New Me · Re: new me bakiye): Finance New Me 30 Eyl: 'Bakiye kapanmıştır' (Nurcan Sarıbal yazışması); satır kapatılmadı, teyit edin. YENİ MAİL 19.10 16:08 (19 Eki 12:32 · Nurcan Sarıbal · Re: new me bakiye): Nurcan Sarıbal (09:32): mutabakat sonrası fatura kesildi, güncel kalan bakiye ekte, ödeme için dönüş istendi. YENİ MAİL 19.10 16:11 (19 Eki 16:11 · Finance New Me · Re: new me bakiye): 19 Eki: Nurcan Sarıbal (İstanbul Cerrahi) bakiye mutabakatını onayladı, fatura kesilebilir. YENİ MAİL 23.10 14:40 (23 Eki 14:39 · Nurcan Sarıbal · RE: new me bakiye): 23.10 Nurcan Sarıbal kurum faturasını gönderdi: MKY2026000000651 (20.10.2026), Nate M. gastric sleeve, ₺66.373,56 KDV dahil; ödeme için dönüş bekleniyor, vade belirtilmemiş.",
+      "invoice": {
+        "no": "MKY2026000000651",
+        "date": "2026-10-20",
+        "amount_try": 66373.56,
+        "drive_url": "https://drive.google.com/file/d/1VAFhonC_NVVEC0UACWJoDMzDtbkJ9FzS/view?usp=drivesdk"
+      }
     },
     {
       "action_type": "Ödeme",
@@ -1005,6 +1011,10 @@
       ],
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
+        {
+          "text": "📎 fatura-gelen arşivlendi: IC Hospital (MK Hastane) 2026-10-20 no MKY2026000000651 ₺66.374 → https://drive.google.com/file/d/1VAFhonC_NVVEC0UACWJoDMzDtbkJ9FzS/view?usp=drivesdk",
+          "at": "2026-10-23 14:40"
+        },
         {
           "text": "Paraşüt'ten MikroGrup portal erişim bilgisi geldi (finans@yeniben hesabı, fatura kesiminde kontör düşer). Giriş bilgileri kaydedilmedi. (kaynak: E-posta (23 Eki 12:45): Paraşüt İletişim · [ ref:!00D0O0qYJM.!500QC0jPeA3:ref ])",
           "at": "2026-10-23 12:46"
@@ -2387,7 +2397,7 @@
       ]
     }
   ],
-  "updated": "2026-10-23 14:14",
+  "updated": "2026-10-23 14:40",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2568,7 +2578,8 @@
     "1a16826d37655a4f",
     "1a168323cec72aeb",
     "1a168344c94ccef4",
-    "1a16878180a4aeab"
+    "1a16878180a4aeab",
+    "1a1688f4576d552d"
   ],
   "feed_order": [
     "qt5dom",
