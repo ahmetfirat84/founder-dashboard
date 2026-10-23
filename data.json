@@ -2211,6 +2211,10 @@
       ],
       "notes": [
         {
+          "text": "Google Workspace yöneticisi: Görevler için Workspace Intelligence varsayılan AÇIK gelecek (14 Kasım 2026'dan itibaren Gemini bağlam olarak kullanabilir). İstemiyorsan Yönetici Konsolu'ndan 14 Kasım'a kadar kapat. (kaynak: E-posta (23 Eki 05:09): The Google Workspace Team ·  [Ürün Güncellemesi] Google )",
+          "at": "2026-10-23 05:10"
+        },
+        {
           "text": "YourBusinessNumber sipariş onayı (22.10): İngiltere WhatsApp Business numarası +447457413907 satın alındı. Numara WhatsApp Business'ta kullanılmadan önce uygulamanın 1 hafta web/masaüstü bağlantısı ve ilk 7 gün grup kısıtlarına dikkat edilmeli. (kaynak: E-posta (22 Eki 16:01): hello@yourbusinessnumber.com · YourBusinessNumber Order )",
           "at": "2026-10-22 16:02"
         },
@@ -2319,7 +2323,7 @@
       ]
     }
   ],
-  "updated": "2026-10-22 23:14",
+  "updated": "2026-10-23 05:10",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2490,7 +2494,8 @@
     "1a163b436e54ae67",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4NDEyMzdFQUJGMzJFREVGNzgA",
     "1a1652bd7a011311",
-    "1a1653fa8d180de8"
+    "1a1653fa8d180de8",
+    "1a16685425d4ed41"
   ],
   "feed_order": [
     "qt5dom",
