@@ -176,9 +176,9 @@
     },
     {
       "title": "Orya Hotel",
-      "amount": "₺102.588,57 (toplam bakiye)",
+      "amount": "₺67.589 (kalan; ₺35.000 ödendi)",
       "due": "19-23 Eki kısmi, 31 Eki kapanış",
-      "note": "Orya Hotel 17 Eki WhatsApp: toplam bakiye ₺102.588,57 (son fatura OHL2026000000236, €450 = ₺24.833,39, bunun yalnızca bir kalemi). Plan: önümüzdeki hafta (19-23 Eki) bir ödeme, ay sonuna (31 Eki) kadar kapanış. Provider borçları gider sheet'inde yok.",
+      "note": "Orya Hotel 17 Eki WhatsApp: toplam bakiye ₺102.588,57 (son fatura OHL2026000000236, €450 = ₺24.833,39, bunun yalnızca bir kalemi). Plan: önümüzdeki hafta (19-23 Eki) bir ödeme, ay sonuna (31 Eki) kadar kapanış. Provider borçları gider sheet'inde yok. KISMİ ÖDEME 2026-10-23: ₺35.000 ödendi, kalan ₺67.589.",
       "action_type": "Ödeme",
       "category": "Provider",
       "party": "Orya Hotel",
@@ -186,7 +186,16 @@
       "uid": "ee55fc",
       "origin": "WhatsApp (21 Eki 12:23, iletilen yazışma, 4 mesaj)",
       "source": "whatsapp",
-      "plan_date": "2026-10-23"
+      "plan_date": "2026-10-23",
+      "amount_try": 67588.57,
+      "proof": {
+        "type": "banka dekontu",
+        "date": "2026-10-23",
+        "amount_try": 35000,
+        "fee_try": 16.76,
+        "channel": "WhatsApp (23 Eki 16:09, belge)",
+        "partial": true
+      }
     },
     {
       "title": "Muhtasar (Eylül)",
@@ -2397,7 +2406,7 @@
       ]
     }
   ],
-  "updated": "2026-10-23 15:43",
+  "updated": "2026-10-23 16:09",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2580,7 +2589,8 @@
     "1a168344c94ccef4",
     "1a16878180a4aeab",
     "1a1688f4576d552d",
-    "1a168c93a53d4a51"
+    "1a168c93a53d4a51",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5NDZEQjcyNEMyNEFFREQ3RDkA"
   ],
   "feed_order": [
     "qt5dom",
