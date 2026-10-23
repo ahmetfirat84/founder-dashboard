@@ -1000,7 +1000,7 @@
           "urgency": "yellow",
           "text": "YB02026000000006 e-fatura GİB'e ulaştı ama 1181 hatası aldı (VKN/etiket eşleşmesi). Alıcı VKN/etiket bilgisini kontrol edip faturayı tekrar gönder.",
           "owner": "",
-          "note": "YENİ MAİL 23.10 11:05 (23 Eki 11:04 · Paraşüt · e-Fatura gönderimi başarısız oldu): 23.10 Paraşüt maili: fatura tekrar gönderilebilir duruma getirildi; alıcının VKN/etiket bilgisi kontrol edilip yeniden gönderilmeli."
+          "note": "YENİ MAİL 23.10 11:05 (23 Eki 11:04 · Paraşüt · e-Fatura gönderimi başarısız oldu): 23.10 Paraşüt maili: fatura tekrar gönderilebilir duruma getirildi; alıcının VKN/etiket bilgisi kontrol edilip yeniden gönderilmeli. YENİ MAİL 23.10 12:58 (23 Eki 12:58 · Paraşüt · e-Fatura gönderimi başarısız oldu): 23.10: YB02026000000007 numaralı fatura da 1181 hatası aldı (VKN/etiket eşleşmesi); tekrar göndermeden önce alıcı VKN ve etiketi kontrol edilecek."
         }
       ],
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
@@ -2387,7 +2387,7 @@
       ]
     }
   ],
-  "updated": "2026-10-23 12:46",
+  "updated": "2026-10-23 12:58",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2565,7 +2565,8 @@
     "1a167ae271c7bfa9",
     "1a167cab182bf1eb",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDA5NzkyMjY1M0VERDI1NTAwOQA=",
-    "1a16826d37655a4f"
+    "1a16826d37655a4f",
+    "1a168323cec72aeb"
   ],
   "feed_order": [
     "qt5dom",
