@@ -2383,7 +2383,7 @@
       ]
     }
   ],
-  "updated": "2026-10-23 11:05",
+  "updated": "2026-10-23 12:09",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2559,7 +2559,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E0ODgzOTFCREIwNTVERTU0NzcA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDdBRTBENUIwMTkxQTJGQUQxRAA=",
     "1a167ae271c7bfa9",
-    "1a167cab182bf1eb"
+    "1a167cab182bf1eb",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDA5NzkyMjY1M0VERDI1NTAwOQA="
   ],
   "feed_order": [
     "qt5dom",
@@ -7511,14 +7512,6 @@
     }
   ],
   "extra_events": [
-    {
-      "date": "2026-10-23",
-      "time": "14:00",
-      "title": "Ahmet <> Hülya 1:1",
-      "note": "Bugünkü 14:00 toplantısından yarına taşındı",
-      "location": "",
-      "calendar": "is"
-    },
     {
       "date": "2026-10-23",
       "time": "10:50",
