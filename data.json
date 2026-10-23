@@ -2387,7 +2387,7 @@
       ]
     }
   ],
-  "updated": "2026-10-23 12:58",
+  "updated": "2026-10-23 13:00",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2566,7 +2566,8 @@
     "1a167cab182bf1eb",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDA5NzkyMjY1M0VERDI1NTAwOQA=",
     "1a16826d37655a4f",
-    "1a168323cec72aeb"
+    "1a168323cec72aeb",
+    "1a168344c94ccef4"
   ],
   "feed_order": [
     "qt5dom",
@@ -7165,6 +7166,64 @@
     }
   ],
   "meeting_notes": [
+    {
+      "id": "3iocwb",
+      "title": "& New Me_Daily",
+      "date": "2026-10-23",
+      "summary": "Uluslararası hasta takibi, depozito alma süreçleri, doktor sıralamalarının tutarlılığı ve paket/marketplace modeli konuşuldu. Kısa vadede sonuçlanabilecek adaylar için depozito ve konsültasyon takibi öne çıktı. Eski doktor kayıtlarının temizlenmesi ve yapay zekâ destekli iş akışının kullanımı kararlaştırıldı.",
+      "thread": "1a168344c94ccef4",
+      "actions": [
+        {
+          "id": "qtj8xv",
+          "text": "Hülya Alkan, 4 Kasım'ı hedefleyen meme operasyonu adayından %5 depozitoyu almak için süreci geciktirmeden takip edecek.",
+          "dep": "zeynep",
+          "owner": "Hülya Alkan",
+          "party": "4 Kasım meme operasyonu adayı",
+          "status": "proposed"
+        },
+        {
+          "id": "5i2wn4",
+          "text": "Serpil'in 5 Kasım'daki konsültasyonuna gidilerek hastayla tanışılacak ve ödeme süreci ilerletilecek.",
+          "dep": "zeynep",
+          "owner": "",
+          "due_date": "2026-11-05",
+          "party": "Serpil",
+          "status": "proposed"
+        },
+        {
+          "id": "d28eos",
+          "text": "Hülya Alkan mevcut tedavi sayfalarını inceleyip eski/hatalı doktorları kaldıracak ve uygun adayları yeniden değerlendirecek.",
+          "dep": "ilksen",
+          "owner": "Hülya Alkan",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "o2pwvk",
+          "text": "Selin Sezgin, fiyat nedeniyle sessizleşen adaylara yeniden ulaşıp indirim veya daha uygun seçenekleri değerlendirecek.",
+          "dep": "zeynep",
+          "owner": "Selin Sezgin",
+          "party": "Fiyat nedeniyle sessizleşen adaylar",
+          "status": "proposed"
+        },
+        {
+          "id": "r5fmbc",
+          "text": "Yeni gelen Bulgar hasta için Cem Altındağ'dan alınacak yanıta göre sonraki doktor seçimi yapılacak.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "Bulgar hasta / Cem Altındağ",
+          "status": "proposed"
+        },
+        {
+          "id": "qv180i",
+          "text": "Taburcu olan hastanın reçetesi teslim edilip imzalı hale getirilerek eksik tamamlanacak.",
+          "dep": "ecem",
+          "owner": "",
+          "party": "Taburcu olan hasta",
+          "status": "proposed"
+        }
+      ]
+    },
     {
       "id": "q9gfuq",
       "title": "& New Me_Daily",
