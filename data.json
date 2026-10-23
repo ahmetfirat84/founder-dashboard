@@ -404,7 +404,7 @@
       "amount_try": 66951.48,
       "urgency": "orange",
       "title": "IC Hospital (MK Hastane İşletmeleri)",
-      "note": "Fatura MKY2026000000273 (07.09.2026), hasta Priyer Darshani Nand (Yeni Zelanda, Genel Cerrahi), KDV dahil ₺66.951,48. Nurcan Sarıbal 7 Eyl'de ödeme için dönüş istedi; vade yazmıyor.",
+      "note": "Fatura MKY2026000000273 (07.09.2026), hasta Priyer Darshani Nand (Yeni Zelanda, Genel Cerrahi), KDV dahil ₺66.951,48. Nurcan Sarıbal 7 Eyl'de ödeme için dönüş istedi; vade yazmıyor. YENİ MAİL 23.10 15:43 (23 Eki 15:42 · Paraşüt · Yeni bir e-Faturanız var): 23 Eki'de e-fatura geldi (₺66.373,56); 8 gün içinde kabul/red edilmeli (~31 Eki).",
       "invoice": {
         "no": "MKY2026000000273",
         "date": "2026-09-07",
@@ -2397,7 +2397,7 @@
       ]
     }
   ],
-  "updated": "2026-10-23 14:40",
+  "updated": "2026-10-23 15:43",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2579,7 +2579,8 @@
     "1a168323cec72aeb",
     "1a168344c94ccef4",
     "1a16878180a4aeab",
-    "1a1688f4576d552d"
+    "1a1688f4576d552d",
+    "1a168c93a53d4a51"
   ],
   "feed_order": [
     "qt5dom",
