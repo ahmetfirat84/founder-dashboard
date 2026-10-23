@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "source": "2026-10-16_sabah-brifing (Drive: 09_Management/briefing-system/handoffs)",
   "priorities": [
     "HubSpot Maximum monthly credits = 3.000 gir (yenileme 17 Ekim, en geç 10:00)",
@@ -7,6 +7,11 @@
     "HealthTürkiye yenileme ücretini ve CPA Türk 2025 kurumlar vergisi beyannamesini kontrol et"
   ],
   "meetings": [
+    {
+      "time": "10:50",
+      "title": "Yangın dedektörü kontrolü (site teknik servisi)",
+      "note": "Ev; Cemre eklenecek"
+    },
     {
       "time": "12:30",
       "title": "& New Me_Daily",
@@ -18,7 +23,7 @@
       "note": "Hülya; Meet"
     },
     {
-      "time": "17:00",
+      "time": "15:30",
       "title": "Ahmet <> Selin 1:1",
       "note": "Selin; Meet"
     }
@@ -480,6 +485,16 @@
       "urgency": "red",
       "title": "İş Bankası kredi kartı",
       "note": "İş Bankası kredi kartı borcu gecikmede. Banka 60 aya kadar yapılandırma sunuyor (İşCep Kartlar menüsü, 0 850 724 04 04). Tutar e-postada yok."
+    },
+    {
+      "title": "HubSpot kart ödemesi başarısız",
+      "action_type": "Ödeme",
+      "category": "Abonelik",
+      "party": "HubSpot",
+      "amount": "",
+      "due": "28.10.2026",
+      "due_date": "2026-10-28",
+      "note": "Retry yapılmazsa 28.10'da hesap askıya alınır (Hub ID 143451706)"
     }
   ],
   "departments": [
@@ -488,7 +503,7 @@
       "name": "BATU",
       "area": "Muhasebe",
       "status": "red",
-      "updated": "2026-10-20 09:31",
+      "updated": "2026-10-23 07:39",
       "items": [
         {
           "uid": "s9mc5u",
@@ -957,6 +972,19 @@
           "due_date": "2026-10-25",
           "text": "KETSİS e-tebligat 2026101966Vyt0000330 (20.10 gönderildi, 25.10'da tebliğ sayılır): belgeyi dijital.gib.gov.tr üzerinden doğrudan giriş yaparak oku, e-postadaki bağlantıya tıklama.",
           "owner": ""
+        },
+        {
+          "text": "HubSpot kart ödemesi başarısız: 28 Ekim'e kadar ödenmezse hesap askıya alınır; kartı güncelle/ödemeyi yeniden dene",
+          "action_type": "Ödeme",
+          "category": "Abonelik",
+          "party": "HubSpot",
+          "amount": "",
+          "due": "28.10.2026",
+          "due_date": "2026-10-28",
+          "owner": "Ahmet",
+          "source": "email",
+          "id": "1a16615813383299",
+          "feed": false
         }
       ],
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
@@ -1712,7 +1740,7 @@
       "name": "ZEYNEP",
       "area": "Satış",
       "status": "yellow",
-      "updated": "2026-10-16 15:30",
+      "updated": "2026-10-23 07:39",
       "items": [
         {
           "text": "'Ulaşılmaya çalışıldı' leadleri (Israa M., Laura W., Melissa): ilk temas hızını izle",
@@ -1785,6 +1813,18 @@
           "party": "Hülya (2 yeni talep)",
           "amount": "",
           "due_date": "2026-10-23"
+        },
+        {
+          "text": "Selin uyardı: Taiolevai Sovala konuşmasında 2. otomatik follow-up çok erken gitti; form dolduran yeni lead'e hemen gitmemeli, WF gecikmesini gözden geçir",
+          "action_type": "Yanıt",
+          "category": "Satış",
+          "party": "Selin Sezgin",
+          "amount": "",
+          "due": "",
+          "urgency": "gray",
+          "owner": "Ahmet",
+          "source": "email",
+          "id": "1a162b29d509cbd1"
         }
       ],
       "summary": "2 deal bugün kapanıyor",
@@ -2323,7 +2363,7 @@
       ]
     }
   ],
-  "updated": "2026-10-23 05:10",
+  "updated": "2026-10-23 07:39",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -6990,7 +7030,7 @@
       ]
     }
   ],
-  "meetings_date": "2026-10-22",
+  "meetings_date": "2026-10-23",
   "directory": [
     {
       "id": "g5cmcp",
