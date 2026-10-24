@@ -2459,7 +2459,7 @@
       ]
     }
   ],
-  "updated": "2026-10-24 09:59",
+  "updated": "2026-10-24 10:35",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2648,7 +2648,8 @@
     "1a168e83050d9122",
     "1a16c48f9762cc38",
     "1a16c49055270104",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EwMjI4MTlFMDZEOTg4QTVDNUUA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EwMjI4MTlFMDZEOTg4QTVDNUUA",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E1OEZCRTFENDdENkQxNkIyQTkA"
   ],
   "feed_order": [
     "qt5dom",
@@ -7659,20 +7660,12 @@
   ],
   "extra_events": [
     {
-      "date": "2026-10-23",
-      "time": "10:50",
-      "title": "Yangın dedektörü kontrolü (site teknik servisi)",
-      "note": "Sitenin teknik servisi yangın dedektörü kontrolüne gelecek. Katılımcı eklenecek: cemreyamaner@gmail.com (Cemre)",
-      "location": "Ev",
+      "date": "2026-10-24",
+      "time": "19:00",
+      "title": "Ahmet Usta",
+      "note": "",
+      "location": "Etiler",
       "calendar": "sahsi"
-    },
-    {
-      "date": "2026-10-23",
-      "time": "15:30",
-      "title": "Merve Kesat ile iş toplantısı",
-      "note": "Karşı tarafa 'Kanyona gelirim' yazıldı.",
-      "location": "Lepain (Kanyon)",
-      "calendar": "is"
     }
   ]
 }
