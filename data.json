@@ -522,6 +522,22 @@
       "due": "28.10.2026",
       "due_date": "2026-10-28",
       "note": "Retry yapılmazsa 28.10'da hesap askıya alınır (Hub ID 143451706)"
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Maaş",
+      "party": "Seda Özkorkmaz",
+      "amount": "7.447,11",
+      "due": "Ay sonu (tekrarlayan maaş)",
+      "uid": "69nr5x",
+      "source": "mail-gelen",
+      "origin": "E-posta (24 Eki 08:01): Paraşüt · Tekrarlayan Maaş Kaydınız Oluşturuldu",
+      "wamid": "1a16c48f9762cc38",
+      "mail_thread": "1a16c48f9762cc38",
+      "amount_try": 7447,
+      "due_date": "2026-10-31",
+      "title": "Seda Özkorkmaz",
+      "note": "Paraşüt tekrarlayan maaş kaydı: Seda Özkorkmaz, her ayın son günü ₺7.447,11. Ekim bordrosu için nakit planına ekle."
     }
   ],
   "departments": [
@@ -2418,7 +2434,7 @@
       ]
     }
   ],
-  "updated": "2026-10-23 16:17",
+  "updated": "2026-10-24 08:01",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2604,7 +2620,8 @@
     "1a168c93a53d4a51",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5NDZEQjcyNEMyNEFFREQ3RDkA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1RUQzRTcwODFDNjM4MkE0NTEA",
-    "1a168e83050d9122"
+    "1a168e83050d9122",
+    "1a16c48f9762cc38"
   ],
   "feed_order": [
     "qt5dom",
