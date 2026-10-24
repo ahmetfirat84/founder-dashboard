@@ -1,33 +1,12 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "source": "2026-10-16_sabah-brifing (Drive: 09_Management/briefing-system/handoffs)",
   "priorities": [
     "HubSpot Maximum monthly credits = 3.000 gir (yenileme 17 Ekim, en geç 10:00)",
     "Bugün kapanış tarihli dealleri (Hamza B. €4.980, Briahn T. €2.646) ve \"ulaşılmaya çalışıldı\" leadlerini netleştir",
     "HealthTürkiye yenileme ücretini ve CPA Türk 2025 kurumlar vergisi beyannamesini kontrol et"
   ],
-  "meetings": [
-    {
-      "time": "10:50",
-      "title": "Yangın dedektörü kontrolü (site teknik servisi)",
-      "note": "Ev; Cemre eklenecek"
-    },
-    {
-      "time": "12:30",
-      "title": "& New Me_Daily",
-      "note": "Hülya, Selin, Cemre; Meet"
-    },
-    {
-      "time": "14:00",
-      "title": "Ahmet <> Hülya 1:1",
-      "note": "Hülya; Meet"
-    },
-    {
-      "time": "15:30",
-      "title": "Ahmet <> Selin 1:1",
-      "note": "Selin; Meet"
-    }
-  ],
+  "meetings": [],
   "cash_alerts": [
     {
       "title": "Fulya Ada Eczanesi ilaç faturaları",
@@ -1392,7 +1371,7 @@
       "name": "DAMLA",
       "area": "Teşvik",
       "status": "yellow",
-      "updated": "2026-10-22 11:40",
+      "updated": "2026-10-24 08:00",
       "items": [
         {
           "text": "Medcure_Claude, KDV'siz fatura vb teşvik dokümanları problemini çöz (Barış'ı ara)",
@@ -1656,6 +1635,18 @@
           "uid": "td_6hpxwX6W839Grfv9",
           "source": "todoist",
           "plan_date": "2026-10-22"
+        },
+        {
+          "text": "Jodie Rata teşvik evrakı: uçuş tarihi/fiyat alanları düzeltildi, dönüş bileti ayrı fiyat ekran görüntüsü hastadan bekleniyor",
+          "action_type": "Belge",
+          "category": "Teşvik",
+          "party": "Selin Sezgin / Jodie Rata",
+          "amount": "AUD 1.736,86 (yalnız gidiş)",
+          "due": "",
+          "urgency": "gray",
+          "owner": "Selin",
+          "source": "email",
+          "id": "1a162cda9a5d923f"
         }
       ],
       "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri"
@@ -1807,7 +1798,7 @@
       "name": "ZEYNEP",
       "area": "Satış",
       "status": "yellow",
-      "updated": "2026-10-23 07:39",
+      "updated": "2026-10-24 08:00",
       "items": [
         {
           "text": "'Ulaşılmaya çalışıldı' leadleri (Israa M., Laura W., Melissa): ilk temas hızını izle",
@@ -1892,6 +1883,27 @@
           "owner": "Ahmet",
           "source": "email",
           "id": "1a162b29d509cbd1"
+        },
+        {
+          "text": "Mehdi Asgar (Hande'nin eski leadi canlandı, SMA NZD yanıtı verdi): Hülya Neome yanıtını sana yönlendirdi, incele",
+          "action_type": "Yanıt",
+          "category": "Satış",
+          "party": "Hülya Alkan / Mehdi Asgar",
+          "amount": "",
+          "due": "",
+          "urgency": "gray",
+          "owner": "Ahmet",
+          "source": "email",
+          "id": "1a16c0ed4f2c9b81"
+        },
+        {
+          "text": "Rhino mevcut case'leri, leadleri araştır, paketleri hazırlamaya başla",
+          "action_type": "Yanıt",
+          "category": "Todoist",
+          "urgency": "gray",
+          "uid": "td_6hm6g7pRF5HXW9Wh",
+          "source": "todoist",
+          "plan_date": "2026-10-24"
         }
       ],
       "summary": "2 deal bugün kapanıyor",
@@ -2062,7 +2074,7 @@
       "name": "ERKİN",
       "area": "Investor Relations",
       "status": "green",
-      "updated": "2026-10-16 15:30",
+      "updated": "2026-10-24 08:00",
       "items": [
         {
           "text": "Slush Helsinki (18-19 Kas) katılım kararı bekliyor; katılım olursa yatırımcı toplantılarını planla",
@@ -2145,6 +2157,15 @@
           "party": "Slush (Private Dinner)",
           "amount": "",
           "urgency": "gray"
+        },
+        {
+          "text": "Slush meeting başvuruları yap",
+          "action_type": "Yanıt",
+          "category": "Todoist",
+          "urgency": "gray",
+          "uid": "td_6hhgrxCw2PRHCQhh",
+          "source": "todoist",
+          "plan_date": "2026-10-24"
         }
       ],
       "summary": "Slush kararı bekliyor"
@@ -2434,7 +2455,7 @@
       ]
     }
   ],
-  "updated": "2026-10-24 08:01",
+  "updated": "2026-10-24 08:00",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -7117,7 +7138,7 @@
       ]
     }
   ],
-  "meetings_date": "2026-10-23",
+  "meetings_date": "2026-10-24",
   "directory": [
     {
       "id": "g5cmcp",
