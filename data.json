@@ -2331,7 +2331,8 @@
           "imp": "low",
           "due_date": "2026-11-21",
           "text": "Karar ver: Slack paid planı devam mı, free plana geçiş mi (21 Kas'ta free plana düşüyor; 90 gün mesaj geçmişi, Slack Connect, grup huddle, 10 uygulama sınırı).",
-          "owner": ""
+          "owner": "",
+          "note": "YENİ MAİL 24.10 19:21 (24 Eki 19:20 · Slack · & New Me has been upgraded — time to get the most out of you): 24 Eki Slack e-postası: hesap Pro plana yükseltilmiş görünüyor (ücretli plan seçildi)."
         },
         {
           "action_type": "Toplantı",
@@ -2463,7 +2464,7 @@
       ]
     }
   ],
-  "updated": "2026-10-24 17:05",
+  "updated": "2026-10-24 19:21",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2656,7 +2657,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E1OEZCRTFENDdENkQxNkIyQTkA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E2QTUyNjIxN0RCOEZBNkI0NUQA",
     "1a16d9e261dffd5f",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0ExRjUwQkJCRUE3N0JFNkQxNUMA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0ExRjUwQkJCRUE3N0JFNkQxNUMA",
+    "1a16eb72460cf161"
   ],
   "feed_order": [
     "qt5dom",
