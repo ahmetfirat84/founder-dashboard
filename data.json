@@ -2459,7 +2459,7 @@
       ]
     }
   ],
-  "updated": "2026-10-24 10:35",
+  "updated": "2026-10-24 10:36",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2649,7 +2649,8 @@
     "1a16c48f9762cc38",
     "1a16c49055270104",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EwMjI4MTlFMDZEOTg4QTVDNUUA",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E1OEZCRTFENDdENkQxNkIyQTkA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E1OEZCRTFENDdENkQxNkIyQTkA",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E2QTUyNjIxN0RCOEZBNkI0NUQA"
   ],
   "feed_order": [
     "qt5dom",
@@ -7662,9 +7663,9 @@
     {
       "date": "2026-10-24",
       "time": "19:00",
-      "title": "Ahmet Usta",
-      "note": "",
-      "location": "Etiler",
+      "title": "Akşam yemeği",
+      "note": "Önceki 'Ahmet Usta' etkinliğinin başlık ve mekan güncellemesi",
+      "location": "Ahmet Usta Etiler",
       "calendar": "sahsi"
     }
   ]
