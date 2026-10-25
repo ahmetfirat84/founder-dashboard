@@ -993,7 +993,8 @@
           "imp": "high",
           "due_date": "2026-10-25",
           "text": "KETSİS e-tebligat 2026101966Vyt0000330 (20.10 gönderildi, 25.10'da tebliğ sayılır): belgeyi dijital.gib.gov.tr üzerinden doğrudan giriş yaparak oku, e-postadaki bağlantıya tıklama.",
-          "owner": ""
+          "owner": "",
+          "note": "YENİ MAİL 25.10 09:30 (25 Eki 09:29 · ketsis-noreply@gelirler.gov.tr · KETSİS Tebliğ Bilgilendirme İletisi - BELG): 25.10.2026'da tebliğ edildi (e-tebligat, GİB Dijital Vergi Dairesi'nden incelenebilir)."
         },
         {
           "text": "HubSpot kart ödemesi başarısız: 28 Ekim'e kadar ödenmezse hesap askıya alınır; kartı güncelle/ödemeyi yeniden dene",
@@ -2484,7 +2485,7 @@
       ]
     }
   ],
-  "updated": "2026-10-25 07:47",
+  "updated": "2026-10-25 09:30",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2683,7 +2684,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E0RENBQzQ1MjUyQkMwQTVDMkIA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EwMDY4NDI4NzBFMjBGOTYyREQA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4RTBDMjk0MDQwN0MwQkMwMkYA",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4RjVFOTUxMDQxQzI2OTM2Q0QA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4RjVFOTUxMDQxQzI2OTM2Q0QA",
+    "1a171c013d9f28e9"
   ],
   "feed_order": [
     "qt5dom",
