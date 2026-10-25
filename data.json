@@ -2073,6 +2073,10 @@
       "summary": "1 onay bekliyor",
       "notes": [
         {
+          "text": "Selin 1:1 notları: internet bağlantısı ve hasta ulaşılamama konusu. Ahmet, Bella buluşması sırasında iletti. (kaynak: WhatsApp (25 Eki 19:59, iletilen yazışma, 2 mesaj))",
+          "at": "2026-10-25 20:00"
+        },
+        {
           "text": "Cloudflare uyarısı: yeniben.com'da 21 Ekim'de sunucu hatalarında (502/504/520-524) %40 artış var; origin sunucu durumu kontrol edilmeli. (kaynak: E-posta (22 Eki 22:52): Cloudflare · Unexpected increase in server errors for ye)",
           "at": "2026-10-22 22:52"
         },
@@ -2485,7 +2489,7 @@
       ]
     }
   ],
-  "updated": "2026-10-25 16:51",
+  "updated": "2026-10-25 20:00",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2687,7 +2691,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4RjVFOTUxMDQxQzI2OTM2Q0QA",
     "1a171c013d9f28e9",
     "1a172c382ed9aa15",
-    "1a173544ff85168f"
+    "1a173544ff85168f",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCMEZFQzdBNjA3RjBBOEIwRkMA"
   ],
   "feed_order": [
     "qt5dom",
