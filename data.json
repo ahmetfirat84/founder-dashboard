@@ -1976,6 +1976,10 @@
       "summary": "Meta Ads 7 gündür kapalı",
       "notes": [
         {
+          "text": "Google Search Console (25 Eki): andnewme.com'da bazı sayfalar 'Duplicate, Google chose different canonical than user' nedeniyle indexlenmiyor; indexing raporundan incele ve canonical etiketlerini düzelt. (kaynak: E-posta (26 Eki 00:39): Google Search Console Team · New reasons prevent pages f)",
+          "at": "2026-10-26 00:40"
+        },
+        {
           "text": "Instagram reel linki: https://www.instagram.com/reel/DepaKIVD2IS/?xtok=cHlhMjZyZnJnejBj (kaynak: WhatsApp (25 Eki 07:46, yazılı))",
           "at": "2026-10-25 07:47"
         },
@@ -2489,7 +2493,7 @@
       ]
     }
   ],
-  "updated": "2026-10-25 20:00",
+  "updated": "2026-10-26 00:40",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2692,7 +2696,8 @@
     "1a171c013d9f28e9",
     "1a172c382ed9aa15",
     "1a173544ff85168f",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCMEZFQzdBNjA3RjBBOEIwRkMA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCMEZFQzdBNjA3RjBBOEIwRkMA",
+    "1a175018f28434cc"
   ],
   "feed_order": [
     "qt5dom",
