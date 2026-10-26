@@ -2611,7 +2611,7 @@
       ]
     }
   ],
-  "updated": "2026-10-26 13:40",
+  "updated": "2026-10-26 13:46",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2818,7 +2818,8 @@
     "1a175018f28434cc",
     "1a175bc009a785f0",
     "1a177c7b28cc955e",
-    "1a177cbb1fe555ef"
+    "1a177cbb1fe555ef",
+    "1a177d1357adefea"
   ],
   "feed_order": [
     "qt5dom",
@@ -7417,6 +7418,63 @@
     }
   ],
   "meeting_notes": [
+    {
+      "id": "5xz4ba",
+      "title": "& New Me_Weekly",
+      "date": "2026-10-26",
+      "summary": "Toplantıda hasta ve doktor süreçleri, Avustralya-Yeni Zelanda lead takibi, içerik/SEO çalışmaları ve marketplace modeli ele alındı. Yaklaşık 3.000 EUR borç ile bypass hastasının takibi ve seyahat öncesi kontroller öne çıktı. Öncelik, operasyonel sorunları azaltmak ve hasta takibini sistematik hâle getirmektir.",
+      "thread": "1a177d1357adefea",
+      "actions": [
+        {
+          "id": "slozqo",
+          "text": "Safia'nın meme, boyun, çene hattı ve göz işlemleri için Özgür Hoca ve alternatif hastaneler incelenecek; işlemlerin mümkünse aynı hastanede yapılması sağlanacak.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "Safia",
+          "status": "proposed"
+        },
+        {
+          "id": "f7usdu",
+          "text": "Yaklaşık 3.000 EUR tutarındaki borç için hasta ile yeniden iletişim kurulacak; sonuç alınamazsa kefillik ve hukuki seçenekler değerlendirilecek.",
+          "dep": "batu",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "ey7wsi",
+          "text": "Bypass hastasının hastane süreci, formları, ilaç kullanımı ve doktorun olası tedavi değişikliği yakından takip edilecek.",
+          "dep": "ecem",
+          "owner": "",
+          "party": "Bypass hastası",
+          "status": "proposed"
+        },
+        {
+          "id": "3q2roe",
+          "text": "Seyahat öncesi pasaport süresi, transit vize, dönüş bileti, ilaçlar ve Fit2Fly belgesi otomasyon ve kontrol listeleriyle doğrulanacak.",
+          "dep": "ecem",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "dss3rp",
+          "text": "Avustralya'daki ameliyat finansmanı için superannuation seçeneği araştırılacak ve kısa bir bilgilendirici içerik hazırlanacak.",
+          "dep": "ilksen",
+          "owner": "",
+          "party": "Avustralya lead'leri",
+          "status": "proposed"
+        },
+        {
+          "id": "k4rfvq",
+          "text": "Cloud çalışmaları için ödev hazırlanacak ve Zeynep geri bildirim verecek.",
+          "dep": "ilksen",
+          "owner": "Zeynep",
+          "party": "",
+          "status": "proposed"
+        }
+      ]
+    },
     {
       "id": "3iocwb",
       "title": "& New Me_Daily",
