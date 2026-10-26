@@ -506,7 +506,7 @@
       "imp": "high",
       "urgency": "red",
       "title": "İş Bankası kredi kartı",
-      "note": "İş Bankası kredi kartı borcu gecikmede. Banka 60 aya kadar yapılandırma sunuyor (İşCep Kartlar menüsü, 0 850 724 04 04). Tutar e-postada yok. YENİ MAİL 26.10 13:36 (26 Eki 13:35 · Turkiye Is Bankasi A.S · Kredi Kartı Ödeme Planınız Hazır): İş Bankası 26.10: 60 aya kadar yapılandırma teklifi (aylık faiz %3,25, vergi-fon dahil %4,23); İşCep-Kartlar menüsünden ya da 0 850 724 04 04 ile yapılabiliyor. YENİ MAİL 26.10 14:12 (22 Nis 10:34 · Sema Avcı · Ynt: [SUPHELI EPOSTA - SPF FAIL] Re: [SUPHELI EPOSTA - SPF F): İş Bankası (Sema Avcı) Şubat ve Mart 2026 ekstrelerini iletti, Nisan ekstresi çıkmamış. Mart ekstresi: borç ₺109.002,05, asgari ₺21.800,41, son ödeme 06.04.2026, gecikmiş tutar ₺20.832,07."
+      "note": "İş Bankası kredi kartı borcu gecikmede. Banka 60 aya kadar yapılandırma sunuyor (İşCep Kartlar menüsü, 0 850 724 04 04). Tutar e-postada yok. YENİ MAİL 26.10 13:36 (26 Eki 13:35 · Turkiye Is Bankasi A.S · Kredi Kartı Ödeme Planınız Hazır): İş Bankası 26.10: 60 aya kadar yapılandırma teklifi (aylık faiz %3,25, vergi-fon dahil %4,23); İşCep-Kartlar menüsünden ya da 0 850 724 04 04 ile yapılabiliyor. YENİ MAİL 26.10 14:12 (22 Nis 10:34 · Sema Avcı · Ynt: [SUPHELI EPOSTA - SPF FAIL] Re: [SUPHELI EPOSTA - SPF F): İş Bankası (Sema Avcı) Şubat ve Mart 2026 ekstrelerini iletti, Nisan ekstresi çıkmamış. Mart ekstresi: borç ₺109.002,05, asgari ₺21.800,41, son ödeme 06.04.2026, gecikmiş tutar ₺20.832,07. YENİ MAİL 26.10 14:13 (26 Eki 14:10 · Sema Avcı · Ynt: [SUPHELI EPOSTA - SPF FAIL] Re: [SUPHELI EPOSTA - SPF F): İş Bankası (Sema Avcı) kart ekstrelerini iletti: 01.10 ekstresi ₺41.400,89 (asgari ₺8.280,18) + €1.034,10 (asgari €206,82) + $10,59, son ödeme 05.10 geçti; Ekim ekstresi henüz kesilmedi (kesim 31.10)."
     },
     {
       "title": "HubSpot kart ödemesi başarısız",
@@ -1079,6 +1079,10 @@
       ],
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
+        {
+          "text": "📎 belge arşivlendi: İş Bankası Girişimcilik Şubesi (imza sirküleri) 2025-06-25 no 13749 → https://drive.google.com/file/d/1cjUIVFjdzsfVCSq69-cK2MUJM2EnEeg_/view?usp=drivesdk",
+          "at": "2026-10-26 14:13"
+        },
         {
           "text": "📎 belge arşivlendi: İş Bankası Girişimcilik Şubesi (imza sirküleri) 2025-06-25 no 13749 → https://drive.google.com/file/d/1cjUIVFjdzsfVCSq69-cK2MUJM2EnEeg_/view?usp=drivesdk",
           "at": "2026-10-26 14:12"
@@ -2623,7 +2627,7 @@
       ]
     }
   ],
-  "updated": "2026-10-26 14:12",
+  "updated": "2026-10-26 14:13",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2833,7 +2837,8 @@
     "1a177cbb1fe555ef",
     "1a177d1357adefea",
     "1a177e5e7899ad91",
-    "19db41d30179433b"
+    "19db41d30179433b",
+    "1a177e7e44bf73cd"
   ],
   "feed_order": [
     "qt5dom",
