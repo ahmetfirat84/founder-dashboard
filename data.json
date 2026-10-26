@@ -844,7 +844,9 @@
                 "thread": "1a11b1a966c2bbc0"
               }
             ]
-          }
+          },
+          "uid": "r4v9rb",
+          "note": "YENİ MAİL 26.10 13:40 (26 Eki 13:39 · Paraşüt · Yeni bir e-Faturanız var): Orya Hotel'den 85 EUR ticari e-fatura geldi (26 Eki); 3 Kas'a kadar Paraşüt'te kabul/red edilmeli."
         },
         {
           "text": "CPA Türk bordro ve ödemeler: 09/2026 bordrosu (1 Eki) incelenmedi; 08/2026 vergi/SGK tahakkukları (28 Eyl: muhtasar+KDV 28 Eyl, SGK 30 Eyl) ödendi mi teyit et, tutarlar mailde sadece PDF'te.",
@@ -2609,7 +2611,7 @@
       ]
     }
   ],
-  "updated": "2026-10-26 13:36",
+  "updated": "2026-10-26 13:40",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2815,7 +2817,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCMEZFQzdBNjA3RjBBOEIwRkMA",
     "1a175018f28434cc",
     "1a175bc009a785f0",
-    "1a177c7b28cc955e"
+    "1a177c7b28cc955e",
+    "1a177cbb1fe555ef"
   ],
   "feed_order": [
     "qt5dom",
