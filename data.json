@@ -1,12 +1,28 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-26",
   "source": "2026-10-16_sabah-brifing (Drive: 09_Management/briefing-system/handoffs)",
   "priorities": [
     "HubSpot Maximum monthly credits = 3.000 gir (yenileme 17 Ekim, en geç 10:00)",
     "Bugün kapanış tarihli dealleri (Hamza B. €4.980, Briahn T. €2.646) ve \"ulaşılmaya çalışıldı\" leadlerini netleştir",
     "HealthTürkiye yenileme ücretini ve CPA Türk 2025 kurumlar vergisi beyannamesini kontrol et"
   ],
-  "meetings": [],
+  "meetings": [
+    {
+      "time": "12:30",
+      "title": "& New Me_Weekly",
+      "note": "Hülya, Selin, Cemre · Meet"
+    },
+    {
+      "time": "18:30",
+      "title": "Jodie Rata - GS Surgery (Dr Toygar Toydemir)",
+      "note": "İstanbul Cerrahi Hastanesi"
+    },
+    {
+      "time": "21:30",
+      "title": "⚽ Galatasaray - Fenerbahçe",
+      "note": ""
+    }
+  ],
   "cash_alerts": [
     {
       "title": "Fulya Ada Eczanesi ilaç faturaları",
@@ -517,6 +533,16 @@
       "due_date": "2026-10-31",
       "title": "Seda Özkorkmaz",
       "note": "Paraşüt tekrarlayan maaş kaydı: Seda Özkorkmaz, her ayın son günü ₺7.447,11. Ekim bordrosu için nakit planına ekle. YENİ MAİL 24.10 08:01 (24 Eki 08:01 · Paraşüt · Tekrarlayan Maaş Kaydınız Oluşturuldu): Paraşüt'te tekrarlayan maaş kaydı oluşturuldu (24.10), her ayın son günü ₺7.447,11 olarak tanımlı."
+    },
+    {
+      "title": "HubSpot fatura 842326601 ödeme reddedildi",
+      "action_type": "Ödeme",
+      "category": "Abonelik",
+      "party": "HubSpot",
+      "amount": "€320,00",
+      "due": "28.10.2026",
+      "due_date": "2026-10-28",
+      "note": "Kart *0149 reddedildi; 28.10'da hesap askıya alınır (Sales Pro €50 + Reporting €50 + Marketing Pro €220)."
     }
   ],
   "departments": [
@@ -525,7 +551,7 @@
       "name": "BATU",
       "area": "Muhasebe",
       "status": "red",
-      "updated": "2026-10-23 10:34",
+      "updated": "2026-10-26 07:10",
       "items": [
         {
           "uid": "s9mc5u",
@@ -1024,6 +1050,29 @@
           "text": "YB02026000000006 e-fatura GİB'e ulaştı ama 1181 hatası aldı (VKN/etiket eşleşmesi). Alıcı VKN/etiket bilgisini kontrol edip faturayı tekrar gönder.",
           "owner": "",
           "note": "YENİ MAİL 23.10 11:05 (23 Eki 11:04 · Paraşüt · e-Fatura gönderimi başarısız oldu): 23.10 Paraşüt maili: fatura tekrar gönderilebilir duruma getirildi; alıcının VKN/etiket bilgisi kontrol edilip yeniden gönderilmeli. YENİ MAİL 23.10 12:58 (23 Eki 12:58 · Paraşüt · e-Fatura gönderimi başarısız oldu): 23.10: YB02026000000007 numaralı fatura da 1181 hatası aldı (VKN/etiket eşleşmesi); tekrar göndermeden önce alıcı VKN ve etiketi kontrol edilecek."
+        },
+        {
+          "text": "Merve-Paraşüt problemi çözülecek",
+          "action_type": "Yanıt",
+          "category": "Todoist",
+          "urgency": "gray",
+          "uid": "td_6hqFCm7QX3Fwhgq9",
+          "source": "todoist",
+          "plan_date": "2026-10-26"
+        },
+        {
+          "text": "HubSpot kart ödemesi reddedildi (kart *0149, fatura 842326601): 28.10'a kadar ödenmezse hesap askıya alınır; ödemeyi tekrar dene / kartı güncelle",
+          "action_type": "Ödeme",
+          "category": "Abonelik",
+          "party": "HubSpot",
+          "amount": "€320,00",
+          "due": "28.10.2026",
+          "due_date": "2026-10-28",
+          "urgency": "red",
+          "owner": "Ahmet",
+          "source": "email",
+          "id": "1a175897a12518e4",
+          "feed": false
         }
       ],
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
@@ -1376,7 +1425,7 @@
       "name": "DAMLA",
       "area": "Teşvik",
       "status": "yellow",
-      "updated": "2026-10-24 08:00",
+      "updated": "2026-10-26 07:10",
       "items": [
         {
           "text": "Medcure_Claude, KDV'siz fatura vb teşvik dokümanları problemini çöz (Barış'ı ara)",
@@ -1652,6 +1701,42 @@
           "owner": "Selin",
           "source": "email",
           "id": "1a162cda9a5d923f"
+        },
+        {
+          "text": "Teşvik: DYS 'Başvurularım' durumunu kontrol et ve Sheet'in DYS Başvurular + Tahakkuklar sekmelerini güncelle",
+          "action_type": "Yanıt",
+          "category": "Todoist",
+          "urgency": "gray",
+          "uid": "td_6hppR92fvMWW7Vr9",
+          "source": "todoist",
+          "plan_date": "2026-10-26"
+        },
+        {
+          "text": "Teşvik işleri çözülecek",
+          "action_type": "Yanıt",
+          "category": "Todoist",
+          "urgency": "gray",
+          "uid": "td_6hqFH3GMRCCFm92h",
+          "source": "todoist",
+          "plan_date": "2026-10-26"
+        },
+        {
+          "text": "Serap (IC Hospital)- Geçmiş hasta epikrizleri al",
+          "action_type": "Yanıt",
+          "category": "Todoist",
+          "urgency": "gray",
+          "uid": "td_6hqFH6xwHg6PpXW9",
+          "source": "todoist",
+          "plan_date": "2026-10-26"
+        },
+        {
+          "text": "Ek21’lerin orjinallerini al",
+          "action_type": "Yanıt",
+          "category": "Todoist",
+          "urgency": "gray",
+          "uid": "td_6hqrcc2c5fgcgFh9",
+          "source": "todoist",
+          "plan_date": "2026-10-26"
         }
       ],
       "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri"
@@ -1661,7 +1746,7 @@
       "name": "CANKAT",
       "area": "Hukuk",
       "status": "yellow",
-      "updated": "2026-10-17 18:10",
+      "updated": "2026-10-26 07:10",
       "items": [
         {
           "text": "GK sürecini başlat (imza sirküsü için)",
@@ -1772,6 +1857,15 @@
           "origin": "Ahmet 17 Eki",
           "uid": "07033c",
           "due": "Anlaşma yazıya dökülsün"
+        },
+        {
+          "text": "Güncel fiyat al CPA-Türk'den",
+          "action_type": "Yanıt",
+          "category": "Todoist",
+          "urgency": "gray",
+          "uid": "td_6hqCGmVgVXCM8569",
+          "source": "todoist",
+          "plan_date": "2026-10-26"
         }
       ],
       "summary": "HealthTürkiye yenilemesi açık",
@@ -1803,7 +1897,7 @@
       "name": "ZEYNEP",
       "area": "Satış",
       "status": "yellow",
-      "updated": "2026-10-24 08:00",
+      "updated": "2026-10-26 07:10",
       "items": [
         {
           "text": "'Ulaşılmaya çalışıldı' leadleri (Israa M., Laura W., Melissa): ilk temas hızını izle",
@@ -1909,6 +2003,15 @@
           "uid": "td_6hm6g7pRF5HXW9Wh",
           "source": "todoist",
           "plan_date": "2026-10-24"
+        },
+        {
+          "text": "Jodie komp sigortası",
+          "action_type": "Yanıt",
+          "category": "Todoist",
+          "urgency": "gray",
+          "uid": "td_6hqrc55Mfj7fjpxh",
+          "source": "todoist",
+          "plan_date": "2026-10-26"
         }
       ],
       "summary": "2 deal bugün kapanıyor",
@@ -1924,7 +2027,7 @@
       "name": "İLKSEN",
       "area": "Marketing",
       "status": "yellow",
-      "updated": "2026-10-17 18:10",
+      "updated": "2026-10-26 07:10",
       "items": [
         {
           "text": "Yeni reklam leadlerinin tam akışını analiz et/izle (kaçak olmasın, qualified lead oranları)",
@@ -1975,6 +2078,15 @@
           "source": "manual",
           "origin": "Ahmet 17 Eki",
           "uid": "cb7094"
+        },
+        {
+          "text": "Reklamlarımızın vb facebook yorumlarını takip edelim, lead gibi olsun, iletişime geçelim.",
+          "action_type": "Yanıt",
+          "category": "Todoist",
+          "urgency": "gray",
+          "uid": "td_6hq2hQRwrfjrVj2h",
+          "source": "todoist",
+          "plan_date": "2026-10-26"
         }
       ],
       "summary": "Meta Ads 7 gündür kapalı",
@@ -2497,7 +2609,7 @@
       ]
     }
   ],
-  "updated": "2026-10-26 04:04",
+  "updated": "2026-10-26 07:10",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -7197,7 +7309,7 @@
       ]
     }
   ],
-  "meetings_date": "2026-10-25",
+  "meetings_date": "2026-10-26",
   "directory": [
     {
       "id": "g5cmcp",
