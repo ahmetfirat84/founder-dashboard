@@ -1893,6 +1893,10 @@
       "summary": "HealthTürkiye yenilemesi açık",
       "notes": [
         {
+          "text": "Poltio 2024 olağan genel kurul evrakları yazışması (Uysal Hukuk, Şubat 2024) iletildi; güncel durum teyit edilmeli. (kaynak: E-posta (26 Eki 18:48): Ahmet Tosun · Fwd: Poltio Genel Kurul Evraklar)",
+          "at": "2026-10-26 18:49"
+        },
+        {
           "text": "İstanbul İl Sağlık Müdürlüğü EK-5 denetim tutanağı (11.06.2026, kurum kodu 1930945): olağan denetimde uygunsuzluk yok, itiraz yok. (kaynak: WhatsApp (20 Eki 12:24, iletilen yazışma, 2 mesaj, 2 ek))",
           "at": "2026-10-20 12:25"
         },
@@ -2635,7 +2639,7 @@
       ]
     }
   ],
-  "updated": "2026-10-26 18:48",
+  "updated": "2026-10-26 18:49",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2852,7 +2856,8 @@
     "1a178421ff553c5c",
     "1a1788fa9b26fdf6",
     "1a178bfcb0938c53",
-    "1a178e59b625b8a0"
+    "1a178e59b625b8a0",
+    "1a178e6aee9565ec"
   ],
   "feed_order": [
     "qt5dom",
