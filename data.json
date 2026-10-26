@@ -492,7 +492,7 @@
       "amount_try": 164199.5,
       "urgency": "gray",
       "title": "SME Raporlama Teknolojileri A.Ş.",
-      "note": "Genel kurul işlemi masraf dökümü: toplam ₺214.199,50 (hizmet bedeli faturası SME2026000000246, 30.06.2026, ₺120.000 KDV dahil + tescil ilan, noter, komser, PTT masrafları ₺94.199,50). ₺50.000 tahsilat düşülünce ödenecek kalan ₺164.199,50."
+      "note": "Genel kurul işlemi masraf dökümü: toplam ₺214.199,50 (hizmet bedeli faturası SME2026000000246, 30.06.2026, ₺120.000 KDV dahil + tescil ilan, noter, komser, PTT masrafları ₺94.199,50). ₺50.000 tahsilat düşülünce ödenecek kalan ₺164.199,50. YENİ MAİL 26.10 18:48 (26 Eki 18:47 · Ahmet Tosun · Fwd: genel kurul masrafaları hk): Ahmet'in ilettiği Ağustos 2024 maili: 2024 imza yetkisi masraf dökümü (₺24.313,88; ₺20.000 tahsilat sonrası kalan ₺4.313,88); ödenip ödenmediği teyit gerekir."
     },
     {
       "action_type": "Ödeme",
@@ -1082,6 +1082,18 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "📎 belge arşivlendi: Beyoğlu 16. Noterliği 2024-07-04 no UR 0483125 / 0483127 ₺1.293 → https://drive.google.com/file/d/1mKfkCpbK2QN-HaV5GnFgV99Owev7IrFF/view?usp=drivesdk",
+          "at": "2026-10-26 18:48"
+        },
+        {
+          "text": "📎 fatura-gelen arşivlendi: SME Raporlama 2024-07-30 no SME2024000000302 ₺12.000 → https://drive.google.com/file/d/1aHYDDvDozoOiKKCtVnGVljlmz7NkhrN2/view?usp=drivesdk",
+          "at": "2026-10-26 18:48"
+        },
+        {
+          "text": "📎 belge arşivlendi: SME Raporlama 2024-07-30 ₺24.314 → https://drive.google.com/file/d/1zQ5VhkrFUoG2g7Q70T2lT91WJTkZoWTd/view?usp=drivesdk",
+          "at": "2026-10-26 18:48"
+        },
+        {
           "text": "📎 belge arşivlendi: SGK (Eylül 2026 tahakkuk) 2026-10-26 no 9418 / 26.10.2026-MBBG-9418 ₺355 → https://drive.google.com/file/d/1-eqitO7ubfjL6DYDqiR9XUOXnPPQZiGB/view?usp=drivesdk",
           "at": "2026-10-26 18:07"
         },
@@ -1188,18 +1200,6 @@
         {
           "text": "VakıfBank'a 18 Eki 11:19'da FAST ile 18.000 TL giriş (Garanti'den gönderim, sorgu no 2004000082). Güncel VakıfBank bakiyesi 20.500 TL. Bu tutar r3 VakıfBank asgari ödemesini (₺154.544) karşılamıyor. (kaynak: E-posta (18 Eki 11:20): VakıfBank · VAKIFBANK - FAST Anlık Ödeme Bilgilendirmesi)",
           "at": "2026-10-18 11:20"
-        },
-        {
-          "text": "17 Eki: Cihan S.'dan $11.250 (≈ ₺557 bin) geldi = €10.000 anapara. Şartlar: reklamdan kazanılan her satış için Cihan'a €100; anapara en erken 6 ay sonra (17 Nis 2027) iade. Nakit planında anapara iadesi 17 Nis 2027'de beklenen çıkış olarak duruyor.",
-          "at": "2026-10-17 18:10"
-        },
-        {
-          "text": "Barivital 22.950 TL güncel bakiye bildirdi, Ahmet ekstre istedi. Ekstre (13.10) 05.01-12.10.2026, 14 kayıt: devir ₺22.575 + faturalar, toplam borç ₺87.950,05, 3 havale ile ödenen ₺65.000, bakiye ₺22.950,05. Ahmet: önümüzdeki hafta ödeme yapılacak. (kaynak: WhatsApp (17 Eki 16:35, iletilen yazışma, 9 mesaj, 1 ek))",
-          "at": "2026-10-17 16:36"
-        },
-        {
-          "text": "Tetik Turizm yazışması: muhasebeleri toplam bakiyeyi ₺32.100 bildirdi; Ahmet ay başı kapanış için güncel ekstre istedi, Tetik ekstreyi muhasebeden alıp iletecek. Ödeme henüz yapılmadı; Ahmet tahsilat aksaması nedeniyle en geç önümüzdeki hafta ödeyeceğini söyledi. Faturalar: TTE...762 (23.07.2026) ₺1 (kaynak: WhatsApp (17 Eki 16:27, iletilen yazışma, 16 mesaj, 3 ek))",
-          "at": "2026-10-17 16:28"
         }
       ],
       "drawer": [
@@ -2635,7 +2635,7 @@
       ]
     }
   ],
-  "updated": "2026-10-26 18:07",
+  "updated": "2026-10-26 18:48",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2851,7 +2851,8 @@
     "1a17833167ce685b",
     "1a178421ff553c5c",
     "1a1788fa9b26fdf6",
-    "1a178bfcb0938c53"
+    "1a178bfcb0938c53",
+    "1a178e59b625b8a0"
   ],
   "feed_order": [
     "qt5dom",
