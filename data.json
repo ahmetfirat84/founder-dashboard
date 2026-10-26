@@ -506,7 +506,7 @@
       "imp": "high",
       "urgency": "red",
       "title": "İş Bankası kredi kartı",
-      "note": "İş Bankası kredi kartı borcu gecikmede. Banka 60 aya kadar yapılandırma sunuyor (İşCep Kartlar menüsü, 0 850 724 04 04). Tutar e-postada yok."
+      "note": "İş Bankası kredi kartı borcu gecikmede. Banka 60 aya kadar yapılandırma sunuyor (İşCep Kartlar menüsü, 0 850 724 04 04). Tutar e-postada yok. YENİ MAİL 26.10 13:36 (26 Eki 13:35 · Turkiye Is Bankasi A.S · Kredi Kartı Ödeme Planınız Hazır): İş Bankası 26.10: 60 aya kadar yapılandırma teklifi (aylık faiz %3,25, vergi-fon dahil %4,23); İşCep-Kartlar menüsünden ya da 0 850 724 04 04 ile yapılabiliyor."
     },
     {
       "title": "HubSpot kart ödemesi başarısız",
@@ -2609,7 +2609,7 @@
       ]
     }
   ],
-  "updated": "2026-10-26 07:10",
+  "updated": "2026-10-26 13:36",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2814,7 +2814,8 @@
     "1a173544ff85168f",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCMEZFQzdBNjA3RjBBOEIwRkMA",
     "1a175018f28434cc",
-    "1a175bc009a785f0"
+    "1a175bc009a785f0",
+    "1a177c7b28cc955e"
   ],
   "feed_order": [
     "qt5dom",
