@@ -2419,7 +2419,7 @@
           "amount": "",
           "urgency": "gray",
           "uid": "91zqrf",
-          "note": "YENİ MAİL 22.10 09:38 (22 Eki 09:37 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): 22 Eki Kanyon Finans e-postası: açık borç ₺24.171,27, en kısa sürede ödeme talebi (Borçlar'daki Kanyon ev aidatı ile aynı tutar)."
+          "note": "YENİ MAİL 22.10 09:38 (22 Eki 09:37 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): 22 Eki Kanyon Finans e-postası: açık borç ₺24.171,27, en kısa sürede ödeme talebi (Borçlar'daki Kanyon ev aidatı ile aynı tutar). YENİ MAİL 26.10 15:49 (26 Eki 15:49 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): 26 Eki Kanyon Finans otomatik bildirimi: borç ₺24.171,27, ödeme talebi (Borçlar'daki Kanyon ev aidatı ile aynı tutar)."
         },
         {
           "text": "Superonline internet aboneliği 21 Eyl'de askıya alınıp 28 Eyl'de yeniden açılmış: ödeme düzenini kontrol et",
@@ -2633,7 +2633,7 @@
       ]
     }
   ],
-  "updated": "2026-10-26 15:33",
+  "updated": "2026-10-26 15:49",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2846,7 +2846,8 @@
     "19db41d30179433b",
     "1a177e7e44bf73cd",
     "1a177eab112a1d40",
-    "1a17833167ce685b"
+    "1a17833167ce685b",
+    "1a178421ff553c5c"
   ],
   "feed_order": [
     "qt5dom",
