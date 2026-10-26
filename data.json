@@ -1029,6 +1029,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Paraşüt haftalık özet (26.10): 66 gecikmiş tahsilat ₺1.457.517,99; 914 gecikmiş gider ₺3.523.731,92; hesapta ₺2.984.638,78 görünüyor. Gider kayıtları Paraşüt'te temizlenmeli. (kaynak: E-posta (26 Eki 04:03): Paraşüt · Haftalık Finansal Durumunuz)",
+          "at": "2026-10-26 04:04"
+        },
+        {
           "text": "📎 fatura-gelen arşivlendi: IC Hospital (MK Hastane) 2026-10-20 no MKY2026000000651 ₺66.374 → https://drive.google.com/file/d/1VAFhonC_NVVEC0UACWJoDMzDtbkJ9FzS/view?usp=drivesdk",
           "at": "2026-10-23 14:40"
         },
@@ -2493,7 +2497,7 @@
       ]
     }
   ],
-  "updated": "2026-10-26 00:40",
+  "updated": "2026-10-26 04:04",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2697,7 +2701,8 @@
     "1a172c382ed9aa15",
     "1a173544ff85168f",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCMEZFQzdBNjA3RjBBOEIwRkMA",
-    "1a175018f28434cc"
+    "1a175018f28434cc",
+    "1a175bc009a785f0"
   ],
   "feed_order": [
     "qt5dom",
