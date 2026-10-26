@@ -1051,7 +1051,7 @@
           "urgency": "yellow",
           "text": "YB02026000000006 e-fatura GİB'e ulaştı ama 1181 hatası aldı (VKN/etiket eşleşmesi). Alıcı VKN/etiket bilgisini kontrol edip faturayı tekrar gönder.",
           "owner": "",
-          "note": "YENİ MAİL 23.10 11:05 (23 Eki 11:04 · Paraşüt · e-Fatura gönderimi başarısız oldu): 23.10 Paraşüt maili: fatura tekrar gönderilebilir duruma getirildi; alıcının VKN/etiket bilgisi kontrol edilip yeniden gönderilmeli. YENİ MAİL 23.10 12:58 (23 Eki 12:58 · Paraşüt · e-Fatura gönderimi başarısız oldu): 23.10: YB02026000000007 numaralı fatura da 1181 hatası aldı (VKN/etiket eşleşmesi); tekrar göndermeden önce alıcı VKN ve etiketi kontrol edilecek."
+          "note": "YENİ MAİL 23.10 11:05 (23 Eki 11:04 · Paraşüt · e-Fatura gönderimi başarısız oldu): 23.10 Paraşüt maili: fatura tekrar gönderilebilir duruma getirildi; alıcının VKN/etiket bilgisi kontrol edilip yeniden gönderilmeli. YENİ MAİL 23.10 12:58 (23 Eki 12:58 · Paraşüt · e-Fatura gönderimi başarısız oldu): 23.10: YB02026000000007 numaralı fatura da 1181 hatası aldı (VKN/etiket eşleşmesi); tekrar göndermeden önce alıcı VKN ve etiketi kontrol edilecek. YENİ MAİL 26.10 17:14 (26 Eki 17:13 · Paraşüt İletişim · [ ref:!00D0O0qYJM.!500QC0jQB7d:ref ]): Paraşüt (26.10): eski etiket 23.10'da kapatılmış; faturayı yeni etiket urn:mail:395016defaultpk@luca.com.tr ile yeniden oluşturup gönder."
         },
         {
           "text": "Merve-Paraşüt problemi çözülecek",
@@ -2633,7 +2633,7 @@
       ]
     }
   ],
-  "updated": "2026-10-26 15:49",
+  "updated": "2026-10-26 17:14",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2847,7 +2847,8 @@
     "1a177e7e44bf73cd",
     "1a177eab112a1d40",
     "1a17833167ce685b",
-    "1a178421ff553c5c"
+    "1a178421ff553c5c",
+    "1a1788fa9b26fdf6"
   ],
   "feed_order": [
     "qt5dom",
