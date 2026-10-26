@@ -196,21 +196,23 @@
       "title": "Muhtasar (Eylül)",
       "amount": "₺23.507",
       "due": "26 Eki",
-      "note": "",
+      "note": "YENİ MAİL 26.10 18:07 (26 Eki 18:06 · Yasemin Hizarci · EYLÜL/2026 DÖNEMİNE AİT MUHTASAR VE SGK ÖDEMELERİİ ): Muhtasar 09/2026 tahakkuk fişi geldi: toplam ₺71.115,19 (stopaj 69.383,24 + damga 792,25 + 5035 939,70), vade bugün 26.10 (eski tutar ₺23.507)",
       "action_type": "Ödeme",
       "category": "Vergi",
       "party": "Vergi Dairesi (Muhtasar Eylül)",
-      "due_date": "2026-10-26"
+      "due_date": "2026-10-26",
+      "uid": "8kyuc2"
     },
     {
       "title": "SGK cari ay primi + maaşlar",
       "amount": "₺78.576 + maaş",
       "due": "31 Eki",
-      "note": "Ahmet maaşı kararı bekliyor (₺320K vs ₺120K).",
+      "note": "Ahmet maaşı kararı bekliyor (₺320K vs ₺120K). YENİ MAİL 26.10 18:07 (26 Eki 18:06 · Yasemin Hizarci · EYLÜL/2026 DÖNEMİNE AİT MUHTASAR VE SGK ÖDEMELERİİ ): SGK 09/2026 tahakkuk fişi (1 kişi): ₺355,08, ödeme günü 02.11; CPA Türk KDV evraklarını Çarşamba 28.10'a kadar istiyor",
       "action_type": "Ödeme",
       "category": "Vergi / SGK",
       "party": "SGK cari prim + maaşlar",
-      "due_date": "2026-10-31"
+      "due_date": "2026-10-31",
+      "uid": "n9ij9z"
     },
     {
       "title": "HubSpot fatura 842326601 – kart reddedildi",
@@ -1080,6 +1082,14 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "📎 belge arşivlendi: SGK (Eylül 2026 tahakkuk) 2026-10-26 no 9418 / 26.10.2026-MBBG-9418 ₺355 → https://drive.google.com/file/d/1-eqitO7ubfjL6DYDqiR9XUOXnPPQZiGB/view?usp=drivesdk",
+          "at": "2026-10-26 18:07"
+        },
+        {
+          "text": "📎 belge arşivlendi: Vergi Dairesi (Muhtasar) 2026-10-26 no 2026102601W040000283 ₺71.115 → https://drive.google.com/file/d/1kinXrQjfGhRCL6WrACMWxGxE63S7ct_8/view?usp=drivesdk",
+          "at": "2026-10-26 18:07"
+        },
+        {
           "text": "📎 belge arşivlendi: İş Bankası Girişimcilik Şubesi (imza sirküleri) 2025-06-25 no 13749 → https://drive.google.com/file/d/1cjUIVFjdzsfVCSq69-cK2MUJM2EnEeg_/view?usp=drivesdk",
           "at": "2026-10-26 14:13"
         },
@@ -1190,14 +1200,6 @@
         {
           "text": "Tetik Turizm yazışması: muhasebeleri toplam bakiyeyi ₺32.100 bildirdi; Ahmet ay başı kapanış için güncel ekstre istedi, Tetik ekstreyi muhasebeden alıp iletecek. Ödeme henüz yapılmadı; Ahmet tahsilat aksaması nedeniyle en geç önümüzdeki hafta ödeyeceğini söyledi. Faturalar: TTE...762 (23.07.2026) ₺1 (kaynak: WhatsApp (17 Eki 16:27, iletilen yazışma, 16 mesaj, 3 ek))",
           "at": "2026-10-17 16:28"
-        },
-        {
-          "text": "Muhasebe ay kapanışı için bir taraf ödeme ne zaman yapılacağını sordu. Ahmet, ödemenin önümüzdeki hafta en geç yapılacağını yanıtladı.",
-          "at": "2026-10-17 14:12"
-        },
-        {
-          "text": "Orya Otelcilik e-faturası (OHL2026000000236, 13 Eki): €450 = ₺24.833,39 (kur 55,1853), vade 13 Eki. Paraşüt'e işlenmeyi bekleyen Orya faturası bu olabilir (r17).",
-          "at": "2026-10-17 13:08"
         }
       ],
       "drawer": [
@@ -2633,7 +2635,7 @@
       ]
     }
   ],
-  "updated": "2026-10-26 17:14",
+  "updated": "2026-10-26 18:07",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2848,7 +2850,8 @@
     "1a177eab112a1d40",
     "1a17833167ce685b",
     "1a178421ff553c5c",
-    "1a1788fa9b26fdf6"
+    "1a1788fa9b26fdf6",
+    "1a178bfcb0938c53"
   ],
   "feed_order": [
     "qt5dom",
