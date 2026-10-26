@@ -2094,6 +2094,10 @@
       "summary": "Meta Ads 7 gündür kapalı",
       "notes": [
         {
+          "text": "Google Search Console: andnewme.com'da 404 (Not found) indexleme düzeltmesi bazı sayfalarda başarısız oldu; hangi sayfaların etkilendiğini kontrol edip düzeltin. (kaynak: E-posta (26 Eki 14:08): Google Search Console Team · Some fixes failed for Page )",
+          "at": "2026-10-26 14:09"
+        },
+        {
           "text": "Google Search Console (25 Eki): andnewme.com'da bazı sayfalar 'Duplicate, Google chose different canonical than user' nedeniyle indexlenmiyor; indexing raporundan incele ve canonical etiketlerini düzelt. (kaynak: E-posta (26 Eki 00:39): Google Search Console Team · New reasons prevent pages f)",
           "at": "2026-10-26 00:40"
         },
@@ -2611,7 +2615,7 @@
       ]
     }
   ],
-  "updated": "2026-10-26 13:46",
+  "updated": "2026-10-26 14:09",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2819,7 +2823,8 @@
     "1a175bc009a785f0",
     "1a177c7b28cc955e",
     "1a177cbb1fe555ef",
-    "1a177d1357adefea"
+    "1a177d1357adefea",
+    "1a177e5e7899ad91"
   ],
   "feed_order": [
     "qt5dom",
