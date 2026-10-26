@@ -1753,7 +1753,13 @@
           "plan_date": "2026-10-26"
         }
       ],
-      "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri"
+      "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri",
+      "notes": [
+        {
+          "text": "USHAŞ CRM'de başvuru 40755 oluşturuldu (26.10.2026). Sonuçlanınca USHAŞ bilgilendirecek. (kaynak: E-posta (26 Eki 15:32): info@ushas.gov.tr · USHAŞ CRM | Başvurunuz Oluşturulmuşt)",
+          "at": "2026-10-26 15:33"
+        }
+      ]
     },
     {
       "key": "cankat",
@@ -2627,7 +2633,7 @@
       ]
     }
   ],
-  "updated": "2026-10-26 14:14",
+  "updated": "2026-10-26 15:33",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2839,7 +2845,8 @@
     "1a177e5e7899ad91",
     "19db41d30179433b",
     "1a177e7e44bf73cd",
-    "1a177eab112a1d40"
+    "1a177eab112a1d40",
+    "1a17833167ce685b"
   ],
   "feed_order": [
     "qt5dom",
