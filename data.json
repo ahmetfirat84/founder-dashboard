@@ -1893,6 +1893,10 @@
       "summary": "HealthTürkiye yenilemesi açık",
       "notes": [
         {
+          "text": "Poltio genel kurul evrakları (Ahmet Tosun iletti, 26.10): 2024 yazışması yeniden gönderildi. Avukat Melis Uysal, son yılların olağan GK'lerinin yapılmadığını ve geçmiş dönemlerin olağan GK olarak revize edilmesi gerektiğini belirtmişti. 2021 GK kararının olağan/olağanüstü ayrımı ve 2021-2023 faaliye (kaynak: E-posta (26 Eki 18:49): Ahmet Tosun · Fwd: Poltio Genel Kurul Evraklar)",
+          "at": "2026-10-26 18:50"
+        },
+        {
           "text": "Poltio 2024 olağan genel kurul evrakları yazışması (Uysal Hukuk, Şubat 2024) iletildi; güncel durum teyit edilmeli. (kaynak: E-posta (26 Eki 18:48): Ahmet Tosun · Fwd: Poltio Genel Kurul Evraklar)",
           "at": "2026-10-26 18:49"
         },
@@ -2639,7 +2643,7 @@
       ]
     }
   ],
-  "updated": "2026-10-26 18:49",
+  "updated": "2026-10-26 18:50",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2857,7 +2861,8 @@
     "1a1788fa9b26fdf6",
     "1a178bfcb0938c53",
     "1a178e59b625b8a0",
-    "1a178e6aee9565ec"
+    "1a178e6aee9565ec",
+    "1a178e7be4925b55"
   ],
   "feed_order": [
     "qt5dom",
