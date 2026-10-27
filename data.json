@@ -174,7 +174,7 @@
       "title": "Orya Hotel",
       "amount": "₺67.589 (kalan; ₺35.000 ödendi)",
       "due": "19-23 Eki kısmi, 31 Eki kapanış",
-      "note": "Orya Hotel 17 Eki WhatsApp: toplam bakiye ₺102.588,57 (son fatura OHL2026000000236, €450 = ₺24.833,39, bunun yalnızca bir kalemi). Plan: önümüzdeki hafta (19-23 Eki) bir ödeme, ay sonuna (31 Eki) kadar kapanış. Provider borçları gider sheet'inde yok. KISMİ ÖDEME 2026-10-23: ₺35.000 ödendi, kalan ₺67.589.",
+      "note": "Orya Hotel 17 Eki WhatsApp: toplam bakiye ₺102.588,57 (son fatura OHL2026000000236, €450 = ₺24.833,39, bunun yalnızca bir kalemi). Plan: önümüzdeki hafta (19-23 Eki) bir ödeme, ay sonuna (31 Eki) kadar kapanış. Provider borçları gider sheet'inde yok. KISMİ ÖDEME 2026-10-23: ₺35.000 ödendi, kalan ₺67.589. YENİ MAİL 27.10 09:38 (27 Eki 09:37 · Paraşüt · Yeni bir e-Faturanız var): 27 Ekim: Orya'dan ek 85 EUR e-fatura (Paraşüt), bakiyeye dahil olup olmadığı doğrulanmalı.",
       "action_type": "Ödeme",
       "category": "Provider",
       "party": "Orya Hotel",
@@ -849,7 +849,7 @@
             ]
           },
           "uid": "r4v9rb",
-          "note": "YENİ MAİL 26.10 13:40 (26 Eki 13:39 · Paraşüt · Yeni bir e-Faturanız var): Orya Hotel'den 85 EUR ticari e-fatura geldi (26 Eki); 3 Kas'a kadar Paraşüt'te kabul/red edilmeli."
+          "note": "YENİ MAİL 26.10 13:40 (26 Eki 13:39 · Paraşüt · Yeni bir e-Faturanız var): Orya Hotel'den 85 EUR ticari e-fatura geldi (26 Eki); 3 Kas'a kadar Paraşüt'te kabul/red edilmeli. YENİ MAİL 27.10 09:38 (27 Eki 09:37 · Paraşüt · Yeni bir e-Faturanız var): 27 Ekim Paraşüt maili: Orya Otelcilik'ten 85 EUR ticari e-fatura geldi, 8 gün içinde (≈4 Kas) kabul/red edilmeli."
         },
         {
           "text": "CPA Türk bordro ve ödemeler: 09/2026 bordrosu (1 Eki) incelenmedi; 08/2026 vergi/SGK tahakkukları (28 Eyl: muhtasar+KDV 28 Eyl, SGK 30 Eyl) ödendi mi teyit et, tutarlar mailde sadece PDF'te.",
@@ -2644,7 +2644,7 @@
       ]
     }
   ],
-  "updated": "2026-10-27 08:32",
+  "updated": "2026-10-27 09:38",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2864,7 +2864,8 @@
     "1a178e59b625b8a0",
     "1a178e6aee9565ec",
     "1a178e7be4925b55",
-    "1a17bd8788aa7e9f"
+    "1a17bd8788aa7e9f",
+    "1a17c143ed845624"
   ],
   "feed_order": [
     "qt5dom",
