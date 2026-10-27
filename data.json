@@ -2553,6 +2553,10 @@
       ],
       "notes": [
         {
+          "text": "Google Workspace Business Standard (sinemtanerproject.com) 28 Ekim 2026'da otomatik yenilenecek; mailde tutar yok, Google Admin Billing'den kontrol edilebilir. (kaynak: E-posta (27 Eki 11:46): The Google Workspace Team · Renewal Reminder: Your Googl)",
+          "at": "2026-10-27 11:47"
+        },
+        {
           "text": "Google Workspace yöneticisi: Görevler için Workspace Intelligence varsayılan AÇIK gelecek (14 Kasım 2026'dan itibaren Gemini bağlam olarak kullanabilir). İstemiyorsan Yönetici Konsolu'ndan 14 Kasım'a kadar kapat. (kaynak: E-posta (23 Eki 05:09): The Google Workspace Team ·  [Ürün Güncellemesi] Google )",
           "at": "2026-10-23 05:10"
         },
@@ -2888,7 +2892,8 @@
     "1a17bd8788aa7e9f",
     "1a17c143ed845624",
     "1a17c5e90b548323",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FGREE2MzQ3NzgzNDlBQUFEMEEA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FGREE2MzQ3NzgzNDlBQUFEMEEA",
+    "1a17c8a59bf988a7"
   ],
   "feed_order": [
     "qt5dom",
