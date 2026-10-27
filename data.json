@@ -546,6 +546,23 @@
       "due": "28.10.2026",
       "due_date": "2026-10-28",
       "note": "Kart *0149 reddedildi; 28.10'da hesap askıya alınır (Sales Pro €50 + Reporting €50 + Marketing Pro €220)."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Reklam",
+      "party": "Meta Ads (New Me, ID 537657538463949)",
+      "amount": "",
+      "due": "ödeme reddedildi, reklamlar durdu",
+      "uid": "5j7yxg",
+      "source": "mail-gelen",
+      "origin": "E-posta (27 Eki 10:58): Meta for Business · Your ad account is disabled and your ads have been paused",
+      "wamid": "1a17c5e90b548323",
+      "mail_thread": "1a17c5e90b548323",
+      "imp": "high",
+      "plan_date": "2026-10-27",
+      "urgency": "red",
+      "title": "Meta Ads (New Me, ID 537657538463949)",
+      "note": "Meta ödemesi reddedildi, New Me reklam hesabı durduruldu. Reklamları yeniden açmak için borcu öde (tutar mailde yazmıyor, Meta Ads panelinden kontrol et)."
     }
   ],
   "departments": [
@@ -2644,7 +2661,7 @@
       ]
     }
   ],
-  "updated": "2026-10-27 09:38",
+  "updated": "2026-10-27 10:59",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2865,7 +2882,8 @@
     "1a178e6aee9565ec",
     "1a178e7be4925b55",
     "1a17bd8788aa7e9f",
-    "1a17c143ed845624"
+    "1a17c143ed845624",
+    "1a17c5e90b548323"
   ],
   "feed_order": [
     "qt5dom",
