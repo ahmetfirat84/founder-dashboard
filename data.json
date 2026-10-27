@@ -97,11 +97,12 @@
       "title": "2. Garanti BBVA kredi kartı borcu",
       "amount": "Tutar bankada",
       "due": "Gecikmede, yakın izleme riski",
-      "note": "Para girince ilk ödenecek. Banka 30 Eyl'de ödeme yapılmazsa 'yakın izleme' sürecini başlatacağını bildirdi.",
+      "note": "Para girince ilk ödenecek. Banka 30 Eyl'de ödeme yapılmazsa 'yakın izleme' sürecini başlatacağını bildirdi. YENİ MAİL 27.10 08:32 (27 Eki 08:32 · Memorae · İki 1:1, akşam ameliyat, son ödeme bugün · 27 Ekim Salı): 27 Ekim Salı bugün Bonus Business kartının son ödeme günü (Memorae takvim özeti).",
       "action_type": "Ödeme",
       "category": "Banka / Kart",
       "party": "Garanti BBVA",
-      "urgency": "red"
+      "urgency": "red",
+      "uid": "9n81au"
     },
     {
       "title": "3. Google Workspace aboneliği",
@@ -2643,7 +2644,7 @@
       ]
     }
   ],
-  "updated": "2026-10-26 18:50",
+  "updated": "2026-10-27 08:32",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2862,7 +2863,8 @@
     "1a178bfcb0938c53",
     "1a178e59b625b8a0",
     "1a178e6aee9565ec",
-    "1a178e7be4925b55"
+    "1a178e7be4925b55",
+    "1a17bd8788aa7e9f"
   ],
   "feed_order": [
     "qt5dom",
