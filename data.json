@@ -2387,7 +2387,13 @@
           "plan_date": "2026-10-24"
         }
       ],
-      "summary": "Slush kararı bekliyor"
+      "summary": "Slush kararı bekliyor",
+      "notes": [
+        {
+          "text": "Nam Tran (Apex Ascension) soğuk e-postası: aile ofisleri ilgisi iddiası, 3M-35M seed-B, kısa görüşme talebi. Doğrulanmamış, dikkatle değerlendir. (kaynak: E-posta (27 Eki 23:21): Nam Tran · investor interest in your space)",
+          "at": "2026-10-27 23:21"
+        }
+      ]
     },
     {
       "key": "idari",
@@ -2687,7 +2693,7 @@
       ]
     }
   ],
-  "updated": "2026-10-27 20:39",
+  "updated": "2026-10-27 23:21",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2918,7 +2924,8 @@
     "1a17d37ba03ad648",
     "1a17d387f23842aa",
     "1a17da003936d8ac",
-    "1a17e71342efdbee"
+    "1a17e71342efdbee",
+    "1a17f0616f38bace"
   ],
   "feed_order": [
     "qt5dom",
