@@ -1534,7 +1534,9 @@
             "note": "form maile .xlsx ekli; yönetmelik RG 32882 (26.04.2025); 2026 formları 01.01.2027'de yüklenecek"
           },
           "moved_from": "Hukuk",
-          "imp": "high"
+          "imp": "high",
+          "uid": "s7dare",
+          "note": "YENİ MAİL 27.10 14:57 (27 Eki 14:53 · HealthTurkiye · Uluslararası Sağlık Turizmi Performans Değerlendirme Süreci): 27 Eki HealthTürkiye e-postası: form süreci güncellendi, veriler e-Nabız üzerinden toplanacak, yeni duyuru bekleniyor (vade değişmedi)."
         },
         {
           "text": "HİB 'MYK Mesleki Yeterlilik Belgesi Zorunluluğu' yazısı (12 Eki, sayı 2026/363): PDF'i oku, şirkette kimlerde (koordinatör, rehber, vb.) MYK belgesi gerekiyor ve son tarih nedir çıkar, gerekirse Hülya/ilgili ekibe ilet.",
@@ -2677,7 +2679,7 @@
       ]
     }
   ],
-  "updated": "2026-10-27 14:56",
+  "updated": "2026-10-27 14:57",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2905,7 +2907,8 @@
     "1a17c8dc6f77d743",
     "1a17cc9d8de5fcbd",
     "1a17d109d57a66b2",
-    "1a17d37ba03ad648"
+    "1a17d37ba03ad648",
+    "1a17d387f23842aa"
   ],
   "feed_order": [
     "qt5dom",
