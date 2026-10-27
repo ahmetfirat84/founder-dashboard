@@ -2563,6 +2563,10 @@
       ],
       "notes": [
         {
+          "text": "Apple App Store aboneliği 'buluvahide (Monthly)' ₺199,99 (27 Ekim 2026, Ahmet'in kişisel kartı MasterCard ••2051). Aylık yenileniyor, bilgi amaçlı. (kaynak: E-posta (27 Eki 20:38): Apple · Your receipt from Apple.)",
+          "at": "2026-10-27 20:39"
+        },
+        {
           "text": "Apple üzerinden Instagram 'buluvahide' aboneliği onaylandı: ₺199,99/ay, 27 Kasım 2026'dan itibaren yenilenir. İptal için en az 1 gün önce Apple abonelik ayarlarından kapatılmalı. (kaynak: E-posta (27 Eki 16:49): Apple · Your Subscription is Confirmed)",
           "at": "2026-10-27 16:50"
         },
@@ -2683,7 +2687,7 @@
       ]
     }
   ],
-  "updated": "2026-10-27 16:50",
+  "updated": "2026-10-27 20:39",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2913,7 +2917,8 @@
     "1a17d109d57a66b2",
     "1a17d37ba03ad648",
     "1a17d387f23842aa",
-    "1a17da003936d8ac"
+    "1a17da003936d8ac",
+    "1a17e71342efdbee"
   ],
   "feed_order": [
     "qt5dom",
