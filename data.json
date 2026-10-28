@@ -2707,7 +2707,7 @@
       ]
     }
   ],
-  "updated": "2026-10-28 10:40",
+  "updated": "2026-10-28 13:21",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2941,7 +2941,8 @@
     "1a17e71342efdbee",
     "1a17f0616f38bace",
     "1a1811f56a944326",
-    "1a181734fdebd2d7"
+    "1a181734fdebd2d7",
+    "1a18206eddddec0f"
   ],
   "feed_order": [
     "qt5dom",
@@ -7540,6 +7541,55 @@
     }
   ],
   "meeting_notes": [
+    {
+      "id": "tpv8fq",
+      "title": "& New Me_Daily",
+      "date": "2026-10-28",
+      "summary": "Toplantıda uluslararası hasta adaylarının takibi, doktor ve hastane seçenekleri, fiyatlandırma ve satış hunisi ele alındı. Operasyonel hasta süreçleri ile marketplace gibi yeni pazarlama modelleri de görüşüldü. Reklam harcamasının etkisinin ölçülmesi ve lead aşamalarının güncellenmesi kararlaştırıldı.",
+      "thread": "1a18206eddddec0f",
+      "actions": [
+        {
+          "id": "fpli0x",
+          "text": "800 euro reklam harcamasının kaç nitelikli görüşme, teklif ve satışa dönüştüğü ölçülecek ve fırsatlar sistemde doğru huni aşamasına taşınacak.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "6ovbyh",
+          "text": "Portekizli hasta için İstanbul Cerrahi Hastanesi ve Çevre Hastanesi'ndeki uygun doktorlar alternatif olarak incelenecek; Türkiye'de gerekli belge ve yetkileri kontrol edilecek.",
+          "dep": "ecem",
+          "owner": "",
+          "party": "Portekizli hasta",
+          "status": "proposed"
+        },
+        {
+          "id": "459q9a",
+          "text": "Yeni Zelanda bağlantılı aday için 5.450 seviyesindeki teklif yeniden değerlendirilecek ve gerekirse yaklaşık 6.000 seviyesine çıkarılacak.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "Yeni Zelanda bağlantılı aday",
+          "status": "proposed"
+        },
+        {
+          "id": "cfwoao",
+          "text": "Çocuklu hastaların konaklama koşulları ve olası 800 euro ek ücretleri kontrol edilecek.",
+          "dep": "ecem",
+          "owner": "",
+          "party": "Çocuklu hastalar",
+          "status": "proposed"
+        },
+        {
+          "id": "0zx8ah",
+          "text": "Doktorların fiyat ve hizmetlerini karşılaştıran marketplace modeli 2-3 doktorla küçük bir deneme olarak test edilecek.",
+          "dep": "ilksen",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        }
+      ]
+    },
     {
       "id": "5xz4ba",
       "title": "& New Me_Weekly",
