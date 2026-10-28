@@ -2404,6 +2404,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush Ross McNairn (Wordsmith CEO) Q&A kaydı onaylandı: 18 Kas 2026, 13:26-13:56 (çevrim içi/yer belirtilmemiş). (kaynak: E-posta (28 Eki 16:19): Slush · [Slush 2026] You're in: Ross McNairn (CEO & Co-F)",
+          "at": "2026-10-28 16:19"
+        },
+        {
           "text": "Slush 2026: Ross McNairn (Wordsmith CEO) Q&A etkinliğine Ahmet kayıt oldu (e-posta, 28 Ekim). (kaynak: E-posta (28 Eki 16:17): Ahmet Tosun · Fwd: You're invited: Ross McNairn (CEO & C)",
           "at": "2026-10-28 16:18"
         },
@@ -2727,7 +2731,7 @@
       ]
     }
   ],
-  "updated": "2026-10-28 16:18",
+  "updated": "2026-10-28 16:19",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2966,7 +2970,8 @@
     "1a18235c14c9fbbd",
     "1a1824b4c0812eca",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDA1NTk3QjRCNzk2NDEwMTMwOQA=",
-    "1a182a8f83039de1"
+    "1a182a8f83039de1",
+    "1a182aa2d0dffb03"
   ],
   "feed_order": [
     "qt5dom",
