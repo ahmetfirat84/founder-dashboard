@@ -1106,6 +1106,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "28.10.2026 21:33'te VakıfBank hesabına (*1412) Garanti'den FAST ile ₺7.400 gelen havale; gönderen Ahmet Fırat adına görünüyor, güncel bakiye ₺7.400,39. (kaynak: E-posta (28 Eki 21:34): VakıfBank · VAKIFBANK - FAST Anlık Ödeme Bilgilendirmesi)",
+          "at": "2026-10-28 21:34"
+        },
+        {
           "text": "31.10'da Cemre'nin Uber faturası kesilecek; hatırlatma Paraşüt'te zaten var, taslaklar hazır. (kaynak: WhatsApp (28 Eki 15:38, yazılı))",
           "at": "2026-10-28 15:38"
         },
@@ -1220,10 +1224,6 @@
         {
           "text": "Vital Hotel Fulya banka bilgi belgesi geldi: ödeme alıcı unvanı VİTAL FULYA TURİZM A.Ş. (Halk Bankası, TL/EUR/USD/GBP hesapları var). Açık ₺27.949,21 borcu (r11) ödenirken dekont alıcı unvanı bununla eşleşmeli; IBAN kaydedilmedi. (kaynak: WhatsApp (19 Eki 11:51, iletilen yazışma, 2 mesaj, 1 ek))",
           "at": "2026-10-19 11:51"
-        },
-        {
-          "text": "VakıfBank bildirimi: 21.09.2026 tarihli SGK tahsilatı 88,61 TL ödenmiş (Mosip). Açık SGK kalemleriyle eşleşmiyor, mutabakatta kontrol edilebilir. (kaynak: E-posta (18 Eki 18:56): VakıfBank · Bilgilendirme: 21.09.2026 Tarihli SGK Ödemes)",
-          "at": "2026-10-18 18:56"
         }
       ],
       "drawer": [
@@ -2736,7 +2736,7 @@
       ]
     }
   ],
-  "updated": "2026-10-28 17:22",
+  "updated": "2026-10-28 21:34",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2978,7 +2978,8 @@
     "1a182a8f83039de1",
     "1a182aa2d0dffb03",
     "1a182daea19322c5",
-    "1a182e3015893677"
+    "1a182e3015893677",
+    "1a183ca936cf5670"
   ],
   "feed_order": [
     "qt5dom",
