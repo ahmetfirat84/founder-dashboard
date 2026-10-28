@@ -2404,6 +2404,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush 2026: Ross McNairn (Wordsmith CEO) Q&A etkinliğine Ahmet kayıt oldu (e-posta, 28 Ekim). (kaynak: E-posta (28 Eki 16:17): Ahmet Tosun · Fwd: You're invited: Ross McNairn (CEO & C)",
+          "at": "2026-10-28 16:18"
+        },
+        {
           "text": "Nam Tran (Apex Ascension) soğuk e-postası: aile ofisleri ilgisi iddiası, 3M-35M seed-B, kısa görüşme talebi. Doğrulanmamış, dikkatle değerlendir. (kaynak: E-posta (27 Eki 23:21): Nam Tran · investor interest in your space)",
           "at": "2026-10-27 23:21"
         }
@@ -2723,7 +2727,7 @@
       ]
     }
   ],
-  "updated": "2026-10-28 15:38",
+  "updated": "2026-10-28 16:18",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2961,7 +2965,8 @@
     "1a18206eddddec0f",
     "1a18235c14c9fbbd",
     "1a1824b4c0812eca",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDA1NTk3QjRCNzk2NDEwMTMwOQA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDA1NTk3QjRCNzk2NDEwMTMwOQA=",
+    "1a182a8f83039de1"
   ],
   "feed_order": [
     "qt5dom",
