@@ -1105,6 +1105,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "31.10'da Cemre'nin Uber faturası kesilecek; hatırlatma Paraşüt'te zaten var, taslaklar hazır. (kaynak: WhatsApp (28 Eki 15:38, yazılı))",
+          "at": "2026-10-28 15:38"
+        },
+        {
           "text": "iyzico toplu ödeme: 28.10.2026 hesaba 120,01 EUR yatırıldı (işlem no 3466454210, YENİBEN hesabı). Muhasebede tahsilat eşleştirmesi yapılmalı. (kaynak: E-posta (28 Eki 10:39): iyzico · Toplu ödemeniz gerçekleştirildi)",
           "at": "2026-10-28 10:40"
         },
@@ -1219,10 +1223,6 @@
         {
           "text": "VakıfBank bildirimi: 21.09.2026 tarihli SGK tahsilatı 88,61 TL ödenmiş (Mosip). Açık SGK kalemleriyle eşleşmiyor, mutabakatta kontrol edilebilir. (kaynak: E-posta (18 Eki 18:56): VakıfBank · Bilgilendirme: 21.09.2026 Tarihli SGK Ödemes)",
           "at": "2026-10-18 18:56"
-        },
-        {
-          "text": "VakıfBank bilgilendirmesi: 21.09.2026 tarihli SGK tahsilatı ₺2.929,41 ödenmiş görünüyor (Mosip). Aksiyon gerekmiyor. (kaynak: E-posta (18 Eki 18:55): VakıfBank · Bilgilendirme: 21.09.2026 Tarihli SGK Ödemes)",
-          "at": "2026-10-18 18:55"
         }
       ],
       "drawer": [
@@ -2723,7 +2723,7 @@
       ]
     }
   ],
-  "updated": "2026-10-28 14:36",
+  "updated": "2026-10-28 15:38",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2960,7 +2960,8 @@
     "1a181734fdebd2d7",
     "1a18206eddddec0f",
     "1a18235c14c9fbbd",
-    "1a1824b4c0812eca"
+    "1a1824b4c0812eca",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDA1NTk3QjRCNzk2NDEwMTMwOQA="
   ],
   "feed_order": [
     "qt5dom",
