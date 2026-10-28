@@ -2726,13 +2726,17 @@
       ],
       "notes": [
         {
+          "text": "MyHeritage: yıllık Tam Plan için 14 günlük ücretsiz deneme başladı; deneme sonunda €99 + KDV ücretlendirilecek. Ücretlendirilmeden iptal edilmek isterse 'Satın aldıklarım' sayfasından durdurulabilir. (kaynak: E-posta (28 Eki 17:21): MyHeritage Notification · MyHeritage size teşekkür eder)",
+          "at": "2026-10-28 17:22"
+        },
+        {
           "text": "Eve kurutma makinesi alınacak",
           "at": "2026-10-21 16:53"
         }
       ]
     }
   ],
-  "updated": "2026-10-28 17:13",
+  "updated": "2026-10-28 17:22",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2973,7 +2977,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDA1NTk3QjRCNzk2NDEwMTMwOQA=",
     "1a182a8f83039de1",
     "1a182aa2d0dffb03",
-    "1a182daea19322c5"
+    "1a182daea19322c5",
+    "1a182e3015893677"
   ],
   "feed_order": [
     "qt5dom",
