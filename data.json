@@ -2654,7 +2654,7 @@
       "area": "Şahsi-Todo",
       "status": "gray",
       "summary": "Şahsi yapılacaklar",
-      "updated": "2026-10-22 11:40",
+      "updated": "2026-10-28 14:36",
       "items": [
         {
           "text": "OC: dünkü toplantı notlarını mail at, yapılacakları netleştir; gönderdiği bilet linkine bak, işe yararsa siteye embed et",
@@ -2697,6 +2697,22 @@
           "uid": "td_6hpm9JRfHvMWrmr9",
           "source": "todoist",
           "plan_date": "2026-10-22"
+        },
+        {
+          "action_type": "Ödeme",
+          "category": "Uçuş",
+          "party": "",
+          "amount": "",
+          "due": "",
+          "uid": "u54vel",
+          "source": "mail-gelen",
+          "origin": "E-posta (28 Eki 14:35): Ahmet Tosun · Fwd: Earn Extra 1,923 Status Miles on Republic Day!",
+          "wamid": "1a1824b4c0812eca",
+          "mail_thread": "1a1824b4c0812eca",
+          "plan_date": "2026-10-29",
+          "urgency": "gray",
+          "text": "Uçak biletlerini al (Republic Day miles kampanyası, Ahmet'in e-posta notu: 'yarın alalım')",
+          "owner": ""
         }
       ],
       "notes": [
@@ -2707,7 +2723,7 @@
       ]
     }
   ],
-  "updated": "2026-10-28 14:12",
+  "updated": "2026-10-28 14:36",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2943,7 +2959,8 @@
     "1a1811f56a944326",
     "1a181734fdebd2d7",
     "1a18206eddddec0f",
-    "1a18235c14c9fbbd"
+    "1a18235c14c9fbbd",
+    "1a1824b4c0812eca"
   ],
   "feed_order": [
     "qt5dom",
