@@ -2698,7 +2698,8 @@
           "plan_date": "2026-10-29",
           "urgency": "gray",
           "text": "Uçak biletlerini al (Republic Day miles kampanyası, Ahmet'in e-posta notu: 'yarın alalım')",
-          "owner": ""
+          "owner": "",
+          "note": "YENİ MAİL 29.10 08:17 (29 Eki 08:16 · Ahmet Tosun · Re: Earn Extra 1,923 Status Miles on Republic Day!): Mail notu: Republic Day miles kampanyasındaki biletler 2027'ye alınan uçuşlar için."
         }
       ],
       "notes": [
@@ -2713,7 +2714,7 @@
       ]
     }
   ],
-  "updated": "2026-10-29 08:00",
+  "updated": "2026-10-29 08:17",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2958,7 +2959,8 @@
     "1a182e3015893677",
     "1a183ca936cf5670",
     "1a18580e6223d8d7",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FGMEJBNDNGMDI0QzlDMzA5NzEA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FGMEJBNDNGMDI0QzlDMzA5NzEA",
+    "1a1861711d9bdc7d"
   ],
   "feed_order": [
     "qt5dom",
@@ -8102,7 +8104,7 @@
         "name": "Hülya Alkan",
         "start": "2019-01-14",
         "gross": 88323.25,
-        "net": 60000.0,
+        "net": 60000,
         "since_net_60k": "2026-01",
         "note": "Net 2025'te ₺40.000 idi, Ocak 2026'dan ₺60.000. Brüt aylık değişiyor (Tem 90.081 / Ağu 88.323,25 / Eyl 88.323,25)"
       },
@@ -8110,20 +8112,20 @@
         "name": "Selin Sezgin",
         "start": "2025-06-18",
         "gross": 82118.51,
-        "net": 60000.0,
+        "net": 60000,
         "note": "Haziran 2026 bordrosunun revize halinden (21.07) itibaren net ₺60.000; öncesi asgari ücret (₺33.030 brüt / ₺28.075,50 net). Brüt: Tem 82.109,94 / Ağu 80.507,72 / Eyl 82.118,51"
       },
       {
         "name": "Cemre Yamaner Fırat",
         "start": "2025-12-04",
-        "gross": 33030.0,
+        "gross": 33030,
         "net": 28075.5,
         "note": "Asgari ücret, Ocak 2026'dan beri sabit"
       },
       {
         "name": "Bayram Gülcan",
         "start": "2024-10-11",
-        "gross": 1101.0,
+        "gross": 1101,
         "net": 1018.42,
         "note": "Her ay 1 gün bordro (₺1.101 brüt); sembolik kayıt gibi duruyor, Ahmet'e teyit sorulacak"
       }
