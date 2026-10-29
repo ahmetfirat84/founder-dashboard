@@ -2612,6 +2612,10 @@
       ],
       "notes": [
         {
+          "text": "Google Cloud 'mekanlarim' projesinin aylık bütçesi (₺200, mekanlarim-places) %100'e ulaştı; harcamayı kontrol et. (kaynak: E-posta (29 Eki 18:45): Google Cloud Billing Alerts · 100% of budget reached)",
+          "at": "2026-10-29 18:50"
+        },
+        {
           "text": "Google Cloud 'mekanlarim' projesinin aylık ₺200 bütçesi %100'e ulaştı (Ekim 2026); harcama detayına bakılmalı. (kaynak: E-posta (29 Eki 18:45): Google Cloud Billing Alerts · 100% of budget reached)",
           "at": "2026-10-29 18:49"
         },
@@ -2777,7 +2781,7 @@
       ]
     }
   ],
-  "updated": "2026-10-29 18:49",
+  "updated": "2026-10-29 18:50",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3034,7 +3038,8 @@
     "1a1873de672ed784",
     "1a1875bdd3dafe90",
     "1a1875d5bd47181f",
-    "1a18856c470c0608"
+    "1a18856c470c0608",
+    "1a188569a45cc200"
   ],
   "feed_order": [
     "qt5dom",
