@@ -569,7 +569,11 @@
       "amount_try": 621,
       "urgency": "gray",
       "title": "Turkcell",
-      "note": "Turkcell e-faturası (Paraşüt bildirimi, 29 Eki): temel tutar ₺621, KDV ve vade fatura detayında kontrol edilecek."
+      "note": "Turkcell e-faturası (Paraşüt bildirimi, 29 Eki): temel tutar ₺621, KDV ve vade fatura detayında kontrol edilecek.",
+      "invoice": {
+        "no": "",
+        "date": "2026-10-29"
+      }
     }
   ],
   "departments": [
@@ -3018,7 +3022,8 @@
     "1a1869202eae5932",
     "1a1869f18e377ca0",
     "1a186b749d6c6e66",
-    "1a1873ddac2cee9f"
+    "1a1873ddac2cee9f",
+    "1a1873de672ed784"
   ],
   "feed_order": [
     "qt5dom",
