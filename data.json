@@ -2612,6 +2612,10 @@
       ],
       "notes": [
         {
+          "text": "Google Cloud 'mekanlarim' projesinin aylık ₺200 bütçesi %100'e ulaştı (Ekim 2026); harcama detayına bakılmalı. (kaynak: E-posta (29 Eki 18:45): Google Cloud Billing Alerts · 100% of budget reached)",
+          "at": "2026-10-29 18:49"
+        },
+        {
           "text": "iyzico 'Ödeme Sayfası' tanıtım banner'ının kapatılması talebi: destek (Nazan Y., 29 Eki) talebi yalnızca kayıtlı ana e-posta adresinden kabul ediyor, talep oradan yeniden iletilmeli. (kaynak: E-posta (29 Eki 14:13): iyzico Destek · RE: Ortak Ödeme Sayfası (Checkout Form) )",
           "at": "2026-10-29 14:13"
         },
@@ -2773,7 +2777,7 @@
       ]
     }
   ],
-  "updated": "2026-10-29 14:13",
+  "updated": "2026-10-29 18:49",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3029,7 +3033,8 @@
     "1a1873ddac2cee9f",
     "1a1873de672ed784",
     "1a1875bdd3dafe90",
-    "1a1875d5bd47181f"
+    "1a1875d5bd47181f",
+    "1a18856c470c0608"
   ],
   "feed_order": [
     "qt5dom",
