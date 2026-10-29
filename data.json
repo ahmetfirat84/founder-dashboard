@@ -2708,6 +2708,10 @@
       ],
       "notes": [
         {
+          "text": "Findeks Uyarı Hizmeti: kaydettiğiniz koşullardan biri gerçekleşti (29 Ekim). Detay için Findeks hesabınıza giriş yapmanız gerekiyor. (kaynak: E-posta (29 Eki 09:14): Findeks · Uyarı'dan Bildiriminiz Var!)",
+          "at": "2026-10-29 09:15"
+        },
+        {
           "text": "MyHeritage: yıllık Tam Plan için 14 günlük ücretsiz deneme başladı; deneme sonunda €99 + KDV ücretlendirilecek. Ücretlendirilmeden iptal edilmek isterse 'Satın aldıklarım' sayfasından durdurulabilir. (kaynak: E-posta (28 Eki 17:21): MyHeritage Notification · MyHeritage size teşekkür eder)",
           "at": "2026-10-28 17:22"
         },
@@ -2718,7 +2722,7 @@
       ]
     }
   ],
-  "updated": "2026-10-29 09:09",
+  "updated": "2026-10-29 09:15",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2965,7 +2969,8 @@
     "1a18580e6223d8d7",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FGMEJBNDNGMDI0QzlDMzA5NzEA",
     "1a1861711d9bdc7d",
-    "1a18646b24348b6d"
+    "1a18646b24348b6d",
+    "1a1864bf7b86ac5a"
   ],
   "feed_order": [
     "qt5dom",
