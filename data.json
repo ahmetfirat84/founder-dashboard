@@ -2612,6 +2612,10 @@
       ],
       "notes": [
         {
+          "text": "iyzico 'Ödeme Sayfası' tanıtım banner'ının kapatılması talebi: destek (Nazan Y., 29 Eki) talebi yalnızca kayıtlı ana e-posta adresinden kabul ediyor, talep oradan yeniden iletilmeli. (kaynak: E-posta (29 Eki 14:13): iyzico Destek · RE: Ortak Ödeme Sayfası (Checkout Form) )",
+          "at": "2026-10-29 14:13"
+        },
+        {
           "text": "Apple abonelik: HiNoter AI Note Taker haftalık ₺184,99 (28 Eki ödendi, 5 Kas'ta yenileniyor, Mastercard ••2051). (kaynak: E-posta (29 Eki 09:09): Apple · Your receipt from Apple.)",
           "at": "2026-10-29 09:09"
         },
@@ -2769,7 +2773,7 @@
       ]
     }
   ],
-  "updated": "2026-10-29 14:12",
+  "updated": "2026-10-29 14:13",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3024,7 +3028,8 @@
     "1a186b749d6c6e66",
     "1a1873ddac2cee9f",
     "1a1873de672ed784",
-    "1a1875bdd3dafe90"
+    "1a1875bdd3dafe90",
+    "1a1875d5bd47181f"
   ],
   "feed_order": [
     "qt5dom",
