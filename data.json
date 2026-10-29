@@ -2291,7 +2291,9 @@
           "category": "Yatırımcı",
           "party": "Slush Helsinki",
           "amount": "",
-          "urgency": "gray"
+          "urgency": "gray",
+          "uid": "0skysi",
+          "note": "YENİ MAİL 29.10 09:32 (29 Eki 09:31 · Rania Said · AWS on the Future of AI in Healthcare | Slush 2026): Slush Helsinki'de 19 Kasım 11:00-13:00 AWS 'AI is Rewriting Healthcare Investment' etkinliği için başvuru daveti geldi (katılım onaylı değil, AWS değerlendirecek)."
         },
         {
           "text": "Booking vs New Me animasyonunu tamamla",
@@ -2722,7 +2724,7 @@
       ]
     }
   ],
-  "updated": "2026-10-29 09:15",
+  "updated": "2026-10-29 09:32",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2970,7 +2972,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FGMEJBNDNGMDI0QzlDMzA5NzEA",
     "1a1861711d9bdc7d",
     "1a18646b24348b6d",
-    "1a1864bf7b86ac5a"
+    "1a1864bf7b86ac5a",
+    "1a1865b75ac49c37"
   ],
   "feed_order": [
     "qt5dom",
