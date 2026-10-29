@@ -537,6 +537,22 @@
       "urgency": "red",
       "title": "Meta Ads (New Me, ID 537657538463949)",
       "note": "Meta ödemesi reddedildi, New Me reklam hesabı durduruldu. Reklamları yeniden açmak için borcu öde (tutar mailde yazmıyor, Meta Ads panelinden kontrol et)."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Abonelik",
+      "party": "Paraşüt",
+      "amount": "",
+      "due": "02 Kas 2026 (kart güncelleme)",
+      "uid": "7kg7hs",
+      "source": "mail-gelen",
+      "origin": "E-posta (29 Eki 11:11): Paraşüt · Paraşüt Abonelik Ücretiniz Tahsil Edilemedi",
+      "wamid": "1a186b749d6c6e66",
+      "mail_thread": "1a186b749d6c6e66",
+      "imp": "high",
+      "due_date": "2026-11-02",
+      "title": "Paraşüt",
+      "note": "Paraşüt abonelik ödemesi kartta tahsil edilemedi (Sınırlı Destek Yıllık + Kontör, 6 taksit). Kartı güncelle, yoksa hesap erişimi 2 Kasım'da kesilir. Yenilenme tarihi 26 Ekim."
     }
   ],
   "departments": [
@@ -2732,7 +2748,7 @@
       ]
     }
   ],
-  "updated": "2026-10-29 10:46",
+  "updated": "2026-10-29 11:12",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2983,7 +2999,8 @@
     "1a1864bf7b86ac5a",
     "1a1865b75ac49c37",
     "1a1869202eae5932",
-    "1a1869f18e377ca0"
+    "1a1869f18e377ca0",
+    "1a186b749d6c6e66"
   ],
   "feed_order": [
     "qt5dom",
