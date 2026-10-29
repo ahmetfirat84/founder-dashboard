@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "source": "2026-10-16_sabah-brifing (Drive: 09_Management/briefing-system/handoffs)",
   "priorities": [
     "HubSpot Maximum monthly credits = 3.000 gir (yenileme 17 Ekim, en geç 10:00)",
@@ -10,22 +10,7 @@
     {
       "time": "12:30",
       "title": "& New Me_Daily",
-      "note": "Hülya, Selin, Cemre · Meet"
-    },
-    {
-      "time": "14:00",
-      "title": "Ahmet <> Hülya 1:1",
-      "note": "Hülya · Meet"
-    },
-    {
-      "time": "14:40",
-      "title": "Medicana Zincirlikuyu - Üroloji Kontrol Randevusu",
-      "note": "Prof. Dr. Ramazan Altıntaş (kişisel)"
-    },
-    {
-      "time": "15:30",
-      "title": "Ahmet <> Selin 1:1",
-      "note": "Selin · Meet"
+      "note": "Selin, Hülya, Cemre · Google Meet"
     }
   ],
   "cash_alerts": [
@@ -213,7 +198,7 @@
       "title": "SGK cari ay primi + maaşlar",
       "amount": "₺78.576 + maaş",
       "due": "31 Eki",
-      "note": "Ahmet maaşı kararı bekliyor (₺320K vs ₺120K). YENİ MAİL 26.10 18:07 (26 Eki 18:06 · Yasemin Hizarci · EYLÜL/2026 DÖNEMİNE AİT MUHTASAR VE SGK ÖDEMELERİİ ): SGK 09/2026 tahakkuk fişi (1 kişi): ₺355,08, ödeme günü 02.11; CPA Türk KDV evraklarını Çarşamba 28.10'a kadar istiyor",
+      "note": "Ahmet maaşı kararı bekliyor (₺320K vs ₺120K). Eylül 2026 bordrosu (CPA Türk, 1 Eki): 4 personel, brüt ₺204.572,76, net ₺149.093,92 (Hülya ₺60.000 + Selin ₺60.000 + Cemre ₺28.075,50 + Bayram ₺1.018,42); Ahmet bordroda yok (Bağ-Kur). YENİ MAİL 26.10 18:07 (26 Eki 18:06 · Yasemin Hizarci · EYLÜL/2026 DÖNEMİNE AİT MUHTASAR VE SGK ÖDEMELERİİ ): SGK 09/2026 tahakkuk fişi (1 kişi): ₺355,08, ödeme günü 02.11; CPA Türk KDV evraklarını Çarşamba 28.10'a kadar istiyor",
       "action_type": "Ödeme",
       "category": "Vergi / SGK",
       "party": "SGK cari prim + maaşlar",
@@ -525,22 +510,6 @@
       "due": "28.10.2026",
       "due_date": "2026-10-28",
       "note": "Retry yapılmazsa 28.10'da hesap askıya alınır (Hub ID 143451706)"
-    },
-    {
-      "action_type": "Ödeme",
-      "category": "Maaş",
-      "party": "Seda Özkorkmaz",
-      "amount": "7.447,11",
-      "due": "Ay sonu (tekrarlayan maaş)",
-      "uid": "69nr5x",
-      "source": "mail-gelen",
-      "origin": "E-posta (24 Eki 08:01): Paraşüt · Tekrarlayan Maaş Kaydınız Oluşturuldu",
-      "wamid": "1a16c48f9762cc38",
-      "mail_thread": "1a16c48f9762cc38",
-      "amount_try": 7447,
-      "due_date": "2026-10-31",
-      "title": "Seda Özkorkmaz",
-      "note": "Paraşüt tekrarlayan maaş kaydı: Seda Özkorkmaz, her ayın son günü ₺7.447,11. Ekim bordrosu için nakit planına ekle. YENİ MAİL 24.10 08:01 (24 Eki 08:01 · Paraşüt · Tekrarlayan Maaş Kaydınız Oluşturuldu): Paraşüt'te tekrarlayan maaş kaydı oluşturuldu (24.10), her ayın son günü ₺7.447,11 olarak tanımlı."
     },
     {
       "title": "HubSpot fatura 842326601 ödeme reddedildi",
@@ -2744,7 +2713,7 @@
       ]
     }
   ],
-  "updated": "2026-10-29 06:06",
+  "updated": "2026-10-29 08:00",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -7467,7 +7436,7 @@
       "kind": "Takvim (toplama dahil değil: maaş borç değil)",
       "left": 9773,
       "left_est": true,
-      "note": "Kaynak: Ahmet'in 'aylık gider analizi' sheet'i, Ekim 2026 Ödemeler sekmesi. Paraşüt yıllık yenileme ₺9.773 (28.10). Maaşlar (Ahmet + Hülya + Selin) ≈₺320.000 (31.10) takvim için gösterilir, 'Kalan toplam'a sadece Paraşüt yıllık dahil. HubSpot ₺76.245 (kart reddedildi, 28.10 askı) ve SGK Eylül primi ayrı satırlarda.",
+      "note": "Kaynak: Ahmet'in 'aylık gider analizi' sheet'i, Ekim 2026 Ödemeler sekmesi. Paraşüt yıllık yenileme ₺9.773 (28.10). Ekim maaşları bordro neti ≈₺149.094 (Hülya + Selin + Cemre + Bayram; Eylül 2026 bordrosu, Ahmet'in kendi çekimi dahil değil) takvim için gösterilir, 'Kalan toplam'a sadece Paraşüt yıllık dahil. HubSpot ₺76.245 (kart reddedildi, 28.10 askı) ve SGK Eylül primi ayrı satırlarda.",
       "rows": [
         {
           "d": "2026-10-28",
@@ -7477,14 +7446,14 @@
         },
         {
           "d": "2026-10-31",
-          "amt": 320000,
-          "label": "Maaşlar: Ahmet + Hülya + Selin (net, tahmini)",
+          "amt": 149094,
+          "label": "Maaşlar: Hülya + Selin + Cemre + Bayram (bordro net, Eylül bordrosu; Ahmet hariç)",
           "est": true
         }
       ]
     }
   ],
-  "meetings_date": "2026-10-28",
+  "meetings_date": "2026-10-29",
   "directory": [
     {
       "id": "g5cmcp",
@@ -8086,6 +8055,11 @@
       "id": "4kevy1",
       "text": "Dekont ve ödeme yazışmaları tedarikçilerle WhatsApp üzerinden yürür (mail değil).",
       "at": "2026-10-19"
+    },
+    {
+      "id": "payroll1",
+      "text": "Güncel çalışan/maaş listesi = d.payroll (CPA Türk Eylül 2026 bordrosu): Hülya Alkan net 60.000, Selin Sezgin net 60.000, Cemre Yamaner Fırat net 28.075,50, Bayram Gülcan 1.018,42 (1 gün/ay). Seda Özkorkmaz 2023'te ayrıldı; Paraşüt 'tekrarlayan maaş' mailleri bayat, güncel sayma.",
+      "at": "2026-10-28"
     }
   ],
   "cards_due": [
@@ -8113,5 +8087,64 @@
       "location": "Ahmet Usta Etiler",
       "calendar": "sahsi"
     }
-  ]
+  ],
+  "payroll": {
+    "updated": "2026-10-28",
+    "source": "CPA Türk (Yasemin Hızarcı) aylık ÜCRET BORDROSU mailleri; son bordro EYLÜL 2026, mail tarihi 01.10.2026 (ek: YENİBEN EYLÜL 2026 ÜCRET BORDROSU.xls)",
+    "period": "2026-09",
+    "headcount": 4,
+    "gross_total": 204572.76,
+    "net_total": 149093.92,
+    "employer_sgk_total": 48597.06,
+    "note": "Ahmet bordroda değil (Bağ-Kur 4/B). Maaş/SGK KDV raporuna yansımaz. Brüt/net sütunları bordrodaki 'Toplam kazanç' ve 'Net istihkak'. Çalışan SGK/işsizlik/GV/damga kesintileri brütten düşülmüş. Prim tahakkuk fişi 09/2026: ₺355,08 (1 kişi).",
+    "active": [
+      {
+        "name": "Hülya Alkan",
+        "start": "2019-01-14",
+        "gross": 88323.25,
+        "net": 60000.0,
+        "since_net_60k": "2026-01",
+        "note": "Net 2025'te ₺40.000 idi, Ocak 2026'dan ₺60.000. Brüt aylık değişiyor (Tem 90.081 / Ağu 88.323,25 / Eyl 88.323,25)"
+      },
+      {
+        "name": "Selin Sezgin",
+        "start": "2025-06-18",
+        "gross": 82118.51,
+        "net": 60000.0,
+        "note": "Haziran 2026 bordrosunun revize halinden (21.07) itibaren net ₺60.000; öncesi asgari ücret (₺33.030 brüt / ₺28.075,50 net). Brüt: Tem 82.109,94 / Ağu 80.507,72 / Eyl 82.118,51"
+      },
+      {
+        "name": "Cemre Yamaner Fırat",
+        "start": "2025-12-04",
+        "gross": 33030.0,
+        "net": 28075.5,
+        "note": "Asgari ücret, Ocak 2026'dan beri sabit"
+      },
+      {
+        "name": "Bayram Gülcan",
+        "start": "2024-10-11",
+        "gross": 1101.0,
+        "net": 1018.42,
+        "note": "Her ay 1 gün bordro (₺1.101 brüt); sembolik kayıt gibi duruyor, Ahmet'e teyit sorulacak"
+      }
+    ],
+    "left": [
+      {
+        "name": "İlksen Hilal Şahin",
+        "exit": "2025-06-30",
+        "note": "Son bordro Haziran 2025 (brüt ₺75.280,78 / net ₺52.000); kaynak: Haziran/2025 bordro maili 30.06.2025 + 'İlksen Hilal Şahin istifa' maili"
+      },
+      {
+        "name": "Seda Özkorkmaz",
+        "exit": "2023-07",
+        "note": "İşten çıkış belgeleri 03.07.2023 (finance@ maili). Paraşüt'te tekrarlayan maaş kaydı (₺7.447,11) hâlâ mail üretiyordu (son 24.08.2025): kaydı Paraşüt'te sil/pasifle"
+      },
+      {
+        "name": "Deniz Özçelik",
+        "exit": "2025",
+        "note": "Çıkış süreci mailleri (CPA Türk 'işten ayrılma süreci'), tarih belgeden teyit edilmeli"
+      }
+    ],
+    "parasut_stale_recurring": "Paraşüt tekrarlayan maaş kayıtları eski: Seda Özkorkmaz ₺7.447,11 (ayrılmış), Selin Öner ₺5.698,64 (son mail 31.07.2025), Kübra Meriç (ayrılmış gibi), Hülya Alkan ₺8.146,50 (güncel bordro neti ₺60.000, kayıt uyumsuz). Güncel kaynak bordrodur, Paraşüt kaydı değil."
+  }
 }
