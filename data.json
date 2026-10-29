@@ -2612,6 +2612,10 @@
       ],
       "notes": [
         {
+          "text": "asistan-mail-to-dashboard Apps Script 28-29 Ekim'de hata verdi (Gmail izin hatası + sunucu hataları); e-posta akışı kesintiye uğramış olabilir, kontrol edilmeli. (kaynak: E-posta (29 Eki 22:13): noreply-apps-scripts-notifications@googl · Summary of fa)",
+          "at": "2026-10-29 22:14"
+        },
+        {
           "text": "Google Cloud 'mekanlarim' projesinin aylık bütçesi (₺200, mekanlarim-places) %100'e ulaştı; harcamayı kontrol et. (kaynak: E-posta (29 Eki 18:45): Google Cloud Billing Alerts · 100% of budget reached)",
           "at": "2026-10-29 18:50"
         },
@@ -2781,7 +2785,7 @@
       ]
     }
   ],
-  "updated": "2026-10-29 19:35",
+  "updated": "2026-10-29 22:14",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3040,7 +3044,8 @@
     "1a1875d5bd47181f",
     "1a18856c470c0608",
     "1a188569a45cc200",
-    "1a188841ce077318"
+    "1a188841ce077318",
+    "1a189150011013b2"
   ],
   "feed_order": [
     "qt5dom",
