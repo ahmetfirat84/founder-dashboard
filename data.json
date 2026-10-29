@@ -2167,6 +2167,10 @@
       "summary": "Meta Ads 7 gündür kapalı",
       "notes": [
         {
+          "text": "Tasarım referansı: https://designbookmark.com/ (kaynak: WhatsApp (29 Eki 22:15, yazılı))",
+          "at": "2026-10-29 22:15"
+        },
+        {
           "text": "Search Console: andnewme.com Profile sayfası yapılandırılmış veri uyarısı (kritik değil): 'dateModified' geçersiz tarih formatı, 'author' alanı tanınmıyor. Düzeltilmesi önerilir. (kaynak: E-posta (29 Eki 10:45): Google Search Console Team · New Profile page structured)",
           "at": "2026-10-29 10:46"
         },
@@ -2785,7 +2789,7 @@
       ]
     }
   ],
-  "updated": "2026-10-29 22:14",
+  "updated": "2026-10-29 22:15",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3045,7 +3049,8 @@
     "1a18856c470c0608",
     "1a188569a45cc200",
     "1a188841ce077318",
-    "1a189150011013b2"
+    "1a189150011013b2",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCNkU3NjQ0NjJGREY5RTk0MDQA"
   ],
   "feed_order": [
     "qt5dom",
