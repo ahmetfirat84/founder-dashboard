@@ -2130,6 +2130,10 @@
       "summary": "Meta Ads 7 gündür kapalı",
       "notes": [
         {
+          "text": "Search Console: andnewme.com Profile sayfası yapılandırılmış veri uyarısı (kritik değil): 'dateModified' geçersiz tarih formatı, 'author' alanı tanınmıyor. Düzeltilmesi önerilir. (kaynak: E-posta (29 Eki 10:45): Google Search Console Team · New Profile page structured)",
+          "at": "2026-10-29 10:46"
+        },
+        {
           "text": "Instagram gönderisi kaydedildi: https://www.instagram.com/p/DfChvBXjIRB/?img_index=3&exln=YXIxZzlzaXZkaG9n (kaynak: WhatsApp (29 Eki 06:06, yazılı))",
           "at": "2026-10-29 06:06"
         },
@@ -2728,7 +2732,7 @@
       ]
     }
   ],
-  "updated": "2026-10-29 10:31",
+  "updated": "2026-10-29 10:46",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2978,7 +2982,8 @@
     "1a18646b24348b6d",
     "1a1864bf7b86ac5a",
     "1a1865b75ac49c37",
-    "1a1869202eae5932"
+    "1a1869202eae5932",
+    "1a1869f18e377ca0"
   ],
   "feed_order": [
     "qt5dom",
