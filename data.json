@@ -2565,6 +2565,10 @@
       ],
       "notes": [
         {
+          "text": "Apple abonelik: HiNoter AI Note Taker haftalık ₺184,99 (28 Eki ödendi, 5 Kas'ta yenileniyor, Mastercard ••2051). (kaynak: E-posta (29 Eki 09:09): Apple · Your receipt from Apple.)",
+          "at": "2026-10-29 09:09"
+        },
+        {
           "text": "Cloudflare Observability fiyatlandırması 1 Aralık 2026'da değişiyor: Workers Paid planda 50 GB/ay ingestion ve 10 GB-ay depolama dahil, aşımı $0.25/GB ve $0.10/GB-ay. Free planda ücret yok. İşlem gerekmiyor. (kaynak: E-posta (29 Eki 05:32): Cloudflare · [Notice] Cloudflare Observability pricing c)",
           "at": "2026-10-29 05:33"
         },
@@ -2714,7 +2718,7 @@
       ]
     }
   ],
-  "updated": "2026-10-29 08:17",
+  "updated": "2026-10-29 09:09",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2960,7 +2964,8 @@
     "1a183ca936cf5670",
     "1a18580e6223d8d7",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FGMEJBNDNGMDI0QzlDMzA5NzEA",
-    "1a1861711d9bdc7d"
+    "1a1861711d9bdc7d",
+    "1a18646b24348b6d"
   ],
   "feed_order": [
     "qt5dom",
