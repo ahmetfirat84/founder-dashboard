@@ -553,6 +553,23 @@
       "due_date": "2026-11-02",
       "title": "Paraşüt",
       "note": "Paraşüt abonelik ödemesi kartta tahsil edilemedi (Sınırlı Destek Yıllık + Kontör, 6 taksit). Kartı güncelle, yoksa hesap erişimi 2 Kasım'da kesilir. Yenilenme tarihi 26 Ekim."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Turkcell fatura",
+      "party": "Turkcell",
+      "amount": "₺621",
+      "due": "Fatura geldi, vade belirtilmemiş",
+      "uid": "6q6bhf",
+      "source": "mail-gelen",
+      "origin": "E-posta (29 Eki 13:38): Paraşüt · Yeni bir e-Faturanız var",
+      "wamid": "1a1873ddac2cee9f",
+      "mail_thread": "1a1873ddac2cee9f",
+      "imp": "low",
+      "amount_try": 621,
+      "urgency": "gray",
+      "title": "Turkcell",
+      "note": "Turkcell e-faturası (Paraşüt bildirimi, 29 Eki): temel tutar ₺621, KDV ve vade fatura detayında kontrol edilecek."
     }
   ],
   "departments": [
@@ -2748,7 +2765,7 @@
       ]
     }
   ],
-  "updated": "2026-10-29 11:12",
+  "updated": "2026-10-29 13:39",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3000,7 +3017,8 @@
     "1a1865b75ac49c37",
     "1a1869202eae5932",
     "1a1869f18e377ca0",
-    "1a186b749d6c6e66"
+    "1a186b749d6c6e66",
+    "1a1873ddac2cee9f"
   ],
   "feed_order": [
     "qt5dom",
