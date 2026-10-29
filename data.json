@@ -2380,6 +2380,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush 'AI is Rewriting Healthcare Investment' başvurusu alındı, organizatör değerlendirmede (29 Eki). (kaynak: E-posta (29 Eki 10:31): Slush · [Slush 2026] Application received: AI is Rewriti)",
+          "at": "2026-10-29 10:31"
+        },
+        {
           "text": "Slush Ross McNairn (Wordsmith CEO) Q&A kaydı onaylandı: 18 Kas 2026, 13:26-13:56 (çevrim içi/yer belirtilmemiş). (kaynak: E-posta (28 Eki 16:19): Slush · [Slush 2026] You're in: Ross McNairn (CEO & Co-F)",
           "at": "2026-10-28 16:19"
         },
@@ -2724,7 +2728,7 @@
       ]
     }
   ],
-  "updated": "2026-10-29 09:32",
+  "updated": "2026-10-29 10:31",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2973,7 +2977,8 @@
     "1a1861711d9bdc7d",
     "1a18646b24348b6d",
     "1a1864bf7b86ac5a",
-    "1a1865b75ac49c37"
+    "1a1865b75ac49c37",
+    "1a1869202eae5932"
   ],
   "feed_order": [
     "qt5dom",
