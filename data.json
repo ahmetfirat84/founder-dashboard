@@ -2592,6 +2592,10 @@
       ],
       "notes": [
         {
+          "text": "Cloudflare Observability fiyatlandırması 1 Aralık 2026'da değişiyor: Workers Paid planda 50 GB/ay ingestion ve 10 GB-ay depolama dahil, aşımı $0.25/GB ve $0.10/GB-ay. Free planda ücret yok. İşlem gerekmiyor. (kaynak: E-posta (29 Eki 05:32): Cloudflare · [Notice] Cloudflare Observability pricing c)",
+          "at": "2026-10-29 05:33"
+        },
+        {
           "text": "Apple App Store aboneliği 'buluvahide (Monthly)' ₺199,99 (27 Ekim 2026, Ahmet'in kişisel kartı MasterCard ••2051). Aylık yenileniyor, bilgi amaçlı. (kaynak: E-posta (27 Eki 20:38): Apple · Your receipt from Apple.)",
           "at": "2026-10-27 20:39"
         },
@@ -2736,7 +2740,7 @@
       ]
     }
   ],
-  "updated": "2026-10-28 21:34",
+  "updated": "2026-10-29 05:33",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -2979,7 +2983,8 @@
     "1a182aa2d0dffb03",
     "1a182daea19322c5",
     "1a182e3015893677",
-    "1a183ca936cf5670"
+    "1a183ca936cf5670",
+    "1a18580e6223d8d7"
   ],
   "feed_order": [
     "qt5dom",
