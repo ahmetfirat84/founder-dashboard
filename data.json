@@ -417,22 +417,33 @@
       "action_type": "Ödeme",
       "category": "Hastane faturası",
       "party": "IC Hospital (MK Hastane İşletmeleri)",
-      "amount": "₺66.951,48",
-      "due": "Vade belirsiz",
+      "amount": "₺66.374 (ödendi)",
+      "due": "Ödendi 30.10",
       "uid": "0te965",
       "source": "mail-gelen",
       "origin": "E-posta (7 Eyl 15:47): Nurcan Sarıbal · Re: new me bakiye",
       "wamid": "1a07bea189a201ed",
       "mail_thread": "1a07ba462aa5d81f",
-      "amount_try": 66951.48,
+      "amount_try": 66373.56,
       "urgency": "orange",
       "title": "IC Hospital (MK Hastane İşletmeleri)",
-      "note": "Fatura MKY2026000000273 (07.09.2026), hasta Priyer Darshani Nand (Yeni Zelanda, Genel Cerrahi), KDV dahil ₺66.951,48. Nurcan Sarıbal 7 Eyl'de ödeme için dönüş istedi; vade yazmıyor. YENİ MAİL 23.10 15:43 (23 Eki 15:42 · Paraşüt · Yeni bir e-Faturanız var): 23 Eki'de e-fatura geldi (₺66.373,56); 8 gün içinde kabul/red edilmeli (~31 Eki).",
+      "note": "Fatura MKY2026000000273 (07.09.2026), hasta Priyer Darshani Nand (Yeni Zelanda, Genel Cerrahi), KDV dahil ₺66.951,48. Nurcan Sarıbal 7 Eyl'de ödeme için dönüş istedi; vade yazmıyor. YENİ MAİL 23.10 15:43 (23 Eki 15:42 · Paraşüt · Yeni bir e-Faturanız var): 23 Eki'de e-fatura geldi (₺66.373,56); 8 gün içinde kabul/red edilmeli (~31 Eki). ÖDENDİ 2026-10-30: ₺66.374 (dekont, havale ücreti ₺8.38). Satır tutarı ₺66.951, fark ₺578.",
       "invoice": {
         "no": "MKY2026000000273",
         "date": "2026-09-07",
         "amount_try": 66951.48,
         "drive_url": "https://drive.google.com/file/d/14bPeYqOm9zyb9MPoUnFae_ckEMyWNj6j/view?usp=drivesdk"
+      },
+      "done": true,
+      "doneAt": "2026-10-30 18:15",
+      "proof": {
+        "type": "banka dekontu",
+        "date": "2026-10-30",
+        "amount_try": 66373.56,
+        "fee_try": 8.38,
+        "channel": "WhatsApp (30 Eki 18:15, belge)",
+        "drive_url": "https://drive.google.com/file/d/1v-QoDTwMlmJqfAhYyZTjReNmtTqz8DSr/view?usp=drivesdk",
+        "draft_url": ""
       }
     },
     {
@@ -2867,7 +2878,7 @@
       ]
     }
   ],
-  "updated": "2026-10-30 17:28",
+  "updated": "2026-10-30 18:15",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3142,7 +3153,8 @@
     "1a18cd2de5b3809a",
     "1a18cdc1be31cf17",
     "1a18ca81c941433a",
-    "1a18d323b7e9851c"
+    "1a18d323b7e9851c",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5OUVCNTE2NTgyNDMyNDg5MkYA"
   ],
   "feed_order": [
     "qt5dom",
