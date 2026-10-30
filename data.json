@@ -1930,7 +1930,7 @@
           "owner": "",
           "source": "asistan",
           "uid": "98b538",
-          "note": "YENİ MAİL 22.10 23:14 (22 Eki 23:13 · Cankat Sir · YeniBen - Olağan Genel Kurul): Cankat Şir (22 Eki): 2023-2025 yıllarına ait Olağan GK çağrı belge taslakları gönderildi; yarınki bildirime göre haberleşilecek."
+          "note": "YENİ MAİL 22.10 23:14 (22 Eki 23:13 · Cankat Sir · YeniBen - Olağan Genel Kurul): Cankat Şir (22 Eki): 2023-2025 yıllarına ait Olağan GK çağrı belge taslakları gönderildi; yarınki bildirime göre haberleşilecek. YENİ MAİL 30.10 18:36 (30 Eki 18:36 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): Pay defteri teyidi bekleniyor (Ersun/Coşkun Bey); çağrının kimlere gideceği defterden netleşecek, imza sirküleri 15 Kas'ta doluyor."
         },
         {
           "text": "YK süresi doluyor: genel kurulla yeni YK seçimi, finansal onay ve ibra",
@@ -2011,6 +2011,10 @@
       ],
       "summary": "HealthTürkiye yenilemesi açık",
       "notes": [
+        {
+          "text": "Yeniben pay defteri: noter tasdikli defterin kimde olduğu belirsiz. 2023 GK (sermaye 73.675 TL, 41 pay sahibi, tescil ilanı 15.01.2024) sonrası devir/yeni pay sahibi girişleri ve pay sahibi adresleri Ersun Bey ve Coşkun Bey'den sorulacak. Genel kurul çağrısı kimlere gidecek bu teyide bağlı; imza sir (kaynak: E-posta (30 Eki 18:36): Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipler)",
+          "at": "2026-10-30 18:36"
+        },
         {
           "text": "30.10: Ersun Bey ve Coşkun Bey'e pay defteri ve güncel pay sahipleri listesi soruldu. Sorular: defter kimde (noter tasdikli), 2023 sonrası devir/giriş var mı, adresler defterde mi. Ayrıca A→C grubu geçişi ve ardından gelen pay devrinin bu genel kurulda mı yapılacağı görüşü istendi. İmza sirküleri 15 (kaynak: E-posta (30 Eki 18:35): Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipler)",
           "at": "2026-10-30 18:35"
@@ -2891,7 +2895,7 @@
       ]
     }
   ],
-  "updated": "2026-10-30 18:35",
+  "updated": "2026-10-30 18:36",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3171,7 +3175,8 @@
     "1a18d69be17e8f56",
     "1a18d6bb2201bca0",
     "1a18d6d681a56edd",
-    "1a18d735cbfccc13"
+    "1a18d735cbfccc13",
+    "1a18d7458208fe4d"
   ],
   "feed_order": [
     "qt5dom",
