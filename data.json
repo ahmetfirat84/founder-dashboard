@@ -1826,6 +1826,10 @@
       "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri",
       "notes": [
         {
+          "text": "USHAŞ CRM başvurusu alındı (30.10.2026), başvuru no 41399; USHAŞ dönüşü bekleniyor. (kaynak: E-posta (30 Eki 10:42): info@ushas.gov.tr · USHAŞ CRM | Başvurunuz Oluşturulmuşt)",
+          "at": "2026-10-30 10:43"
+        },
+        {
           "text": "USHAŞ CRM'de başvuru 40755 oluşturuldu (26.10.2026). Sonuçlanınca USHAŞ bilgilendirecek. (kaynak: E-posta (26 Eki 15:32): info@ushas.gov.tr · USHAŞ CRM | Başvurunuz Oluşturulmuşt)",
           "at": "2026-10-26 15:33"
         }
@@ -2824,7 +2828,7 @@
       ]
     }
   ],
-  "updated": "2026-10-30 10:30",
+  "updated": "2026-10-30 10:43",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3090,7 +3094,8 @@
     "1a18b69badd59065",
     "1a18b708e4120c9c",
     "1a18b7793c1ce570",
-    "1a18bb6c0a43b237"
+    "1a18bb6c0a43b237",
+    "1a18bc2aea2a4594"
   ],
   "feed_order": [
     "qt5dom",
