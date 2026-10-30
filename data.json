@@ -2012,6 +2012,10 @@
       "summary": "HealthTürkiye yenilemesi açık",
       "notes": [
         {
+          "text": "Ersun Bey ve Coşkun Bey'e pay defteri ve güncel pay sahipleri listesi soruldu: noter tasdikli defter kimde, 2023 genel kurulu (sermaye 73.675 TL, 41 pay sahibi) sonrası işlenmiş kayıt var mı, adresler defterde mi. Cevap bekleniyor; genel kurul çağrı takvimi bu yanıta bağlı, imza sirküleri 15 Kasım'd (kaynak: E-posta (30 Eki 18:26): Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipler)",
+          "at": "2026-10-30 18:27"
+        },
+        {
           "text": "Pay defteri: 2023 ve 2024/2025 olağan genel kurul çağrıları için 41 pay sahibinin resmi listesi gerekiyor. Pay defteri yerine geçen resmi kayıt bulunamazsa nasıl ilerleneceği soruldu. Adres bilgileri, 2023 sonrası pay devri/yeni kayıt ve MERSİS ortak bilgileri de istendi. Defter kopyası gelince Ahme (kaynak: E-posta (30 Eki 18:24): Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipler)",
           "at": "2026-10-30 18:25"
         },
@@ -2883,7 +2887,7 @@
       ]
     }
   ],
-  "updated": "2026-10-30 18:25",
+  "updated": "2026-10-30 18:27",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3160,7 +3164,8 @@
     "1a18ca81c941433a",
     "1a18d323b7e9851c",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5OUVCNTE2NTgyNDMyNDg5MkYA",
-    "1a18d69be17e8f56"
+    "1a18d69be17e8f56",
+    "1a18d6bb2201bca0"
   ],
   "feed_order": [
     "qt5dom",
