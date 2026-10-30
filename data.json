@@ -1943,7 +1943,7 @@
           "owner": "",
           "source": "asistan",
           "uid": "9907cb",
-          "note": "YENİ MAİL 30.10 18:25 (30 Eki 18:24 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Ekim: Ersun Bey ve Coşkun Bey'den pay defteri kopyası, pay sahipleri listesi ve MERSİS ortak kontrolü istendi; imza sirküleri 15 Kasım'da dolduğu için bu hafta dönüş bekleniyor."
+          "note": "YENİ MAİL 30.10 18:25 (30 Eki 18:24 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Ekim: Ersun Bey ve Coşkun Bey'den pay defteri kopyası, pay sahipleri listesi ve MERSİS ortak kontrolü istendi; imza sirküleri 15 Kasım'da dolduğu için bu hafta dönüş bekleniyor. YENİ MAİL 30.10 18:29 (30 Eki 18:28 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki: Ersun Bey ve Coşkun Bey'den noter tasdikli pay defteri konumu ve güncel pay sahipleri listesi istendi (2023 GK sonrası 41 pay sahibi, adres bilgisi teyit bekleniyor)."
         },
         {
           "text": "Sermayeyi 250.000 TL'ye çıkar (süre 31 Aralık 2027'ye uzadı, acelesi yok); yöntem: pay sahibi yatırımı veya emisyon primi aktarımı",
@@ -2887,7 +2887,7 @@
       ]
     }
   ],
-  "updated": "2026-10-30 18:27",
+  "updated": "2026-10-30 18:29",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3165,7 +3165,8 @@
     "1a18d323b7e9851c",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5OUVCNTE2NTgyNDMyNDg5MkYA",
     "1a18d69be17e8f56",
-    "1a18d6bb2201bca0"
+    "1a18d6bb2201bca0",
+    "1a18d6d681a56edd"
   ],
   "feed_order": [
     "qt5dom",
