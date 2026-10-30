@@ -1112,6 +1112,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Paraşüt: e-kontör adedi kritik seviyede, e-fatura kesimi yarım kalmasın diye kontör paketi alınmalı (e-posta 30.10). (kaynak: E-posta (30 Eki 06:16): Paraşüt · Elektronik fatura kontör adediniz kritik seviy)",
+          "at": "2026-10-30 06:17"
+        },
+        {
           "text": "28.10.2026 21:33'te VakıfBank hesabına (*1412) Garanti'den FAST ile ₺7.400 gelen havale; gönderen Ahmet Fırat adına görünüyor, güncel bakiye ₺7.400,39. (kaynak: E-posta (28 Eki 21:34): VakıfBank · VAKIFBANK - FAST Anlık Ödeme Bilgilendirmesi)",
           "at": "2026-10-28 21:34"
         },
@@ -1226,10 +1230,6 @@
         {
           "text": "📎 fatura-gelen arşivlendi: Saygın Patent 2026-10-19 no SP02026000000671 ₺15.600 → https://drive.google.com/file/d/1B0r2zLI4g1nnrsK2qJAMs_-999AQJspE/view?usp=drivesdk",
           "at": "2026-10-19 12:24"
-        },
-        {
-          "text": "Vital Hotel Fulya banka bilgi belgesi geldi: ödeme alıcı unvanı VİTAL FULYA TURİZM A.Ş. (Halk Bankası, TL/EUR/USD/GBP hesapları var). Açık ₺27.949,21 borcu (r11) ödenirken dekont alıcı unvanı bununla eşleşmeli; IBAN kaydedilmedi. (kaynak: WhatsApp (19 Eki 11:51, iletilen yazışma, 2 mesaj, 1 ek))",
-          "at": "2026-10-19 11:51"
         }
       ],
       "drawer": [
@@ -2789,7 +2789,7 @@
       ]
     }
   ],
-  "updated": "2026-10-29 22:15",
+  "updated": "2026-10-30 06:17",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3050,7 +3050,8 @@
     "1a188569a45cc200",
     "1a188841ce077318",
     "1a189150011013b2",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCNkU3NjQ0NjJGREY5RTk0MDQA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCNkU3NjQ0NjJGREY5RTk0MDQA",
+    "1a18acf79779ca6e"
   ],
   "feed_order": [
     "qt5dom",
