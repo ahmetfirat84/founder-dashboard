@@ -1870,7 +1870,7 @@
       "name": "CANKAT",
       "area": "Hukuk",
       "status": "yellow",
-      "updated": "2026-10-30 16:47",
+      "updated": "2026-10-30 18:41",
       "items": [
         {
           "text": "GK sürecini başlat (imza sirküsü için)",
@@ -2007,10 +2007,30 @@
           "due_date": "2026-11-09",
           "text": "Case B4297F: andnewme.com 'top-10 nose job' haberindeki görsel için lisans iddiası. Lisans kanıtı yoksa 9 Kas'a kadar yanıt verilmeli. Ödeme yapmadan önce görselin lisansını ve iddianın geçerliliğini hukuken kontrol et.",
           "owner": ""
+        },
+        {
+          "action_type": "Yanıt",
+          "category": "Genel kurul",
+          "party": "Ersun Bey / Coşkun Bey",
+          "amount": "",
+          "due": "Çağrıdan önce (YK süresi 15 Kas)",
+          "uid": "2my58f",
+          "source": "mail",
+          "origin": "E-posta (30 Eki 18:41): Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
+          "wamid": "1a18d78e08f578cb",
+          "mail_thread": "1a18d78e08f578cb",
+          "imp": "high",
+          "urgency": "orange",
+          "text": "Pay defteri ve güncel pay sahipleri teyidi bekleniyor: defter kimde (noter tasdikli), 2023 sonrası devir/yeni pay sahibi var mı, adresler defterde mi. Yanıt gelince çağrı takvimi netleştirilecek.",
+          "owner": ""
         }
       ],
       "summary": "HealthTürkiye yenilemesi açık",
       "notes": [
+        {
+          "text": "30 Ekim: Ahmet, Ersun Bey ve Coşkun Bey'e pay defteri teyidi için mail attı. 2023 genel kurulu sonrası 41 pay sahipli tablo (tutanak ve SHA kaynaklı adresler) ekte, 15.11.2023 sermaye artırımı 73.675 TL, convertible note ve bazı yatırımcılara pay verilememiş durumu var. Çağrı listesi için defter ve  (kaynak: E-posta (30 Eki 18:41): Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipler)",
+          "at": "2026-10-30 18:41"
+        },
         {
           "text": "CPA Türk'e (Ersun Bey, Coşkun Bey) gönderilen pay defteri talebi: 2023 GK'da sermaye 73.675 TL, pay sahibi sayısı 41, tescil ilanı 15.01.2024. Noter tasdikli defterin yeri, 2023 sonrası pay devri/giriş ve adres bilgisi soruldu; genel kurul çağrısı kimlere gidecek defterden teyit edilecek. (kaynak: E-posta (30 Eki 18:39): Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipler)",
           "at": "2026-10-30 18:39"
@@ -2899,7 +2919,7 @@
       ]
     }
   ],
-  "updated": "2026-10-30 18:39",
+  "updated": "2026-10-30 18:41",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3182,7 +3202,8 @@
     "1a18d735cbfccc13",
     "1a18d7458208fe4d",
     "1a18d765d63892c6",
-    "1a18d771d710a6c7"
+    "1a18d771d710a6c7",
+    "1a18d78e08f578cb"
   ],
   "feed_order": [
     "qt5dom",
