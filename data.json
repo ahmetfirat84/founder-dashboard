@@ -2832,7 +2832,7 @@
       ]
     }
   ],
-  "updated": "2026-10-30 10:48",
+  "updated": "2026-10-30 13:35",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3100,7 +3100,8 @@
     "1a18b7793c1ce570",
     "1a18bb6c0a43b237",
     "1a18bc2aea2a4594",
-    "1a18bc75ea9963f9"
+    "1a18bc75ea9963f9",
+    "1a18c607aa365770"
   ],
   "feed_order": [
     "qt5dom",
@@ -7699,6 +7700,65 @@
     }
   ],
   "meeting_notes": [
+    {
+      "id": "syqk20",
+      "title": "& New Me_Daily",
+      "date": "2026-10-30",
+      "summary": "Toplantıda lead yönetimi, uzmanlık alanına göre lead dağıtımı ve ön konsültasyon modeli ele alındı. Ödemelerin tek bir e-ticaret benzeri sistemde toplanması kararlaştırıldı. Operasyon kapasitesinin yeterli olduğu, asıl sorunun sistemsizlik olduğu değerlendirildi. Nate'in geciken ödemesi ile Bella'nın otel ve transfer süreci takip edilecek.",
+      "thread": "1a18c607aa365770",
+      "actions": [
+        {
+          "id": "n6sfzw",
+          "text": "Nate'in geciken ödemesi için 2026-11-02 Pazartesi günü yeniden iletişime geçilecek; kesin ödeme tarihi alınamazsa hukuki süreç değerlendirilecek.",
+          "dep": "zeynep",
+          "owner": "",
+          "due_date": "2026-11-02",
+          "party": "Nate",
+          "status": "proposed"
+        },
+        {
+          "id": "zqd1hq",
+          "text": "5.490 NZD tutarındaki sleeve paketi için kart saklama özellikli 125 EUR depozito ödeme sayfası hazırlanacak.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "Yeni Zelanda sleeve paketi",
+          "status": "proposed"
+        },
+        {
+          "id": "izxvq8",
+          "text": "Bella için otel ve dönüş transferi organize edilecek, protein desteği sağlanacak ve ertelenen diş işlemi daha sonra takip edilecek.",
+          "dep": "ecem",
+          "owner": "",
+          "party": "Bella",
+          "status": "proposed"
+        },
+        {
+          "id": "k7m48h",
+          "text": "Murat ile hukuk ve finansman modeli görüşülecek; taksitli ödeme yalnızca yeterli hukuki güvence olursa değerlendirilecek.",
+          "dep": "cankat",
+          "owner": "",
+          "party": "Murat",
+          "status": "proposed"
+        },
+        {
+          "id": "2macqd",
+          "text": "Selim, farklı tedavilere uygunluğu anlatan ve sonunda 5–10 dakikalık görüşme veya rezervasyon çağrısı içeren kısa bir ön konsültasyon videosu hazırlayacak.",
+          "dep": "ilksen",
+          "owner": "Selim",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "asvlf8",
+          "text": "Selin hafta sonu gelen lead'leri takip edip Feedback kanalına aktaracak ve 2026-11-02 Pazartesi günü ilgili ekip üyelerine devredecek.",
+          "dep": "zeynep",
+          "owner": "Selin",
+          "due_date": "2026-11-02",
+          "party": "",
+          "status": "proposed"
+        }
+      ]
+    },
     {
       "id": "tpv8fq",
       "title": "& New Me_Daily",
