@@ -584,6 +584,23 @@
         "no": "",
         "date": "2026-10-29"
       }
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Haciz",
+      "party": "Zincirlikuyu VD (QNB haciz bildirimi)",
+      "amount": "₺75.093,56",
+      "due": "Vade belirsiz, QNB haciz bildirimi",
+      "uid": "wivf87",
+      "source": "mail-gelen",
+      "origin": "E-posta (30 Eki 09:05): QNB · QNB - Haciz Bilgilendirmeleri",
+      "wamid": "1a18b69badd59065",
+      "mail_thread": "1a18b69badd59065",
+      "imp": "high",
+      "amount_try": 75094,
+      "urgency": "red",
+      "title": "Zincirlikuyu VD (QNB haciz bildirimi)",
+      "note": "QNB'den haciz bildirimi: Zincirlikuyu VD, dosya 2026102862Vyj0058523, ₺75.093,56. Haciz dosyası ve süre QNB Mobil/İnternet Şubesi'nden teyit edilecek."
     }
   ],
   "departments": [
@@ -2799,7 +2816,7 @@
       ]
     }
   ],
-  "updated": "2026-10-30 06:17",
+  "updated": "2026-10-30 09:05",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3061,7 +3078,8 @@
     "1a188841ce077318",
     "1a189150011013b2",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCNkU3NjQ0NjJGREY5RTk0MDQA",
-    "1a18acf79779ca6e"
+    "1a18acf79779ca6e",
+    "1a18b69badd59065"
   ],
   "feed_order": [
     "qt5dom",
