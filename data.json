@@ -2022,11 +2022,16 @@
           "imp": "high",
           "urgency": "orange",
           "text": "Pay defteri ve güncel pay sahipleri teyidi bekleniyor: defter kimde (noter tasdikli), 2023 sonrası devir/yeni pay sahibi var mı, adresler defterde mi. Yanıt gelince çağrı takvimi netleştirilecek.",
-          "owner": ""
+          "owner": "",
+          "note": "YENİ MAİL 30.10 18:42 (30 Eki 18:41 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30.10: Ersun Bey ve Coşkun Bey'e pay defteri ve güncel pay sahipleri listesi soruldu; 2023 genel kurulunda sermaye 73.675 TL, 41 pay sahibi. Defter kimde olduğu ve adres bilgisi teyit bekleniyor."
         }
       ],
       "summary": "HealthTürkiye yenilemesi açık",
       "notes": [
+        {
+          "text": "Pay defteri talebi (30.10): Ersun Bey ve Coşkun Bey'e yazıldı. Sorular: defter kimde (noter tasdikli), 2023 sonrası pay devri/yeni pay sahibi var mı, adresler deftere işli mi. Çağrı öncesi listeyi netleştirmek ve 15 Kasım imza sirküleri öncesi takvimi birlikte belirlemek gerekiyor. (kaynak: E-posta (30 Eki 18:41): Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipler)",
+          "at": "2026-10-30 18:42"
+        },
         {
           "text": "30 Ekim: Ahmet, Ersun Bey ve Coşkun Bey'e pay defteri teyidi için mail attı. 2023 genel kurulu sonrası 41 pay sahipli tablo (tutanak ve SHA kaynaklı adresler) ekte, 15.11.2023 sermaye artırımı 73.675 TL, convertible note ve bazı yatırımcılara pay verilememiş durumu var. Çağrı listesi için defter ve  (kaynak: E-posta (30 Eki 18:41): Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipler)",
           "at": "2026-10-30 18:41"
@@ -2919,7 +2924,7 @@
       ]
     }
   ],
-  "updated": "2026-10-30 18:41",
+  "updated": "2026-10-30 18:42",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3203,7 +3208,8 @@
     "1a18d7458208fe4d",
     "1a18d765d63892c6",
     "1a18d771d710a6c7",
-    "1a18d78e08f578cb"
+    "1a18d78e08f578cb",
+    "1a18d79554c6e8a0"
   ],
   "feed_order": [
     "qt5dom",
