@@ -2802,6 +2802,10 @@
       ],
       "notes": [
         {
+          "text": "Findeks uyarı hizmetinde bir koşul gerçekleşti (30.10); detayı Findeks uygulamasından kendin kontrol et. (kaynak: E-posta (30 Eki 09:12): Findeks · Uyarı'dan Bildiriminiz Var!)",
+          "at": "2026-10-30 09:13"
+        },
+        {
           "text": "Findeks Uyarı Hizmeti: kaydettiğiniz koşullardan biri gerçekleşti (29 Ekim). Detay için Findeks hesabınıza giriş yapmanız gerekiyor. (kaynak: E-posta (29 Eki 09:14): Findeks · Uyarı'dan Bildiriminiz Var!)",
           "at": "2026-10-29 09:15"
         },
@@ -2816,7 +2820,7 @@
       ]
     }
   ],
-  "updated": "2026-10-30 09:05",
+  "updated": "2026-10-30 09:13",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3079,7 +3083,8 @@
     "1a189150011013b2",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCNkU3NjQ0NjJGREY5RTk0MDQA",
     "1a18acf79779ca6e",
-    "1a18b69badd59065"
+    "1a18b69badd59065",
+    "1a18b708e4120c9c"
   ],
   "feed_order": [
     "qt5dom",
