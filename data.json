@@ -1844,7 +1844,7 @@
       "name": "CANKAT",
       "area": "Hukuk",
       "status": "yellow",
-      "updated": "2026-10-26 07:10",
+      "updated": "2026-10-30 16:47",
       "items": [
         {
           "text": "GK sürecini başlat (imza sirküsü için)",
@@ -1964,6 +1964,22 @@
           "uid": "td_6hqCGmVgVXCM8569",
           "source": "todoist",
           "plan_date": "2026-10-26"
+        },
+        {
+          "action_type": "Yanıt",
+          "category": "Marka/Telif",
+          "party": "COPYTRACK (yuriyzhuravov adına)",
+          "amount": "€450 tazminat veya €588,50 lisans",
+          "due": "9 Kas yanıt, 18 Kas ödeme",
+          "uid": "t9krxw",
+          "source": "mail-gelen",
+          "origin": "E-posta (30 Eki 14:53): COPYTRACK · Authorisation request / Suspicion of unauthorised image use ",
+          "wamid": "1a18ca81c941433a",
+          "mail_thread": "1a18ca81c941433a",
+          "imp": "high",
+          "due_date": "2026-11-09",
+          "text": "Case B4297F: andnewme.com 'top-10 nose job' haberindeki görsel için lisans iddiası. Lisans kanıtı yoksa 9 Kas'a kadar yanıt verilmeli. Ödeme yapmadan önce görselin lisansını ve iddianın geçerliliğini hukuken kontrol et.",
+          "owner": ""
         }
       ],
       "summary": "HealthTürkiye yenilemesi açık",
@@ -2836,7 +2852,7 @@
       ]
     }
   ],
-  "updated": "2026-10-30 15:50",
+  "updated": "2026-10-30 16:47",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3109,7 +3125,8 @@
     "1a18c81832c6af2f",
     "1a18cb34efedd78f",
     "1a18cd2de5b3809a",
-    "1a18cdc1be31cf17"
+    "1a18cdc1be31cf17",
+    "1a18ca81c941433a"
   ],
   "feed_order": [
     "qt5dom",
