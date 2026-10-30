@@ -2194,6 +2194,10 @@
       "summary": "Meta Ads 7 gündür kapalı",
       "notes": [
         {
+          "text": "Google Search Console (andnewme.com): Profile sayfası yapılandırılmış veri hatası, eksik alan 'mainEntity'. Kritik olarak işaretlendi, düzeltilmesi öneriliyor. (kaynak: E-posta (30 Eki 10:29): Google Search Console Team · New Profile page structured)",
+          "at": "2026-10-30 10:30"
+        },
+        {
           "text": "Tasarım referansı: https://designbookmark.com/ (kaynak: WhatsApp (29 Eki 22:15, yazılı))",
           "at": "2026-10-29 22:15"
         },
@@ -2820,7 +2824,7 @@
       ]
     }
   ],
-  "updated": "2026-10-30 09:21",
+  "updated": "2026-10-30 10:30",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3085,7 +3089,8 @@
     "1a18acf79779ca6e",
     "1a18b69badd59065",
     "1a18b708e4120c9c",
-    "1a18b7793c1ce570"
+    "1a18b7793c1ce570",
+    "1a18bb6c0a43b237"
   ],
   "feed_order": [
     "qt5dom",
