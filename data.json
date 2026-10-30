@@ -1943,7 +1943,7 @@
           "owner": "",
           "source": "asistan",
           "uid": "9907cb",
-          "note": "YENİ MAİL 30.10 18:25 (30 Eki 18:24 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Ekim: Ersun Bey ve Coşkun Bey'den pay defteri kopyası, pay sahipleri listesi ve MERSİS ortak kontrolü istendi; imza sirküleri 15 Kasım'da dolduğu için bu hafta dönüş bekleniyor. YENİ MAİL 30.10 18:29 (30 Eki 18:28 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki: Ersun Bey ve Coşkun Bey'den noter tasdikli pay defteri konumu ve güncel pay sahipleri listesi istendi (2023 GK sonrası 41 pay sahibi, adres bilgisi teyit bekleniyor)."
+          "note": "YENİ MAİL 30.10 18:25 (30 Eki 18:24 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Ekim: Ersun Bey ve Coşkun Bey'den pay defteri kopyası, pay sahipleri listesi ve MERSİS ortak kontrolü istendi; imza sirküleri 15 Kasım'da dolduğu için bu hafta dönüş bekleniyor. YENİ MAİL 30.10 18:29 (30 Eki 18:28 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki: Ersun Bey ve Coşkun Bey'den noter tasdikli pay defteri konumu ve güncel pay sahipleri listesi istendi (2023 GK sonrası 41 pay sahibi, adres bilgisi teyit bekleniyor). YENİ MAİL 30.10 18:38 (30 Eki 18:38 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki: Ersun Bey ve Coşkun Bey'e pay defteri (noter tasdikli, kimde olduğu, 2023 sonrası devir/giriş) ve güncel pay sahipleri listesi soruldu; yanıt bekleniyor."
         },
         {
           "text": "Sermayeyi 250.000 TL'ye çıkar (süre 31 Aralık 2027'ye uzadı, acelesi yok); yöntem: pay sahibi yatırımı veya emisyon primi aktarımı",
@@ -2895,7 +2895,7 @@
       ]
     }
   ],
-  "updated": "2026-10-30 18:36",
+  "updated": "2026-10-30 18:38",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3176,7 +3176,8 @@
     "1a18d6bb2201bca0",
     "1a18d6d681a56edd",
     "1a18d735cbfccc13",
-    "1a18d7458208fe4d"
+    "1a18d7458208fe4d",
+    "1a18d765d63892c6"
   ],
   "feed_order": [
     "qt5dom",
