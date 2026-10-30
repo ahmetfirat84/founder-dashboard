@@ -125,14 +125,26 @@
     },
     {
       "title": "4. HİB yıllık aidat",
-      "amount": "₺74.912,04",
-      "due": "Ekim sonu",
-      "note": "Para girince ilk ödenecek. Ödenmezse teşvik ödemeleri durdurulmuş durumda. Kasım'da gecikme zammı eklenecek. Ödeme sonrası dekont HİB'e mail ile iletilecek.",
+      "amount": "₺74.912 (ödendi)",
+      "due": "Ödendi 30.10",
+      "note": "Para girince ilk ödenecek. Ödenmezse teşvik ödemeleri durdurulmuş durumda. Kasım'da gecikme zammı eklenecek. Ödeme sonrası dekont HİB'e mail ile iletilecek. ÖDENDİ 2026-10-30: ₺74.912 (dekont, havale ücreti ₺16.76). Satır tutarı ₺74.912.",
       "action_type": "Ödeme",
       "category": "Aidat",
       "party": "HİB",
       "due_date": "2026-10-31",
-      "uid": "uu9l9m"
+      "uid": "uu9l9m",
+      "done": true,
+      "doneAt": "2026-10-30 18:49",
+      "amount_try": 74912.04,
+      "proof": {
+        "type": "banka dekontu",
+        "date": "2026-10-30",
+        "amount_try": 74912.04,
+        "fee_try": 16.76,
+        "channel": "WhatsApp (30 Eki 18:49, belge)",
+        "drive_url": "https://drive.google.com/file/d/16mrx0crHlRflsVzGnT5ZB8FdMX9u1rL7/view?usp=drivesdk",
+        "draft_url": ""
+      }
     },
     {
       "title": "5. VakıfBank kredi kartı asgari ödeme",
@@ -2924,7 +2936,7 @@
       ]
     }
   ],
-  "updated": "2026-10-30 18:42",
+  "updated": "2026-10-30 18:49",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3209,7 +3221,8 @@
     "1a18d765d63892c6",
     "1a18d771d710a6c7",
     "1a18d78e08f578cb",
-    "1a18d79554c6e8a0"
+    "1a18d79554c6e8a0",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFGOTk4NkMzOTFEMjM2NkI1RTQA"
   ],
   "feed_order": [
     "qt5dom",
