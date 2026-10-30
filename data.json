@@ -2836,7 +2836,7 @@
       ]
     }
   ],
-  "updated": "2026-10-30 15:40",
+  "updated": "2026-10-30 15:50",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3108,7 +3108,8 @@
     "1a18c607aa365770",
     "1a18c81832c6af2f",
     "1a18cb34efedd78f",
-    "1a18cd2de5b3809a"
+    "1a18cd2de5b3809a",
+    "1a18cdc1be31cf17"
   ],
   "feed_order": [
     "qt5dom",
@@ -7707,6 +7708,63 @@
     }
   ],
   "meeting_notes": [
+    {
+      "id": "fu7hq3",
+      "title": "Ahmet <> Selin 1:1",
+      "date": "2026-10-30",
+      "summary": "Hasta ilaç ve oda koordinasyonundaki teslimat sorunları, yaklaşan ödemeler, AI ve marketplace leadlerinin yönetimi ile operasyonların dijitalleştirilmesi konuşuldu. Yeni yıl öncesi fiyat artışına karşı depozito veya parçalı ödeme seçeneğinin adaylara anlatılması planlandı. Ajanta ve marketplace modellerinin ayrıştırılması ile sayfaların düzeltilmesi hedefleniyor.",
+      "thread": "1a18cdc1be31cf17",
+      "actions": [
+        {
+          "id": "gzkm7m",
+          "text": "Yeni yıl öncesi fiyat artışı için depozito veya parçalı ödeme ile mevcut fiyatın korunabileceği seçeneğini adaylara anlatmak.",
+          "dep": "zeynep",
+          "owner": "Selin",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "ua66w6",
+          "text": "Antikoagülan enjeksiyon kutusunu iki hastaya ayırıp ayrı poşetletmek ve bu uygulamayı eczaneden talep etmek.",
+          "dep": "ecem",
+          "owner": "",
+          "party": "Eczane",
+          "status": "proposed"
+        },
+        {
+          "id": "ihjsp0",
+          "text": "İlaç tesliminden önce hastanın güncel odasını yeniden doğrulayan bir adımı sürece eklemek.",
+          "dep": "ecem",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "z04oky",
+          "text": "Ajanta ve marketplace iş modellerini platformda, marka görünümünde ve reklam mesajlarında ayrıştırmak.",
+          "dep": "ilksen",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "652t7t",
+          "text": "Diğer sayfaları ve sosyal medya profillerini müşteri gözüyle inceleyip eksik görselleri ve güncelliğini yitirmiş içerikleri düzeltmek.",
+          "dep": "ilksen",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "9s8yg4",
+          "text": "Yanıt vermeyen ücretsiz reklam leadlerini e-posta sonrasında telefon aramasıyla takip etmek.",
+          "dep": "zeynep",
+          "owner": "Selin",
+          "party": "",
+          "status": "proposed"
+        }
+      ]
+    },
     {
       "id": "syqk20",
       "title": "& New Me_Daily",
