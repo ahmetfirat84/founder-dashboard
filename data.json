@@ -174,7 +174,7 @@
       "title": "Orya Hotel",
       "amount": "₺67.589 (kalan; ₺35.000 ödendi)",
       "due": "19-23 Eki kısmi, 31 Eki kapanış",
-      "note": "Orya Hotel 17 Eki WhatsApp: toplam bakiye ₺102.588,57 (son fatura OHL2026000000236, €450 = ₺24.833,39, bunun yalnızca bir kalemi). Plan: önümüzdeki hafta (19-23 Eki) bir ödeme, ay sonuna (31 Eki) kadar kapanış. Provider borçları gider sheet'inde yok. KISMİ ÖDEME 2026-10-23: ₺35.000 ödendi, kalan ₺67.589. YENİ MAİL 27.10 09:38 (27 Eki 09:37 · Paraşüt · Yeni bir e-Faturanız var): 27 Ekim: Orya'dan ek 85 EUR e-fatura (Paraşüt), bakiyeye dahil olup olmadığı doğrulanmalı.",
+      "note": "Orya Hotel 17 Eki WhatsApp: toplam bakiye ₺102.588,57 (son fatura OHL2026000000236, €450 = ₺24.833,39, bunun yalnızca bir kalemi). Plan: önümüzdeki hafta (19-23 Eki) bir ödeme, ay sonuna (31 Eki) kadar kapanış. Provider borçları gider sheet'inde yok. KISMİ ÖDEME 2026-10-23: ₺35.000 ödendi, kalan ₺67.589. YENİ MAİL 27.10 09:38 (27 Eki 09:37 · Paraşüt · Yeni bir e-Faturanız var): 27 Ekim: Orya'dan ek 85 EUR e-fatura (Paraşüt), bakiyeye dahil olup olmadığı doğrulanmalı. YENİ MAİL 30.10 15:40 (30 Eki 15:39 · Paraşüt · Yeni bir e-Faturanız var): 30 Eki Paraşüt bildirimi: Orya'dan €85 ticari e-fatura geldi; 8 gün içinde (≈7 Kas) kabul/red edilmeli.",
       "action_type": "Ödeme",
       "category": "Provider",
       "party": "Orya Hotel",
@@ -191,6 +191,10 @@
         "fee_try": 16.76,
         "channel": "WhatsApp (23 Eki 16:09, belge)",
         "partial": true
+      },
+      "invoice": {
+        "no": "",
+        "date": "2026-10-30"
       }
     },
     {
@@ -2832,7 +2836,7 @@
       ]
     }
   ],
-  "updated": "2026-10-30 15:05",
+  "updated": "2026-10-30 15:40",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3103,7 +3107,8 @@
     "1a18bc75ea9963f9",
     "1a18c607aa365770",
     "1a18c81832c6af2f",
-    "1a18cb34efedd78f"
+    "1a18cb34efedd78f",
+    "1a18cd2de5b3809a"
   ],
   "feed_order": [
     "qt5dom",
