@@ -634,6 +634,23 @@
       "urgency": "orange",
       "title": "Google Cloud Platform",
       "note": "Proje 'My Project' (my-project-1540220831272) faturalandırma hesabı (010C76-14BE6C-9C5949) geçmiş borçlu veya geçerli ödeme bilgisi yok. Kart güncellenmezse Google Cloud/Firebase/API hizmetleri askıya alınır. YENİ MAİL 31.10 15:30 (31 Eki 15:29 · Google Payments · Google Cloud Platform & APIs: 010C76-14BE6C-9C5949 için ö): 31 Eki 12:29: Visa *0149 ile ödeme reddedildi (yetersiz bakiye). Hizmet kısa süre devam eder; ödeme yöntemi güncellenip bakiye ödenmeli. YENİ MAİL 31.10 15:30 (31 Eki 15:29 · Google Cloud Platform, Firebase, and API · Action required: your billing ac): 31 Ekim Google e-postası: faturalandırma hesabı gecikmiş/geçersiz ödeme bilgisi, ödeme bilgisi güncellenmeli, hizmetler askıya alınabilir. YENİ MAİL 31.10 15:30 (31 Eki 15:29 · Google Payments · Google Cloud Platform & APIs: Payment was declined for 01): 31 Eki: Visa ••0149 kartından çekim yetersiz bakiye nedeniyle reddedildi; hizmet kısa süre devam edebilir, ödeme yöntemi güncellenip bakiye ödenmeli."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Abonelik",
+      "party": "Adobe",
+      "amount": "₺557,50",
+      "due": "Limit yetersiz, ödeme alınamadı",
+      "uid": "76ry89",
+      "source": "mail-gelen",
+      "origin": "E-posta (31 Eki 19:30): VakıfBank · Bilgilendirme: Kredi Kart Limitiniz Yetersizdir",
+      "wamid": "1a192cc662294049",
+      "mail_thread": "1a192cc614a09e3a",
+      "imp": "low",
+      "amount_try": 557.5,
+      "urgency": "yellow",
+      "title": "Adobe",
+      "note": "Adobe aboneliği ₺557,50 çekilemedi: VakıfBank şirket kartı ••3399 limiti yetersiz. Limit artırımı veya kart değişikliği gerekebilir."
     }
   ],
   "departments": [
@@ -3271,7 +3288,8 @@
     "1a191f0056e98b4d",
     "1a191effe3d23010",
     "1a1929fa76388976",
-    "1a192cc614a09e3a"
+    "1a192cc614a09e3a",
+    "1a192cc662294049"
   ],
   "feed_order": [
     "qt5dom",
