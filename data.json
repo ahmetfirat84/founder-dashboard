@@ -618,6 +618,22 @@
       "urgency": "red",
       "title": "Zincirlikuyu VD (QNB haciz bildirimi)",
       "note": "QNB'den haciz bildirimi: Zincirlikuyu VD, dosya 2026102862Vyj0058523, ₺75.093,56. Haciz dosyası ve süre QNB Mobil/İnternet Şubesi'nden teyit edilecek."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Bulut hizmeti",
+      "party": "Google Cloud Platform",
+      "amount": "",
+      "due": "Askıya alma riski, tarih belirsiz",
+      "uid": "ksru10",
+      "source": "mail-gelen",
+      "origin": "E-posta (31 Eki 15:29): Google Cloud Platform, Firebase, and API · Your Project: My Project is at risk of suspension",
+      "wamid": "1a191f0098eb982d",
+      "mail_thread": "1a191f0098eb982d",
+      "imp": "high",
+      "urgency": "orange",
+      "title": "Google Cloud Platform",
+      "note": "Proje 'My Project' (my-project-1540220831272) faturalandırma hesabı (010C76-14BE6C-9C5949) geçmiş borçlu veya geçerli ödeme bilgisi yok. Kart güncellenmezse Google Cloud/Firebase/API hizmetleri askıya alınır."
     }
   ],
   "departments": [
@@ -2946,7 +2962,7 @@
       ]
     }
   ],
-  "updated": "2026-10-31 14:10",
+  "updated": "2026-10-31 15:30",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3245,7 +3261,8 @@
     "1a1905a2eb9b8bac",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzRTg3Qzk0NDc5QTY1MzAzNkEA",
     "1a1914daa6dc4093",
-    "1a191a7254563c81"
+    "1a191a7254563c81",
+    "1a191f0098eb982d"
   ],
   "feed_order": [
     "qt5dom",
