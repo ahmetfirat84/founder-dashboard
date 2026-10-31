@@ -1171,6 +1171,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Paraşüt'te 'Selin Öner (Maaş)' adına tekrarlayan maaş kaydı oluşturuldu (5.698,64 TL, her ayın son günü). Güncel bordroda bu isim yok; kaydın kimin olduğu kontrol edilmeli. (kaynak: E-posta (31 Eki 08:06): Paraşüt · Tekrarlayan Maaş Kaydınız Oluşturuldu)",
+          "at": "2026-10-31 08:06"
+        },
+        {
           "text": "Paraşüt: O2 Sağlık Eğitim Danışmanlık (Cemre-UBER) için 67.500 TL tekrarlayan fatura kaydı oluşturuldu; her ayın son günü otomatik fatura kesiliyor. (kaynak: E-posta (31 Eki 08:06): Paraşüt · Tekrarlayan Fatura Kaydınız Oluşturuldu)",
           "at": "2026-10-31 08:06"
         },
@@ -1285,10 +1289,6 @@
         {
           "text": "📎 fatura-gelen arşivlendi: IC Hospital (MK Hastane) 2026-09-07 no MKY2026000000273 ₺66.951 → https://drive.google.com/file/d/1dm32SefJm6RVPfsnp2D21lR0b6BsRxF7/view?usp=drivesdk",
           "at": "2026-10-19 16:07"
-        },
-        {
-          "text": "İstanbul Cerrahi (Nurcan Sarıbal, 07.09.2026): 03.09 taburcu son hasta için mutabakat istendi, ödeme son tarihi 09.09.2026 (geçti). İlk 2 hasta mutabakatı ve fatura daha önce paylaşıldı. Tutar ve ödeme yönü belirsiz. (kaynak: E-posta (7 Eyl 14:31): Nurcan Sarıbal · Re: new me bakiye)",
-          "at": "2026-10-19 16:06"
         }
       ],
       "drawer": [
@@ -3232,7 +3232,8 @@
     "1a18d8748b73cfda",
     "1a18d887907c17cf",
     "1a18d8929fed0291",
-    "1a1905a251cc5e0a"
+    "1a1905a251cc5e0a",
+    "1a1905a2df7334d1"
   ],
   "feed_order": [
     "qt5dom",
