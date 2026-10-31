@@ -2781,6 +2781,10 @@
       ],
       "notes": [
         {
+          "text": "VakıfBank bildirimi (31 Eki): şirket kartı ••3399 ile Adobe 557,50 TL işlemi limit yetersizliği nedeniyle reddedildi. Limit artırımı ya da başka ödeme yöntemi gerekebilir. (kaynak: E-posta (31 Eki 19:30): VakıfBank · Bilgilendirme: Kredi Kart Limitiniz Yetersiz)",
+          "at": "2026-10-31 19:31"
+        },
+        {
           "text": "GoDaddy masanisec.com alan adı 1 yıllık kaydı alındı (₺609,59, sipariş 4214496737). 31.10.2027'de ₺799,99 karşılığında otomatik yenilenecek; iptal için yenileme tarihinden önce GoDaddy hesabından kapatılmalı. (kaynak: E-posta (31 Eki 12:32): GoDaddy · Ahmet Firat, siparişiniz için teşekkür ederiz.)",
           "at": "2026-10-31 12:32"
         },
@@ -2962,7 +2966,7 @@
       ]
     }
   ],
-  "updated": "2026-10-31 18:42",
+  "updated": "2026-10-31 19:31",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3266,7 +3270,8 @@
     "1a191f0081574e8b",
     "1a191f0056e98b4d",
     "1a191effe3d23010",
-    "1a1929fa76388976"
+    "1a1929fa76388976",
+    "1a192cc614a09e3a"
   ],
   "feed_order": [
     "qt5dom",
