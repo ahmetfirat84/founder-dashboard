@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "source": "2026-10-16_sabah-brifing (Drive: 09_Management/briefing-system/handoffs)",
   "priorities": [
     "HubSpot Maximum monthly credits = 3.000 gir (yenileme 17 Ekim, en geç 10:00)",
@@ -8,19 +8,9 @@
   ],
   "meetings": [
     {
-      "time": "11:00",
-      "title": "Ahmet <> Hülya 1:1",
-      "note": "Hülya · Google Meet"
-    },
-    {
-      "time": "12:30",
-      "title": "& New Me_Daily",
-      "note": "Selin, Hülya, Cemre · Google Meet"
-    },
-    {
-      "time": "15:00",
-      "title": "Ahmet <> Selin 1:1",
-      "note": "Selin · Google Meet"
+      "time": "19:00",
+      "title": "⚽ Fenerbahçe - Göztepe",
+      "note": "Maç"
     }
   ],
   "cash_alerts": [
@@ -7736,7 +7726,7 @@
       ]
     }
   ],
-  "meetings_date": "2026-10-30",
+  "meetings_date": "2026-10-31",
   "directory": [
     {
       "id": "g5cmcp",
