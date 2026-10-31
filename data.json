@@ -2765,6 +2765,10 @@
       ],
       "notes": [
         {
+          "text": "GoDaddy masanisec.com alan adı 1 yıllık kaydı alındı (₺609,59, sipariş 4214496737). 31.10.2027'de ₺799,99 karşılığında otomatik yenilenecek; iptal için yenileme tarihinden önce GoDaddy hesabından kapatılmalı. (kaynak: E-posta (31 Eki 12:32): GoDaddy · Ahmet Firat, siparişiniz için teşekkür ederiz.)",
+          "at": "2026-10-31 12:32"
+        },
+        {
           "text": "asistan-mail-to-dashboard Apps Script 28-29 Ekim'de hata verdi (Gmail izin hatası + sunucu hataları); e-posta akışı kesintiye uğramış olabilir, kontrol edilmeli. (kaynak: E-posta (29 Eki 22:13): noreply-apps-scripts-notifications@googl · Summary of fa)",
           "at": "2026-10-29 22:14"
         },
@@ -2942,7 +2946,7 @@
       ]
     }
   ],
-  "updated": "2026-10-31 08:43",
+  "updated": "2026-10-31 12:32",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3239,7 +3243,8 @@
     "1a1905a251cc5e0a",
     "1a1905a2df7334d1",
     "1a1905a2eb9b8bac",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzRTg3Qzk0NDc5QTY1MzAzNkEA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzRTg3Qzk0NDc5QTY1MzAzNkEA",
+    "1a1914daa6dc4093"
   ],
   "feed_order": [
     "qt5dom",
