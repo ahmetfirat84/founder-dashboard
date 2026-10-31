@@ -633,7 +633,7 @@
       "imp": "high",
       "urgency": "orange",
       "title": "Google Cloud Platform",
-      "note": "Proje 'My Project' (my-project-1540220831272) faturalandırma hesabı (010C76-14BE6C-9C5949) geçmiş borçlu veya geçerli ödeme bilgisi yok. Kart güncellenmezse Google Cloud/Firebase/API hizmetleri askıya alınır. YENİ MAİL 31.10 15:30 (31 Eki 15:29 · Google Payments · Google Cloud Platform & APIs: 010C76-14BE6C-9C5949 için ö): 31 Eki 12:29: Visa *0149 ile ödeme reddedildi (yetersiz bakiye). Hizmet kısa süre devam eder; ödeme yöntemi güncellenip bakiye ödenmeli. YENİ MAİL 31.10 15:30 (31 Eki 15:29 · Google Cloud Platform, Firebase, and API · Action required: your billing ac): 31 Ekim Google e-postası: faturalandırma hesabı gecikmiş/geçersiz ödeme bilgisi, ödeme bilgisi güncellenmeli, hizmetler askıya alınabilir."
+      "note": "Proje 'My Project' (my-project-1540220831272) faturalandırma hesabı (010C76-14BE6C-9C5949) geçmiş borçlu veya geçerli ödeme bilgisi yok. Kart güncellenmezse Google Cloud/Firebase/API hizmetleri askıya alınır. YENİ MAİL 31.10 15:30 (31 Eki 15:29 · Google Payments · Google Cloud Platform & APIs: 010C76-14BE6C-9C5949 için ö): 31 Eki 12:29: Visa *0149 ile ödeme reddedildi (yetersiz bakiye). Hizmet kısa süre devam eder; ödeme yöntemi güncellenip bakiye ödenmeli. YENİ MAİL 31.10 15:30 (31 Eki 15:29 · Google Cloud Platform, Firebase, and API · Action required: your billing ac): 31 Ekim Google e-postası: faturalandırma hesabı gecikmiş/geçersiz ödeme bilgisi, ödeme bilgisi güncellenmeli, hizmetler askıya alınabilir. YENİ MAİL 31.10 15:30 (31 Eki 15:29 · Google Payments · Google Cloud Platform & APIs: Payment was declined for 01): 31 Eki: Visa ••0149 kartından çekim yetersiz bakiye nedeniyle reddedildi; hizmet kısa süre devam edebilir, ödeme yöntemi güncellenip bakiye ödenmeli."
     }
   ],
   "departments": [
@@ -3264,7 +3264,8 @@
     "1a191a7254563c81",
     "1a191f0098eb982d",
     "1a191f0081574e8b",
-    "1a191f0056e98b4d"
+    "1a191f0056e98b4d",
+    "1a191effe3d23010"
   ],
   "feed_order": [
     "qt5dom",
