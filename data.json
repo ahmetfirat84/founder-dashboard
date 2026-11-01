@@ -280,7 +280,7 @@
       "wamid": "1a148a98897a1f4d",
       "due_date": "2026-10-17",
       "title": "Sonetel",
-      "note": "Sonetel prepaid bakiye negatif ($-2,43): aramalar ve mesajlar duraklatıldı, numara yenilemede kaybedilebilir. app.sonetel.com üzerinden bakiye yükle.",
+      "note": "Sonetel prepaid bakiye negatif ($-2,43): aramalar ve mesajlar duraklatıldı, numara yenilemede kaybedilebilir. app.sonetel.com üzerinden bakiye yükle. YENİ MAİL 01.11 10:01 (1 Kas 10:01 · Sonetel · Calls Paused! Negative Balance in Account): Sonetel e-postası: hesap bakiyesi $-2,43, aramalar duraklatıldı; yenileme dönemine girerse numara kaybedilebilir.",
       "imp": "low"
     },
     {
@@ -3003,7 +3003,7 @@
       ]
     }
   ],
-  "updated": "2026-11-01 08:00",
+  "updated": "2026-11-01 10:01",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3309,7 +3309,8 @@
     "1a191effe3d23010",
     "1a1929fa76388976",
     "1a192cc614a09e3a",
-    "1a192cc662294049"
+    "1a192cc662294049",
+    "1a195e96f4e33dbf"
   ],
   "feed_order": [
     "qt5dom",
