@@ -1,18 +1,12 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "source": "2026-10-16_sabah-brifing (Drive: 09_Management/briefing-system/handoffs)",
   "priorities": [
     "HubSpot Maximum monthly credits = 3.000 gir (yenileme 17 Ekim, en geç 10:00)",
     "Bugün kapanış tarihli dealleri (Hamza B. €4.980, Briahn T. €2.646) ve \"ulaşılmaya çalışıldı\" leadlerini netleştir",
     "HealthTürkiye yenileme ücretini ve CPA Türk 2025 kurumlar vergisi beyannamesini kontrol et"
   ],
-  "meetings": [
-    {
-      "time": "19:00",
-      "title": "⚽ Fenerbahçe - Göztepe",
-      "note": "Maç"
-    }
-  ],
+  "meetings": [],
   "cash_alerts": [
     {
       "title": "Fulya Ada Eczanesi ilaç faturaları",
@@ -651,6 +645,18 @@
       "urgency": "yellow",
       "title": "Adobe",
       "note": "Adobe aboneliği ₺557,50 çekilemedi: VakıfBank şirket kartı ••3399 limiti yetersiz. Limit artırımı veya kart değişikliği gerekebilir."
+    },
+    {
+      "title": "HubSpot hesabı askıya alındı",
+      "action_type": "Ödeme",
+      "category": "Abonelik",
+      "party": "HubSpot",
+      "amount": "€320",
+      "due": "Hemen",
+      "due_date": "2026-10-17",
+      "urgency": "red",
+      "note": "Hub 143451706: 17 Eki vadeli ödeme yapılmadı, hesap askıda; ödenmezse terminate edilir (geri dönüşsüz). Hesap & Faturalama'dan öde.",
+      "id": "1a194ce37004aa3c"
     }
   ],
   "departments": [
@@ -659,7 +665,7 @@
       "name": "BATU",
       "area": "Muhasebe",
       "status": "red",
-      "updated": "2026-10-30 17:28",
+      "updated": "2026-11-01 08:00",
       "items": [
         {
           "uid": "s9mc5u",
@@ -1199,6 +1205,20 @@
           "urgency": "gray",
           "text": "Ekim 2026 ücret bordrosu CPA Türk'ten (Yasemin Hızarcı) geldi, kontrol edilecek",
           "owner": ""
+        },
+        {
+          "text": "HubSpot hesabı ödeme yapılmadığı için ASKIYA ALINDI (vade 17 Eki); ödemeyi yap, yoksa hesap kapatılır ve geri alınamaz",
+          "action_type": "Ödeme",
+          "category": "Abonelik",
+          "party": "HubSpot",
+          "amount": "€320",
+          "due": "Hemen (askıda)",
+          "due_date": "2026-10-17",
+          "urgency": "red",
+          "owner": "Ahmet",
+          "source": "email",
+          "id": "1a194ce37004aa3c",
+          "feed": false
         }
       ],
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
@@ -2983,7 +3003,7 @@
       ]
     }
   ],
-  "updated": "2026-10-31 19:31",
+  "updated": "2026-11-01 08:00",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -7784,7 +7804,7 @@
       ]
     }
   ],
-  "meetings_date": "2026-10-31",
+  "meetings_date": "2026-11-01",
   "directory": [
     {
       "id": "g5cmcp",
