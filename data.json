@@ -2818,6 +2818,10 @@
       ],
       "notes": [
         {
+          "text": "yenibenhealthtourism.com Cloudflare'de aktif (Free plan); nameserver'lar courtney/donald.ns.cloudflare.com, eski natrohost NS'leri kaldırıldı. (kaynak: E-posta (1 Kas 16:49): Cloudflare · [Confirmation] yenibenhealthtourism.com is a)",
+          "at": "2026-11-01 16:49"
+        },
+        {
           "text": "VakıfBank bildirimi (31 Eki): şirket kartı ••3399 ile Adobe 557,50 TL işlemi limit yetersizliği nedeniyle reddedildi. Limit artırımı ya da başka ödeme yöntemi gerekebilir. (kaynak: E-posta (31 Eki 19:30): VakıfBank · Bilgilendirme: Kredi Kart Limitiniz Yetersiz)",
           "at": "2026-10-31 19:31"
         },
@@ -3003,7 +3007,7 @@
       ]
     }
   ],
-  "updated": "2026-11-01 14:19",
+  "updated": "2026-11-01 16:49",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3315,7 +3319,8 @@
     "1a1964c0f671cb04",
     "1a1964bfe7df079d",
     "1a196cd3815ca451",
-    "1a196d56175c4ace"
+    "1a196d56175c4ace",
+    "1a1975f0339af6ff"
   ],
   "feed_order": [
     "qt5dom",
