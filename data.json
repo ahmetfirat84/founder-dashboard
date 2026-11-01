@@ -644,7 +644,7 @@
       "amount_try": 557.5,
       "urgency": "yellow",
       "title": "Adobe",
-      "note": "Adobe aboneliği ₺557,50 çekilemedi: VakıfBank şirket kartı ••3399 limiti yetersiz. Limit artırımı veya kart değişikliği gerekebilir."
+      "note": "Adobe aboneliği ₺557,50 çekilemedi: VakıfBank şirket kartı ••3399 limiti yetersiz. Limit artırımı veya kart değişikliği gerekebilir. YENİ MAİL 01.11 17:23 (1 Kas 17:23 · Adobe · Ödemeniz yapılamadı): Adobe mail (1 Kas): son ödeme tarihi 29 Kas 2026, ₺557,50 Visa ••3399 ile tahsil edilemedi."
     },
     {
       "title": "HubSpot hesabı askıya alındı",
@@ -3007,7 +3007,7 @@
       ]
     }
   ],
-  "updated": "2026-11-01 16:49",
+  "updated": "2026-11-01 17:23",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3320,7 +3320,8 @@
     "1a1964bfe7df079d",
     "1a196cd3815ca451",
     "1a196d56175c4ace",
-    "1a1975f0339af6ff"
+    "1a1975f0339af6ff",
+    "1a1977e5f1919036"
   ],
   "feed_order": [
     "qt5dom",
