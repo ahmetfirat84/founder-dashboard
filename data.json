@@ -2357,6 +2357,10 @@
       "summary": "Meta Ads 7 gündür kapalı",
       "notes": [
         {
+          "text": "Google Search Console: andnewme.com Profile sayfalarında 'Unrecognized field \"author\"' yapılandırılmış veri hatası için düzeltme doğrulaması kısmen başarısız. 6 sayfa düzeldi, kalan sayfalarda hata sürüyor. (kaynak: E-posta (1 Kas 21:14): Google Search Console Team · Some fixes failed for Profil)",
+          "at": "2026-11-01 21:15"
+        },
+        {
           "text": "Google Search Console: andnewme.com Profile sayfalarında 'dateModified' geçersiz tarih hatası. 7 sayfa düzeldi, bazı sayfalar hâlâ etkileniyor. Kalan sayfalar düzeltilip yeniden doğrulanmalı. (kaynak: E-posta (1 Kas 21:14): Google Search Console Team · Some fixes failed for Profil)",
           "at": "2026-11-01 21:14"
         },
@@ -3011,7 +3015,7 @@
       ]
     }
   ],
-  "updated": "2026-11-01 21:14",
+  "updated": "2026-11-01 21:15",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3326,7 +3330,8 @@
     "1a196d56175c4ace",
     "1a1975f0339af6ff",
     "1a1977e5f1919036",
-    "1a1985196200d662"
+    "1a1985196200d662",
+    "1a19851f225834e0"
   ],
   "feed_order": [
     "qt5dom",
