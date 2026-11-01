@@ -1224,6 +1224,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Akbank'tan Artı Para borç bilgilendirmesi geldi; tutar ve vade e-postada yok, Akbank Mobil > Mesajlarım'dan kontrol edilmeli. (kaynak: E-posta (1 Kas 10:46): AKBANK · Artı Para'nız Hakkında Bilgilendirme)",
+          "at": "2026-11-01 10:46"
+        },
+        {
           "text": "📎 fatura-gelen arşivlendi: Adobe 2026-10-31 no 3627219209 ₺558 → https://drive.google.com/file/d/1eAEzCjxa4Qh8b9TLKe6vwIgRg3dULQ8u/view?usp=drivesdk",
           "at": "2026-10-31 18:42"
         },
@@ -1338,10 +1342,6 @@
         {
           "text": "📎 belge arşivlendi: İstanbul İl Sağlık Müdürlüğü 2026-06-11 no 1930945 → https://drive.google.com/file/d/1uoXpjjFbs-1VPfhJNwspJV2kOUFid45S/view?usp=drivesdk",
           "at": "2026-10-20 12:25"
-        },
-        {
-          "text": "Barivital (r13, ₺22.950): karşı taraf ödeme günü sordu; Ahmet 'Perşembe ya da Cuma' (22 veya 23 Eki) yanıtını verdi, teyit bekleniyor. (kaynak: WhatsApp (19 Eki 16:09, iletilen yazışma, 7 mesaj))",
-          "at": "2026-10-19 16:10"
         }
       ],
       "drawer": [
@@ -3003,7 +3003,7 @@
       ]
     }
   ],
-  "updated": "2026-11-01 10:01",
+  "updated": "2026-11-01 10:46",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3310,7 +3310,8 @@
     "1a1929fa76388976",
     "1a192cc614a09e3a",
     "1a192cc662294049",
-    "1a195e96f4e33dbf"
+    "1a195e96f4e33dbf",
+    "1a19612e88b9b149"
   ],
   "feed_order": [
     "qt5dom",
