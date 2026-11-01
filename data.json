@@ -627,7 +627,7 @@
       "imp": "high",
       "urgency": "orange",
       "title": "Google Cloud Platform",
-      "note": "Proje 'My Project' (my-project-1540220831272) faturalandırma hesabı (010C76-14BE6C-9C5949) geçmiş borçlu veya geçerli ödeme bilgisi yok. Kart güncellenmezse Google Cloud/Firebase/API hizmetleri askıya alınır. YENİ MAİL 31.10 15:30 (31 Eki 15:29 · Google Payments · Google Cloud Platform & APIs: 010C76-14BE6C-9C5949 için ö): 31 Eki 12:29: Visa *0149 ile ödeme reddedildi (yetersiz bakiye). Hizmet kısa süre devam eder; ödeme yöntemi güncellenip bakiye ödenmeli. YENİ MAİL 31.10 15:30 (31 Eki 15:29 · Google Cloud Platform, Firebase, and API · Action required: your billing ac): 31 Ekim Google e-postası: faturalandırma hesabı gecikmiş/geçersiz ödeme bilgisi, ödeme bilgisi güncellenmeli, hizmetler askıya alınabilir. YENİ MAİL 31.10 15:30 (31 Eki 15:29 · Google Payments · Google Cloud Platform & APIs: Payment was declined for 01): 31 Eki: Visa ••0149 kartından çekim yetersiz bakiye nedeniyle reddedildi; hizmet kısa süre devam edebilir, ödeme yöntemi güncellenip bakiye ödenmeli. YENİ MAİL 01.11 11:49 (1 Kas 11:48 · Google Payments · Google Cloud Platform & APIs: Ödeme alındı): 01.11.2026: ₺500 ödeme alındı (Visa ••0149, ref CLOUD 4LCQw3); askıya alma riski için kalan bakiye teyit edilmeli. YENİ MAİL 01.11 11:49 (1 Kas 11:48 · Google Payments · Google Cloud Platform & APIs: Payment received): 1 Kas 2026: Google Cloud'a ₺500 ödeme alındı (Visa ••0149), faturalandırma kart ödemesiyle yenilendi, kalan bakiye teyit edilmeli."
+      "note": "Proje 'My Project' (my-project-1540220831272) faturalandırma hesabı (010C76-14BE6C-9C5949) geçmiş borçlu veya geçerli ödeme bilgisi yok. Kart güncellenmezse Google Cloud/Firebase/API hizmetleri askıya alınır. YENİ MAİL 31.10 15:30 (31 Eki 15:29 · Google Payments · Google Cloud Platform & APIs: 010C76-14BE6C-9C5949 için ö): 31 Eki 12:29: Visa *0149 ile ödeme reddedildi (yetersiz bakiye). Hizmet kısa süre devam eder; ödeme yöntemi güncellenip bakiye ödenmeli. YENİ MAİL 31.10 15:30 (31 Eki 15:29 · Google Cloud Platform, Firebase, and API · Action required: your billing ac): 31 Ekim Google e-postası: faturalandırma hesabı gecikmiş/geçersiz ödeme bilgisi, ödeme bilgisi güncellenmeli, hizmetler askıya alınabilir. YENİ MAİL 31.10 15:30 (31 Eki 15:29 · Google Payments · Google Cloud Platform & APIs: Payment was declined for 01): 31 Eki: Visa ••0149 kartından çekim yetersiz bakiye nedeniyle reddedildi; hizmet kısa süre devam edebilir, ödeme yöntemi güncellenip bakiye ödenmeli. YENİ MAİL 01.11 11:49 (1 Kas 11:48 · Google Payments · Google Cloud Platform & APIs: Ödeme alındı): 01.11.2026: ₺500 ödeme alındı (Visa ••0149, ref CLOUD 4LCQw3); askıya alma riski için kalan bakiye teyit edilmeli. YENİ MAİL 01.11 11:49 (1 Kas 11:48 · Google Payments · Google Cloud Platform & APIs: Payment received): 1 Kas 2026: Google Cloud'a ₺500 ödeme alındı (Visa ••0149), faturalandırma kart ödemesiyle yenilendi, kalan bakiye teyit edilmeli. YENİ MAİL 01.11 22:48 (1 Kas 22:48 · Google Cloud Platform, Firebase, and API · Your Project: My Project is at ri): Google'dan 1 Kas 2026: faturalandırma hesabı (010C76-14BE6C-9C5949) ödeme bilgisi geçersiz/gecikmiş, hizmetlerin kesilmemesi için ödeme bilgisi güncellenmeli."
     },
     {
       "action_type": "Ödeme",
@@ -3015,7 +3015,7 @@
       ]
     }
   ],
-  "updated": "2026-11-01 21:15",
+  "updated": "2026-11-01 22:48",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3331,7 +3331,8 @@
     "1a1975f0339af6ff",
     "1a1977e5f1919036",
     "1a1985196200d662",
-    "1a19851f225834e0"
+    "1a19851f225834e0",
+    "1a198a7ce5c1b252"
   ],
   "feed_order": [
     "qt5dom",
