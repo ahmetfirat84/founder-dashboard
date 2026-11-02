@@ -1,12 +1,18 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "source": "2026-10-16_sabah-brifing (Drive: 09_Management/briefing-system/handoffs)",
   "priorities": [
     "HubSpot Maximum monthly credits = 3.000 gir (yenileme 17 Ekim, en geç 10:00)",
     "Bugün kapanış tarihli dealleri (Hamza B. €4.980, Briahn T. €2.646) ve \"ulaşılmaya çalışıldı\" leadlerini netleştir",
     "HealthTürkiye yenileme ücretini ve CPA Türk 2025 kurumlar vergisi beyannamesini kontrol et"
   ],
-  "meetings": [],
+  "meetings": [
+    {
+      "time": "12:30",
+      "title": "& New Me_Weekly",
+      "note": "Hülya, Selin, Cemre · Google Meet"
+    }
+  ],
   "cash_alerts": [
     {
       "title": "Fulya Ada Eczanesi ilaç faturaları",
@@ -7847,7 +7853,7 @@
       ]
     }
   ],
-  "meetings_date": "2026-11-01",
+  "meetings_date": "2026-11-02",
   "directory": [
     {
       "id": "g5cmcp",
