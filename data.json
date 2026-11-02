@@ -2012,7 +2012,7 @@
           "owner": "",
           "source": "asistan",
           "uid": "98b538",
-          "note": "YENİ MAİL 22.10 23:14 (22 Eki 23:13 · Cankat Sir · YeniBen - Olağan Genel Kurul): Cankat Şir (22 Eki): 2023-2025 yıllarına ait Olağan GK çağrı belge taslakları gönderildi; yarınki bildirime göre haberleşilecek. YENİ MAİL 30.10 18:36 (30 Eki 18:36 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): Pay defteri teyidi bekleniyor (Ersun/Coşkun Bey); çağrının kimlere gideceği defterden netleşecek, imza sirküleri 15 Kas'ta doluyor. YENİ MAİL 30.10 18:39 (30 Eki 18:39 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): Pay defteri ve güncel pay sahipleri listesi CPA Türk'e soruldu (2023 GK: 41 pay sahibi, 73.675 TL); defter teyidi çağrı takvimini belirleyecek."
+          "note": "YENİ MAİL 22.10 23:14 (22 Eki 23:13 · Cankat Sir · YeniBen - Olağan Genel Kurul): Cankat Şir (22 Eki): 2023-2025 yıllarına ait Olağan GK çağrı belge taslakları gönderildi; yarınki bildirime göre haberleşilecek. YENİ MAİL 30.10 18:36 (30 Eki 18:36 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): Pay defteri teyidi bekleniyor (Ersun/Coşkun Bey); çağrının kimlere gideceği defterden netleşecek, imza sirküleri 15 Kas'ta doluyor. YENİ MAİL 30.10 18:39 (30 Eki 18:39 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): Pay defteri ve güncel pay sahipleri listesi CPA Türk'e soruldu (2023 GK: 41 pay sahibi, 73.675 TL); defter teyidi çağrı takvimini belirleyecek. YENİ MAİL 02.11 11:29 (2 Kas 11:29 · Giray Komurcu · Re: Yeniben genel kurul çağrısı öncesi adres teyidi): Giray Komurcu adres teyidi (2 Kas): çağrı Yüzbaşılar mh. Sahil cad. Kumlalı apt. D:10, Gölcük/Kocaeli adresine gönderilecek."
         },
         {
           "text": "YK süresi doluyor: genel kurulla yeni YK seçimi, finansal onay ve ibra",
@@ -3046,7 +3046,7 @@
       ]
     }
   ],
-  "updated": "2026-11-02 11:24",
+  "updated": "2026-11-02 11:29",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3349,7 +3349,8 @@
     "1a19b298048a7c00",
     "1a19b3573543b7d7",
     "1a19b4e209c01ece",
-    "1a19b5c05e4ee75d"
+    "1a19b5c05e4ee75d",
+    "1a19b60964f66efb"
   ],
   "feed_order": [
     "qt5dom",
