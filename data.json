@@ -693,6 +693,22 @@
       "due_date": "2026-11-17",
       "title": "Apple",
       "note": "Apple Premium (Monthly) aboneliği 17 Kasım'da sona eriyor, yenileme ödemesi (₺99)."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "",
+      "party": "Kanyon",
+      "amount": "₺23.478,60",
+      "due": "Vade belirsiz",
+      "uid": "wi725t",
+      "source": "mail-gelen",
+      "origin": "E-posta (2 Kas 13:54): Kanyon · Kanyon tarafından düzenlenen KEB2026000003990 numaralı e-Arş",
+      "wamid": "1a19be521da13916",
+      "mail_thread": "1a19be521da13916",
+      "amount_try": 23478.6,
+      "urgency": "gray",
+      "title": "Kanyon",
+      "note": "Kasım 2026 konut aidat avansı (D9, Bağımsız Bölüm 0226), e-Arşiv KEB2026000003990, 02.11.2026; Apsiyon'dan ödenir"
     }
   ],
   "departments": [
@@ -1281,6 +1297,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "📎 fatura-gelen arşivlendi: Kanyon 2026-11-02 no KEB2026000003990 ₺23.479 → https://drive.google.com/file/d/1vUgyaDSD4AVmUJldgsDUEhQJKOrrIp0J/view?usp=drivesdk",
+          "at": "2026-11-02 13:54"
+        },
+        {
           "text": "Paraşüt abonelik 02.11.2026'da karttan yenilendi: ₺12.747,39 (3 taksit), sonraki yenileme 02.11.2027. (kaynak: E-posta (2 Kas 13:45): Paraşüt · Paraşüt Aboneliğiniz Yenilendi)",
           "at": "2026-11-02 13:46"
         },
@@ -1395,10 +1415,6 @@
         {
           "text": "📎 fatura-gelen arşivlendi: CK Boğaziçi Elektrik 2026-10-21 no BEA2026045741397 ₺1 → https://drive.google.com/file/d/1bILw6dYZHx2u3pb148w7JN9ajLZXT1hQ/view?usp=drivesdk",
           "at": "2026-10-22 00:47"
-        },
-        {
-          "text": "📎 fatura-gelen arşivlendi: ManoByte 2026-10-21 no MOGOE5GN-0010 → https://drive.google.com/file/d/1RsfjxaK4sExmZsCYd4LWVtK9r-2v7ykV/view?usp=drivesdk",
-          "at": "2026-10-21 17:59"
         }
       ],
       "drawer": [
@@ -3084,7 +3100,7 @@
       ]
     }
   ],
-  "updated": "2026-11-02 13:46",
+  "updated": "2026-11-02 13:54",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3095,7 +3111,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4RERCNENGRkMyMDMwRjIwRkQA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FFMzY4NzFCNzNBQUMxNUMzMzUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDdDNzBGOUFBMTRGMzY3REMyRgA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDM4RkQ3REM2RkE5MERFNzAyNQA=",
@@ -3394,7 +3409,8 @@
     "1a19bcfd7a2d1cb4",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDM1NUQ3NUIxRjc5NTlBODI3OQA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1MDlBRUNFRTYyM0IwRDIwNzIA",
-    "1a19bddad137a817"
+    "1a19bddad137a817",
+    "1a19be521da13916"
   ],
   "feed_order": [
     "qt5dom",
