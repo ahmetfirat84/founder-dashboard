@@ -708,7 +708,13 @@
       "amount_try": 23478.6,
       "urgency": "gray",
       "title": "Kanyon",
-      "note": "Kasım 2026 konut aidat avansı (D9, Bağımsız Bölüm 0226), e-Arşiv KEB2026000003990, 02.11.2026; Apsiyon'dan ödenir"
+      "note": "Kasım 2026 konut aidat avansı (D9, Bağımsız Bölüm 0226), e-Arşiv KEB2026000003990, 02.11.2026; Apsiyon'dan ödenir",
+      "invoice": {
+        "no": "KEB2026000003990",
+        "date": "2026-11-02",
+        "amount_try": 23478.6,
+        "drive_url": "https://drive.google.com/file/d/1vUgyaDSD4AVmUJldgsDUEhQJKOrrIp0J/view?usp=drivesdk"
+      }
     }
   ],
   "departments": [
@@ -1298,6 +1304,10 @@
       "notes": [
         {
           "text": "📎 fatura-gelen arşivlendi: Kanyon 2026-11-02 no KEB2026000003990 ₺23.479 → https://drive.google.com/file/d/1vUgyaDSD4AVmUJldgsDUEhQJKOrrIp0J/view?usp=drivesdk",
+          "at": "2026-11-02 15:32"
+        },
+        {
+          "text": "📎 fatura-gelen arşivlendi: Kanyon 2026-11-02 no KEB2026000003990 ₺23.479 → https://drive.google.com/file/d/1vUgyaDSD4AVmUJldgsDUEhQJKOrrIp0J/view?usp=drivesdk",
           "at": "2026-11-02 13:54"
         },
         {
@@ -1411,10 +1421,6 @@
         {
           "text": "Uber B.V. adına 40,00 TL temel e-Fatura Paraşüt'e düştü (2026-10-22). Küçük tutarlı rutin gider, vade yok. (kaynak: E-posta (22 Eki 07:38): Paraşüt · Yeni bir e-Faturanız var)",
           "at": "2026-10-22 07:39"
-        },
-        {
-          "text": "📎 fatura-gelen arşivlendi: CK Boğaziçi Elektrik 2026-10-21 no BEA2026045741397 ₺1 → https://drive.google.com/file/d/1bILw6dYZHx2u3pb148w7JN9ajLZXT1hQ/view?usp=drivesdk",
-          "at": "2026-10-22 00:47"
         }
       ],
       "drawer": [
@@ -3100,7 +3106,7 @@
       ]
     }
   ],
-  "updated": "2026-11-02 15:30",
+  "updated": "2026-11-02 15:32",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3118,7 +3124,6 @@
     }
   ],
   "asistan_seen": [
-    "1a144ace4d5d30d6",
     "1a148cdec1f15fbf",
     "1a149a5e48884fa9",
     "1a14948ed11438ee",
@@ -3417,7 +3422,8 @@
     "1a19c2238b5e4a0e",
     "1a19c2c0d56c9425",
     "1a19c31bbb396059",
-    "1a19c3cdc229e9d4"
+    "1a19c3cdc229e9d4",
+    "1a19c3f3be9839b9"
   ],
   "feed_order": [
     "qt5dom",
