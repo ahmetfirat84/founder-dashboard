@@ -164,13 +164,26 @@
     },
     {
       "title": "CPA Türk",
-      "amount": "₺46.450",
-      "due": "Söz: en geç 31 Eki",
-      "note": "Ödeme durumu teyit bekliyor. 19.10: Ahmet ay sonuna kadar ilk taksiti ödeme sözü verdi. 20.10: Eylül taksiti ödenmemişti, plan 1 ay kaydı (son taksit Ocak 2027).",
+      "amount": "₺46.450 (ödendi)",
+      "due": "Ödendi 02.11",
+      "note": "Ödeme durumu teyit bekliyor. 19.10: Ahmet ay sonuna kadar ilk taksiti ödeme sözü verdi. 20.10: Eylül taksiti ödenmemişti, plan 1 ay kaydı (son taksit Ocak 2027). ÖDENDİ 2026-11-02: ₺46.450 (dekont, havale ücreti ₺8.38). Satır tutarı ₺46.450.",
       "action_type": "Ödeme",
       "category": "Muhasebe",
       "party": "CPA Türk",
-      "due_date": "2026-10-31"
+      "due_date": "2026-10-31",
+      "uid": "3xvghg",
+      "done": true,
+      "doneAt": "2026-11-02 13:42",
+      "amount_try": 46450,
+      "proof": {
+        "type": "banka dekontu",
+        "date": "2026-11-02",
+        "amount_try": 46450,
+        "fee_try": 8.38,
+        "channel": "WhatsApp (2 Kas 13:42, belge)",
+        "drive_url": "https://drive.google.com/file/d/1ktYMMDpTBeetvhq5D-77NFILQ56aV9_B/view?usp=drivesdk",
+        "draft_url": ""
+      }
     },
     {
       "title": "Orya Hotel",
@@ -3071,7 +3084,7 @@
       ]
     }
   ],
-  "updated": "2026-11-02 13:36",
+  "updated": "2026-11-02 13:42",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3082,7 +3095,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FENUEzRTdFQTFGNTlDOUM4QUUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDZDNTNFQTUxQUY3NkI2QjE5MwA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4RERCNENGRkMyMDMwRjIwRkQA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FFMzY4NzFCNzNBQUMxNUMzMzUA",
@@ -3381,7 +3393,8 @@
     "1a19b859063aa564",
     "1a19b89016b8ffe7",
     "1a19bcfd7a2d1cb4",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDM1NUQ3NUIxRjc5NTlBODI3OQA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDM1NUQ3NUIxRjc5NTlBODI3OQA=",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1MDlBRUNFRTYyM0IwRDIwNzIA"
   ],
   "feed_order": [
     "qt5dom",
