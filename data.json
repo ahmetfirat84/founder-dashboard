@@ -1035,6 +1035,11 @@
                 "thread": "1a058af49b0b3a9b"
               }
             ]
+          },
+          "invoice": {
+            "no": "",
+            "date": "2026-11-02",
+            "amount_try": 26750
           }
         },
         {
@@ -1263,6 +1268,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Tetik Turizm işveren raporu (01.09–02.11.2026): 11 transfer, toplam ₺26.750 (06.09 ₺2.250, 16.09 ₺3.250, 02.10 ₺2.000, 05.10 ₺2.000, 07.10 ₺2.250, 10.10 ₺3.750, 16.10 ₺2.250, 25.10 ₺2.250, 26.10 ₺2.250, 30.10 ₺2.250, 02.11 ₺2.250). Emre Bey'in bildirdiği ₺32.100 bakiye ile ₺5.350 fark var; fatura ve (kaynak: WhatsApp (2 Kas 13:36, belge))",
+          "at": "2026-11-02 13:36"
+        },
+        {
           "text": "📎 fatura-gelen arşivlendi: Google Workspace 2026-10-31 no 5722541537 ₺1.311 → https://drive.google.com/file/d/1X87mWyhFUsdB_rP-mfEL3LCAI5uQ9SwQ/view?usp=drivesdk",
           "at": "2026-11-02 09:28"
         },
@@ -1377,10 +1386,6 @@
         {
           "text": "📎 belge arşivlendi: Seçil N. Fırat 2026-10-21 → https://drive.google.com/file/d/1WfGKQBoZBfyFmMKswiGlYWP3R1deMgIX/view?usp=drivesdk",
           "at": "2026-10-21 14:50"
-        },
-        {
-          "text": "📎 belge arşivlendi: SME Raporlama 2026-06-30 ₺214.200 → https://drive.google.com/file/d/1Dhb7DUFv8k_k-qljUiORh22cpyqWuK7J/view?usp=drivesdk",
-          "at": "2026-10-21 13:57"
         }
       ],
       "drawer": [
@@ -3066,7 +3071,7 @@
       ]
     }
   ],
-  "updated": "2026-11-02 13:31",
+  "updated": "2026-11-02 13:36",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3077,7 +3082,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4Q0NCMjIyMTM4QzRGNUQ3NDYA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FENUEzRTdFQTFGNTlDOUM4QUUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDZDNTNFQTUxQUY3NkI2QjE5MwA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4RERCNENGRkMyMDMwRjIwRkQA",
@@ -3376,7 +3380,8 @@
     "1a19b7e612c97e09",
     "1a19b859063aa564",
     "1a19b89016b8ffe7",
-    "1a19bcfd7a2d1cb4"
+    "1a19bcfd7a2d1cb4",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDM1NUQ3NUIxRjc5NTlBODI3OQA="
   ],
   "feed_order": [
     "qt5dom",
