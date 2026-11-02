@@ -3106,7 +3106,7 @@
       ]
     }
   ],
-  "updated": "2026-11-02 16:28",
+  "updated": "2026-11-02 17:19",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3121,10 +3121,16 @@
       "date": "2026-11-02T12:17:33.000Z",
       "thread": "1a19c31bbb396059",
       "note": "Bilinmeyen gönderen, onay gerekir"
+    },
+    {
+      "subject": "RE: YENİBEN GENEL KURUL EVRAKLAR ",
+      "from": "Ersun Oruc <ersunoruc@cpaturk.com.tr>",
+      "date": "2026-11-02T14:18:39.000Z",
+      "thread": "1a19ca0653f60268",
+      "note": "Bilinmeyen gönderen, onay gerekir"
     }
   ],
   "asistan_seen": [
-    "1a149a5e48884fa9",
     "1a14948ed11438ee",
     "1a1492f5ce9c6f1d",
     "1a148a98897a1f4d",
@@ -3423,7 +3429,8 @@
     "1a19c31bbb396059",
     "1a19c3cdc229e9d4",
     "1a19c3f3be9839b9",
-    "1a19c71f45d53fa6"
+    "1a19c71f45d53fa6",
+    "1a19ca0653f60268"
   ],
   "feed_order": [
     "qt5dom",
