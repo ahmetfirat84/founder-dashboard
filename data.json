@@ -657,6 +657,23 @@
       "urgency": "red",
       "note": "Hub 143451706: 17 Eki vadeli ödeme yapılmadı, hesap askıda; ödenmezse terminate edilir (geri dönüşsüz). Hesap & Faturalama'dan öde.",
       "id": "1a194ce37004aa3c"
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Abonelik",
+      "party": "Apple",
+      "amount": "₺99",
+      "due": "17 Kas 2026",
+      "uid": "26jfov",
+      "source": "mail-gelen",
+      "origin": "E-posta (2 Kas 05:41): Apple · Your subscription is expiring",
+      "wamid": "1a19a21c402e49dd",
+      "mail_thread": "1a19a21c402e49dd",
+      "imp": "low",
+      "amount_try": 99,
+      "due_date": "2026-11-17",
+      "title": "Apple",
+      "note": "Apple Premium (Monthly) aboneliği 17 Kasım'da sona eriyor, yenileme ödemesi (₺99)."
     }
   ],
   "departments": [
@@ -3015,7 +3032,7 @@
       ]
     }
   ],
-  "updated": "2026-11-02 04:04",
+  "updated": "2026-11-02 05:41",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3334,7 +3351,8 @@
     "1a19851f225834e0",
     "1a198a7ce5c1b252",
     "1a198a7cd07d58dc",
-    "1a199c8acaa2b45f"
+    "1a199c8acaa2b45f",
+    "1a19a21c402e49dd"
   ],
   "feed_order": [
     "qt5dom",
