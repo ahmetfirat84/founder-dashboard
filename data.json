@@ -539,7 +539,7 @@
       "imp": "high",
       "urgency": "red",
       "title": "İş Bankası kredi kartı",
-      "note": "İş Bankası kredi kartı borcu gecikmede. Banka 60 aya kadar yapılandırma sunuyor (İşCep Kartlar menüsü, 0 850 724 04 04). Tutar e-postada yok. YENİ MAİL 26.10 13:36 (26 Eki 13:35 · Turkiye Is Bankasi A.S · Kredi Kartı Ödeme Planınız Hazır): İş Bankası 26.10: 60 aya kadar yapılandırma teklifi (aylık faiz %3,25, vergi-fon dahil %4,23); İşCep-Kartlar menüsünden ya da 0 850 724 04 04 ile yapılabiliyor. YENİ MAİL 26.10 14:12 (22 Nis 10:34 · Sema Avcı · Ynt: [SUPHELI EPOSTA - SPF FAIL] Re: [SUPHELI EPOSTA - SPF F): İş Bankası (Sema Avcı) Şubat ve Mart 2026 ekstrelerini iletti, Nisan ekstresi çıkmamış. Mart ekstresi: borç ₺109.002,05, asgari ₺21.800,41, son ödeme 06.04.2026, gecikmiş tutar ₺20.832,07. YENİ MAİL 26.10 14:13 (26 Eki 14:10 · Sema Avcı · Ynt: [SUPHELI EPOSTA - SPF FAIL] Re: [SUPHELI EPOSTA - SPF F): İş Bankası (Sema Avcı) kart ekstrelerini iletti: 01.10 ekstresi ₺41.400,89 (asgari ₺8.280,18) + €1.034,10 (asgari €206,82) + $10,59, son ödeme 05.10 geçti; Ekim ekstresi henüz kesilmedi (kesim 31.10). YENİ MAİL 02.11 19:29 (2 Kas 19:29 · Turkiye Is Bankasi A.S · 4508 **** **** 4144 - Ekim 2026 TL Maximiles Kredi ): 31 Ekim 2026 TL hesap özeti e-postayla geldi (ekte); tutar ve son ödeme tarihi e-posta gövdesinde yok."
+      "note": "İş Bankası kredi kartı borcu gecikmede. Banka 60 aya kadar yapılandırma sunuyor (İşCep Kartlar menüsü, 0 850 724 04 04). Tutar e-postada yok. YENİ MAİL 26.10 13:36 (26 Eki 13:35 · Turkiye Is Bankasi A.S · Kredi Kartı Ödeme Planınız Hazır): İş Bankası 26.10: 60 aya kadar yapılandırma teklifi (aylık faiz %3,25, vergi-fon dahil %4,23); İşCep-Kartlar menüsünden ya da 0 850 724 04 04 ile yapılabiliyor. YENİ MAİL 26.10 14:12 (22 Nis 10:34 · Sema Avcı · Ynt: [SUPHELI EPOSTA - SPF FAIL] Re: [SUPHELI EPOSTA - SPF F): İş Bankası (Sema Avcı) Şubat ve Mart 2026 ekstrelerini iletti, Nisan ekstresi çıkmamış. Mart ekstresi: borç ₺109.002,05, asgari ₺21.800,41, son ödeme 06.04.2026, gecikmiş tutar ₺20.832,07. YENİ MAİL 26.10 14:13 (26 Eki 14:10 · Sema Avcı · Ynt: [SUPHELI EPOSTA - SPF FAIL] Re: [SUPHELI EPOSTA - SPF F): İş Bankası (Sema Avcı) kart ekstrelerini iletti: 01.10 ekstresi ₺41.400,89 (asgari ₺8.280,18) + €1.034,10 (asgari €206,82) + $10,59, son ödeme 05.10 geçti; Ekim ekstresi henüz kesilmedi (kesim 31.10). YENİ MAİL 02.11 19:29 (2 Kas 19:29 · Turkiye Is Bankasi A.S · 4508 **** **** 4144 - Ekim 2026 TL Maximiles Kredi ): 31 Ekim 2026 TL hesap özeti e-postayla geldi (ekte); tutar ve son ödeme tarihi e-posta gövdesinde yok. YENİ MAİL 02.11 19:29 (2 Kas 19:29 · Turkiye Is Bankasi A.S · 4508 **** **** 0149 - Ekim 2026 TL Maximiles Kredi ): 31 Ekim 2026 TL hesap özeti e-postayla geldi (kart ••0149), asgari tutar ve son ödeme tarihi ekte."
     },
     {
       "title": "HubSpot kart ödemesi başarısız",
@@ -3135,7 +3135,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDVERjUwRjgxQTYxN0RCRkYzRQA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEVFMTkzRjc2QTRGM0VBOUNBNgA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0ExN0YyODY3NjZENDc5OTgzODEA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzMUE5NjYyRkZCMzA0NUVCM0UA",
@@ -3434,7 +3433,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEU4N0RFNjI0OEE0RkMzRDFFRAA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDVBODkzREM1QkUyODAxNjFENAA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDM3NUNGQUMxNDBBMTg0M0E3MAA=",
-    "1a19d18138ebe0d9"
+    "1a19d18138ebe0d9",
+    "1a19d180fa4b6172"
   ],
   "feed_order": [
     "qt5dom",
