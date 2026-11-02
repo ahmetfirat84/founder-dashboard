@@ -2873,6 +2873,10 @@
       ],
       "notes": [
         {
+          "text": "Mail teslim edilemedi: s.demirkirmaz@jacques-d.com adresi alıcı sunucu tarafından reddedildi (550 5.4.1). Alternatif adresle ya da başka kanalla tekrar ulaşmak gerekebilir. (kaynak: E-posta (2 Kas 12:13): Mail Delivery Subsystem · Delivery Status Notification (F)",
+          "at": "2026-11-02 12:14"
+        },
+        {
           "text": "yenibenhealthtourism.com Cloudflare'de aktif (Free plan); nameserver'lar courtney/donald.ns.cloudflare.com, eski natrohost NS'leri kaldırıldı. (kaynak: E-posta (1 Kas 16:49): Cloudflare · [Confirmation] yenibenhealthtourism.com is a)",
           "at": "2026-11-01 16:49"
         },
@@ -3062,7 +3066,7 @@
       ]
     }
   ],
-  "updated": "2026-11-02 12:10",
+  "updated": "2026-11-02 12:14",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3073,7 +3077,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EwNUI4MjZGRjQ3NEM5RDc1RjQA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzMzQ5REY0M0UxRUVCNTU1RUUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4Q0NCMjIyMTM4QzRGNUQ3NDYA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FENUEzRTdFQTFGNTlDOUM4QUUA",
@@ -3372,7 +3375,8 @@
     "1a19b7b79e0c21be",
     "1a19b7e74d3708a6",
     "1a19b7e612c97e09",
-    "1a19b859063aa564"
+    "1a19b859063aa564",
+    "1a19b89016b8ffe7"
   ],
   "feed_order": [
     "qt5dom",
