@@ -2380,6 +2380,10 @@
       "summary": "Meta Ads 7 gündür kapalı",
       "notes": [
         {
+          "text": "Instagram reel referansı: https://www.instagram.com/reel/DeXFxPDCLe8/ (kaynak: WhatsApp (2 Kas 09:53, yazılı))",
+          "at": "2026-11-02 09:53"
+        },
+        {
           "text": "Google Search Console: andnewme.com Profile sayfalarında 'Unrecognized field \"author\"' yapılandırılmış veri hatası için düzeltme doğrulaması kısmen başarısız. 6 sayfa düzeldi, kalan sayfalarda hata sürüyor. (kaynak: E-posta (1 Kas 21:14): Google Search Console Team · Some fixes failed for Profil)",
           "at": "2026-11-01 21:15"
         },
@@ -3038,7 +3042,7 @@
       ]
     }
   ],
-  "updated": "2026-11-02 09:28",
+  "updated": "2026-11-02 09:53",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3361,7 +3365,8 @@
     "1a19a21c402e49dd",
     "1a19aec6e34f12a5",
     "1a19af15022a2594",
-    "1a19af143ab6b0d0"
+    "1a19af143ab6b0d0",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EyRkJGNkMxRUY4NTUxMDMzREIA"
   ],
   "feed_order": [
     "qt5dom",
