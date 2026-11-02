@@ -3110,7 +3110,7 @@
       ]
     }
   ],
-  "updated": "2026-11-02 17:45",
+  "updated": "2026-11-02 18:28",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3135,7 +3135,6 @@
     }
   ],
   "asistan_seen": [
-    "1a148a98897a1f4d",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDA4QjcwODM2QkY3REZFNjQ4QQA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEJDMjBCODVGREQyQUI1MTcwRQA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEVENUExRkI2Q0UxMTFCRUI3MgA=",
@@ -3434,7 +3433,8 @@
     "1a19c71f45d53fa6",
     "1a19ca0653f60268",
     "1a19cb3d0cb3452f",
-    "1a19cb835d8f6299"
+    "1a19cb835d8f6299",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEIxOUI5MjM5OTQ5OTAyOUFGOQA="
   ],
   "feed_order": [
     "qt5dom",
@@ -8722,11 +8722,11 @@
   ],
   "extra_events": [
     {
-      "date": "2026-10-24",
-      "time": "19:00",
-      "title": "Akşam yemeği",
-      "note": "Önceki 'Ahmet Usta' etkinliğinin başlık ve mekan güncellemesi",
-      "location": "Ahmet Usta Etiler",
+      "date": "2026-11-05",
+      "time": "20:00",
+      "title": "Yemek: Bilgitay-Melisa",
+      "note": "Şahsi yemek, Perşembe 20.00",
+      "location": "Armutlu Beko",
       "calendar": "sahsi"
     }
   ],
