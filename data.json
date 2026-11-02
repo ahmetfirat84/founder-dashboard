@@ -3088,6 +3088,10 @@
       ],
       "notes": [
         {
+          "text": "Not: https://x.com/mmdincerdev/status/2117266548901425329 (X paylaşımı bağlantısı) (kaynak: WhatsApp (3 Kas 00:11, yazılı))",
+          "at": "2026-11-03 00:11"
+        },
+        {
           "text": "THY Miles&Smiles üyelik şifresi değiştirildi bildirimi (2 Kas 2026, TK302779697). (kaynak: E-posta (2 Kas 17:39): Turkish Airlines · Üyelik Şifreniz Başarıyla Değiştirildi)",
           "at": "2026-11-02 17:40"
         },
@@ -3110,7 +3114,7 @@
       ]
     }
   ],
-  "updated": "2026-11-02 19:30",
+  "updated": "2026-11-03 00:11",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3135,7 +3139,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzMUE5NjYyRkZCMzA0NUVCM0UA",
     "1a14abb2ab8edbdd",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFEOTAxNTNCMDVFNEU5RkM3RDYA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDJDMjIxNEVENzEyRkZCREZBNgA=",
@@ -3434,7 +3437,8 @@
     "1a19d18138ebe0d9",
     "1a19d180fa4b6172",
     "1a19d1804caa8478",
-    "1a19d18001b32ccb"
+    "1a19d18001b32ccb",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCQTc5MDhCOTA5RTdBOTNFOUMA"
   ],
   "feed_order": [
     "qt5dom",
