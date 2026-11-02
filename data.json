@@ -1256,7 +1256,8 @@
           "mail_thread": "1a19b53d58ae72cb",
           "urgency": "gray",
           "text": "Yeniben genel kurul çağrısı öncesi adres teyidi (Onur Candan e-postası, 2 Kas). Ahmet, Batu'nun ilgilenmesini istedi.",
-          "owner": ""
+          "owner": "",
+          "note": "YENİ MAİL 02.11 11:54 (2 Kas 11:53 · Batuhan Şiker · Re: Yeniben genel kurul çağrısı öncesi adres teyidi): Batuhan Şiker (2 Kas 08:53): adres aynı, ofiste genelde kimse olmuyor, tebligat teslim alınamayabilir; kişisel adresini paylaşabileceğini yazdı."
         }
       ],
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
@@ -3061,7 +3062,7 @@
       ]
     }
   ],
-  "updated": "2026-11-02 11:52",
+  "updated": "2026-11-02 11:54",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3369,7 +3370,8 @@
     "1a19b71bcfe3a277",
     "1a19b71aa0bb22ce",
     "1a19b73d4c824bd3",
-    "1a19b751688747d8"
+    "1a19b751688747d8",
+    "1a19b771e4bc5b4f"
   ],
   "feed_order": [
     "qt5dom",
