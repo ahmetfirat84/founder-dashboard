@@ -3066,7 +3066,7 @@
       ]
     }
   ],
-  "updated": "2026-11-02 12:14",
+  "updated": "2026-11-02 13:31",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3077,7 +3077,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzMzQ5REY0M0UxRUVCNTU1RUUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4Q0NCMjIyMTM4QzRGNUQ3NDYA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FENUEzRTdFQTFGNTlDOUM4QUUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDZDNTNFQTUxQUY3NkI2QjE5MwA=",
@@ -3376,7 +3375,8 @@
     "1a19b7e74d3708a6",
     "1a19b7e612c97e09",
     "1a19b859063aa564",
-    "1a19b89016b8ffe7"
+    "1a19b89016b8ffe7",
+    "1a19bcfd7a2d1cb4"
   ],
   "feed_order": [
     "qt5dom",
@@ -7975,6 +7975,56 @@
     }
   ],
   "meeting_notes": [
+    {
+      "id": "jv2ndv",
+      "title": "& New Me_Weekly",
+      "date": "2026-11-02",
+      "summary": "Pazar günü acil görüntüleme için düşük fiyatlı bir merkez bulundu, ultrason tamamlandı ve acil bir sorun yaşanmadı. Psikolojik destek kapsamı, kanser geçmişi olan hastaların süreci ve depozito takibi konuşuldu. Ekim'de AI kaynaklı trafiğin hızlı satışa dönüştüğü görüldü ve bunun yatırımcı güncellemesinde gösterilmesi istendi.",
+      "thread": "1a19bcfd7a2d1cb4",
+      "actions": [
+        {
+          "id": "cu94kf",
+          "text": "Kanser geçmişi olan hastalar için onkolog onayı, güncel kan değerleri ve gerekli tıbbi kontrolleri anlatan ayrı bir içerik sayfası hazırlanacak.",
+          "dep": "ilksen",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "sgvi3j",
+          "text": "Ödeme bekleyen müşterilerden net ödeme tarihi alınacak, belirsiz ödeme sözleri kabul edilmeyecek.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "Ödeme bekleyen müşteriler",
+          "status": "proposed"
+        },
+        {
+          "id": "to3t6l",
+          "text": "Önümüzdeki 2 hafta içinde 3 hastadan depozito alınması hedeflenecek ve süreç yakından takip edilecek.",
+          "dep": "zeynep",
+          "owner": "",
+          "due_date": "2026-11-16",
+          "party": "Depozito adayı 3 hasta",
+          "status": "proposed"
+        },
+        {
+          "id": "0d84ia",
+          "text": "Nasima'nın ameliyat tarihi, uçuşu ve eksik medikal bilgileri tamamlanacak.",
+          "dep": "ecem",
+          "owner": "",
+          "party": "Nasima",
+          "status": "proposed"
+        },
+        {
+          "id": "p62543",
+          "text": "AI kaynaklı ve organik kanalların hızlı satış dönüşümü yatırımcı güncellemesinde açıkça gösterilecek.",
+          "dep": "erkin",
+          "owner": "",
+          "party": "Yatırımcılar",
+          "status": "proposed"
+        }
+      ]
+    },
     {
       "id": "fu7hq3",
       "title": "Ahmet <> Selin 1:1",
