@@ -1251,6 +1251,10 @@
           "at": "2026-11-02 09:28"
         },
         {
+          "text": "📎 fatura-gelen arşivlendi: Google Workspace 2026-10-31 no 5722541537 ₺1.311 → https://drive.google.com/file/d/1X87mWyhFUsdB_rP-mfEL3LCAI5uQ9SwQ/view?usp=drivesdk",
+          "at": "2026-11-02 09:28"
+        },
+        {
           "text": "Paraşüt haftalık özet (2 Kas): bu hafta ödenecek 5 gider ₺32.366,21; gecikmiş giderler 905 adet ₺3.437.005,93; gecikmiş tahsilatlar 67 fatura ₺1.526.481,99. (kaynak: E-posta (2 Kas 04:03): Paraşüt · Haftalık Finansal Durumunuz)",
           "at": "2026-11-02 04:04"
         },
@@ -1360,10 +1364,6 @@
         },
         {
           "text": "📎 belge arşivlendi: SME Raporlama 2026-06-30 ₺214.200 → https://drive.google.com/file/d/1Dhb7DUFv8k_k-qljUiORh22cpyqWuK7J/view?usp=drivesdk",
-          "at": "2026-10-21 13:57"
-        },
-        {
-          "text": "📎 fatura-gelen arşivlendi: SME Raporlama 2026-06-30 no SME2026000000246 ₺120.000 → https://drive.google.com/file/d/1xhshPEc4BhgVQq46UAXbp2dPRb2qQWAE/view?usp=drivesdk",
           "at": "2026-10-21 13:57"
         }
       ],
@@ -3360,7 +3360,8 @@
     "1a199c8acaa2b45f",
     "1a19a21c402e49dd",
     "1a19aec6e34f12a5",
-    "1a19af15022a2594"
+    "1a19af15022a2594",
+    "1a19af143ab6b0d0"
   ],
   "feed_order": [
     "qt5dom",
