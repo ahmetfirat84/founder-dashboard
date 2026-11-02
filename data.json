@@ -1257,7 +1257,7 @@
           "urgency": "gray",
           "text": "Yeniben genel kurul çağrısı öncesi adres teyidi (Onur Candan e-postası, 2 Kas). Ahmet, Batu'nun ilgilenmesini istedi.",
           "owner": "",
-          "note": "YENİ MAİL 02.11 11:54 (2 Kas 11:53 · Batuhan Şiker · Re: Yeniben genel kurul çağrısı öncesi adres teyidi): Batuhan Şiker (2 Kas 08:53): adres aynı, ofiste genelde kimse olmuyor, tebligat teslim alınamayabilir; kişisel adresini paylaşabileceğini yazdı. YENİ MAİL 02.11 11:57 (2 Kas 11:57 · Onur Candan · Re: Yeniben genel kurul çağrısı öncesi adres teyidi): Onur Candan (2 Kas): vekalet Batu'da, genel kurul çağrısının hangi adrese gönderileceğine Batu karar verecek. YENİ MAİL 02.11 11:59 (2 Kas 11:58 · Ertürk Mavuk · RE: Yeniben genel kurul çağrısı öncesi adres teyidi): Ertürk Mavuk (2 Kas): adresi aynı, genel kurul çağrısı oraya gönderilebilir. YENİ MAİL 02.11 12:02 (2 Kas 12:01 · Selçuk Bayer · Re: Yeniben genel kurul çağrısı öncesi adres teyidi): Selçuk Bayer (2 Kas 09:01): adresinin aynı olduğunu teyit etti. YENİ MAİL 02.11 12:02 (2 Kas 12:01 · Gurkan Ustunkar · Re: Yeniben genel kurul çağrısı öncesi adres teyidi): Gürkan Üstünkar (2 Kas 09:01) adres teyidi: 'Aynı' yanıtı geldi, kayıtlı adres (Yalı Mah. Karşıyaka/İzmir) değişmedi."
+          "note": "YENİ MAİL 02.11 11:54 (2 Kas 11:53 · Batuhan Şiker · Re: Yeniben genel kurul çağrısı öncesi adres teyidi): Batuhan Şiker (2 Kas 08:53): adres aynı, ofiste genelde kimse olmuyor, tebligat teslim alınamayabilir; kişisel adresini paylaşabileceğini yazdı. YENİ MAİL 02.11 11:57 (2 Kas 11:57 · Onur Candan · Re: Yeniben genel kurul çağrısı öncesi adres teyidi): Onur Candan (2 Kas): vekalet Batu'da, genel kurul çağrısının hangi adrese gönderileceğine Batu karar verecek. YENİ MAİL 02.11 11:59 (2 Kas 11:58 · Ertürk Mavuk · RE: Yeniben genel kurul çağrısı öncesi adres teyidi): Ertürk Mavuk (2 Kas): adresi aynı, genel kurul çağrısı oraya gönderilebilir. YENİ MAİL 02.11 12:02 (2 Kas 12:01 · Selçuk Bayer · Re: Yeniben genel kurul çağrısı öncesi adres teyidi): Selçuk Bayer (2 Kas 09:01): adresinin aynı olduğunu teyit etti. YENİ MAİL 02.11 12:02 (2 Kas 12:01 · Gurkan Ustunkar · Re: Yeniben genel kurul çağrısı öncesi adres teyidi): Gürkan Üstünkar (2 Kas 09:01) adres teyidi: 'Aynı' yanıtı geldi, kayıtlı adres (Yalı Mah. Karşıyaka/İzmir) değişmedi. YENİ MAİL 02.11 12:10 (2 Kas 12:09 · Batuhan Şiker · Re: Yeniben genel kurul çağrısı öncesi adres teyidi): Batuhan Şiker (2 Kas 09:09) adres teyidi: mektup Karanfil Mah. 1106 Sk. No:27 D:7 Evka1 / Buca / İzmir adresine gönderilecek."
         }
       ],
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
@@ -3062,7 +3062,7 @@
       ]
     }
   ],
-  "updated": "2026-11-02 12:02",
+  "updated": "2026-11-02 12:10",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3073,7 +3073,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgUVFIuMjY4OTkwMDE3NjMxMDE1NTUVFAASGBQzQTM1QzZBQzM0OTRGNDlGOThFNgA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EwNUI4MjZGRjQ3NEM5RDc1RjQA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzMzQ5REY0M0UxRUVCNTU1RUUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4Q0NCMjIyMTM4QzRGNUQ3NDYA",
@@ -3372,7 +3371,8 @@
     "1a19b7a27368c77d",
     "1a19b7b79e0c21be",
     "1a19b7e74d3708a6",
-    "1a19b7e612c97e09"
+    "1a19b7e612c97e09",
+    "1a19b859063aa564"
   ],
   "feed_order": [
     "qt5dom",
