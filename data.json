@@ -1257,7 +1257,7 @@
           "urgency": "gray",
           "text": "Yeniben genel kurul çağrısı öncesi adres teyidi (Onur Candan e-postası, 2 Kas). Ahmet, Batu'nun ilgilenmesini istedi.",
           "owner": "",
-          "note": "YENİ MAİL 02.11 11:54 (2 Kas 11:53 · Batuhan Şiker · Re: Yeniben genel kurul çağrısı öncesi adres teyidi): Batuhan Şiker (2 Kas 08:53): adres aynı, ofiste genelde kimse olmuyor, tebligat teslim alınamayabilir; kişisel adresini paylaşabileceğini yazdı. YENİ MAİL 02.11 11:57 (2 Kas 11:57 · Onur Candan · Re: Yeniben genel kurul çağrısı öncesi adres teyidi): Onur Candan (2 Kas): vekalet Batu'da, genel kurul çağrısının hangi adrese gönderileceğine Batu karar verecek."
+          "note": "YENİ MAİL 02.11 11:54 (2 Kas 11:53 · Batuhan Şiker · Re: Yeniben genel kurul çağrısı öncesi adres teyidi): Batuhan Şiker (2 Kas 08:53): adres aynı, ofiste genelde kimse olmuyor, tebligat teslim alınamayabilir; kişisel adresini paylaşabileceğini yazdı. YENİ MAİL 02.11 11:57 (2 Kas 11:57 · Onur Candan · Re: Yeniben genel kurul çağrısı öncesi adres teyidi): Onur Candan (2 Kas): vekalet Batu'da, genel kurul çağrısının hangi adrese gönderileceğine Batu karar verecek. YENİ MAİL 02.11 11:59 (2 Kas 11:58 · Ertürk Mavuk · RE: Yeniben genel kurul çağrısı öncesi adres teyidi): Ertürk Mavuk (2 Kas): adresi aynı, genel kurul çağrısı oraya gönderilebilir."
         }
       ],
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
@@ -3062,7 +3062,7 @@
       ]
     }
   ],
-  "updated": "2026-11-02 11:57",
+  "updated": "2026-11-02 11:59",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3073,7 +3073,6 @@
     }
   ],
   "asistan_seen": [
-    "1a144b11f137335a",
     "1a1447dfdea52540",
     "1a14468679f061b9",
     "wamid.HBgUVFIuMjY4OTkwMDE3NjMxMDE1NTUVFAASGBQzQTM1QzZBQzM0OTRGNDlGOThFNgA=",
@@ -3372,7 +3371,8 @@
     "1a19b73d4c824bd3",
     "1a19b751688747d8",
     "1a19b771e4bc5b4f",
-    "1a19b7a27368c77d"
+    "1a19b7a27368c77d",
+    "1a19b7b79e0c21be"
   ],
   "feed_order": [
     "qt5dom",
