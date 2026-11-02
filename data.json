@@ -1281,6 +1281,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Paraşüt abonelik 02.11.2026'da karttan yenilendi: ₺12.747,39 (3 taksit), sonraki yenileme 02.11.2027. (kaynak: E-posta (2 Kas 13:45): Paraşüt · Paraşüt Aboneliğiniz Yenilendi)",
+          "at": "2026-11-02 13:46"
+        },
+        {
           "text": "Tetik Turizm işveren raporu (01.09–02.11.2026): 11 transfer, toplam ₺26.750 (06.09 ₺2.250, 16.09 ₺3.250, 02.10 ₺2.000, 05.10 ₺2.000, 07.10 ₺2.250, 10.10 ₺3.750, 16.10 ₺2.250, 25.10 ₺2.250, 26.10 ₺2.250, 30.10 ₺2.250, 02.11 ₺2.250). Emre Bey'in bildirdiği ₺32.100 bakiye ile ₺5.350 fark var; fatura ve (kaynak: WhatsApp (2 Kas 13:36, belge))",
           "at": "2026-11-02 13:36"
         },
@@ -1395,10 +1399,6 @@
         {
           "text": "📎 fatura-gelen arşivlendi: ManoByte 2026-10-21 no MOGOE5GN-0010 → https://drive.google.com/file/d/1RsfjxaK4sExmZsCYd4LWVtK9r-2v7ykV/view?usp=drivesdk",
           "at": "2026-10-21 17:59"
-        },
-        {
-          "text": "📎 belge arşivlendi: Seçil N. Fırat 2026-10-21 → https://drive.google.com/file/d/1WfGKQBoZBfyFmMKswiGlYWP3R1deMgIX/view?usp=drivesdk",
-          "at": "2026-10-21 14:50"
         }
       ],
       "drawer": [
@@ -3084,7 +3084,7 @@
       ]
     }
   ],
-  "updated": "2026-11-02 13:42",
+  "updated": "2026-11-02 13:46",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3095,7 +3095,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDZDNTNFQTUxQUY3NkI2QjE5MwA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4RERCNENGRkMyMDMwRjIwRkQA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FFMzY4NzFCNzNBQUMxNUMzMzUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDdDNzBGOUFBMTRGMzY3REMyRgA=",
@@ -3394,7 +3393,8 @@
     "1a19b89016b8ffe7",
     "1a19bcfd7a2d1cb4",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDM1NUQ3NUIxRjc5NTlBODI3OQA=",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1MDlBRUNFRTYyM0IwRDIwNzIA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1MDlBRUNFRTYyM0IwRDIwNzIA",
+    "1a19bddad137a817"
   ],
   "feed_order": [
     "qt5dom",
