@@ -1247,6 +1247,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "📎 fatura-gelen arşivlendi: Google Workspace 2026-10-31 no 5722541537 ₺1.311 → https://drive.google.com/file/d/1X87mWyhFUsdB_rP-mfEL3LCAI5uQ9SwQ/view?usp=drivesdk",
+          "at": "2026-11-02 09:28"
+        },
+        {
           "text": "Paraşüt haftalık özet (2 Kas): bu hafta ödenecek 5 gider ₺32.366,21; gecikmiş giderler 905 adet ₺3.437.005,93; gecikmiş tahsilatlar 67 fatura ₺1.526.481,99. (kaynak: E-posta (2 Kas 04:03): Paraşüt · Haftalık Finansal Durumunuz)",
           "at": "2026-11-02 04:04"
         },
@@ -1361,10 +1365,6 @@
         {
           "text": "📎 fatura-gelen arşivlendi: SME Raporlama 2026-06-30 no SME2026000000246 ₺120.000 → https://drive.google.com/file/d/1xhshPEc4BhgVQq46UAXbp2dPRb2qQWAE/view?usp=drivesdk",
           "at": "2026-10-21 13:57"
-        },
-        {
-          "text": "📎 fatura-gelen arşivlendi: Slack 2026-10-21 no SBIE-13161633 → https://drive.google.com/file/d/118MUlc9UmupE66-dkq16gQQKtnXZ2P29/view?usp=drivesdk",
-          "at": "2026-10-21 12:29"
         }
       ],
       "drawer": [
@@ -3038,7 +3038,7 @@
       ]
     }
   ],
-  "updated": "2026-11-02 09:22",
+  "updated": "2026-11-02 09:28",
   "review": [
     {
       "subject": "Invitation: Mo x ANDNEWME, 19 Eki 14:00-15:00",
@@ -3359,7 +3359,8 @@
     "1a198a7cd07d58dc",
     "1a199c8acaa2b45f",
     "1a19a21c402e49dd",
-    "1a19aec6e34f12a5"
+    "1a19aec6e34f12a5",
+    "1a19af15022a2594"
   ],
   "feed_order": [
     "qt5dom",
