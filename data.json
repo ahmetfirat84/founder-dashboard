@@ -3110,7 +3110,7 @@
       ]
     }
   ],
-  "updated": "2026-11-02 18:29",
+  "updated": "2026-11-02 18:32",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3135,7 +3135,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEJDMjBCODVGREQyQUI1MTcwRQA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEVENUExRkI2Q0UxMTFCRUI3MgA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDQxNzZFNUIwMzdGNkQzODQyRQA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDVERjUwRjgxQTYxN0RCRkYzRQA=",
@@ -3434,7 +3433,8 @@
     "1a19cb3d0cb3452f",
     "1a19cb835d8f6299",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEIxOUI5MjM5OTQ5OTAyOUFGOQA=",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEU4N0RFNjI0OEE0RkMzRDFFRAA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEU4N0RFNjI0OEE0RkMzRDFFRAA=",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDVBODkzREM1QkUyODAxNjFENAA="
   ],
   "feed_order": [
     "qt5dom",
@@ -8726,6 +8726,14 @@
       "time": "20:00",
       "title": "Yemek: Bilgitay-Melisa",
       "note": "Önceki kayıttaki Armutlu Beko yerine Kebapçı Beko Armutlu şubesi",
+      "location": "Kebapçı Beko Armutlu",
+      "calendar": "sahsi"
+    },
+    {
+      "date": "2026-11-05",
+      "time": "20:00",
+      "title": "Yemek: Bilgitay-Melisa",
+      "note": "Takvimde görünmediği bildirildi, yeniden eklendi.",
       "location": "Kebapçı Beko Armutlu",
       "calendar": "sahsi"
     }
