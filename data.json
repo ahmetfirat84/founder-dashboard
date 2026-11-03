@@ -740,7 +740,13 @@
       "amount_try": 4767.85,
       "urgency": "gray",
       "title": "Kanyon",
-      "note": "Kanyon D9 (BBN 0226) tüketim faturası KEC2026000003468, 31.10.2026: soğuk/sıcak su, atık su, ısıtma; KDV hariç ₺4.177,55 + KDV ₺590,30. Vade faturada yok, Apsiyon'dan kontrol et."
+      "note": "Kanyon D9 (BBN 0226) tüketim faturası KEC2026000003468, 31.10.2026: soğuk/sıcak su, atık su, ısıtma; KDV hariç ₺4.177,55 + KDV ₺590,30. Vade faturada yok, Apsiyon'dan kontrol et.",
+      "invoice": {
+        "no": "KEC2026000003468",
+        "date": "2026-10-31",
+        "amount_try": 4767.85,
+        "drive_url": "https://drive.google.com/file/d/1UXOKFm5dLjy50tW4-Z7EtxsvDu5uOzm7/view?usp=drivesdk"
+      }
     }
   ],
   "departments": [
@@ -1338,6 +1344,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "📎 fatura-gelen arşivlendi: Kanyon 2026-10-31 no KEC2026000003468 ₺4.768 → https://drive.google.com/file/d/1UXOKFm5dLjy50tW4-Z7EtxsvDu5uOzm7/view?usp=drivesdk",
+          "at": "2026-11-03 21:53"
+        },
+        {
           "text": "📎 fatura-gelen arşivlendi: CK Boğaziçi Elektrik 2026-11-03 no BEA2026047260259 ₺645 → https://drive.google.com/file/d/1CEt6_KIFCRxP3H_AACkUp0YvZUBGDgGR/view?usp=drivesdk",
           "at": "2026-11-03 19:03"
         },
@@ -1452,10 +1462,6 @@
         {
           "text": "📎 belge arşivlendi: İş Bankası Girişimcilik Şubesi (imza sirküleri) 2025-06-25 no 13749 → https://drive.google.com/file/d/1cjUIVFjdzsfVCSq69-cK2MUJM2EnEeg_/view?usp=drivesdk",
           "at": "2026-10-26 14:13"
-        },
-        {
-          "text": "📎 belge arşivlendi: İş Bankası Girişimcilik Şubesi (imza sirküleri) 2025-06-25 no 13749 → https://drive.google.com/file/d/1cjUIVFjdzsfVCSq69-cK2MUJM2EnEeg_/view?usp=drivesdk",
-          "at": "2026-10-26 14:12"
         }
       ],
       "drawer": [
@@ -3187,7 +3193,7 @@
       ]
     }
   ],
-  "updated": "2026-11-03 19:22",
+  "updated": "2026-11-03 21:53",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3226,7 +3232,6 @@
     }
   ],
   "asistan_seen": [
-    "1a0c408276ad8e4d",
     "1a0e6f682a4f6e8c",
     "1a0f0c53058a928f",
     "1a15382a4d7014e5",
@@ -3525,7 +3530,8 @@
     "1a1a2268ccf0ec74",
     "1a1a225d08513d10",
     "1a1a22dd3d5ac046",
-    "1a1a2374682bbca0"
+    "1a1a2374682bbca0",
+    "1a1a2c1c07679ff7"
   ],
   "feed_order": [
     "qt5dom",
