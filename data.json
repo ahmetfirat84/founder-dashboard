@@ -2052,7 +2052,7 @@
           "amount": "",
           "urgency": "gray",
           "uid": "cf40qh",
-          "note": "YENİ MAİL 19.10 12:24 (12 Eki 11:07 · Ahmet Enes Şahin · 2025/057803 \"neome\" kısmi tescil kararı hk.): Saygın Patent 12 Eki: tescil belge ücreti ₺13.000 + KDV, son gün 18 Eki 2026; ödeme satırı nakitte açıldı."
+          "note": "YENİ MAİL 19.10 12:24 (12 Eki 11:07 · Ahmet Enes Şahin · 2025/057803 \"neome\" kısmi tescil kararı hk.): Saygın Patent 12 Eki: tescil belge ücreti ₺13.000 + KDV, son gün 18 Eki 2026; ödeme satırı nakitte açıldı. YENİ MAİL 03.11 10:30 (3 Kas 10:30 · Esra Nur Buzluk · TESCİL BELGESİ HK.): 3 Kas: 2025/057803 'neome' marka tescil belgesi (e-imzalı) Saygın Patent'ten geldi; renkli çıktı isteniyorsa Esra Nur Buzluk'a mail ile talep edilebilir."
         },
         {
           "text": "KVKK Kurumsal İletişim Denetimi İlke Kararı (Karaçamşır, 12 Eki): şirkete etkisini incele",
@@ -3133,7 +3133,7 @@
       ]
     }
   ],
-  "updated": "2026-11-03 10:08",
+  "updated": "2026-11-03 10:30",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3158,7 +3158,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FEREFGOEQ1QzZBMzkyRkMxNzAA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMENFRjk2NDdBNjQ4NzNEMTMyOQA=",
     "1a14e18bf1229ab8",
     "1a14fb69e4c5b1f8",
@@ -3457,7 +3456,8 @@
     "1a19f6fb24822e97",
     "1a19f79b6b350e86",
     "1a19fb4520438ead",
-    "1a1a03c4d0f9ab9f"
+    "1a1a03c4d0f9ab9f",
+    "1a1a050f0f9c0d19"
   ],
   "feed_order": [
     "qt5dom",
