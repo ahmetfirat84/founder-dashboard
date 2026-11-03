@@ -3157,6 +3157,10 @@
       ],
       "notes": [
         {
+          "text": "Pegasus e-bilet hazır: PNR 2K79PE (3 Kas 2026). Bilet linki e-postada. (kaynak: E-posta (3 Kas 19:21): Pegasus Airlines · 2K79PE Rezervasyon Numaralı Elektronik)",
+          "at": "2026-11-03 19:22"
+        },
+        {
           "text": "Not: https://x.com/mmdincerdev/status/2117266548901425329 (X paylaşımı bağlantısı) (kaynak: WhatsApp (3 Kas 00:11, yazılı))",
           "at": "2026-11-03 00:11"
         },
@@ -3183,7 +3187,7 @@
       ]
     }
   ],
-  "updated": "2026-11-03 19:11",
+  "updated": "2026-11-03 19:22",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3222,7 +3226,6 @@
     }
   ],
   "asistan_seen": [
-    "1a0a8c164de211fa",
     "1a0c408276ad8e4d",
     "1a0e6f682a4f6e8c",
     "1a0f0c53058a928f",
@@ -3521,7 +3524,8 @@
     "1a1a217caadf68d3",
     "1a1a2268ccf0ec74",
     "1a1a225d08513d10",
-    "1a1a22dd3d5ac046"
+    "1a1a22dd3d5ac046",
+    "1a1a2374682bbca0"
   ],
   "feed_order": [
     "qt5dom",
