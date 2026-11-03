@@ -2932,6 +2932,10 @@
       ],
       "notes": [
         {
+          "text": "Instagram mihenk.consulting hesabına yeni giriş bildirimi (Apple iPhone, İstanbul, 2 Kas 23:29 PDT). Size ait değilse güvenlik adımları gerekebilir. (kaynak: E-posta (3 Kas 10:29): Instagram · New login to Instagram from Instagram on Appl)",
+          "at": "2026-11-03 10:30"
+        },
+        {
           "text": "Mail teslim edilemedi: s.demirkirmaz@jacques-d.com adresi alıcı sunucu tarafından reddedildi (550 5.4.1). Alternatif adresle ya da başka kanalla tekrar ulaşmak gerekebilir. (kaynak: E-posta (2 Kas 12:13): Mail Delivery Subsystem · Delivery Status Notification (F)",
           "at": "2026-11-02 12:14"
         },
@@ -3158,7 +3162,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMENFRjk2NDdBNjQ4NzNEMTMyOQA=",
     "1a14e18bf1229ab8",
     "1a14fb69e4c5b1f8",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEEyNzc4NjY0QzQwMjZDNjUzNjUA",
@@ -3457,7 +3460,8 @@
     "1a19f79b6b350e86",
     "1a19fb4520438ead",
     "1a1a03c4d0f9ab9f",
-    "1a1a050f0f9c0d19"
+    "1a1a050f0f9c0d19",
+    "1a1a0509a0594128"
   ],
   "feed_order": [
     "qt5dom",
