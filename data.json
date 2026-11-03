@@ -3141,7 +3141,7 @@
       ]
     }
   ],
-  "updated": "2026-11-03 13:04",
+  "updated": "2026-11-03 13:12",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3166,7 +3166,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1NjVDREU3OERERjdBNzBFNTgA",
     "1a14fba5ead88963",
     "1a14ff59be436502",
     "1a150de2ea177123",
@@ -3465,7 +3464,8 @@
     "1a1a07a8833c45cb",
     "1a1a0b3ae0da0b48",
     "1a1a0dd3c5cc2aa8",
-    "1a1a0dd3609c26a4"
+    "1a1a0dd3609c26a4",
+    "1a1a0e3e9df5c431"
   ],
   "feed_order": [
     "qt5dom",
@@ -8064,6 +8064,65 @@
     }
   ],
   "meeting_notes": [
+    {
+      "id": "ycpjwk",
+      "title": "& New Me_Daily",
+      "date": "2026-11-03",
+      "summary": "Ekip, CRM'de opportunity kurallarını, uzun vadeli leadlerin takibini ve fiyat/paket iyileştirmelerini görüştü. Karar vermekte geciken leadler için sınırlı süreli depozito indirimi şablonunun hızlıca gönderilmesi kararlaştırıldı. Nate'in geciken ödemesi için ertesi güne son tarih verilecek, sonuç alınamazsa konu hukuka taşınacak.",
+      "thread": "1a1a0e3e9df5c431",
+      "actions": [
+        {
+          "id": "vmxy2f",
+          "text": "Selin, Nate'e ödeme için net bir aksiyon veya bilgi vermesi gereken son tarihi (2026-11-04) bildirecek.",
+          "dep": "zeynep",
+          "owner": "Selin",
+          "due_date": "2026-11-04",
+          "party": "Nate",
+          "status": "proposed"
+        },
+        {
+          "id": "pmffvn",
+          "text": "Nate'ten 2026-11-04'e kadar gelişme olmazsa geciken ödeme konusu muhasebeden hukuk departmanına, ardından Oakland'daki anlaşmalı hukuk bürosuna aktarılacak.",
+          "dep": "cankat",
+          "owner": "",
+          "due_date": "2026-11-04",
+          "party": "Nate",
+          "status": "proposed"
+        },
+        {
+          "id": "ol8f5z",
+          "text": "Karar vermekte geciken leadler için sınırlı süreli depozito indirimi içeren genel bir mesaj şablonu hazırlanıp hızlıca gönderilecek (ör. 5.490 yerine 5.390).",
+          "dep": "zeynep",
+          "owner": "Ahmet",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "e12k9p",
+          "text": "Avustralya ve Yeni Zelanda dolarıyla hazırlanan depozito tutarlarının Euro karşılıklarındaki tutarsızlık feedback üzerinden düzeltilecek.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "Avustralya ve Yeni Zelanda dolarlı depozitolar",
+          "status": "proposed"
+        },
+        {
+          "id": "ogcypl",
+          "text": "Yanıt vermeyen eski leadlere fırsatın sona erebileceğini veya sınırlı süreli avantajlı fiyat sunulacağını belirten FOMO odaklı mesajlar gönderilecek.",
+          "dep": "zeynep",
+          "owner": "Selin",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "bswleo",
+          "text": "Ahmet, Marketplace ve AI leadlerini inceleyip burun estetiği gibi alanlarda reddedilmesi zor fiyat seçeneklerini belirleyecek; yeni reklamlar aynı hafta içinde açılacak.",
+          "dep": "ilksen",
+          "owner": "Ahmet",
+          "party": "AI leadleri / Marketplace",
+          "status": "proposed"
+        }
+      ]
+    },
     {
       "id": "jv2ndv",
       "title": "& New Me_Weekly",
