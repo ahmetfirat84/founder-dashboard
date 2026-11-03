@@ -2009,6 +2009,10 @@
       "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri",
       "notes": [
         {
+          "text": "USHAŞ CRM'de başvuru oluşturuldu (başvuru no 41877, 02.11.2026). Kuruluştan dönüş bekleniyor. (kaynak: E-posta (2 Kas 17:24): info@ushas.gov.tr · USHAŞ CRM | Başvurunuz Oluşturulmuştu)",
+          "at": "2026-11-03 11:09"
+        },
+        {
           "text": "USHAŞ CRM'de başvuru oluşturuldu (başvuru no 41675, 02.11.2026); USHAŞ'tan en kısa sürede dönüş bekleniyor. (kaynak: E-posta (2 Kas 11:09): info@ushas.gov.tr · USHAŞ CRM | Başvurunuz Oluşturulmuştu)",
           "at": "2026-11-02 11:09"
         },
@@ -3137,7 +3141,7 @@
       ]
     }
   ],
-  "updated": "2026-11-03 10:30",
+  "updated": "2026-11-03 11:09",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3162,7 +3166,6 @@
     }
   ],
   "asistan_seen": [
-    "1a14e18bf1229ab8",
     "1a14fb69e4c5b1f8",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEEyNzc4NjY0QzQwMjZDNjUzNjUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEEyMzc3MjkxRDBEMDJDNEFGRUQA",
@@ -3461,7 +3464,8 @@
     "1a19fb4520438ead",
     "1a1a03c4d0f9ab9f",
     "1a1a050f0f9c0d19",
-    "1a1a0509a0594128"
+    "1a1a0509a0594128",
+    "1a19ca59fe533379"
   ],
   "feed_order": [
     "qt5dom",
