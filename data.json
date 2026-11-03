@@ -1338,6 +1338,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Ömer Onur (Orli) e-postası, 3 Kas: Yeniben genel kurul iade-i taahhütlü posta için adres olarak Çekmeköy (Sırapınar Mah.) adresini tercih ediyor; ayrıntı mailde. (kaynak: E-posta (3 Kas 18:47): Ömer Onur · RE: Yeniben Genel kurulu-iade i taahhütlü pos)",
+          "at": "2026-11-03 18:47"
+        },
+        {
           "text": "📎 fatura-gelen arşivlendi: Kanyon 2026-10-31 no KEC2026000003468 ₺4.768 → https://drive.google.com/file/d/1UXOKFm5dLjy50tW4-Z7EtxsvDu5uOzm7/view?usp=drivesdk",
           "at": "2026-11-03 16:09"
         },
@@ -1452,10 +1456,6 @@
         {
           "text": "📎 belge arşivlendi: İş Bankası Girişimcilik Şubesi 2026-03-01 → https://drive.google.com/file/d/1RNfOpdt7UU1ggCS_IZ_ujyY7ME6v2S9J/view?usp=drivesdk",
           "at": "2026-10-26 14:12"
-        },
-        {
-          "text": "Paraşüt haftalık özet (26.10): 66 gecikmiş tahsilat ₺1.457.517,99; 914 gecikmiş gider ₺3.523.731,92; hesapta ₺2.984.638,78 görünüyor. Gider kayıtları Paraşüt'te temizlenmeli. (kaynak: E-posta (26 Eki 04:03): Paraşüt · Haftalık Finansal Durumunuz)",
-          "at": "2026-10-26 04:04"
         }
       ],
       "drawer": [
@@ -3161,7 +3161,7 @@
       ]
     }
   ],
-  "updated": "2026-11-03 18:37",
+  "updated": "2026-11-03 18:47",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3200,7 +3200,6 @@
     }
   ],
   "asistan_seen": [
-    "1a153e15801f7b0c",
     "1a15403246b9cbdf",
     "1a07ba462aa5d81f",
     "1a07bea189a201ed",
@@ -3499,7 +3498,8 @@
     "1a1a1edd5024c2dc",
     "1a1a2031293648ed",
     "1a1a20e0c9b8f3f6",
-    "1a1a20e04100deea"
+    "1a1a20e04100deea",
+    "1a1a217caadf68d3"
   ],
   "feed_order": [
     "qt5dom",
