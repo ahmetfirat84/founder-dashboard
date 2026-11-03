@@ -2952,6 +2952,10 @@
       ],
       "notes": [
         {
+          "text": "GitHub founder-dashboard 'pages build and deployment' çalışması başarısız: build geçti, deploy hata verdi (3 Kas 15:36 UTC). (kaynak: E-posta (3 Kas 18:36): Ahmet Fırat · [ahmetfirat84/founder-dashboard] Run failed)",
+          "at": "2026-11-03 18:37"
+        },
+        {
           "text": "Instagram mihenk.consulting hesabına yeni giriş bildirimi (Apple iPhone, İstanbul, 2 Kas 23:29 PDT). Size ait değilse güvenlik adımları gerekebilir. (kaynak: E-posta (3 Kas 10:29): Instagram · New login to Instagram from Instagram on Appl)",
           "at": "2026-11-03 10:30"
         },
@@ -3196,7 +3200,6 @@
     }
   ],
   "asistan_seen": [
-    "1a153c54e1afd570",
     "1a153e15801f7b0c",
     "1a15403246b9cbdf",
     "1a07ba462aa5d81f",
@@ -3495,7 +3498,8 @@
     "1a1a1d29fc355f89",
     "1a1a1edd5024c2dc",
     "1a1a2031293648ed",
-    "1a1a20e0c9b8f3f6"
+    "1a1a20e0c9b8f3f6",
+    "1a1a20e04100deea"
   ],
   "feed_order": [
     "qt5dom",
