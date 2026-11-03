@@ -1322,6 +1322,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "İş Bankası (Sema Avcı): 0149 ile biten kart için kaşe-imzalı 10.2026 dönemi ekstre talebine yanıt, belge ekte, e-posta 03.11 07:07. (kaynak: E-posta (3 Kas 10:07): Sema Avcı · Ynt: 0149 ile biten kaşe-imzalı kart extre ta)",
+          "at": "2026-11-03 10:08"
+        },
+        {
           "text": "📎 fatura-gelen arşivlendi: Kanyon 2026-11-02 no KEB2026000003990 ₺23.479 → https://drive.google.com/file/d/1vUgyaDSD4AVmUJldgsDUEhQJKOrrIp0J/view?usp=drivesdk",
           "at": "2026-11-02 15:32"
         },
@@ -1436,10 +1440,6 @@
         {
           "text": "Paraşüt'ten MikroGrup portal erişim bilgisi geldi (finans@yeniben hesabı, fatura kesiminde kontör düşer). Giriş bilgileri kaydedilmedi. (kaynak: E-posta (23 Eki 12:45): Paraşüt İletişim · [ ref:!00D0O0qYJM.!500QC0jPeA3:ref ])",
           "at": "2026-10-23 12:46"
-        },
-        {
-          "text": "Uber B.V. adına 40,00 TL temel e-Fatura Paraşüt'e düştü (2026-10-22). Küçük tutarlı rutin gider, vade yok. (kaynak: E-posta (22 Eki 07:38): Paraşüt · Yeni bir e-Faturanız var)",
-          "at": "2026-10-22 07:39"
         }
       ],
       "drawer": [
@@ -3133,7 +3133,7 @@
       ]
     }
   ],
-  "updated": "2026-11-03 07:39",
+  "updated": "2026-11-03 10:08",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3158,7 +3158,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EwQjc2QThCN0U4RTg2MDExQzkA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FEREFGOEQ1QzZBMzkyRkMxNzAA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMENFRjk2NDdBNjQ4NzNEMTMyOQA=",
     "1a14e18bf1229ab8",
@@ -3457,7 +3456,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCQTc5MDhCOTA5RTdBOTNFOUMA",
     "1a19f6fb24822e97",
     "1a19f79b6b350e86",
-    "1a19fb4520438ead"
+    "1a19fb4520438ead",
+    "1a1a03c4d0f9ab9f"
   ],
   "feed_order": [
     "qt5dom",
