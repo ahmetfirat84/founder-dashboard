@@ -2710,7 +2710,8 @@
           "urgency": "gray",
           "uid": "td_6hjq3gFRr7cwQGX9",
           "source": "todoist",
-          "plan_date": "2026-10-22"
+          "plan_date": "2026-10-22",
+          "note": "YENİ MAİL 03.11 19:03 (3 Kas 19:02 · Slush · Jonathan Kruger has declined your meeting request): Jonathan Kruger (Mercia Ventures) toplantı talebini reddetti: yalnızca UK merkezli şirketlere yatırım yapıyor."
         },
         {
           "text": "Claus'a yanıt yaz (DM'den)",
@@ -3217,7 +3218,6 @@
     }
   ],
   "asistan_seen": [
-    "1a07ba462aa5d81f",
     "1a07bea189a201ed",
     "1a0a8c164de211fa",
     "1a0c408276ad8e4d",
@@ -3516,7 +3516,8 @@
     "1a1a20e0c9b8f3f6",
     "1a1a20e04100deea",
     "1a1a217caadf68d3",
-    "1a1a2268ccf0ec74"
+    "1a1a2268ccf0ec74",
+    "1a1a225d08513d10"
   ],
   "feed_order": [
     "qt5dom",
