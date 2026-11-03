@@ -725,6 +725,22 @@
         "amount_try": 23478.6,
         "drive_url": "https://drive.google.com/file/d/1vUgyaDSD4AVmUJldgsDUEhQJKOrrIp0J/view?usp=drivesdk"
       }
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "",
+      "party": "Kanyon",
+      "amount": "₺4.767,85",
+      "due": "Vade belirsiz",
+      "uid": "duwqhd",
+      "source": "mail-gelen",
+      "origin": "E-posta (3 Kas 16:08): Kanyon Muhasebe · Fatura Bilgisi",
+      "wamid": "1a1a186e3e1e013c",
+      "mail_thread": "1a1a186e3e1e013c",
+      "amount_try": 4767.85,
+      "urgency": "gray",
+      "title": "Kanyon",
+      "note": "Kanyon D9 (BBN 0226) tüketim faturası KEC2026000003468, 31.10.2026: soğuk/sıcak su, atık su, ısıtma; KDV hariç ₺4.177,55 + KDV ₺590,30. Vade faturada yok, Apsiyon'dan kontrol et."
     }
   ],
   "departments": [
@@ -1322,6 +1338,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "📎 fatura-gelen arşivlendi: Kanyon 2026-10-31 no KEC2026000003468 ₺4.768 → https://drive.google.com/file/d/1UXOKFm5dLjy50tW4-Z7EtxsvDu5uOzm7/view?usp=drivesdk",
+          "at": "2026-11-03 16:09"
+        },
+        {
           "text": "IC Hospital (MK Hastane) e-faturası 66.509,16 TL Paraşüt'e düştü (3 Kas); 8 gün içinde kabul/red edilmeli (~11 Kas). Önceki mutabakat tutarı 66.373,56 TL, fark 135,60 TL, kontrol edilecek. (kaynak: E-posta (3 Kas 16:05): Paraşüt · Yeni bir e-Faturanız var)",
           "at": "2026-11-03 16:06"
         },
@@ -1436,10 +1456,6 @@
         {
           "text": "Paraşüt haftalık özet (26.10): 66 gecikmiş tahsilat ₺1.457.517,99; 914 gecikmiş gider ₺3.523.731,92; hesapta ₺2.984.638,78 görünüyor. Gider kayıtları Paraşüt'te temizlenmeli. (kaynak: E-posta (26 Eki 04:03): Paraşüt · Haftalık Finansal Durumunuz)",
           "at": "2026-10-26 04:04"
-        },
-        {
-          "text": "📎 fatura-gelen arşivlendi: IC Hospital (MK Hastane) 2026-10-20 no MKY2026000000651 ₺66.374 → https://drive.google.com/file/d/1VAFhonC_NVVEC0UACWJoDMzDtbkJ9FzS/view?usp=drivesdk",
-          "at": "2026-10-23 14:40"
         }
       ],
       "drawer": [
@@ -3141,7 +3157,7 @@
       ]
     }
   ],
-  "updated": "2026-11-03 16:06",
+  "updated": "2026-11-03 16:09",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3173,7 +3189,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FENzA0OEVGRTlDOUE5NUZGMTUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E2MjJFREQ1QzMxOUM3OTYxQUMA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFERDcwOEZGQ0YzNThFOThBNEYA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFBRkFDQjJFMDhGMkYyNjYyQTYA",
@@ -3472,7 +3487,8 @@
     "1a1a130757c73f85",
     "1a1a135d20dc7e9c",
     "1a1a183a805ee769",
-    "1a1a183ed19c16af"
+    "1a1a183ed19c16af",
+    "1a1a186e3e1e013c"
   ],
   "feed_order": [
     "qt5dom",
