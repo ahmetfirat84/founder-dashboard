@@ -1338,6 +1338,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "📎 fatura-gelen arşivlendi: CK Boğaziçi Elektrik 2026-11-03 no BEA2026047260259 ₺645 → https://drive.google.com/file/d/1CEt6_KIFCRxP3H_AACkUp0YvZUBGDgGR/view?usp=drivesdk",
+          "at": "2026-11-03 19:03"
+        },
+        {
           "text": "Ömer Onur (Orli) e-postası, 3 Kas: Yeniben genel kurul iade-i taahhütlü posta için adres olarak Çekmeköy (Sırapınar Mah.) adresini tercih ediyor; ayrıntı mailde. (kaynak: E-posta (3 Kas 18:47): Ömer Onur · RE: Yeniben Genel kurulu-iade i taahhütlü pos)",
           "at": "2026-11-03 18:47"
         },
@@ -1451,10 +1455,6 @@
         },
         {
           "text": "📎 belge arşivlendi: İş Bankası Girişimcilik Şubesi (imza sirküleri) 2025-06-25 no 13749 → https://drive.google.com/file/d/1cjUIVFjdzsfVCSq69-cK2MUJM2EnEeg_/view?usp=drivesdk",
-          "at": "2026-10-26 14:12"
-        },
-        {
-          "text": "📎 belge arşivlendi: İş Bankası Girişimcilik Şubesi 2026-03-01 → https://drive.google.com/file/d/1RNfOpdt7UU1ggCS_IZ_ujyY7ME6v2S9J/view?usp=drivesdk",
           "at": "2026-10-26 14:12"
         }
       ],
@@ -3071,7 +3071,7 @@
       "area": "Şahsi-Todo",
       "status": "gray",
       "summary": "Şahsi yapılacaklar",
-      "updated": "2026-10-28 14:36",
+      "updated": "2026-11-03 19:03",
       "items": [
         {
           "text": "OC: dünkü toplantı notlarını mail at, yapılacakları netleştir; gönderdiği bilet linkine bak, işe yararsa siteye embed et",
@@ -3131,6 +3131,23 @@
           "text": "Uçak biletlerini al (Republic Day miles kampanyası, Ahmet'in e-posta notu: 'yarın alalım')",
           "owner": "",
           "note": "YENİ MAİL 29.10 08:17 (29 Eki 08:16 · Ahmet Tosun · Re: Earn Extra 1,923 Status Miles on Republic Day!): Mail notu: Republic Day miles kampanyasındaki biletler 2027'ye alınan uçuşlar için. YENİ MAİL 03.11 06:35 (3 Kas 06:35 · Google Flights · Your tracked flight to Helsinki is now TRY 19,590 (was TRY ): Google Flights: İstanbul-Helsinki gidiş-dönüş 17-20 Kas fiyatı ₺19.590'a düştü (önceki ₺27.720)."
+        },
+        {
+          "action_type": "Ödeme",
+          "category": "Elektrik",
+          "party": "CK Boğaziçi Elektrik",
+          "amount": "₺645",
+          "due": "13 Kas",
+          "uid": "x8bn3b",
+          "source": "mail-gelen",
+          "origin": "E-posta (3 Kas 19:03): CK Boğaziçi Elektrik Perakende Satış A.Ş · Fatura Bilgilendirme",
+          "wamid": "1a1a2268ccf0ec74",
+          "mail_thread": "1a1a2268ccf0ec74",
+          "imp": "low",
+          "amount_try": 645,
+          "due_date": "2026-11-13",
+          "text": "Etiler konut elektrik faturası (BEA2026047260259, 02.10-03.11 dönemi), ödenecek ₺645,00; Garanti otomatik ödeme talimatı var",
+          "owner": ""
         }
       ],
       "notes": [
@@ -3161,7 +3178,7 @@
       ]
     }
   ],
-  "updated": "2026-11-03 18:47",
+  "updated": "2026-11-03 19:03",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3200,7 +3217,6 @@
     }
   ],
   "asistan_seen": [
-    "1a15403246b9cbdf",
     "1a07ba462aa5d81f",
     "1a07bea189a201ed",
     "1a0a8c164de211fa",
@@ -3499,7 +3515,8 @@
     "1a1a2031293648ed",
     "1a1a20e0c9b8f3f6",
     "1a1a20e04100deea",
-    "1a1a217caadf68d3"
+    "1a1a217caadf68d3",
+    "1a1a2268ccf0ec74"
   ],
   "feed_order": [
     "qt5dom",
