@@ -768,6 +768,22 @@
       "urgency": "gray",
       "title": "Allianz Sigorta",
       "note": "Allianz Sigorta 2.508 TL işlemi VakıfBank şirket kartı ••3399 limit yetersizliğinden çekilemedi. Limit artırımı ya da başka ödeme yöntemi gerekli (aynı kartta Adobe ₺557,50 da takılı, r20)."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Tedarikçi",
+      "party": "IC Hospital (MK Hastane)",
+      "amount": "₺133.018",
+      "due": "Vade belirsiz",
+      "uid": "ksf0e5",
+      "source": "mail-gelen",
+      "origin": "E-posta (4 Kas 15:52): Nurcan Sarıbal · RE: new me bakiye",
+      "wamid": "1a1a69de298b7b81",
+      "mail_thread": "1a07ba462aa5d81f",
+      "amount_try": 133018.32,
+      "urgency": "orange",
+      "title": "IC Hospital (MK Hastane)",
+      "note": "2 hasta faturası (03.11.2026): MKY2026000000686 Isabella Ruddlesden (Bella) ₺66.509,16 + MKY2026000000685 Jodie Rata ₺66.509,16, her biri %10 KDV dahil, Genel Cerrahi. Nurcan Sarıbal mailiyle geldi, vade ve ödeme planı netleşecek."
     }
   ],
   "departments": [
@@ -1366,6 +1382,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "📎 fatura-gelen arşivlendi: IC Hospital (MK Hastane) 2026-11-03 no MKY2026000000685 ₺66.509 → https://drive.google.com/file/d/1fYMdkEpTmeECiUxIiIVqcsAwoQLOwviX/view?usp=drivesdk",
+          "at": "2026-11-04 15:52"
+        },
+        {
           "text": "📎 fatura-gelen arşivlendi: Anthropic 2026-11-03 no LT2VPE3D-0012 → https://drive.google.com/file/d/1HFRIruJ8hRJqxLuw4pk5WO6GVKT93idd/view?usp=drivesdk",
           "at": "2026-11-04 13:19"
         },
@@ -1479,10 +1499,6 @@
         },
         {
           "text": "📎 fatura-gelen arşivlendi: SME Raporlama 2024-07-30 no SME2024000000302 ₺12.000 → https://drive.google.com/file/d/1aHYDDvDozoOiKKCtVnGVljlmz7NkhrN2/view?usp=drivesdk",
-          "at": "2026-10-26 18:48"
-        },
-        {
-          "text": "📎 belge arşivlendi: SME Raporlama 2024-07-30 ₺24.314 → https://drive.google.com/file/d/1zQ5VhkrFUoG2g7Q70T2lT91WJTkZoWTd/view?usp=drivesdk",
           "at": "2026-10-26 18:48"
         }
       ],
@@ -3254,7 +3270,7 @@
       ]
     }
   ],
-  "updated": "2026-11-04 14:20",
+  "updated": "2026-11-04 15:52",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3293,7 +3309,6 @@
     }
   ],
   "asistan_seen": [
-    "1a158dfad6e54bef",
     "1a158f314690b634",
     "1a15906fc30a1fcf",
     "1a159c74c7ef97ea",
@@ -3592,7 +3607,8 @@
     "1a1a607d7dc39e00",
     "1a1a610328cf701d",
     "1a1a615dbde7c670",
-    "1a1a64377caf316d"
+    "1a1a64377caf316d",
+    "1a1a69de298b7b81"
   ],
   "feed_order": [
     "qt5dom",
