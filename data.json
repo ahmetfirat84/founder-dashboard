@@ -2069,6 +2069,10 @@
       "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri",
       "notes": [
         {
+          "text": "HİB yazısı (4 Kas): Moskova Ticaret Müşavirliğine yapılacak ihracat desteği başvuruları 26.10.2026'dan itibaren yalnızca KEP üzerinden kabul ediliyor. Gönderen hibhaber.org alan adı; resmi hib.org.tr adresiyle teyit edilmeli. (kaynak: E-posta (4 Kas 16:40): Hizmet İhracatçıları Birliği Genel Sekre · Moskova Büyüke)",
+          "at": "2026-11-04 17:13"
+        },
+        {
           "text": "HİB e-posta: Ticaret Müşavirleriyle Elektronik Sohbet toplantıları (zorunlu değil): 5 Kas 14:00 Kuzey Makedonya, 12 Kas 11:00 Moğolistan, 19 Kas 14:00 Tanzanya, 26 Kas 11:00 Türkmenistan. Kayıt bağlantıları mailde. (kaynak: E-posta (4 Kas 12:21): Hizmet İhracatçıları Birliği Genel Sekre · Kasım 2026 Ele)",
           "at": "2026-11-04 13:14"
         },
@@ -3270,7 +3274,7 @@
       ]
     }
   ],
-  "updated": "2026-11-04 15:52",
+  "updated": "2026-11-04 17:13",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3309,7 +3313,6 @@
     }
   ],
   "asistan_seen": [
-    "1a158f314690b634",
     "1a15906fc30a1fcf",
     "1a159c74c7ef97ea",
     "1a15b9932b03307c",
@@ -3608,7 +3611,8 @@
     "1a1a610328cf701d",
     "1a1a615dbde7c670",
     "1a1a64377caf316d",
-    "1a1a69de298b7b81"
+    "1a1a69de298b7b81",
+    "1a1a6e79dd24d0c6"
   ],
   "feed_order": [
     "qt5dom",
