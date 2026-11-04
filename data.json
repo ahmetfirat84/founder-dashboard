@@ -1123,7 +1123,8 @@
             "no": "",
             "date": "2026-11-02",
             "amount_try": 26750
-          }
+          },
+          "note": "YENİ MAİL 04.11 11:45 (4 Kas 11:44 · Paraşüt · Yeni bir e-Faturanız var): Paraşüt e-faturası (04.11): Tetik Turizm ₺32.100, 8 gün içinde kabul/red gerekiyor (son gün ~12 Kas)."
         },
         {
           "text": "09/2026 KDV paketi: Ersun Bey'e KDV raporu, varsa KDV 2 faturaları, İşpos ve iyzico tahsilat dökümleri. Her ay 18–25'inde istiyor, KDV 2 son günü yaklaşık 25'i. Ağustos paketi 25 Eyl'de gitti, Eylül talebi henüz gelmedi.",
@@ -3237,7 +3238,7 @@
       ]
     }
   ],
-  "updated": "2026-11-04 11:12",
+  "updated": "2026-11-04 11:45",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3276,7 +3277,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1548b1edc7f4a4",
     "1a154c3a538e55a9",
     "1a157c4637a089e3",
     "1a15801633352d7f",
@@ -3575,7 +3575,8 @@
     "1a1a56f038b9d6e6",
     "1a1a587650a5dd81",
     "1a1a5996a052e45e",
-    "1a1a59d4d7565eeb"
+    "1a1a59d4d7565eeb",
+    "1a1a5bb3fc3aee8b"
   ],
   "feed_order": [
     "qt5dom",
