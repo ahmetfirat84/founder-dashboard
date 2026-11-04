@@ -2779,7 +2779,9 @@
           "category": "Yatırımcı",
           "party": "Slush (Private Dinner)",
           "amount": "",
-          "urgency": "gray"
+          "urgency": "gray",
+          "uid": "gs52u5",
+          "note": "YENİ MAİL 04.11 12:20 (4 Kas 12:19 · Slush · [Slush 2026] Event application declined: A Private Dinner — ): 4 Kas: başvuru reddedildi (organizatör giovanni.farese@webidoo.com)."
         },
         {
           "text": "Slush meeting başvuruları yap",
@@ -3238,7 +3240,7 @@
       ]
     }
   ],
-  "updated": "2026-11-04 11:45",
+  "updated": "2026-11-04 12:20",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3277,7 +3279,6 @@
     }
   ],
   "asistan_seen": [
-    "1a154c3a538e55a9",
     "1a157c4637a089e3",
     "1a15801633352d7f",
     "1a1582ec96c83526",
@@ -3576,7 +3577,8 @@
     "1a1a587650a5dd81",
     "1a1a5996a052e45e",
     "1a1a59d4d7565eeb",
-    "1a1a5bb3fc3aee8b"
+    "1a1a5bb3fc3aee8b",
+    "1a1a5db747f70596"
   ],
   "feed_order": [
     "qt5dom",
