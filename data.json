@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "source": "2026-10-16_sabah-brifing (Drive: 09_Management/briefing-system/handoffs)",
   "priorities": [
     "HubSpot Maximum monthly credits = 3.000 gir (yenileme 17 Ekim, en geç 10:00)",
@@ -8,19 +8,19 @@
   ],
   "meetings": [
     {
-      "time": "10:20",
-      "title": "DURUŞMA — Tahliye Davası (İst. 6. Sulh Hukuk 2026/306)",
-      "note": "Çağlayan Adliyesi · Av. Dilhan girecek, aksiyon yok"
-    },
-    {
-      "time": "11:00",
-      "title": "Kanyon Ev Duruşma_1",
-      "note": "ahmetfarukfirat@gmail.com takvimi"
-    },
-    {
       "time": "12:30",
       "title": "& New Me_Daily",
       "note": "Hülya, Selin, Cemre · Google Meet"
+    },
+    {
+      "time": "19:00",
+      "title": "Yemek: Muhammed-Osman",
+      "note": "Kalamış Bedri Usta · ahmetfarukfirat@gmail.com takvimi"
+    },
+    {
+      "time": "20:45",
+      "title": "⚽ Fenerbahçe - Liverpool [CL]",
+      "note": "Şükrü Saracoğlu"
     }
   ],
   "cash_alerts": [
@@ -2053,7 +2053,7 @@
       "name": "CANKAT",
       "area": "Hukuk",
       "status": "yellow",
-      "updated": "2026-10-30 18:41",
+      "updated": "2026-11-04 08:30",
       "items": [
         {
           "text": "GK sürecini başlat (imza sirküsü için)",
@@ -2207,6 +2207,15 @@
           "text": "Pay defteri ve güncel pay sahipleri teyidi bekleniyor: defter kimde (noter tasdikli), 2023 sonrası devir/yeni pay sahibi var mı, adresler defterde mi. Yanıt gelince çağrı takvimi netleştirilecek.",
           "owner": "",
           "note": "YENİ MAİL 30.10 18:42 (30 Eki 18:41 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30.10: Ersun Bey ve Coşkun Bey'e pay defteri ve güncel pay sahipleri listesi soruldu; 2023 genel kurulunda sermaye 73.675 TL, 41 pay sahibi. Defter kimde olduğu ve adres bilgisi teyit bekleniyor. YENİ MAİL 30.10 18:50 (30 Eki 18:50 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki: Ersun Bey ve Coşkun Bey'e pay defteri sorusu yazıldı (defter kimde, 2023 sonrası devir var mı, adresler); adres tablosu ekte gönderildi, çağrı öncesi teyit bekleniyor. YENİ MAİL 30.10 18:51 (30 Eki 18:50 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki: Ahmet, Ersun ve Coşkun Beylere pay defteri, güncel pay sahipleri ve adres tablosu için mail attı; Google Sheets paylaşıldı, yanıt bekleniyor (imza sirküleri 15 Kasım'da doluyor). YENİ MAİL 30.10 18:52 (30 Eki 18:52 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30.10 Ahmet, CPA Türk'e (Ersun/Coşkun) pay defteri için mail attı: defterin kimde olduğu, 2023 sonrası devir/giriş ve adresler soruldu; güncel pay sahibi tablosu Google Sheets ile paylaşıldı, çağrı takvimi defter sonucuna göre netleşecek. YENİ MAİL 30.10 18:55 (30 Eki 18:54 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki: Ahmet, CPA Türk'e (Ersun/Coşkun Bey) pay defteri yeri, 2023 sonrası devir/giriş ve adres sorularını ve güncel pay sahipleri Google Sheets tablosunu gönderdi; 15 Kasım'da imza sirküleri dolduğu için çağrı takvimi buna bağlı. YENİ MAİL 30.10 18:57 (30 Eki 18:56 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki: Ahmet, Ersun Bey ve Coşkun Bey'e defter yeri, 2023 sonrası devir/giriş ve adres sorularını içeren mail gönderdi; 2023 GK sermaye 73.675 TL, 41 pay sahibi; güncel tablo paylaşıldı. YENİ MAİL 30.10 18:59 (30 Eki 18:58 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki 15:58 Ahmet, Ersun/Coşkun Bey'e pay defteri ve güncel pay sahipleri adres tablosunu sordu (defter kimde, 2023 sonrası devir/giriş var mı, adresler defterde mi; Google Sheet paylaşıldı). YENİ MAİL 02.11 10:42 (2 Kas 10:42 · Kocabas, Tolga · RE: Yeniben genel kurul çağrısı öncesi adres teyidi): Tolga Kocabaş yeni adresini bildirdi: Küçükçamlıca - Üsküdar / İstanbul (genel kurul çağrısı için adres teyidi). YENİ MAİL 02.11 11:48 (2 Kas 11:48 · Ümit Dönbekci · RE: Yeniben genel kurul çağrısı öncesi adres teyidi): Ümit Dönbekci (Yeniben, 2 Kas): adres değişti, yeni adres Yenibosna Merkez Mah. Kavak Sok. No:24 Bahçelievler/İstanbul; pay defteri ve genel kurul çağrısında güncellenecek."
+        },
+        {
+          "text": "Güncel adresleri tamamla",
+          "action_type": "Yanıt",
+          "category": "Todoist",
+          "urgency": "gray",
+          "uid": "td_6hvXP2q3r2m5Whw9",
+          "source": "todoist",
+          "plan_date": "2026-11-04"
         }
       ],
       "summary": "HealthTürkiye yenilemesi açık",
@@ -3193,7 +3202,7 @@
       ]
     }
   ],
-  "updated": "2026-11-03 21:53",
+  "updated": "2026-11-04",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -8026,7 +8035,7 @@
       ]
     }
   ],
-  "meetings_date": "2026-11-03",
+  "meetings_date": "2026-11-04",
   "directory": [
     {
       "id": "g5cmcp",
