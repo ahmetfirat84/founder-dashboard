@@ -436,7 +436,12 @@
       "imp": "high",
       "due_date": "2026-10-21",
       "title": "Anthropic",
-      "note": "Claude Team kredi bakiyesi $1,11, günlük ~$0,56 harcamayla yaklaşık 2 günde bitiyor; kredi yüklenmezse ekip erişimi duracak. YENİ MAİL 19.10 17:23 (19 Eki 17:22 · Anthropic · Your organization is out of usage credits): 19 Eki 14:22 Anthropic bildirimi: kredi tamamen bitti, Claude kullanıcıları erişemiyor; kredi yüklenmeli (auto-reload de açılabilir). YENİ MAİL 20.10 10:20 (20 Eki 10:20 · Anthropic · Credits requested for New Me): Team planda bir üye kredi bittiği için devam edemiyor, admin'den kredi eklemesi istendi (20 Eki 07:20). YENİ MAİL 03.11 13:04 (3 Kas 13:03 · Anthropic · Your subscription access has been paused): Ödeme başarısız, Team erişimi tüm üyeler için durduruldu; faturanın ödenmemesi halinde 15 gün içinde (yaklaşık 18 Kas) abonelik iptal edilir. YENİ MAİL 03.11 13:04 (3 Kas 13:03 · Anthropic, PBC · $100.00 payment to Anthropic, PBC was unsuccessful): 3 Kas: $100 abonelik ödemesi Visa ••0333 ile çekilemedi, ödeme yöntemi güncellenmeli."
+      "note": "Claude Team kredi bakiyesi $1,11, günlük ~$0,56 harcamayla yaklaşık 2 günde bitiyor; kredi yüklenmezse ekip erişimi duracak. YENİ MAİL 19.10 17:23 (19 Eki 17:22 · Anthropic · Your organization is out of usage credits): 19 Eki 14:22 Anthropic bildirimi: kredi tamamen bitti, Claude kullanıcıları erişemiyor; kredi yüklenmeli (auto-reload de açılabilir). YENİ MAİL 20.10 10:20 (20 Eki 10:20 · Anthropic · Credits requested for New Me): Team planda bir üye kredi bittiği için devam edemiyor, admin'den kredi eklemesi istendi (20 Eki 07:20). YENİ MAİL 03.11 13:04 (3 Kas 13:03 · Anthropic · Your subscription access has been paused): Ödeme başarısız, Team erişimi tüm üyeler için durduruldu; faturanın ödenmemesi halinde 15 gün içinde (yaklaşık 18 Kas) abonelik iptal edilir. YENİ MAİL 03.11 13:04 (3 Kas 13:03 · Anthropic, PBC · $100.00 payment to Anthropic, PBC was unsuccessful): 3 Kas: $100 abonelik ödemesi Visa ••0333 ile çekilemedi, ödeme yöntemi güncellenmeli. YENİ MAİL 04.11 13:19 (4 Kas 13:17 · Anthropic, PBC · Your receipt from Anthropic, PBC #2525-4912-5300): 4 Kas'ta Team plan faturası LT2VPE3D-0012 ($100, 4 koltuk, 3 Kas–3 Ara) Visa ••0149 ile ödendi, makbuz 2525-4912-5300.",
+      "invoice": {
+        "no": "LT2VPE3D-0012",
+        "date": "2026-11-03",
+        "drive_url": "https://drive.google.com/file/d/1HFRIruJ8hRJqxLuw4pk5WO6GVKT93idd/view?usp=drivesdk"
+      }
     },
     {
       "action_type": "Ödeme",
@@ -1361,6 +1366,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "📎 fatura-gelen arşivlendi: Anthropic 2026-11-03 no LT2VPE3D-0012 → https://drive.google.com/file/d/1HFRIruJ8hRJqxLuw4pk5WO6GVKT93idd/view?usp=drivesdk",
+          "at": "2026-11-04 13:19"
+        },
+        {
           "text": "iyzico toplu ödeme girişi (04.11.2026): hesaba 309,14 EUR yattı. İşlemler: 3472624787 (€278,42) ve 3474542797 (€30,72). Paraşüt/hasta tahsilat kayıtlarıyla eşleştirilecek. (kaynak: E-posta (4 Kas 11:07): iyzico · Toplu ödemeniz gerçekleştirildi)",
           "at": "2026-11-04 11:08"
         },
@@ -1475,10 +1484,6 @@
         {
           "text": "📎 belge arşivlendi: SME Raporlama 2024-07-30 ₺24.314 → https://drive.google.com/file/d/1zQ5VhkrFUoG2g7Q70T2lT91WJTkZoWTd/view?usp=drivesdk",
           "at": "2026-10-26 18:48"
-        },
-        {
-          "text": "📎 belge arşivlendi: SGK (Eylül 2026 tahakkuk) 2026-10-26 no 9418 / 26.10.2026-MBBG-9418 ₺355 → https://drive.google.com/file/d/1-eqitO7ubfjL6DYDqiR9XUOXnPPQZiGB/view?usp=drivesdk",
-          "at": "2026-10-26 18:07"
         }
       ],
       "drawer": [
@@ -3249,7 +3254,7 @@
       ]
     }
   ],
-  "updated": "2026-11-04 13:14",
+  "updated": "2026-11-04 13:19",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3288,7 +3293,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1589773a39d16e",
     "1a15897830409c61",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCNDFBMjE3RUJFMzkzQTZGMTIA",
     "1a158dfad6e54bef",
@@ -3587,7 +3591,8 @@
     "1a1a5db747f70596",
     "1a1a5fc4f2060272",
     "1a1a5fb682bdd4cc",
-    "1a1a607d7dc39e00"
+    "1a1a607d7dc39e00",
+    "1a1a610328cf701d"
   ],
   "feed_order": [
     "qt5dom",
