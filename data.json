@@ -2742,7 +2742,7 @@
           "uid": "td_6hjq3gFRr7cwQGX9",
           "source": "todoist",
           "plan_date": "2026-10-22",
-          "note": "YENİ MAİL 03.11 19:03 (3 Kas 19:02 · Slush · Jonathan Kruger has declined your meeting request): Jonathan Kruger (Mercia Ventures) toplantı talebini reddetti: yalnızca UK merkezli şirketlere yatırım yapıyor."
+          "note": "YENİ MAİL 03.11 19:03 (3 Kas 19:02 · Slush · Jonathan Kruger has declined your meeting request): Jonathan Kruger (Mercia Ventures) toplantı talebini reddetti: yalnızca UK merkezli şirketlere yatırım yapıyor. YENİ MAİL 04.11 11:12 (4 Kas 11:11 · Slush · Philipp Harnischfeger has declined your meeting request): Philipp Harnischfeger (Arve Capital) bu talebi reddetti; Slush sonrası görüşmek istiyor (p.harnischfeger@arve.capital)."
         },
         {
           "text": "Claus'a yanıt yaz (DM'den)",
@@ -3237,7 +3237,7 @@
       ]
     }
   ],
-  "updated": "2026-11-04 11:08",
+  "updated": "2026-11-04 11:12",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3276,7 +3276,6 @@
     }
   ],
   "asistan_seen": [
-    "1a15449c993ebd0b",
     "1a1548b1edc7f4a4",
     "1a154c3a538e55a9",
     "1a157c4637a089e3",
@@ -3575,7 +3574,8 @@
     "1a1a538283965c31",
     "1a1a56f038b9d6e6",
     "1a1a587650a5dd81",
-    "1a1a5996a052e45e"
+    "1a1a5996a052e45e",
+    "1a1a59d4d7565eeb"
   ],
   "feed_order": [
     "qt5dom",
