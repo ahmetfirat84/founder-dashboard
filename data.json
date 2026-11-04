@@ -3007,6 +3007,10 @@
       ],
       "notes": [
         {
+          "text": "Yahoo DMARC aggregate raporu (andnewme.com, 4 Kas): otomatik teknik bildirim, aksiyon gerektirmiyor. (kaynak: E-posta (4 Kas 12:54): noreply@dmarc.yahoo.com · Report Domain: andnewme.com Sub)",
+          "at": "2026-11-04 12:56"
+        },
+        {
           "text": "TESLİM TUTANAK maili Kanyon'a (turker.ahmetoglu@kanyon.com.tr) ulaşmadı: alıcı adresi bulunamadı (550 5.1.10). Doğru adres teyit edilmeli. (kaynak: E-posta (4 Kas 10:47): postmaster@eczacibasi.com.tr · Undeliverable: Fwd: TESLİM)",
           "at": "2026-11-04 10:48"
         },
@@ -3280,7 +3284,6 @@
     }
   ],
   "asistan_seen": [
-    "1a15801633352d7f",
     "1a1582ec96c83526",
     "1a1589773a39d16e",
     "1a15897830409c61",
@@ -3579,7 +3582,8 @@
     "1a1a59d4d7565eeb",
     "1a1a5bb3fc3aee8b",
     "1a1a5db747f70596",
-    "1a1a5fc4f2060272"
+    "1a1a5fc4f2060272",
+    "1a1a5fb682bdd4cc"
   ],
   "feed_order": [
     "qt5dom",
