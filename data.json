@@ -3254,7 +3254,7 @@
       ]
     }
   ],
-  "updated": "2026-11-04 13:19",
+  "updated": "2026-11-04 13:27",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3293,7 +3293,6 @@
     }
   ],
   "asistan_seen": [
-    "1a15897830409c61",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCNDFBMjE3RUJFMzkzQTZGMTIA",
     "1a158dfad6e54bef",
     "1a158f314690b634",
@@ -3592,7 +3591,8 @@
     "1a1a5fc4f2060272",
     "1a1a5fb682bdd4cc",
     "1a1a607d7dc39e00",
-    "1a1a610328cf701d"
+    "1a1a610328cf701d",
+    "1a1a615dbde7c670"
   ],
   "feed_order": [
     "qt5dom",
@@ -8191,6 +8191,65 @@
     }
   ],
   "meeting_notes": [
+    {
+      "id": "amhgkr",
+      "title": "& New Me_Daily",
+      "date": "2026-11-04",
+      "summary": "Toplantıda AI kaynaklı leadlerin takibi, fiyatlandırma ve sağlayıcı modeli, güçlü leadler ile Black Friday kampanyası ele alındı. İsviçre'den gelen revizyon burun leadi için online konsültasyonun öne çekilmesi ve depozito alınması hedeflendi. AI trafiği verilerinin yatırımcı sunumunda kullanılması ve müşteri paneli geliştirilmesi planlandı.",
+      "thread": "1a1a615dbde7c670",
+      "actions": [
+        {
+          "id": "7xkics",
+          "text": "Hülya, yaklaşık 10-12 kişilik eski lead listesine indirim odaklı e-posta kampanyasını 11 Kasım'a (Black Friday dönemi) bağlı şekilde gönderecek.",
+          "dep": "zeynep",
+          "owner": "Hülya",
+          "due_date": "2026-11-11",
+          "party": "Eski lead listesi",
+          "status": "proposed"
+        },
+        {
+          "id": "b1443n",
+          "text": "Selin, online konsültasyonu tanıtan kısa bir video hazırlayacak ve video e-posta kampanyalarında kullanılacak.",
+          "dep": "ilksen",
+          "owner": "Selin",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "o667v1",
+          "text": "İsviçre'den gelen revizyon burun leadi (4.280 Euro paket) için online konsültasyon tarihi mümkün olan en erken tarihe çekilecek ve konsültasyon sonrası depozito alınacak.",
+          "dep": "zeynep",
+          "owner": "Selin",
+          "party": "İsviçre revizyon burun leadi",
+          "status": "proposed"
+        },
+        {
+          "id": "ov6za8",
+          "text": "İngiltere'den gelen sıcak gastric sleeve leadi ile fiyat ve doktor seçenekleri üzerine aynı gün görüşme yapılacak.",
+          "dep": "zeynep",
+          "owner": "Selin",
+          "due_date": "2026-11-04",
+          "party": "İngiltere gastric sleeve leadi",
+          "status": "proposed"
+        },
+        {
+          "id": "jwivu0",
+          "text": "Paketlere komplikasyon sigortası eklenecek ve daha kapsamlı sigorta seçenekleri için ek satış akışı oluşturulacak.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "2k3h51",
+          "text": "AI trafiği ve lead verileriyle yatırımcı sunumu güncel gelişmelerle tamamlanacak.",
+          "dep": "erkin",
+          "owner": "",
+          "party": "Yatırımcılar",
+          "status": "proposed"
+        }
+      ]
+    },
     {
       "id": "ycpjwk",
       "title": "& New Me_Daily",
