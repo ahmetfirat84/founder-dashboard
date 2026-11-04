@@ -2790,7 +2790,8 @@
           "urgency": "gray",
           "uid": "td_6hhgrxCw2PRHCQhh",
           "source": "todoist",
-          "plan_date": "2026-10-24"
+          "plan_date": "2026-10-24",
+          "note": "YENİ MAİL 04.11 12:56 (4 Kas 12:55 · Slush · Christian Bisaillon has declined your meeting request): Christian Bisaillon (Hyberden Ventures) meeting talebini reddetti: yatırım odağına uymuyor (4 Kas)."
         },
         {
           "action_type": "Yanıt",
@@ -3240,7 +3241,7 @@
       ]
     }
   ],
-  "updated": "2026-11-04 12:20",
+  "updated": "2026-11-04 12:56",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3279,7 +3280,6 @@
     }
   ],
   "asistan_seen": [
-    "1a157c4637a089e3",
     "1a15801633352d7f",
     "1a1582ec96c83526",
     "1a1589773a39d16e",
@@ -3578,7 +3578,8 @@
     "1a1a5996a052e45e",
     "1a1a59d4d7565eeb",
     "1a1a5bb3fc3aee8b",
-    "1a1a5db747f70596"
+    "1a1a5db747f70596",
+    "1a1a5fc4f2060272"
   ],
   "feed_order": [
     "qt5dom",
