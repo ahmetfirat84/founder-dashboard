@@ -3003,6 +3003,10 @@
       ],
       "notes": [
         {
+          "text": "TESLİM TUTANAK maili Kanyon'a (turker.ahmetoglu@kanyon.com.tr) ulaşmadı: alıcı adresi bulunamadı (550 5.1.10). Doğru adres teyit edilmeli. (kaynak: E-posta (4 Kas 10:47): postmaster@eczacibasi.com.tr · Undeliverable: Fwd: TESLİM)",
+          "at": "2026-11-04 10:48"
+        },
+        {
           "text": "GitHub founder-dashboard 'pages build and deployment' çalışması başarısız: build geçti, deploy hata verdi (3 Kas 15:36 UTC). (kaynak: E-posta (3 Kas 18:36): Ahmet Fırat · [ahmetfirat84/founder-dashboard] Run failed)",
           "at": "2026-11-03 18:37"
         },
@@ -3233,7 +3237,7 @@
       ]
     }
   ],
-  "updated": "2026-11-04 10:21",
+  "updated": "2026-11-04 10:48",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3272,7 +3276,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDg2NEVEQTY2RDY4NEU2QkU0MAA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDFEODJFNDRCRTE5QTFCMTRDMQA=",
     "1a15449c993ebd0b",
     "1a1548b1edc7f4a4",
@@ -3571,7 +3574,8 @@
     "1a1a2c1c07679ff7",
     "1a1a4f18007451af",
     "1a1a538283965c31",
-    "1a1a56f038b9d6e6"
+    "1a1a56f038b9d6e6",
+    "1a1a587650a5dd81"
   ],
   "feed_order": [
     "qt5dom",
