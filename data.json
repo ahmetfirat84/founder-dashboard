@@ -2099,7 +2099,7 @@
       "name": "CANKAT",
       "area": "Hukuk",
       "status": "yellow",
-      "updated": "2026-11-04 08:30",
+      "updated": "2026-11-05 01:58",
       "items": [
         {
           "text": "GK sürecini başlat (imza sirküsü için)",
@@ -2262,6 +2262,22 @@
           "uid": "td_6hvXP2q3r2m5Whw9",
           "source": "todoist",
           "plan_date": "2026-11-04"
+        },
+        {
+          "action_type": "Başvuru",
+          "category": "Google Play",
+          "party": "Google Play",
+          "amount": "",
+          "due": "1 Şubat 2027",
+          "uid": "182qrz",
+          "source": "mail-gelen",
+          "origin": "E-posta (5 Kas 01:58): Google Play · Declare your trader status to continue distributing apps on ",
+          "wamid": "1a1a8c8d0ca64f8e",
+          "mail_thread": "1a1a8c8d0ca64f8e",
+          "imp": "high",
+          "due_date": "2027-02-01",
+          "text": "Play Console'da trader status beyanı (Hesap detayları > Hakkınızda). Yapılmazsa tüm uygulamalar ve geliştirici hesabı Google Play'den kaldırılır. Trader ise uygulama başına onay ve Hizmet Şartları linki gerekir; telefon ve adres public görünür.",
+          "owner": ""
         }
       ],
       "summary": "HealthTürkiye yenilemesi açık",
@@ -3274,7 +3290,7 @@
       ]
     }
   ],
-  "updated": "2026-11-04 17:13",
+  "updated": "2026-11-05 01:58",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3313,7 +3329,6 @@
     }
   ],
   "asistan_seen": [
-    "1a15906fc30a1fcf",
     "1a159c74c7ef97ea",
     "1a15b9932b03307c",
     "1a15c6cb7f824885",
@@ -3612,7 +3627,8 @@
     "1a1a615dbde7c670",
     "1a1a64377caf316d",
     "1a1a69de298b7b81",
-    "1a1a6e79dd24d0c6"
+    "1a1a6e79dd24d0c6",
+    "1a1a8c8d0ca64f8e"
   ],
   "feed_order": [
     "qt5dom",
