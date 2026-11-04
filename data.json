@@ -1360,6 +1360,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Findeks Uyarı Hizmeti: kayıtlı bir uyarı koşulu gerçekleşti (04.11). Detay için Findeks hesabına girilmesi gerekiyor; kredi/borç kaydıyla ilgili olabilir, kontrol edilecek. (kaynak: E-posta (4 Kas 09:21): Findeks · Uyarı'dan Bildiriminiz Var!)",
+          "at": "2026-11-04 09:21"
+        },
+        {
           "text": "📎 fatura-gelen arşivlendi: Kanyon 2026-10-31 no KEC2026000003468 ₺4.768 → https://drive.google.com/file/d/1UXOKFm5dLjy50tW4-Z7EtxsvDu5uOzm7/view?usp=drivesdk",
           "at": "2026-11-03 21:53"
         },
@@ -1474,10 +1478,6 @@
         {
           "text": "📎 belge arşivlendi: Vergi Dairesi (Muhtasar) 2026-10-26 no 2026102601W040000283 ₺71.115 → https://drive.google.com/file/d/1kinXrQjfGhRCL6WrACMWxGxE63S7ct_8/view?usp=drivesdk",
           "at": "2026-10-26 18:07"
-        },
-        {
-          "text": "📎 belge arşivlendi: İş Bankası Girişimcilik Şubesi (imza sirküleri) 2025-06-25 no 13749 → https://drive.google.com/file/d/1cjUIVFjdzsfVCSq69-cK2MUJM2EnEeg_/view?usp=drivesdk",
-          "at": "2026-10-26 14:13"
         }
       ],
       "drawer": [
@@ -3218,7 +3218,7 @@
       ]
     }
   ],
-  "updated": "2026-11-04 08:04",
+  "updated": "2026-11-04 09:21",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3257,7 +3257,6 @@
     }
   ],
   "asistan_seen": [
-    "1a0f0c53058a928f",
     "1a15382a4d7014e5",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDg2NEVEQTY2RDY4NEU2QkU0MAA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDFEODJFNDRCRTE5QTFCMTRDMQA=",
@@ -3556,7 +3555,8 @@
     "1a1a22dd3d5ac046",
     "1a1a2374682bbca0",
     "1a1a2c1c07679ff7",
-    "1a1a4f18007451af"
+    "1a1a4f18007451af",
+    "1a1a538283965c31"
   ],
   "feed_order": [
     "qt5dom",
