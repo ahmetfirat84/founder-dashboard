@@ -1360,6 +1360,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "iyzico toplu ödeme girişi (04.11.2026): hesaba 309,14 EUR yattı. İşlemler: 3472624787 (€278,42) ve 3474542797 (€30,72). Paraşüt/hasta tahsilat kayıtlarıyla eşleştirilecek. (kaynak: E-posta (4 Kas 11:07): iyzico · Toplu ödemeniz gerçekleştirildi)",
+          "at": "2026-11-04 11:08"
+        },
+        {
           "text": "Findeks Uyarı Hizmeti: kayıtlı bir uyarı koşulu gerçekleşti (04.11). Detay için Findeks hesabına girilmesi gerekiyor; kredi/borç kaydıyla ilgili olabilir, kontrol edilecek. (kaynak: E-posta (4 Kas 09:21): Findeks · Uyarı'dan Bildiriminiz Var!)",
           "at": "2026-11-04 09:21"
         },
@@ -1473,10 +1477,6 @@
         },
         {
           "text": "📎 belge arşivlendi: SGK (Eylül 2026 tahakkuk) 2026-10-26 no 9418 / 26.10.2026-MBBG-9418 ₺355 → https://drive.google.com/file/d/1-eqitO7ubfjL6DYDqiR9XUOXnPPQZiGB/view?usp=drivesdk",
-          "at": "2026-10-26 18:07"
-        },
-        {
-          "text": "📎 belge arşivlendi: Vergi Dairesi (Muhtasar) 2026-10-26 no 2026102601W040000283 ₺71.115 → https://drive.google.com/file/d/1kinXrQjfGhRCL6WrACMWxGxE63S7ct_8/view?usp=drivesdk",
           "at": "2026-10-26 18:07"
         }
       ],
@@ -3237,7 +3237,7 @@
       ]
     }
   ],
-  "updated": "2026-11-04 10:48",
+  "updated": "2026-11-04 11:08",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3276,7 +3276,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDFEODJFNDRCRTE5QTFCMTRDMQA=",
     "1a15449c993ebd0b",
     "1a1548b1edc7f4a4",
     "1a154c3a538e55a9",
@@ -3575,7 +3574,8 @@
     "1a1a4f18007451af",
     "1a1a538283965c31",
     "1a1a56f038b9d6e6",
-    "1a1a587650a5dd81"
+    "1a1a587650a5dd81",
+    "1a1a5996a052e45e"
   ],
   "feed_order": [
     "qt5dom",
