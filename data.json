@@ -2693,7 +2693,7 @@
       "name": "ERKİN",
       "area": "Investor Relations",
       "status": "green",
-      "updated": "2026-10-24 08:00",
+      "updated": "2026-11-04 10:21",
       "items": [
         {
           "text": "Slush Helsinki (18-19 Kas) katılım kararı bekliyor; katılım olursa yatırımcı toplantılarını planla",
@@ -2705,7 +2705,7 @@
           "amount": "",
           "urgency": "gray",
           "uid": "0skysi",
-          "note": "YENİ MAİL 29.10 09:32 (29 Eki 09:31 · Rania Said · AWS on the Future of AI in Healthcare | Slush 2026): Slush Helsinki'de 19 Kasım 11:00-13:00 AWS 'AI is Rewriting Healthcare Investment' etkinliği için başvuru daveti geldi (katılım onaylı değil, AWS değerlendirecek). YENİ MAİL 29.10 19:35 (29 Eki 19:35 · Ahmet Tosun · Fwd: You're invited: Vrushali Paunikar (CPO @ Carta) at Slus): Carta CPO Vrushali Paunikar'dan Slush 2026 toplantı daveti geldi (29 Eki). YENİ MAİL 30.10 15:05 (30 Eki 15:05 · Ahmet Tosun · Fwd: You’re invited to apply: An intimate dinner with SAP, U): Slush davet e-postası: 17 Kasım'da Helsinki'de SAP for Startups, Unicorn Bakery ve Anthropic'in davetli yemeği için başvuru açıldı; yer sınırlı, onay ev sahiplerince veriliyor."
+          "note": "YENİ MAİL 29.10 09:32 (29 Eki 09:31 · Rania Said · AWS on the Future of AI in Healthcare | Slush 2026): Slush Helsinki'de 19 Kasım 11:00-13:00 AWS 'AI is Rewriting Healthcare Investment' etkinliği için başvuru daveti geldi (katılım onaylı değil, AWS değerlendirecek). YENİ MAİL 29.10 19:35 (29 Eki 19:35 · Ahmet Tosun · Fwd: You're invited: Vrushali Paunikar (CPO @ Carta) at Slus): Carta CPO Vrushali Paunikar'dan Slush 2026 toplantı daveti geldi (29 Eki). YENİ MAİL 30.10 15:05 (30 Eki 15:05 · Ahmet Tosun · Fwd: You’re invited to apply: An intimate dinner with SAP, U): Slush davet e-postası: 17 Kasım'da Helsinki'de SAP for Startups, Unicorn Bakery ve Anthropic'in davetli yemeği için başvuru açıldı; yer sınırlı, onay ev sahiplerince veriliyor. YENİ MAİL 04.11 10:21 (4 Kas 10:21 · Airbnb for Work · Accept your reservation by Nov 9, 2026): Helsinki konaklaması (17-19 Kas) Airbnb'de kabul bekliyor, son gün 9 Kas 09:20."
         },
         {
           "text": "Booking vs New Me animasyonunu tamamla",
@@ -2788,6 +2788,21 @@
           "uid": "td_6hhgrxCw2PRHCQhh",
           "source": "todoist",
           "plan_date": "2026-10-24"
+        },
+        {
+          "action_type": "Yanıt",
+          "category": "Seyahat",
+          "party": "Airbnb for Work",
+          "amount": "",
+          "due": "9 Kas 2026 09:20",
+          "uid": "ea7dda",
+          "source": "mail-gelen",
+          "origin": "E-posta (4 Kas 10:21): Airbnb for Work · Accept your reservation by Nov 9, 2026",
+          "wamid": "1a1a56f038b9d6e6",
+          "mail_thread": "1a1a56f038b9d6e6",
+          "due_date": "2026-11-09",
+          "text": "Helsinki konaklama rezervasyonu (Apartment Top, 17-19 Kas, 2 kişi) kabul bekliyor. 9 Kas'a kadar kabul edilmezse ilan başkasına gidebilir. Slush ile bağlantılı.",
+          "owner": ""
         }
       ],
       "summary": "Slush kararı bekliyor",
@@ -3218,7 +3233,7 @@
       ]
     }
   ],
-  "updated": "2026-11-04 09:21",
+  "updated": "2026-11-04 10:21",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3257,7 +3272,6 @@
     }
   ],
   "asistan_seen": [
-    "1a15382a4d7014e5",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDg2NEVEQTY2RDY4NEU2QkU0MAA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDFEODJFNDRCRTE5QTFCMTRDMQA=",
     "1a15449c993ebd0b",
@@ -3556,7 +3570,8 @@
     "1a1a2374682bbca0",
     "1a1a2c1c07679ff7",
     "1a1a4f18007451af",
-    "1a1a538283965c31"
+    "1a1a538283965c31",
+    "1a1a56f038b9d6e6"
   ],
   "feed_order": [
     "qt5dom",
