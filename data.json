@@ -2048,6 +2048,10 @@
       "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri",
       "notes": [
         {
+          "text": "HİB e-posta: Ticaret Müşavirleriyle Elektronik Sohbet toplantıları (zorunlu değil): 5 Kas 14:00 Kuzey Makedonya, 12 Kas 11:00 Moğolistan, 19 Kas 14:00 Tanzanya, 26 Kas 11:00 Türkmenistan. Kayıt bağlantıları mailde. (kaynak: E-posta (4 Kas 12:21): Hizmet İhracatçıları Birliği Genel Sekre · Kasım 2026 Ele)",
+          "at": "2026-11-04 13:14"
+        },
+        {
           "text": "USHAŞ CRM'de başvuru oluşturuldu (başvuru no 41877, 02.11.2026). Kuruluştan dönüş bekleniyor. (kaynak: E-posta (2 Kas 17:24): info@ushas.gov.tr · USHAŞ CRM | Başvurunuz Oluşturulmuştu)",
           "at": "2026-11-03 11:09"
         },
@@ -3245,7 +3249,7 @@
       ]
     }
   ],
-  "updated": "2026-11-04 12:56",
+  "updated": "2026-11-04 13:14",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3284,7 +3288,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1582ec96c83526",
     "1a1589773a39d16e",
     "1a15897830409c61",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCNDFBMjE3RUJFMzkzQTZGMTIA",
@@ -3583,7 +3586,8 @@
     "1a1a5bb3fc3aee8b",
     "1a1a5db747f70596",
     "1a1a5fc4f2060272",
-    "1a1a5fb682bdd4cc"
+    "1a1a5fb682bdd4cc",
+    "1a1a607d7dc39e00"
   ],
   "feed_order": [
     "qt5dom",
