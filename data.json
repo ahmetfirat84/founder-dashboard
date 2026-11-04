@@ -747,6 +747,22 @@
         "amount_try": 4767.85,
         "drive_url": "https://drive.google.com/file/d/1UXOKFm5dLjy50tW4-Z7EtxsvDu5uOzm7/view?usp=drivesdk"
       }
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Sigorta",
+      "party": "Allianz Sigorta",
+      "amount": "₺2.508",
+      "due": "Limit yetersiz, çekim başarısız (VakıfBank ••3399)",
+      "uid": "18jp5u",
+      "source": "mail-gelen",
+      "origin": "E-posta (4 Kas 08:04): VakıfBank · Bilgilendirme: Kredi Kart Limitiniz Yetersizdir",
+      "wamid": "1a1a4f18007451af",
+      "mail_thread": "1a1a4f18007451af",
+      "amount_try": 2508,
+      "urgency": "gray",
+      "title": "Allianz Sigorta",
+      "note": "Allianz Sigorta 2.508 TL işlemi VakıfBank şirket kartı ••3399 limit yetersizliğinden çekilemedi. Limit artırımı ya da başka ödeme yöntemi gerekli (aynı kartta Adobe ₺557,50 da takılı, r20)."
     }
   ],
   "departments": [
@@ -3202,7 +3218,7 @@
       ]
     }
   ],
-  "updated": "2026-11-04",
+  "updated": "2026-11-04 08:04",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3241,7 +3257,6 @@
     }
   ],
   "asistan_seen": [
-    "1a0e6f682a4f6e8c",
     "1a0f0c53058a928f",
     "1a15382a4d7014e5",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDg2NEVEQTY2RDY4NEU2QkU0MAA=",
@@ -3540,7 +3555,8 @@
     "1a1a225d08513d10",
     "1a1a22dd3d5ac046",
     "1a1a2374682bbca0",
-    "1a1a2c1c07679ff7"
+    "1a1a2c1c07679ff7",
+    "1a1a4f18007451af"
   ],
   "feed_order": [
     "qt5dom",
