@@ -2757,7 +2757,7 @@
       "name": "ERKİN",
       "area": "Investor Relations",
       "status": "green",
-      "updated": "2026-11-04 10:21",
+      "updated": "2026-11-05 10:40",
       "items": [
         {
           "text": "Slush Helsinki (18-19 Kas) katılım kararı bekliyor; katılım olursa yatırımcı toplantılarını planla",
@@ -2869,6 +2869,21 @@
           "mail_thread": "1a1a56f038b9d6e6",
           "due_date": "2026-11-09",
           "text": "Helsinki konaklama rezervasyonu (Apartment Top, 17-19 Kas, 2 kişi) kabul bekliyor. 9 Kas'a kadar kabul edilmezse ilan başkasına gidebilir. Slush ile bağlantılı.",
+          "owner": ""
+        },
+        {
+          "action_type": "Başvuru",
+          "category": "Yatırımcı",
+          "party": "IgniteXL Ventures (Mitchell Weinstock)",
+          "amount": "",
+          "due": "Başvuru formu bekliyor",
+          "uid": "wmqsbk",
+          "source": "mail-gelen",
+          "origin": "E-posta (5 Kas 10:39): Mitchell Weinstock · Re: Great to meet you at Slush – &New Me / Beauty & Health T",
+          "wamid": "1a1aaa68fa1b5e64",
+          "mail_thread": "19aa185d7a27db41",
+          "urgency": "gray",
+          "text": "Slush sonrası IgniteXL güncel başvuru linkini gönderdi (typeform), formu doldurup gönder.",
           "owner": ""
         }
       ],
@@ -3351,7 +3366,6 @@
     }
   ],
   "asistan_seen": [
-    "1a15dcb1bfa32035",
     "1a15dcb18dae536e",
     "1a15df1491a25751",
     "1a15e056234491a6",
@@ -3650,7 +3664,8 @@
     "1a1a939f86970b8f",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFBQTExNEMzQUEwM0FBRkNCOTcA",
     "1a1aa8df5aed031e",
-    "19aa20690be48dcc"
+    "19aa20690be48dcc",
+    "1a1aaa68fa1b5e64"
   ],
   "feed_order": [
     "qt5dom",
