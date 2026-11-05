@@ -678,7 +678,7 @@
       "amount_try": 557.5,
       "urgency": "yellow",
       "title": "Adobe",
-      "note": "Adobe aboneliği ₺557,50 çekilemedi: VakıfBank şirket kartı ••3399 limiti yetersiz. Limit artırımı veya kart değişikliği gerekebilir. YENİ MAİL 01.11 17:23 (1 Kas 17:23 · Adobe · Ödemeniz yapılamadı): Adobe mail (1 Kas): son ödeme tarihi 29 Kas 2026, ₺557,50 Visa ••3399 ile tahsil edilemedi."
+      "note": "Adobe aboneliği ₺557,50 çekilemedi: VakıfBank şirket kartı ••3399 limiti yetersiz. Limit artırımı veya kart değişikliği gerekebilir. YENİ MAİL 01.11 17:23 (1 Kas 17:23 · Adobe · Ödemeniz yapılamadı): Adobe mail (1 Kas): son ödeme tarihi 29 Kas 2026, ₺557,50 Visa ••3399 ile tahsil edilemedi. YENİ MAİL 05.11 18:35 (5 Kas 18:34 · VakıfBank · Bilgilendirme: Kredi Kart Limitiniz Yetersizdir): 05.11 VakıfBank bildirimi: Zorlu Tesis Yönetim'e 300 TL işlem de ••3399 kart limiti yetersizliğinden reddedildi."
     },
     {
       "title": "HubSpot hesabı askıya alındı",
@@ -3344,7 +3344,7 @@
       ]
     }
   ],
-  "updated": "2026-11-05 17:59",
+  "updated": "2026-11-05 18:35",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3390,7 +3390,6 @@
     }
   ],
   "asistan_seen": [
-    "1a15eeb7b6e88eb8",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5N0M3NzI2NTgwQTE5RjE5QkMA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFGMEQyMUFCNEI3MDVBNzY1N0QA",
     "1a15ef8ecb0d1ea2",
@@ -3689,7 +3688,8 @@
     "1a1abeadc8270063",
     "1a1abef424fc3948",
     "1a1abf5f05d7eec6",
-    "1a1ac3888d394b85"
+    "1a1ac3888d394b85",
+    "1a1ac58e9b7e5a62"
   ],
   "feed_order": [
     "qt5dom",
