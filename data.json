@@ -2512,6 +2512,10 @@
       "summary": "2 deal bugün kapanıyor",
       "notes": [
         {
+          "text": "iyzico üzerinden Gastric Sleeve kapora ödemesi alındı: €50 (100 NZD), ödeme no 4287913488, 05.11.2026 22:39. Hasta adı mailde yok, Satış tarafında eşleştirilmeli. (kaynak: E-posta (5 Kas 22:39): iyziLink · Payment received)",
+          "at": "2026-11-05 22:40"
+        },
+        {
           "text": "iyzico ödeme bildirimi (27.10.2026 11:50, No 4272460852): Bundle 2_Advanced Full Support Pack için €290,00 ödendi. Ürün sevk/teslim takibi gerekiyor. (kaynak: E-posta (27 Eki 11:50): iyziLink · Payment received)",
           "at": "2026-10-27 11:51"
         },
@@ -3348,7 +3352,7 @@
       ]
     }
   ],
-  "updated": "2026-11-05 21:47",
+  "updated": "2026-11-05 22:40",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3394,7 +3398,6 @@
     }
   ],
   "asistan_seen": [
-    "1a15ef8ecb0d1ea2",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1QURBMDY3MjMyNTNCOTU0MEQA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5OTJERTA1MkFBQTFENzBENDEA",
     "1a15f31d55ce0358",
@@ -3693,7 +3696,8 @@
     "1a1ac3888d394b85",
     "1a1ac58e9b7e5a62",
     "1a1acb2363943b2e",
-    "1a1ad097650d0354"
+    "1a1ad097650d0354",
+    "1a1ad3953c23f57f"
   ],
   "feed_order": [
     "qt5dom",
