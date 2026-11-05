@@ -1416,6 +1416,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "📎 fatura-gelen arşivlendi: Anthropic 2026-11-05 no 4J3TVLAX-0034 → https://drive.google.com/file/d/1m-NabWOX0ICbBpwOlg9K3bvIeqFTbPWV/view?usp=drivesdk",
+          "at": "2026-11-05 16:34"
+        },
+        {
           "text": "Paraşüt otomatik hatırlatma (05 Kas): bugün vadeli giderler/ödemeler var, tutar mailde yazmıyor; Paraşüt giderler ekranından kontrol edilmeli. (kaynak: E-posta (5 Kas 04:01): Paraşüt · Yapılacak Ödemeniz Var)",
           "at": "2026-11-05 04:02"
         },
@@ -1530,10 +1534,6 @@
         {
           "text": "📎 fatura-gelen arşivlendi: X (Twitter Global LLC) 2026-10-27 no 62BEDA93-0026 ₺56 → https://drive.google.com/file/d/1sGabv_1d95jaecpVamkI-rj-ZpnPuQJw/view?usp=drivesdk",
           "at": "2026-10-27 14:56"
-        },
-        {
-          "text": "📎 belge arşivlendi: Beyoğlu 16. Noterliği 2024-07-04 no UR 0483125 / 0483127 ₺1.293 → https://drive.google.com/file/d/1mKfkCpbK2QN-HaV5GnFgV99Owev7IrFF/view?usp=drivesdk",
-          "at": "2026-10-26 18:48"
         }
       ],
       "drawer": [
@@ -3344,7 +3344,7 @@
       ]
     }
   ],
-  "updated": "2026-11-05 14:43",
+  "updated": "2026-11-05 16:34",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3383,7 +3383,6 @@
     }
   ],
   "asistan_seen": [
-    "1a15e2d8f76fdbea",
     "1a15e3d6e145e736",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFCODMwMzdBOThCOTEwNkE5NTUA",
     "1a15e6e3fe5cd58d",
@@ -3682,7 +3681,8 @@
     "1a1aaf3da78511ce",
     "1a1ab2777fdfd731",
     "1a1ab679f0bce58b",
-    "1a1ab85114a50a03"
+    "1a1ab85114a50a03",
+    "1a1abeadc8270063"
   ],
   "feed_order": [
     "qt5dom",
