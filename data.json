@@ -801,6 +801,23 @@
       "urgency": "red",
       "title": "Akbank",
       "note": "Akbank Artı Para kredisi gecikmiş: ₺16.343,33 ödeme uyarısı (e-posta 05.11). Ödeme yapıldıysa dekontu işle."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Abonelik",
+      "party": "Apple (HiNoter AI Note Taker)",
+      "amount": "₺184,99",
+      "due": "12 Kas 2026",
+      "uid": "mkanki",
+      "source": "mail-gelen",
+      "origin": "E-posta (5 Kas 12:04): Apple · Your receipt from Apple.",
+      "wamid": "1a1aaf3da78511ce",
+      "mail_thread": "1a1aaf3da78511ce",
+      "imp": "low",
+      "amount_try": 184.99,
+      "due_date": "2026-11-12",
+      "title": "Apple (HiNoter AI Note Taker)",
+      "note": "HiNoter AI haftalık abonelik, ₺184,99 (KDV dahil), 12 Kasım'da yenileniyor. İstemiyorsan App Store'dan iptal et."
     }
   ],
   "departments": [
@@ -3327,7 +3344,7 @@
       ]
     }
   ],
-  "updated": "2026-11-05 11:47",
+  "updated": "2026-11-05 12:05",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3366,7 +3383,6 @@
     }
   ],
   "asistan_seen": [
-    "1a15df1491a25751",
     "1a15e056234491a6",
     "1a15e17bb182e8d2",
     "1a15e1b4d4397991",
@@ -3665,7 +3681,8 @@
     "1a1aa8df5aed031e",
     "19aa20690be48dcc",
     "1a1aaa68fa1b5e64",
-    "1a1aae427e106818"
+    "1a1aae427e106818",
+    "1a1aaf3da78511ce"
   ],
   "feed_order": [
     "qt5dom",
