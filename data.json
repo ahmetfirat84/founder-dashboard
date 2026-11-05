@@ -2823,7 +2823,7 @@
           "uid": "td_6hjq3gFRr7cwQGX9",
           "source": "todoist",
           "plan_date": "2026-10-22",
-          "note": "YENİ MAİL 03.11 19:03 (3 Kas 19:02 · Slush · Jonathan Kruger has declined your meeting request): Jonathan Kruger (Mercia Ventures) toplantı talebini reddetti: yalnızca UK merkezli şirketlere yatırım yapıyor. YENİ MAİL 04.11 11:12 (4 Kas 11:11 · Slush · Philipp Harnischfeger has declined your meeting request): Philipp Harnischfeger (Arve Capital) bu talebi reddetti; Slush sonrası görüşmek istiyor (p.harnischfeger@arve.capital)."
+          "note": "YENİ MAİL 03.11 19:03 (3 Kas 19:02 · Slush · Jonathan Kruger has declined your meeting request): Jonathan Kruger (Mercia Ventures) toplantı talebini reddetti: yalnızca UK merkezli şirketlere yatırım yapıyor. YENİ MAİL 04.11 11:12 (4 Kas 11:11 · Slush · Philipp Harnischfeger has declined your meeting request): Philipp Harnischfeger (Arve Capital) bu talebi reddetti; Slush sonrası görüşmek istiyor (p.harnischfeger@arve.capital). YENİ MAİL 05.11 13:01 (5 Kas 13:00 · Slush · Benjamin Zerbib has declined your meeting request): Benjamin Zerbib (KARISTA) görüşme talebini reddetti: yatırım odağı MedTech/Pharma/TechBio, New Me uymuyor."
         },
         {
           "text": "Claus'a yanıt yaz (DM'den)",
@@ -3344,7 +3344,7 @@
       ]
     }
   ],
-  "updated": "2026-11-05 12:05",
+  "updated": "2026-11-05 13:01",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3383,7 +3383,6 @@
     }
   ],
   "asistan_seen": [
-    "1a15e056234491a6",
     "1a15e17bb182e8d2",
     "1a15e1b4d4397991",
     "1a15e2d8f76fdbea",
@@ -3682,7 +3681,8 @@
     "19aa20690be48dcc",
     "1a1aaa68fa1b5e64",
     "1a1aae427e106818",
-    "1a1aaf3da78511ce"
+    "1a1aaf3da78511ce",
+    "1a1ab2777fdfd731"
   ],
   "feed_order": [
     "qt5dom",
