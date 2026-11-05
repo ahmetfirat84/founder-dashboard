@@ -2907,6 +2907,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush: Nikita Zatsepin (Creally CEO) ile planlanan toplantı karşı taraf tarafından iptal edildi; yeni toplantı için Slush platformundan tekrar randevu alınabilir. (kaynak: E-posta (5 Kas 20:12): Slush · Your meeting with Nikita Zatsepin has been cancel)",
+          "at": "2026-11-05 20:12"
+        },
+        {
           "text": "IgniteXL Ventures (Mitchell Weinstock, Venture Partner): Slush'ta görüşülen pre-seed fonu. Dealflow formu doldurulup deck yüklenecek, formda Slush'ta görüşüldüğü belirtilecek. Mail 20 Kas 2025 tarihli. (kaynak: E-posta (20 Kas 19:08): Mitchell Weinstock · Re: Great to meet you at Slush – &N)",
           "at": "2026-11-05 10:40"
         },
@@ -3344,7 +3348,7 @@
       ]
     }
   ],
-  "updated": "2026-11-05 18:35",
+  "updated": "2026-11-05 20:12",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3390,7 +3394,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5N0M3NzI2NTgwQTE5RjE5QkMA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFGMEQyMUFCNEI3MDVBNzY1N0QA",
     "1a15ef8ecb0d1ea2",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1QURBMDY3MjMyNTNCOTU0MEQA",
@@ -3689,7 +3692,8 @@
     "1a1abef424fc3948",
     "1a1abf5f05d7eec6",
     "1a1ac3888d394b85",
-    "1a1ac58e9b7e5a62"
+    "1a1ac58e9b7e5a62",
+    "1a1acb2363943b2e"
   ],
   "feed_order": [
     "qt5dom",
