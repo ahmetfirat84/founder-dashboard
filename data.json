@@ -607,7 +607,7 @@
       "imp": "high",
       "due_date": "2026-11-02",
       "title": "Paraşüt",
-      "note": "Paraşüt abonelik ödemesi kartta tahsil edilemedi (Sınırlı Destek Yıllık + Kontör, 6 taksit). Kartı güncelle, yoksa hesap erişimi 2 Kasım'da kesilir. Yenilenme tarihi 26 Ekim. YENİ MAİL 02.11 11:24 (2 Kas 11:24 · Paraşüt · Paraşüt Hesabınız Dondurulmuştur): 02.11 Paraşüt maili: abonelik tahsil edilemediği için hesap dondurulmuş; yeniden abonelik için kart bilgisi girilmesi gerekiyor."
+      "note": "Paraşüt abonelik ödemesi kartta tahsil edilemedi (Sınırlı Destek Yıllık + Kontör, 6 taksit). Kartı güncelle, yoksa hesap erişimi 2 Kasım'da kesilir. Yenilenme tarihi 26 Ekim. YENİ MAİL 02.11 11:24 (2 Kas 11:24 · Paraşüt · Paraşüt Hesabınız Dondurulmuştur): 02.11 Paraşüt maili: abonelik tahsil edilemediği için hesap dondurulmuş; yeniden abonelik için kart bilgisi girilmesi gerekiyor. YENİ MAİL 05.11 04:02 (5 Kas 04:01 · Paraşüt · Yapılacak Ödemeniz Var): 5 Kas 2026 Paraşüt ödeme günü hatırlatması: bugün vadeli giderler var (tutar mailde belirtilmemiş)"
     },
     {
       "action_type": "Ödeme",
@@ -3291,7 +3291,7 @@
       ]
     }
   ],
-  "updated": "2026-11-05 03:06",
+  "updated": "2026-11-05 04:02",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3330,7 +3330,6 @@
     }
   ],
   "asistan_seen": [
-    "1a15b9932b03307c",
     "1a15c6cb7f824885",
     "1a15cf294ceb0c2f",
     "1a15d7579f0be307",
@@ -3629,7 +3628,8 @@
     "1a1a69de298b7b81",
     "1a1a6e79dd24d0c6",
     "1a1a8c8d0ca64f8e",
-    "1a1a907098022d00"
+    "1a1a907098022d00",
+    "1a1a939e7c03291b"
   ],
   "feed_order": [
     "qt5dom",
