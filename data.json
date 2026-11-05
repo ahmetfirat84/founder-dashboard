@@ -1416,6 +1416,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "TOBB Nefes Kredisi yeniden uygulamada (İTO duyurusu, 5 Kas): KOBİ şartı, azami ₺5 mn, 48 ay vade (6 ay anapara ödemesiz), faiz %36 (24 ay altı) / %34 (24 ay üstü). Başvuru için İTO'dan 'Nefes Kredisi İçindir' faaliyet belgesi gerekli (e-imzalı: eportal.ito.org.tr); bankalar: Vakıfbank, Halkbank, Den (kaynak: E-posta (5 Kas 16:38): Ahmet Tosun · Fwd: TOBB Nefes Kredisi hk.)",
+          "at": "2026-11-05 16:39"
+        },
+        {
           "text": "📎 fatura-gelen arşivlendi: Anthropic 2026-11-05 no 4J3TVLAX-0034 → https://drive.google.com/file/d/1m-NabWOX0ICbBpwOlg9K3bvIeqFTbPWV/view?usp=drivesdk",
           "at": "2026-11-05 16:34"
         },
@@ -1530,10 +1534,6 @@
         {
           "text": "iyzico toplu ödeme: 28.10.2026 hesaba 120,01 EUR yatırıldı (işlem no 3466454210, YENİBEN hesabı). Muhasebede tahsilat eşleştirmesi yapılmalı. (kaynak: E-posta (28 Eki 10:39): iyzico · Toplu ödemeniz gerçekleştirildi)",
           "at": "2026-10-28 10:40"
-        },
-        {
-          "text": "📎 fatura-gelen arşivlendi: X (Twitter Global LLC) 2026-10-27 no 62BEDA93-0026 ₺56 → https://drive.google.com/file/d/1sGabv_1d95jaecpVamkI-rj-ZpnPuQJw/view?usp=drivesdk",
-          "at": "2026-10-27 14:56"
         }
       ],
       "drawer": [
@@ -3344,7 +3344,7 @@
       ]
     }
   ],
-  "updated": "2026-11-05 16:34",
+  "updated": "2026-11-05 16:39",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3383,7 +3383,6 @@
     }
   ],
   "asistan_seen": [
-    "1a15e3d6e145e736",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFCODMwMzdBOThCOTEwNkE5NTUA",
     "1a15e6e3fe5cd58d",
     "1a15eeb7b6e88eb8",
@@ -3682,7 +3681,8 @@
     "1a1ab2777fdfd731",
     "1a1ab679f0bce58b",
     "1a1ab85114a50a03",
-    "1a1abeadc8270063"
+    "1a1abeadc8270063",
+    "1a1abef424fc3948"
   ],
   "feed_order": [
     "qt5dom",
