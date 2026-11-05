@@ -1382,6 +1382,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Paraşüt otomatik hatırlatma (05 Kas): bugün vadeli giderler/ödemeler var, tutar mailde yazmıyor; Paraşüt giderler ekranından kontrol edilmeli. (kaynak: E-posta (5 Kas 04:01): Paraşüt · Yapılacak Ödemeniz Var)",
+          "at": "2026-11-05 04:02"
+        },
+        {
           "text": "📎 fatura-gelen arşivlendi: IC Hospital (MK Hastane) 2026-11-03 no MKY2026000000685 ₺66.509 → https://drive.google.com/file/d/1fYMdkEpTmeECiUxIiIVqcsAwoQLOwviX/view?usp=drivesdk",
           "at": "2026-11-04 15:52"
         },
@@ -1495,10 +1499,6 @@
         },
         {
           "text": "📎 belge arşivlendi: Beyoğlu 16. Noterliği 2024-07-04 no UR 0483125 / 0483127 ₺1.293 → https://drive.google.com/file/d/1mKfkCpbK2QN-HaV5GnFgV99Owev7IrFF/view?usp=drivesdk",
-          "at": "2026-10-26 18:48"
-        },
-        {
-          "text": "📎 fatura-gelen arşivlendi: SME Raporlama 2024-07-30 no SME2024000000302 ₺12.000 → https://drive.google.com/file/d/1aHYDDvDozoOiKKCtVnGVljlmz7NkhrN2/view?usp=drivesdk",
           "at": "2026-10-26 18:48"
         }
       ],
@@ -3330,7 +3330,6 @@
     }
   ],
   "asistan_seen": [
-    "1a15c6cb7f824885",
     "1a15cf294ceb0c2f",
     "1a15d7579f0be307",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDQ4RDNBMkM4MjExRTJBRjQ2MwA=",
@@ -3629,7 +3628,8 @@
     "1a1a6e79dd24d0c6",
     "1a1a8c8d0ca64f8e",
     "1a1a907098022d00",
-    "1a1a939e7c03291b"
+    "1a1a939e7c03291b",
+    "1a1a939f86970b8f"
   ],
   "feed_order": [
     "qt5dom",
