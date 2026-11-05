@@ -2875,6 +2875,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "IgniteXL Ventures (Mitchell Weinstock, Venture Partner): Slush'ta görüşülen pre-seed fonu. Dealflow formu doldurulup deck yüklenecek, formda Slush'ta görüşüldüğü belirtilecek. Mail 20 Kas 2025 tarihli. (kaynak: E-posta (20 Kas 19:08): Mitchell Weinstock · Re: Great to meet you at Slush – &N)",
+          "at": "2026-11-05 10:40"
+        },
+        {
           "text": "Pegasus uçuş onayı (PNR 2K79PE): Gidiş PC1311 17 Kas 10:35 SAW→HEL (13:15 varış); dönüş PC1312 22 Kas 15:00 HEL→SAW (19:50 varış). Check-in 10 Kas 10:35'te açılır. Slush Helsinki katılımı için. (kaynak: E-posta (3 Kas 19:11): Pegasus · PC1311 Helsinki: Rezervasyonun onaylandı! Bilet)",
           "at": "2026-11-03 19:11"
         },
@@ -3308,7 +3312,7 @@
       ]
     }
   ],
-  "updated": "2026-11-05 10:13",
+  "updated": "2026-11-05 10:40",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3347,7 +3351,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDQ4RDNBMkM4MjExRTJBRjQ2MwA=",
     "1a15dcb1bfa32035",
     "1a15dcb18dae536e",
     "1a15df1491a25751",
@@ -3646,7 +3649,8 @@
     "1a1a939e7c03291b",
     "1a1a939f86970b8f",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFBQTExNEMzQUEwM0FBRkNCOTcA",
-    "1a1aa8df5aed031e"
+    "1a1aa8df5aed031e",
+    "19aa20690be48dcc"
   ],
   "feed_order": [
     "qt5dom",
