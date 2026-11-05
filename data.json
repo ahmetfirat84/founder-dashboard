@@ -784,6 +784,23 @@
       "urgency": "orange",
       "title": "IC Hospital (MK Hastane)",
       "note": "2 hasta faturası (03.11.2026): MKY2026000000686 Isabella Ruddlesden (Bella) ₺66.509,16 + MKY2026000000685 Jodie Rata ₺66.509,16, her biri %10 KDV dahil, Genel Cerrahi. Nurcan Sarıbal mailiyle geldi, vade ve ödeme planı netleşecek."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Kredi",
+      "party": "Akbank",
+      "amount": "₺16.343,33",
+      "due": "Gecikmiş (ödeme günü geçti)",
+      "uid": "bjgcyy",
+      "source": "mail-gelen",
+      "origin": "E-posta (5 Kas 10:13): AKBANK · Gecikmeli Borcunuz Hakkında",
+      "wamid": "1a1aa8df5aed031e",
+      "mail_thread": "1a1aa8df5aed031e",
+      "imp": "high",
+      "amount_try": 16343.33,
+      "urgency": "red",
+      "title": "Akbank",
+      "note": "Akbank Artı Para kredisi gecikmiş: ₺16.343,33 ödeme uyarısı (e-posta 05.11). Ödeme yapıldıysa dekontu işle."
     }
   ],
   "departments": [
@@ -3291,7 +3308,7 @@
       ]
     }
   ],
-  "updated": "2026-11-05 09:43",
+  "updated": "2026-11-05 10:13",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3330,7 +3347,6 @@
     }
   ],
   "asistan_seen": [
-    "1a15d7579f0be307",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDQ4RDNBMkM4MjExRTJBRjQ2MwA=",
     "1a15dcb1bfa32035",
     "1a15dcb18dae536e",
@@ -3629,7 +3645,8 @@
     "1a1a907098022d00",
     "1a1a939e7c03291b",
     "1a1a939f86970b8f",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFBQTExNEMzQUEwM0FBRkNCOTcA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFBQTExNEMzQUEwM0FBRkNCOTcA",
+    "1a1aa8df5aed031e"
   ],
   "feed_order": [
     "qt5dom",
