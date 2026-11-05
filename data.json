@@ -2277,7 +2277,8 @@
           "imp": "high",
           "due_date": "2027-02-01",
           "text": "Play Console'da trader status beyanı (Hesap detayları > Hakkınızda). Yapılmazsa tüm uygulamalar ve geliştirici hesabı Google Play'den kaldırılır. Trader ise uygulama başına onay ve Hizmet Şartları linki gerekir; telefon ve adres public görünür.",
-          "owner": ""
+          "owner": "",
+          "note": "YENİ MAİL 05.11 03:06 (5 Kas 03:06 · Google Play · Declare your trader status to continue distributing apps on ): Google Play mailine göre trader status beyanı 1 Şubat 2027'ye kadar Play Console'dan yapılmalı; yapılmazsa tüm uygulamalar ve geliştirici hesabı global olarak kaldırılır."
         }
       ],
       "summary": "HealthTürkiye yenilemesi açık",
@@ -3290,7 +3291,7 @@
       ]
     }
   ],
-  "updated": "2026-11-05 01:58",
+  "updated": "2026-11-05 03:06",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3329,7 +3330,6 @@
     }
   ],
   "asistan_seen": [
-    "1a159c74c7ef97ea",
     "1a15b9932b03307c",
     "1a15c6cb7f824885",
     "1a15cf294ceb0c2f",
@@ -3628,7 +3628,8 @@
     "1a1a64377caf316d",
     "1a1a69de298b7b81",
     "1a1a6e79dd24d0c6",
-    "1a1a8c8d0ca64f8e"
+    "1a1a8c8d0ca64f8e",
+    "1a1a907098022d00"
   ],
   "feed_order": [
     "qt5dom",
