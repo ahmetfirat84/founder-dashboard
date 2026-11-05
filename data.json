@@ -3344,7 +3344,7 @@
       ]
     }
   ],
-  "updated": "2026-11-05 14:12",
+  "updated": "2026-11-05 14:43",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3383,7 +3383,6 @@
     }
   ],
   "asistan_seen": [
-    "1a15e1b4d4397991",
     "1a15e2d8f76fdbea",
     "1a15e3d6e145e736",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFCODMwMzdBOThCOTEwNkE5NTUA",
@@ -3682,7 +3681,8 @@
     "1a1aae427e106818",
     "1a1aaf3da78511ce",
     "1a1ab2777fdfd731",
-    "1a1ab679f0bce58b"
+    "1a1ab679f0bce58b",
+    "1a1ab85114a50a03"
   ],
   "feed_order": [
     "qt5dom",
@@ -8281,6 +8281,65 @@
     }
   ],
   "meeting_notes": [
+    {
+      "id": "f99z3f",
+      "title": "& New Me_Daily",
+      "date": "2026-11-05",
+      "summary": "Toplantıda site içeriği ve ödeme bağlantılarının iyileştirilmesi, marketplace modelinin korunması ve 19'undaki hastanın operasyon hazırlıkları konuşuldu. Burun estetiği lead'leri için çoklu paket hazırlanması ve depozito/tahsilat takibinin resmileştirilmesi kararlaştırıldı. Düşük fiyatlı paket ve transfer maliyetleri yazılı hesapla yeniden düzenlenecek.",
+      "thread": "1a1ab85114a50a03",
+      "actions": [
+        {
+          "id": "mcjibv",
+          "text": "Hastalar ve aracılardan gelen tekrarlayan doktor, tedavi ve süreç sorularını derleyip siteye SSS olarak ekleme ve ödeme yöntemleri bağlantısını daha görünür hale getirme işi planlandı.",
+          "dep": "ilksen",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "19m9dt",
+          "text": "19'undaki hasta için komplikasyon sigortasını Ayberk'in üstlendiği netleştiği için dokümanlardaki metinlerin buna göre düzeltilmesi gerekiyor.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "Ayberk",
+          "status": "proposed"
+        },
+        {
+          "id": "xrlhe8",
+          "text": "19'undaki hasta için depozito, bakiye ve ekipte kalacak tutarların grup içinde açıkça yazılması kararlaştırıldı.",
+          "dep": "zeynep",
+          "owner": "",
+          "due_date": "2026-11-19",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "e653iq",
+          "text": "Burun estetiği lead'leri için farklı doktor fiyatlarıyla kadın/erkek doktor ve KBB/plastik cerrahi seçeneklerini ayrı gösteren birden fazla paket hazırlanacak.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "l3d87z",
+          "text": "Nate'in hafta sonu yapacağı ödeme takip edilecek; ödeme gelmezse dosya hukuk birimine aktarılacak (hastaya bildirildi).",
+          "dep": "zeynep",
+          "owner": "",
+          "due_date": "2026-11-08",
+          "party": "Nate",
+          "status": "proposed"
+        },
+        {
+          "id": "ce8jjv",
+          "text": "Düşük fiyat isteyen lead için Tuğçe'nin çalıştığı klinik üzerinden alternatif paket hazırlanacak ve transfer kalemleri (havalimanı + yaklaşık 4 şehir içi, Uber seçeneği) yazılı maliyet hesabıyla yeniden düzenlenecek.",
+          "dep": "ecem",
+          "owner": "Tuğçe",
+          "party": "",
+          "status": "proposed"
+        }
+      ]
+    },
     {
       "id": "amhgkr",
       "title": "& New Me_Daily",
