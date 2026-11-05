@@ -3344,7 +3344,7 @@
       ]
     }
   ],
-  "updated": "2026-11-05 16:39",
+  "updated": "2026-11-05 16:46",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3380,10 +3380,16 @@
       "date": "2026-11-03T15:01:05.000Z",
       "thread": "1a1a1edd5024c2dc",
       "note": "Bilinmeyen gönderen, onay gerekir"
+    },
+    {
+      "subject": "YENİBEN GK",
+      "from": "Ersun Oruc <ersunoruc@cpaturk.com.tr>",
+      "date": "2026-11-05T13:46:05.000Z",
+      "thread": "1a1abf5f05d7eec6",
+      "note": "Bilinmeyen gönderen, onay gerekir"
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFCODMwMzdBOThCOTEwNkE5NTUA",
     "1a15e6e3fe5cd58d",
     "1a15eeb7b6e88eb8",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5N0M3NzI2NTgwQTE5RjE5QkMA",
@@ -3682,7 +3688,8 @@
     "1a1ab679f0bce58b",
     "1a1ab85114a50a03",
     "1a1abeadc8270063",
-    "1a1abef424fc3948"
+    "1a1abef424fc3948",
+    "1a1abf5f05d7eec6"
   ],
   "feed_order": [
     "qt5dom",
