@@ -723,7 +723,7 @@
       "amount_try": 23478.6,
       "urgency": "gray",
       "title": "Kanyon",
-      "note": "Kasım 2026 konut aidat avansı (D9, Bağımsız Bölüm 0226), e-Arşiv KEB2026000003990, 02.11.2026; Apsiyon'dan ödenir",
+      "note": "Kasım 2026 konut aidat avansı (D9, Bağımsız Bölüm 0226), e-Arşiv KEB2026000003990, 02.11.2026; Apsiyon'dan ödenir 2026-11-05 dekont: ₺36.250 gönderildi; alıcı/tutar eşleşmesi teyit bekliyor. Dekont Drive: https://drive.google.com/file/d/15YwVXSItslcbaaLo-0jVqhPtD9WkTnsk/view?usp=drivesdk",
       "invoice": {
         "no": "KEB2026000003990",
         "date": "2026-11-02",
@@ -3291,7 +3291,7 @@
       ]
     }
   ],
-  "updated": "2026-11-05 04:02",
+  "updated": "2026-11-05 09:43",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3330,7 +3330,6 @@
     }
   ],
   "asistan_seen": [
-    "1a15cf294ceb0c2f",
     "1a15d7579f0be307",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDQ4RDNBMkM4MjExRTJBRjQ2MwA=",
     "1a15dcb1bfa32035",
@@ -3629,7 +3628,8 @@
     "1a1a8c8d0ca64f8e",
     "1a1a907098022d00",
     "1a1a939e7c03291b",
-    "1a1a939f86970b8f"
+    "1a1a939f86970b8f",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFBQTExNEMzQUEwM0FBRkNCOTcA"
   ],
   "feed_order": [
     "qt5dom",
