@@ -1422,6 +1422,14 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "📎 belge arşivlendi: Selin Sezgin (maaş dekontu) 2026-11-06 ₺60.000 → https://drive.google.com/file/d/1I1zkfVhxMTxY5fxZF4vOEP4GUzK407vy/view?usp=drivesdk",
+          "at": "2026-11-06 13:45"
+        },
+        {
+          "text": "Selin Sezgin Kasım maaşı ₺60.000 net, 06.11.2026 13:44 Garanti BBVA havalesiyle ödendi (havale masrafı ₺8,38). (kaynak: WhatsApp (6 Kas 13:44, belge))",
+          "at": "2026-11-06 13:45"
+        },
+        {
           "text": "📎 belge arşivlendi: TOBB (Türkiye Odalar ve Borsalar Birliği) 2026-11-06 no 4340000153 ₺1.350 → https://drive.google.com/file/d/1PV-u42mmX9GePfFMhmS1ZHRliiExEWNi/view?usp=drivesdk",
           "at": "2026-11-06 11:26"
         },
@@ -1532,14 +1540,6 @@
         {
           "text": "Paraşüt tekrarlayan fatura kaydı (31 Eki 2026): Cemre-UBER ₺67.500, her ayın son günü O2 Sağlık Eğitim Danışmanlık Ltd. Şti. adına oluşturuluyor. Yönü ve gerçekliği doğrulanmalı. (kaynak: E-posta (31 Eki 08:06): Paraşüt · Tekrarlayan Fatura Kaydınız Oluşturuldu)",
           "at": "2026-10-31 08:07"
-        },
-        {
-          "text": "Paraşüt'te 'Selin Öner (Maaş)' adına tekrarlayan maaş kaydı oluşturuldu (5.698,64 TL, her ayın son günü). Güncel bordroda bu isim yok; kaydın kimin olduğu kontrol edilmeli. (kaynak: E-posta (31 Eki 08:06): Paraşüt · Tekrarlayan Maaş Kaydınız Oluşturuldu)",
-          "at": "2026-10-31 08:06"
-        },
-        {
-          "text": "Paraşüt: O2 Sağlık Eğitim Danışmanlık (Cemre-UBER) için 67.500 TL tekrarlayan fatura kaydı oluşturuldu; her ayın son günü otomatik fatura kesiliyor. (kaynak: E-posta (31 Eki 08:06): Paraşüt · Tekrarlayan Fatura Kaydınız Oluşturuldu)",
-          "at": "2026-10-31 08:06"
         }
       ],
       "drawer": [
@@ -3387,7 +3387,7 @@
       ]
     }
   ],
-  "updated": "2026-11-06 13:33",
+  "updated": "2026-11-06 13:45",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3440,7 +3440,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3NkY1QUJBRDA5RjJBNzFFRjQA",
     "1a16254be8fb4b29",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4OTdGNTM0MEYyRUU2ODFGNkIA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FENDI1QzI4NUQyMTRGNzU1NTUA",
@@ -3739,7 +3738,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEEzN0M2RUVBMDdENjQ4OThBMkYA",
     "1a1b01a3ea930256",
     "1a1b0356b95e81f6",
-    "1a1b06ace4b2c293"
+    "1a1b06ace4b2c293",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE3MzkzQkI0MEFEOEQxODBGQzIA"
   ],
   "feed_order": [
     "qt5dom",
