@@ -3387,7 +3387,7 @@
       ]
     }
   ],
-  "updated": "2026-11-06 12:34",
+  "updated": "2026-11-06 13:33",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3440,7 +3440,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0ExNDQ1QkMxNzVFMDhERDBFNjEA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3NkY1QUJBRDA5RjJBNzFFRjQA",
     "1a16254be8fb4b29",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4OTdGNTM0MEYyRUU2ODFGNkIA",
@@ -3739,7 +3738,8 @@
     "1a1afe461590cbf6",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEEzN0M2RUVBMDdENjQ4OThBMkYA",
     "1a1b01a3ea930256",
-    "1a1b0356b95e81f6"
+    "1a1b0356b95e81f6",
+    "1a1b06ace4b2c293"
   ],
   "feed_order": [
     "qt5dom",
@@ -8346,6 +8346,65 @@
     }
   ],
   "meeting_notes": [
+    {
+      "id": "r8faed",
+      "title": "& New Me_Daily",
+      "date": "2026-11-06",
+      "summary": "Toplantıda sıcak lead'lerin hızlıca satışa dönüştürülmesi, depozito ve ödeme süreçleri, doktor-hasta koordinasyonu ve pazarlama stratejileri ele alındı. Depozitosuz takvim tutmanın ekip zamanını tükettiği görüldü ve standart 50 EUR depozito linki kararlaştırıldı. WhatsApp sosyal kanıt sayfası ve yaklaşan reklam çalışması öncelikli takip konuları oldu.",
+      "thread": "1a1b06ace4b2c293",
+      "actions": [
+        {
+          "id": "v5qo4m",
+          "text": "Otomatik faturalandırma sağlayan standart 50 EUR depozito ödeme bağlantısı oluşturulacak.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "4mi4ik",
+          "text": "Web sitesinde, kişisel bilgiler (telefon numaraları vb.) gizlenerek, hasta yorumlarını, video referanslarını ve güncellenebilir içerikleri toplayan merkezi bir sosyal kanıt sayfası oluşturulacak.",
+          "dep": "ilksen",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "06aam8",
+          "text": "WhatsApp grubunun üst kısmına yorumlar, sık sorulan sorular ve ilgili web sayfalarına yönlendiren bağlantılar eklenecek.",
+          "dep": "ilksen",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "5yfqds",
+          "text": "Yaklaşan reklam çalışması bugün veya en geç pazar günü başlatılacak.",
+          "dep": "ilksen",
+          "owner": "",
+          "due_date": "2026-11-08",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "cywa5c",
+          "text": "Meme estetiği hastasına onay formu imzalatılacak, sözleşme gönderilecek; hastanın uçak bileti, pasaport ve fiyat bilgileri hasta dosyasına eklenecek.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "Meme estetiği hastası",
+          "status": "proposed"
+        },
+        {
+          "id": "hr7d6v",
+          "text": "Kan testi ve kanser geçmişiyle ilgili soru soran 2 lead'den bu hafta içinde ödeme alınacak.",
+          "dep": "zeynep",
+          "owner": "",
+          "due_date": "2026-11-08",
+          "party": "Kan testi ve kanser geçmişi soran 2 lead",
+          "status": "proposed"
+        }
+      ]
+    },
     {
       "id": "f99z3f",
       "title": "& New Me_Daily",
