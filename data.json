@@ -2925,6 +2925,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush Meeting Tool: Francisco Görlich (DENAVA GmbH) toplantı talebini reddetti (6 Kas). Yeni talepler gönderilebilir. (kaynak: E-posta (6 Kas 12:34): Slush · Francisco Görlich has declined your meeting reque)",
+          "at": "2026-11-06 12:34"
+        },
+        {
           "text": "Slush: Nikita Zatsepin (Creally CEO) ile planlanan toplantı karşı taraf tarafından iptal edildi; yeni toplantı için Slush platformundan tekrar randevu alınabilir. (kaynak: E-posta (5 Kas 20:12): Slush · Your meeting with Nikita Zatsepin has been cancel)",
           "at": "2026-11-05 20:12"
         },
@@ -3383,7 +3387,7 @@
       ]
     }
   ],
-  "updated": "2026-11-06 12:05",
+  "updated": "2026-11-06 12:34",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3436,7 +3440,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzMzlENjQzNTMyM0RDQ0IzQzgA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0ExNDQ1QkMxNzVFMDhERDBFNjEA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3NkY1QUJBRDA5RjJBNzFFRjQA",
     "1a16254be8fb4b29",
@@ -3735,7 +3738,8 @@
     "1a1afb08c5207acc",
     "1a1afe461590cbf6",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEEzN0M2RUVBMDdENjQ4OThBMkYA",
-    "1a1b01a3ea930256"
+    "1a1b01a3ea930256",
+    "1a1b0356b95e81f6"
   ],
   "feed_order": [
     "qt5dom",
