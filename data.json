@@ -824,6 +824,23 @@
       "due_date": "2026-11-05",
       "title": "Turkcell",
       "note": "İş Bankası talimatlı Turkcell faturası (5305471042, ₺755,40) bakiye yetersizliğinden ödenemedi; hesaba bakiye konup ödenmeli."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Kargo",
+      "party": "Aras Kargo",
+      "amount": "₺154,73 (temel tutar)",
+      "due": "Vade belirsiz",
+      "uid": "f5qrlc",
+      "source": "mail-gelen",
+      "origin": "E-posta (6 Kas 17:41): Paraşüt · Yeni bir e-Faturanız var",
+      "wamid": "1a1b14f077284492",
+      "mail_thread": "1a1b14f077284492",
+      "imp": "low",
+      "amount_try": 154.73,
+      "urgency": "gray",
+      "title": "Aras Kargo",
+      "note": "Aras Kargo e-fatura (Paraşüt bildirimi, 06 Kas): temel ₺154,73, KDV ve vade fatura detayında."
     }
   ],
   "departments": [
@@ -3396,7 +3413,7 @@
       ]
     }
   ],
-  "updated": "2026-11-06 17:09",
+  "updated": "2026-11-06 17:42",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3449,7 +3466,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1632fc81b456ef",
     "1a16330760a40eb9",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE2MENFRTA5Qzk0REEyMzAzMkMA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3OEZEODEwRUVDMTFEMjIwQjEA",
@@ -3748,7 +3764,8 @@
     "1a1b11008408a788",
     "1a1b12bbf8fa0d88",
     "1a1b12bc7c0664cb",
-    "1a1b131019eb78cf"
+    "1a1b131019eb78cf",
+    "1a1b14f077284492"
   ],
   "feed_order": [
     "qt5dom",
