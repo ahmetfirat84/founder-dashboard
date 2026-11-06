@@ -2110,6 +2110,10 @@
       "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri",
       "notes": [
         {
+          "text": "DYS: 01/06/2026 tarihli 26.HRTP.004701 nolu Reklam Tanıtım Pazarlama ön onay başvurusu uygun bulundu (06.11.2026). Sonuç ve eksik bildirimleri DYS 'Yazışmalar' bölümünden takip edilecek. (kaynak: E-posta (6 Kas 17:03): Destek Yonetim Sistemi Bildirim Servisi · Ticaret Bakanlı)",
+          "at": "2026-11-06 17:03"
+        },
+        {
           "text": "DYS ön onay: 26.HRTP.004703 nolu Reklam Tanıtım Pazarlama başvurusu uygun bulundu (06.11.2026). Yazışmalar linkinden DYS başvuru listesini kontrol et. (kaynak: E-posta (6 Kas 17:03): Destek Yonetim Sistemi Bildirim Servisi · Ticaret Bakanlı)",
           "at": "2026-11-06 17:03"
         },
@@ -3445,7 +3449,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEJFQjVFQzZFODUwQjUxQzYwMAA=",
     "1a162f26e6c404f4",
     "1a1632fc81b456ef",
     "1a16330760a40eb9",
@@ -3744,7 +3747,8 @@
     "1a1b08c2447e183b",
     "1a1b0efd1136e728",
     "1a1b11008408a788",
-    "1a1b12bbf8fa0d88"
+    "1a1b12bbf8fa0d88",
+    "1a1b12bc7c0664cb"
   ],
   "feed_order": [
     "qt5dom",
