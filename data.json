@@ -1990,7 +1990,8 @@
             "from": "Ahmet / asistan notları",
             "date": "2026-10-18",
             "note": "DYS belge mimarisi notu (30 Tem) + tesvik_reklam_kart_belge"
-          }
+          },
+          "note": "YENİ MAİL 06.11 17:03 (6 Kas 17:03 · Destek Yonetim Sistemi Bildirim Servisi · Ticaret Bakanlığı (DYS) - Ön Onay ): DYS ön onay sonucu: 01.06.2026 tarihli 26.HRTP.004703 Reklam Tanıtım Pazarlama ön onay başvurusu uygun bulundu (06.11.2026)."
         },
         {
           "uid": "zqpvi8",
@@ -2108,6 +2109,10 @@
       ],
       "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri",
       "notes": [
+        {
+          "text": "DYS ön onay: 26.HRTP.004703 nolu Reklam Tanıtım Pazarlama başvurusu uygun bulundu (06.11.2026). Yazışmalar linkinden DYS başvuru listesini kontrol et. (kaynak: E-posta (6 Kas 17:03): Destek Yonetim Sistemi Bildirim Servisi · Ticaret Bakanlı)",
+          "at": "2026-11-06 17:03"
+        },
         {
           "text": "HİB yazısı (4 Kas): Moskova Ticaret Müşavirliğine yapılacak ihracat desteği başvuruları 26.10.2026'dan itibaren yalnızca KEP üzerinden kabul ediliyor. Gönderen hibhaber.org alan adı; resmi hib.org.tr adresiyle teyit edilmeli. (kaynak: E-posta (4 Kas 16:40): Hizmet İhracatçıları Birliği Genel Sekre · Moskova Büyüke)",
           "at": "2026-11-04 17:13"
@@ -3387,7 +3392,7 @@
       ]
     }
   ],
-  "updated": "2026-11-06 16:33",
+  "updated": "2026-11-06 17:03",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3440,7 +3445,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E2RkRCRDE4RjRBM0E5MTZFQTMA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEJFQjVFQzZFODUwQjUxQzYwMAA=",
     "1a162f26e6c404f4",
     "1a1632fc81b456ef",
@@ -3739,7 +3743,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE3MzkzQkI0MEFEOEQxODBGQzIA",
     "1a1b08c2447e183b",
     "1a1b0efd1136e728",
-    "1a1b11008408a788"
+    "1a1b11008408a788",
+    "1a1b12bbf8fa0d88"
   ],
   "feed_order": [
     "qt5dom",
