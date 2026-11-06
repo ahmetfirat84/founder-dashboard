@@ -808,6 +808,22 @@
       "due_date": "2026-11-12",
       "title": "Apple (HiNoter AI Note Taker)",
       "note": "HiNoter AI haftalık abonelik, ₺184,99 (KDV dahil), 12 Kasım'da yenileniyor. İstemiyorsan App Store'dan iptal et."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Fatura",
+      "party": "Turkcell",
+      "amount": "₺755,40",
+      "due": "05.11 talimatlı fatura ödenemedi",
+      "uid": "hjxni3",
+      "source": "mail-gelen",
+      "origin": "E-posta (6 Kas 12:04): Turkiye Is Bankasi A.S · Ödenemeyen Talimatlı Fatura Bilgisi",
+      "wamid": "1a1b01a3ea930256",
+      "mail_thread": "1a1b01a3ea930256",
+      "amount_try": 755.4,
+      "due_date": "2026-11-05",
+      "title": "Turkcell",
+      "note": "İş Bankası talimatlı Turkcell faturası (5305471042, ₺755,40) bakiye yetersizliğinden ödenemedi; hesaba bakiye konup ödenmeli."
     }
   ],
   "departments": [
@@ -3367,7 +3383,7 @@
       ]
     }
   ],
-  "updated": "2026-11-06 11:26",
+  "updated": "2026-11-06 12:05",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3420,7 +3436,6 @@
     }
   ],
   "asistan_seen": [
-    "1a162381ebbbed6a",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzMzlENjQzNTMyM0RDQ0IzQzgA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0ExNDQ1QkMxNzVFMDhERDBFNjEA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3NkY1QUJBRDA5RjJBNzFFRjQA",
@@ -3719,7 +3734,8 @@
     "1a1afaad2e0404fd",
     "1a1afb08c5207acc",
     "1a1afe461590cbf6",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEEzN0M2RUVBMDdENjQ4OThBMkYA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEEzN0M2RUVBMDdENjQ4OThBMkYA",
+    "1a1b01a3ea930256"
   ],
   "feed_order": [
     "qt5dom",
