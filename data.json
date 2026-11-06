@@ -2915,7 +2915,7 @@
           "uid": "td_6hhgrxCw2PRHCQhh",
           "source": "todoist",
           "plan_date": "2026-10-24",
-          "note": "YENİ MAİL 04.11 12:56 (4 Kas 12:55 · Slush · Christian Bisaillon has declined your meeting request): Christian Bisaillon (Hyberden Ventures) meeting talebini reddetti: yatırım odağına uymuyor (4 Kas)."
+          "note": "YENİ MAİL 04.11 12:56 (4 Kas 12:55 · Slush · Christian Bisaillon has declined your meeting request): Christian Bisaillon (Hyberden Ventures) meeting talebini reddetti: yatırım odağına uymuyor (4 Kas). YENİ MAİL 06.11 21:56 (6 Kas 21:55 · Slush · Dominik Alvermann has declined your meeting request): Dominik Alvermann (Acton Capital) meeting talebini reddetti (6 Kas)."
         },
         {
           "action_type": "Yanıt",
@@ -3413,7 +3413,7 @@
       ]
     }
   ],
-  "updated": "2026-11-06 19:09",
+  "updated": "2026-11-06 21:56",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3466,7 +3466,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE2MENFRTA5Qzk0REEyMzAzMkMA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3OEZEODEwRUVDMTFEMjIwQjEA",
     "1a1634e2d23ef78c",
     "1a1635328b907425",
@@ -3765,7 +3764,8 @@
     "1a1b12bc7c0664cb",
     "1a1b131019eb78cf",
     "1a1b14f077284492",
-    "1a1b19f188f1a571"
+    "1a1b19f188f1a571",
+    "1a1b237ba52168d4"
   ],
   "feed_order": [
     "qt5dom",
