@@ -1406,6 +1406,14 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "📎 belge arşivlendi: TOBB (Türkiye Odalar ve Borsalar Birliği) 2026-11-06 no 4340000153 ₺1.350 → https://drive.google.com/file/d/1PV-u42mmX9GePfFMhmS1ZHRliiExEWNi/view?usp=drivesdk",
+          "at": "2026-11-06 11:26"
+        },
+        {
+          "text": "06.11 Garanti FAST ile TOBB'a ilan bedeli ₺1.350 ödendi (komisyon ₺8,37, FAST ref 4340000153); eşleşen açık satır yoktu, genel kurul ilan masrafı olabilir. (kaynak: WhatsApp (6 Kas 11:26, belge))",
+          "at": "2026-11-06 11:26"
+        },
+        {
           "text": "📎 fatura-gelen arşivlendi: CK Boğaziçi Elektrik 2026-11-06 no BEA2026047922824 ₺690 → https://drive.google.com/file/d/1xKMPXICNpWEK5EsospEhOsk3STQaaveM/view?usp=drivesdk",
           "at": "2026-11-06 10:03"
         },
@@ -1516,14 +1524,6 @@
         {
           "text": "Paraşüt: O2 Sağlık Eğitim Danışmanlık (Cemre-UBER) için 67.500 TL tekrarlayan fatura kaydı oluşturuldu; her ayın son günü otomatik fatura kesiliyor. (kaynak: E-posta (31 Eki 08:06): Paraşüt · Tekrarlayan Fatura Kaydınız Oluşturuldu)",
           "at": "2026-10-31 08:06"
-        },
-        {
-          "text": "Paraşüt: e-kontör adedi kritik seviyede, e-fatura kesimi yarım kalmasın diye kontör paketi alınmalı (e-posta 30.10). (kaynak: E-posta (30 Eki 06:16): Paraşüt · Elektronik fatura kontör adediniz kritik seviy)",
-          "at": "2026-10-30 06:17"
-        },
-        {
-          "text": "28.10.2026 21:33'te VakıfBank hesabına (*1412) Garanti'den FAST ile ₺7.400 gelen havale; gönderen Ahmet Fırat adına görünüyor, güncel bakiye ₺7.400,39. (kaynak: E-posta (28 Eki 21:34): VakıfBank · VAKIFBANK - FAST Anlık Ödeme Bilgilendirmesi)",
-          "at": "2026-10-28 21:34"
         }
       ],
       "drawer": [
@@ -3367,7 +3367,7 @@
       ]
     }
   ],
-  "updated": "2026-11-06 11:06",
+  "updated": "2026-11-06 11:26",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3420,7 +3420,6 @@
     }
   ],
   "asistan_seen": [
-    "1a161e776af9865a",
     "1a162381ebbbed6a",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzMzlENjQzNTMyM0RDQ0IzQzgA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0ExNDQ1QkMxNzVFMDhERDBFNjEA",
@@ -3719,7 +3718,8 @@
     "1a1af4ec27d2be18",
     "1a1afaad2e0404fd",
     "1a1afb08c5207acc",
-    "1a1afe461590cbf6"
+    "1a1afe461590cbf6",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEEzN0M2RUVBMDdENjQ4OThBMkYA"
   ],
   "feed_order": [
     "qt5dom",
@@ -8315,6 +8315,14 @@
       "bank": "Garanti BBVA",
       "note": "Şahıs hesabı, prim ödemeleri",
       "updated": "2026-10-22"
+    },
+    {
+      "id": "q5u7bs",
+      "name": "TOBB",
+      "iban": "TR890004600153888000069070",
+      "holder": "TÜRKİYE ODALAR VE BORSALAR BİRLİĞİ",
+      "note": "İlan bedeli ödemesi",
+      "updated": "2026-11-06"
     }
   ],
   "meeting_notes": [
