@@ -2813,7 +2813,7 @@
           "amount": "",
           "urgency": "gray",
           "uid": "0skysi",
-          "note": "YENİ MAİL 29.10 09:32 (29 Eki 09:31 · Rania Said · AWS on the Future of AI in Healthcare | Slush 2026): Slush Helsinki'de 19 Kasım 11:00-13:00 AWS 'AI is Rewriting Healthcare Investment' etkinliği için başvuru daveti geldi (katılım onaylı değil, AWS değerlendirecek). YENİ MAİL 29.10 19:35 (29 Eki 19:35 · Ahmet Tosun · Fwd: You're invited: Vrushali Paunikar (CPO @ Carta) at Slus): Carta CPO Vrushali Paunikar'dan Slush 2026 toplantı daveti geldi (29 Eki). YENİ MAİL 30.10 15:05 (30 Eki 15:05 · Ahmet Tosun · Fwd: You’re invited to apply: An intimate dinner with SAP, U): Slush davet e-postası: 17 Kasım'da Helsinki'de SAP for Startups, Unicorn Bakery ve Anthropic'in davetli yemeği için başvuru açıldı; yer sınırlı, onay ev sahiplerince veriliyor. YENİ MAİL 04.11 10:21 (4 Kas 10:21 · Airbnb for Work · Accept your reservation by Nov 9, 2026): Helsinki konaklaması (17-19 Kas) Airbnb'de kabul bekliyor, son gün 9 Kas 09:20."
+          "note": "YENİ MAİL 29.10 09:32 (29 Eki 09:31 · Rania Said · AWS on the Future of AI in Healthcare | Slush 2026): Slush Helsinki'de 19 Kasım 11:00-13:00 AWS 'AI is Rewriting Healthcare Investment' etkinliği için başvuru daveti geldi (katılım onaylı değil, AWS değerlendirecek). YENİ MAİL 29.10 19:35 (29 Eki 19:35 · Ahmet Tosun · Fwd: You're invited: Vrushali Paunikar (CPO @ Carta) at Slus): Carta CPO Vrushali Paunikar'dan Slush 2026 toplantı daveti geldi (29 Eki). YENİ MAİL 30.10 15:05 (30 Eki 15:05 · Ahmet Tosun · Fwd: You’re invited to apply: An intimate dinner with SAP, U): Slush davet e-postası: 17 Kasım'da Helsinki'de SAP for Startups, Unicorn Bakery ve Anthropic'in davetli yemeği için başvuru açıldı; yer sınırlı, onay ev sahiplerince veriliyor. YENİ MAİL 04.11 10:21 (4 Kas 10:21 · Airbnb for Work · Accept your reservation by Nov 9, 2026): Helsinki konaklaması (17-19 Kas) Airbnb'de kabul bekliyor, son gün 9 Kas 09:20. YENİ MAİL 06.11 17:09 (6 Kas 17:08 · Nemo from Slush · Meet the Northzone team at Slush): Northzone Investor Office Hours (Slush, 19 Kas 10:45, kapalı oturum): başvuru son gün 10 Kas, Slush bilet sahipleri için açık."
         },
         {
           "text": "Booking vs New Me animasyonunu tamamla",
@@ -3396,7 +3396,7 @@
       ]
     }
   ],
-  "updated": "2026-11-06 17:03",
+  "updated": "2026-11-06 17:09",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3449,7 +3449,6 @@
     }
   ],
   "asistan_seen": [
-    "1a162f26e6c404f4",
     "1a1632fc81b456ef",
     "1a16330760a40eb9",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE2MENFRTA5Qzk0REEyMzAzMkMA",
@@ -3748,7 +3747,8 @@
     "1a1b0efd1136e728",
     "1a1b11008408a788",
     "1a1b12bbf8fa0d88",
-    "1a1b12bc7c0664cb"
+    "1a1b12bc7c0664cb",
+    "1a1b131019eb78cf"
   ],
   "feed_order": [
     "qt5dom",
