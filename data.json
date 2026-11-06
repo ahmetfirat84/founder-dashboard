@@ -1406,6 +1406,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "📎 fatura-gelen arşivlendi: CK Boğaziçi Elektrik 2026-11-06 no BEA2026047922824 ₺690 → https://drive.google.com/file/d/1xKMPXICNpWEK5EsospEhOsk3STQaaveM/view?usp=drivesdk",
+          "at": "2026-11-06 10:03"
+        },
+        {
           "text": "VakıfBank'a 05.11 21:46'da Garanti'den FAST ile 4.920 TL gelişi (gönderen AH**** FA**** FI****), güncel bakiye 4.920,39 TL. (kaynak: E-posta (5 Kas 21:47): VakıfBank · VAKIFBANK - FAST Anlık Ödeme Bilgilendirmesi)",
           "at": "2026-11-05 21:47"
         },
@@ -1520,10 +1524,6 @@
         {
           "text": "28.10.2026 21:33'te VakıfBank hesabına (*1412) Garanti'den FAST ile ₺7.400 gelen havale; gönderen Ahmet Fırat adına görünüyor, güncel bakiye ₺7.400,39. (kaynak: E-posta (28 Eki 21:34): VakıfBank · VAKIFBANK - FAST Anlık Ödeme Bilgilendirmesi)",
           "at": "2026-10-28 21:34"
-        },
-        {
-          "text": "31.10'da Cemre'nin Uber faturası kesilecek; hatırlatma Paraşüt'te zaten var, taslaklar hazır. (kaynak: WhatsApp (28 Eki 15:38, yazılı))",
-          "at": "2026-10-28 15:38"
         }
       ],
       "drawer": [
@@ -3235,7 +3235,7 @@
       "area": "Şahsi-Todo",
       "status": "gray",
       "summary": "Şahsi yapılacaklar",
-      "updated": "2026-11-03 19:03",
+      "updated": "2026-11-06 10:03",
       "items": [
         {
           "text": "OC: dünkü toplantı notlarını mail at, yapılacakları netleştir; gönderdiği bilet linkine bak, işe yararsa siteye embed et",
@@ -3312,6 +3312,23 @@
           "due_date": "2026-11-13",
           "text": "Etiler konut elektrik faturası (BEA2026047260259, 02.10-03.11 dönemi), ödenecek ₺645,00; Garanti otomatik ödeme talimatı var",
           "owner": ""
+        },
+        {
+          "action_type": "Ödeme",
+          "category": "",
+          "party": "CK Boğaziçi Elektrik",
+          "amount": "₺690",
+          "due": "16 Kas",
+          "uid": "1ghix7",
+          "source": "mail-gelen",
+          "origin": "E-posta (6 Kas 10:02): CK Boğaziçi Elektrik Perakende Satış A.Ş · Fatura Bilgilendirme",
+          "wamid": "1a1afaad2e0404fd",
+          "mail_thread": "1a1afaad2e0404fd",
+          "imp": "low",
+          "amount_try": 690,
+          "due_date": "2026-11-16",
+          "text": "Elektrik faturası BEA2026047922824 (07.10-06.11 dönemi), ₺689,76, ödenecek ₺690,00; İş Bankası otomatik ödeme talimatı var. Önceki fatura r140 (BEA2026047260259, ₺645) ayrı.",
+          "owner": ""
         }
       ],
       "notes": [
@@ -3346,7 +3363,7 @@
       ]
     }
   ],
-  "updated": "2026-11-06 08:22",
+  "updated": "2026-11-06 10:03",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3392,7 +3409,6 @@
     }
   ],
   "asistan_seen": [
-    "1a15f31d55ce0358",
     "1a15ff1dde640a93",
     "1a1606f13a596d97",
     "1a161e776af9865a",
@@ -3691,7 +3707,8 @@
     "1a1ad097650d0354",
     "1a1ad3953c23f57f",
     "1a1ad3c5e6be1c58",
-    "1a1af4ec27d2be18"
+    "1a1af4ec27d2be18",
+    "1a1afaad2e0404fd"
   ],
   "feed_order": [
     "qt5dom",
