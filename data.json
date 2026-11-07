@@ -841,6 +841,23 @@
       "urgency": "gray",
       "title": "Aras Kargo",
       "note": "Aras Kargo e-fatura (Paraşüt bildirimi, 06 Kas): temel ₺154,73, KDV ve vade fatura detayında."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Abonelik",
+      "party": "Apple (RaqunAI Premium)",
+      "amount": "249.99",
+      "due": "13 Kas 2026",
+      "uid": "td9c4q",
+      "source": "mail-gelen",
+      "origin": "E-posta (7 Kas 10:12): Apple · Your Subscription is Confirmed",
+      "wamid": "1a1b4da6c5a5a65a",
+      "mail_thread": "1a1b4da6c5a5a65a",
+      "imp": "low",
+      "amount_try": 249.99,
+      "due_date": "2026-11-12",
+      "title": "Apple (RaqunAI Premium)",
+      "note": "RaqunAI Premium aboneliği (Apple): 1 hafta deneme 6 Kas, ₺249,99/ay 13 Kas'ta yenileniyor. Karar ver: iptal et veya devam et (12 Kas'a kadar iptal)."
     }
   ],
   "departments": [
@@ -3425,7 +3442,7 @@
       ]
     }
   ],
-  "updated": "2026-11-07 07:04",
+  "updated": "2026-11-07 10:13",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3478,7 +3495,6 @@
     }
   ],
   "asistan_seen": [
-    "1a163b436e54ae67",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4NDEyMzdFQUJGMzJFREVGNzgA",
     "1a1652bd7a011311",
     "1a1653fa8d180de8",
@@ -3777,7 +3793,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCRkJFMzQ5RTg1MzZGNThGQTQA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E5MTFCNzQ0Q0E3NTdGMjY3QzMA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzRTFCMURENDU4MDMwQUE0QTUA",
-    "1a1b42d50bf22cae"
+    "1a1b42d50bf22cae",
+    "1a1b4da6c5a5a65a"
   ],
   "feed_order": [
     "qt5dom",
