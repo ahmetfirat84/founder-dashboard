@@ -858,6 +858,22 @@
       "due_date": "2026-11-12",
       "title": "Apple (RaqunAI Premium)",
       "note": "RaqunAI Premium aboneliği (Apple): 1 hafta deneme 6 Kas, ₺249,99/ay 13 Kas'ta yenileniyor. Karar ver: iptal et veya devam et (12 Kas'a kadar iptal)."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Turkcell",
+      "party": "Turkcell (5337270000)",
+      "amount": "₺1.228,40",
+      "due": "06.11 talimatlı fatura ödenemedi",
+      "uid": "077nyb",
+      "source": "mail-gelen",
+      "origin": "E-posta (7 Kas 12:03): Turkiye Is Bankasi A.S · Ödenemeyen Talimatlı Fatura Bilgisi",
+      "wamid": "1a1b53fe0f9fbedf",
+      "mail_thread": "1a1b53fe0f9fbedf",
+      "amount_try": 1228.4,
+      "due_date": "2026-11-06",
+      "title": "Turkcell (5337270000)",
+      "note": "Turkcell talimatlı fatura ₺1.228,40 bakiye yetersizliğinden ödenemedi (İş Bankası bildirimi, 07.11). Bakiye yatırılıp ödenmeli."
     }
   ],
   "departments": [
@@ -3442,7 +3458,7 @@
       ]
     }
   ],
-  "updated": "2026-11-07 10:48",
+  "updated": "2026-11-07 12:04",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3495,7 +3511,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1652bd7a011311",
     "1a1653fa8d180de8",
     "1a16685425d4ed41",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E0ODgzOTFCREIwNTVERTU0NzcA",
@@ -3794,7 +3809,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzRTFCMURENDU4MDMwQUE0QTUA",
     "1a1b42d50bf22cae",
     "1a1b4da6c5a5a65a",
-    "1a1b4fab578824a9"
+    "1a1b4fab578824a9",
+    "1a1b53fe0f9fbedf"
   ],
   "feed_order": [
     "qt5dom",
