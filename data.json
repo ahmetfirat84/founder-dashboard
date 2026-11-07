@@ -3170,6 +3170,10 @@
       ],
       "notes": [
         {
+          "text": "DMARC aggregate raporu (andnewme.com, 5-6 Kasım 2026, Microsoft): bilgi amaçlı otomatik rapor, aksiyon gerekmiyor. (kaynak: E-posta (7 Kas 07:03): DMARC Aggregate Report · Report Domain: andnewme.com Subm)",
+          "at": "2026-11-07 07:04"
+        },
+        {
           "text": "Yahoo DMARC aggregate raporu (andnewme.com, 4 Kas): otomatik teknik bildirim, aksiyon gerektirmiyor. (kaynak: E-posta (4 Kas 12:54): noreply@dmarc.yahoo.com · Report Domain: andnewme.com Sub)",
           "at": "2026-11-04 12:56"
         },
@@ -3283,10 +3287,6 @@
         },
         {
           "text": "Yeni WhatsApp Business numarası satın alındı: +447822033161 (YourBusinessNumber, UK). Doğrulama kodu e-postaya gelecek. İlk hafta WhatsApp Web bağlamayın, grup eklemeyin ve toplu mesaj göndermeyin. (kaynak: E-posta (17 Eki 12:26): hello@yourbusinessnumber.com · YourBusinessNumber Order )",
-          "at": "2026-10-17 15:33"
-        },
-        {
-          "text": "not: GitHub hesabına 17 Eki'de yeni bir erişim anahtarı (newme-asistant) eklendi. Size ait değilse GitHub güvenlik ayarlarından iptal edin. (kaynak: E-posta (17 Eki 12:54): GitHub · [GitHub] A fine-grained personal access token h)",
           "at": "2026-10-17 15:33"
         }
       ]
@@ -3425,7 +3425,7 @@
       ]
     }
   ],
-  "updated": "2026-11-07 02:57",
+  "updated": "2026-11-07 07:04",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3478,7 +3478,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEE0REY1RjNDOEUzNUI3QUM3OQA=",
     "1a163b436e54ae67",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4NDEyMzdFQUJGMzJFREVGNzgA",
     "1a1652bd7a011311",
@@ -3777,7 +3776,8 @@
     "1a1b237ba52168d4",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCRkJFMzQ5RTg1MzZGNThGQTQA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E5MTFCNzQ0Q0E3NTdGMjY3QzMA",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzRTFCMURENDU4MDMwQUE0QTUA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzRTFCMURENDU4MDMwQUE0QTUA",
+    "1a1b42d50bf22cae"
   ],
   "feed_order": [
     "qt5dom",
