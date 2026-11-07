@@ -1456,6 +1456,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "📎 fatura-gelen arşivlendi: Make (Celonis Inc.) 2026-11-07 no JM8I61UO-0006 → https://drive.google.com/file/d/1wBVUkVtvLt5Mc6HXjLXFqaq-qPoJlbNm/view?usp=drivesdk",
+          "at": "2026-11-07 10:48"
+        },
+        {
           "text": "📎 belge arşivlendi: Selin Sezgin (maaş dekontu) 2026-11-06 ₺60.000 → https://drive.google.com/file/d/1I1zkfVhxMTxY5fxZF4vOEP4GUzK407vy/view?usp=drivesdk",
           "at": "2026-11-06 13:45"
         },
@@ -1570,10 +1574,6 @@
         {
           "text": "📎 fatura-gelen arşivlendi: Adobe 2026-10-31 no 3627219209 ₺558 → https://drive.google.com/file/d/1eAEzCjxa4Qh8b9TLKe6vwIgRg3dULQ8u/view?usp=drivesdk",
           "at": "2026-10-31 18:42"
-        },
-        {
-          "text": "Paraşüt tekrarlayan fatura kaydı (31 Eki 2026): Cemre-UBER ₺67.500, her ayın son günü O2 Sağlık Eğitim Danışmanlık Ltd. Şti. adına oluşturuluyor. Yönü ve gerçekliği doğrulanmalı. (kaynak: E-posta (31 Eki 08:06): Paraşüt · Tekrarlayan Fatura Kaydınız Oluşturuldu)",
-          "at": "2026-10-31 08:07"
         }
       ],
       "drawer": [
@@ -3442,7 +3442,7 @@
       ]
     }
   ],
-  "updated": "2026-11-07 10:13",
+  "updated": "2026-11-07 10:48",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3495,7 +3495,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4NDEyMzdFQUJGMzJFREVGNzgA",
     "1a1652bd7a011311",
     "1a1653fa8d180de8",
     "1a16685425d4ed41",
@@ -3794,7 +3793,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E5MTFCNzQ0Q0E3NTdGMjY3QzMA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzRTFCMURENDU4MDMwQUE0QTUA",
     "1a1b42d50bf22cae",
-    "1a1b4da6c5a5a65a"
+    "1a1b4da6c5a5a65a",
+    "1a1b4fab578824a9"
   ],
   "feed_order": [
     "qt5dom",
