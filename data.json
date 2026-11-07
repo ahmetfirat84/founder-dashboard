@@ -3203,6 +3203,10 @@
       ],
       "notes": [
         {
+          "text": "Google Apps Script 'asistan-mail-to-dashboard' 7 Kasım'da 4 kez hata verdi (sunucu hatası); e-posta aktarımı kontrol edilmeli. (kaynak: E-posta (8 Kas 00:16): noreply-apps-scripts-notifications@googl · Summary of fai)",
+          "at": "2026-11-08 00:17"
+        },
+        {
           "text": "DMARC aggregate raporu (andnewme.com, 5-6 Kasım 2026, Microsoft): bilgi amaçlı otomatik rapor, aksiyon gerekmiyor. (kaynak: E-posta (7 Kas 07:03): DMARC Aggregate Report · Report Domain: andnewme.com Subm)",
           "at": "2026-11-07 07:04"
         },
@@ -3317,10 +3321,6 @@
         {
           "text": "Apple Premium (aylık) aboneliği ₺99 ödendi (KDV dahil); 18 Kasım 2026'da yenilenecek. (kaynak: E-posta (17 Eki 19:38): Apple · Your receipt from Apple.)",
           "at": "2026-10-17 19:39"
-        },
-        {
-          "text": "Yeni WhatsApp Business numarası satın alındı: +447822033161 (YourBusinessNumber, UK). Doğrulama kodu e-postaya gelecek. İlk hafta WhatsApp Web bağlamayın, grup eklemeyin ve toplu mesaj göndermeyin. (kaynak: E-posta (17 Eki 12:26): hello@yourbusinessnumber.com · YourBusinessNumber Order )",
-          "at": "2026-10-17 15:33"
         }
       ]
     },
@@ -3458,7 +3458,7 @@
       ]
     }
   ],
-  "updated": "2026-11-08 00:05",
+  "updated": "2026-11-08 00:17",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3511,7 +3511,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDdBRTBENUIwMTkxQTJGQUQxRAA=",
     "1a167ae271c7bfa9",
     "1a167cab182bf1eb",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDA5NzkyMjY1M0VERDI1NTAwOQA=",
@@ -3810,7 +3809,8 @@
     "1a1b53fe0f9fbedf",
     "1a1b543343a81d4b",
     "1a1b5b0801438e7e",
-    "1a1b7d3d056ca33f"
+    "1a1b7d3d056ca33f",
+    "1a1b7deccbaa781e"
   ],
   "feed_order": [
     "qt5dom",
