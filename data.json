@@ -614,7 +614,7 @@
       "amount_try": 621,
       "urgency": "gray",
       "title": "Turkcell",
-      "note": "Turkcell e-faturası (Paraşüt bildirimi, 29 Eki): temel tutar ₺621, KDV ve vade fatura detayında kontrol edilecek.",
+      "note": "Turkcell e-faturası (Paraşüt bildirimi, 29 Eki): temel tutar ₺621, KDV ve vade fatura detayında kontrol edilecek. YENİ MAİL 07.11 12:07 (7 Kas 12:07 · Turkiye Is Bankasi A.S · Aylık Talimatlı Fatura Ödemeleriniz): İş Bankası talimatlı ödeme: 07.10.2026'da Turkcell ₺621,00 (fatura 7700201166, abone 5324010411) ödenmiş görünüyor.",
       "invoice": {
         "no": "",
         "date": "2026-10-29"
@@ -3458,7 +3458,7 @@
       ]
     }
   ],
-  "updated": "2026-11-07 12:04",
+  "updated": "2026-11-07 12:07",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3511,7 +3511,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1653fa8d180de8",
     "1a16685425d4ed41",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E0ODgzOTFCREIwNTVERTU0NzcA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDdBRTBENUIwMTkxQTJGQUQxRAA=",
@@ -3810,7 +3809,8 @@
     "1a1b42d50bf22cae",
     "1a1b4da6c5a5a65a",
     "1a1b4fab578824a9",
-    "1a1b53fe0f9fbedf"
+    "1a1b53fe0f9fbedf",
+    "1a1b543343a81d4b"
   ],
   "feed_order": [
     "qt5dom",
