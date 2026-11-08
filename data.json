@@ -890,6 +890,23 @@
       "urgency": "gray",
       "title": "VakıfBank ••3399 / Kanyon",
       "note": "VakıfBank ••3399 kartında limit yetersiz: Kanyon'daki ₺1.750 işlemi çekilemedi. Limit artırımı yapılmalı veya ödeme başka yöntemle yapılmalı."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "e-Fatura",
+      "party": "Paraşüt Yazılım Teknolojileri A.Ş.",
+      "amount": "₺12.747,40",
+      "due": "8 gün içinde kabul/red",
+      "uid": "jjpsgq",
+      "source": "mail-gelen",
+      "origin": "E-posta (9 Kas 01:38): Paraşüt · Yeni bir e-Faturanız var",
+      "wamid": "1a1bd4fbaae9f087",
+      "mail_thread": "1a1bd4fbaae9f087",
+      "imp": "high",
+      "amount_try": 12747,
+      "due_date": "2026-11-17",
+      "title": "Paraşüt Yazılım Teknolojileri A.Ş.",
+      "note": "Paraşüt'ten ticari e-fatura geldi (₺12.747,40). 8 gün içinde Paraşüt'te kabul veya red edilmeli."
     }
   ],
   "departments": [
@@ -3494,7 +3511,7 @@
       ]
     }
   ],
-  "updated": "2026-11-08 18:15",
+  "updated": "2026-11-09 01:38",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3547,7 +3564,6 @@
     }
   ],
   "asistan_seen": [
-    "1a16878180a4aeab",
     "1a1688f4576d552d",
     "1a168c93a53d4a51",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5NDZEQjcyNEMyNEFFREQ3RDkA",
@@ -3846,7 +3862,8 @@
     "1a1b9de6451e0f2d",
     "1a1ba2cc2d70d190",
     "1a1bad4caa46c811",
-    "1a1bbba8b1bcacdc"
+    "1a1bbba8b1bcacdc",
+    "1a1bd4fbaae9f087"
   ],
   "feed_order": [
     "qt5dom",
