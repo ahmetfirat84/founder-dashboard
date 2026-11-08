@@ -2996,6 +2996,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Rita Sheth (heyjustvox) $10M yatırım takibi: 10M, motorlarını MCP/API ile diğer uygulama ve AI ajanlarına da açıyor; Decacorn Angels'ın deep tech odağına uyar mı diye tek kelimelik yanıt bekliyor. (kaynak: E-posta (8 Kas 08:58): Rita Sheth · Re: Investment round)",
+          "at": "2026-11-08 08:59"
+        },
+        {
           "text": "Slush Meeting Tool: Francisco Görlich (DENAVA GmbH) toplantı talebini reddetti (6 Kas). Yeni talepler gönderilebilir. (kaynak: E-posta (6 Kas 12:34): Slush · Francisco Görlich has declined your meeting reque)",
           "at": "2026-11-06 12:34"
         },
@@ -3458,7 +3462,7 @@
       ]
     }
   ],
-  "updated": "2026-11-08 00:17",
+  "updated": "2026-11-08 08:59",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3511,7 +3515,6 @@
     }
   ],
   "asistan_seen": [
-    "1a167cab182bf1eb",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDA5NzkyMjY1M0VERDI1NTAwOQA=",
     "1a16826d37655a4f",
     "1a168323cec72aeb",
@@ -3810,7 +3813,8 @@
     "1a1b5b0801438e7e",
     "1a1b7d3d056ca33f",
     "1a1b7deccbaa781e",
-    "1a1b7decd8b3e7d4"
+    "1a1b7decd8b3e7d4",
+    "1a1b9bcded998480"
   ],
   "feed_order": [
     "qt5dom",
