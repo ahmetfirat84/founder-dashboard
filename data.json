@@ -874,6 +874,22 @@
       "due_date": "2026-11-06",
       "title": "Turkcell (5337270000)",
       "note": "Turkcell talimatlı fatura ₺1.228,40 bakiye yetersizliğinden ödenemedi (İş Bankası bildirimi, 07.11). Bakiye yatırılıp ödenmeli."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Kart limiti",
+      "party": "VakıfBank ••3399 / Kanyon",
+      "amount": "₺1.750",
+      "due": "Limit yetersiz, işlem reddedildi",
+      "uid": "tx0v4l",
+      "source": "mail-gelen",
+      "origin": "E-posta (8 Kas 18:15): VakıfBank · Bilgilendirme: Kredi Kart Limitiniz Yetersizdir",
+      "wamid": "1a1bbba8b1bcacdc",
+      "mail_thread": "1a1bbba8b1bcacdc",
+      "amount_try": 1750,
+      "urgency": "gray",
+      "title": "VakıfBank ••3399 / Kanyon",
+      "note": "VakıfBank ••3399 kartında limit yetersiz: Kanyon'daki ₺1.750 işlemi çekilemedi. Limit artırımı yapılmalı veya ödeme başka yöntemle yapılmalı."
     }
   ],
   "departments": [
@@ -3478,7 +3494,7 @@
       ]
     }
   ],
-  "updated": "2026-11-08 14:05",
+  "updated": "2026-11-08 18:15",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3531,7 +3547,6 @@
     }
   ],
   "asistan_seen": [
-    "1a168344c94ccef4",
     "1a16878180a4aeab",
     "1a1688f4576d552d",
     "1a168c93a53d4a51",
@@ -3830,7 +3845,8 @@
     "1a1b9bcded998480",
     "1a1b9de6451e0f2d",
     "1a1ba2cc2d70d190",
-    "1a1bad4caa46c811"
+    "1a1bad4caa46c811",
+    "1a1bbba8b1bcacdc"
   ],
   "feed_order": [
     "qt5dom",
