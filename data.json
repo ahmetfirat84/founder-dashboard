@@ -299,7 +299,7 @@
       "wamid": "1a148a98897a1f4d",
       "due_date": "2026-10-17",
       "title": "Sonetel",
-      "note": "Sonetel prepaid bakiye negatif ($-2,43): aramalar ve mesajlar duraklatıldı, numara yenilemede kaybedilebilir. app.sonetel.com üzerinden bakiye yükle. YENİ MAİL 01.11 10:01 (1 Kas 10:01 · Sonetel · Calls Paused! Negative Balance in Account): Sonetel e-postası: hesap bakiyesi $-2,43, aramalar duraklatıldı; yenileme dönemine girerse numara kaybedilebilir.",
+      "note": "Sonetel prepaid bakiye negatif ($-2,43): aramalar ve mesajlar duraklatıldı, numara yenilemede kaybedilebilir. app.sonetel.com üzerinden bakiye yükle. YENİ MAİL 01.11 10:01 (1 Kas 10:01 · Sonetel · Calls Paused! Negative Balance in Account): Sonetel e-postası: hesap bakiyesi $-2,43, aramalar duraklatıldı; yenileme dönemine girerse numara kaybedilebilir. YENİ MAİL 08.11 11:01 (8 Kas 11:00 · support@sonetel.com · Your Sonetel phone number is removed): Sonetel: +6498879052 numarası yenileme ödemesi yapılmadığı için kalıcı olarak silindi.",
       "imp": "low"
     },
     {
@@ -3478,7 +3478,7 @@
       ]
     }
   ],
-  "updated": "2026-11-08 09:35",
+  "updated": "2026-11-08 11:01",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3531,7 +3531,6 @@
     }
   ],
   "asistan_seen": [
-    "1a16826d37655a4f",
     "1a168323cec72aeb",
     "1a168344c94ccef4",
     "1a16878180a4aeab",
@@ -3830,7 +3829,8 @@
     "1a1b7deccbaa781e",
     "1a1b7decd8b3e7d4",
     "1a1b9bcded998480",
-    "1a1b9de6451e0f2d"
+    "1a1b9de6451e0f2d",
+    "1a1ba2cc2d70d190"
   ],
   "feed_order": [
     "qt5dom",
