@@ -882,7 +882,7 @@
       "name": "BATU",
       "area": "Muhasebe",
       "status": "red",
-      "updated": "2026-11-03 06:45",
+      "updated": "2026-11-08 09:35",
       "items": [
         {
           "uid": "s9mc5u",
@@ -1467,6 +1467,22 @@
           "uid": "td_6hvcxRP7Mc4WP759",
           "source": "todoist",
           "plan_date": "2026-11-03"
+        },
+        {
+          "action_type": "Belge",
+          "category": "Banka",
+          "party": "Garanti BBVA",
+          "amount": "",
+          "due": "15 Kas 2026",
+          "uid": "kx420c",
+          "source": "mail-gelen",
+          "origin": "E-posta (8 Kas 09:35): Garanti BBVA · İmza Sirkülerinizin Geçerlilik Tarihi",
+          "wamid": "1a1b9de6451e0f2d",
+          "mail_thread": "1a1b9de6451e0f2d",
+          "imp": "high",
+          "due_date": "2026-11-15",
+          "text": "Güncel imza sirkülerini Garanti şubesine ilet; yoksa 15.11.2026'dan itibaren Yetkilendirme Yöneticisi ürünü kullanılamaz.",
+          "owner": ""
         }
       ],
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
@@ -3462,7 +3478,7 @@
       ]
     }
   ],
-  "updated": "2026-11-08 08:59",
+  "updated": "2026-11-08 09:35",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3515,7 +3531,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDA5NzkyMjY1M0VERDI1NTAwOQA=",
     "1a16826d37655a4f",
     "1a168323cec72aeb",
     "1a168344c94ccef4",
@@ -3814,7 +3829,8 @@
     "1a1b7d3d056ca33f",
     "1a1b7deccbaa781e",
     "1a1b7decd8b3e7d4",
-    "1a1b9bcded998480"
+    "1a1b9bcded998480",
+    "1a1b9de6451e0f2d"
   ],
   "feed_order": [
     "qt5dom",
