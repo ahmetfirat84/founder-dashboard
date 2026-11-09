@@ -1521,6 +1521,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Paraşüt haftalık özet (9 Kas): gecikmiş giderler 910 adet ₺3.470.341,57, gecikmiş tahsilatlar 67 fatura ₺1.527.575,11; rakamlar Paraşüt kayıtlarına göre, doğrulanmalı. (kaynak: E-posta (9 Kas 04:03): Paraşüt · Haftalık Finansal Durumunuz)",
+          "at": "2026-11-09 04:04"
+        },
+        {
           "text": "📎 fatura-gelen arşivlendi: Make (Celonis Inc.) 2026-11-07 no JM8I61UO-0006 → https://drive.google.com/file/d/1wBVUkVtvLt5Mc6HXjLXFqaq-qPoJlbNm/view?usp=drivesdk",
           "at": "2026-11-07 10:48"
         },
@@ -1635,10 +1639,6 @@
         {
           "text": "Akbank'tan Artı Para borç bilgilendirmesi geldi; tutar ve vade e-postada yok, Akbank Mobil > Mesajlarım'dan kontrol edilmeli. (kaynak: E-posta (1 Kas 10:46): AKBANK · Artı Para'nız Hakkında Bilgilendirme)",
           "at": "2026-11-01 10:46"
-        },
-        {
-          "text": "📎 fatura-gelen arşivlendi: Adobe 2026-10-31 no 3627219209 ₺558 → https://drive.google.com/file/d/1eAEzCjxa4Qh8b9TLKe6vwIgRg3dULQ8u/view?usp=drivesdk",
-          "at": "2026-10-31 18:42"
         }
       ],
       "drawer": [
@@ -3511,7 +3511,7 @@
       ]
     }
   ],
-  "updated": "2026-11-09 01:38",
+  "updated": "2026-11-09 04:04",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3564,7 +3564,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1688f4576d552d",
     "1a168c93a53d4a51",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5NDZEQjcyNEMyNEFFREQ3RDkA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1RUQzRTcwODFDNjM4MkE0NTEA",
@@ -3863,7 +3862,8 @@
     "1a1ba2cc2d70d190",
     "1a1bad4caa46c811",
     "1a1bbba8b1bcacdc",
-    "1a1bd4fbaae9f087"
+    "1a1bd4fbaae9f087",
+    "1a1bdd542681495e"
   ],
   "feed_order": [
     "qt5dom",
