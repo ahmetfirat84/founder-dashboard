@@ -2222,6 +2222,10 @@
       "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri",
       "notes": [
         {
+          "text": "USHAŞ CRM başvuru 41877 sonuçlandırıldı (09.11.2026). Mesaja göre yalnızca ahmet@yeniben.com kullanıcısı aktif; diğer kullanıcıların portal erişimi kontrol edilmeli. (kaynak: E-posta (9 Kas 17:34): info@ushas.gov.tr · USHAŞ CRM | Başvurunuzun Sonuçlandırı)",
+          "at": "2026-11-09 17:35"
+        },
+        {
           "text": "HİB e-postası (9 Kas): Moskova Ticaret Müşavirliği ihracat desteği başvuruları 26.10.2026'dan itibaren yalnızca KEP ile kabul ediliyor. Gönderen adresi hib@hibhaber.org; imzadaki resmi domain hib.org.tr, teyit edilmeli. (kaynak: E-posta (9 Kas 09:59): Hizmet İhracatçıları Birliği Genel Sekre · Moskova Büyüke)",
           "at": "2026-11-09 10:51"
         },
@@ -3537,7 +3541,7 @@
       ]
     }
   ],
-  "updated": "2026-11-09 15:32",
+  "updated": "2026-11-09 17:35",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3597,7 +3601,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4RjVFOTUxMDQxQzI2OTM2Q0QA",
     "1a171c013d9f28e9",
     "1a172c382ed9aa15",
     "1a173544ff85168f",
@@ -3896,7 +3899,8 @@
     "1a1c007aae4f0c8f",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDkyMDk4RkQwQTc5RDEyMThFNgA=",
     "1a1c03458f920cce",
-    "1a1c04b56587f416"
+    "1a1c04b56587f416",
+    "1a1c0bb752d3ccfe"
   ],
   "feed_order": [
     "qt5dom",
