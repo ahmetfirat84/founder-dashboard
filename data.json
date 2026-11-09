@@ -2730,6 +2730,10 @@
       "summary": "Meta Ads 7 gündür kapalı",
       "notes": [
         {
+          "text": "Search Console: andnewme.com'da bazı sayfalar 'noindex' etiketi nedeniyle dizine alınmıyor. Kasıtlı değilse etiket kaldırılmalı. (kaynak: E-posta (9 Kas 11:18): Google Search Console Team · New reasons prevent pages in)",
+          "at": "2026-11-09 11:19"
+        },
+        {
           "text": "Instagram reel linki: https://www.instagram.com/reel/DfZ-SVrMvlo/ (kaynak: WhatsApp (7 Kas 02:57, yazılı))",
           "at": "2026-11-07 02:57"
         },
@@ -3528,7 +3532,7 @@
       ]
     }
   ],
-  "updated": "2026-11-09 10:51",
+  "updated": "2026-11-09 11:19",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3588,7 +3592,6 @@
     }
   ],
   "asistan_seen": [
-    "1a16c48f9762cc38",
     "1a16c49055270104",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EwMjI4MTlFMDZEOTg4QTVDNUUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E1OEZCRTFENDdENkQxNkIyQTkA",
@@ -3887,7 +3890,8 @@
     "1a1be60d8afae9e5",
     "1a1becb1b5b915d5",
     "1a1befc61dbebb24",
-    "1a1bf4a0f39e299f"
+    "1a1bf4a0f39e299f",
+    "1a1bf63415f7ef61"
   ],
   "feed_order": [
     "qt5dom",
