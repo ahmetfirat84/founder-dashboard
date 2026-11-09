@@ -1525,6 +1525,10 @@
           "at": "2026-11-09 13:46"
         },
         {
+          "text": "📎 fatura-gelen arşivlendi: IC Hospital (MK Hastane) 2026-09-07 no MKY2026000000273 ₺66.951 → https://drive.google.com/file/d/1dm32SefJm6RVPfsnp2D21lR0b6BsRxF7/view?usp=drivesdk",
+          "at": "2026-11-09 13:46"
+        },
+        {
           "text": "Paraşüt haftalık özet (9 Kas): gecikmiş giderler 910 adet ₺3.470.341,57, gecikmiş tahsilatlar 67 fatura ₺1.527.575,11; rakamlar Paraşüt kayıtlarına göre, doğrulanmalı. (kaynak: E-posta (9 Kas 04:03): Paraşüt · Haftalık Finansal Durumunuz)",
           "at": "2026-11-09 04:04"
         },
@@ -1635,10 +1639,6 @@
         {
           "text": "Paraşüt haftalık özet (2 Kas): bu hafta ödenecek 5 gider ₺32.366,21; gecikmiş giderler 905 adet ₺3.437.005,93; gecikmiş tahsilatlar 67 fatura ₺1.526.481,99. (kaynak: E-posta (2 Kas 04:03): Paraşüt · Haftalık Finansal Durumunuz)",
           "at": "2026-11-02 04:04"
-        },
-        {
-          "text": "İş Bankası 0149 kart kaşe-imzalı extre talebi: Cafer Can Arslan 2 Kasım'a kadar izinde. Talep şu adreslere yönlendirilmeli: sema.avci@isbank.com.tr, cannur.turkseven@isbank.com.tr, ahmet.boyner@isbank.com.tr, mert.meric@isbank.com.tr (kaynak: E-posta (1 Kas 14:18): Cafer Can Arslan · Otomatik yanıt: 0149 ile biten kaşe-im)",
-          "at": "2026-11-01 14:19"
         }
       ],
       "drawer": [
@@ -3592,7 +3592,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E1OEZCRTFENDdENkQxNkIyQTkA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E2QTUyNjIxN0RCOEZBNkI0NUQA",
     "1a16d9e261dffd5f",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0ExRjUwQkJCRUE3N0JFNkQxNUMA",
@@ -3891,7 +3890,8 @@
     "1a1bf4a0f39e299f",
     "1a1bf63415f7ef61",
     "1a1bfd81400484d6",
-    "1a07bea189a201ed"
+    "1a07bea189a201ed",
+    "1a0a8c164de211fa"
   ],
   "feed_order": [
     "qt5dom",
