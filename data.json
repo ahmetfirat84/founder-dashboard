@@ -1210,7 +1210,7 @@
             ]
           },
           "uid": "r4v9rb",
-          "note": "YENİ MAİL 26.10 13:40 (26 Eki 13:39 · Paraşüt · Yeni bir e-Faturanız var): Orya Hotel'den 85 EUR ticari e-fatura geldi (26 Eki); 3 Kas'a kadar Paraşüt'te kabul/red edilmeli. YENİ MAİL 27.10 09:38 (27 Eki 09:37 · Paraşüt · Yeni bir e-Faturanız var): 27 Ekim Paraşüt maili: Orya Otelcilik'ten 85 EUR ticari e-fatura geldi, 8 gün içinde (≈4 Kas) kabul/red edilmeli."
+          "note": "YENİ MAİL 26.10 13:40 (26 Eki 13:39 · Paraşüt · Yeni bir e-Faturanız var): Orya Hotel'den 85 EUR ticari e-fatura geldi (26 Eki); 3 Kas'a kadar Paraşüt'te kabul/red edilmeli. YENİ MAİL 27.10 09:38 (27 Eki 09:37 · Paraşüt · Yeni bir e-Faturanız var): 27 Ekim Paraşüt maili: Orya Otelcilik'ten 85 EUR ticari e-fatura geldi, 8 gün içinde (≈4 Kas) kabul/red edilmeli. YENİ MAİL 09.11 17:44 (9 Kas 17:44 · Paraşüt · Yeni bir e-Faturanız var): Yeni Pharmago e-faturası (09 Kas): ₺7.937,52, 8 gün içinde (~17 Kas) kabul/red edilmeli."
         },
         {
           "text": "CPA Türk bordro ve ödemeler: 09/2026 bordrosu (1 Eki) incelenmedi; 08/2026 vergi/SGK tahakkukları (28 Eyl: muhtasar+KDV 28 Eyl, SGK 30 Eyl) ödendi mi teyit et, tutarlar mailde sadece PDF'te.",
@@ -3541,7 +3541,7 @@
       ]
     }
   ],
-  "updated": "2026-11-09 17:35",
+  "updated": "2026-11-09 17:44",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3601,7 +3601,6 @@
     }
   ],
   "asistan_seen": [
-    "1a171c013d9f28e9",
     "1a172c382ed9aa15",
     "1a173544ff85168f",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCMEZFQzdBNjA3RjBBOEIwRkMA",
@@ -3900,7 +3899,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDkyMDk4RkQwQTc5RDEyMThFNgA=",
     "1a1c03458f920cce",
     "1a1c04b56587f416",
-    "1a1c0bb752d3ccfe"
+    "1a1c0bb752d3ccfe",
+    "1a1c0c466fb6b63d"
   ],
   "feed_order": [
     "qt5dom",
