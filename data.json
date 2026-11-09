@@ -773,7 +773,7 @@
       "amount_try": 133018.32,
       "urgency": "orange",
       "title": "IC Hospital (MK Hastane)",
-      "note": "2 hasta faturası (03.11.2026): MKY2026000000686 Isabella Ruddlesden (Bella) ₺66.509,16 + MKY2026000000685 Jodie Rata ₺66.509,16, her biri %10 KDV dahil, Genel Cerrahi. Nurcan Sarıbal mailiyle geldi, vade ve ödeme planı netleşecek."
+      "note": "2 hasta faturası (03.11.2026): MKY2026000000686 Isabella Ruddlesden (Bella) ₺66.509,16 + MKY2026000000685 Jodie Rata ₺66.509,16, her biri %10 KDV dahil, Genel Cerrahi. Nurcan Sarıbal mailiyle geldi, vade ve ödeme planı netleşecek. YENİ MAİL 09.11 13:47 (19 Eki 16:11 · Finance New Me · Re: new me bakiye): Nurcan Sarıbal bakiye mutabakatını onayladı (19 Eki), fatura kesilebilir."
     },
     {
       "action_type": "Ödeme",
@@ -1521,6 +1521,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "IC Hospital (Nurcan Sarıbal) 19 Eki'de bakiye mutabakatını onayladı: 'Mutabıkız, fatura kesilebilir.' Fatura kesim sürecini takip et. (kaynak: E-posta (19 Eki 16:11): Finance New Me · Re: new me bakiye)",
+          "at": "2026-11-09 13:47"
+        },
+        {
           "text": "📎 fatura-gelen arşivlendi: IC Hospital (MK Hastane) 2026-09-07 no MKY2026000000273 ₺66.951 → https://drive.google.com/file/d/1dm32SefJm6RVPfsnp2D21lR0b6BsRxF7/view?usp=drivesdk",
           "at": "2026-11-09 13:46"
         },
@@ -1635,10 +1639,6 @@
         {
           "text": "📎 fatura-gelen arşivlendi: Google Workspace 2026-10-31 no 5722541537 ₺1.311 → https://drive.google.com/file/d/1X87mWyhFUsdB_rP-mfEL3LCAI5uQ9SwQ/view?usp=drivesdk",
           "at": "2026-11-02 09:28"
-        },
-        {
-          "text": "Paraşüt haftalık özet (2 Kas): bu hafta ödenecek 5 gider ₺32.366,21; gecikmiş giderler 905 adet ₺3.437.005,93; gecikmiş tahsilatlar 67 fatura ₺1.526.481,99. (kaynak: E-posta (2 Kas 04:03): Paraşüt · Haftalık Finansal Durumunuz)",
-          "at": "2026-11-02 04:04"
         }
       ],
       "drawer": [
@@ -3592,7 +3592,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0ExRjUwQkJCRUE3N0JFNkQxNUMA",
     "1a16eb72460cf161",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FFNkE2NUEzRkFCMENFQzBBOTQA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E0RENBQzQ1MjUyQkMwQTVDMkIA",
@@ -3891,7 +3890,8 @@
     "1a07bea189a201ed",
     "1a0a8c164de211fa",
     "1a0f0c53058a928f",
-    "1a15382a4d7014e5"
+    "1a15382a4d7014e5",
+    "1a15449c993ebd0b"
   ],
   "feed_order": [
     "qt5dom",
