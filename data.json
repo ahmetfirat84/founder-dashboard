@@ -1521,6 +1521,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "📎 fatura-gelen arşivlendi: IC Hospital (MK Hastane) 2026-09-07 no MKY2026000000273 ₺66.951 → https://drive.google.com/file/d/1dm32SefJm6RVPfsnp2D21lR0b6BsRxF7/view?usp=drivesdk",
+          "at": "2026-11-09 13:46"
+        },
+        {
           "text": "Paraşüt haftalık özet (9 Kas): gecikmiş giderler 910 adet ₺3.470.341,57, gecikmiş tahsilatlar 67 fatura ₺1.527.575,11; rakamlar Paraşüt kayıtlarına göre, doğrulanmalı. (kaynak: E-posta (9 Kas 04:03): Paraşüt · Haftalık Finansal Durumunuz)",
           "at": "2026-11-09 04:04"
         },
@@ -1635,10 +1639,6 @@
         {
           "text": "İş Bankası 0149 kart kaşe-imzalı extre talebi: Cafer Can Arslan 2 Kasım'a kadar izinde. Talep şu adreslere yönlendirilmeli: sema.avci@isbank.com.tr, cannur.turkseven@isbank.com.tr, ahmet.boyner@isbank.com.tr, mert.meric@isbank.com.tr (kaynak: E-posta (1 Kas 14:18): Cafer Can Arslan · Otomatik yanıt: 0149 ile biten kaşe-im)",
           "at": "2026-11-01 14:19"
-        },
-        {
-          "text": "Akbank'tan Artı Para borç bilgilendirmesi geldi; tutar ve vade e-postada yok, Akbank Mobil > Mesajlarım'dan kontrol edilmeli. (kaynak: E-posta (1 Kas 10:46): AKBANK · Artı Para'nız Hakkında Bilgilendirme)",
-          "at": "2026-11-01 10:46"
         }
       ],
       "drawer": [
@@ -3532,7 +3532,7 @@
       ]
     }
   ],
-  "updated": "2026-11-09 13:26",
+  "updated": "2026-11-09 13:46",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3592,7 +3592,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EwMjI4MTlFMDZEOTg4QTVDNUUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E1OEZCRTFENDdENkQxNkIyQTkA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E2QTUyNjIxN0RCOEZBNkI0NUQA",
     "1a16d9e261dffd5f",
@@ -3891,7 +3890,8 @@
     "1a1befc61dbebb24",
     "1a1bf4a0f39e299f",
     "1a1bf63415f7ef61",
-    "1a1bfd81400484d6"
+    "1a1bfd81400484d6",
+    "1a07bea189a201ed"
   ],
   "feed_order": [
     "qt5dom",
