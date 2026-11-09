@@ -3180,7 +3180,7 @@
           "amount": "",
           "urgency": "gray",
           "uid": "91zqrf",
-          "note": "YENİ MAİL 22.10 09:38 (22 Eki 09:37 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): 22 Eki Kanyon Finans e-postası: açık borç ₺24.171,27, en kısa sürede ödeme talebi (Borçlar'daki Kanyon ev aidatı ile aynı tutar). YENİ MAİL 26.10 15:49 (26 Eki 15:49 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): 26 Eki Kanyon Finans otomatik bildirimi: borç ₺24.171,27, ödeme talebi (Borçlar'daki Kanyon ev aidatı ile aynı tutar)."
+          "note": "YENİ MAİL 22.10 09:38 (22 Eki 09:37 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): 22 Eki Kanyon Finans e-postası: açık borç ₺24.171,27, en kısa sürede ödeme talebi (Borçlar'daki Kanyon ev aidatı ile aynı tutar). YENİ MAİL 26.10 15:49 (26 Eki 15:49 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): 26 Eki Kanyon Finans otomatik bildirimi: borç ₺24.171,27, ödeme talebi (Borçlar'daki Kanyon ev aidatı ile aynı tutar). YENİ MAİL 09.11 15:32 (9 Kas 15:31 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): Kanyon Finans 09.11: toplam borç ₺52.417,72, en kısa sürede ödeme istendi (otomatik bakiye bildirimi)."
         },
         {
           "text": "Superonline internet aboneliği 21 Eyl'de askıya alınıp 28 Eyl'de yeniden açılmış: ödeme düzenini kontrol et",
@@ -3537,7 +3537,7 @@
       ]
     }
   ],
-  "updated": "2026-11-09 15:07",
+  "updated": "2026-11-09 15:32",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3597,7 +3597,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4RTBDMjk0MDQwN0MwQkMwMkYA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4RjVFOTUxMDQxQzI2OTM2Q0QA",
     "1a171c013d9f28e9",
     "1a172c382ed9aa15",
@@ -3896,7 +3895,8 @@
     "1a1bfea75e059d62",
     "1a1c007aae4f0c8f",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDkyMDk4RkQwQTc5RDEyMThFNgA=",
-    "1a1c03458f920cce"
+    "1a1c03458f920cce",
+    "1a1c04b56587f416"
   ],
   "feed_order": [
     "qt5dom",
