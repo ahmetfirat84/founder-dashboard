@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-09",
   "source": "2026-10-16_sabah-brifing (Drive: 09_Management/briefing-system/handoffs)",
   "priorities": [
     "HubSpot Maximum monthly credits = 3.000 gir (yenileme 17 Ekim, en geç 10:00)",
@@ -8,9 +8,9 @@
   ],
   "meetings": [
     {
-      "time": "16:00",
-      "title": "⚽ Çorum - Fenerbahçe",
-      "note": "Fenerbahçe takvimi"
+      "time": "12:30",
+      "title": "& New Me_Weekly",
+      "note": "Hülya, Selin, Cemre · Meet"
     }
   ],
   "cash_alerts": [
@@ -1880,7 +1880,7 @@
       "name": "DAMLA",
       "area": "Teşvik",
       "status": "yellow",
-      "updated": "2026-10-28 08:00",
+      "updated": "2026-11-09 07:00",
       "items": [
         {
           "text": "Medcure_Claude, KDV'siz fatura vb teşvik dokümanları problemini çöz (Barış'ı ara)",
@@ -2167,7 +2167,7 @@
           "urgency": "gray",
           "uid": "td_6hppR92fvMWW7Vr9",
           "source": "todoist",
-          "plan_date": "2026-10-26"
+          "plan_date": "2026-11-09"
         },
         {
           "text": "Teşvik işleri çözülecek",
@@ -2204,6 +2204,15 @@
           "uid": "td_6hr8h4RgP4Mv5R7h",
           "source": "todoist",
           "plan_date": "2026-10-28"
+        },
+        {
+          "text": "Teşvik: HealthTürkiye/USHAŞ — Portal üyelik yenileme ücretini 09.11.2026'ya kadar öde",
+          "action_type": "Ödeme",
+          "category": "Todoist",
+          "urgency": "gray",
+          "uid": "td_6hppRGPwprWFxXFh",
+          "source": "todoist",
+          "plan_date": "2026-11-09"
         }
       ],
       "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri",
@@ -3515,7 +3524,7 @@
       ]
     }
   ],
-  "updated": "2026-11-09 06:36",
+  "updated": "2026-11-09 07:00",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3565,6 +3574,13 @@
       "date": "2026-11-06T08:05:42.000Z",
       "thread": "1a1afe461590cbf6",
       "note": "Bilinmeyen gönderen, onay gerekir"
+    },
+    {
+      "subject": "Selin Sezgin has mentioned you on a conversation with an unknown contact",
+      "from": "HubSpot <noreply@notifications.hubspot.com>",
+      "date": "2026-11-08T22:23:22Z",
+      "thread": "1a1bd42522c3d00b",
+      "note": "Selin: 'Bir AI şirketi ulaştı, sizinle görüşmek isterler' — Ahmet'e bakması istendi; kime ait belirsiz (Yatırımcı/Marketing?)"
     }
   ],
   "asistan_seen": [
@@ -8362,7 +8378,7 @@
       ]
     }
   ],
-  "meetings_date": "2026-11-08",
+  "meetings_date": "2026-11-09",
   "directory": [
     {
       "id": "g5cmcp",
