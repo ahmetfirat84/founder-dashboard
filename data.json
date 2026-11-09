@@ -3071,6 +3071,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Inovo VC IR Direktörü Michał Scipio del Campo, Slush meeting talebini bu sefer reddetti ama Slush sonrası görüşmek istiyor (michal.scipiodelcampo@inovo.vc). (kaynak: E-posta (9 Kas 17:53): Slush · Michał Scipio del Campo has declined your meeting)",
+          "at": "2026-11-09 17:54"
+        },
+        {
           "text": "Google Flights: İstanbul–Helsinki gidiş-dönüş (17–20 Kas) fiyatı ₺20.928'den ₺18.696'ya düştü. (kaynak: E-posta (9 Kas 06:36): Google Flights · Your tracked flight to Helsinki is now T)",
           "at": "2026-11-09 06:36"
         },
@@ -3541,7 +3545,7 @@
       ]
     }
   ],
-  "updated": "2026-11-09 17:44",
+  "updated": "2026-11-09 17:54",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3601,7 +3605,6 @@
     }
   ],
   "asistan_seen": [
-    "1a172c382ed9aa15",
     "1a173544ff85168f",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCMEZFQzdBNjA3RjBBOEIwRkMA",
     "1a175018f28434cc",
@@ -3900,7 +3903,8 @@
     "1a1c03458f920cce",
     "1a1c04b56587f416",
     "1a1c0bb752d3ccfe",
-    "1a1c0c466fb6b63d"
+    "1a1c0c466fb6b63d",
+    "1a1c0cd48a483e9a"
   ],
   "feed_order": [
     "qt5dom",
