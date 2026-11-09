@@ -2218,6 +2218,10 @@
       "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri",
       "notes": [
         {
+          "text": "HİB e-postası (9 Kas): Moskova Ticaret Müşavirliği ihracat desteği başvuruları 26.10.2026'dan itibaren yalnızca KEP ile kabul ediliyor. Gönderen adresi hib@hibhaber.org; imzadaki resmi domain hib.org.tr, teyit edilmeli. (kaynak: E-posta (9 Kas 09:59): Hizmet İhracatçıları Birliği Genel Sekre · Moskova Büyüke)",
+          "at": "2026-11-09 10:51"
+        },
+        {
           "text": "DYS: 01/06/2026 tarihli 26.HRTP.004701 nolu Reklam Tanıtım Pazarlama ön onay başvurusu uygun bulundu (06.11.2026). Sonuç ve eksik bildirimleri DYS 'Yazışmalar' bölümünden takip edilecek. (kaynak: E-posta (6 Kas 17:03): Destek Yonetim Sistemi Bildirim Servisi · Ticaret Bakanlı)",
           "at": "2026-11-06 17:03"
         },
@@ -3524,7 +3528,7 @@
       ]
     }
   ],
-  "updated": "2026-11-09 09:26",
+  "updated": "2026-11-09 10:51",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3584,7 +3588,6 @@
     }
   ],
   "asistan_seen": [
-    "1a168e83050d9122",
     "1a16c48f9762cc38",
     "1a16c49055270104",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EwMjI4MTlFMDZEOTg4QTVDNUUA",
@@ -3883,7 +3886,8 @@
     "1a1bdd542681495e",
     "1a1be60d8afae9e5",
     "1a1becb1b5b915d5",
-    "1a1befc61dbebb24"
+    "1a1befc61dbebb24",
+    "1a1bf4a0f39e299f"
   ],
   "feed_order": [
     "qt5dom",
