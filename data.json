@@ -3532,7 +3532,7 @@
       ]
     }
   ],
-  "updated": "2026-11-09 11:19",
+  "updated": "2026-11-09 13:26",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3592,7 +3592,6 @@
     }
   ],
   "asistan_seen": [
-    "1a16c49055270104",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EwMjI4MTlFMDZEOTg4QTVDNUUA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E1OEZCRTFENDdENkQxNkIyQTkA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E2QTUyNjIxN0RCOEZBNkI0NUQA",
@@ -3891,7 +3890,8 @@
     "1a1becb1b5b915d5",
     "1a1befc61dbebb24",
     "1a1bf4a0f39e299f",
-    "1a1bf63415f7ef61"
+    "1a1bf63415f7ef61",
+    "1a1bfd81400484d6"
   ],
   "feed_order": [
     "qt5dom",
@@ -8498,6 +8498,64 @@
     }
   ],
   "meeting_notes": [
+    {
+      "id": "sb0w5h",
+      "title": "& New Me_Weekly",
+      "date": "2026-11-09",
+      "summary": "Toplantıda iptaller, lead takibi, bütçeye göre tedavi alternatifleri ve marketplace modelinin yatırımcılara sunumu konuşuldu. Ekip, düşük potansiyelli leadleri hızlı ayırıp gerçek satın alma sinyali olanları takip etmeye devam etme yönünde uzlaştı. Yatırımcı sunumunda marketplace modeli ile reklam maliyetindeki düşüş öne çıkarılacak.",
+      "thread": "1a1bfd81400484d6",
+      "actions": [
+        {
+          "id": "rcjy49",
+          "text": "Hülya Alkan, yaklaşık 4.000-5.000 euro bütçesi olan lipedema müşterileri için süreci daha düşük maliyetli bir seçenekle yapılandırıp ödeme koşulları üzerinden iletişime geçecek.",
+          "dep": "zeynep",
+          "owner": "Hülya Alkan",
+          "party": "Lipedema leadleri (4.000-5.000 euro bütçeli)",
+          "status": "proposed"
+        },
+        {
+          "id": "cr65j8",
+          "text": "Hülya Alkan, Tuğçe ile yapılacak çevrim içi konsültasyon sonrasında depozito almaya çalışacak.",
+          "dep": "zeynep",
+          "owner": "Hülya Alkan",
+          "party": "Tuğçe",
+          "status": "proposed"
+        },
+        {
+          "id": "b2e8he",
+          "text": "Hülya Alkan, izin döneminde toplantılara katılıp yalnızca lipedema leadlerini takip edeceği planını cuma günü ekibe iletecek.",
+          "dep": "ecem",
+          "owner": "Hülya Alkan",
+          "due_date": "2026-11-13",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "op8w0n",
+          "text": "Otomatik lead atamasının yanlış kişilere yapılması sorunu, Ahmet Fırat yerine Emre üzerinden düzeltilecek.",
+          "dep": "idari",
+          "owner": "Emre",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "2d3dre",
+          "text": "Ahmet Fırat, marketplace modelini ve büyüme verilerini anlatan yatırımcı sunumunu tamamlayıp ekiple paylaşacak.",
+          "dep": "erkin",
+          "owner": "Ahmet Fırat",
+          "party": "Yatırımcılar",
+          "status": "proposed"
+        },
+        {
+          "id": "8fthbf",
+          "text": "Ahmet Fırat yeni reklam kampanyasını kısa süre içinde başlatacak.",
+          "dep": "ilksen",
+          "owner": "Ahmet Fırat",
+          "party": "",
+          "status": "proposed"
+        }
+      ]
+    },
     {
       "id": "r8faed",
       "title": "& New Me_Daily",
