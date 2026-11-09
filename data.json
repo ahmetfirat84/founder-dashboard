@@ -3045,6 +3045,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Google Flights: İstanbul–Helsinki gidiş-dönüş (17–20 Kas) fiyatı ₺20.928'den ₺18.696'ya düştü. (kaynak: E-posta (9 Kas 06:36): Google Flights · Your tracked flight to Helsinki is now T)",
+          "at": "2026-11-09 06:36"
+        },
+        {
           "text": "Rita Sheth (heyjustvox) $10M yatırım takibi: 10M, motorlarını MCP/API ile diğer uygulama ve AI ajanlarına da açıyor; Decacorn Angels'ın deep tech odağına uyar mı diye tek kelimelik yanıt bekliyor. (kaynak: E-posta (8 Kas 08:58): Rita Sheth · Re: Investment round)",
           "at": "2026-11-08 08:59"
         },
@@ -3511,7 +3515,7 @@
       ]
     }
   ],
-  "updated": "2026-11-09 04:04",
+  "updated": "2026-11-09 06:36",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3564,7 +3568,6 @@
     }
   ],
   "asistan_seen": [
-    "1a168c93a53d4a51",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5NDZEQjcyNEMyNEFFREQ3RDkA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1RUQzRTcwODFDNjM4MkE0NTEA",
     "1a168e83050d9122",
@@ -3863,7 +3866,8 @@
     "1a1bad4caa46c811",
     "1a1bbba8b1bcacdc",
     "1a1bd4fbaae9f087",
-    "1a1bdd542681495e"
+    "1a1bdd542681495e",
+    "1a1be60d8afae9e5"
   ],
   "feed_order": [
     "qt5dom",
