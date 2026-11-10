@@ -2451,7 +2451,8 @@
           "urgency": "gray",
           "uid": "td_6hvXP2q3r2m5Whw9",
           "source": "todoist",
-          "plan_date": "2026-11-04"
+          "plan_date": "2026-11-04",
+          "note": "YENİ MAİL 10.11 20:36 (10 Kas 20:35 · Siddika Demir · Re: Yeniben genel kurul çağrısı öncesi adres teyidi): Pay sahibi Siddika Demir (10 Kas): GK çağrı mektubu Türkiye adresine ulaşmadı, gönderilip gönderilmediğinin kontrolünü istiyor. Mailde adres yok, teyit edilmeli."
         },
         {
           "action_type": "Başvuru",
@@ -3593,7 +3594,7 @@
       ]
     }
   ],
-  "updated": "2026-11-10 17:48",
+  "updated": "2026-11-10 20:36",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3653,7 +3654,6 @@
     }
   ],
   "asistan_seen": [
-    "1a17c5e90b548323",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FGREE2MzQ3NzgzNDlBQUFEMEEA",
     "1a17c8a59bf988a7",
     "1a17c8dc6f77d743",
@@ -3952,7 +3952,8 @@
     "1a1c5aa158f52995",
     "1a1c5b89c39f29c6",
     "1a1c5ba1cf97130d",
-    "1a1c5edbdee12893"
+    "1a1c5edbdee12893",
+    "1a1c687b04873150"
   ],
   "feed_order": [
     "qt5dom",
