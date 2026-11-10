@@ -3091,6 +3091,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush: Camilla Olsen (Hadean Ventures) toplantı talebini reddetti, life science ekibine ulaşmak için deck'i hadeanventures.com/hadean-ai üzerinden iletebilirsin. (kaynak: E-posta (10 Kas 16:49): Slush · Camilla Olsen has declined your meeting request)",
+          "at": "2026-11-10 16:50"
+        },
+        {
           "text": "Slush: Yuval Ariav (Symbol) meeting talebini reddetti; yatırım odağına uymadığını belirtti. (kaynak: E-posta (10 Kas 16:33): Slush · Yuval Ariav has declined your meeting request)",
           "at": "2026-11-10 16:34"
         },
@@ -3581,7 +3585,7 @@
       ]
     }
   ],
-  "updated": "2026-11-10 16:34",
+  "updated": "2026-11-10 16:50",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3641,7 +3645,6 @@
     }
   ],
   "asistan_seen": [
-    "1a178e7be4925b55",
     "1a17bd8788aa7e9f",
     "1a17c143ed845624",
     "1a17c5e90b548323",
@@ -3940,7 +3943,8 @@
     "19fae02dc4e1dd82",
     "1a1c55cf960e4170",
     "1a1c57cedb0741d1",
-    "1a1c5aa158f52995"
+    "1a1c5aa158f52995",
+    "1a1c5b89c39f29c6"
   ],
   "feed_order": [
     "qt5dom",
