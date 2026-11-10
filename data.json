@@ -3091,6 +3091,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush platformunda heal.health CTO Ulaş Mısırlıoğlu'ndan 18 Kasım görüşme talebi var (A11 standı, kan testi tanıtımı); yanıt verilmedi, Slush meeting planıyla birlikte değerlendirilecek. (kaynak: E-posta (10 Kas 17:47): Slush Platform · heal A11 standında 5 dakikada kan testi)",
+          "at": "2026-11-10 17:48"
+        },
+        {
           "text": "Slush platformu: Karolijn Moes (Hollanda Dış Ticaret/NL Lounge, vize ve Hollanda ekosistemi) Slush 2026'da görüşme talep etti; kabul/ret kararı bekliyor. (kaynak: E-posta (10 Kas 16:51): Slush Platform · Information about the Dutch startup eco)",
           "at": "2026-11-10 16:51"
         },
@@ -3589,7 +3593,7 @@
       ]
     }
   ],
-  "updated": "2026-11-10 16:51",
+  "updated": "2026-11-10 17:48",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3649,7 +3653,6 @@
     }
   ],
   "asistan_seen": [
-    "1a17c143ed845624",
     "1a17c5e90b548323",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FGREE2MzQ3NzgzNDlBQUFEMEEA",
     "1a17c8a59bf988a7",
@@ -3948,7 +3951,8 @@
     "1a1c57cedb0741d1",
     "1a1c5aa158f52995",
     "1a1c5b89c39f29c6",
-    "1a1c5ba1cf97130d"
+    "1a1c5ba1cf97130d",
+    "1a1c5edbdee12893"
   ],
   "feed_order": [
     "qt5dom",
