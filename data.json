@@ -3091,6 +3091,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush: Yuval Ariav (Symbol) meeting talebini reddetti; yatırım odağına uymadığını belirtti. (kaynak: E-posta (10 Kas 16:33): Slush · Yuval Ariav has declined your meeting request)",
+          "at": "2026-11-10 16:34"
+        },
+        {
           "text": "Slush: Tommi Opas (Diserve Ventures) meeting talebini reddetti, gerekçe: sağlık turizmi şu an odağında değil. Diğer yatırımcılara talep göndermeye devam edilebilir. (kaynak: E-posta (10 Kas 12:29): Slush · Tommi Opas has declined your meeting request)",
           "at": "2026-11-10 12:30"
         },
@@ -3577,7 +3581,7 @@
       ]
     }
   ],
-  "updated": "2026-11-10 15:44",
+  "updated": "2026-11-10 16:34",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3637,7 +3641,6 @@
     }
   ],
   "asistan_seen": [
-    "1a178e6aee9565ec",
     "1a178e7be4925b55",
     "1a17bd8788aa7e9f",
     "1a17c143ed845624",
@@ -3936,7 +3939,8 @@
     "19df7cdfe842f328",
     "19fae02dc4e1dd82",
     "1a1c55cf960e4170",
-    "1a1c57cedb0741d1"
+    "1a1c57cedb0741d1",
+    "1a1c5aa158f52995"
   ],
   "feed_order": [
     "qt5dom",
