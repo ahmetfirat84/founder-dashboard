@@ -3477,7 +3477,7 @@
           "urgency": "gray",
           "text": "Uçak biletlerini al (Republic Day miles kampanyası, Ahmet'in e-posta notu: 'yarın alalım')",
           "owner": "",
-          "note": "YENİ MAİL 29.10 08:17 (29 Eki 08:16 · Ahmet Tosun · Re: Earn Extra 1,923 Status Miles on Republic Day!): Mail notu: Republic Day miles kampanyasındaki biletler 2027'ye alınan uçuşlar için. YENİ MAİL 03.11 06:35 (3 Kas 06:35 · Google Flights · Your tracked flight to Helsinki is now TRY 19,590 (was TRY ): Google Flights: İstanbul-Helsinki gidiş-dönüş 17-20 Kas fiyatı ₺19.590'a düştü (önceki ₺27.720)."
+          "note": "YENİ MAİL 29.10 08:17 (29 Eki 08:16 · Ahmet Tosun · Re: Earn Extra 1,923 Status Miles on Republic Day!): Mail notu: Republic Day miles kampanyasındaki biletler 2027'ye alınan uçuşlar için. YENİ MAİL 03.11 06:35 (3 Kas 06:35 · Google Flights · Your tracked flight to Helsinki is now TRY 19,590 (was TRY ): Google Flights: İstanbul-Helsinki gidiş-dönüş 17-20 Kas fiyatı ₺19.590'a düştü (önceki ₺27.720). YENİ MAİL 10.11 10:36 (10 Kas 10:35 · Pegasus · PC1311 Helsinki: Uçuşun için şimdi check-in yap, havalimanın): Bilet alındı: PC1311 SAW-HEL, 17 Kas 2026 10:35 kalkış, PNR 2K79PE; online check-in 16 Kas'tan itibaren açılır."
         },
         {
           "action_type": "Ödeme",
@@ -3546,7 +3546,7 @@
       ]
     }
   ],
-  "updated": "2026-11-09 18:55",
+  "updated": "2026-11-10 10:36",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3606,7 +3606,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCMEZFQzdBNjA3RjBBOEIwRkMA",
     "1a175018f28434cc",
     "1a175bc009a785f0",
     "1a177c7b28cc955e",
@@ -3905,7 +3904,8 @@
     "1a1c0bb752d3ccfe",
     "1a1c0c466fb6b63d",
     "1a1c0cd48a483e9a",
-    "1a1c10505193a53c"
+    "1a1c10505193a53c",
+    "1a1c46290c29e391"
   ],
   "feed_order": [
     "qt5dom",
