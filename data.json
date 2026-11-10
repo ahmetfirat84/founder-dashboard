@@ -3072,6 +3072,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush 'Investor Happy Hour with Latvian startup ecosystem' başvurusu alındı, değerlendirmede (10 Kas 2026). Karar organizatörden gelecek (janis.jekabsons@liaa.gov.lv). (kaynak: E-posta (10 Kas 11:18): Slush · [Slush 2026] Application received: Investor Happ)",
+          "at": "2026-11-10 11:18"
+        },
+        {
           "text": "Inovo VC IR Direktörü Michał Scipio del Campo, Slush meeting talebini bu sefer reddetti ama Slush sonrası görüşmek istiyor (michal.scipiodelcampo@inovo.vc). (kaynak: E-posta (9 Kas 17:53): Slush · Michał Scipio del Campo has declined your meeting)",
           "at": "2026-11-09 17:54"
         },
@@ -3546,7 +3550,7 @@
       ]
     }
   ],
-  "updated": "2026-11-10 11:08",
+  "updated": "2026-11-10 11:18",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3606,7 +3610,6 @@
     }
   ],
   "asistan_seen": [
-    "1a177cbb1fe555ef",
     "1a177d1357adefea",
     "1a177e5e7899ad91",
     "19db41d30179433b",
@@ -3905,7 +3908,8 @@
     "1a1c46290c29e391",
     "1a1c4797562821ed",
     "1a1c47da2939b7e1",
-    "1a1c47fca743ce11"
+    "1a1c47fca743ce11",
+    "1a1c48981fda6c5e"
   ],
   "feed_order": [
     "qt5dom",
