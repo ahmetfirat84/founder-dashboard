@@ -3086,7 +3086,8 @@
           "mail_thread": "19aa185d7a27db41",
           "urgency": "gray",
           "text": "Slush sonrası IgniteXL güncel başvuru linkini gönderdi (typeform), formu doldurup gönder.",
-          "owner": ""
+          "owner": "",
+          "note": "YENİ MAİL 10.11 22:09 (10 Kas 22:09 · Slush · Mitchell Weinstock has declined your meeting request): Mitchell Slush toplantı talebini reddetti; Slush sonrası mitch@ignitexl.com üzerinden veya typeform'a deck yükleyerek ulaşılması istendi."
         }
       ],
       "summary": "Slush kararı bekliyor",
@@ -3594,7 +3595,7 @@
       ]
     }
   ],
-  "updated": "2026-11-10 20:36",
+  "updated": "2026-11-10 22:09",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3654,7 +3655,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FGREE2MzQ3NzgzNDlBQUFEMEEA",
     "1a17c8a59bf988a7",
     "1a17c8dc6f77d743",
     "1a17cc9d8de5fcbd",
@@ -3953,7 +3953,8 @@
     "1a1c5b89c39f29c6",
     "1a1c5ba1cf97130d",
     "1a1c5edbdee12893",
-    "1a1c687b04873150"
+    "1a1c687b04873150",
+    "1a1c6dd75f6e0940"
   ],
   "feed_order": [
     "qt5dom",
