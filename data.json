@@ -3036,7 +3036,7 @@
           "uid": "td_6hhgrxCw2PRHCQhh",
           "source": "todoist",
           "plan_date": "2026-10-24",
-          "note": "YENİ MAİL 04.11 12:56 (4 Kas 12:55 · Slush · Christian Bisaillon has declined your meeting request): Christian Bisaillon (Hyberden Ventures) meeting talebini reddetti: yatırım odağına uymuyor (4 Kas). YENİ MAİL 06.11 21:56 (6 Kas 21:55 · Slush · Dominik Alvermann has declined your meeting request): Dominik Alvermann (Acton Capital) meeting talebini reddetti (6 Kas)."
+          "note": "YENİ MAİL 04.11 12:56 (4 Kas 12:55 · Slush · Christian Bisaillon has declined your meeting request): Christian Bisaillon (Hyberden Ventures) meeting talebini reddetti: yatırım odağına uymuyor (4 Kas). YENİ MAİL 06.11 21:56 (6 Kas 21:55 · Slush · Dominik Alvermann has declined your meeting request): Dominik Alvermann (Acton Capital) meeting talebini reddetti (6 Kas). YENİ MAİL 10.11 11:08 (10 Kas 11:07 · Slush · [Slush 2026] Application received: New Nordics Healthtech Ma): New Nordics Healthtech Matchmaking (Slush) başvurusu alındı, 10 Kas; karar bekleniyor."
         },
         {
           "action_type": "Yanıt",
@@ -3546,7 +3546,7 @@
       ]
     }
   ],
-  "updated": "2026-11-10 11:06",
+  "updated": "2026-11-10 11:08",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3606,7 +3606,6 @@
     }
   ],
   "asistan_seen": [
-    "1a177c7b28cc955e",
     "1a177cbb1fe555ef",
     "1a177d1357adefea",
     "1a177e5e7899ad91",
@@ -3905,7 +3904,8 @@
     "1a1c10505193a53c",
     "1a1c46290c29e391",
     "1a1c4797562821ed",
-    "1a1c47da2939b7e1"
+    "1a1c47da2939b7e1",
+    "1a1c47fca743ce11"
   ],
   "feed_order": [
     "qt5dom",
