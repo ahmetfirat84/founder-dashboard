@@ -3072,6 +3072,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush: Tommi Opas (Diserve Ventures) meeting talebini reddetti, gerekçe: sağlık turizmi şu an odağında değil. Diğer yatırımcılara talep göndermeye devam edilebilir. (kaynak: E-posta (10 Kas 12:29): Slush · Tommi Opas has declined your meeting request)",
+          "at": "2026-11-10 12:30"
+        },
+        {
           "text": "Slush 'The Founder Flow Breakfast' başvurusu alındı, organizatörden karar bekleniyor (10 Kas). (kaynak: E-posta (10 Kas 11:53): Slush · [Slush 2026] Application received: The Founder F)",
           "at": "2026-11-10 11:53"
         },
@@ -3554,7 +3558,7 @@
       ]
     }
   ],
-  "updated": "2026-11-10 11:53",
+  "updated": "2026-11-10 12:30",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3614,7 +3618,6 @@
     }
   ],
   "asistan_seen": [
-    "19db41d30179433b",
     "1a177e7e44bf73cd",
     "1a177eab112a1d40",
     "1a17833167ce685b",
@@ -3913,7 +3916,8 @@
     "1a1c47fca743ce11",
     "1a1c48981fda6c5e",
     "1a1c48994879a346",
-    "1a1c4a9584be1637"
+    "1a1c4a9584be1637",
+    "1a1c4cac0a00265c"
   ],
   "feed_order": [
     "qt5dom",
