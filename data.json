@@ -3072,6 +3072,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush 'The Founder Flow Breakfast' başvurusu alındı, organizatörden karar bekleniyor (10 Kas). (kaynak: E-posta (10 Kas 11:53): Slush · [Slush 2026] Application received: The Founder F)",
+          "at": "2026-11-10 11:53"
+        },
+        {
           "text": "Slush 'Investor Happy Hour with Latvian startup ecosystem' başvurusu alındı, değerlendirmede (10 Kas 2026). Karar organizatörden gelecek (janis.jekabsons@liaa.gov.lv). (kaynak: E-posta (10 Kas 11:18): Slush · [Slush 2026] Application received: Investor Happ)",
           "at": "2026-11-10 11:18"
         },
@@ -3550,7 +3554,7 @@
       ]
     }
   ],
-  "updated": "2026-11-10 11:19",
+  "updated": "2026-11-10 11:53",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3610,7 +3614,6 @@
     }
   ],
   "asistan_seen": [
-    "1a177e5e7899ad91",
     "19db41d30179433b",
     "1a177e7e44bf73cd",
     "1a177eab112a1d40",
@@ -3909,7 +3912,8 @@
     "1a1c47da2939b7e1",
     "1a1c47fca743ce11",
     "1a1c48981fda6c5e",
-    "1a1c48994879a346"
+    "1a1c48994879a346",
+    "1a1c4a9584be1637"
   ],
   "feed_order": [
     "qt5dom",
