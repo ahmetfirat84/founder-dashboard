@@ -2988,7 +2988,7 @@
           "uid": "td_6hjq3gFRr7cwQGX9",
           "source": "todoist",
           "plan_date": "2026-10-22",
-          "note": "YENİ MAİL 03.11 19:03 (3 Kas 19:02 · Slush · Jonathan Kruger has declined your meeting request): Jonathan Kruger (Mercia Ventures) toplantı talebini reddetti: yalnızca UK merkezli şirketlere yatırım yapıyor. YENİ MAİL 04.11 11:12 (4 Kas 11:11 · Slush · Philipp Harnischfeger has declined your meeting request): Philipp Harnischfeger (Arve Capital) bu talebi reddetti; Slush sonrası görüşmek istiyor (p.harnischfeger@arve.capital). YENİ MAİL 05.11 13:01 (5 Kas 13:00 · Slush · Benjamin Zerbib has declined your meeting request): Benjamin Zerbib (KARISTA) görüşme talebini reddetti: yatırım odağı MedTech/Pharma/TechBio, New Me uymuyor. YENİ MAİL 05.11 17:59 (5 Kas 17:59 · Slush · Ville Mujunen has declined your meeting request): Ville Mujunen (Slush) meeting talebini reddetti (5 Kas); yeni talep gönderilebilir. YENİ MAİL 06.11 15:58 (6 Kas 15:57 · Slush · JEROME BRETEAU has declined your meeting request): 6 Kas: ALIAD / Jerome Breteau (Air Liquide Ventures) toplantı talebini reddetti, uyum düşük. YENİ MAİL 06.11 16:33 (6 Kas 16:32 · Slush · Hannah Lohk has declined your meeting request): Hannah Lohk (SmiLe Inject Capital) toplantı talebini reddetti (6 Kas); başka talep gönderilebilir. YENİ MAİL 06.11 19:09 (6 Kas 19:09 · Slush · Jahon Rafian has declined your meeting request): Wellington Management'tan Jahon Rafian meeting talebini reddetti (Slush, 6 Kas). YENİ MAİL 09.11 09:26 (9 Kas 09:26 · Slush · Christina Schmidt has declined your meeting request): Christina Schmidt (YZR Capital) toplantı talebini reddetti (9 Kas, Slush). YENİ MAİL 09.11 18:55 (9 Kas 18:54 · Slush · Henrietta Hearth has declined your meeting request): Supernova Invest'ten Henrietta Hearth, Slush meeting talebini reddetti (yatırım odağına uymadığı belirtildi)."
+          "note": "YENİ MAİL 03.11 19:03 (3 Kas 19:02 · Slush · Jonathan Kruger has declined your meeting request): Jonathan Kruger (Mercia Ventures) toplantı talebini reddetti: yalnızca UK merkezli şirketlere yatırım yapıyor. YENİ MAİL 04.11 11:12 (4 Kas 11:11 · Slush · Philipp Harnischfeger has declined your meeting request): Philipp Harnischfeger (Arve Capital) bu talebi reddetti; Slush sonrası görüşmek istiyor (p.harnischfeger@arve.capital). YENİ MAİL 05.11 13:01 (5 Kas 13:00 · Slush · Benjamin Zerbib has declined your meeting request): Benjamin Zerbib (KARISTA) görüşme talebini reddetti: yatırım odağı MedTech/Pharma/TechBio, New Me uymuyor. YENİ MAİL 05.11 17:59 (5 Kas 17:59 · Slush · Ville Mujunen has declined your meeting request): Ville Mujunen (Slush) meeting talebini reddetti (5 Kas); yeni talep gönderilebilir. YENİ MAİL 06.11 15:58 (6 Kas 15:57 · Slush · JEROME BRETEAU has declined your meeting request): 6 Kas: ALIAD / Jerome Breteau (Air Liquide Ventures) toplantı talebini reddetti, uyum düşük. YENİ MAİL 06.11 16:33 (6 Kas 16:32 · Slush · Hannah Lohk has declined your meeting request): Hannah Lohk (SmiLe Inject Capital) toplantı talebini reddetti (6 Kas); başka talep gönderilebilir. YENİ MAİL 06.11 19:09 (6 Kas 19:09 · Slush · Jahon Rafian has declined your meeting request): Wellington Management'tan Jahon Rafian meeting talebini reddetti (Slush, 6 Kas). YENİ MAİL 09.11 09:26 (9 Kas 09:26 · Slush · Christina Schmidt has declined your meeting request): Christina Schmidt (YZR Capital) toplantı talebini reddetti (9 Kas, Slush). YENİ MAİL 09.11 18:55 (9 Kas 18:54 · Slush · Henrietta Hearth has declined your meeting request): Supernova Invest'ten Henrietta Hearth, Slush meeting talebini reddetti (yatırım odağına uymadığı belirtildi). YENİ MAİL 10.11 11:01 (10 Kas 11:00 · Beatriz from Slush · Your Pre-Slush Checklist Is Here): Slush 18-19 Kas (bülten 10 Kas): Meeting Tool'dan istek gönder, gelen istekleri kabul/red et, Side Events'e bak, My Slush app'i kur."
         },
         {
           "text": "Claus'a yanıt yaz (DM'den)",
@@ -3546,7 +3546,7 @@
       ]
     }
   ],
-  "updated": "2026-11-10 10:36",
+  "updated": "2026-11-10 11:01",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3606,7 +3606,6 @@
     }
   ],
   "asistan_seen": [
-    "1a175018f28434cc",
     "1a175bc009a785f0",
     "1a177c7b28cc955e",
     "1a177cbb1fe555ef",
@@ -3905,7 +3904,8 @@
     "1a1c0c466fb6b63d",
     "1a1c0cd48a483e9a",
     "1a1c10505193a53c",
-    "1a1c46290c29e391"
+    "1a1c46290c29e391",
+    "1a1c4797562821ed"
   ],
   "feed_order": [
     "qt5dom",
