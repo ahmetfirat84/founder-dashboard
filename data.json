@@ -1521,6 +1521,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "İş Bankası: YENİBEN elektronik hizmet 10.11.2024–10.11.2026 2024-0023784 nolu vadesiz YP (EUR) hesap özeti e-posta ile geldi (ekte, rutin bilgilendirme). (kaynak: E-posta (10 Kas 14:59): Turkiye Is Bankasi A.S · YENİBEN ELEKTRONİK HİZMET      )",
+          "at": "2026-11-10 14:59"
+        },
+        {
           "text": "IC Hospital (Nurcan Sarıbal) 19 Eki'de bakiye mutabakatını onayladı: 'Mutabıkız, fatura kesilebilir.' Fatura kesim sürecini takip et. (kaynak: E-posta (19 Eki 16:11): Finance New Me · Re: new me bakiye)",
           "at": "2026-11-09 13:47"
         },
@@ -1631,10 +1635,6 @@
         {
           "text": "Tetik Turizm işveren raporu (01.09–02.11.2026): 11 transfer, toplam ₺26.750 (06.09 ₺2.250, 16.09 ₺3.250, 02.10 ₺2.000, 05.10 ₺2.000, 07.10 ₺2.250, 10.10 ₺3.750, 16.10 ₺2.250, 25.10 ₺2.250, 26.10 ₺2.250, 30.10 ₺2.250, 02.11 ₺2.250). Emre Bey'in bildirdiği ₺32.100 bakiye ile ₺5.350 fark var; fatura ve (kaynak: WhatsApp (2 Kas 13:36, belge))",
           "at": "2026-11-02 13:36"
-        },
-        {
-          "text": "📎 fatura-gelen arşivlendi: Google Workspace 2026-10-31 no 5722541537 ₺1.311 → https://drive.google.com/file/d/1X87mWyhFUsdB_rP-mfEL3LCAI5uQ9SwQ/view?usp=drivesdk",
-          "at": "2026-11-02 09:28"
         },
         {
           "text": "📎 fatura-gelen arşivlendi: Google Workspace 2026-10-31 no 5722541537 ₺1.311 → https://drive.google.com/file/d/1X87mWyhFUsdB_rP-mfEL3LCAI5uQ9SwQ/view?usp=drivesdk",
@@ -3558,7 +3558,7 @@
       ]
     }
   ],
-  "updated": "2026-11-10 13:04",
+  "updated": "2026-11-10 14:59",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3618,7 +3618,6 @@
     }
   ],
   "asistan_seen": [
-    "1a17833167ce685b",
     "1a178421ff553c5c",
     "1a1788fa9b26fdf6",
     "1a178bfcb0938c53",
@@ -3917,7 +3916,8 @@
     "1a1c4a9584be1637",
     "1a1c4cac0a00265c",
     "1a1c4e45ce9f02c7",
-    "1a1c4e9e7ae2285a"
+    "1a1c4e9e7ae2285a",
+    "1a1c553a53a47ae7"
   ],
   "feed_order": [
     "qt5dom",
