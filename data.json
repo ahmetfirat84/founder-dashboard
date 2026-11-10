@@ -1501,7 +1501,8 @@
           "urgency": "gray",
           "uid": "td_6hvcxRP7Mc4WP759",
           "source": "todoist",
-          "plan_date": "2026-11-03"
+          "plan_date": "2026-11-03",
+          "note": "YENİ MAİL 10.11 15:09 (10 Kas 15:09 · Ersun Oruc · TTSG İLAN ): 10 Kas: Ersun Oruç (CPA Türk) TTSG gazete ilanını ekte gönderdi; ilanı kontrol edip imzalı ilan dilekçesiyle birlikte ilet."
         },
         {
           "action_type": "Belge",
@@ -3560,7 +3561,7 @@
       ]
     }
   ],
-  "updated": "2026-11-10 15:05",
+  "updated": "2026-11-10 15:09",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3620,7 +3621,6 @@
     }
   ],
   "asistan_seen": [
-    "1a178bfcb0938c53",
     "1a178e59b625b8a0",
     "1a178e6aee9565ec",
     "1a178e7be4925b55",
@@ -3919,7 +3919,8 @@
     "1a1c4e9e7ae2285a",
     "1a1c553a53a47ae7",
     "19df7cdfe842f328",
-    "19fae02dc4e1dd82"
+    "19fae02dc4e1dd82",
+    "1a1c55cf960e4170"
   ],
   "feed_order": [
     "qt5dom",
