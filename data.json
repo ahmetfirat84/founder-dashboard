@@ -1086,7 +1086,7 @@
             "note": "aynı konu başlığında 5 Mayıs ve 29 Temmuz'da da istendi, gönderim yok"
           },
           "uid": "gzvwka",
-          "note": "YENİ MAİL 10.11 15:05 (5 May 14:02 · Ersun Oruc · BANKA EKSTRELERİ hk): 5 Mayıs 2026 CPA Türk talebi: 01.01–31.03.2026 dönemi tüm TL ve döviz banka ekstreleri (geçici vergi için); eski talep, durumu kontrol edilmeli."
+          "note": "YENİ MAİL 10.11 15:05 (5 May 14:02 · Ersun Oruc · BANKA EKSTRELERİ hk): 5 Mayıs 2026 CPA Türk talebi: 01.01–31.03.2026 dönemi tüm TL ve döviz banka ekstreleri (geçici vergi için); eski talep, durumu kontrol edilmeli. YENİ MAİL 10.11 15:05 (29 Tem 16:14 · Ersun Oruc ·  BANKA EKSTRELERİ  hk): 29 Tem e-postası: geçici vergi için 01.04–30.06.2026 tarihli tüm TL ve döviz banka ekstreleri istendi (Ersun Oruç)."
         },
         {
           "text": "DOĞRULANMADI: Garanti BBVA kredi kartı gecikme uyarıları (24 Eyl, 30 Eyl): banka 30 Eyl'de 'yakın izleme' sürecini başlatacağını bildirdi, borcu kontrol et, para girince ilk öde",
@@ -3620,7 +3620,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1788fa9b26fdf6",
     "1a178bfcb0938c53",
     "1a178e59b625b8a0",
     "1a178e6aee9565ec",
@@ -3919,7 +3918,8 @@
     "1a1c4e45ce9f02c7",
     "1a1c4e9e7ae2285a",
     "1a1c553a53a47ae7",
-    "19df7cdfe842f328"
+    "19df7cdfe842f328",
+    "19fae02dc4e1dd82"
   ],
   "feed_order": [
     "qt5dom",
