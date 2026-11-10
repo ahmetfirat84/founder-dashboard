@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "source": "2026-10-16_sabah-brifing (Drive: 09_Management/briefing-system/handoffs)",
   "priorities": [
     "HubSpot Maximum monthly credits = 3.000 gir (yenileme 17 Ekim, en geç 10:00)",
@@ -9,8 +9,8 @@
   "meetings": [
     {
       "time": "12:30",
-      "title": "& New Me_Weekly",
-      "note": "Hülya, Selin, Cemre · Meet"
+      "title": "& New Me_Daily",
+      "note": "Selin, Hülya, Cemre · Meet"
     }
   ],
   "cash_alerts": [
@@ -2169,7 +2169,8 @@
           "urgency": "gray",
           "uid": "td_6hppR92fvMWW7Vr9",
           "source": "todoist",
-          "plan_date": "2026-11-09"
+          "plan_date": "2026-11-09",
+          "done": true
         },
         {
           "text": "Teşvik işleri çözülecek",
@@ -8399,7 +8400,7 @@
       ]
     }
   ],
-  "meetings_date": "2026-11-09",
+  "meetings_date": "2026-11-10",
   "directory": [
     {
       "id": "g5cmcp",
