@@ -3291,6 +3291,10 @@
       ],
       "notes": [
         {
+          "text": "Google Apps Script 'asistan-mail-to-dashboard' 3 kez sunucu hatasıyla başarısız oldu (9 Kas 10:33, 9 Kas 19:30, 10 Kas 01:50); mail-to-dashboard otomasyonu kontrol edilmeli. (kaynak: E-posta (10 Kas 11:05): noreply-apps-scripts-notifications@googl · Summary of fa)",
+          "at": "2026-11-10 11:06"
+        },
+        {
           "text": "asistan-mail-to-dashboard Apps Script 7 Kasım 11:21'de 'Gmail operation not allowed' hatasıyla durdu; e-posta aktarımı yeniden yetkilendirilene kadar çalışmayabilir. (kaynak: E-posta (8 Kas 00:16): noreply-apps-scripts-notifications@googl · Summary of fai)",
           "at": "2026-11-08 00:17"
         },
@@ -3405,10 +3409,6 @@
         {
           "text": "Not: asistan-mail-to-dashboard Apps Script 18 Eki'de yetkilendirme ve sunucu hatalarıyla 3 kez başarısız oldu; e-posta işleme etkilenmiş olabilir. (kaynak: E-posta (19 Eki 00:50): noreply-apps-scripts-notifications@googl · Summary of fa)",
           "at": "2026-10-19 00:51"
-        },
-        {
-          "text": "Apple abonelik: HiNoter AI Note Taker haftalık ₺184,99 (KDV dahil). 14 Ekim'de Visa ile ödendi, 22 Ekim'de otomatik yenilenecek. İptal edilecekse App Store abonelik ayarlarından kapatılmalı. (kaynak: E-posta (18 Eki 20:00): Apple · Your receipt from Apple.)",
-          "at": "2026-10-18 20:01"
         }
       ]
     },
@@ -3546,7 +3546,7 @@
       ]
     }
   ],
-  "updated": "2026-11-10 11:01",
+  "updated": "2026-11-10 11:06",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3606,7 +3606,6 @@
     }
   ],
   "asistan_seen": [
-    "1a175bc009a785f0",
     "1a177c7b28cc955e",
     "1a177cbb1fe555ef",
     "1a177d1357adefea",
@@ -3905,7 +3904,8 @@
     "1a1c0cd48a483e9a",
     "1a1c10505193a53c",
     "1a1c46290c29e391",
-    "1a1c4797562821ed"
+    "1a1c4797562821ed",
+    "1a1c47da2939b7e1"
   ],
   "feed_order": [
     "qt5dom",
