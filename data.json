@@ -923,6 +923,22 @@
       "due_date": "2026-11-18",
       "title": "USHAŞ Uluslararası Sağlık Hizmetleri A.Ş.",
       "note": "USHAŞ'tan ticari e-fatura geldi (Paraşüt): 8 gün içinde Paraşüt'te kabul veya red edilmeli."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Turkcell fatura",
+      "party": "Turkcell (Fıratlar Mobilya Dekorasyon adına)",
+      "amount": "2.039,20 TL",
+      "due": "24.11.2026",
+      "uid": "8clhht",
+      "source": "mail-gelen",
+      "origin": "E-posta (11 Kas 00:04): Turkcell · Turkcell Fatura Bilgilendirme",
+      "wamid": "1a1c7472de8143fd",
+      "mail_thread": "1a1c7472de8143fd",
+      "amount_try": 2039,
+      "due_date": "2026-11-24",
+      "title": "Turkcell (Fıratlar Mobilya Dekorasyon adına)",
+      "note": "Turkcell faturası 2.039,20 TL, son ödeme 24.11.2026. Fatura Fıratlar Mobilya Dekorasyon İnş. San. ve Tic. adına; NewMe dışı firma olabilir, teyit et."
     }
   ],
   "departments": [
@@ -3595,7 +3611,7 @@
       ]
     }
   ],
-  "updated": "2026-11-10 22:31",
+  "updated": "2026-11-11 00:05",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3655,7 +3671,6 @@
     }
   ],
   "asistan_seen": [
-    "1a17c8dc6f77d743",
     "1a17cc9d8de5fcbd",
     "1a17d109d57a66b2",
     "1a17d37ba03ad648",
@@ -3954,7 +3969,8 @@
     "1a1c5edbdee12893",
     "1a1c687b04873150",
     "1a1c6dd75f6e0940",
-    "1a1c6f1004267c27"
+    "1a1c6f1004267c27",
+    "1a1c7472de8143fd"
   ],
   "feed_order": [
     "qt5dom",
