@@ -2298,6 +2298,10 @@
       "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri",
       "notes": [
         {
+          "text": "HİB'den Namibya Ulusal Gençlik Ticaret Forumu davet yazısı (11.11.2026, 38498141-TİM.HİB.GSK.Kİ.2026/394-10544). Ekteki yazı incelenip katılım durumu netleştirilmeli. (kaynak: E-posta (11 Kas 17:17): Hizmet İhracatçıları Birliği Genel Sekre · Namibya Ulusa)",
+          "at": "2026-11-11 17:47"
+        },
+        {
           "text": "USHAŞ CRM başvuru 41877 sonuçlandırıldı (09.11.2026). Mesaja göre yalnızca ahmet@yeniben.com kullanıcısı aktif; diğer kullanıcıların portal erişimi kontrol edilmeli. (kaynak: E-posta (9 Kas 17:34): info@ushas.gov.tr · USHAŞ CRM | Başvurunuzun Sonuçlandırı)",
           "at": "2026-11-09 17:35"
         },
@@ -3672,7 +3676,7 @@
       ]
     }
   ],
-  "updated": "2026-11-11 17:42",
+  "updated": "2026-11-11 17:47",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3732,7 +3736,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18580e6223d8d7",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FGMEJBNDNGMDI0QzlDMzA5NzEA",
     "1a1861711d9bdc7d",
     "1a18646b24348b6d",
@@ -4031,7 +4034,8 @@
     "1a1cadf81145d556",
     "1a1cadea8d639767",
     "1a1cafd4504291cd",
-    "1a1cb0f3ca91a623"
+    "1a1cb0f3ca91a623",
+    "1a1cb1383f62f4fa"
   ],
   "feed_order": [
     "qt5dom",
