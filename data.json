@@ -3433,6 +3433,10 @@
       ],
       "notes": [
         {
+          "text": "asistan-mail-to-dashboard Apps Script 10-11 Kasım'da hata verdi (Gmail izin hatası ve sunucu hatası). Mail akışını kontrol et. (kaynak: E-posta (11 Kas 23:41): noreply-apps-scripts-notifications@googl · Summary of fa)",
+          "at": "2026-11-11 23:42"
+        },
+        {
           "text": "Natro: deparyapi.com alan adı 09.02.2027'de doluyor (90 gün kaldı), yenileme gerekiyor. (kaynak: E-posta (11 Kas 20:30): Natro Müşteri Hizmetleri · Alan Adınızın süresi doluyor.)",
           "at": "2026-11-11 20:31"
         },
@@ -3547,10 +3551,6 @@
         {
           "text": "Seçil havaalanına bırakma talebi: 23:00 gibi çıkış, 23:45'te orada olunması isteniyor (taksi 2000+ TL). (kaynak: WhatsApp (22 Eki 11:22, iletilen yazışma, 4 mesaj))",
           "at": "2026-10-22 11:22"
-        },
-        {
-          "text": "Apple makbuzu: HiNoter AI Note Taker haftalık abonelik ₺184,99 (Mastercard ••2051, ödendi), yenileme 29 Ekim 2026. Haftalık yenileniyor, iptal kararı verilebilir. (kaynak: E-posta (22 Eki 09:06): Apple · Your receipt from Apple.)",
-          "at": "2026-10-22 09:07"
         }
       ]
     },
@@ -3688,7 +3688,7 @@
       ]
     }
   ],
-  "updated": "2026-11-11 20:31",
+  "updated": "2026-11-11 23:42",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3748,7 +3748,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1865b75ac49c37",
     "1a1869202eae5932",
     "1a1869f18e377ca0",
     "1a186b749d6c6e66",
@@ -4047,7 +4046,8 @@
     "1a1cb1b3b457e266",
     "1a1cb1ab80910035",
     "1a1cb9853c436f91",
-    "1a1cba948737c84d"
+    "1a1cba948737c84d",
+    "1a1cc583e3bfd797"
   ],
   "feed_order": [
     "qt5dom",
