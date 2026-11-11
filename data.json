@@ -3417,6 +3417,10 @@
       ],
       "notes": [
         {
+          "text": "GBC (Galata Business Center) portalından 11.11.2026 17:22'de 741,12 TL tek çekim ödeme yapıldı (PayTR işlem no P17944068955789308269570255246); ekstrede PAYTR/GALATABUSINESSCENTER görünecek. (kaynak: E-posta (11 Kas 17:22): PayTR · Ödeme Bildirimi (P17944068955789308269570255246))",
+          "at": "2026-11-11 17:23"
+        },
+        {
           "text": "GBC üye portalı aktivasyon daveti geldi (YENİBEN adına, 11 Kas). Talep edilmediyse bağlantıya tıklanmamalı; sözleşme ve ödeme takibi için portal kullanılabilir. (kaynak: E-posta (11 Kas 16:49): Galata Business Center · GBC Üye Portalı — Şifre Belirle)",
           "at": "2026-11-11 16:51"
         },
@@ -3531,10 +3535,6 @@
         {
           "text": "Slack Pro plan yükseltme bildirimi (pazarlama/ürün e-postası), aksiyon gerektirmiyor. (kaynak: E-posta (21 Eki 12:29): Slack · &amp; New Me just unlocked premium benefits to h)",
           "at": "2026-10-21 12:29"
-        },
-        {
-          "text": "Google Apps Script 'asistan-mail-to-dashboard' 4 kez sunucu hatasıyla başarısız oldu (20 Eki, 06:05–17:55 TRT); mail-to-dashboard akışı kontrol edilmeli. (kaynak: E-posta (21 Eki 06:06): noreply-apps-scripts-notifications@googl · Summary of fa)",
-          "at": "2026-10-21 06:07"
         }
       ]
     },
@@ -3672,7 +3672,7 @@
       ]
     }
   ],
-  "updated": "2026-11-11 16:51",
+  "updated": "2026-11-11 17:23",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3732,7 +3732,6 @@
     }
   ],
   "asistan_seen": [
-    "1a182e3015893677",
     "1a183ca936cf5670",
     "1a18580e6223d8d7",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FGMEJBNDNGMDI0QzlDMzA5NzEA",
@@ -4031,7 +4030,8 @@
     "1a1cac564d7ef2fe",
     "1a1cac71cf9a9451",
     "1a1cadf81145d556",
-    "1a1cadea8d639767"
+    "1a1cadea8d639767",
+    "1a1cafd4504291cd"
   ],
   "feed_order": [
     "qt5dom",
