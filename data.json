@@ -3138,6 +3138,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush New Nordics Healthtech Matchmaking başvurusu reddedildi (11 Kas). Sorular için organizatör: aleksandra@terkko.fi (kaynak: E-posta (11 Kas 12:24): Slush · [Slush 2026] Event application declined: New Nor)",
+          "at": "2026-11-11 12:24"
+        },
+        {
           "text": "Slush platformunda heal.health CTO Ulaş Mısırlıoğlu'ndan 18 Kasım görüşme talebi var (A11 standı, kan testi tanıtımı); yanıt verilmedi, Slush meeting planıyla birlikte değerlendirilecek. (kaynak: E-posta (10 Kas 17:47): Slush Platform · heal A11 standında 5 dakikada kan testi)",
           "at": "2026-11-10 17:48"
         },
@@ -3640,7 +3644,7 @@
       ]
     }
   ],
-  "updated": "2026-11-11 10:59",
+  "updated": "2026-11-11 12:24",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3700,7 +3704,6 @@
     }
   ],
   "asistan_seen": [
-    "1a17da003936d8ac",
     "1a17e71342efdbee",
     "1a17f0616f38bace",
     "1a1811f56a944326",
@@ -3999,7 +4002,8 @@
     "1a1c8587d94a3bf8",
     "1a1c90de661dc64a",
     "1a1c90df1284e3f7",
-    "1a1c99e3daef38da"
+    "1a1c99e3daef38da",
+    "1a1c9ec0961a6d4d"
   ],
   "feed_order": [
     "qt5dom",
