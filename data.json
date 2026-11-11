@@ -3178,6 +3178,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush 'The Morning After: How AI is Rewriting Healthcare Investment' brunch kaydı onaylandı: 19 Kas, 11:00–13:00, Venue 4. (kaynak: E-posta (11 Kas 20:11): Slush · [Slush 2026] You're in: The Morning After: How A)",
+          "at": "2026-11-11 20:12"
+        },
+        {
           "text": "Slush New Nordics Healthtech Matchmaking başvurusu reddedildi (11 Kas). Sorular için organizatör: aleksandra@terkko.fi (kaynak: E-posta (11 Kas 12:24): Slush · [Slush 2026] Event application declined: New Nor)",
           "at": "2026-11-11 12:24"
         },
@@ -3684,7 +3688,7 @@
       ]
     }
   ],
-  "updated": "2026-11-11 17:55",
+  "updated": "2026-11-11 20:12",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3744,7 +3748,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18646b24348b6d",
     "1a1864bf7b86ac5a",
     "1a1865b75ac49c37",
     "1a1869202eae5932",
@@ -4043,7 +4046,8 @@
     "1a1cb0f3ca91a623",
     "1a1cb1383f62f4fa",
     "1a1cb1b3b457e266",
-    "1a1cb1ab80910035"
+    "1a1cb1ab80910035",
+    "1a1cb9853c436f91"
   ],
   "feed_order": [
     "qt5dom",
