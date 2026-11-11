@@ -1579,6 +1579,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "📎 fatura-kesilen arşivlendi: Isabella Ruddlesden (Bella) 2026-11-05 no NM62026000000001 ₺87.803 → https://drive.google.com/file/d/1M1kTYdfjhxPs_4cut98AEToxZk6MX7iT/view?usp=drivesdk",
+          "at": "2026-11-11 16:22"
+        },
+        {
           "text": "Paraşüt e-postası (10.11.2026, İş Bankası 2024-0006088): 8 hesaba hesap özeti ücreti kesildi (her biri ₺2.090 + BSMV ₺104,50, toplam ₺17.556). Aynı gün Reşat Altuğ Aktaş'tan ₺81.143,31 FAST tahsilatı geldi. 16 işlem Paraşüt'te eşleştirilmemiş, kasa ve bankalar ekranından eşleştirilmeli. (kaynak: E-posta (11 Kas 08:21): Paraşüt · 17 adet banka işlemi Paraşüt'e aktarıldı)",
           "at": "2026-11-11 08:22"
         },
@@ -1693,10 +1697,6 @@
         {
           "text": "📎 fatura-gelen arşivlendi: Kanyon 2026-11-02 no KEB2026000003990 ₺23.479 → https://drive.google.com/file/d/1vUgyaDSD4AVmUJldgsDUEhQJKOrrIp0J/view?usp=drivesdk",
           "at": "2026-11-02 13:54"
-        },
-        {
-          "text": "Paraşüt abonelik 02.11.2026'da karttan yenilendi: ₺12.747,39 (3 taksit), sonraki yenileme 02.11.2027. (kaynak: E-posta (2 Kas 13:45): Paraşüt · Paraşüt Aboneliğiniz Yenilendi)",
-          "at": "2026-11-02 13:46"
         }
       ],
       "drawer": [
@@ -3655,7 +3655,7 @@
       ]
     }
   ],
-  "updated": "2026-11-11 15:33",
+  "updated": "2026-11-11 16:22",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3715,7 +3715,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDA1NTk3QjRCNzk2NDEwMTMwOQA=",
     "1a182a8f83039de1",
     "1a182aa2d0dffb03",
     "1a182daea19322c5",
@@ -4014,7 +4013,8 @@
     "1a1ca83aa354d480",
     "1a1ca8c1a4890897",
     "1a1ca8eab24fdde4",
-    "1a1ca98bbe80bc3c"
+    "1a1ca98bbe80bc3c",
+    "1a1cac564d7ef2fe"
   ],
   "feed_order": [
     "qt5dom",
