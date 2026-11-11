@@ -3129,7 +3129,7 @@
           "uid": "td_6hhgrxCw2PRHCQhh",
           "source": "todoist",
           "plan_date": "2026-10-24",
-          "note": "YENİ MAİL 04.11 12:56 (4 Kas 12:55 · Slush · Christian Bisaillon has declined your meeting request): Christian Bisaillon (Hyberden Ventures) meeting talebini reddetti: yatırım odağına uymuyor (4 Kas). YENİ MAİL 06.11 21:56 (6 Kas 21:55 · Slush · Dominik Alvermann has declined your meeting request): Dominik Alvermann (Acton Capital) meeting talebini reddetti (6 Kas). YENİ MAİL 10.11 11:08 (10 Kas 11:07 · Slush · [Slush 2026] Application received: New Nordics Healthtech Ma): New Nordics Healthtech Matchmaking (Slush) başvurusu alındı, 10 Kas; karar bekleniyor."
+          "note": "YENİ MAİL 04.11 12:56 (4 Kas 12:55 · Slush · Christian Bisaillon has declined your meeting request): Christian Bisaillon (Hyberden Ventures) meeting talebini reddetti: yatırım odağına uymuyor (4 Kas). YENİ MAİL 06.11 21:56 (6 Kas 21:55 · Slush · Dominik Alvermann has declined your meeting request): Dominik Alvermann (Acton Capital) meeting talebini reddetti (6 Kas). YENİ MAİL 10.11 11:08 (10 Kas 11:07 · Slush · [Slush 2026] Application received: New Nordics Healthtech Ma): New Nordics Healthtech Matchmaking (Slush) başvurusu alındı, 10 Kas; karar bekleniyor. YENİ MAİL 11.11 17:42 (11 Kas 17:42 · Slush · Yury Shlahanau has declined your meeting request): Tetrad VC'den Yury Shlahanau (Slush) toplantı talebini reddetti, 11 Kas 2026."
         },
         {
           "action_type": "Yanıt",
@@ -3672,7 +3672,7 @@
       ]
     }
   ],
-  "updated": "2026-11-11 17:23",
+  "updated": "2026-11-11 17:42",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3732,7 +3732,6 @@
     }
   ],
   "asistan_seen": [
-    "1a183ca936cf5670",
     "1a18580e6223d8d7",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FGMEJBNDNGMDI0QzlDMzA5NzEA",
     "1a1861711d9bdc7d",
@@ -4031,7 +4030,8 @@
     "1a1cac71cf9a9451",
     "1a1cadf81145d556",
     "1a1cadea8d639767",
-    "1a1cafd4504291cd"
+    "1a1cafd4504291cd",
+    "1a1cb0f3ca91a623"
   ],
   "feed_order": [
     "qt5dom",
