@@ -2776,6 +2776,10 @@
       "summary": "Meta Ads 7 gündür kapalı",
       "notes": [
         {
+          "text": "Pathos Communications (Laura Grace Cunningham) medya öyküsü için önümüzdeki günlerde 30 dk Zoom görüşmesi talep etti. Gönderen alan adı (pathosminddigital.com) kurum adıyla birebir uyuşmuyor; ücretli yayın/advertorial teklifi olabilir, görüşmeden önce kurumsal iletişimi doğrulayın. (kaynak: E-posta (11 Kas 05:03): Laura Grace Cunningham · Re: Media feature about Yeniben)",
+          "at": "2026-11-11 05:03"
+        },
+        {
           "text": "Search Console: andnewme.com'da bazı sayfalar 'noindex' etiketi nedeniyle dizine alınmıyor. Kasıtlı değilse etiket kaldırılmalı. (kaynak: E-posta (9 Kas 11:18): Google Search Console Team · New reasons prevent pages in)",
           "at": "2026-11-09 11:19"
         },
@@ -3611,7 +3615,7 @@
       ]
     }
   ],
-  "updated": "2026-11-11 00:05",
+  "updated": "2026-11-11 05:03",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3671,7 +3675,6 @@
     }
   ],
   "asistan_seen": [
-    "1a17cc9d8de5fcbd",
     "1a17d109d57a66b2",
     "1a17d37ba03ad648",
     "1a17d387f23842aa",
@@ -3970,7 +3973,8 @@
     "1a1c687b04873150",
     "1a1c6dd75f6e0940",
     "1a1c6f1004267c27",
-    "1a1c7472de8143fd"
+    "1a1c7472de8143fd",
+    "1a1c8587d94a3bf8"
   ],
   "feed_order": [
     "qt5dom",
