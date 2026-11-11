@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "source": "2026-10-16_sabah-brifing (Drive: 09_Management/briefing-system/handoffs)",
   "priorities": [
     "HubSpot Maximum monthly credits = 3.000 gir (yenileme 17 Ekim, en geç 10:00)",
@@ -939,6 +939,18 @@
       "due_date": "2026-11-24",
       "title": "Turkcell (Fıratlar Mobilya Dekorasyon adına)",
       "note": "Turkcell faturası 2.039,20 TL, son ödeme 24.11.2026. Fatura Fıratlar Mobilya Dekorasyon İnş. San. ve Tic. adına; NewMe dışı firma olabilir, teyit et."
+    },
+    {
+      "title": "Copytrack telif tazminatı B4297F",
+      "action_type": "Ödeme",
+      "category": "Hukuk / Telif",
+      "party": "Copytrack",
+      "amount": "€450 (tazminat) veya €588,50 (1 yıllık lisans)",
+      "due": "18.11.2026",
+      "due_date": "2026-11-18",
+      "note": "Lisans kanıtı yoksa seçenek; kanıt varsa ödeme gerekmez. Yanıt son tarihi 19.11. Portal: portal.copytrack.com, CASE ID B4297F",
+      "source": "email",
+      "id": "1a1c03458f920cce"
     }
   ],
   "departments": [
@@ -2304,7 +2316,7 @@
       "name": "CANKAT",
       "area": "Hukuk",
       "status": "yellow",
-      "updated": "2026-11-05 01:58",
+      "updated": "2026-11-11 08:30",
       "items": [
         {
           "text": "GK sürecini başlat (imza sirküsü için)",
@@ -2486,6 +2498,19 @@
           "text": "Play Console'da trader status beyanı (Hesap detayları > Hakkınızda). Yapılmazsa tüm uygulamalar ve geliştirici hesabı Google Play'den kaldırılır. Trader ise uygulama başına onay ve Hizmet Şartları linki gerekir; telefon ve adres public görünür.",
           "owner": "",
           "note": "YENİ MAİL 05.11 03:06 (5 Kas 03:06 · Google Play · Declare your trader status to continue distributing apps on ): Google Play mailine göre trader status beyanı 1 Şubat 2027'ye kadar Play Console'dan yapılmalı; yapılmazsa tüm uygulamalar ve geliştirici hesabı global olarak kaldırılır."
+        },
+        {
+          "text": "Copytrack telif iddiası (B4297F): andnewme.com/news/top-10-most-admired-celebritiy-nose-job sayfasındaki görsel (hak sahibi yuriyzhuravov, Almanya). Lisans kanıtı varsa 19.11'e kadar yanıtla; yoksa görseli kaldır ve 18.11'e kadar €450 tazminat veya €588,50 lisans seçeneği",
+          "action_type": "Yanıt",
+          "category": "Hukuk / Telif",
+          "party": "Copytrack",
+          "amount": "€450 / €588,50",
+          "due": "Yanıt 19.11, ödeme 18.11",
+          "due_date": "2026-11-18",
+          "owner": "",
+          "source": "email",
+          "id": "1a1c03458f920cce",
+          "feed": false
         }
       ],
       "summary": "HealthTürkiye yenilemesi açık",
@@ -3615,7 +3640,7 @@
       ]
     }
   ],
-  "updated": "2026-11-11 05:03",
+  "updated": "2026-11-11 08:30",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -8469,7 +8494,7 @@
       ]
     }
   ],
-  "meetings_date": "2026-11-10",
+  "meetings_date": "2026-11-11",
   "directory": [
     {
       "id": "g5cmcp",
