@@ -3417,6 +3417,10 @@
       ],
       "notes": [
         {
+          "text": "GBC üye portalı aktivasyon daveti geldi (YENİBEN adına, 11 Kas). Talep edilmediyse bağlantıya tıklanmamalı; sözleşme ve ödeme takibi için portal kullanılabilir. (kaynak: E-posta (11 Kas 16:49): Galata Business Center · GBC Üye Portalı — Şifre Belirle)",
+          "at": "2026-11-11 16:51"
+        },
+        {
           "text": "Google Apps Script 'asistan-mail-to-dashboard' 3 kez sunucu hatasıyla başarısız oldu (9 Kas 10:33, 9 Kas 19:30, 10 Kas 01:50); mail-to-dashboard otomasyonu kontrol edilmeli. (kaynak: E-posta (10 Kas 11:05): noreply-apps-scripts-notifications@googl · Summary of fa)",
           "at": "2026-11-10 11:06"
         },
@@ -3531,10 +3535,6 @@
         {
           "text": "Google Apps Script 'asistan-mail-to-dashboard' 4 kez sunucu hatasıyla başarısız oldu (20 Eki, 06:05–17:55 TRT); mail-to-dashboard akışı kontrol edilmeli. (kaynak: E-posta (21 Eki 06:06): noreply-apps-scripts-notifications@googl · Summary of fa)",
           "at": "2026-10-21 06:07"
-        },
-        {
-          "text": "Not: asistan-mail-to-dashboard Apps Script 18 Eki'de yetkilendirme ve sunucu hatalarıyla 3 kez başarısız oldu; e-posta işleme etkilenmiş olabilir. (kaynak: E-posta (19 Eki 00:50): noreply-apps-scripts-notifications@googl · Summary of fa)",
-          "at": "2026-10-19 00:51"
         }
       ]
     },
@@ -3672,7 +3672,7 @@
       ]
     }
   ],
-  "updated": "2026-11-11 16:50",
+  "updated": "2026-11-11 16:51",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3732,7 +3732,6 @@
     }
   ],
   "asistan_seen": [
-    "1a182daea19322c5",
     "1a182e3015893677",
     "1a183ca936cf5670",
     "1a18580e6223d8d7",
@@ -4031,7 +4030,8 @@
     "1a1ca98bbe80bc3c",
     "1a1cac564d7ef2fe",
     "1a1cac71cf9a9451",
-    "1a1cadf81145d556"
+    "1a1cadf81145d556",
+    "1a1cadea8d639767"
   ],
   "feed_order": [
     "qt5dom",
