@@ -3141,7 +3141,7 @@
           "uid": "td_6hhgrxCw2PRHCQhh",
           "source": "todoist",
           "plan_date": "2026-10-24",
-          "note": "YENİ MAİL 04.11 12:56 (4 Kas 12:55 · Slush · Christian Bisaillon has declined your meeting request): Christian Bisaillon (Hyberden Ventures) meeting talebini reddetti: yatırım odağına uymuyor (4 Kas). YENİ MAİL 06.11 21:56 (6 Kas 21:55 · Slush · Dominik Alvermann has declined your meeting request): Dominik Alvermann (Acton Capital) meeting talebini reddetti (6 Kas). YENİ MAİL 10.11 11:08 (10 Kas 11:07 · Slush · [Slush 2026] Application received: New Nordics Healthtech Ma): New Nordics Healthtech Matchmaking (Slush) başvurusu alındı, 10 Kas; karar bekleniyor. YENİ MAİL 11.11 17:42 (11 Kas 17:42 · Slush · Yury Shlahanau has declined your meeting request): Tetrad VC'den Yury Shlahanau (Slush) toplantı talebini reddetti, 11 Kas 2026."
+          "note": "YENİ MAİL 04.11 12:56 (4 Kas 12:55 · Slush · Christian Bisaillon has declined your meeting request): Christian Bisaillon (Hyberden Ventures) meeting talebini reddetti: yatırım odağına uymuyor (4 Kas). YENİ MAİL 06.11 21:56 (6 Kas 21:55 · Slush · Dominik Alvermann has declined your meeting request): Dominik Alvermann (Acton Capital) meeting talebini reddetti (6 Kas). YENİ MAİL 10.11 11:08 (10 Kas 11:07 · Slush · [Slush 2026] Application received: New Nordics Healthtech Ma): New Nordics Healthtech Matchmaking (Slush) başvurusu alındı, 10 Kas; karar bekleniyor. YENİ MAİL 11.11 17:42 (11 Kas 17:42 · Slush · Yury Shlahanau has declined your meeting request): Tetrad VC'den Yury Shlahanau (Slush) toplantı talebini reddetti, 11 Kas 2026. YENİ MAİL 12.11 00:51 (12 Kas 00:51 · Slush · Austin Hwang has declined your meeting request): Austin Hwang (ADVentures) meeting talebini reddetti (11 Kas)."
         },
         {
           "action_type": "Yanıt",
@@ -3688,7 +3688,7 @@
       ]
     }
   ],
-  "updated": "2026-11-11 23:42",
+  "updated": "2026-11-12 00:51",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3748,7 +3748,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1869202eae5932",
     "1a1869f18e377ca0",
     "1a186b749d6c6e66",
     "1a1873ddac2cee9f",
@@ -4047,7 +4046,8 @@
     "1a1cb1ab80910035",
     "1a1cb9853c436f91",
     "1a1cba948737c84d",
-    "1a1cc583e3bfd797"
+    "1a1cc583e3bfd797",
+    "1a1cc97d13fb92f2"
   ],
   "feed_order": [
     "qt5dom",
