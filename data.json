@@ -3644,7 +3644,7 @@
       ]
     }
   ],
-  "updated": "2026-11-11 12:24",
+  "updated": "2026-11-11 13:18",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3704,7 +3704,6 @@
     }
   ],
   "asistan_seen": [
-    "1a17e71342efdbee",
     "1a17f0616f38bace",
     "1a1811f56a944326",
     "1a181734fdebd2d7",
@@ -4003,7 +4002,8 @@
     "1a1c90de661dc64a",
     "1a1c90df1284e3f7",
     "1a1c99e3daef38da",
-    "1a1c9ec0961a6d4d"
+    "1a1c9ec0961a6d4d",
+    "1a1ca1d855f8c060"
   ],
   "feed_order": [
     "qt5dom",
@@ -8610,6 +8610,57 @@
     }
   ],
   "meeting_notes": [
+    {
+      "id": "javxcs",
+      "title": "& New Me_Daily",
+      "date": "2026-11-11",
+      "summary": "Toplantıda mevcut hasta ve lead durumları, AI kanalındaki satış performansı ve teklif/kod gönderme süreci değerlendirildi. Kod göndermeden önce fiyat aralığının mesajla paylaşılması ve kod sayısının azaltılması geçici olarak kararlaştırıldı; bu yaklaşım yaklaşık 15 gün sonra yeniden gözden geçirilecek. CRM loglarının eksiksiz ve zamanında tutulması temel gereklilik olarak vurgulandı.",
+      "thread": "1a1ca1d855f8c060",
+      "actions": [
+        {
+          "id": "6t6ywl",
+          "text": "Selin, mevcut WhatsApp ve telefon görüşmelerini tek tek kontrol ederek CRM'deki eksik logları tamamlayacak.",
+          "dep": "zeynep",
+          "owner": "Selin",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "pre5z9",
+          "text": "Hülya, daha önce kod gönderilmiş leadlere devam etme isteklerini ve mevcut durumlarını soran tetikleyici e-postayı hazırlatıp aynı gün gönderecek.",
+          "dep": "zeynep",
+          "owner": "Hülya",
+          "due_date": "2026-11-11",
+          "party": "Kod gönderilmiş leadler",
+          "status": "proposed"
+        },
+        {
+          "id": "0t6e94",
+          "text": "Selin, AI leadlerine kod vermeden önce fiyat aralığını mesajla paylaşıp uygun bulanlar için kod hazırlayacak.",
+          "dep": "zeynep",
+          "owner": "Selin",
+          "party": "AI leadleri",
+          "status": "proposed"
+        },
+        {
+          "id": "71xiw7",
+          "text": "Selin, burun estetiği geçiren hastadan iyileşme sürecinin ardından ikinci tur fotoğrafları isteyecek (site hasta değerlendirmeleri için).",
+          "dep": "ilksen",
+          "owner": "Selin",
+          "party": "Burun estetiği hastası",
+          "status": "proposed"
+        },
+        {
+          "id": "6r3vwh",
+          "text": "Ekip, kod/teklif yaklaşımını (fiyat aralığı önce, kod sayısını azaltma) yaklaşık 15 gün içinde yeniden değerlendirecek.",
+          "dep": "zeynep",
+          "owner": "",
+          "due_date": "2026-11-26",
+          "party": "",
+          "status": "proposed"
+        }
+      ]
+    },
     {
       "id": "mlpfen",
       "title": "& New Me_Daily",
