@@ -1568,6 +1568,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Paraşüt e-postası (10.11.2026, İş Bankası 2024-0006088): 8 hesaba hesap özeti ücreti kesildi (her biri ₺2.090 + BSMV ₺104,50, toplam ₺17.556). Aynı gün Reşat Altuğ Aktaş'tan ₺81.143,31 FAST tahsilatı geldi. 16 işlem Paraşüt'te eşleştirilmemiş, kasa ve bankalar ekranından eşleştirilmeli. (kaynak: E-posta (11 Kas 08:21): Paraşüt · 17 adet banka işlemi Paraşüt'e aktarıldı)",
+          "at": "2026-11-11 08:22"
+        },
+        {
           "text": "Paraşüt bildirimi (10.11.2026, İş Bankası 2024-0006088): 8 hesabın yıllık hesap özeti ücreti çekildi (₺16.720 komisyon + ₺836 BSMV = ₺17.556). Reşat Altuğ Aktaş'tan ₺81.143,31 FAST tahsilat geldi. 16 işlem Paraşüt'te eşleştirilmeyi bekliyor. (kaynak: E-posta (11 Kas 08:21): Paraşüt · 17 adet banka işlemi Paraşüt'e aktarıldı)",
           "at": "2026-11-11 08:22"
         },
@@ -1682,10 +1686,6 @@
         {
           "text": "Paraşüt abonelik 02.11.2026'da karttan yenilendi: ₺12.747,39 (3 taksit), sonraki yenileme 02.11.2027. (kaynak: E-posta (2 Kas 13:45): Paraşüt · Paraşüt Aboneliğiniz Yenilendi)",
           "at": "2026-11-02 13:46"
-        },
-        {
-          "text": "Tetik Turizm işveren raporu (01.09–02.11.2026): 11 transfer, toplam ₺26.750 (06.09 ₺2.250, 16.09 ₺3.250, 02.10 ₺2.000, 05.10 ₺2.000, 07.10 ₺2.250, 10.10 ₺3.750, 16.10 ₺2.250, 25.10 ₺2.250, 26.10 ₺2.250, 30.10 ₺2.250, 02.11 ₺2.250). Emre Bey'in bildirdiği ₺32.100 bakiye ile ₺5.350 fark var; fatura ve (kaynak: WhatsApp (2 Kas 13:36, belge))",
-          "at": "2026-11-02 13:36"
         }
       ],
       "drawer": [
@@ -3700,7 +3700,6 @@
     }
   ],
   "asistan_seen": [
-    "1a17d37ba03ad648",
     "1a17d387f23842aa",
     "1a17da003936d8ac",
     "1a17e71342efdbee",
@@ -3999,7 +3998,8 @@
     "1a1c6f1004267c27",
     "1a1c7472de8143fd",
     "1a1c8587d94a3bf8",
-    "1a1c90de661dc64a"
+    "1a1c90de661dc64a",
+    "1a1c90df1284e3f7"
   ],
   "feed_order": [
     "qt5dom",
