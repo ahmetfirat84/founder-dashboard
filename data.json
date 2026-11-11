@@ -790,7 +790,7 @@
       "amount_try": 16343.33,
       "urgency": "red",
       "title": "Akbank",
-      "note": "Akbank Artı Para kredisi gecikmiş: ₺16.343,33 ödeme uyarısı (e-posta 05.11). Ödeme yapıldıysa dekontu işle."
+      "note": "Akbank Artı Para kredisi gecikmiş: ₺16.343,33 ödeme uyarısı (e-posta 05.11). Ödeme yapıldıysa dekontu işle. YENİ MAİL 11.11 10:59 (11 Kas 10:59 · AKBANK · Gecikmeli Borcunuz Hakkında): 11 Kas 07:59 Akbank'tan yeni gecikme hatırlatması geldi: ₺16.343,33 ödeme günü geçti; ödenmediyse hemen ödenmeli."
     },
     {
       "action_type": "Ödeme",
@@ -3640,7 +3640,7 @@
       ]
     }
   ],
-  "updated": "2026-11-11 08:22",
+  "updated": "2026-11-11 10:59",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3700,7 +3700,6 @@
     }
   ],
   "asistan_seen": [
-    "1a17d387f23842aa",
     "1a17da003936d8ac",
     "1a17e71342efdbee",
     "1a17f0616f38bace",
@@ -3999,7 +3998,8 @@
     "1a1c7472de8143fd",
     "1a1c8587d94a3bf8",
     "1a1c90de661dc64a",
-    "1a1c90df1284e3f7"
+    "1a1c90df1284e3f7",
+    "1a1c99e3daef38da"
   ],
   "feed_order": [
     "qt5dom",
