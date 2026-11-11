@@ -763,8 +763,8 @@
       "action_type": "Ödeme",
       "category": "Tedarikçi",
       "party": "IC Hospital (MK Hastane)",
-      "amount": "₺133.018",
-      "due": "Vade belirsiz",
+      "amount": "₺133.018 (ödendi)",
+      "due": "Ödendi 11.11",
       "uid": "ksf0e5",
       "source": "mail-gelen",
       "origin": "E-posta (4 Kas 15:52): Nurcan Sarıbal · RE: new me bakiye",
@@ -773,7 +773,18 @@
       "amount_try": 133018.32,
       "urgency": "orange",
       "title": "IC Hospital (MK Hastane)",
-      "note": "2 hasta faturası (03.11.2026): MKY2026000000686 Isabella Ruddlesden (Bella) ₺66.509,16 + MKY2026000000685 Jodie Rata ₺66.509,16, her biri %10 KDV dahil, Genel Cerrahi. Nurcan Sarıbal mailiyle geldi, vade ve ödeme planı netleşecek. YENİ MAİL 09.11 13:47 (19 Eki 16:11 · Finance New Me · Re: new me bakiye): Nurcan Sarıbal bakiye mutabakatını onayladı (19 Eki), fatura kesilebilir."
+      "note": "2 hasta faturası (03.11.2026): MKY2026000000686 Isabella Ruddlesden (Bella) ₺66.509,16 + MKY2026000000685 Jodie Rata ₺66.509,16, her biri %10 KDV dahil, Genel Cerrahi. Nurcan Sarıbal mailiyle geldi, vade ve ödeme planı netleşecek. YENİ MAİL 09.11 13:47 (19 Eki 16:11 · Finance New Me · Re: new me bakiye): Nurcan Sarıbal bakiye mutabakatını onayladı (19 Eki), fatura kesilebilir. ÖDENDİ 2026-11-11: ₺133.018 (dekont, havale ücreti ₺16.76). Satır tutarı ₺133.018.",
+      "done": true,
+      "doneAt": "2026-11-11 13:45",
+      "proof": {
+        "type": "banka dekontu",
+        "date": "2026-11-11",
+        "amount_try": 133018.32,
+        "fee_try": 16.76,
+        "channel": "WhatsApp (11 Kas 13:45, belge)",
+        "drive_url": "https://drive.google.com/file/d/1LcJm6QFJzxzOcSLTqOxmbpxhDzk9T0Dm/view?usp=drivesdk",
+        "draft_url": ""
+      }
     },
     {
       "action_type": "Ödeme",
@@ -3644,7 +3655,7 @@
       ]
     }
   ],
-  "updated": "2026-11-11 13:25",
+  "updated": "2026-11-11 13:45",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3704,7 +3715,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1811f56a944326",
     "1a181734fdebd2d7",
     "1a18206eddddec0f",
     "1a18235c14c9fbbd",
@@ -4003,7 +4013,8 @@
     "1a1c99e3daef38da",
     "1a1c9ec0961a6d4d",
     "1a1ca1d855f8c060",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEI1NkQ5OTFCRThDNUI4NjQzMAA="
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEI1NkQ5OTFCRThDNUI4NjQzMAA=",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFEODM4NTU5QTdCQzVDMzAwQkYA"
   ],
   "feed_order": [
     "qt5dom",
