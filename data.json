@@ -2298,6 +2298,10 @@
       "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri",
       "notes": [
         {
+          "text": "HİB Genel Sekreterliği, 11.11.2026 tarihli 'ABD ve AB Ticaret Politikaları Uyumu ve Risk Yönetimi' konulu yazısını (sayı 2026/396) e-posta ekinde gönderdi; ek PDF okunup süre/aksiyon kontrol edilmeli. (kaynak: E-posta (11 Kas 17:07): Hizmet İhracatçıları Birliği Genel Sekre · ABD ve AB Tic)",
+          "at": "2026-11-11 17:55"
+        },
+        {
           "text": "HİB Genel Sekreterliği 11.11.2026 tarihli yazısı (38498141-TİM.HİB.GSK.Kİ.2026/397-10547): Ticaret Bakanlığı İhracat Süreçleri ve Devlet Destekleri Eğitim Programı duyurusu, ekte PDF; katılım son tarihi ve başvuru koşulu için belge kontrol edilmeli. (kaynak: E-posta (11 Kas 17:15): Hizmet İhracatçıları Birliği Genel Sekre · Ticaret Bakan)",
           "at": "2026-11-11 17:55"
         },
@@ -3740,7 +3744,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1861711d9bdc7d",
     "1a18646b24348b6d",
     "1a1864bf7b86ac5a",
     "1a1865b75ac49c37",
@@ -4039,7 +4042,8 @@
     "1a1cafd4504291cd",
     "1a1cb0f3ca91a623",
     "1a1cb1383f62f4fa",
-    "1a1cb1b3b457e266"
+    "1a1cb1b3b457e266",
+    "1a1cb1ab80910035"
   ],
   "feed_order": [
     "qt5dom",
