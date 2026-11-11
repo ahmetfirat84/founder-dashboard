@@ -2812,6 +2812,10 @@
       "summary": "Meta Ads 7 gündür kapalı",
       "notes": [
         {
+          "text": "Orphex: Meta, Ahmet Fırat Facebook profilini geçici engelledi, Meta veri akışı duruyor. Ahmet facebook.com'da Meta'nın istediği adımları tamamlamalı (Orphex'te yeniden bağlamaya gerek yok). (kaynak: E-posta (11 Kas 15:32): info@notify.orphex.co · Action needed on facebook.com fo)",
+          "at": "2026-11-11 15:33"
+        },
+        {
           "text": "Pathos Communications (Laura Grace Cunningham) medya öyküsü için önümüzdeki günlerde 30 dk Zoom görüşmesi talep etti. Gönderen alan adı (pathosminddigital.com) kurum adıyla birebir uyuşmuyor; ücretli yayın/advertorial teklifi olabilir, görüşmeden önce kurumsal iletişimi doğrulayın. (kaynak: E-posta (11 Kas 05:03): Laura Grace Cunningham · Re: Media feature about Yeniben)",
           "at": "2026-11-11 05:03"
         },
@@ -2926,10 +2930,6 @@
         {
           "text": "Instagram paylaşımı: https://www.instagram.com/p/DexbisIiDLR/ (kaynak: WhatsApp (22 Eki 09:07, yazılı))",
           "at": "2026-10-22 09:07"
-        },
-        {
-          "text": "Meta reklam makbuzu (18 Eki): 26 Ağu–13 Eyl dönemi, toplam €1.268,44, manuel ödeme yapılmış. Kampanyalar: GS | LEADS | UK €102,69; GS | LEADS | AU-NZ | Core €1.163,72. Faturalar artık Meta Platforms Ireland Limited adına kesiliyor. (kaynak: E-posta (19 Eki 00:15): Meta for Business · Meta reklamlar makbuzunuz (Hesap Num)",
-          "at": "2026-10-19 00:15"
         }
       ]
     },
@@ -3655,7 +3655,7 @@
       ]
     }
   ],
-  "updated": "2026-11-11 15:22",
+  "updated": "2026-11-11 15:33",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3715,7 +3715,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1824b4c0812eca",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDA1NTk3QjRCNzk2NDEwMTMwOQA=",
     "1a182a8f83039de1",
     "1a182aa2d0dffb03",
@@ -4014,7 +4013,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFEODM4NTU5QTdCQzVDMzAwQkYA",
     "1a1ca83aa354d480",
     "1a1ca8c1a4890897",
-    "1a1ca8eab24fdde4"
+    "1a1ca8eab24fdde4",
+    "1a1ca98bbe80bc3c"
   ],
   "feed_order": [
     "qt5dom",
