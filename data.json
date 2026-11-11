@@ -3644,7 +3644,7 @@
       ]
     }
   ],
-  "updated": "2026-11-11 13:18",
+  "updated": "2026-11-11 13:25",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3704,7 +3704,6 @@
     }
   ],
   "asistan_seen": [
-    "1a17f0616f38bace",
     "1a1811f56a944326",
     "1a181734fdebd2d7",
     "1a18206eddddec0f",
@@ -4003,7 +4002,8 @@
     "1a1c90df1284e3f7",
     "1a1c99e3daef38da",
     "1a1c9ec0961a6d4d",
-    "1a1ca1d855f8c060"
+    "1a1ca1d855f8c060",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEI1NkQ5OTFCRThDNUI4NjQzMAA="
   ],
   "feed_order": [
     "qt5dom",
@@ -9701,27 +9701,11 @@
   ],
   "extra_events": [
     {
-      "date": "2026-11-05",
-      "time": "20:00",
-      "title": "Yemek: Bilgitay-Melisa",
-      "note": "Önceki kayıttaki Armutlu Beko yerine Kebapçı Beko Armutlu şubesi",
-      "location": "Kebapçı Beko Armutlu",
-      "calendar": "sahsi"
-    },
-    {
-      "date": "2026-11-05",
-      "time": "20:00",
-      "title": "Yemek: Bilgitay-Melisa",
-      "note": "Takvimde görünmediği bildirildi, yeniden eklendi.",
-      "location": "Kebapçı Beko Armutlu",
-      "calendar": "sahsi"
-    },
-    {
-      "date": "2026-11-04",
-      "time": "19:00",
-      "title": "Yemek: Muhammed-Osman",
-      "note": "Çarşamba akşamı yemek",
-      "location": "Kalamış Bedri Usta",
+      "date": "2026-11-12",
+      "time": "17:00",
+      "title": "Doğa ile görüşme",
+      "note": "Ahmet notu: Beşiktaş Belediyesi'nde Doğa ile görüşme, şahsi takvim.",
+      "location": "Beşiktaş Belediyesi",
       "calendar": "sahsi"
     }
   ],
