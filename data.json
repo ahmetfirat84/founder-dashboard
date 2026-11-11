@@ -3433,6 +3433,10 @@
       ],
       "notes": [
         {
+          "text": "Natro: deparyapi.com alan adı 09.02.2027'de doluyor (90 gün kaldı), yenileme gerekiyor. (kaynak: E-posta (11 Kas 20:30): Natro Müşteri Hizmetleri · Alan Adınızın süresi doluyor.)",
+          "at": "2026-11-11 20:31"
+        },
+        {
           "text": "GBC (Galata Business Center) portalından 11.11.2026 17:22'de 741,12 TL tek çekim ödeme yapıldı (PayTR işlem no P17944068955789308269570255246); ekstrede PAYTR/GALATABUSINESSCENTER görünecek. (kaynak: E-posta (11 Kas 17:22): PayTR · Ödeme Bildirimi (P17944068955789308269570255246))",
           "at": "2026-11-11 17:23"
         },
@@ -3547,10 +3551,6 @@
         {
           "text": "Apple makbuzu: HiNoter AI Note Taker haftalık abonelik ₺184,99 (Mastercard ••2051, ödendi), yenileme 29 Ekim 2026. Haftalık yenileniyor, iptal kararı verilebilir. (kaynak: E-posta (22 Eki 09:06): Apple · Your receipt from Apple.)",
           "at": "2026-10-22 09:07"
-        },
-        {
-          "text": "Slack Pro plan yükseltme bildirimi (pazarlama/ürün e-postası), aksiyon gerektirmiyor. (kaynak: E-posta (21 Eki 12:29): Slack · &amp; New Me just unlocked premium benefits to h)",
-          "at": "2026-10-21 12:29"
         }
       ]
     },
@@ -3688,7 +3688,7 @@
       ]
     }
   ],
-  "updated": "2026-11-11 20:12",
+  "updated": "2026-11-11 20:31",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3748,7 +3748,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1864bf7b86ac5a",
     "1a1865b75ac49c37",
     "1a1869202eae5932",
     "1a1869f18e377ca0",
@@ -4047,7 +4046,8 @@
     "1a1cb1383f62f4fa",
     "1a1cb1b3b457e266",
     "1a1cb1ab80910035",
-    "1a1cb9853c436f91"
+    "1a1cb9853c436f91",
+    "1a1cba948737c84d"
   ],
   "feed_order": [
     "qt5dom",
