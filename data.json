@@ -2434,7 +2434,7 @@
           "owner": "",
           "source": "asistan",
           "uid": "9907cb",
-          "note": "YENİ MAİL 30.10 18:25 (30 Eki 18:24 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Ekim: Ersun Bey ve Coşkun Bey'den pay defteri kopyası, pay sahipleri listesi ve MERSİS ortak kontrolü istendi; imza sirküleri 15 Kasım'da dolduğu için bu hafta dönüş bekleniyor. YENİ MAİL 30.10 18:29 (30 Eki 18:28 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki: Ersun Bey ve Coşkun Bey'den noter tasdikli pay defteri konumu ve güncel pay sahipleri listesi istendi (2023 GK sonrası 41 pay sahibi, adres bilgisi teyit bekleniyor). YENİ MAİL 30.10 18:38 (30 Eki 18:38 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki: Ersun Bey ve Coşkun Bey'e pay defteri (noter tasdikli, kimde olduğu, 2023 sonrası devir/giriş) ve güncel pay sahipleri listesi soruldu; yanıt bekleniyor."
+          "note": "YENİ MAİL 30.10 18:25 (30 Eki 18:24 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Ekim: Ersun Bey ve Coşkun Bey'den pay defteri kopyası, pay sahipleri listesi ve MERSİS ortak kontrolü istendi; imza sirküleri 15 Kasım'da dolduğu için bu hafta dönüş bekleniyor. YENİ MAİL 30.10 18:29 (30 Eki 18:28 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki: Ersun Bey ve Coşkun Bey'den noter tasdikli pay defteri konumu ve güncel pay sahipleri listesi istendi (2023 GK sonrası 41 pay sahibi, adres bilgisi teyit bekleniyor). YENİ MAİL 30.10 18:38 (30 Eki 18:38 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki: Ersun Bey ve Coşkun Bey'e pay defteri (noter tasdikli, kimde olduğu, 2023 sonrası devir/giriş) ve güncel pay sahipleri listesi soruldu; yanıt bekleniyor. YENİ MAİL 12.11 17:02 (12 Kas 17:02 · Orhan Bayram · Re: Yeniben genel kurul çağrısı, 27 Kasım 2026): Orhan Bayram (12 Kas): 27 Kasım genel kuruluna katılamayabileceğini, ek bir konu olursa haber vermesini yazdı."
         },
         {
           "text": "Sermayeyi 250.000 TL'ye çıkar (süre 31 Aralık 2027'ye uzadı, acelesi yok); yöntem: pay sahibi yatırımı veya emisyon primi aktarımı",
@@ -3716,7 +3716,7 @@
       ]
     }
   ],
-  "updated": "2026-11-12 16:38",
+  "updated": "2026-11-12 17:02",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3776,7 +3776,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18d323b7e9851c",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE5OUVCNTE2NTgyNDMyNDg5MkYA",
     "1a18d69be17e8f56",
     "1a18d6bb2201bca0",
@@ -4075,7 +4074,8 @@
     "1a1cfd863daa3306",
     "1a1cfed314734449",
     "1a1cff173f96bd2f",
-    "1a1cffa9ad7b25dd"
+    "1a1cffa9ad7b25dd",
+    "1a1d0112b2f43cde"
   ],
   "feed_order": [
     "qt5dom",
