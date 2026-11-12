@@ -2846,6 +2846,10 @@
       "summary": "Meta Ads 7 gündür kapalı",
       "notes": [
         {
+          "text": "Search Console: andnewme.com sitemap'indeki bazı sayfalar 'yönlendirme (redirect)' nedeniyle indexlenmiyor. Kasıtlı değilse düzeltilmeli (12 Kas). (kaynak: E-posta (12 Kas 07:11): Google Search Console Team · New reasons prevent pages i)",
+          "at": "2026-11-12 07:11"
+        },
+        {
           "text": "Orphex: Meta, Ahmet Fırat Facebook profilini geçici engelledi, Meta veri akışı duruyor. Ahmet facebook.com'da Meta'nın istediği adımları tamamlamalı (Orphex'te yeniden bağlamaya gerek yok). (kaynak: E-posta (11 Kas 15:32): info@notify.orphex.co · Action needed on facebook.com fo)",
           "at": "2026-11-11 15:33"
         },
@@ -2960,10 +2964,6 @@
         {
           "text": "Instagram linki: https://www.instagram.com/p/Degj_FAjhOD/?img_index=11&rpxt=b2U0eWVkejdkenNl (kaynak: WhatsApp (22 Eki 09:08, yazılı))",
           "at": "2026-10-22 09:08"
-        },
-        {
-          "text": "Instagram paylaşımı: https://www.instagram.com/p/DexbisIiDLR/ (kaynak: WhatsApp (22 Eki 09:07, yazılı))",
-          "at": "2026-10-22 09:07"
         }
       ]
     },
@@ -3693,7 +3693,7 @@
       ]
     }
   ],
-  "updated": "2026-11-12 06:23",
+  "updated": "2026-11-12 07:11",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3753,7 +3753,6 @@
     }
   ],
   "asistan_seen": [
-    "1a186b749d6c6e66",
     "1a1873ddac2cee9f",
     "1a1873de672ed784",
     "1a1875bdd3dafe90",
@@ -4052,7 +4051,8 @@
     "1a1cba948737c84d",
     "1a1cc583e3bfd797",
     "1a1cc97d13fb92f2",
-    "1a1cdc812868ef6a"
+    "1a1cdc812868ef6a",
+    "1a1cdf416c9b9e47"
   ],
   "feed_order": [
     "qt5dom",
