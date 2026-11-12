@@ -1601,6 +1601,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "11 Kas 2026: İş Bankası döviz satış işlemi, -€1.705,29 (kur 55,2298), Paraşüt'e aktarıldı. (kaynak: E-posta (12 Kas 08:21): Paraşüt · 1 adet banka işlemi Paraşüt'e aktarıldı)",
+          "at": "2026-11-12 08:22"
+        },
+        {
           "text": "📎 fatura-kesilen arşivlendi: Jodie Rata 2026-11-05 no NM62026000000002 ₺104.408 → https://drive.google.com/file/d/13rLh29NJQE4OIyuDcAZKDng3Nh-xZxaP/view?usp=drivesdk",
           "at": "2026-11-11 16:24"
         },
@@ -1715,10 +1719,6 @@
         {
           "text": "İş Bankası (Sema Avcı): 0149 ile biten kart için kaşe-imzalı 10.2026 dönemi ekstre talebine yanıt, belge ekte, e-posta 03.11 07:07. (kaynak: E-posta (3 Kas 10:07): Sema Avcı · Ynt: 0149 ile biten kaşe-imzalı kart extre ta)",
           "at": "2026-11-03 10:08"
-        },
-        {
-          "text": "📎 fatura-gelen arşivlendi: Kanyon 2026-11-02 no KEB2026000003990 ₺23.479 → https://drive.google.com/file/d/1vUgyaDSD4AVmUJldgsDUEhQJKOrrIp0J/view?usp=drivesdk",
-          "at": "2026-11-02 15:32"
         }
       ],
       "drawer": [
@@ -3693,7 +3693,7 @@
       ]
     }
   ],
-  "updated": "2026-11-12 07:35",
+  "updated": "2026-11-12 08:22",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3753,7 +3753,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1873de672ed784",
     "1a1875bdd3dafe90",
     "1a1875d5bd47181f",
     "1a18856c470c0608",
@@ -4052,7 +4051,8 @@
     "1a1cc97d13fb92f2",
     "1a1cdc812868ef6a",
     "1a1cdf416c9b9e47",
-    "1a1ce098fc18bde4"
+    "1a1ce098fc18bde4",
+    "1a1ce344a1a81d61"
   ],
   "feed_order": [
     "qt5dom",
