@@ -1601,6 +1601,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Paraşüt bildirimi (11 Kas): Garanti 73-6292565 hesabında -40.000 TL giden EFT (INT-FAST-9426000293), +5.284,28 TL ve +45.949,50 TL döviz satış girişi, -16,76 TL kesinti. 4 işlem Paraşüt'te eşleştirilmeyi bekliyor. (kaynak: E-posta (12 Kas 08:25): Paraşüt · 4 adet banka işlemi Paraşüt'e aktarıldı)",
+          "at": "2026-11-12 08:26"
+        },
+        {
           "text": "Paraşüt bildirimi (11 Kas, Garanti 73-6292565): 4 banka işlemi Paraşüt'e aktarıldı, eşleşmemiş. Çıkış: INT-FAST-9426000293 -₺40.000, kesinti -₺16,76. Giriş: 2 döviz satışı (EUR 54,953 kuru) ₺5.284,28 + ₺45.949,50. Paraşüt'te banka hareketleri eşleştirilecek; ₺40.000 çıkışın alıcısı doğrulanacak. (kaynak: E-posta (12 Kas 08:25): Paraşüt · 4 adet banka işlemi Paraşüt'e aktarıldı)",
           "at": "2026-11-12 08:26"
         },
@@ -1715,10 +1719,6 @@
         {
           "text": "📎 fatura-gelen arşivlendi: Kanyon 2026-10-31 no KEC2026000003468 ₺4.768 → https://drive.google.com/file/d/1UXOKFm5dLjy50tW4-Z7EtxsvDu5uOzm7/view?usp=drivesdk",
           "at": "2026-11-03 16:09"
-        },
-        {
-          "text": "IC Hospital (MK Hastane) e-faturası 66.509,16 TL Paraşüt'e düştü (3 Kas); 8 gün içinde kabul/red edilmeli (~11 Kas). Önceki mutabakat tutarı 66.373,56 TL, fark 135,60 TL, kontrol edilecek. (kaynak: E-posta (3 Kas 16:05): Paraşüt · Yeni bir e-Faturanız var)",
-          "at": "2026-11-03 16:06"
         }
       ],
       "drawer": [
@@ -3753,7 +3753,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1875d5bd47181f",
     "1a18856c470c0608",
     "1a188569a45cc200",
     "1a188841ce077318",
@@ -4052,7 +4051,8 @@
     "1a1cdf416c9b9e47",
     "1a1ce098fc18bde4",
     "1a1ce344a1a81d61",
-    "1a1ce382968f20b6"
+    "1a1ce382968f20b6",
+    "1a1ce38348dc3682"
   ],
   "feed_order": [
     "qt5dom",
