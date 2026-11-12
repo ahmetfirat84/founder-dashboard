@@ -1601,6 +1601,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Uber B.V. e-faturası geldi (temel 54,78 TL, Paraşüt bildirimi 12 Kas). Küçük tutar, Paraşüt'te kabul/red durumu kontrol edilmeli. (kaynak: E-posta (12 Kas 17:41): Paraşüt · Yeni bir e-Faturanız var)",
+          "at": "2026-11-12 17:42"
+        },
+        {
           "text": "İş Bankası e-posta (12 Kas): gecikmedeki kredi kartı borcu için 60 aya kadar yapılandırma teklifi; İşCep-Kartlar-Kredi Kartı Borcu Yapılandırma menüsü, aylık ~%3,25 faiz (vergi-fon hariç). Yasal takip riski için karar verilmeli. (kaynak: E-posta (12 Kas 11:37): Turkiye Is Bankasi A.S · Kredi Kartı Ödeme Planınız Hazı)",
           "at": "2026-11-12 11:38"
         },
@@ -1715,10 +1719,6 @@
         {
           "text": "📎 fatura-gelen arşivlendi: IC Hospital (MK Hastane) 2026-11-03 no MKY2026000000685 ₺66.509 → https://drive.google.com/file/d/1fYMdkEpTmeECiUxIiIVqcsAwoQLOwviX/view?usp=drivesdk",
           "at": "2026-11-04 15:52"
-        },
-        {
-          "text": "📎 fatura-gelen arşivlendi: Anthropic 2026-11-03 no LT2VPE3D-0012 → https://drive.google.com/file/d/1HFRIruJ8hRJqxLuw4pk5WO6GVKT93idd/view?usp=drivesdk",
-          "at": "2026-11-04 13:19"
         }
       ],
       "drawer": [
@@ -3780,7 +3780,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18d6bb2201bca0",
     "1a18d6d681a56edd",
     "1a18d735cbfccc13",
     "1a18d7458208fe4d",
@@ -4079,7 +4078,8 @@
     "1a1cffa9ad7b25dd",
     "1a1d0112b2f43cde",
     "1a1d016517d312d2",
-    "1a1d03533bc1a66d"
+    "1a1d03533bc1a66d",
+    "1a1d035523e48784"
   ],
   "feed_order": [
     "qt5dom",
