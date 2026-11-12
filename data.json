@@ -1601,6 +1601,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Paraşüt 11 Kasım banka özeti: ISABELLA, JODIE ₺133.018,32 çıkış (IC Hospital, kapandı) ve Yeniben Elektronik'e ₺20.250 gönderim var; Paraşüt'te 5 işlem eşleşmemiş, banka hesabı sayfasından eşleştirilmeli. (kaynak: E-posta (12 Kas 08:30): Paraşüt · 6 adet banka işlemi Paraşüt'e aktarıldı)",
+          "at": "2026-11-12 08:30"
+        },
+        {
           "text": "Paraşüt banka bildirimi (11 Kas 2026, Garanti 73-9059586): iyzi üzerinden €96,00 müşteri tahsilatı (YENİBEN EL) ve €96,16 döviz satış çıkışı (INT DÖVİZ SATIŞ). 1 işlem Paraşüt'te eşleşmemiş, banka hesabı sayfasından eşleştirilmeli. (kaynak: E-posta (12 Kas 08:25): Paraşüt · 2 adet banka işlemi Paraşüt'e aktarıldı)",
           "at": "2026-11-12 08:27"
         },
@@ -1715,10 +1719,6 @@
         {
           "text": "Findeks Uyarı Hizmeti: kayıtlı bir uyarı koşulu gerçekleşti (04.11). Detay için Findeks hesabına girilmesi gerekiyor; kredi/borç kaydıyla ilgili olabilir, kontrol edilecek. (kaynak: E-posta (4 Kas 09:21): Findeks · Uyarı'dan Bildiriminiz Var!)",
           "at": "2026-11-04 09:21"
-        },
-        {
-          "text": "📎 fatura-gelen arşivlendi: Kanyon 2026-10-31 no KEC2026000003468 ₺4.768 → https://drive.google.com/file/d/1UXOKFm5dLjy50tW4-Z7EtxsvDu5uOzm7/view?usp=drivesdk",
-          "at": "2026-11-03 21:53"
         }
       ],
       "drawer": [
@@ -3693,7 +3693,7 @@
       ]
     }
   ],
-  "updated": "2026-11-12 08:27",
+  "updated": "2026-11-12 08:30",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3753,7 +3753,6 @@
     }
   ],
   "asistan_seen": [
-    "1a189150011013b2",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCNkU3NjQ0NjJGREY5RTk0MDQA",
     "1a18acf79779ca6e",
     "1a18b69badd59065",
@@ -4052,7 +4051,8 @@
     "1a1ce38348dc3682",
     "1a1ce382d380dbc4",
     "1a1ce38391c256b7",
-    "1a1ce380b1ff13e2"
+    "1a1ce380b1ff13e2",
+    "1a1ce3c5af3af5ec"
   ],
   "feed_order": [
     "qt5dom",
