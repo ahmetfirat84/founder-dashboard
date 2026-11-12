@@ -982,6 +982,22 @@
       "due_date": "2026-11-20",
       "title": "DANK GIDA SAN VE TİC A.Ş.",
       "note": "Paraşüt'e gelen e-fatura: DANK GIDA, temel ₺3.815,00. KDV ve ödeme detayı faturada; kabul/red süresi içinde işlem yapılmalı."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Abonelik",
+      "party": "MyHeritage",
+      "amount": "€118,80",
+      "due": "Limit yetersiz, işlem reddedildi",
+      "uid": "lv6k0c",
+      "source": "mail-gelen",
+      "origin": "E-posta (12 Kas 19:25): VakıfBank · Bilgilendirme: Kredi Kart Limitiniz Yetersizdir",
+      "wamid": "1a1d093c2ed2449d",
+      "mail_thread": "1a1d093c2ed2449d",
+      "imp": "low",
+      "urgency": "gray",
+      "title": "MyHeritage",
+      "note": "VakıfBank ••3399 kartında limit yetersiz: MyHeritage trial €118,80 çekilemedi. Limit artır ya da trial'ı iptal et."
     }
   ],
   "departments": [
@@ -3743,7 +3759,7 @@
       ]
     }
   ],
-  "updated": "2026-11-12 18:42",
+  "updated": "2026-11-12 19:25",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3803,7 +3819,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18d771d710a6c7",
     "1a18d78e08f578cb",
     "1a18d79554c6e8a0",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFGOTk4NkMzOTFEMjM2NkI1RTQA",
@@ -4102,7 +4117,8 @@
     "1a1d03559a442c0f",
     "1a1d05c798330a74",
     "1a1d065794904891",
-    "1a1d06bea6250136"
+    "1a1d06bea6250136",
+    "1a1d093c2ed2449d"
   ],
   "feed_order": [
     "qt5dom",
