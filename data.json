@@ -3198,6 +3198,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush: Gizem Sezer (Boğaziçi Ventures) toplantı talebini reddetti; yatırımcı uyumu düşük, 12 Kas 2026. (kaynak: E-posta (12 Kas 16:23): Slush · Gizem Sezer has declined your meeting request)",
+          "at": "2026-11-12 16:23"
+        },
+        {
           "text": "Slush 2026: Jean-Charles Samuelian-Werve (Alan CEO) Q&A başvurusu alındı, organizatörün kararı bekleniyor (andrea.valdivia@slush.org). (kaynak: E-posta (12 Kas 13:01): Slush · [Slush 2026] Application received: Jean-Charles )",
           "at": "2026-11-12 13:02"
         },
@@ -3712,7 +3716,7 @@
       ]
     }
   ],
-  "updated": "2026-11-12 16:00",
+  "updated": "2026-11-12 16:23",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3772,7 +3776,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18cd2de5b3809a",
     "1a18cdc1be31cf17",
     "1a18ca81c941433a",
     "1a18d323b7e9851c",
@@ -4071,7 +4074,8 @@
     "1a1cf412fe36b527",
     "1a1cf7def6afb73d",
     "1a1cf86f67556d8d",
-    "1a1cfd863daa3306"
+    "1a1cfd863daa3306",
+    "1a1cfed314734449"
   ],
   "feed_order": [
     "qt5dom",
