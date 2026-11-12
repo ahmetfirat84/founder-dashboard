@@ -3712,7 +3712,7 @@
       ]
     }
   ],
-  "updated": "2026-11-12 13:02",
+  "updated": "2026-11-12 13:15",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3772,7 +3772,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18bc75ea9963f9",
     "1a18c607aa365770",
     "1a18c81832c6af2f",
     "1a18cb34efedd78f",
@@ -4071,7 +4070,8 @@
     "1a1cf01151e7ad11",
     "1a1cf299108839ea",
     "1a1cf3074d05ddb6",
-    "1a1cf34e1e9beb5d"
+    "1a1cf34e1e9beb5d",
+    "1a1cf412fe36b527"
   ],
   "feed_order": [
     "qt5dom",
@@ -8678,6 +8678,40 @@
     }
   ],
   "meeting_notes": [
+    {
+      "id": "03ae9w",
+      "title": "& New Me_Daily",
+      "date": "2026-11-12",
+      "summary": "Toplantıda sağlık turizmi hastalarının tedavi uygunluğu, fiyatlandırma, depozito ve ödeme altyapısı ile başka kliniğe yönelen adayların elde tutulması konuşuldu. Güven oluşturmak için hasta içerikleri ve belgelerin açık anlatılması öne çıktı. Toygar Hoca'nın diş işlemi ve BMI yaklaşımı ile banka blokeleri açık risk olarak kaldı.",
+      "thread": "1a1cf412fe36b527",
+      "actions": [
+        {
+          "id": "4qzijo",
+          "text": "Bir adaydan depozito alınacak, 18'i için rezervasyon yapılacak ve kan testleri gönderilecek (18 Kasım'a kadar).",
+          "dep": "zeynep",
+          "owner": "",
+          "due_date": "2026-11-18",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "490c8t",
+          "text": "Bazı hastalara kan testi yaptırmaları ve mide ilacı kullanmaları gerektiği tedavi öncesinde açıkça bildirilecek.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "wvn12k",
+          "text": "Önceki hastalardan iyileşme sürecini anlatan ikinci video, gün gün yorumlar ve güncel fotoğraflar alınacak; video alınamazsa fotoğraf ve kısa yorumlarla içerik hazırlanacak.",
+          "dep": "ilksen",
+          "owner": "",
+          "party": "",
+          "status": "proposed"
+        }
+      ]
+    },
     {
       "id": "javxcs",
       "title": "& New Me_Daily",
