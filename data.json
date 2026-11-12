@@ -3213,6 +3213,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush: TIBAS Ventures (Ece Sarica) toplantı talebini reddetti (12 Kas); yatırım odağı uyumsuz, yeni talep gönderilebilir. (kaynak: E-posta (12 Kas 18:34): Slush · Ece Sarica has declined your meeting request)",
+          "at": "2026-11-12 18:35"
+        },
+        {
           "text": "Slush: Anastasios Economou (iGrow Venture Partners) toplantı talebini reddetti (12 Kas). Yanıt bekleyen bir iş değil. (kaynak: E-posta (12 Kas 17:08): Slush · Anastasios Economou has declined your meeting re)",
           "at": "2026-11-12 17:08"
         },
@@ -3735,7 +3739,7 @@
       ]
     }
   ],
-  "updated": "2026-11-12 18:25",
+  "updated": "2026-11-12 18:35",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3795,7 +3799,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18d7458208fe4d",
     "1a18d765d63892c6",
     "1a18d771d710a6c7",
     "1a18d78e08f578cb",
@@ -4094,7 +4097,8 @@
     "1a1d03533bc1a66d",
     "1a1d035523e48784",
     "1a1d03559a442c0f",
-    "1a1d05c798330a74"
+    "1a1d05c798330a74",
+    "1a1d065794904891"
   ],
   "feed_order": [
     "qt5dom",
