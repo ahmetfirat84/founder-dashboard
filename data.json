@@ -823,7 +823,7 @@
       "amount_try": 184.99,
       "due_date": "2026-11-12",
       "title": "Apple (HiNoter AI Note Taker)",
-      "note": "HiNoter AI haftalık abonelik, ₺184,99 (KDV dahil), 12 Kasım'da yenileniyor. İstemiyorsan App Store'dan iptal et."
+      "note": "HiNoter AI haftalık abonelik, ₺184,99 (KDV dahil), 12 Kasım'da yenileniyor. İstemiyorsan App Store'dan iptal et. YENİ MAİL 12.11 14:22 (12 Kas 14:21 · Apple · Your receipt from Apple.): 11 Kas'ta ₺184,99 ödendi (Apple makbuzu, Visa 0149); bir sonraki haftalık yenileme 19 Kasım 2026."
     },
     {
       "action_type": "Ödeme",
@@ -3712,7 +3712,7 @@
       ]
     }
   ],
-  "updated": "2026-11-12 13:15",
+  "updated": "2026-11-12 14:22",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3772,7 +3772,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18c607aa365770",
     "1a18c81832c6af2f",
     "1a18cb34efedd78f",
     "1a18cd2de5b3809a",
@@ -4071,7 +4070,8 @@
     "1a1cf299108839ea",
     "1a1cf3074d05ddb6",
     "1a1cf34e1e9beb5d",
-    "1a1cf412fe36b527"
+    "1a1cf412fe36b527",
+    "1a1cf7def6afb73d"
   ],
   "feed_order": [
     "qt5dom",
