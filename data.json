@@ -3438,6 +3438,10 @@
       ],
       "notes": [
         {
+          "text": "Anthropic: New Me Claude Team üyesi ek kullanım (spend limit) talep etti; Claude konsolunda onay gerekebilir. (kaynak: E-posta (12 Kas 09:23): Anthropic · A member of New Me requested more usage)",
+          "at": "2026-11-12 09:24"
+        },
+        {
           "text": "asistan-mail-to-dashboard Apps Script 10-11 Kasım'da hata verdi (Gmail izin hatası ve sunucu hatası). Mail akışını kontrol et. (kaynak: E-posta (11 Kas 23:41): noreply-apps-scripts-notifications@googl · Summary of fa)",
           "at": "2026-11-11 23:42"
         },
@@ -3552,10 +3556,6 @@
         {
           "text": "Google Workspace güvenlik uyarısı (22 Eki): 6 kullanıcıda 2SV eksik, 1 kullanıcı phishing/malware linki almış, 1 güvensiz cihazdan uygulama erişimi var. Admin Console'dan incelenmeli. (kaynak: E-posta (22 Eki 12:30): The Google Workspace Team · [Notice] Possible unresolved)",
           "at": "2026-10-22 12:30"
-        },
-        {
-          "text": "Seçil havaalanına bırakma talebi: 23:00 gibi çıkış, 23:45'te orada olunması isteniyor (taksi 2000+ TL). (kaynak: WhatsApp (22 Eki 11:22, iletilen yazışma, 4 mesaj))",
-          "at": "2026-10-22 11:22"
         }
       ]
     },
@@ -3693,7 +3693,7 @@
       ]
     }
   ],
-  "updated": "2026-11-12 08:30",
+  "updated": "2026-11-12 09:24",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3753,7 +3753,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18acf79779ca6e",
     "1a18b69badd59065",
     "1a18b708e4120c9c",
     "1a18b7793c1ce570",
@@ -4052,7 +4051,8 @@
     "1a1ce38391c256b7",
     "1a1ce380b1ff13e2",
     "1a1ce3c5af3af5ec",
-    "1a1ce3c6620f03ed"
+    "1a1ce3c6620f03ed",
+    "1a1ce6d40eed1a95"
   ],
   "feed_order": [
     "qt5dom",
