@@ -3049,7 +3049,7 @@
       "name": "ERKİN",
       "area": "Investor Relations",
       "status": "green",
-      "updated": "2026-11-05 10:40",
+      "updated": "2026-11-12 12:57",
       "items": [
         {
           "text": "Slush Helsinki (18-19 Kas) katılım kararı bekliyor; katılım olursa yatırımcı toplantılarını planla",
@@ -3178,6 +3178,21 @@
           "text": "Slush sonrası IgniteXL güncel başvuru linkini gönderdi (typeform), formu doldurup gönder.",
           "owner": "",
           "note": "YENİ MAİL 10.11 22:09 (10 Kas 22:09 · Slush · Mitchell Weinstock has declined your meeting request): Mitchell Slush toplantı talebini reddetti; Slush sonrası mitch@ignitexl.com üzerinden veya typeform'a deck yükleyerek ulaşılması istendi."
+        },
+        {
+          "action_type": "Yanıt",
+          "category": "Yatırımcı",
+          "party": "Alexander Karalis (Theti Investor Club)",
+          "amount": "",
+          "due": "",
+          "uid": "wylktz",
+          "source": "mail-gelen",
+          "origin": "E-posta (12 Kas 12:57): Slush · Alexander Karalis has declined your meeting request",
+          "wamid": "1a1cf3074d05ddb6",
+          "mail_thread": "1a1cf3074d05ddb6",
+          "urgency": "gray",
+          "text": "Slush randevu talebi reddedildi; Alex deck'i alexkaralis@gmail.com adresine istiyor (Slush öncesi veya sonrası).",
+          "owner": ""
         }
       ],
       "summary": "Slush kararı bekliyor",
@@ -3693,7 +3708,7 @@
       ]
     }
   ],
-  "updated": "2026-11-12 12:50",
+  "updated": "2026-11-12 12:57",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3753,7 +3768,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18bb6c0a43b237",
     "1a18bc2aea2a4594",
     "1a18bc75ea9963f9",
     "1a18c607aa365770",
@@ -4052,7 +4066,8 @@
     "1a1ce6d40eed1a95",
     "1a1cee80a60036e1",
     "1a1cf01151e7ad11",
-    "1a1cf299108839ea"
+    "1a1cf299108839ea",
+    "1a1cf3074d05ddb6"
   ],
   "feed_order": [
     "qt5dom",
