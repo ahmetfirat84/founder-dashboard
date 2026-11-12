@@ -3527,6 +3527,10 @@
       ],
       "notes": [
         {
+          "text": "Apple iCloud+ (200 GB, aylık) ₺169,99 ödendi (12 Kas 2026, Visa •••• 0149). Yenileme 12 Aralık 2026. (kaynak: E-posta (12 Kas 23:04): Apple · Your receipt from Apple.)",
+          "at": "2026-11-12 23:05"
+        },
+        {
           "text": "Anthropic: New Me Claude Team üyesi ek kullanım (spend limit) talep etti; Claude konsolunda onay gerekebilir. (kaynak: E-posta (12 Kas 09:23): Anthropic · A member of New Me requested more usage)",
           "at": "2026-11-12 09:24"
         },
@@ -3641,10 +3645,6 @@
         {
           "text": "Google Apps Script 'asistan-mail-to-dashboard' 21-22 Ekim arasında 5 kez hata verdi (4 sunucu hatası, 1 'Gmail operation not allowed'); mail-to-dashboard otomasyonu çalışmıyor olabilir, kontrol edilmeli. (kaynak: E-posta (22 Eki 14:10): noreply-apps-scripts-notifications@googl · Summary of fa)",
           "at": "2026-10-22 14:11"
-        },
-        {
-          "text": "Google Workspace güvenlik uyarısı (22 Eki): 6 kullanıcıda 2SV eksik, 1 kullanıcı phishing/malware linki almış, 1 güvensiz cihazdan uygulama erişimi var. Admin Console'dan incelenmeli. (kaynak: E-posta (22 Eki 12:30): The Google Workspace Team · [Notice] Possible unresolved)",
-          "at": "2026-10-22 12:30"
         }
       ]
     },
@@ -3782,7 +3782,7 @@
       ]
     }
   ],
-  "updated": "2026-11-12 22:29",
+  "updated": "2026-11-12 23:05",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3842,7 +3842,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18d813750a3804",
     "1a18d818f0ce282a",
     "1a18d82ebebe065d",
     "1a18d85537dc9253",
@@ -4141,7 +4140,8 @@
     "1a1d093c2ed2449d",
     "1a1d124660ff767e",
     "1a1d131cee2702ce",
-    "1a1d13c47c2e633b"
+    "1a1d13c47c2e633b",
+    "1a1d15cdb5f80f04"
   ],
   "feed_order": [
     "qt5dom",
