@@ -3003,7 +3003,7 @@
       "name": "ECEM",
       "area": "Operasyon & HR",
       "status": "yellow",
-      "updated": "2026-10-16 10:55",
+      "updated": "2026-11-12 22:18",
       "items": [
         {
           "text": "Payten e-ticaret sanal POS başvurusu (OP-432968) yazışması: son yanıt Payten'den, cevap bekliyor",
@@ -3037,6 +3037,21 @@
           "party": "Selin (Kolay İK)",
           "amount": "",
           "due_date": "2026-10-16"
+        },
+        {
+          "action_type": "Yanıt",
+          "category": "İzin onayı",
+          "party": "Hülya Alkan",
+          "amount": "",
+          "due": "13 Kas başlangıç, onay bekliyor",
+          "uid": "7f8x0v",
+          "source": "mail-gelen",
+          "origin": "E-posta (12 Kas 22:17): Kolay İK · Time off Request",
+          "wamid": "1a1d131cee2702ce",
+          "mail_thread": "1a1d131cee2702ce",
+          "due_date": "2026-11-13",
+          "text": "Hülya Alkan yıllık izin talebi (13-21 Kas, 6 gün, dönüş 23 Kas) Kolay İK'da onay bekliyor.",
+          "owner": ""
         }
       ],
       "summary": "1 onay bekliyor",
@@ -3763,7 +3778,7 @@
       ]
     }
   ],
-  "updated": "2026-11-12 22:03",
+  "updated": "2026-11-12 22:18",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3823,7 +3838,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18d79554c6e8a0",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFGOTk4NkMzOTFEMjM2NkI1RTQA",
     "1a18d813750a3804",
     "1a18d818f0ce282a",
@@ -4122,7 +4136,8 @@
     "1a1d065794904891",
     "1a1d06bea6250136",
     "1a1d093c2ed2449d",
-    "1a1d124660ff767e"
+    "1a1d124660ff767e",
+    "1a1d131cee2702ce"
   ],
   "feed_order": [
     "qt5dom",
