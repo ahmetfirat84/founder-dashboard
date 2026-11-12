@@ -3720,7 +3720,7 @@
       ]
     }
   ],
-  "updated": "2026-11-12 17:08",
+  "updated": "2026-11-12 17:42",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3780,7 +3780,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18d69be17e8f56",
     "1a18d6bb2201bca0",
     "1a18d6d681a56edd",
     "1a18d735cbfccc13",
@@ -4079,7 +4078,8 @@
     "1a1cff173f96bd2f",
     "1a1cffa9ad7b25dd",
     "1a1d0112b2f43cde",
-    "1a1d016517d312d2"
+    "1a1d016517d312d2",
+    "1a1d03533bc1a66d"
   ],
   "feed_order": [
     "qt5dom",
