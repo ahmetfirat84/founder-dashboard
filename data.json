@@ -967,6 +967,21 @@
       "note": "Lisans kanıtı yoksa seçenek; kanıt varsa ödeme gerekmez. Yanıt son tarihi 19.11. Portal: portal.copytrack.com, CASE ID B4297F",
       "source": "email",
       "id": "1a1c03458f920cce"
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Fatura",
+      "party": "DANK GIDA SAN VE TİC A.Ş.",
+      "amount": "₺3.815 (temel, KDV hariç)",
+      "due": "8 gün içinde Paraşüt'te kabul/red",
+      "uid": "4bqidj",
+      "source": "mail-gelen",
+      "origin": "E-posta (12 Kas 17:41): Paraşüt · Yeni bir e-Faturanız var",
+      "wamid": "1a1d03559a442c0f",
+      "mail_thread": "1a1d03533bc1a66d",
+      "due_date": "2026-11-20",
+      "title": "DANK GIDA SAN VE TİC A.Ş.",
+      "note": "Paraşüt'e gelen e-fatura: DANK GIDA, temel ₺3.815,00. KDV ve ödeme detayı faturada; kabul/red süresi içinde işlem yapılmalı."
     }
   ],
   "departments": [
@@ -3780,7 +3795,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18d6d681a56edd",
     "1a18d735cbfccc13",
     "1a18d7458208fe4d",
     "1a18d765d63892c6",
@@ -4079,7 +4093,8 @@
     "1a1d0112b2f43cde",
     "1a1d016517d312d2",
     "1a1d03533bc1a66d",
-    "1a1d035523e48784"
+    "1a1d035523e48784",
+    "1a1d03559a442c0f"
   ],
   "feed_order": [
     "qt5dom",
