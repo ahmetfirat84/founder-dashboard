@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "source": "2026-10-16_sabah-brifing (Drive: 09_Management/briefing-system/handoffs)",
   "priorities": [
     "HubSpot Maximum monthly credits = 3.000 gir (yenileme 17 Ekim, en geç 10:00)",
@@ -11,6 +11,11 @@
       "time": "12:30",
       "title": "& New Me_Daily",
       "note": "Selin, Hülya, Cemre · Meet"
+    },
+    {
+      "time": "17:00",
+      "title": "Doğa ile görüşme",
+      "note": "Beşiktaş Belediyesi (şahsi takvim)"
     }
   ],
   "cash_alerts": [
@@ -8542,7 +8547,7 @@
       ]
     }
   ],
-  "meetings_date": "2026-11-11",
+  "meetings_date": "2026-11-12",
   "directory": [
     {
       "id": "g5cmcp",
