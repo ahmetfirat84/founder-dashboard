@@ -2846,6 +2846,10 @@
       "summary": "Meta Ads 7 gündür kapalı",
       "notes": [
         {
+          "text": "Google Search Console (newme.care): yeni indexlenmeme nedeni 'Page with redirect'. Yönlendirmeler kasıtlı değilse düzeltilmeli. (kaynak: E-posta (12 Kas 07:34): Google Search Console Team · New reasons prevent pages f)",
+          "at": "2026-11-12 07:35"
+        },
+        {
           "text": "Search Console: andnewme.com sitemap'indeki bazı sayfalar 'yönlendirme (redirect)' nedeniyle indexlenmiyor. Kasıtlı değilse düzeltilmeli (12 Kas). (kaynak: E-posta (12 Kas 07:11): Google Search Console Team · New reasons prevent pages i)",
           "at": "2026-11-12 07:11"
         },
@@ -2960,10 +2964,6 @@
         {
           "text": "Instagram linki: https://www.instagram.com/p/Deu2vx0GyIT/ (kaynak: WhatsApp (22 Eki 09:23, yazılı))",
           "at": "2026-10-22 09:23"
-        },
-        {
-          "text": "Instagram linki: https://www.instagram.com/p/Degj_FAjhOD/?img_index=11&rpxt=b2U0eWVkejdkenNl (kaynak: WhatsApp (22 Eki 09:08, yazılı))",
-          "at": "2026-10-22 09:08"
         }
       ]
     },
@@ -3693,7 +3693,7 @@
       ]
     }
   ],
-  "updated": "2026-11-12 07:11",
+  "updated": "2026-11-12 07:35",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3753,7 +3753,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1873ddac2cee9f",
     "1a1873de672ed784",
     "1a1875bdd3dafe90",
     "1a1875d5bd47181f",
@@ -4052,7 +4051,8 @@
     "1a1cc583e3bfd797",
     "1a1cc97d13fb92f2",
     "1a1cdc812868ef6a",
-    "1a1cdf416c9b9e47"
+    "1a1cdf416c9b9e47",
+    "1a1ce098fc18bde4"
   ],
   "feed_order": [
     "qt5dom",
