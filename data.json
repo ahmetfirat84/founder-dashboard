@@ -3349,7 +3349,7 @@
           "amount": "",
           "urgency": "gray",
           "uid": "dw2s3x",
-          "note": "YENİ MAİL 21.10 08:33 (21 Eki 08:32 · Memorae · Evden çalışma ve günlük kontroller · 21 Ekim Çarşamba): Memorae hatırlatması (21 Ekim 09:00): ev fiber ödemesi ₺966,50. 2026-10-21 dekont: ₺1.124 gönderildi; alıcı/tutar eşleşmesi teyit bekliyor. Dekont Drive: https://drive.google.com/file/d/1r7mTx02m_Lak6IIq6uCDYbKBtgT-Ht5B/view?usp=drivesdk"
+          "note": "YENİ MAİL 21.10 08:33 (21 Eki 08:32 · Memorae · Evden çalışma ve günlük kontroller · 21 Ekim Çarşamba): Memorae hatırlatması (21 Ekim 09:00): ev fiber ödemesi ₺966,50. 2026-10-21 dekont: ₺1.124 gönderildi; alıcı/tutar eşleşmesi teyit bekliyor. Dekont Drive: https://drive.google.com/file/d/1r7mTx02m_Lak6IIq6uCDYbKBtgT-Ht5B/view?usp=drivesdk YENİ MAİL 12.11 12:05 (12 Kas 12:04 · Turkiye Is Bankasi A.S · Ödenemeyen Talimatlı Fatura Bilgisi): İş Bankası 12.11: 11.11 son ödeme tarihli 965,90 TL Turkcell Superonline talimatlı fatura (59451109) bakiye yetersizliğinden ödenemedi."
         },
         {
           "text": "Ana hat (ISTE Hesaplı Platin 25, 0533 727 0000) kampanya sözleşmesi 24 Ekim'de bitiyor: karar ver, yenile mi iptal mi?",
@@ -3693,7 +3693,7 @@
       ]
     }
   ],
-  "updated": "2026-11-12 11:38",
+  "updated": "2026-11-12 12:05",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3753,7 +3753,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18b708e4120c9c",
     "1a18b7793c1ce570",
     "1a18bb6c0a43b237",
     "1a18bc2aea2a4594",
@@ -4052,7 +4051,8 @@
     "1a1ce3c5af3af5ec",
     "1a1ce3c6620f03ed",
     "1a1ce6d40eed1a95",
-    "1a1cee80a60036e1"
+    "1a1cee80a60036e1",
+    "1a1cf01151e7ad11"
   ],
   "feed_order": [
     "qt5dom",
