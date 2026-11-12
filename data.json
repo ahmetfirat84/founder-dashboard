@@ -3213,6 +3213,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush: W11 Ventures'tan Nikolas Mastroyiannopoulos toplantı talebimizi reddetti; yatırım odaklarıyla tam uyuşmadığımızı belirtti (12 Kas). (kaynak: E-posta (12 Kas 18:41): Slush · Nikolas Mastroyiannopoulos has declined your mee)",
+          "at": "2026-11-12 18:42"
+        },
+        {
           "text": "Slush: TIBAS Ventures (Ece Sarica) toplantı talebini reddetti (12 Kas); yatırım odağı uyumsuz, yeni talep gönderilebilir. (kaynak: E-posta (12 Kas 18:34): Slush · Ece Sarica has declined your meeting request)",
           "at": "2026-11-12 18:35"
         },
@@ -3739,7 +3743,7 @@
       ]
     }
   ],
-  "updated": "2026-11-12 18:35",
+  "updated": "2026-11-12 18:42",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3799,7 +3803,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18d765d63892c6",
     "1a18d771d710a6c7",
     "1a18d78e08f578cb",
     "1a18d79554c6e8a0",
@@ -4098,7 +4101,8 @@
     "1a1d035523e48784",
     "1a1d03559a442c0f",
     "1a1d05c798330a74",
-    "1a1d065794904891"
+    "1a1d065794904891",
+    "1a1d06bea6250136"
   ],
   "feed_order": [
     "qt5dom",
