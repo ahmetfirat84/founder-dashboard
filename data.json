@@ -3229,6 +3229,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Terkko New Nordics Healthtech Matchmaking: kapasite neredeyse dolu, yatırımcı talebiyle pharma/therapeutics odaklanıyor; yer açılırsa bildirim ve katılım linki gelecek (yanıt bekleme). (kaynak: E-posta (12 Kas 22:02): Aleksandra Dobrego · Re: Re-application for New Nordics )",
+          "at": "2026-11-12 22:03"
+        },
+        {
           "text": "Slush: W11 Ventures'tan Nikolas Mastroyiannopoulos toplantı talebimizi reddetti; yatırım odaklarıyla tam uyuşmadığımızı belirtti (12 Kas). (kaynak: E-posta (12 Kas 18:41): Slush · Nikolas Mastroyiannopoulos has declined your mee)",
           "at": "2026-11-12 18:42"
         },
@@ -3759,7 +3763,7 @@
       ]
     }
   ],
-  "updated": "2026-11-12 19:25",
+  "updated": "2026-11-12 22:03",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3819,7 +3823,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18d78e08f578cb",
     "1a18d79554c6e8a0",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFGOTk4NkMzOTFEMjM2NkI1RTQA",
     "1a18d813750a3804",
@@ -4118,7 +4121,8 @@
     "1a1d05c798330a74",
     "1a1d065794904891",
     "1a1d06bea6250136",
-    "1a1d093c2ed2449d"
+    "1a1d093c2ed2449d",
+    "1a1d124660ff767e"
   ],
   "feed_order": [
     "qt5dom",
