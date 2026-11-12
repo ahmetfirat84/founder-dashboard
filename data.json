@@ -3198,6 +3198,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush 2026: Jean-Charles Samuelian-Werve (Alan CEO) Q&A başvurusu alındı, organizatörün kararı bekleniyor (andrea.valdivia@slush.org). (kaynak: E-posta (12 Kas 13:01): Slush · [Slush 2026] Application received: Jean-Charles )",
+          "at": "2026-11-12 13:02"
+        },
+        {
           "text": "Slush 'The Morning After: How AI is Rewriting Healthcare Investment' brunch kaydı onaylandı: 19 Kas, 11:00–13:00, Venue 4. (kaynak: E-posta (11 Kas 20:11): Slush · [Slush 2026] You're in: The Morning After: How A)",
           "at": "2026-11-11 20:12"
         },
@@ -3708,7 +3712,7 @@
       ]
     }
   ],
-  "updated": "2026-11-12 12:57",
+  "updated": "2026-11-12 13:02",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3768,7 +3772,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18bc2aea2a4594",
     "1a18bc75ea9963f9",
     "1a18c607aa365770",
     "1a18c81832c6af2f",
@@ -4067,7 +4070,8 @@
     "1a1cee80a60036e1",
     "1a1cf01151e7ad11",
     "1a1cf299108839ea",
-    "1a1cf3074d05ddb6"
+    "1a1cf3074d05ddb6",
+    "1a1cf34e1e9beb5d"
   ],
   "feed_order": [
     "qt5dom",
