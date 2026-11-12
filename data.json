@@ -1601,6 +1601,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Paraşüt 11 Kasım banka hareketleri: IC Hospital (ISABELLA, JODIE) ₺133.018,32 çıkış, Yeniben Elektronik ₺20.250 çıkış, ₺94.182,83 döviz satış girişi. 5 işlem Paraşüt'te eşleşmemiş, banka hesabı sayfasından eşleştirilmeli. (kaynak: E-posta (12 Kas 08:30): Paraşüt · 6 adet banka işlemi Paraşüt'e aktarıldı)",
+          "at": "2026-11-12 08:30"
+        },
+        {
           "text": "Paraşüt 11 Kasım banka özeti: ISABELLA, JODIE ₺133.018,32 çıkış (IC Hospital, kapandı) ve Yeniben Elektronik'e ₺20.250 gönderim var; Paraşüt'te 5 işlem eşleşmemiş, banka hesabı sayfasından eşleştirilmeli. (kaynak: E-posta (12 Kas 08:30): Paraşüt · 6 adet banka işlemi Paraşüt'e aktarıldı)",
           "at": "2026-11-12 08:30"
         },
@@ -1715,10 +1719,6 @@
         {
           "text": "iyzico toplu ödeme girişi (04.11.2026): hesaba 309,14 EUR yattı. İşlemler: 3472624787 (€278,42) ve 3474542797 (€30,72). Paraşüt/hasta tahsilat kayıtlarıyla eşleştirilecek. (kaynak: E-posta (4 Kas 11:07): iyzico · Toplu ödemeniz gerçekleştirildi)",
           "at": "2026-11-04 11:08"
-        },
-        {
-          "text": "Findeks Uyarı Hizmeti: kayıtlı bir uyarı koşulu gerçekleşti (04.11). Detay için Findeks hesabına girilmesi gerekiyor; kredi/borç kaydıyla ilgili olabilir, kontrol edilecek. (kaynak: E-posta (4 Kas 09:21): Findeks · Uyarı'dan Bildiriminiz Var!)",
-          "at": "2026-11-04 09:21"
         }
       ],
       "drawer": [
@@ -3753,7 +3753,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCNkU3NjQ0NjJGREY5RTk0MDQA",
     "1a18acf79779ca6e",
     "1a18b69badd59065",
     "1a18b708e4120c9c",
@@ -4052,7 +4051,8 @@
     "1a1ce382d380dbc4",
     "1a1ce38391c256b7",
     "1a1ce380b1ff13e2",
-    "1a1ce3c5af3af5ec"
+    "1a1ce3c5af3af5ec",
+    "1a1ce3c6620f03ed"
   ],
   "feed_order": [
     "qt5dom",
