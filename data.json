@@ -873,7 +873,7 @@
       "amount_try": 249.99,
       "due_date": "2026-11-12",
       "title": "Apple (RaqunAI Premium)",
-      "note": "RaqunAI Premium aboneliği (Apple): 1 hafta deneme 6 Kas, ₺249,99/ay 13 Kas'ta yenileniyor. Karar ver: iptal et veya devam et (12 Kas'a kadar iptal)."
+      "note": "RaqunAI Premium aboneliği (Apple): 1 hafta deneme 6 Kas, ₺249,99/ay 13 Kas'ta yenileniyor. Karar ver: iptal et veya devam et (12 Kas'a kadar iptal). YENİ MAİL 13.11 10:59 (13 Kas 10:58 · Raqun-AI · Your Raqun-AI free trial ends soon): Deneme 14 Kas 2026'da bitiyor; iptal edilmezse otomatik yenilenip ücret çekilecek."
     },
     {
       "action_type": "Ödeme",
@@ -3782,7 +3782,7 @@
       ]
     }
   ],
-  "updated": "2026-11-13 08:57",
+  "updated": "2026-11-13 10:59",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3842,7 +3842,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18d887907c17cf",
     "1a18d8929fed0291",
     "1a1905a251cc5e0a",
     "1a1905a2df7334d1",
@@ -4141,7 +4140,8 @@
     "1a1d3639ffd3865f",
     "1a1d363a814bb907",
     "1a1d37ab093bc1ec",
-    "1a1d37abcdd3ceb4"
+    "1a1d37abcdd3ceb4",
+    "1a1d3ea742bfbaad"
   ],
   "feed_order": [
     "qt5dom",
