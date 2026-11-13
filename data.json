@@ -3752,6 +3752,10 @@
       ],
       "notes": [
         {
+          "text": "Facebook güvenlik bildirimi (13 Kas): hesap 11 Kas'ta yetkisiz erişim şüphesiyle kilitlenmiş, açmak için doğrulama gerekiyor. Giriş yapıp kendisi açılmalı; şifre değiştirilip 2FA kontrol edilmeli. (kaynak: E-posta (13 Kas 11:18): Facebook · Your account has been locked for 1 day)",
+          "at": "2026-11-13 11:18"
+        },
+        {
           "text": "Pegasus e-bilet hazır: PNR 2K79PE (3 Kas 2026). Bilet linki e-postada. (kaynak: E-posta (3 Kas 19:21): Pegasus Airlines · 2K79PE Rezervasyon Numaralı Elektronik)",
           "at": "2026-11-03 19:22"
         },
@@ -3782,7 +3786,7 @@
       ]
     }
   ],
-  "updated": "2026-11-13 10:59",
+  "updated": "2026-11-13 11:18",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3842,7 +3846,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18d8929fed0291",
     "1a1905a251cc5e0a",
     "1a1905a2df7334d1",
     "1a1905a2eb9b8bac",
@@ -4141,7 +4144,8 @@
     "1a1d363a814bb907",
     "1a1d37ab093bc1ec",
     "1a1d37abcdd3ceb4",
-    "1a1d3ea742bfbaad"
+    "1a1d3ea742bfbaad",
+    "1a1d3fc40ca53608"
   ],
   "feed_order": [
     "qt5dom",
