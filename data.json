@@ -3248,6 +3248,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush: Ekaterina Gianelli (Calm/Storm Ventures) toplantı talebini reddetti; yatırım odağına uymadığını belirtti. (kaynak: E-posta (13 Kas 17:25): Slush · Ekaterina Gianelli has declined your meeting req)",
+          "at": "2026-11-13 17:26"
+        },
+        {
           "text": "Slush: Kevin Kissner (Partner, Blackdor) meeting talebini reddetti. Gerekçe: şirket yatırım odağıyla yeterince uyumlu değil. Yeni talepler gönderilebilir. (kaynak: E-posta (13 Kas 16:14): Slush · Kevin Kissner has declined your meeting request)",
           "at": "2026-11-13 16:15"
         },
@@ -3794,7 +3798,7 @@
       ]
     }
   ],
-  "updated": "2026-11-13 16:15",
+  "updated": "2026-11-13 17:26",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3854,7 +3858,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1914daa6dc4093",
     "1a191a7254563c81",
     "1a191f0098eb982d",
     "1a191f0081574e8b",
@@ -4153,7 +4156,8 @@
     "1a1d466021a22220",
     "1a1d493108f9fa1b",
     "1a1d495aeed9239f",
-    "1a1d50ba30b18355"
+    "1a1d50ba30b18355",
+    "1a1d54c9d527fe1c"
   ],
   "feed_order": [
     "qt5dom",
