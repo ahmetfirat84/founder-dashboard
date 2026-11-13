@@ -1632,6 +1632,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "12 Kas Garanti'den 11.000 TL MOBIL-FAST çıkışı ve 16,76 TL kesinti Paraşüt'e aktarıldı; 2 işlem eşleşmemiş, hangi ödeme olduğu doğrulanmalı. (kaynak: E-posta (13 Kas 08:56): Paraşüt · 2 adet banka işlemi Paraşüt'e aktarıldı)",
+          "at": "2026-11-13 08:57"
+        },
+        {
           "text": "Paraşüt bildirimi (12 Kas): Garanti'den 11.000 TL FAST çıkışı (MOBIL-FAST-2062000272) ve 16,76 TL kesinti Paraşüt'e aktarıldı; 2 işlem henüz eşleşmemiş, Paraşüt banka sayfasından eşleştirilmeli. (kaynak: E-posta (13 Kas 08:56): Paraşüt · 2 adet banka işlemi Paraşüt'e aktarıldı)",
           "at": "2026-11-13 08:57"
         },
@@ -1746,10 +1750,6 @@
         {
           "text": "TOBB Nefes Kredisi yeniden uygulamada (İTO duyurusu, 5 Kas): KOBİ şartı, azami ₺5 mn, 48 ay vade (6 ay anapara ödemesiz), faiz %36 (24 ay altı) / %34 (24 ay üstü). Başvuru için İTO'dan 'Nefes Kredisi İçindir' faaliyet belgesi gerekli (e-imzalı: eportal.ito.org.tr); bankalar: Vakıfbank, Halkbank, Den (kaynak: E-posta (5 Kas 16:38): Ahmet Tosun · Fwd: TOBB Nefes Kredisi hk.)",
           "at": "2026-11-05 16:39"
-        },
-        {
-          "text": "📎 fatura-gelen arşivlendi: Anthropic 2026-11-05 no 4J3TVLAX-0034 → https://drive.google.com/file/d/1m-NabWOX0ICbBpwOlg9K3bvIeqFTbPWV/view?usp=drivesdk",
-          "at": "2026-11-05 16:34"
         }
       ],
       "drawer": [
@@ -3842,7 +3842,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18d8748b73cfda",
     "1a18d887907c17cf",
     "1a18d8929fed0291",
     "1a1905a251cc5e0a",
@@ -4141,7 +4140,8 @@
     "1a1d15cdb5f80f04",
     "1a1d3639ffd3865f",
     "1a1d363a814bb907",
-    "1a1d37ab093bc1ec"
+    "1a1d37ab093bc1ec",
+    "1a1d37abcdd3ceb4"
   ],
   "feed_order": [
     "qt5dom",
