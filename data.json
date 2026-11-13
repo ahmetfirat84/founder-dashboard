@@ -1632,6 +1632,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Paraşüt bildirimi (13 Kas): 12 Kas'ta İş Bankası'ndan iki çıkış (₺2.000 ve ₺3.000, toplam ₺5.000, İşCep kredi kartı borç ödemesi) Paraşüt'e aktarıldı ama eşleşmemiş. Paraşüt'te banka hesabından eşleştirilmeli; r12 İş Bankası kart borcuyla ilişkili olabilir. (kaynak: E-posta (13 Kas 08:31): Paraşüt · 2 adet banka işlemi Paraşüt'e aktarıldı)",
+          "at": "2026-11-13 08:31"
+        },
+        {
           "text": "Uber B.V. e-faturası geldi (temel 54,78 TL, Paraşüt bildirimi 12 Kas). Küçük tutar, Paraşüt'te kabul/red durumu kontrol edilmeli. (kaynak: E-posta (12 Kas 17:41): Paraşüt · Yeni bir e-Faturanız var)",
           "at": "2026-11-12 17:42"
         },
@@ -1746,10 +1750,6 @@
         {
           "text": "Paraşüt otomatik hatırlatma (05 Kas): bugün vadeli giderler/ödemeler var, tutar mailde yazmıyor; Paraşüt giderler ekranından kontrol edilmeli. (kaynak: E-posta (5 Kas 04:01): Paraşüt · Yapılacak Ödemeniz Var)",
           "at": "2026-11-05 04:02"
-        },
-        {
-          "text": "📎 fatura-gelen arşivlendi: IC Hospital (MK Hastane) 2026-11-03 no MKY2026000000685 ₺66.509 → https://drive.google.com/file/d/1fYMdkEpTmeECiUxIiIVqcsAwoQLOwviX/view?usp=drivesdk",
-          "at": "2026-11-04 15:52"
         }
       ],
       "drawer": [
@@ -3842,7 +3842,6 @@
     }
   ],
   "asistan_seen": [
-    "1a18d82ebebe065d",
     "1a18d85537dc9253",
     "1a18d8748b73cfda",
     "1a18d887907c17cf",
@@ -4141,7 +4140,8 @@
     "1a1d131cee2702ce",
     "1a1d13c47c2e633b",
     "1a1d15cdb5f80f04",
-    "1a1d3639ffd3865f"
+    "1a1d3639ffd3865f",
+    "1a1d363a814bb907"
   ],
   "feed_order": [
     "qt5dom",
