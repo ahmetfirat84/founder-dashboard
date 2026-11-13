@@ -998,6 +998,23 @@
       "urgency": "gray",
       "title": "MyHeritage",
       "note": "VakıfBank ••3399 kartında limit yetersiz: MyHeritage trial €118,80 çekilemedi. Limit artır ya da trial'ı iptal et."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Alan adı",
+      "party": "GoDaddy",
+      "amount": "₺4.522,11",
+      "due": "13 Ara 2026 otomatik yenileme",
+      "uid": "n0apow",
+      "source": "mail-gelen",
+      "origin": "E-posta (13 Kas 21:22): GoDaddy Yenilemeleri · Ahmet Firat, alan adlarınız devam edecek şekilde ayarlandı.",
+      "wamid": "1a1d625418b47b2a",
+      "mail_thread": "1a1d625418b47b2a",
+      "imp": "low",
+      "amount_try": 4522,
+      "due_date": "2026-12-13",
+      "title": "GoDaddy",
+      "note": "neome.io alan adı 1 yıl otomatik yenileme (GoDaddy, Müşteri No 122037981). Ödeme kartta otomatik çekilecek; kart limitini kontrol et."
     }
   ],
   "departments": [
@@ -3802,7 +3819,7 @@
       ]
     }
   ],
-  "updated": "2026-11-13 19:43",
+  "updated": "2026-11-13 21:22",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3862,7 +3879,6 @@
     }
   ],
   "asistan_seen": [
-    "1a191f0098eb982d",
     "1a191f0081574e8b",
     "1a191f0056e98b4d",
     "1a191effe3d23010",
@@ -4161,7 +4177,8 @@
     "1a1d495aeed9239f",
     "1a1d50ba30b18355",
     "1a1d54c9d527fe1c",
-    "1a1d5ca35c3f2288"
+    "1a1d5ca35c3f2288",
+    "1a1d625418b47b2a"
   ],
   "feed_order": [
     "qt5dom",
