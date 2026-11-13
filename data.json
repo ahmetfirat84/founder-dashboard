@@ -3786,7 +3786,7 @@
       ]
     }
   ],
-  "updated": "2026-11-13 11:18",
+  "updated": "2026-11-13 13:14",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3846,7 +3846,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1905a251cc5e0a",
     "1a1905a2df7334d1",
     "1a1905a2eb9b8bac",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzRTg3Qzk0NDc5QTY1MzAzNkEA",
@@ -4145,7 +4144,8 @@
     "1a1d37ab093bc1ec",
     "1a1d37abcdd3ceb4",
     "1a1d3ea742bfbaad",
-    "1a1d3fc40ca53608"
+    "1a1d3fc40ca53608",
+    "1a1d466021a22220"
   ],
   "feed_order": [
     "qt5dom",
@@ -8752,6 +8752,39 @@
     }
   ],
   "meeting_notes": [
+    {
+      "id": "j2jmlc",
+      "title": "& New Me_Daily",
+      "date": "2026-11-13",
+      "summary": "Düşük bütçeli leadlerin fiyatlandırılması ve marketplace modelinin uygulanabilirliği konuşuldu. Model küçük ölçekli denemelerle test edilmeye devam edecek, müşteri kaçışı veya operasyon yükü yüksek kalırsa acente modeline dönülebilecek. Megan vakasının WhatsApp yazışmaları ve ses kayıtlarının incelenmesi istendi.",
+      "thread": "1a1d466021a22220",
+      "actions": [
+        {
+          "id": "gav8et",
+          "text": "Selin Sezgin ve ekip, Megan vakasının WhatsApp yazışmalarını ve ses kayıtlarını ürün ve süreç tasarımına veri olması için incelemeye alacak (Ahmet Fırat'ın talebi).",
+          "dep": "zeynep",
+          "owner": "Selin Sezgin",
+          "party": "Megan",
+          "status": "proposed"
+        },
+        {
+          "id": "3lo04o",
+          "text": "Selin Sezgin, Nasima'dan beklenen ödemenin takibini yapacak.",
+          "dep": "zeynep",
+          "owner": "Selin Sezgin",
+          "party": "Nasima",
+          "status": "proposed"
+        },
+        {
+          "id": "j4hv34",
+          "text": "Düşük bütçeli ve yoğun operasyon isteyen müşterilerde hizmet kapsamı baştan sınırlandırılacak ve müşteriye kâr amacı taşımayan eşleştirme modeli anlatılacak.",
+          "dep": "zeynep",
+          "owner": "Selin Sezgin",
+          "party": "",
+          "status": "proposed"
+        }
+      ]
+    },
     {
       "id": "03ae9w",
       "title": "& New Me_Daily",
