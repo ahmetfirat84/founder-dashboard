@@ -3248,6 +3248,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush: Kevin Kissner (Partner, Blackdor) meeting talebini reddetti. Gerekçe: şirket yatırım odağıyla yeterince uyumlu değil. Yeni talepler gönderilebilir. (kaynak: E-posta (13 Kas 16:14): Slush · Kevin Kissner has declined your meeting request)",
+          "at": "2026-11-13 16:15"
+        },
+        {
           "text": "Slush kaydı onaylandı: Vire Launch Party, 18 Kas 18:00-22:00, ODDSpace (Teollisuuskatu 9D), Helsinki. (kaynak: E-posta (13 Kas 14:02): Slush · [Slush 2026] You're in: Vire Launch Party: Join )",
           "at": "2026-11-13 14:03"
         },
@@ -3790,7 +3794,7 @@
       ]
     }
   ],
-  "updated": "2026-11-13 14:06",
+  "updated": "2026-11-13 16:15",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3850,7 +3854,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EzRTg3Qzk0NDc5QTY1MzAzNkEA",
     "1a1914daa6dc4093",
     "1a191a7254563c81",
     "1a191f0098eb982d",
@@ -4149,7 +4152,8 @@
     "1a1d3fc40ca53608",
     "1a1d466021a22220",
     "1a1d493108f9fa1b",
-    "1a1d495aeed9239f"
+    "1a1d495aeed9239f",
+    "1a1d50ba30b18355"
   ],
   "feed_order": [
     "qt5dom",
