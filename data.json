@@ -3202,7 +3202,7 @@
           "uid": "td_6hhgrxCw2PRHCQhh",
           "source": "todoist",
           "plan_date": "2026-10-24",
-          "note": "YENİ MAİL 04.11 12:56 (4 Kas 12:55 · Slush · Christian Bisaillon has declined your meeting request): Christian Bisaillon (Hyberden Ventures) meeting talebini reddetti: yatırım odağına uymuyor (4 Kas). YENİ MAİL 06.11 21:56 (6 Kas 21:55 · Slush · Dominik Alvermann has declined your meeting request): Dominik Alvermann (Acton Capital) meeting talebini reddetti (6 Kas). YENİ MAİL 10.11 11:08 (10 Kas 11:07 · Slush · [Slush 2026] Application received: New Nordics Healthtech Ma): New Nordics Healthtech Matchmaking (Slush) başvurusu alındı, 10 Kas; karar bekleniyor. YENİ MAİL 11.11 17:42 (11 Kas 17:42 · Slush · Yury Shlahanau has declined your meeting request): Tetrad VC'den Yury Shlahanau (Slush) toplantı talebini reddetti, 11 Kas 2026. YENİ MAİL 12.11 00:51 (12 Kas 00:51 · Slush · Austin Hwang has declined your meeting request): Austin Hwang (ADVentures) meeting talebini reddetti (11 Kas). YENİ MAİL 12.11 12:50 (12 Kas 12:49 · Slush · Monika Mikac has declined your meeting request): N-Vision Ventures (Monika Mikac) görüşme talebini reddetti: yalnızca SEE bölgesine yatırım yapıyor, Türkiye dahil değil. YENİ MAİL 13.11 14:06 (13 Kas 14:05 · Slush Platform · Exploring synergies): Elisa Kitunen (EEX Oy) Slush'ta görüşme talep etti: 'Exploring synergies', EEX Journey advisory board programı (ücretsiz, hisse yok). Platformda kabul/red."
+          "note": "YENİ MAİL 04.11 12:56 (4 Kas 12:55 · Slush · Christian Bisaillon has declined your meeting request): Christian Bisaillon (Hyberden Ventures) meeting talebini reddetti: yatırım odağına uymuyor (4 Kas). YENİ MAİL 06.11 21:56 (6 Kas 21:55 · Slush · Dominik Alvermann has declined your meeting request): Dominik Alvermann (Acton Capital) meeting talebini reddetti (6 Kas). YENİ MAİL 10.11 11:08 (10 Kas 11:07 · Slush · [Slush 2026] Application received: New Nordics Healthtech Ma): New Nordics Healthtech Matchmaking (Slush) başvurusu alındı, 10 Kas; karar bekleniyor. YENİ MAİL 11.11 17:42 (11 Kas 17:42 · Slush · Yury Shlahanau has declined your meeting request): Tetrad VC'den Yury Shlahanau (Slush) toplantı talebini reddetti, 11 Kas 2026. YENİ MAİL 12.11 00:51 (12 Kas 00:51 · Slush · Austin Hwang has declined your meeting request): Austin Hwang (ADVentures) meeting talebini reddetti (11 Kas). YENİ MAİL 12.11 12:50 (12 Kas 12:49 · Slush · Monika Mikac has declined your meeting request): N-Vision Ventures (Monika Mikac) görüşme talebini reddetti: yalnızca SEE bölgesine yatırım yapıyor, Türkiye dahil değil. YENİ MAİL 13.11 14:06 (13 Kas 14:05 · Slush Platform · Exploring synergies): Elisa Kitunen (EEX Oy) Slush'ta görüşme talep etti: 'Exploring synergies', EEX Journey advisory board programı (ücretsiz, hisse yok). Platformda kabul/red. YENİ MAİL 14.11 20:27 (14 Kas 20:26 · Slush · Milapsinh Jadeja has declined your meeting request): Milapsinh Jadeja (Metl Ventures) bu talebi reddetti, Slush sonrası görüşmek istiyor: mj@metl.vc"
         },
         {
           "action_type": "Yanıt",
@@ -3808,7 +3808,7 @@
       ]
     }
   ],
-  "updated": "2026-11-14 18:04",
+  "updated": "2026-11-14 20:27",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3875,7 +3875,6 @@
     }
   ],
   "asistan_seen": [
-    "1a192cc614a09e3a",
     "1a192cc662294049",
     "1a195e96f4e33dbf",
     "1a19612e88b9b149",
@@ -4174,7 +4173,8 @@
     "1a1d87d4d4f628e0",
     "1a1d87d595196bd2",
     "1a1da30aa6b8ebc6",
-    "1a1da96928d82bb9"
+    "1a1da96928d82bb9",
+    "1a1db18d01697d6f"
   ],
   "feed_order": [
     "qt5dom",
