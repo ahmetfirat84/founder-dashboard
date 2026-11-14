@@ -1638,6 +1638,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Paraşüt 13 Kasım banka bildirimi: 17 eşleşmemiş işlem (çoğunlukla yıllık hesap özeti ücreti ₺104,50 / ₺2.090), ayrıca Yeniben'den ₺15.000 çıkış ve ₺16,76 banka gideri. Paraşüt'te banka hesabından eşleştirilecek. (kaynak: E-posta (14 Kas 08:17): Paraşüt · 18 adet banka işlemi Paraşüt'e aktarıldı)",
+          "at": "2026-11-14 08:18"
+        },
+        {
           "text": "Paraşüt: 13 Kasım'da İş Bankası'ndan 18 banka işlemi aktarıldı; 17'si eşleşmedi (çoğu 'Hesap Özeti Ücreti' komisyon kayıtları, ayrıca Yeniben Elektronik'e -₺15.000 ve -₺16,76 çıkış). Paraşüt'te banka hesabı sayfasından eşleştirilmesi gerekiyor. (kaynak: E-posta (14 Kas 08:17): Paraşüt · 18 adet banka işlemi Paraşüt'e aktarıldı)",
           "at": "2026-11-14 08:18"
         },
@@ -1752,10 +1756,6 @@
         {
           "text": "📎 fatura-gelen arşivlendi: CK Boğaziçi Elektrik 2026-11-06 no BEA2026047922824 ₺690 → https://drive.google.com/file/d/1xKMPXICNpWEK5EsospEhOsk3STQaaveM/view?usp=drivesdk",
           "at": "2026-11-06 10:03"
-        },
-        {
-          "text": "VakıfBank'a 05.11 21:46'da Garanti'den FAST ile 4.920 TL gelişi (gönderen AH**** FA**** FI****), güncel bakiye 4.920,39 TL. (kaynak: E-posta (5 Kas 21:47): VakıfBank · VAKIFBANK - FAST Anlık Ödeme Bilgilendirmesi)",
-          "at": "2026-11-05 21:47"
         }
       ],
       "drawer": [
@@ -3875,7 +3875,6 @@
     }
   ],
   "asistan_seen": [
-    "1a191f0056e98b4d",
     "1a191effe3d23010",
     "1a1929fa76388976",
     "1a192cc614a09e3a",
@@ -4174,7 +4173,8 @@
     "1a1d54c9d527fe1c",
     "1a1d5ca35c3f2288",
     "1a1d625418b47b2a",
-    "1a1d87d4d4f628e0"
+    "1a1d87d4d4f628e0",
+    "1a1d87d595196bd2"
   ],
   "feed_order": [
     "qt5dom",
