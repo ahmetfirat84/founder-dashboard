@@ -1638,6 +1638,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Paraşüt: 13 Kasım'da İş Bankası'ndan 18 banka işlemi aktarıldı; 17'si eşleşmedi (çoğu 'Hesap Özeti Ücreti' komisyon kayıtları, ayrıca Yeniben Elektronik'e -₺15.000 ve -₺16,76 çıkış). Paraşüt'te banka hesabı sayfasından eşleştirilmesi gerekiyor. (kaynak: E-posta (14 Kas 08:17): Paraşüt · 18 adet banka işlemi Paraşüt'e aktarıldı)",
+          "at": "2026-11-14 08:18"
+        },
+        {
           "text": "12 Kas Garanti'den 11.000 TL MOBIL-FAST çıkışı ve 16,76 TL kesinti Paraşüt'e aktarıldı; 2 işlem eşleşmemiş, hangi ödeme olduğu doğrulanmalı. (kaynak: E-posta (13 Kas 08:56): Paraşüt · 2 adet banka işlemi Paraşüt'e aktarıldı)",
           "at": "2026-11-13 08:57"
         },
@@ -1752,10 +1756,6 @@
         {
           "text": "VakıfBank'a 05.11 21:46'da Garanti'den FAST ile 4.920 TL gelişi (gönderen AH**** FA**** FI****), güncel bakiye 4.920,39 TL. (kaynak: E-posta (5 Kas 21:47): VakıfBank · VAKIFBANK - FAST Anlık Ödeme Bilgilendirmesi)",
           "at": "2026-11-05 21:47"
-        },
-        {
-          "text": "TOBB Nefes Kredisi yeniden uygulamada (İTO duyurusu, 5 Kas): KOBİ şartı, azami ₺5 mn, 48 ay vade (6 ay anapara ödemesiz), faiz %36 (24 ay altı) / %34 (24 ay üstü). Başvuru için İTO'dan 'Nefes Kredisi İçindir' faaliyet belgesi gerekli (e-imzalı: eportal.ito.org.tr); bankalar: Vakıfbank, Halkbank, Den (kaynak: E-posta (5 Kas 16:38): Ahmet Tosun · Fwd: TOBB Nefes Kredisi hk.)",
-          "at": "2026-11-05 16:39"
         }
       ],
       "drawer": [
@@ -3808,7 +3808,7 @@
       ]
     }
   ],
-  "updated": "2026-11-14 08:00",
+  "updated": "2026-11-14 08:18",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3875,7 +3875,6 @@
     }
   ],
   "asistan_seen": [
-    "1a191f0081574e8b",
     "1a191f0056e98b4d",
     "1a191effe3d23010",
     "1a1929fa76388976",
@@ -4174,7 +4173,8 @@
     "1a1d50ba30b18355",
     "1a1d54c9d527fe1c",
     "1a1d5ca35c3f2288",
-    "1a1d625418b47b2a"
+    "1a1d625418b47b2a",
+    "1a1d87d4d4f628e0"
   ],
   "feed_order": [
     "qt5dom",
