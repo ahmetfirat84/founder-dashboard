@@ -1638,6 +1638,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Paraşüt: 14.11 banka işlemleri aktarıldı. €2.000 çıkış (Ahmet Faruk Fırat) ve €2.000 giriş (Güde Fazıl Özde). 2 işlem Paraşüt'te eşleştirilmemiş, banka hesabı sayfasından eşleştirilmeli. (kaynak: E-posta (15 Kas 08:14): Paraşüt · 2 adet banka işlemi Paraşüt'e aktarıldı)",
+          "at": "2026-11-15 08:14"
+        },
+        {
           "text": "Paraşüt 13 Kasım banka bildirimi: 17 eşleşmemiş işlem (çoğunlukla yıllık hesap özeti ücreti ₺104,50 / ₺2.090), ayrıca Yeniben'den ₺15.000 çıkış ve ₺16,76 banka gideri. Paraşüt'te banka hesabından eşleştirilecek. (kaynak: E-posta (14 Kas 08:17): Paraşüt · 18 adet banka işlemi Paraşüt'e aktarıldı)",
           "at": "2026-11-14 08:18"
         },
@@ -1752,10 +1756,6 @@
         {
           "text": "06.11 Garanti FAST ile TOBB'a ilan bedeli ₺1.350 ödendi (komisyon ₺8,37, FAST ref 4340000153); eşleşen açık satır yoktu, genel kurul ilan masrafı olabilir. (kaynak: WhatsApp (6 Kas 11:26, belge))",
           "at": "2026-11-06 11:26"
-        },
-        {
-          "text": "📎 fatura-gelen arşivlendi: CK Boğaziçi Elektrik 2026-11-06 no BEA2026047922824 ₺690 → https://drive.google.com/file/d/1xKMPXICNpWEK5EsospEhOsk3STQaaveM/view?usp=drivesdk",
-          "at": "2026-11-06 10:03"
         }
       ],
       "drawer": [
@@ -3812,7 +3812,7 @@
       ]
     }
   ],
-  "updated": "2026-11-15 07:04",
+  "updated": "2026-11-15 08:14",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3879,7 +3879,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19612e88b9b149",
     "1a1964c0f671cb04",
     "1a1964bfe7df079d",
     "1a196cd3815ca451",
@@ -4178,7 +4177,8 @@
     "1a1da96928d82bb9",
     "1a1db18d01697d6f",
     "1a1dce91d662d730",
-    "1a1dd60abb0cc28c"
+    "1a1dd60abb0cc28c",
+    "1a1dda0c9f743490"
   ],
   "feed_order": [
     "qt5dom",
