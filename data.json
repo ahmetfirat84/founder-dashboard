@@ -3553,6 +3553,10 @@
       ],
       "notes": [
         {
+          "text": "YourBusinessNumber'dan İngiltere WhatsApp Business numarası satın alındı (+447418633214). Mailde tutar ve yenileme tarihi yok; ücret ve abonelik durumu kontrol edilmeli. (kaynak: E-posta (15 Kas 21:21): hello@yourbusinessnumber.com · YourBusinessNumber Order )",
+          "at": "2026-11-15 21:22"
+        },
+        {
           "text": "Microsoft DMARC aggregate raporu (andnewme.com, 13 Kasım 2026, Report-ID 546a202b071b41dc9bca4d4d78364c37): otomatik teknik rapor, aksiyon gerektirmiyor. (kaynak: E-posta (15 Kas 07:04): DMARC Aggregate Report · Report Domain: andnewme.com Sub)",
           "at": "2026-11-15 07:04"
         },
@@ -3667,10 +3671,6 @@
         {
           "text": "Google Workspace yöneticisi: Görevler için Workspace Intelligence varsayılan AÇIK gelecek (14 Kasım 2026'dan itibaren Gemini bağlam olarak kullanabilir). İstemiyorsan Yönetici Konsolu'ndan 14 Kasım'a kadar kapat. (kaynak: E-posta (23 Eki 05:09): The Google Workspace Team ·  [Ürün Güncellemesi] Google )",
           "at": "2026-10-23 05:10"
-        },
-        {
-          "text": "YourBusinessNumber sipariş onayı (22.10): İngiltere WhatsApp Business numarası +447457413907 satın alındı. Numara WhatsApp Business'ta kullanılmadan önce uygulamanın 1 hafta web/masaüstü bağlantısı ve ilk 7 gün grup kısıtlarına dikkat edilmeli. (kaynak: E-posta (22 Eki 16:01): hello@yourbusinessnumber.com · YourBusinessNumber Order )",
-          "at": "2026-10-22 16:02"
         }
       ]
     },
@@ -3816,7 +3816,7 @@
       ]
     }
   ],
-  "updated": "2026-11-15 15:25",
+  "updated": "2026-11-15 21:22",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3883,7 +3883,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1985196200d662",
     "1a19851f225834e0",
     "1a198a7ce5c1b252",
     "1a198a7cd07d58dc",
@@ -4182,7 +4181,8 @@
     "1a1de273c3e1fbe2",
     "1a1de292ba3a6b51",
     "1a1deb8c9dcde3dd",
-    "1a1df2af170cbb2f"
+    "1a1df2af170cbb2f",
+    "1a1e0716c9b87045"
   ],
   "feed_order": [
     "qt5dom",
