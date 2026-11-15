@@ -2340,6 +2340,10 @@
       "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri",
       "notes": [
         {
+          "text": "DYS ön onay sonucu (15 Kas 2026, destek kodu 26.HUST.001463, başvuru 16/06/2026): 'Uluslararası Sağlık Turisti Ulaşım' ön onay başvurusu UYGUN bulundu. Yazışmalar bölümünden eksik/karar bildirimlerini takip et. (kaynak: E-posta (15 Kas 10:43): Destek Yonetim Sistemi Bildirim Servisi · Ticaret Bakanl)",
+          "at": "2026-11-15 10:43"
+        },
+        {
           "text": "HİB Genel Sekreterliği, 11.11.2026 tarihli 'ABD ve AB Ticaret Politikaları Uyumu ve Risk Yönetimi' konulu yazısını (sayı 2026/396) e-posta ekinde gönderdi; ek PDF okunup süre/aksiyon kontrol edilmeli. (kaynak: E-posta (11 Kas 17:07): Hizmet İhracatçıları Birliği Genel Sekre · ABD ve AB Tic)",
           "at": "2026-11-11 17:55"
         },
@@ -3812,7 +3816,7 @@
       ]
     }
   ],
-  "updated": "2026-11-15 10:41",
+  "updated": "2026-11-15 10:43",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3879,7 +3883,6 @@
     }
   ],
   "asistan_seen": [
-    "1a196d56175c4ace",
     "1a1975f0339af6ff",
     "1a1977e5f1919036",
     "1a1985196200d662",
@@ -4178,7 +4181,8 @@
     "1a1dda0c9f743490",
     "1a1ddf4748a11b43",
     "1a1de20ec57bfa7f",
-    "1a1de273c3e1fbe2"
+    "1a1de273c3e1fbe2",
+    "1a1de292ba3a6b51"
   ],
   "feed_order": [
     "qt5dom",
