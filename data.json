@@ -2209,7 +2209,7 @@
             "date": "2026-10-18",
             "note": "DYS belge mimarisi notu (30 Tem) + tesvik_reklam_kart_belge"
           },
-          "note": "YENİ MAİL 06.11 17:03 (6 Kas 17:03 · Destek Yonetim Sistemi Bildirim Servisi · Ticaret Bakanlığı (DYS) - Ön Onay ): DYS ön onay sonucu: 01.06.2026 tarihli 26.HRTP.004703 Reklam Tanıtım Pazarlama ön onay başvurusu uygun bulundu (06.11.2026)."
+          "note": "YENİ MAİL 06.11 17:03 (6 Kas 17:03 · Destek Yonetim Sistemi Bildirim Servisi · Ticaret Bakanlığı (DYS) - Ön Onay ): DYS ön onay sonucu: 01.06.2026 tarihli 26.HRTP.004703 Reklam Tanıtım Pazarlama ön onay başvurusu uygun bulundu (06.11.2026). YENİ MAİL 15.11 10:41 (15 Kas 10:41 · Destek Yonetim Sistemi Bildirim Servisi · Ticaret Bakanlığı (DYS) - Ön Onay): DYS 15 Kas: 26.HRTP.007836 (17/07/2026) Reklam Tanıtım Pazarlama ön onay başvurusu UYGUN bulundu."
         },
         {
           "uid": "zqpvi8",
@@ -3812,7 +3812,7 @@
       ]
     }
   ],
-  "updated": "2026-11-15 10:34",
+  "updated": "2026-11-15 10:41",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3879,7 +3879,6 @@
     }
   ],
   "asistan_seen": [
-    "1a196cd3815ca451",
     "1a196d56175c4ace",
     "1a1975f0339af6ff",
     "1a1977e5f1919036",
@@ -4178,7 +4177,8 @@
     "1a1dd60abb0cc28c",
     "1a1dda0c9f743490",
     "1a1ddf4748a11b43",
-    "1a1de20ec57bfa7f"
+    "1a1de20ec57bfa7f",
+    "1a1de273c3e1fbe2"
   ],
   "feed_order": [
     "qt5dom",
