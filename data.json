@@ -3774,6 +3774,10 @@
       ],
       "notes": [
         {
+          "text": "Todoist günlük özeti: 99 gecikmiş görev var, bugün vadeli görev yok; gerekirse yeniden planlama/silme yapılabilir. (kaynak: E-posta (15 Kas 04:53): Todoist · Ahmet’s task(s) for 15 Nov 2026 → 10+ overdue)",
+          "at": "2026-11-15 04:54"
+        },
+        {
           "text": "Facebook güvenlik bildirimi (13 Kas): hesap 11 Kas'ta yetkisiz erişim şüphesiyle kilitlenmiş, açmak için doğrulama gerekiyor. Giriş yapıp kendisi açılmalı; şifre değiştirilip 2FA kontrol edilmeli. (kaynak: E-posta (13 Kas 11:18): Facebook · Your account has been locked for 1 day)",
           "at": "2026-11-13 11:18"
         },
@@ -3808,7 +3812,7 @@
       ]
     }
   ],
-  "updated": "2026-11-14 20:27",
+  "updated": "2026-11-15 04:54",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3875,7 +3879,6 @@
     }
   ],
   "asistan_seen": [
-    "1a192cc662294049",
     "1a195e96f4e33dbf",
     "1a19612e88b9b149",
     "1a1964c0f671cb04",
@@ -4174,7 +4177,8 @@
     "1a1d87d595196bd2",
     "1a1da30aa6b8ebc6",
     "1a1da96928d82bb9",
-    "1a1db18d01697d6f"
+    "1a1db18d01697d6f",
+    "1a1dce91d662d730"
   ],
   "feed_order": [
     "qt5dom",
