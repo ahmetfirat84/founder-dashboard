@@ -3549,6 +3549,10 @@
       ],
       "notes": [
         {
+          "text": "Microsoft DMARC aggregate raporu (andnewme.com, 13 Kasım 2026, Report-ID 546a202b071b41dc9bca4d4d78364c37): otomatik teknik rapor, aksiyon gerektirmiyor. (kaynak: E-posta (15 Kas 07:04): DMARC Aggregate Report · Report Domain: andnewme.com Sub)",
+          "at": "2026-11-15 07:04"
+        },
+        {
           "text": "Apple iCloud+ (200 GB, aylık) ₺169,99 ödendi (12 Kas 2026, Visa •••• 0149). Yenileme 12 Aralık 2026. (kaynak: E-posta (12 Kas 23:04): Apple · Your receipt from Apple.)",
           "at": "2026-11-12 23:05"
         },
@@ -3663,10 +3667,6 @@
         {
           "text": "YourBusinessNumber sipariş onayı (22.10): İngiltere WhatsApp Business numarası +447457413907 satın alındı. Numara WhatsApp Business'ta kullanılmadan önce uygulamanın 1 hafta web/masaüstü bağlantısı ve ilk 7 gün grup kısıtlarına dikkat edilmeli. (kaynak: E-posta (22 Eki 16:01): hello@yourbusinessnumber.com · YourBusinessNumber Order )",
           "at": "2026-10-22 16:02"
-        },
-        {
-          "text": "Google Apps Script 'asistan-mail-to-dashboard' 21-22 Ekim arasında 5 kez hata verdi (4 sunucu hatası, 1 'Gmail operation not allowed'); mail-to-dashboard otomasyonu çalışmıyor olabilir, kontrol edilmeli. (kaynak: E-posta (22 Eki 14:10): noreply-apps-scripts-notifications@googl · Summary of fa)",
-          "at": "2026-10-22 14:11"
         }
       ]
     },
@@ -3812,7 +3812,7 @@
       ]
     }
   ],
-  "updated": "2026-11-15 04:54",
+  "updated": "2026-11-15 07:04",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3879,7 +3879,6 @@
     }
   ],
   "asistan_seen": [
-    "1a195e96f4e33dbf",
     "1a19612e88b9b149",
     "1a1964c0f671cb04",
     "1a1964bfe7df079d",
@@ -4178,7 +4177,8 @@
     "1a1da30aa6b8ebc6",
     "1a1da96928d82bb9",
     "1a1db18d01697d6f",
-    "1a1dce91d662d730"
+    "1a1dce91d662d730",
+    "1a1dd60abb0cc28c"
   ],
   "feed_order": [
     "qt5dom",
