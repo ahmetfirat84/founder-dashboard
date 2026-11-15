@@ -1638,6 +1638,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Emre Aktan talebi: GK (27 Kas) öncesi 2023-2025 bilanço, gelir tablosu ve varsa faaliyet raporlarının PDF'i paylaşılacak. (kaynak: E-posta (15 Kas 09:45): emre aktan · Yeniben Genel Kurul – Finansallar)",
+          "at": "2026-11-15 09:46"
+        },
+        {
           "text": "Paraşüt: 14.11 banka işlemleri aktarıldı. €2.000 çıkış (Ahmet Faruk Fırat) ve €2.000 giriş (Güde Fazıl Özde). 2 işlem Paraşüt'te eşleştirilmemiş, banka hesabı sayfasından eşleştirilmeli. (kaynak: E-posta (15 Kas 08:14): Paraşüt · 2 adet banka işlemi Paraşüt'e aktarıldı)",
           "at": "2026-11-15 08:14"
         },
@@ -1751,10 +1755,6 @@
         },
         {
           "text": "📎 belge arşivlendi: TOBB (Türkiye Odalar ve Borsalar Birliği) 2026-11-06 no 4340000153 ₺1.350 → https://drive.google.com/file/d/1PV-u42mmX9GePfFMhmS1ZHRliiExEWNi/view?usp=drivesdk",
-          "at": "2026-11-06 11:26"
-        },
-        {
-          "text": "06.11 Garanti FAST ile TOBB'a ilan bedeli ₺1.350 ödendi (komisyon ₺8,37, FAST ref 4340000153); eşleşen açık satır yoktu, genel kurul ilan masrafı olabilir. (kaynak: WhatsApp (6 Kas 11:26, belge))",
           "at": "2026-11-06 11:26"
         }
       ],
@@ -2471,7 +2471,7 @@
           "owner": "",
           "source": "asistan",
           "uid": "9907cb",
-          "note": "YENİ MAİL 30.10 18:25 (30 Eki 18:24 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Ekim: Ersun Bey ve Coşkun Bey'den pay defteri kopyası, pay sahipleri listesi ve MERSİS ortak kontrolü istendi; imza sirküleri 15 Kasım'da dolduğu için bu hafta dönüş bekleniyor. YENİ MAİL 30.10 18:29 (30 Eki 18:28 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki: Ersun Bey ve Coşkun Bey'den noter tasdikli pay defteri konumu ve güncel pay sahipleri listesi istendi (2023 GK sonrası 41 pay sahibi, adres bilgisi teyit bekleniyor). YENİ MAİL 30.10 18:38 (30 Eki 18:38 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki: Ersun Bey ve Coşkun Bey'e pay defteri (noter tasdikli, kimde olduğu, 2023 sonrası devir/giriş) ve güncel pay sahipleri listesi soruldu; yanıt bekleniyor. YENİ MAİL 12.11 17:02 (12 Kas 17:02 · Orhan Bayram · Re: Yeniben genel kurul çağrısı, 27 Kasım 2026): Orhan Bayram (12 Kas): 27 Kasım genel kuruluna katılamayabileceğini, ek bir konu olursa haber vermesini yazdı."
+          "note": "YENİ MAİL 30.10 18:25 (30 Eki 18:24 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Ekim: Ersun Bey ve Coşkun Bey'den pay defteri kopyası, pay sahipleri listesi ve MERSİS ortak kontrolü istendi; imza sirküleri 15 Kasım'da dolduğu için bu hafta dönüş bekleniyor. YENİ MAİL 30.10 18:29 (30 Eki 18:28 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki: Ersun Bey ve Coşkun Bey'den noter tasdikli pay defteri konumu ve güncel pay sahipleri listesi istendi (2023 GK sonrası 41 pay sahibi, adres bilgisi teyit bekleniyor). YENİ MAİL 30.10 18:38 (30 Eki 18:38 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki: Ersun Bey ve Coşkun Bey'e pay defteri (noter tasdikli, kimde olduğu, 2023 sonrası devir/giriş) ve güncel pay sahipleri listesi soruldu; yanıt bekleniyor. YENİ MAİL 12.11 17:02 (12 Kas 17:02 · Orhan Bayram · Re: Yeniben genel kurul çağrısı, 27 Kasım 2026): Orhan Bayram (12 Kas): 27 Kasım genel kuruluna katılamayabileceğini, ek bir konu olursa haber vermesini yazdı. YENİ MAİL 15.11 09:46 (15 Kas 09:45 · emre aktan · Yeniben Genel Kurul – Finansallar): Emre Aktan (ortak) 27 Kas GK öncesi 2023, 2024, 2025 bilanço ve gelir tablolarını (varsa faaliyet raporlarıyla) PDF istedi."
         },
         {
           "text": "Sermayeyi 250.000 TL'ye çıkar (süre 31 Aralık 2027'ye uzadı, acelesi yok); yöntem: pay sahibi yatırımı veya emisyon primi aktarımı",
@@ -3812,7 +3812,7 @@
       ]
     }
   ],
-  "updated": "2026-11-15 08:14",
+  "updated": "2026-11-15 09:46",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3879,7 +3879,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1964c0f671cb04",
     "1a1964bfe7df079d",
     "1a196cd3815ca451",
     "1a196d56175c4ace",
@@ -4178,7 +4177,8 @@
     "1a1db18d01697d6f",
     "1a1dce91d662d730",
     "1a1dd60abb0cc28c",
-    "1a1dda0c9f743490"
+    "1a1dda0c9f743490",
+    "1a1ddf4748a11b43"
   ],
   "feed_order": [
     "qt5dom",
