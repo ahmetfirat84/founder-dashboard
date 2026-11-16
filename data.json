@@ -3476,7 +3476,7 @@
           "amount": "",
           "urgency": "gray",
           "uid": "91zqrf",
-          "note": "YENİ MAİL 22.10 09:38 (22 Eki 09:37 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): 22 Eki Kanyon Finans e-postası: açık borç ₺24.171,27, en kısa sürede ödeme talebi (Borçlar'daki Kanyon ev aidatı ile aynı tutar). YENİ MAİL 26.10 15:49 (26 Eki 15:49 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): 26 Eki Kanyon Finans otomatik bildirimi: borç ₺24.171,27, ödeme talebi (Borçlar'daki Kanyon ev aidatı ile aynı tutar). YENİ MAİL 09.11 15:32 (9 Kas 15:31 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): Kanyon Finans 09.11: toplam borç ₺52.417,72, en kısa sürede ödeme istendi (otomatik bakiye bildirimi)."
+          "note": "YENİ MAİL 22.10 09:38 (22 Eki 09:37 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): 22 Eki Kanyon Finans e-postası: açık borç ₺24.171,27, en kısa sürede ödeme talebi (Borçlar'daki Kanyon ev aidatı ile aynı tutar). YENİ MAİL 26.10 15:49 (26 Eki 15:49 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): 26 Eki Kanyon Finans otomatik bildirimi: borç ₺24.171,27, ödeme talebi (Borçlar'daki Kanyon ev aidatı ile aynı tutar). YENİ MAİL 09.11 15:32 (9 Kas 15:31 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): Kanyon Finans 09.11: toplam borç ₺52.417,72, en kısa sürede ödeme istendi (otomatik bakiye bildirimi). YENİ MAİL 16.11 13:42 (16 Kas 13:41 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): 16 Kas Kanyon Finans otomatik bildirimi: toplam borç ₺52.417,72, en kısa sürede ödeme talebi (vade belirtilmemiş)."
         },
         {
           "text": "Superonline internet aboneliği 21 Eyl'de askıya alınıp 28 Eyl'de yeniden açılmış: ödeme düzenini kontrol et",
@@ -3845,7 +3845,7 @@
       ]
     }
   ],
-  "updated": "2026-11-16 13:29",
+  "updated": "2026-11-16 13:42",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3912,7 +3912,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19b298048a7c00",
     "1a19b3573543b7d7",
     "1a19b4e209c01ece",
     "1a19b5c05e4ee75d",
@@ -4211,7 +4210,8 @@
     "1a1e3d687a96bba1",
     "1a1e3db52142356c",
     "1a1e3dc4210b7432",
-    "1a1e3e725025b985"
+    "1a1e3e725025b985",
+    "1a1e3f2c2f08b272"
   ],
   "feed_order": [
     "qt5dom",
