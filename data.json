@@ -2806,6 +2806,10 @@
       "summary": "2 deal bugün kapanıyor",
       "notes": [
         {
+          "text": "James Sandford (Rhinoplasty taksit) iyzico ile ₺13.067 ödedi, 16 Kas 2026, ödeme no 4308023142. (kaynak: E-posta (16 Kas 12:59): iyziLink · Ödeme alındı)",
+          "at": "2026-11-16 13:00"
+        },
+        {
           "text": "iyzico: Gastric Sleeve depozitosu €50 (100 NZD) tahsil edildi, 05.11 22:42, ödeme no 4287918649. Hasta adı mailde yok; ürün gönderimi için hasta kaydıyla eşleştirilmeli. (kaynak: E-posta (5 Kas 22:42): iyziLink · Payment received)",
           "at": "2026-11-05 22:43"
         },
@@ -3826,7 +3830,7 @@
       ]
     }
   ],
-  "updated": "2026-11-16 12:58",
+  "updated": "2026-11-16 13:00",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3893,7 +3897,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19af15022a2594",
     "1a19af143ab6b0d0",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EyRkJGNkMxRUY4NTUxMDMzREIA",
     "1a19b1b7ce9bd9fc",
@@ -4192,7 +4195,8 @@
     "1a1e321233f30141",
     "1a1e32ab01dae627",
     "1a1e3c9d022c932f",
-    "1a1e3c98f6c47c23"
+    "1a1e3c98f6c47c23",
+    "1a1e3cc6bf1b20e1"
   ],
   "feed_order": [
     "qt5dom",
