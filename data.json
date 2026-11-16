@@ -3264,6 +3264,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush: Jussi Kallasvuo (Antler GP) toplantı talebimizi reddetti (16 Kas). Şu an odağı dışında, yeni talep gönderilebilir. (kaynak: E-posta (16 Kas 09:52): Slush · Jussi Kallasvuo has declined your meeting reques)",
+          "at": "2026-11-16 09:53"
+        },
+        {
           "text": "Slush: Daniel Naber (angel yatırımcı) toplantı talebinizi reddetti; yatırım odağına uymadığını belirtti. (kaynak: E-posta (13 Kas 19:42): Slush · Daniel Naber has declined your meeting request)",
           "at": "2026-11-13 19:43"
         },
@@ -3378,10 +3382,6 @@
         {
           "text": "Slush 2026: Ross McNairn (Wordsmith CEO) Q&A etkinliğine Ahmet kayıt oldu (e-posta, 28 Ekim). (kaynak: E-posta (28 Eki 16:17): Ahmet Tosun · Fwd: You're invited: Ross McNairn (CEO & C)",
           "at": "2026-10-28 16:18"
-        },
-        {
-          "text": "Nam Tran (Apex Ascension) soğuk e-postası: aile ofisleri ilgisi iddiası, 3M-35M seed-B, kısa görüşme talebi. Doğrulanmamış, dikkatle değerlendir. (kaynak: E-posta (27 Eki 23:21): Nam Tran · investor interest in your space)",
-          "at": "2026-10-27 23:21"
         }
       ]
     },
@@ -3822,7 +3822,7 @@
       ]
     }
   ],
-  "updated": "2026-11-16 07:10",
+  "updated": "2026-11-16 09:53",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3889,7 +3889,6 @@
     }
   ],
   "asistan_seen": [
-    "1a198a7cd07d58dc",
     "1a199c8acaa2b45f",
     "1a19a21c402e49dd",
     "1a19aec6e34f12a5",
@@ -4188,7 +4187,8 @@
     "1a1df2af170cbb2f",
     "1a1e0716c9b87045",
     "1a1e0fd8be575f17",
-    "1a1e1e1690bf9b5d"
+    "1a1e1e1690bf9b5d",
+    "1a1e321233f30141"
   ],
   "feed_order": [
     "qt5dom",
@@ -10030,7 +10030,7 @@
       },
       "emekli_fis_9418": {
         "kisi": 1,
-        "pek": 1101.0,
+        "pek": 1101,
         "odenecek": 355.08,
         "kapsam": "Bayram Gülcan (emekli, SGDP %30 + KSK %2,25)"
       },
