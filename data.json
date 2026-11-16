@@ -1010,6 +1010,23 @@
       "due_date": "2026-12-13",
       "title": "GoDaddy",
       "note": "neome.io alan adı 1 yıl otomatik yenileme (GoDaddy, Müşteri No 122037981). Ödeme kartta otomatik çekilecek; kart limitini kontrol et."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Fatura",
+      "party": "Zümrüt Parfümeri",
+      "amount": "₺7.437",
+      "due": "8 gün içinde Paraşüt'te kabul/red",
+      "uid": "s3bz5u",
+      "source": "mail-gelen",
+      "origin": "E-posta (16 Kas 15:40): Paraşüt · Yeni bir e-Faturanız var",
+      "wamid": "1a1e45fce9d7cf65",
+      "mail_thread": "1a1e45fce9d7cf65",
+      "imp": "high",
+      "amount_try": 7437,
+      "due_date": "2026-11-24",
+      "title": "Zümrüt Parfümeri",
+      "note": "Zümrüt Parfümeri'den gelen ticari e-fatura (₺7.437,00) Paraşüt'te 8 gün içinde kabul veya red edilmeli."
     }
   ],
   "departments": [
@@ -3845,7 +3862,7 @@
       ]
     }
   ],
-  "updated": "2026-11-16 13:42",
+  "updated": "2026-11-16 15:41",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3912,7 +3929,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19b3573543b7d7",
     "1a19b4e209c01ece",
     "1a19b5c05e4ee75d",
     "1a19b60964f66efb",
@@ -4211,7 +4227,8 @@
     "1a1e3db52142356c",
     "1a1e3dc4210b7432",
     "1a1e3e725025b985",
-    "1a1e3f2c2f08b272"
+    "1a1e3f2c2f08b272",
+    "1a1e45fce9d7cf65"
   ],
   "feed_order": [
     "qt5dom",
