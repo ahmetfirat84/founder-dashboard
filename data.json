@@ -3268,6 +3268,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush: Austin Hwang (ADVentures) toplantı talebini reddetti (16 Kas); yeni talep gönderilebilir. (kaynak: E-posta (16 Kas 12:59): Slush · Austin Hwang has declined your meeting request)",
+          "at": "2026-11-16 13:00"
+        },
+        {
           "text": "Slush meeting talebi: Alejo Costa Ribalta (CRB Health Tech) bu sefer olamayacağını bildirdi, Slush sonrası görüşmek istiyor. İletişim: acosta@crossroadbiotech.com (kaynak: E-posta (16 Kas 12:56): Slush · Alejo Costa Ribalta has declined your meeting re)",
           "at": "2026-11-16 12:58"
         },
@@ -3382,10 +3386,6 @@
         {
           "text": "Slush 'AI is Rewriting Healthcare Investment' başvurusu alındı, organizatör değerlendirmede (29 Eki). (kaynak: E-posta (29 Eki 10:31): Slush · [Slush 2026] Application received: AI is Rewriti)",
           "at": "2026-10-29 10:31"
-        },
-        {
-          "text": "Slush Ross McNairn (Wordsmith CEO) Q&A kaydı onaylandı: 18 Kas 2026, 13:26-13:56 (çevrim içi/yer belirtilmemiş). (kaynak: E-posta (28 Eki 16:19): Slush · [Slush 2026] You're in: Ross McNairn (CEO & Co-F)",
-          "at": "2026-10-28 16:19"
         }
       ]
     },
@@ -3897,7 +3897,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19af143ab6b0d0",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EyRkJGNkMxRUY4NTUxMDMzREIA",
     "1a19b1b7ce9bd9fc",
     "1a19b1b75097cbd5",
@@ -4196,7 +4195,8 @@
     "1a1e32ab01dae627",
     "1a1e3c9d022c932f",
     "1a1e3c98f6c47c23",
-    "1a1e3cc6bf1b20e1"
+    "1a1e3cc6bf1b20e1",
+    "1a1e3cc6743c27c9"
   ],
   "feed_order": [
     "qt5dom",
