@@ -3893,7 +3893,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19aec6e34f12a5",
     "1a19af15022a2594",
     "1a19af143ab6b0d0",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EyRkJGNkMxRUY4NTUxMDMzREIA",
@@ -4192,7 +4191,8 @@
     "1a1e1e1690bf9b5d",
     "1a1e321233f30141",
     "1a1e32ab01dae627",
-    "1a1e3c9d022c932f"
+    "1a1e3c9d022c932f",
+    "1a1e3c98f6c47c23"
   ],
   "feed_order": [
     "qt5dom",
@@ -8799,6 +8799,66 @@
   ],
   "meeting_notes": [
     {
+      "id": "8slu3l",
+      "title": "& New Me_Weekly",
+      "date": "2026-11-16",
+      "summary": "Toplantıda James'in başarısız ödeme denemesi ve alternatif ödeme yöntemleri, yeni hasta adaylarının durumu ile Nate'ten alınamayan yaklaşık 500 Euro'luk tahsilat ele alındı. Nakit akışı baskısı nedeniyle kısa vadeli tahsilatların güvence altına alınması ve klinik sonuç içeriklerinin satış sürecine eklenmesi öne çıktı. Ahmet Fırat'ın seyahati süresince takip kısa toplantılar ve durum güncellemeleri",
+      "thread": "1a1e3c98f6c47c23",
+      "actions": [
+        {
+          "id": "akny0d",
+          "text": "Ahmet Fırat ve ekip, James'in yeni ödeme bağlantısıyla yapacağı denemeyi ve sistemdeki hata nedenlerini takip edecek; gerekirse TL üzerinden çalışan alternatif ödeme yöntemi sunulacak.",
+          "dep": "zeynep",
+          "owner": "Ahmet Fırat",
+          "due_date": "2026-11-17",
+          "party": "James",
+          "status": "proposed"
+        },
+        {
+          "id": "ggymgi",
+          "text": "Nate'ten yaklaşık 500 Euro tutarındaki ödemenin bu hafta içinde takip edilip tahsil edilmesi sağlanacak.",
+          "dep": "zeynep",
+          "owner": "Selin Sezgin",
+          "due_date": "2026-11-22",
+          "party": "Nate",
+          "status": "proposed"
+        },
+        {
+          "id": "55ftpy",
+          "text": "James'ten kalan tutarın depozito veya ameliyat öncesi ödeme şeklinde alınması için ödeme planı netleştirilecek.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "James",
+          "status": "proposed"
+        },
+        {
+          "id": "f7wyul",
+          "text": "Klinik Nova'ya ait mevcut içerikler ilgili sistemlere eklenecek.",
+          "dep": "ilksen",
+          "owner": "",
+          "party": "Klinik Nova",
+          "status": "proposed"
+        },
+        {
+          "id": "odw19e",
+          "text": "Selin Sezgin, devam eden adayları ve otel görüşmelerini ekiple paylaşacak; aktif, bekleyen ve yeniden canlanabilecek adayları ayrı ayrı takip edecek.",
+          "dep": "zeynep",
+          "owner": "Selin Sezgin",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "1oogt4",
+          "text": "Ahmet Fırat'ın Helsinki seyahati süresince kısa toplantılar, ses kayıtları veya düzenli durum güncellemeleriyle satış ve operasyon süreçleri takip edilecek.",
+          "dep": "idari",
+          "owner": "Ahmet Fırat",
+          "due_date": "2026-11-17",
+          "party": "",
+          "status": "proposed"
+        }
+      ]
+    },
+    {
       "id": "j2jmlc",
       "title": "& New Me_Daily",
       "date": "2026-11-13",
@@ -9811,64 +9871,6 @@
           "id": "qe23wg",
           "text": "Tekrarlayan hasta soruları, ödeme sorunları ve gecikmeler derlenecek; seyahat rezervasyon süreci hastalara net şekilde anlatılacak.",
           "dep": "ecem",
-          "owner": "",
-          "party": "",
-          "status": "proposed"
-        }
-      ]
-    },
-    {
-      "id": "p5430s",
-      "title": "& New Me_Weekly",
-      "date": "2026-10-19",
-      "summary": "Toplantıda lead kalitesi, satış dönüşümü, doktor seçimi ve fiyatlandırma süreçleri ile kontrollü reklam yatırımı modeli ele alındı. Ocak ayına kadar hızlı yanıt ve ortak konsültasyonlarla en az dört-beş satış hedeflendi; ilk reklam odağı Yeni Zelanda gastric sleeve akışı olacak. Site geçişi nedeniyle teklif bağlantıları güncellenecek ve nakit akışı için erken ödemeler öncelikli tutulacak.",
-      "thread": "1a153c2606709ab9",
-      "actions": [
-        {
-          "id": "zl9hh1",
-          "text": "Site geçişi nedeniyle mevcut teklif bağlantılarını güncelle ve yeni tekliflerde standartlaştırılmış kodu kullan.",
-          "dep": "zeynep",
-          "owner": "",
-          "party": "",
-          "status": "proposed"
-        },
-        {
-          "id": "ig1ru0",
-          "text": "Şubat ayı işlemleri için ilerleyen Yeni Zelanda ve Amerika'daki hastaların ödeme, depozito ve operasyon tarihlerini doğrula; yanıt vermeyen leadleri aktif listeden ele.",
-          "dep": "zeynep",
-          "owner": "",
-          "party": "Yeni Zelanda ve Amerika'daki hastalar",
-          "status": "proposed"
-        },
-        {
-          "id": "gwp26h",
-          "text": "Ocak ayına kadar hızlı yanıt ve ortak konsültasyonlarla en az dört-beş satış kapat.",
-          "dep": "zeynep",
-          "owner": "",
-          "due_date": "2027-01-31",
-          "party": "",
-          "status": "proposed"
-        },
-        {
-          "id": "c3zhjp",
-          "text": "Reklam harcamaları, leadler ve satışları izleyecek ayrı bir dashboard kur ve Yeni Zelanda gastric sleeve akışıyla kontrollü reklam yatırımını başlat (dönüşüm maliyeti hedefi 300-400 € altı).",
-          "dep": "ilksen",
-          "owner": "",
-          "party": "Yeni Zelanda gastric sleeve",
-          "status": "added"
-        },
-        {
-          "id": "sc881z",
-          "text": "Codi için sağlık değerleri nedeniyle ek takip yap; uçuş, konaklama, ödeme ve ameliyat öncesi kontrolleri birlikte izle.",
-          "dep": "ecem",
-          "owner": "",
-          "party": "Codi",
-          "status": "proposed"
-        },
-        {
-          "id": "qj4tkl",
-          "text": "Hatcher üzerinden kullanıcı davranışı, doktor eşleşmesi ve dönüşüm kayıplarını analiz et; rakipleri araştır ve yeni arama promptlarıyla yapay zekâ görünürlüğünü düzenli takip et.",
-          "dep": "ilksen",
           "owner": "",
           "party": "",
           "status": "proposed"
