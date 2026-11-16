@@ -3264,6 +3264,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush meeting talebi: Alejo Costa Ribalta (CRB Health Tech) bu sefer olamayacağını bildirdi, Slush sonrası görüşmek istiyor. İletişim: acosta@crossroadbiotech.com (kaynak: E-posta (16 Kas 12:56): Slush · Alejo Costa Ribalta has declined your meeting re)",
+          "at": "2026-11-16 12:58"
+        },
+        {
           "text": "Slush: Jussi Kallasvuo (Antler GP) toplantı talebimizi reddetti (16 Kas). Şu an odağı dışında, yeni talep gönderilebilir. (kaynak: E-posta (16 Kas 09:52): Slush · Jussi Kallasvuo has declined your meeting reques)",
           "at": "2026-11-16 09:53"
         },
@@ -3378,10 +3382,6 @@
         {
           "text": "Slush Ross McNairn (Wordsmith CEO) Q&A kaydı onaylandı: 18 Kas 2026, 13:26-13:56 (çevrim içi/yer belirtilmemiş). (kaynak: E-posta (28 Eki 16:19): Slush · [Slush 2026] You're in: Ross McNairn (CEO & Co-F)",
           "at": "2026-10-28 16:19"
-        },
-        {
-          "text": "Slush 2026: Ross McNairn (Wordsmith CEO) Q&A etkinliğine Ahmet kayıt oldu (e-posta, 28 Ekim). (kaynak: E-posta (28 Eki 16:17): Ahmet Tosun · Fwd: You're invited: Ross McNairn (CEO & C)",
-          "at": "2026-10-28 16:18"
         }
       ]
     },
@@ -3826,7 +3826,7 @@
       ]
     }
   ],
-  "updated": "2026-11-16 10:03",
+  "updated": "2026-11-16 12:58",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3893,7 +3893,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19a21c402e49dd",
     "1a19aec6e34f12a5",
     "1a19af15022a2594",
     "1a19af143ab6b0d0",
@@ -4192,7 +4191,8 @@
     "1a1e0fd8be575f17",
     "1a1e1e1690bf9b5d",
     "1a1e321233f30141",
-    "1a1e32ab01dae627"
+    "1a1e32ab01dae627",
+    "1a1e3c9d022c932f"
   ],
   "feed_order": [
     "qt5dom",
