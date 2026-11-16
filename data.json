@@ -1,12 +1,18 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-16",
   "source": "2026-10-16_sabah-brifing (Drive: 09_Management/briefing-system/handoffs)",
   "priorities": [
     "HubSpot Maximum monthly credits = 3.000 gir (yenileme 17 Ekim, en geç 10:00)",
     "Bugün kapanış tarihli dealleri (Hamza B. €4.980, Briahn T. €2.646) ve \"ulaşılmaya çalışıldı\" leadlerini netleştir",
     "HealthTürkiye yenileme ücretini ve CPA Türk 2025 kurumlar vergisi beyannamesini kontrol et"
   ],
-  "meetings": [],
+  "meetings": [
+    {
+      "time": "12:30",
+      "title": "& New Me_Weekly",
+      "note": "Hülya, Selin, Cemre · Google Meet"
+    }
+  ],
   "cash_alerts": [
     {
       "title": "Fulya Ada Eczanesi ilaç faturaları",
@@ -219,9 +225,9 @@
     },
     {
       "title": "SGK cari ay primi + maaşlar",
-      "amount": "₺78.576 + maaş",
+      "amount": "₺79.200 + maaş",
       "due": "31 Eki",
-      "note": "Ahmet maaşı kararı bekliyor (₺320K vs ₺120K). Eylül 2026 bordrosu (CPA Türk, 1 Eki): 4 personel, brüt ₺204.572,76, net ₺149.093,92 (Hülya ₺60.000 + Selin ₺60.000 + Cemre ₺28.075,50 + Bayram ₺1.018,42); Ahmet bordroda yok (Bağ-Kur). YENİ MAİL 26.10 18:07 (26 Eki 18:06 · Yasemin Hizarci · EYLÜL/2026 DÖNEMİNE AİT MUHTASAR VE SGK ÖDEMELERİİ ): SGK 09/2026 tahakkuk fişi (1 kişi): ₺355,08, ödeme günü 02.11; CPA Türk KDV evraklarını Çarşamba 28.10'a kadar istiyor",
+      "note": "Ahmet maaşı kararı bekliyor (₺320K vs ₺120K). Eylül 2026 bordrosu (CPA Türk, 1 Eki): 4 personel, brüt ₺204.572,76, net ₺149.093,92 (Hülya ₺60.000 + Selin ₺60.000 + Cemre ₺28.075,50 + Bayram ₺1.018,42); Ahmet bordroda yok (Bağ-Kur). YENİ MAİL 26.10 18:07 (26 Eki 18:06 · Yasemin Hizarci · EYLÜL/2026 DÖNEMİNE AİT MUHTASAR VE SGK ÖDEMELERİİ ): SGK 09/2026: normal fiş (3 kişi) ₺78.845,31 + emekli fişi (Bayram) ₺355,08 = ₺79.200,39; CPA Türk KDV evraklarını Çarşamba 28.10'a kadar istiyor",
       "action_type": "Ödeme",
       "category": "Vergi / SGK",
       "party": "SGK cari prim + maaşlar",
@@ -3816,7 +3822,7 @@
       ]
     }
   ],
-  "updated": "2026-11-16 04:03",
+  "updated": "2026-11-16 07:10",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -7916,7 +7922,7 @@
       "id": "sgk-cari",
       "name": "SGK cari ay primleri (şirket)",
       "kind": "Prim · aylık",
-      "left": 149995.8,
+      "left": 150620.19,
       "left_est": true,
       "brk": {
         "n": 4,
@@ -7934,10 +7940,9 @@
         },
         {
           "d": "2026-10-30",
-          "amt": 78576,
-          "label": "Eylül primi (vade ≈30.10, bordro tahmini ₺78.576)",
-          "inst": true,
-          "est": true
+          "amt": 79200.39,
+          "label": "Eylül primi (fiş 9417 ₺78.845,31 + emekli fişi 9418 ₺355,08)",
+          "inst": true
         }
       ]
     },
@@ -8677,7 +8682,7 @@
       ]
     }
   ],
-  "meetings_date": "2026-11-15",
+  "meetings_date": "2026-11-16",
   "directory": [
     {
       "id": "g5cmcp",
@@ -9992,7 +9997,7 @@
         "start": "2024-10-11",
         "gross": 1101,
         "net": 1018.42,
-        "note": "Her ay 1 gün bordro (₺1.101 brüt); sembolik kayıt gibi duruyor, Ahmet'e teyit sorulacak"
+        "note": "Emekli (SGDP, kanun 5510 4/a emekli çalışan); ayda 1 gün sembolik bordro. Şirkette turizm mezunu birinin çalıştırılması acenta belgesi için zorunlu (Ahmet, 15.11.2026). SGK'ya ayrı 'EMEKLİ' tahakkuk fişi çıkar (Eylül ₺355,08)"
       }
     ],
     "left": [
@@ -10012,6 +10017,70 @@
         "note": "Çıkış süreci mailleri (CPA Türk 'işten ayrılma süreci'), tarih belgeden teyit edilmeli"
       }
     ],
-    "parasut_stale_recurring": "Paraşüt tekrarlayan maaş kayıtları eski: Seda Özkorkmaz ₺7.447,11 (ayrılmış), Selin Öner ₺5.698,64 (son mail 31.07.2025), Kübra Meriç (ayrılmış gibi), Hülya Alkan ₺8.146,50 (güncel bordro neti ₺60.000, kayıt uyumsuz). Güncel kaynak bordrodur, Paraşüt kaydı değil."
+    "parasut_stale_recurring": "Paraşüt tekrarlayan maaş kayıtları (Seda ₺7.447,11, Selin Öner ₺5.698,64, Kübra Meriç, Hülya ₺8.146,50) eskiydi; Ahmet 15.11.2026: başka bir oturum halletti, silindi sanıyor (Paraşüt'te doğrulanmadı). Güncel kaynak bordrodur.",
+    "sgk_eylul_2026": {
+      "source": "CPA Türk maili 26.10.2026 (EYLÜL/2026 MUHTASAR VE SGK ÖDEMELERİ), SGK tahakkuk fişleri 9417 ve 9418",
+      "normal_fis_9417": {
+        "kisi": 3,
+        "pek": 203471.76,
+        "prim": 72741.15,
+        "issizlik": 6104.16,
+        "odenecek": 78845.31,
+        "kapsam": "Hülya + Selin + Cemre"
+      },
+      "emekli_fis_9418": {
+        "kisi": 1,
+        "pek": 1101.0,
+        "odenecek": 355.08,
+        "kapsam": "Bayram Gülcan (emekli, SGDP %30 + KSK %2,25)"
+      },
+      "toplam_odenecek": 79200.39,
+      "vade": "fiş 30.10 (normal) / mail: 02.11",
+      "note": "Fişler teşvikten indirimsiz TAM prim; bordro toplamıyla (₺79.200,41) birebir tutar. Önceki not 'tahakkuk 1 kişi ₺355,08' yalnız emekli fişiydi, asıl prim ₺78.845,31."
+    },
+    "tesvik": {
+      "mantik": "Hizmet ihracatı (DYS) teşviki aylık SGK fişini DÜŞÜRMEZ; sonradan tahakkuk eder, önce SGK ve Maliye borçlarına mahsup edilir, kalan nakit yatar.",
+      "source": "Airtable Teşvik Hub > Tahakkuklar (11 ödeme, hepsi 'Ödendi'; okunma 15.11.2026)",
+      "toplam": 793867,
+      "sgk_mahsup": 230195,
+      "maliye_mahsup": 563672,
+      "nakit": 0,
+      "son_odeme": "2026-08-13 (₺70.288: SGK ₺56.290 + Maliye ₺13.998; başvuru 17.12.2025)",
+      "bekleyen_tahakkuk": "Yok (kayıtlı bekleyen ödenek yok). Açık 6 DYS başvurusu 'Başvuru' aşamasında (4 Reklam/Tanıtım, 1 Hasta Yol, 1 İzleme sonuçlanan), tutarları belli değil",
+      "sgk_mahsup_detay": [
+        [
+          "2025-09-02",
+          21557
+        ],
+        [
+          "2025-10-15",
+          8888
+        ],
+        [
+          "2025-12-19",
+          9334
+        ],
+        [
+          "2025-12-23",
+          17912
+        ],
+        [
+          "2026-02-19",
+          11849
+        ],
+        [
+          "2026-04-03",
+          34967
+        ],
+        [
+          "2026-07-29",
+          69398
+        ],
+        [
+          "2026-08-13",
+          56290
+        ]
+      ]
+    }
   }
 }
