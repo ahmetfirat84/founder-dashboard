@@ -1638,6 +1638,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Paraşüt haftalık özet (16 Kas): gecikmiş tahsilat ₺1.458.529 (66 fatura), gecikmiş gider ₺1.365.572 (474 gider), tüm ödenmemiş gider ₺2.528.659, hesap bakiyesi -₺1.196.210. (kaynak: E-posta (16 Kas 04:03): Paraşüt · Haftalık Finansal Durumunuz)",
+          "at": "2026-11-16 04:03"
+        },
+        {
           "text": "Emre Aktan talebi: GK (27 Kas) öncesi 2023-2025 bilanço, gelir tablosu ve varsa faaliyet raporlarının PDF'i paylaşılacak. (kaynak: E-posta (15 Kas 09:45): emre aktan · Yeniben Genel Kurul – Finansallar)",
           "at": "2026-11-15 09:46"
         },
@@ -1752,10 +1756,6 @@
         {
           "text": "Selin Sezgin Kasım maaşı ₺60.000 net, 06.11.2026 13:44 Garanti BBVA havalesiyle ödendi (havale masrafı ₺8,38). (kaynak: WhatsApp (6 Kas 13:44, belge))",
           "at": "2026-11-06 13:45"
-        },
-        {
-          "text": "📎 belge arşivlendi: TOBB (Türkiye Odalar ve Borsalar Birliği) 2026-11-06 no 4340000153 ₺1.350 → https://drive.google.com/file/d/1PV-u42mmX9GePfFMhmS1ZHRliiExEWNi/view?usp=drivesdk",
-          "at": "2026-11-06 11:26"
         }
       ],
       "drawer": [
@@ -3816,7 +3816,7 @@
       ]
     }
   ],
-  "updated": "2026-11-15 23:55",
+  "updated": "2026-11-16 04:03",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3883,7 +3883,6 @@
     }
   ],
   "asistan_seen": [
-    "1a198a7ce5c1b252",
     "1a198a7cd07d58dc",
     "1a199c8acaa2b45f",
     "1a19a21c402e49dd",
@@ -4182,7 +4181,8 @@
     "1a1deb8c9dcde3dd",
     "1a1df2af170cbb2f",
     "1a1e0716c9b87045",
-    "1a1e0fd8be575f17"
+    "1a1e0fd8be575f17",
+    "1a1e1e1690bf9b5d"
   ],
   "feed_order": [
     "qt5dom",
