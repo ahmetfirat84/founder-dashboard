@@ -3563,6 +3563,10 @@
       ],
       "notes": [
         {
+          "text": "Zümrüt Parfümeri siparişi TS16117717 kargoya verildi (Yurtiçi, kargo no henüz yok), toplam ₺7.437, fatura Yeniben Elektronik adına kesilecek. (kaynak: E-posta (16 Kas 13:10): zumrutparfumeri · Siparişiniz kargoya verilmiştir. Fatur)",
+          "at": "2026-11-16 13:11"
+        },
+        {
           "text": "YourBusinessNumber'dan İngiltere WhatsApp Business numarası satın alındı (+447418633214). Mailde tutar ve yenileme tarihi yok; ücret ve abonelik durumu kontrol edilmeli. (kaynak: E-posta (15 Kas 21:21): hello@yourbusinessnumber.com · YourBusinessNumber Order )",
           "at": "2026-11-15 21:22"
         },
@@ -3677,10 +3681,6 @@
         {
           "text": "Google Workspace Business Standard (sinemtanerproject.com) 28 Ekim 2026'da otomatik yenilenecek; mailde tutar yok, Google Admin Billing'den kontrol edilebilir. (kaynak: E-posta (27 Eki 11:46): The Google Workspace Team · Renewal Reminder: Your Googl)",
           "at": "2026-10-27 11:47"
-        },
-        {
-          "text": "Google Workspace yöneticisi: Görevler için Workspace Intelligence varsayılan AÇIK gelecek (14 Kasım 2026'dan itibaren Gemini bağlam olarak kullanabilir). İstemiyorsan Yönetici Konsolu'ndan 14 Kasım'a kadar kapat. (kaynak: E-posta (23 Eki 05:09): The Google Workspace Team ·  [Ürün Güncellemesi] Google )",
-          "at": "2026-10-23 05:10"
         }
       ]
     },
@@ -3830,7 +3830,7 @@
       ]
     }
   ],
-  "updated": "2026-11-16 13:00",
+  "updated": "2026-11-16 13:11",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3897,7 +3897,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0EyRkJGNkMxRUY4NTUxMDMzREIA",
     "1a19b1b7ce9bd9fc",
     "1a19b1b75097cbd5",
     "1a19b1e0eafc741f",
@@ -4196,7 +4195,8 @@
     "1a1e3c9d022c932f",
     "1a1e3c98f6c47c23",
     "1a1e3cc6bf1b20e1",
-    "1a1e3cc6743c27c9"
+    "1a1e3cc6743c27c9",
+    "1a1e3d687a96bba1"
   ],
   "feed_order": [
     "qt5dom",
