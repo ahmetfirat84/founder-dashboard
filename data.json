@@ -3784,6 +3784,10 @@
       ],
       "notes": [
         {
+          "text": "Zümrüt Parfümeri: Terre d'Hermes Pure Parfum 125ml Refill siparişi (TS16117717), 7.437 TL Garanti kredi kartıyla tahsil edildi. Ürün 24-48 saat içinde kargoya verilecek (Yurtiçi Kargo). (kaynak: E-posta (16 Kas 10:03): zumrutparfumeri · Siparişiniz Onaylandı)",
+          "at": "2026-11-16 10:03"
+        },
+        {
           "text": "Todoist günlük özeti: 99 gecikmiş görev var, bugün vadeli görev yok; gerekirse yeniden planlama/silme yapılabilir. (kaynak: E-posta (15 Kas 04:53): Todoist · Ahmet’s task(s) for 15 Nov 2026 → 10+ overdue)",
           "at": "2026-11-15 04:54"
         },
@@ -3822,7 +3826,7 @@
       ]
     }
   ],
-  "updated": "2026-11-16 09:53",
+  "updated": "2026-11-16 10:03",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3889,7 +3893,6 @@
     }
   ],
   "asistan_seen": [
-    "1a199c8acaa2b45f",
     "1a19a21c402e49dd",
     "1a19aec6e34f12a5",
     "1a19af15022a2594",
@@ -4188,7 +4191,8 @@
     "1a1e0716c9b87045",
     "1a1e0fd8be575f17",
     "1a1e1e1690bf9b5d",
-    "1a1e321233f30141"
+    "1a1e321233f30141",
+    "1a1e32ab01dae627"
   ],
   "feed_order": [
     "qt5dom",
