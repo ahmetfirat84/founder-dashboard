@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "source": "2026-10-16_sabah-brifing (Drive: 09_Management/briefing-system/handoffs)",
   "priorities": [
     "HubSpot Maximum monthly credits = 3.000 gir (yenileme 17 Ekim, en geç 10:00)",
@@ -8,8 +8,13 @@
   ],
   "meetings": [
     {
+      "time": "10:35",
+      "title": "✈️ Helsinki uçuşu (PC 1311, SAW)",
+      "note": "Slush yolculuğu"
+    },
+    {
       "time": "12:30",
-      "title": "& New Me_Weekly",
+      "title": "& New Me_Daily",
       "note": "Hülya, Selin, Cemre · Google Meet"
     }
   ],
@@ -3862,7 +3867,7 @@
       ]
     }
   ],
-  "updated": "2026-11-17 06:37",
+  "updated": "2026-11-17 08:00",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -8722,7 +8727,7 @@
       ]
     }
   ],
-  "meetings_date": "2026-11-16",
+  "meetings_date": "2026-11-17",
   "directory": [
     {
       "id": "g5cmcp",
