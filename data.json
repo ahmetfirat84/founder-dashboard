@@ -3327,6 +3327,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush: Oak HC/FT Partner Oivind Lorentzen toplantı talebini reddetti (not: 'şu an odağıma uymuyor'). Yeni talep gönderilebilir. (kaynak: E-posta (17 Kas 15:33): Slush · Oivind Lorentzen has declined your meeting reque)",
+          "at": "2026-11-17 15:34"
+        },
+        {
           "text": "Slush: Midelfart Capital'den Celina Midelfart toplantı talebimizi reddetti (17 Kas). Başka yatırımcılara talep göndermeye devam edilebilir. (kaynak: E-posta (17 Kas 12:34): Slush · Celina Midelfart has declined your meeting reque)",
           "at": "2026-11-17 12:35"
         },
@@ -3441,10 +3445,6 @@
         {
           "text": "Slush Meeting Tool: Francisco Görlich (DENAVA GmbH) toplantı talebini reddetti (6 Kas). Yeni talepler gönderilebilir. (kaynak: E-posta (6 Kas 12:34): Slush · Francisco Görlich has declined your meeting reque)",
           "at": "2026-11-06 12:34"
-        },
-        {
-          "text": "Slush: Nikita Zatsepin (Creally CEO) ile planlanan toplantı karşı taraf tarafından iptal edildi; yeni toplantı için Slush platformundan tekrar randevu alınabilir. (kaynak: E-posta (5 Kas 20:12): Slush · Your meeting with Nikita Zatsepin has been cancel)",
-          "at": "2026-11-05 20:12"
         }
       ]
     },
@@ -3890,7 +3890,7 @@
       ]
     }
   ],
-  "updated": "2026-11-17 14:36",
+  "updated": "2026-11-17 15:34",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3957,7 +3957,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19b7e74d3708a6",
     "1a19b7e612c97e09",
     "1a19b859063aa564",
     "1a19b89016b8ffe7",
@@ -4256,7 +4255,8 @@
     "1a1e8dbe0f815447",
     "1a1e8e56f0414532",
     "1a1e90fb21692400",
-    "1a1e94b439831874"
+    "1a1e94b439831874",
+    "1a1e97feff570394"
   ],
   "feed_order": [
     "qt5dom",
