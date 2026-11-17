@@ -3238,7 +3238,7 @@
           "uid": "td_6hhgrxCw2PRHCQhh",
           "source": "todoist",
           "plan_date": "2026-10-24",
-          "note": "YENİ MAİL 04.11 12:56 (4 Kas 12:55 · Slush · Christian Bisaillon has declined your meeting request): Christian Bisaillon (Hyberden Ventures) meeting talebini reddetti: yatırım odağına uymuyor (4 Kas). YENİ MAİL 06.11 21:56 (6 Kas 21:55 · Slush · Dominik Alvermann has declined your meeting request): Dominik Alvermann (Acton Capital) meeting talebini reddetti (6 Kas). YENİ MAİL 10.11 11:08 (10 Kas 11:07 · Slush · [Slush 2026] Application received: New Nordics Healthtech Ma): New Nordics Healthtech Matchmaking (Slush) başvurusu alındı, 10 Kas; karar bekleniyor. YENİ MAİL 11.11 17:42 (11 Kas 17:42 · Slush · Yury Shlahanau has declined your meeting request): Tetrad VC'den Yury Shlahanau (Slush) toplantı talebini reddetti, 11 Kas 2026. YENİ MAİL 12.11 00:51 (12 Kas 00:51 · Slush · Austin Hwang has declined your meeting request): Austin Hwang (ADVentures) meeting talebini reddetti (11 Kas). YENİ MAİL 12.11 12:50 (12 Kas 12:49 · Slush · Monika Mikac has declined your meeting request): N-Vision Ventures (Monika Mikac) görüşme talebini reddetti: yalnızca SEE bölgesine yatırım yapıyor, Türkiye dahil değil. YENİ MAİL 13.11 14:06 (13 Kas 14:05 · Slush Platform · Exploring synergies): Elisa Kitunen (EEX Oy) Slush'ta görüşme talep etti: 'Exploring synergies', EEX Journey advisory board programı (ücretsiz, hisse yok). Platformda kabul/red. YENİ MAİL 14.11 20:27 (14 Kas 20:26 · Slush · Milapsinh Jadeja has declined your meeting request): Milapsinh Jadeja (Metl Ventures) bu talebi reddetti, Slush sonrası görüşmek istiyor: mj@metl.vc YENİ MAİL 15.11 15:25 (15 Kas 15:24 · Slush · Koteswar Krishna has declined your meeting request): Koteswar Krishna (Krishna Capital) toplantı talebini reddetti: yatırım odağıyla uyumsuz (15 Kas)."
+          "note": "YENİ MAİL 04.11 12:56 (4 Kas 12:55 · Slush · Christian Bisaillon has declined your meeting request): Christian Bisaillon (Hyberden Ventures) meeting talebini reddetti: yatırım odağına uymuyor (4 Kas). YENİ MAİL 06.11 21:56 (6 Kas 21:55 · Slush · Dominik Alvermann has declined your meeting request): Dominik Alvermann (Acton Capital) meeting talebini reddetti (6 Kas). YENİ MAİL 10.11 11:08 (10 Kas 11:07 · Slush · [Slush 2026] Application received: New Nordics Healthtech Ma): New Nordics Healthtech Matchmaking (Slush) başvurusu alındı, 10 Kas; karar bekleniyor. YENİ MAİL 11.11 17:42 (11 Kas 17:42 · Slush · Yury Shlahanau has declined your meeting request): Tetrad VC'den Yury Shlahanau (Slush) toplantı talebini reddetti, 11 Kas 2026. YENİ MAİL 12.11 00:51 (12 Kas 00:51 · Slush · Austin Hwang has declined your meeting request): Austin Hwang (ADVentures) meeting talebini reddetti (11 Kas). YENİ MAİL 12.11 12:50 (12 Kas 12:49 · Slush · Monika Mikac has declined your meeting request): N-Vision Ventures (Monika Mikac) görüşme talebini reddetti: yalnızca SEE bölgesine yatırım yapıyor, Türkiye dahil değil. YENİ MAİL 13.11 14:06 (13 Kas 14:05 · Slush Platform · Exploring synergies): Elisa Kitunen (EEX Oy) Slush'ta görüşme talep etti: 'Exploring synergies', EEX Journey advisory board programı (ücretsiz, hisse yok). Platformda kabul/red. YENİ MAİL 14.11 20:27 (14 Kas 20:26 · Slush · Milapsinh Jadeja has declined your meeting request): Milapsinh Jadeja (Metl Ventures) bu talebi reddetti, Slush sonrası görüşmek istiyor: mj@metl.vc YENİ MAİL 15.11 15:25 (15 Kas 15:24 · Slush · Koteswar Krishna has declined your meeting request): Koteswar Krishna (Krishna Capital) toplantı talebini reddetti: yatırım odağıyla uyumsuz (15 Kas). YENİ MAİL 17.11 09:04 (17 Kas 09:03 · Slush · Nikolai Legkodimov has declined your meeting request): Nikolai Legkodimov (NEFES Holding CIO) randevu talebini reddetti (17 Kas)."
         },
         {
           "action_type": "Yanıt",
@@ -3867,7 +3867,7 @@
       ]
     }
   ],
-  "updated": "2026-11-17 08:00",
+  "updated": "2026-11-17 09:04",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3934,7 +3934,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19b71aa0bb22ce",
     "1a19b73d4c824bd3",
     "1a19b751688747d8",
     "1a19b771e4bc5b4f",
@@ -4233,7 +4232,8 @@
     "1a1e4d5686985d15",
     "1a1e607d178cf102",
     "1a1e733e3459e343",
-    "1a1e7943623783f1"
+    "1a1e7943623783f1",
+    "1a1e81ace8f191b3"
   ],
   "feed_order": [
     "qt5dom",
