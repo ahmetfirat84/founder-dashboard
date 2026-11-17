@@ -3331,6 +3331,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush: Kfund'dan Iñaki Arrola toplantı talebini reddetti (yatırım odağı uyumsuz). Aksiyon gerekmiyor. (kaynak: E-posta (17 Kas 19:00): Slush · Iñaki Arrola has declined your meeting request)",
+          "at": "2026-11-17 19:00"
+        },
+        {
           "text": "Slush: Oak HC/FT Partner Oivind Lorentzen toplantı talebini reddetti (not: 'şu an odağıma uymuyor'). Yeni talep gönderilebilir. (kaynak: E-posta (17 Kas 15:33): Slush · Oivind Lorentzen has declined your meeting reque)",
           "at": "2026-11-17 15:34"
         },
@@ -3445,10 +3449,6 @@
         {
           "text": "Rita Sheth (heyjustvox) $10M yatırım takibi: 10M, motorlarını MCP/API ile diğer uygulama ve AI ajanlarına da açıyor; Decacorn Angels'ın deep tech odağına uyar mı diye tek kelimelik yanıt bekliyor. (kaynak: E-posta (8 Kas 08:58): Rita Sheth · Re: Investment round)",
           "at": "2026-11-08 08:59"
-        },
-        {
-          "text": "Slush Meeting Tool: Francisco Görlich (DENAVA GmbH) toplantı talebini reddetti (6 Kas). Yeni talepler gönderilebilir. (kaynak: E-posta (6 Kas 12:34): Slush · Francisco Görlich has declined your meeting reque)",
-          "at": "2026-11-06 12:34"
         }
       ]
     },
@@ -3894,7 +3894,7 @@
       ]
     }
   ],
-  "updated": "2026-11-17 18:43",
+  "updated": "2026-11-17 19:00",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3961,7 +3961,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19b89016b8ffe7",
     "1a19bcfd7a2d1cb4",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDM1NUQ3NUIxRjc5NTlBODI3OQA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEE1MDlBRUNFRTYyM0IwRDIwNzIA",
@@ -4260,7 +4259,8 @@
     "1a1e94b439831874",
     "1a1e97feff570394",
     "1a1ea2be259267fa",
-    "1a1ea2d3a064681c"
+    "1a1ea2d3a064681c",
+    "1a1ea3ce55670301"
   ],
   "feed_order": [
     "qt5dom",
