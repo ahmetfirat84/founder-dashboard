@@ -2850,6 +2850,10 @@
       "summary": "2 deal bugün kapanıyor",
       "notes": [
         {
+          "text": "James Sanford (Sandford) iyzico ile ₺58.689 ödeme yaptı (Remaining Balance 1/2, 17.11.2026). Kalan ödeme (2/2) için tutar ve tarih teyit edilmeli. (kaynak: E-posta (17 Kas 18:41): iyziLink · Ödeme alındı)",
+          "at": "2026-11-17 18:42"
+        },
+        {
           "text": "James Sandford (Rhinoplasty taksit) iyzico ile ₺13.067 ödedi, 16 Kas 2026, ödeme no 4308023142. (kaynak: E-posta (16 Kas 12:59): iyziLink · Ödeme alındı)",
           "at": "2026-11-16 13:00"
         },
@@ -3890,7 +3894,7 @@
       ]
     }
   ],
-  "updated": "2026-11-17 15:34",
+  "updated": "2026-11-17 18:42",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3957,7 +3961,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19b7e612c97e09",
     "1a19b859063aa564",
     "1a19b89016b8ffe7",
     "1a19bcfd7a2d1cb4",
@@ -4256,7 +4259,8 @@
     "1a1e8e56f0414532",
     "1a1e90fb21692400",
     "1a1e94b439831874",
-    "1a1e97feff570394"
+    "1a1e97feff570394",
+    "1a1ea2be259267fa"
   ],
   "feed_order": [
     "qt5dom",
