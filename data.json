@@ -3781,7 +3781,7 @@
           "urgency": "gray",
           "text": "Uçak biletlerini al (Republic Day miles kampanyası, Ahmet'in e-posta notu: 'yarın alalım')",
           "owner": "",
-          "note": "YENİ MAİL 29.10 08:17 (29 Eki 08:16 · Ahmet Tosun · Re: Earn Extra 1,923 Status Miles on Republic Day!): Mail notu: Republic Day miles kampanyasındaki biletler 2027'ye alınan uçuşlar için. YENİ MAİL 03.11 06:35 (3 Kas 06:35 · Google Flights · Your tracked flight to Helsinki is now TRY 19,590 (was TRY ): Google Flights: İstanbul-Helsinki gidiş-dönüş 17-20 Kas fiyatı ₺19.590'a düştü (önceki ₺27.720). YENİ MAİL 10.11 10:36 (10 Kas 10:35 · Pegasus · PC1311 Helsinki: Uçuşun için şimdi check-in yap, havalimanın): Bilet alındı: PC1311 SAW-HEL, 17 Kas 2026 10:35 kalkış, PNR 2K79PE; online check-in 16 Kas'tan itibaren açılır."
+          "note": "YENİ MAİL 29.10 08:17 (29 Eki 08:16 · Ahmet Tosun · Re: Earn Extra 1,923 Status Miles on Republic Day!): Mail notu: Republic Day miles kampanyasındaki biletler 2027'ye alınan uçuşlar için. YENİ MAİL 03.11 06:35 (3 Kas 06:35 · Google Flights · Your tracked flight to Helsinki is now TRY 19,590 (was TRY ): Google Flights: İstanbul-Helsinki gidiş-dönüş 17-20 Kas fiyatı ₺19.590'a düştü (önceki ₺27.720). YENİ MAİL 10.11 10:36 (10 Kas 10:35 · Pegasus · PC1311 Helsinki: Uçuşun için şimdi check-in yap, havalimanın): Bilet alındı: PC1311 SAW-HEL, 17 Kas 2026 10:35 kalkış, PNR 2K79PE; online check-in 16 Kas'tan itibaren açılır. YENİ MAİL 17.11 06:37 (17 Kas 06:36 · Google Flights · Prices for your tracked flights to Helsinki have changed): Google Flights (17 Kas): İstanbul-Helsinki gidiş-dönüş 19-22 Kas ₺17.935'e yükseldi (önceki ₺16.593); Pegasus direkt SAW-HEL ₺19.051'e düştü (önceki ₺21.286)."
         },
         {
           "action_type": "Ödeme",
@@ -3862,7 +3862,7 @@
       ]
     }
   ],
-  "updated": "2026-11-17 04:52",
+  "updated": "2026-11-17 06:37",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3929,7 +3929,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19b71bcfe3a277",
     "1a19b71aa0bb22ce",
     "1a19b73d4c824bd3",
     "1a19b751688747d8",
@@ -4228,7 +4227,8 @@
     "1a1e45fce9d7cf65",
     "1a1e4d5686985d15",
     "1a1e607d178cf102",
-    "1a1e733e3459e343"
+    "1a1e733e3459e343",
+    "1a1e7943623783f1"
   ],
   "feed_order": [
     "qt5dom",
