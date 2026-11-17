@@ -1684,6 +1684,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Bolt yolculuk fişi: 17 Kas 2026, Helsinki–Espoo, €19.90 (KDV dahil), şirket kartı ••3399 ile çekildi. Gider kaydı için. (kaynak: E-posta (18 Kas 02:58): Bolt · Your Bolt ride on Tuesday)",
+          "at": "2026-11-18 02:58"
+        },
+        {
           "text": "iyzico şüpheli işlem bildirimi: ödeme ID 4310377782 dolandırıcılık filtresine takıldı ve incelemede. İnceleme sonucu gelene kadar ilgili ürün/hizmet için işlem yapılmaması isteniyor. (kaynak: E-posta (17 Kas 18:43): iyzico · Suspicious transaction detected)",
           "at": "2026-11-17 18:43"
         },
@@ -1798,10 +1802,6 @@
         {
           "text": "📎 fatura-gelen arşivlendi: Make (Celonis Inc.) 2026-11-07 no JM8I61UO-0006 → https://drive.google.com/file/d/1wBVUkVtvLt5Mc6HXjLXFqaq-qPoJlbNm/view?usp=drivesdk",
           "at": "2026-11-07 10:48"
-        },
-        {
-          "text": "📎 belge arşivlendi: Selin Sezgin (maaş dekontu) 2026-11-06 ₺60.000 → https://drive.google.com/file/d/1I1zkfVhxMTxY5fxZF4vOEP4GUzK407vy/view?usp=drivesdk",
-          "at": "2026-11-06 13:45"
         }
       ],
       "drawer": [
@@ -3894,7 +3894,7 @@
       ]
     }
   ],
-  "updated": "2026-11-18 01:58",
+  "updated": "2026-11-18 02:58",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3961,7 +3961,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19bddad137a817",
     "1a19be521da13916",
     "1a19be4f7100c48d",
     "1a19be9469db719c",
@@ -4260,7 +4259,8 @@
     "1a1ea3ce55670301",
     "1a1ea62f945637f0",
     "1a1ebb33ee5f59c0",
-    "1a1ebbb4fef0e9c2"
+    "1a1ebbb4fef0e9c2",
+    "1a1ebf27ef8b0a31"
   ],
   "feed_order": [
     "qt5dom",
