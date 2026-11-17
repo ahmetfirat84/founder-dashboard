@@ -1032,6 +1032,24 @@
       "due_date": "2026-11-24",
       "title": "Zümrüt Parfümeri",
       "note": "Zümrüt Parfümeri'den gelen ticari e-fatura (₺7.437,00) Paraşüt'te 8 gün içinde kabul veya red edilmeli."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Vergi",
+      "party": "Vergi Dairesi (Kurum geçici vergi 2026/07-09)",
+      "amount": "₺1.085,20",
+      "due": "Bugün 17 Kas",
+      "uid": "ecf2yf",
+      "source": "mail-gelen",
+      "origin": "E-posta (17 Kas 14:36): Yasemin Hizarci · 3. DÖNEM GEÇİCİ VERGİ ÖDEMELERİ",
+      "wamid": "1a1e94b439831874",
+      "mail_thread": "1a1e94b439831874",
+      "imp": "high",
+      "plan_date": "2026-11-17",
+      "amount_try": 1085.2,
+      "due_date": "2026-11-17",
+      "title": "Vergi Dairesi (Kurum geçici vergi 2026/07-09)",
+      "note": "3. dönem kurum geçici vergi tahakkuk fişi (CPA Türk, Yasemin Hızarcı): DVER ₺294,20 + 5035 ₺791,00, ödeme günü 17.11.2026"
     }
   ],
   "departments": [
@@ -3872,7 +3890,7 @@
       ]
     }
   ],
-  "updated": "2026-11-17 13:31",
+  "updated": "2026-11-17 14:36",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3939,7 +3957,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19b7b79e0c21be",
     "1a19b7e74d3708a6",
     "1a19b7e612c97e09",
     "1a19b859063aa564",
@@ -4238,7 +4255,8 @@
     "1a1e8cc8c4323ab9",
     "1a1e8dbe0f815447",
     "1a1e8e56f0414532",
-    "1a1e90fb21692400"
+    "1a1e90fb21692400",
+    "1a1e94b439831874"
   ],
   "feed_order": [
     "qt5dom",
