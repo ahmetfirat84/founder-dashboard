@@ -1684,6 +1684,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "iyzico şüpheli işlem bildirimi: ödeme ID 4310377782 dolandırıcılık filtresine takıldı ve incelemede. İnceleme sonucu gelene kadar ilgili ürün/hizmet için işlem yapılmaması isteniyor. (kaynak: E-posta (17 Kas 18:43): iyzico · Suspicious transaction detected)",
+          "at": "2026-11-17 18:43"
+        },
+        {
           "text": "Paraşüt haftalık özet (16 Kas): gecikmiş tahsilat ₺1.458.529 (66 fatura), gecikmiş gider ₺1.365.572 (474 gider), tüm ödenmemiş gider ₺2.528.659, hesap bakiyesi -₺1.196.210. (kaynak: E-posta (16 Kas 04:03): Paraşüt · Haftalık Finansal Durumunuz)",
           "at": "2026-11-16 04:03"
         },
@@ -1797,10 +1801,6 @@
         },
         {
           "text": "📎 belge arşivlendi: Selin Sezgin (maaş dekontu) 2026-11-06 ₺60.000 → https://drive.google.com/file/d/1I1zkfVhxMTxY5fxZF4vOEP4GUzK407vy/view?usp=drivesdk",
-          "at": "2026-11-06 13:45"
-        },
-        {
-          "text": "Selin Sezgin Kasım maaşı ₺60.000 net, 06.11.2026 13:44 Garanti BBVA havalesiyle ödendi (havale masrafı ₺8,38). (kaynak: WhatsApp (6 Kas 13:44, belge))",
           "at": "2026-11-06 13:45"
         }
       ],
@@ -3894,7 +3894,7 @@
       ]
     }
   ],
-  "updated": "2026-11-17 18:42",
+  "updated": "2026-11-17 18:43",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3961,7 +3961,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19b859063aa564",
     "1a19b89016b8ffe7",
     "1a19bcfd7a2d1cb4",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDM1NUQ3NUIxRjc5NTlBODI3OQA=",
@@ -4260,7 +4259,8 @@
     "1a1e90fb21692400",
     "1a1e94b439831874",
     "1a1e97feff570394",
-    "1a1ea2be259267fa"
+    "1a1ea2be259267fa",
+    "1a1ea2d3a064681c"
   ],
   "feed_order": [
     "qt5dom",
