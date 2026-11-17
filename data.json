@@ -3824,7 +3824,8 @@
           "amount_try": 690,
           "due_date": "2026-11-16",
           "text": "Elektrik faturası BEA2026047922824 (07.10-06.11 dönemi), ₺689,76, ödenecek ₺690,00; İş Bankası otomatik ödeme talimatı var. Önceki fatura r140 (BEA2026047260259, ₺645) ayrı.",
-          "owner": ""
+          "owner": "",
+          "note": "YENİ MAİL 17.11 12:45 (17 Kas 12:44 · Turkiye Is Bankasi A.S · Ödenemeyen Talimatlı Fatura Bilgisi): İş Bankası 17.11: talimatlı ₺690 ödemesi (son gün 16.11) bakiye yetersizliğinden ödenemedi, hesaba bakiye yüklenmeli."
         }
       ],
       "notes": [
@@ -3871,7 +3872,7 @@
       ]
     }
   ],
-  "updated": "2026-11-17 12:35",
+  "updated": "2026-11-17 12:45",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3938,7 +3939,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19b771e4bc5b4f",
     "1a19b7a27368c77d",
     "1a19b7b79e0c21be",
     "1a19b7e74d3708a6",
@@ -4237,7 +4237,8 @@
     "1a1e7943623783f1",
     "1a1e81ace8f191b3",
     "1a1e8cc8c4323ab9",
-    "1a1e8dbe0f815447"
+    "1a1e8dbe0f815447",
+    "1a1e8e56f0414532"
   ],
   "feed_order": [
     "qt5dom",
