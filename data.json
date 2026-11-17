@@ -3309,6 +3309,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush: Midelfart Capital'den Celina Midelfart toplantı talebimizi reddetti (17 Kas). Başka yatırımcılara talep göndermeye devam edilebilir. (kaynak: E-posta (17 Kas 12:34): Slush · Celina Midelfart has declined your meeting reque)",
+          "at": "2026-11-17 12:35"
+        },
+        {
           "text": "Slush: Eldar Salduzi (Salva Group) toplantı talebini reddetti. Series A/B odaklı, Slush'ta görüşme yok, ileride takipte kalmayı istiyor. (kaynak: E-posta (16 Kas 13:28): Slush · Eldar Salduzi has declined your meeting request)",
           "at": "2026-11-16 13:29"
         },
@@ -3423,10 +3427,6 @@
         {
           "text": "Slush: Nikita Zatsepin (Creally CEO) ile planlanan toplantı karşı taraf tarafından iptal edildi; yeni toplantı için Slush platformundan tekrar randevu alınabilir. (kaynak: E-posta (5 Kas 20:12): Slush · Your meeting with Nikita Zatsepin has been cancel)",
           "at": "2026-11-05 20:12"
-        },
-        {
-          "text": "IgniteXL Ventures (Mitchell Weinstock, Venture Partner): Slush'ta görüşülen pre-seed fonu. Dealflow formu doldurulup deck yüklenecek, formda Slush'ta görüşüldüğü belirtilecek. Mail 20 Kas 2025 tarihli. (kaynak: E-posta (20 Kas 19:08): Mitchell Weinstock · Re: Great to meet you at Slush – &N)",
-          "at": "2026-11-05 10:40"
         }
       ]
     },
@@ -3871,7 +3871,7 @@
       ]
     }
   ],
-  "updated": "2026-11-17 12:18",
+  "updated": "2026-11-17 12:35",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3938,7 +3938,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19b751688747d8",
     "1a19b771e4bc5b4f",
     "1a19b7a27368c77d",
     "1a19b7b79e0c21be",
@@ -4237,7 +4236,8 @@
     "1a1e733e3459e343",
     "1a1e7943623783f1",
     "1a1e81ace8f191b3",
-    "1a1e8cc8c4323ab9"
+    "1a1e8cc8c4323ab9",
+    "1a1e8dbe0f815447"
   ],
   "feed_order": [
     "qt5dom",
