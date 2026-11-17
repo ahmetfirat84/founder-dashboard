@@ -3595,6 +3595,10 @@
       ],
       "notes": [
         {
+          "text": "Google Apps Script 'asistan-mail-to-dashboard' tetikleyicisi 16-17 Kasım gecesi hata verdi (Gmail işlem izni + sunucu hataları); mail-to-dashboard akışı kontrol edilmeli. (kaynak: E-posta (17 Kas 04:51): noreply-apps-scripts-notifications@googl · Summary of fa)",
+          "at": "2026-11-17 04:52"
+        },
+        {
           "text": "Zümrüt Parfümeri siparişi TS16117717 kargoya verildi (Yurtiçi, kargo no henüz yok), toplam ₺7.437, fatura Yeniben Elektronik adına kesilecek. (kaynak: E-posta (16 Kas 13:10): zumrutparfumeri · Siparişiniz kargoya verilmiştir. Fatur)",
           "at": "2026-11-16 13:11"
         },
@@ -3709,10 +3713,6 @@
         {
           "text": "Apple üzerinden Instagram 'buluvahide' aboneliği onaylandı: ₺199,99/ay, 27 Kasım 2026'dan itibaren yenilenir. İptal için en az 1 gün önce Apple abonelik ayarlarından kapatılmalı. (kaynak: E-posta (27 Eki 16:49): Apple · Your Subscription is Confirmed)",
           "at": "2026-10-27 16:50"
-        },
-        {
-          "text": "Google Workspace Business Standard (sinemtanerproject.com) 28 Ekim 2026'da otomatik yenilenecek; mailde tutar yok, Google Admin Billing'den kontrol edilebilir. (kaynak: E-posta (27 Eki 11:46): The Google Workspace Team · Renewal Reminder: Your Googl)",
-          "at": "2026-10-27 11:47"
         }
       ]
     },
@@ -3862,7 +3862,7 @@
       ]
     }
   ],
-  "updated": "2026-11-16 23:24",
+  "updated": "2026-11-17 04:52",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3929,7 +3929,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19b60964f66efb",
     "1a19b71bcfe3a277",
     "1a19b71aa0bb22ce",
     "1a19b73d4c824bd3",
@@ -4228,7 +4227,8 @@
     "1a1e3f2c2f08b272",
     "1a1e45fce9d7cf65",
     "1a1e4d5686985d15",
-    "1a1e607d178cf102"
+    "1a1e607d178cf102",
+    "1a1e733e3459e343"
   ],
   "feed_order": [
     "qt5dom",
