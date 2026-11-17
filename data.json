@@ -2368,6 +2368,10 @@
       "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri",
       "notes": [
         {
+          "text": "HİB: Dünya Bankası Güney Afrika Ofisi çalıştay daveti (HİB yazısı 16/11/2026, ekte). Katılım son tarihi ve detay için ek belge kontrol edilmeli. (kaynak: E-posta (17 Kas 11:21): Hizmet İhracatçıları Birliği Genel Sekre · DUNYA BANKASI)",
+          "at": "2026-11-17 12:18"
+        },
+        {
           "text": "DYS ön onay sonucu (15 Kas 2026, destek kodu 26.HUST.001463, başvuru 16/06/2026): 'Uluslararası Sağlık Turisti Ulaşım' ön onay başvurusu UYGUN bulundu. Yazışmalar bölümünden eksik/karar bildirimlerini takip et. (kaynak: E-posta (15 Kas 10:43): Destek Yonetim Sistemi Bildirim Servisi · Ticaret Bakanl)",
           "at": "2026-11-15 10:43"
         },
@@ -3867,7 +3871,7 @@
       ]
     }
   ],
-  "updated": "2026-11-17 09:04",
+  "updated": "2026-11-17 12:18",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3934,7 +3938,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19b73d4c824bd3",
     "1a19b751688747d8",
     "1a19b771e4bc5b4f",
     "1a19b7a27368c77d",
@@ -4233,7 +4236,8 @@
     "1a1e607d178cf102",
     "1a1e733e3459e343",
     "1a1e7943623783f1",
-    "1a1e81ace8f191b3"
+    "1a1e81ace8f191b3",
+    "1a1e8cc8c4323ab9"
   ],
   "feed_order": [
     "qt5dom",
