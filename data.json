@@ -3182,6 +3182,10 @@
       "summary": "1 onay bekliyor",
       "notes": [
         {
+          "text": "Scandic Helsinki Hub rezervasyonu (19-22 Kas 2026, Superior King, 2 yetişkin, toplam ₺32.723,99 ödenmiş, iptal/iade yok) misafir adı Ahmet Faruk Fırat'tan Cemre Yamaner Fırat'a değiştirildi. Check-in yarın 16:00, kimlik ve kredi kartı gerekli. Rezervasyon no: 5666853258. (kaynak: E-posta (19 Kas 00:24): noreply@booking.com · Your updated booking at Scandic He)",
+          "at": "2026-11-19 00:25"
+        },
+        {
           "text": "Viktorija Ramaite ameliyat takvimi: 19 Kas 2026 07:00-12:30, Dr. Ayberk Akçay, Breast Reduction + Lift (Aesthetic Center). Hülya Alkan davetiyesi; katılım isteğe bağlı. (kaynak: E-posta (12 Kas 22:29): Hülya Alkan · Invitation: Viktorija Ramaite_Dr. Ayberk A)",
           "at": "2026-11-12 22:29"
         },
@@ -3951,7 +3955,7 @@
       ]
     }
   ],
-  "updated": "2026-11-18 20:15",
+  "updated": "2026-11-19 00:25",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4018,7 +4022,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19c3cdc229e9d4",
     "1a19c3f3be9839b9",
     "1a19c71f45d53fa6",
     "1a19ca0653f60268",
@@ -4317,7 +4320,8 @@
     "1a1ef003ec542ff9",
     "1a1ef01e5d04e70b",
     "1a1ef2e375e53ced",
-    "1a1efa7b0d078a2b"
+    "1a1efa7b0d078a2b",
+    "1a1f08c597f08fc5"
   ],
   "feed_order": [
     "qt5dom",
