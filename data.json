@@ -3384,6 +3384,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Terkko Health Hub New Nordics Healthtech Matchmaking (bugün 18 Kas, 18:00-22:00, Helsinki, Investor ücretsiz bilet): kayıt onay bekliyor, onay gelince bilgilendirilecek. Slush kapsamında. (kaynak: E-posta (18 Kas 14:35): Terkko Health Hub · Registration pending approval for Ne)",
+          "at": "2026-11-18 14:36"
+        },
+        {
           "text": "Slush: Pinar Kavukcuoglu (Pragma Capital) toplantı talebini reddetti (18 Kas). Not: 'Bu şu anki odağıma uymuyor'. Yatırımcı listesinden çıkarılabilir. (kaynak: E-posta (18 Kas 09:27): Slush · Pinar Kavukcuoglu has declined your meeting requ)",
           "at": "2026-11-18 09:28"
         },
@@ -3498,10 +3502,6 @@
         {
           "text": "Inovo VC IR Direktörü Michał Scipio del Campo, Slush meeting talebini bu sefer reddetti ama Slush sonrası görüşmek istiyor (michal.scipiodelcampo@inovo.vc). (kaynak: E-posta (9 Kas 17:53): Slush · Michał Scipio del Campo has declined your meeting)",
           "at": "2026-11-09 17:54"
-        },
-        {
-          "text": "Google Flights: İstanbul–Helsinki gidiş-dönüş (17–20 Kas) fiyatı ₺20.928'den ₺18.696'ya düştü. (kaynak: E-posta (9 Kas 06:36): Google Flights · Your tracked flight to Helsinki is now T)",
-          "at": "2026-11-09 06:36"
         }
       ]
     },
@@ -3947,7 +3947,7 @@
       ]
     }
   ],
-  "updated": "2026-11-18 14:12",
+  "updated": "2026-11-18 14:36",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4014,7 +4014,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19bf517a680eed",
     "1a19bfe477c81d14",
     "1a19c0b256bd1835",
     "1a19c172f76cb87c",
@@ -4313,7 +4312,8 @@
     "1a1edb304426bed6",
     "1a1ee0a2d28dfaec",
     "1a1ee4092a3afb00",
-    "1a1ee5b1c6ffa909"
+    "1a1ee5b1c6ffa909",
+    "1a1ee71044c11c94"
   ],
   "feed_order": [
     "qt5dom",
