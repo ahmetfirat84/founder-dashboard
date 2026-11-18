@@ -3384,6 +3384,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "New Nordics Healthtech Matchmaking (Terkko, Helsinki) yeniden başvurusu: Aleksandra Dobrego, 18 Kas 2026, hâlâ bekleme listesinde. Aksiyon gerekmiyor. (kaynak: E-posta (18 Kas 16:40): Aleksandra Dobrego · Re: Re-application for New Nordics )",
+          "at": "2026-11-18 16:40"
+        },
+        {
           "text": "Slush platformu: Kustaa Piha ile toplantı iptal edildi (18 Kas 2026 bildirimi, e-posta konusu 'canceled', gövde 'updated'). Takvimi kontrol et. (kaynak: E-posta (18 Kas 15:55): Slush Platform · Your meeting with Ahmet Fırat has been )",
           "at": "2026-11-18 15:55"
         },
@@ -3498,10 +3502,6 @@
         {
           "text": "Slush: Tommi Opas (Diserve Ventures) meeting talebini reddetti, gerekçe: sağlık turizmi şu an odağında değil. Diğer yatırımcılara talep göndermeye devam edilebilir. (kaynak: E-posta (10 Kas 12:29): Slush · Tommi Opas has declined your meeting request)",
           "at": "2026-11-10 12:30"
-        },
-        {
-          "text": "Slush 'The Founder Flow Breakfast' başvurusu alındı, organizatörden karar bekleniyor (10 Kas). (kaynak: E-posta (10 Kas 11:53): Slush · [Slush 2026] Application received: The Founder F)",
-          "at": "2026-11-10 11:53"
         }
       ]
     },
@@ -3947,7 +3947,7 @@
       ]
     }
   ],
-  "updated": "2026-11-18 15:55",
+  "updated": "2026-11-18 16:40",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4014,7 +4014,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19c172f76cb87c",
     "1a19c17235d29f74",
     "1a19c2238b5e4a0e",
     "1a19c2c0d56c9425",
@@ -4313,7 +4312,8 @@
     "1a1ee5b1c6ffa909",
     "1a1ee71044c11c94",
     "1a1ee86df3a3948d",
-    "1a1eeb9d57745c47"
+    "1a1eeb9d57745c47",
+    "1a1eee3087a5fd18"
   ],
   "feed_order": [
     "qt5dom",
