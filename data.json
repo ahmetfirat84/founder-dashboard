@@ -1737,6 +1737,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "iyzico (Yeniben): AMEX kartlarla yalnızca TL ödeme alınabiliyor, döviz kabulü açılmıyor. 4306576148 nolu ödeme banka kart hatasıyla reddedildi. (kaynak: E-posta (18 Kas 20:15): iyzico Destek · RE: American Express kartlarla ödeme kab)",
+          "at": "2026-11-18 20:15"
+        },
+        {
           "text": "iyzico toplu ödeme: 18.11.2026 tarihinde Yeniben hesabına €139,21 yatırıldı (işlem no 3495869975); muhasebe eşleştirmesi için not. (kaynak: E-posta (18 Kas 11:08): iyzico · Toplu ödemeniz gerçekleştirildi)",
           "at": "2026-11-18 11:08"
         },
@@ -1851,10 +1855,6 @@
         {
           "text": "📎 fatura-gelen arşivlendi: IC Hospital (MK Hastane) 2026-09-07 no MKY2026000000273 ₺66.951 → https://drive.google.com/file/d/1dm32SefJm6RVPfsnp2D21lR0b6BsRxF7/view?usp=drivesdk",
           "at": "2026-11-09 13:46"
-        },
-        {
-          "text": "Paraşüt haftalık özet (9 Kas): gecikmiş giderler 910 adet ₺3.470.341,57, gecikmiş tahsilatlar 67 fatura ₺1.527.575,11; rakamlar Paraşüt kayıtlarına göre, doğrulanmalı. (kaynak: E-posta (9 Kas 04:03): Paraşüt · Haftalık Finansal Durumunuz)",
-          "at": "2026-11-09 04:04"
         }
       ],
       "drawer": [
@@ -3951,7 +3951,7 @@
       ]
     }
   ],
-  "updated": "2026-11-18 18:02",
+  "updated": "2026-11-18 20:15",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4018,7 +4018,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19c31bbb396059",
     "1a19c3cdc229e9d4",
     "1a19c3f3be9839b9",
     "1a19c71f45d53fa6",
@@ -4317,7 +4316,8 @@
     "1a1eee3087a5fd18",
     "1a1ef003ec542ff9",
     "1a1ef01e5d04e70b",
-    "1a1ef2e375e53ced"
+    "1a1ef2e375e53ced",
+    "1a1efa7b0d078a2b"
   ],
   "feed_order": [
     "qt5dom",
