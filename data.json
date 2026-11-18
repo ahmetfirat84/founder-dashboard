@@ -3930,7 +3930,7 @@
       ]
     }
   ],
-  "updated": "2026-11-18 11:08",
+  "updated": "2026-11-18 12:43",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3997,7 +3997,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19be9469db719c",
     "1a19bf30d4bf1e63",
     "1a19bf410a3d79e0",
     "1a19bf517a680eed",
@@ -4296,7 +4295,8 @@
     "1a1ebbb4fef0e9c2",
     "1a1ebf27ef8b0a31",
     "1a1ed572ffc13e16",
-    "1a1edb304426bed6"
+    "1a1edb304426bed6",
+    "1a1ee0a2d28dfaec"
   ],
   "feed_order": [
     "qt5dom",
@@ -8903,6 +8903,47 @@
   ],
   "meeting_notes": [
     {
+      "id": "u65pho",
+      "title": "& New Me_Daily",
+      "date": "2026-11-18",
+      "summary": "Uluslararası hasta adaylarının takibi, iletişim kanalı tercihleri ve depozito/satış dönüşümleri değerlendirildi. Selin bu ay ikinci ödemesini aldı ve yaklaşık 7-8 aktif adayla görüşüyor. Facebook ve YouTube görünürlüğü umut verici, yapay zekâ trafiği ise son 1 haftada hafif düştü ancak günde 1-2 talep gelmeye devam ediyor.",
+      "thread": "1a1ee0a2d28dfaec",
+      "actions": [
+        {
+          "id": "2utn03",
+          "text": "Selin, ciddiyeti netleşen aktif adaylardan depozito talep edip görüşmeleri satışa dönüştürecek.",
+          "dep": "zeynep",
+          "owner": "Selin",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "0an85e",
+          "text": "Selin, adaylara tercih ettikleri iletişim kanalını (WhatsApp, Messenger, Telegram, e-posta, telefon) soracak ve takibi o kanaldan sürdürecek.",
+          "dep": "zeynep",
+          "owner": "Selin",
+          "party": "",
+          "status": "proposed"
+        },
+        {
+          "id": "fir84o",
+          "text": "Selin, tekrar iletişime geçen Taylor'ın başvuru sürecini gecikmeden ilerletecek (gerekli belgeler alındı).",
+          "dep": "zeynep",
+          "owner": "Selin",
+          "party": "Taylor",
+          "status": "proposed"
+        },
+        {
+          "id": "d3h2yf",
+          "text": "Ödeme alınan adayın ameliyat detayları görüşülecek; ameliyat tarihine 2 haftadan az kaldığı için operasyon planlaması yapılacak (otel düzenlemesini aday kendisi yapacak).",
+          "dep": "ecem",
+          "owner": "",
+          "party": "Ödeme yapan aday",
+          "status": "proposed"
+        }
+      ]
+    },
+    {
       "id": "8slu3l",
       "title": "& New Me_Weekly",
       "date": "2026-11-16",
@@ -9920,63 +9961,6 @@
           "dep": "zeynep",
           "owner": "Selin Sezgin",
           "party": "Moana",
-          "status": "proposed"
-        }
-      ]
-    },
-    {
-      "id": "1r9xbt",
-      "title": "Mo x ANDNEWME",
-      "date": "2026-10-19",
-      "summary": "Yeni Zelanda ve Türkiye şirketleri lisanslama, koordinatör istihdamı, ödeme akışları ve seyahat organizasyonu konularında iş birliğini görüştü. Oceanscape New Zealand'in resmi seyahat partneri olması ilke olarak kabul edildi. Lisans denetimi sonrası koordinatör ve sözleşme adımları netleşecek.",
-      "thread": "1a154c3a538e55a9",
-      "actions": [
-        {
-          "id": "i9huxr",
-          "text": "Yeni Zelanda şirketi, yaklaşan ofis denetimini tamamlayacak; sorun sürerse lisans danışmanını yeniden değerlendirecek.",
-          "dep": "cankat",
-          "owner": "",
-          "party": "ANDNEWME",
-          "status": "proposed"
-        },
-        {
-          "id": "66gkdi",
-          "text": "Önerilen İstanbul'daki koordinatörün CV'si incelenecek, görüşme ayarlanacak ve maliyetin paylaşılıp paylaşılamayacağı belirlenecek.",
-          "dep": "ecem",
-          "owner": "",
-          "party": "Koordinatör adayı",
-          "status": "proposed"
-        },
-        {
-          "id": "04zixr",
-          "text": "Lisanslama, ödeme akışları, koordinatör sorumlulukları, seyahat organizasyonu, teşvikler, gizlilik ve müşteri sahipliğini kapsayan sözleşmeler hazırlanacak.",
-          "dep": "cankat",
-          "owner": "",
-          "party": "ANDNEWME / Oceanscape New Zealand",
-          "status": "proposed"
-        },
-        {
-          "id": "tlmcs7",
-          "text": "Hastaların web sitesi veya marketplace üzerinden seyahat talep edebilmesi için seyahat rezervasyon linki ile ödeme linki örnekleri ve kullanım talimatları oluşturulup paylaşılacak.",
-          "dep": "zeynep",
-          "owner": "",
-          "party": "Oceanscape New Zealand",
-          "status": "proposed"
-        },
-        {
-          "id": "2q9xj4",
-          "text": "Rakip fiyatları, ilgili hizmet maliyetleri ve teşvik uygunluğu araştırılacak.",
-          "dep": "damla",
-          "owner": "",
-          "party": "",
-          "status": "proposed"
-        },
-        {
-          "id": "qe23wg",
-          "text": "Tekrarlayan hasta soruları, ödeme sorunları ve gecikmeler derlenecek; seyahat rezervasyon süreci hastalara net şekilde anlatılacak.",
-          "dep": "ecem",
-          "owner": "",
-          "party": "",
           "status": "proposed"
         }
       ]
