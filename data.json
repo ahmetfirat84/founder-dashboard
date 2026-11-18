@@ -3384,6 +3384,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Booking.com: Scandic Helsinki Hub, 19–22 Kas 2026 konaklama (rez. 5666853258), ₺32.723,98 ödendi (18 Kas). (kaynak: E-posta (18 Kas 17:14): Booking.com · This is your receipt)",
+          "at": "2026-11-18 17:14"
+        },
+        {
           "text": "Helsinki konaklama: Booking.com'da Scandic Helsinki Hub rezervasyonu onaylandı (19-22 Kas 2026, 3 gece, Superior King, 2 yetişkin). Tutar ₺32.723,98 ödenmiş, iade yok, tarih değişikliği yok. Daha önce Airbnb for Work (r143, 17-19 Kas) bekliyordu; hangisinin geçerli olduğu kontrol edilmeli. (kaynak: E-posta (18 Kas 17:12): noreply@booking.com · 🛄 Thanks! Your booking is confirm)",
           "at": "2026-11-18 17:12"
         },
@@ -3498,10 +3502,6 @@
         {
           "text": "Slush: Camilla Olsen (Hadean Ventures) toplantı talebini reddetti, life science ekibine ulaşmak için deck'i hadeanventures.com/hadean-ai üzerinden iletebilirsin. (kaynak: E-posta (10 Kas 16:49): Slush · Camilla Olsen has declined your meeting request)",
           "at": "2026-11-10 16:50"
-        },
-        {
-          "text": "Slush: Yuval Ariav (Symbol) meeting talebini reddetti; yatırım odağına uymadığını belirtti. (kaynak: E-posta (10 Kas 16:33): Slush · Yuval Ariav has declined your meeting request)",
-          "at": "2026-11-10 16:34"
         }
       ]
     },
@@ -3947,7 +3947,7 @@
       ]
     }
   ],
-  "updated": "2026-11-18 17:12",
+  "updated": "2026-11-18 17:14",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4014,7 +4014,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19c2238b5e4a0e",
     "1a19c2c0d56c9425",
     "1a19c31bbb396059",
     "1a19c3cdc229e9d4",
@@ -4313,7 +4312,8 @@
     "1a1ee86df3a3948d",
     "1a1eeb9d57745c47",
     "1a1eee3087a5fd18",
-    "1a1ef003ec542ff9"
+    "1a1ef003ec542ff9",
+    "1a1ef01e5d04e70b"
   ],
   "feed_order": [
     "qt5dom",
