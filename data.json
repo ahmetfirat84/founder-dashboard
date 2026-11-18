@@ -3384,6 +3384,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush platformu: Kustaa Piha ile toplantı iptal edildi (18 Kas 2026 bildirimi, e-posta konusu 'canceled', gövde 'updated'). Takvimi kontrol et. (kaynak: E-posta (18 Kas 15:55): Slush Platform · Your meeting with Ahmet Fırat has been )",
+          "at": "2026-11-18 15:55"
+        },
+        {
           "text": "Terkko Health Hub New Nordics Healthtech Matchmaking başvurusu reddedildi (18 Kas 2026). Geri bildirim için info@terkko.fi. (kaynak: E-posta (18 Kas 14:59): Terkko Health Hub · Registration not accepted for New No)",
           "at": "2026-11-18 15:00"
         },
@@ -3498,10 +3502,6 @@
         {
           "text": "Slush 'The Founder Flow Breakfast' başvurusu alındı, organizatörden karar bekleniyor (10 Kas). (kaynak: E-posta (10 Kas 11:53): Slush · [Slush 2026] Application received: The Founder F)",
           "at": "2026-11-10 11:53"
-        },
-        {
-          "text": "Slush 'Investor Happy Hour with Latvian startup ecosystem' başvurusu alındı, değerlendirmede (10 Kas 2026). Karar organizatörden gelecek (janis.jekabsons@liaa.gov.lv). (kaynak: E-posta (10 Kas 11:18): Slush · [Slush 2026] Application received: Investor Happ)",
-          "at": "2026-11-10 11:18"
         }
       ]
     },
@@ -3947,7 +3947,7 @@
       ]
     }
   ],
-  "updated": "2026-11-18 15:00",
+  "updated": "2026-11-18 15:55",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4014,7 +4014,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19c0b256bd1835",
     "1a19c172f76cb87c",
     "1a19c17235d29f74",
     "1a19c2238b5e4a0e",
@@ -4313,7 +4312,8 @@
     "1a1ee4092a3afb00",
     "1a1ee5b1c6ffa909",
     "1a1ee71044c11c94",
-    "1a1ee86df3a3948d"
+    "1a1ee86df3a3948d",
+    "1a1eeb9d57745c47"
   ],
   "feed_order": [
     "qt5dom",
