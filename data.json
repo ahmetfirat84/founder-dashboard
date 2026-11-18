@@ -3384,6 +3384,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Terkko Health Hub New Nordics Healthtech Matchmaking başvurusu reddedildi (18 Kas 2026). Geri bildirim için info@terkko.fi. (kaynak: E-posta (18 Kas 14:59): Terkko Health Hub · Registration not accepted for New No)",
+          "at": "2026-11-18 15:00"
+        },
+        {
           "text": "Terkko Health Hub New Nordics Healthtech Matchmaking (bugün 18 Kas, 18:00-22:00, Helsinki, Investor ücretsiz bilet): kayıt onay bekliyor, onay gelince bilgilendirilecek. Slush kapsamında. (kaynak: E-posta (18 Kas 14:35): Terkko Health Hub · Registration pending approval for Ne)",
           "at": "2026-11-18 14:36"
         },
@@ -3498,10 +3502,6 @@
         {
           "text": "Slush 'Investor Happy Hour with Latvian startup ecosystem' başvurusu alındı, değerlendirmede (10 Kas 2026). Karar organizatörden gelecek (janis.jekabsons@liaa.gov.lv). (kaynak: E-posta (10 Kas 11:18): Slush · [Slush 2026] Application received: Investor Happ)",
           "at": "2026-11-10 11:18"
-        },
-        {
-          "text": "Inovo VC IR Direktörü Michał Scipio del Campo, Slush meeting talebini bu sefer reddetti ama Slush sonrası görüşmek istiyor (michal.scipiodelcampo@inovo.vc). (kaynak: E-posta (9 Kas 17:53): Slush · Michał Scipio del Campo has declined your meeting)",
-          "at": "2026-11-09 17:54"
         }
       ]
     },
@@ -3947,7 +3947,7 @@
       ]
     }
   ],
-  "updated": "2026-11-18 14:36",
+  "updated": "2026-11-18 15:00",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4014,7 +4014,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19bfe477c81d14",
     "1a19c0b256bd1835",
     "1a19c172f76cb87c",
     "1a19c17235d29f74",
@@ -4313,7 +4312,8 @@
     "1a1ee0a2d28dfaec",
     "1a1ee4092a3afb00",
     "1a1ee5b1c6ffa909",
-    "1a1ee71044c11c94"
+    "1a1ee71044c11c94",
+    "1a1ee86df3a3948d"
   ],
   "feed_order": [
     "qt5dom",
