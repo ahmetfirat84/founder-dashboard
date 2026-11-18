@@ -3367,6 +3367,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "Slush: Pinar Kavukcuoglu (Pragma Capital) toplantı talebini reddetti (18 Kas). Not: 'Bu şu anki odağıma uymuyor'. Yatırımcı listesinden çıkarılabilir. (kaynak: E-posta (18 Kas 09:27): Slush · Pinar Kavukcuoglu has declined your meeting requ)",
+          "at": "2026-11-18 09:28"
+        },
+        {
           "text": "Slush: Kfund'dan Iñaki Arrola toplantı talebini reddetti (yatırım odağı uyumsuz). Aksiyon gerekmiyor. (kaynak: E-posta (17 Kas 19:00): Slush · Iñaki Arrola has declined your meeting request)",
           "at": "2026-11-17 19:00"
         },
@@ -3481,10 +3485,6 @@
         {
           "text": "Google Flights: İstanbul–Helsinki gidiş-dönüş (17–20 Kas) fiyatı ₺20.928'den ₺18.696'ya düştü. (kaynak: E-posta (9 Kas 06:36): Google Flights · Your tracked flight to Helsinki is now T)",
           "at": "2026-11-09 06:36"
-        },
-        {
-          "text": "Rita Sheth (heyjustvox) $10M yatırım takibi: 10M, motorlarını MCP/API ile diğer uygulama ve AI ajanlarına da açıyor; Decacorn Angels'ın deep tech odağına uyar mı diye tek kelimelik yanıt bekliyor. (kaynak: E-posta (8 Kas 08:58): Rita Sheth · Re: Investment round)",
-          "at": "2026-11-08 08:59"
         }
       ]
     },
@@ -3930,7 +3930,7 @@
       ]
     }
   ],
-  "updated": "2026-11-18 07:18",
+  "updated": "2026-11-18 09:28",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3997,7 +3997,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19be521da13916",
     "1a19be4f7100c48d",
     "1a19be9469db719c",
     "1a19bf30d4bf1e63",
@@ -4296,7 +4295,8 @@
     "1a1ea62f945637f0",
     "1a1ebb33ee5f59c0",
     "1a1ebbb4fef0e9c2",
-    "1a1ebf27ef8b0a31"
+    "1a1ebf27ef8b0a31",
+    "1a1ed572ffc13e16"
   ],
   "feed_order": [
     "qt5dom",
