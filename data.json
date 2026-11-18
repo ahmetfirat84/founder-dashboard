@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "source": "2026-10-16_sabah-brifing (Drive: 09_Management/briefing-system/handoffs)",
   "priorities": [
     "HubSpot Maximum monthly credits = 3.000 gir (yenileme 17 Ekim, en geç 10:00)",
@@ -8,14 +8,14 @@
   ],
   "meetings": [
     {
-      "time": "10:35",
-      "title": "✈️ Helsinki uçuşu (PC 1311, SAW)",
-      "note": "Slush yolculuğu"
-    },
-    {
       "time": "12:30",
       "title": "& New Me_Daily",
       "note": "Hülya, Selin, Cemre · Google Meet"
+    },
+    {
+      "time": "17:00",
+      "title": "Meeting with Ulas Misirlioglu (Slush)",
+      "note": "Startup Booth A11"
     }
   ],
   "cash_alerts": [
@@ -1050,6 +1050,16 @@
       "due_date": "2026-11-17",
       "title": "Vergi Dairesi (Kurum geçici vergi 2026/07-09)",
       "note": "3. dönem kurum geçici vergi tahakkuk fişi (CPA Türk, Yasemin Hızarcı): DVER ₺294,20 + 5035 ₺791,00, ödeme günü 17.11.2026"
+    },
+    {
+      "title": "HubSpot fatura 864025700 kart reddedildi",
+      "action_type": "Ödeme",
+      "category": "Abonelik",
+      "party": "HubSpot",
+      "amount": "€320",
+      "due": "28 Kas 2026 (askıya alma)",
+      "due_date": "2026-11-28",
+      "note": "Kart *0149 reddedildi; 'Retry payment' ya da ödeme yöntemini güncelle. 28.11'de askıya alınır."
     }
   ],
   "departments": [
@@ -1058,7 +1068,7 @@
       "name": "BATU",
       "area": "Muhasebe",
       "status": "red",
-      "updated": "2026-11-11 16:50",
+      "updated": "2026-11-18 07:18",
       "items": [
         {
           "uid": "s9mc5u",
@@ -1679,6 +1689,32 @@
           "due_date": "2026-11-11",
           "text": "Yetki düzenlemesi (Yeniben Elektronik, müşteri no 417624663): kartlarda bankamatik para çekme yetkisi verildi, dekont İşCep'e onay için gönderildi; onay verilmesi rica ediliyor.",
           "owner": ""
+        },
+        {
+          "text": "HubSpot kart ödemesi reddedildi (kart *0149, fatura 864025700, €320, vade 17.11): ödemeyi yeniden dene/kartı güncelle; 28.11'e kadar ödenmezse hesap askıya alınır",
+          "action_type": "Ödeme",
+          "category": "Abonelik",
+          "party": "HubSpot",
+          "amount": "€320",
+          "due": "28 Kas 2026 (askıya alma)",
+          "due_date": "2026-11-28",
+          "owner": "Ahmet",
+          "source": "email",
+          "id": "1a1eaea42873d4f1",
+          "feed": false
+        },
+        {
+          "text": "HubSpot faturası 864025700 (€320, vade 17.11) – bkz. kart reddi kaydı",
+          "action_type": "Ödeme",
+          "category": "Abonelik",
+          "party": "HubSpot",
+          "amount": "€320",
+          "due": "17 Kas 2026",
+          "due_date": "2026-11-28",
+          "owner": "Ahmet",
+          "source": "email",
+          "id": "1a1eaea0d49f8f3a",
+          "feed": false
         }
       ],
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
@@ -3894,7 +3930,7 @@
       ]
     }
   ],
-  "updated": "2026-11-18 02:58",
+  "updated": "2026-11-18 07:18",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -8754,7 +8790,7 @@
       ]
     }
   ],
-  "meetings_date": "2026-11-17",
+  "meetings_date": "2026-11-18",
   "directory": [
     {
       "id": "g5cmcp",
