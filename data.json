@@ -1720,6 +1720,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "iyzico toplu ödeme: 18.11.2026 tarihinde Yeniben hesabına €139,21 yatırıldı (işlem no 3495869975); muhasebe eşleştirmesi için not. (kaynak: E-posta (18 Kas 11:08): iyzico · Toplu ödemeniz gerçekleştirildi)",
+          "at": "2026-11-18 11:08"
+        },
+        {
           "text": "Bolt yolculuk fişi: 17 Kas 2026, Helsinki–Espoo, €19.90 (KDV dahil), şirket kartı ••3399 ile çekildi. Gider kaydı için. (kaynak: E-posta (18 Kas 02:58): Bolt · Your Bolt ride on Tuesday)",
           "at": "2026-11-18 02:58"
         },
@@ -1834,10 +1838,6 @@
         {
           "text": "Paraşüt haftalık özet (9 Kas): gecikmiş giderler 910 adet ₺3.470.341,57, gecikmiş tahsilatlar 67 fatura ₺1.527.575,11; rakamlar Paraşüt kayıtlarına göre, doğrulanmalı. (kaynak: E-posta (9 Kas 04:03): Paraşüt · Haftalık Finansal Durumunuz)",
           "at": "2026-11-09 04:04"
-        },
-        {
-          "text": "📎 fatura-gelen arşivlendi: Make (Celonis Inc.) 2026-11-07 no JM8I61UO-0006 → https://drive.google.com/file/d/1wBVUkVtvLt5Mc6HXjLXFqaq-qPoJlbNm/view?usp=drivesdk",
-          "at": "2026-11-07 10:48"
         }
       ],
       "drawer": [
@@ -3930,7 +3930,7 @@
       ]
     }
   ],
-  "updated": "2026-11-18 09:28",
+  "updated": "2026-11-18 11:08",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3997,7 +3997,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19be4f7100c48d",
     "1a19be9469db719c",
     "1a19bf30d4bf1e63",
     "1a19bf410a3d79e0",
@@ -4296,7 +4295,8 @@
     "1a1ebb33ee5f59c0",
     "1a1ebbb4fef0e9c2",
     "1a1ebf27ef8b0a31",
-    "1a1ed572ffc13e16"
+    "1a1ed572ffc13e16",
+    "1a1edb304426bed6"
   ],
   "feed_order": [
     "qt5dom",
