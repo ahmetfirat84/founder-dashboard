@@ -1060,6 +1060,23 @@
       "due": "28 Kas 2026 (askıya alma)",
       "due_date": "2026-11-28",
       "note": "Kart *0149 reddedildi; 'Retry payment' ya da ödeme yöntemini güncelle. 28.11'de askıya alınır."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Fatura",
+      "party": "Galata Advisors",
+      "amount": "₺720",
+      "due": "8 gün içinde Paraşüt'te kabul/red",
+      "uid": "4oxm07",
+      "source": "mail-gelen",
+      "origin": "E-posta (18 Kas 13:42): Paraşüt · Yeni bir e-Faturanız var",
+      "wamid": "1a1ee4092a3afb00",
+      "mail_thread": "1a1ee4092a3afb00",
+      "imp": "low",
+      "amount_try": 720,
+      "due_date": "2026-11-26",
+      "title": "Galata Advisors",
+      "note": "Galata Advisors Kurumsal Danışmanlık e-fatura (₺720) Paraşüt'e geldi; 8 gün içinde kabul veya red edilmeli."
     }
   ],
   "departments": [
@@ -3930,7 +3947,7 @@
       ]
     }
   ],
-  "updated": "2026-11-18 12:43",
+  "updated": "2026-11-18 13:43",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -3997,7 +4014,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19bf30d4bf1e63",
     "1a19bf410a3d79e0",
     "1a19bf517a680eed",
     "1a19bfe477c81d14",
@@ -4296,7 +4312,8 @@
     "1a1ebf27ef8b0a31",
     "1a1ed572ffc13e16",
     "1a1edb304426bed6",
-    "1a1ee0a2d28dfaec"
+    "1a1ee0a2d28dfaec",
+    "1a1ee4092a3afb00"
   ],
   "feed_order": [
     "qt5dom",
