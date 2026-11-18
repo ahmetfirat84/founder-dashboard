@@ -2439,6 +2439,10 @@
       "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri",
       "notes": [
         {
+          "text": "HİB Genel Sekreterliği: Irak (Bağdat) Genel Ticaret ve Müteahhitlik Heyeti, 22-25 Ocak 2027 (yazı 18.11.2026, 38498141-TİM.HİB.GSK.Kİ.2026/414-10652). Ekteki yazıda katılım/başvuru süresi kontrol edilecek. (kaynak: E-posta (18 Kas 17:12): Hizmet İhracatçıları Birliği Genel Sekre · IRAK (BAĞDAT))",
+          "at": "2026-11-18 18:02"
+        },
+        {
           "text": "HİB: Dünya Bankası Güney Afrika Ofisi çalıştay daveti (HİB yazısı 16/11/2026, ekte). Katılım son tarihi ve detay için ek belge kontrol edilmeli. (kaynak: E-posta (17 Kas 11:21): Hizmet İhracatçıları Birliği Genel Sekre · DUNYA BANKASI)",
           "at": "2026-11-17 12:18"
         },
@@ -3947,7 +3951,7 @@
       ]
     }
   ],
-  "updated": "2026-11-18 17:14",
+  "updated": "2026-11-18 18:02",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4014,7 +4018,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19c2c0d56c9425",
     "1a19c31bbb396059",
     "1a19c3cdc229e9d4",
     "1a19c3f3be9839b9",
@@ -4313,7 +4316,8 @@
     "1a1eeb9d57745c47",
     "1a1eee3087a5fd18",
     "1a1ef003ec542ff9",
-    "1a1ef01e5d04e70b"
+    "1a1ef01e5d04e70b",
+    "1a1ef2e375e53ced"
   ],
   "feed_order": [
     "qt5dom",
