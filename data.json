@@ -1732,6 +1732,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Paraşüt bildirimi: 18 Kasım 2026'da iyzi üzerinden €139,21 müşteri tahsilatı Garanti hesabına aktarıldı (eşleşmemiş banka işlemi yok). (kaynak: E-posta (19 Kas 08:06): Paraşüt · 1 adet banka işlemi Paraşüt'e aktarıldı)",
+          "at": "2026-11-19 08:06"
+        },
+        {
           "text": "18 Kasım 2026: Garanti hesabına iyzi üzerinden €139,21 müşteri tahsilatı geldi, Paraşüt'e aktarıldı; eşleşmemiş banka işlemi yok. (kaynak: E-posta (19 Kas 08:06): Paraşüt · 1 adet banka işlemi Paraşüt'e aktarıldı)",
           "at": "2026-11-19 08:06"
         },
@@ -1846,10 +1850,6 @@
         {
           "text": "IC Hospital (Nurcan Sarıbal) 19 Eki'de bakiye mutabakatını onayladı: 'Mutabıkız, fatura kesilebilir.' Fatura kesim sürecini takip et. (kaynak: E-posta (19 Eki 16:11): Finance New Me · Re: new me bakiye)",
           "at": "2026-11-09 13:47"
-        },
-        {
-          "text": "📎 fatura-gelen arşivlendi: IC Hospital (MK Hastane) 2026-09-07 no MKY2026000000273 ₺66.951 → https://drive.google.com/file/d/1dm32SefJm6RVPfsnp2D21lR0b6BsRxF7/view?usp=drivesdk",
-          "at": "2026-11-09 13:46"
         }
       ],
       "drawer": [
@@ -4017,7 +4017,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19c71f45d53fa6",
     "1a19ca0653f60268",
     "1a19cb3d0cb3452f",
     "1a19cb835d8f6299",
@@ -4316,7 +4315,8 @@
     "1a1ef2e375e53ced",
     "1a1efa7b0d078a2b",
     "1a1f08c597f08fc5",
-    "1a1f2328cc4008dd"
+    "1a1f2328cc4008dd",
+    "1a1f23299fa964db"
   ],
   "feed_order": [
     "qt5dom",
