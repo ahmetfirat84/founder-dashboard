@@ -1072,6 +1072,22 @@
       "due_date": "2026-11-26",
       "title": "Galata Advisors",
       "note": "Galata Advisors Kurumsal Danışmanlık e-fatura (₺720) Paraşüt'e geldi; 8 gün içinde kabul veya red edilmeli."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Abonelik",
+      "party": "Okara",
+      "amount": "₺6.770,25",
+      "due": "Kart *0149 reddedildi, güncelleme gerekli",
+      "uid": "f624me",
+      "source": "mail-gelen",
+      "origin": "E-posta (19 Kas 16:45): Okara · ₺6,770.25 payment to Okara was unsuccessful",
+      "wamid": "1a1f40e028699b8f",
+      "mail_thread": "1a1f40e028699b8f",
+      "amount_try": 6770.25,
+      "urgency": "orange",
+      "title": "Okara",
+      "note": "Okara abonelik ödemesi (Visa *0149) reddedildi; ödeme yöntemi güncellenmezse abonelik duracak. Aynı kart HubSpot ödemelerini de reddediyor."
     }
   ],
   "departments": [
@@ -3981,7 +3997,7 @@
       ]
     }
   ],
-  "updated": "2026-11-19 14:31",
+  "updated": "2026-11-19 16:45",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4048,7 +4064,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19d1804caa8478",
     "1a19d18001b32ccb",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCQTc5MDhCOTA5RTdBOTNFOUMA",
     "1a19f6fb24822e97",
@@ -4347,7 +4362,8 @@
     "1a1f2e47dffae0ff",
     "1a1f2eb2413f8e68",
     "1a1f35a6ede176b9",
-    "1a1f3931e3eb6f73"
+    "1a1f3931e3eb6f73",
+    "1a1f40e028699b8f"
   ],
   "feed_order": [
     "qt5dom",
