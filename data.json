@@ -2740,6 +2740,10 @@
       "summary": "HealthTürkiye yenilemesi açık",
       "notes": [
         {
+          "text": "Google Play Age Signals API: Ocak 2027'den itibaren Kaliforniya (AB 1043) ve Brezilya için yaş sinyali paylaşımı zorunlu olacak; uygulama bu bölgelerde hedefliyorsa entegrasyon gerekir (Google Play hesabı, r117 ile birlikte takip). (kaynak: E-posta (20 Kas 01:08): Google Play · Updates to the Play Age Signals API and su)",
+          "at": "2026-11-20 01:08"
+        },
+        {
           "text": "Google Play e-postası (19 Kas): Ocak 2027'den itibaren Kaliforniya ve Brezilya kullanıcıları için Play Age Signals API ile yaş sinyali paylaşımı zorunlu olacak; uygulamanın bu bölgelerde kullanıcısı varsa etkisini kontrol et. (kaynak: E-posta (19 Kas 23:33): Google Play · Updates to the Play Age Signals API and su)",
           "at": "2026-11-19 23:34"
         },
@@ -4026,7 +4030,7 @@
       ]
     }
   ],
-  "updated": "2026-11-19 23:51",
+  "updated": "2026-11-20 01:08",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4093,7 +4097,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a050f0f9c0d19",
     "1a1a0509a0594128",
     "1a19ca59fe533379",
     "1a1a07a8833c45cb",
@@ -4392,7 +4395,8 @@
     "1a1f4451603bde13",
     "1a1f4891b9d24a8f",
     "1a1f583e3c8237e1",
-    "1a1f59366753db5d"
+    "1a1f59366753db5d",
+    "1a1f5da6f70a19f8"
   ],
   "feed_order": [
     "qt5dom",
