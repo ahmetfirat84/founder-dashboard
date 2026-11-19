@@ -2721,7 +2721,7 @@
           "due_date": "2027-02-01",
           "text": "Play Console'da trader status beyanı (Hesap detayları > Hakkınızda). Yapılmazsa tüm uygulamalar ve geliştirici hesabı Google Play'den kaldırılır. Trader ise uygulama başına onay ve Hizmet Şartları linki gerekir; telefon ve adres public görünür.",
           "owner": "",
-          "note": "YENİ MAİL 05.11 03:06 (5 Kas 03:06 · Google Play · Declare your trader status to continue distributing apps on ): Google Play mailine göre trader status beyanı 1 Şubat 2027'ye kadar Play Console'dan yapılmalı; yapılmazsa tüm uygulamalar ve geliştirici hesabı global olarak kaldırılır."
+          "note": "YENİ MAİL 05.11 03:06 (5 Kas 03:06 · Google Play · Declare your trader status to continue distributing apps on ): Google Play mailine göre trader status beyanı 1 Şubat 2027'ye kadar Play Console'dan yapılmalı; yapılmazsa tüm uygulamalar ve geliştirici hesabı global olarak kaldırılır. YENİ MAİL 19.11 23:34 (19 Kas 23:33 · Google Play · Updates to the Play Age Signals API and support for age assu): 19 Kas Google Play e-postası: Ocak 2027'den Kaliforniya ve Brezilya için Age Signals API yaş sinyali paylaşımı zorunlu; uygulama bu bölgelerde kullanılıyorsa etkilenir."
         },
         {
           "text": "Copytrack telif iddiası (B4297F): andnewme.com/news/top-10-most-admired-celebritiy-nose-job sayfasındaki görsel (hak sahibi yuriyzhuravov, Almanya). Lisans kanıtı varsa 19.11'e kadar yanıtla; yoksa görseli kaldır ve 18.11'e kadar €450 tazminat veya €588,50 lisans seçeneği",
@@ -2739,6 +2739,10 @@
       ],
       "summary": "HealthTürkiye yenilemesi açık",
       "notes": [
+        {
+          "text": "Google Play e-postası (19 Kas): Ocak 2027'den itibaren Kaliforniya ve Brezilya kullanıcıları için Play Age Signals API ile yaş sinyali paylaşımı zorunlu olacak; uygulamanın bu bölgelerde kullanıcısı varsa etkisini kontrol et. (kaynak: E-posta (19 Kas 23:33): Google Play · Updates to the Play Age Signals API and su)",
+          "at": "2026-11-19 23:34"
+        },
         {
           "text": "YENİBEN GK maili (Fwd) turker.ahmetoglu@kanyon.com.tr adresine iletilemedi: alıcı adresi bulunamadı (550 5.1.10). Doğru adresin teyit edilmesi gerekiyor. (kaynak: E-posta (6 Kas 10:08): postmaster@eczacibasi.com.tr · Undeliverable: Fwd: YENİBE)",
           "at": "2026-11-06 10:09"
@@ -4022,7 +4026,7 @@
       ]
     }
   ],
-  "updated": "2026-11-19 19:00",
+  "updated": "2026-11-19 23:34",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4089,7 +4093,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19fb4520438ead",
     "1a1a03c4d0f9ab9f",
     "1a1a050f0f9c0d19",
     "1a1a0509a0594128",
@@ -4388,7 +4391,8 @@
     "1a1f43db6d9d4c63",
     "1a1f444d150476dc",
     "1a1f4451603bde13",
-    "1a1f4891b9d24a8f"
+    "1a1f4891b9d24a8f",
+    "1a1f583e3c8237e1"
   ],
   "feed_order": [
     "qt5dom",
