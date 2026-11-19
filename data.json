@@ -3955,6 +3955,10 @@
       ],
       "notes": [
         {
+          "text": "iCloud saklama alanı dolmak üzere: 200 GB planda 695,8 MB kaldı. Dolunca ahmetfrt@icloud.com ile mail gönderilemez/alınamaz ve yedekleme durur. Seçenekler: alan temizliği veya iCloud+ (₺549,99/ay). (kaynak: E-posta (19 Kas 17:37): iCloud · iCloud saklama alanınız dolmak üzere)",
+          "at": "2026-11-19 17:37"
+        },
+        {
           "text": "Zümrüt Parfümeri: Terre d'Hermes Pure Parfum 125ml Refill siparişi (TS16117717), 7.437 TL Garanti kredi kartıyla tahsil edildi. Ürün 24-48 saat içinde kargoya verilecek (Yurtiçi Kargo). (kaynak: E-posta (16 Kas 10:03): zumrutparfumeri · Siparişiniz Onaylandı)",
           "at": "2026-11-16 10:03"
         },
@@ -3997,7 +4001,7 @@
       ]
     }
   ],
-  "updated": "2026-11-19 16:45",
+  "updated": "2026-11-19 17:37",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4064,7 +4068,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19d18001b32ccb",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCQTc5MDhCOTA5RTdBOTNFOUMA",
     "1a19f6fb24822e97",
     "1a19f79b6b350e86",
@@ -4363,7 +4366,8 @@
     "1a1f2eb2413f8e68",
     "1a1f35a6ede176b9",
     "1a1f3931e3eb6f73",
-    "1a1f40e028699b8f"
+    "1a1f40e028699b8f",
+    "1a1f43db6d9d4c63"
   ],
   "feed_order": [
     "qt5dom",
