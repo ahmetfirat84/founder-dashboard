@@ -3239,7 +3239,7 @@
       "name": "ERKİN",
       "area": "Investor Relations",
       "status": "green",
-      "updated": "2026-11-16 13:16",
+      "updated": "2026-11-19 11:28",
       "items": [
         {
           "text": "Slush Helsinki (18-19 Kas) katılım kararı bekliyor; katılım olursa yatırımcı toplantılarını planla",
@@ -3397,6 +3397,21 @@
           "mail_thread": "1a1e3db52142356c",
           "urgency": "gray",
           "text": "Aziza Zakhidova toplantı talebini reddetti; Slush sonrası görüşmek istiyor, zakhidoa@ebrd.com. Deck'i ilgili bölge ekibine iletecek.",
+          "owner": ""
+        },
+        {
+          "action_type": "Yanıt",
+          "category": "Investor",
+          "party": "Maxim Levitskiy (Techstack)",
+          "amount": "",
+          "due": "Slush sonrası",
+          "uid": "web45b",
+          "source": "mail-gelen",
+          "origin": "E-posta (19 Kas 11:27): Slush · Maxim Levitskiy has declined your meeting request",
+          "wamid": "1a1f2eb2413f8e68",
+          "mail_thread": "1a1f2eb2413f8e68",
+          "urgency": "gray",
+          "text": "Maxim Levitskiy (Techstack) Slush toplantı talebini reddetti, Slush sonrası görüşmek istiyor: maxim.levitskiy@tech-stack.io",
           "owner": ""
         }
       ],
@@ -3966,7 +3981,7 @@
       ]
     }
   ],
-  "updated": "2026-11-19 11:20",
+  "updated": "2026-11-19 11:28",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4033,7 +4048,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDM3NUNGQUMxNDBBMTg0M0E3MAA=",
     "1a19d18138ebe0d9",
     "1a19d180fa4b6172",
     "1a19d1804caa8478",
@@ -4332,7 +4346,8 @@
     "1a1f2bc037729d71",
     "1a1f2d02f4ee350e",
     "1a1f2d08974fdaa4",
-    "1a1f2e47dffae0ff"
+    "1a1f2e47dffae0ff",
+    "1a1f2eb2413f8e68"
   ],
   "feed_order": [
     "qt5dom",
