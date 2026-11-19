@@ -3899,7 +3899,7 @@
           "urgency": "gray",
           "text": "Uçak biletlerini al (Republic Day miles kampanyası, Ahmet'in e-posta notu: 'yarın alalım')",
           "owner": "",
-          "note": "YENİ MAİL 29.10 08:17 (29 Eki 08:16 · Ahmet Tosun · Re: Earn Extra 1,923 Status Miles on Republic Day!): Mail notu: Republic Day miles kampanyasındaki biletler 2027'ye alınan uçuşlar için. YENİ MAİL 03.11 06:35 (3 Kas 06:35 · Google Flights · Your tracked flight to Helsinki is now TRY 19,590 (was TRY ): Google Flights: İstanbul-Helsinki gidiş-dönüş 17-20 Kas fiyatı ₺19.590'a düştü (önceki ₺27.720). YENİ MAİL 10.11 10:36 (10 Kas 10:35 · Pegasus · PC1311 Helsinki: Uçuşun için şimdi check-in yap, havalimanın): Bilet alındı: PC1311 SAW-HEL, 17 Kas 2026 10:35 kalkış, PNR 2K79PE; online check-in 16 Kas'tan itibaren açılır. YENİ MAİL 17.11 06:37 (17 Kas 06:36 · Google Flights · Prices for your tracked flights to Helsinki have changed): Google Flights (17 Kas): İstanbul-Helsinki gidiş-dönüş 19-22 Kas ₺17.935'e yükseldi (önceki ₺16.593); Pegasus direkt SAW-HEL ₺19.051'e düştü (önceki ₺21.286)."
+          "note": "YENİ MAİL 29.10 08:17 (29 Eki 08:16 · Ahmet Tosun · Re: Earn Extra 1,923 Status Miles on Republic Day!): Mail notu: Republic Day miles kampanyasındaki biletler 2027'ye alınan uçuşlar için. YENİ MAİL 03.11 06:35 (3 Kas 06:35 · Google Flights · Your tracked flight to Helsinki is now TRY 19,590 (was TRY ): Google Flights: İstanbul-Helsinki gidiş-dönüş 17-20 Kas fiyatı ₺19.590'a düştü (önceki ₺27.720). YENİ MAİL 10.11 10:36 (10 Kas 10:35 · Pegasus · PC1311 Helsinki: Uçuşun için şimdi check-in yap, havalimanın): Bilet alındı: PC1311 SAW-HEL, 17 Kas 2026 10:35 kalkış, PNR 2K79PE; online check-in 16 Kas'tan itibaren açılır. YENİ MAİL 17.11 06:37 (17 Kas 06:36 · Google Flights · Prices for your tracked flights to Helsinki have changed): Google Flights (17 Kas): İstanbul-Helsinki gidiş-dönüş 19-22 Kas ₺17.935'e yükseldi (önceki ₺16.593); Pegasus direkt SAW-HEL ₺19.051'e düştü (önceki ₺21.286). YENİ MAİL 19.11 13:29 (19 Kas 13:29 · Pegasus Airlines · 2K79PE Rezervasyon Numaralı Elektronik Biletiniz): Pegasus 2K79PE PNR e-bileti 19 Kas'ta e-posta ile geldi (Ahmet Faruk Fırat adına)."
         },
         {
           "action_type": "Ödeme",
@@ -3981,7 +3981,7 @@
       ]
     }
   ],
-  "updated": "2026-11-19 11:28",
+  "updated": "2026-11-19 13:29",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4048,7 +4048,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19d18138ebe0d9",
     "1a19d180fa4b6172",
     "1a19d1804caa8478",
     "1a19d18001b32ccb",
@@ -4347,7 +4346,8 @@
     "1a1f2d02f4ee350e",
     "1a1f2d08974fdaa4",
     "1a1f2e47dffae0ff",
-    "1a1f2eb2413f8e68"
+    "1a1f2eb2413f8e68",
+    "1a1f35a6ede176b9"
   ],
   "feed_order": [
     "qt5dom",
