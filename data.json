@@ -3682,6 +3682,10 @@
       ],
       "notes": [
         {
+          "text": "Google Apps Script 'asistan-mail-to-dashboard' 18-19 Kasım'da 5 kez sunucu hatasıyla başarısız oldu; e-posta aktarımı etkilenmiş olabilir, kontrol edilmeli. (kaynak: E-posta (19 Kas 10:31): noreply-apps-scripts-notifications@googl · Summary of fa)",
+          "at": "2026-11-19 10:32"
+        },
+        {
           "text": "Google Apps Script 'asistan-mail-to-dashboard' tetikleyicisi 16-17 Kasım gecesi hata verdi (Gmail işlem izni + sunucu hataları); mail-to-dashboard akışı kontrol edilmeli. (kaynak: E-posta (17 Kas 04:51): noreply-apps-scripts-notifications@googl · Summary of fa)",
           "at": "2026-11-17 04:52"
         },
@@ -3796,10 +3800,6 @@
         {
           "text": "Apple App Store aboneliği 'buluvahide (Monthly)' ₺199,99 (27 Ekim 2026, Ahmet'in kişisel kartı MasterCard ••2051). Aylık yenileniyor, bilgi amaçlı. (kaynak: E-posta (27 Eki 20:38): Apple · Your receipt from Apple.)",
           "at": "2026-10-27 20:39"
-        },
-        {
-          "text": "Apple üzerinden Instagram 'buluvahide' aboneliği onaylandı: ₺199,99/ay, 27 Kasım 2026'dan itibaren yenilenir. İptal için en az 1 gün önce Apple abonelik ayarlarından kapatılmalı. (kaynak: E-posta (27 Eki 16:49): Apple · Your Subscription is Confirmed)",
-          "at": "2026-10-27 16:50"
         }
       ]
     },
@@ -3950,7 +3950,7 @@
       ]
     }
   ],
-  "updated": "2026-11-19 10:16",
+  "updated": "2026-11-19 10:32",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4017,7 +4017,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19cb3d0cb3452f",
     "1a19cb835d8f6299",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEIxOUI5MjM5OTQ5OTAyOUFGOQA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEU4N0RFNjI0OEE0RkMzRDFFRAA=",
@@ -4316,7 +4315,8 @@
     "1a1f08c597f08fc5",
     "1a1f2328cc4008dd",
     "1a1f23299fa964db",
-    "1a1f2a9fc4929092"
+    "1a1f2a9fc4929092",
+    "1a1f2b7bc0beb86c"
   ],
   "feed_order": [
     "qt5dom",
