@@ -1748,6 +1748,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "İş Bankası kredi kartı borcu için 60 aya kadar yapılandırma sunuluyor (İşCep-Kartlar-Kredi Kartı Borcu Yapılandırma); aylık faiz %3,25 (vergi-fon hariç), %4,23 (dahil). Karar verilmedi. (kaynak: E-posta (19 Kas 10:58): Turkiye Is Bankasi A.S · Kredi Kartı Ödeme Planınız Hazı)",
+          "at": "2026-11-19 10:59"
+        },
+        {
           "text": "Paraşüt bildirimi: 18 Kasım 2026'da iyzi üzerinden €139,21 müşteri tahsilatı Garanti hesabına aktarıldı (eşleşmemiş banka işlemi yok). (kaynak: E-posta (19 Kas 08:06): Paraşüt · 1 adet banka işlemi Paraşüt'e aktarıldı)",
           "at": "2026-11-19 08:06"
         },
@@ -1862,10 +1866,6 @@
         {
           "text": "İş Bankası: YENİBEN elektronik hizmet 10.11.2024–10.11.2026 2024-0023784 nolu vadesiz YP (EUR) hesap özeti e-posta ile geldi (ekte, rutin bilgilendirme). (kaynak: E-posta (10 Kas 14:59): Turkiye Is Bankasi A.S · YENİBEN ELEKTRONİK HİZMET      )",
           "at": "2026-11-10 14:59"
-        },
-        {
-          "text": "IC Hospital (Nurcan Sarıbal) 19 Eki'de bakiye mutabakatını onayladı: 'Mutabıkız, fatura kesilebilir.' Fatura kesim sürecini takip et. (kaynak: E-posta (19 Eki 16:11): Finance New Me · Re: new me bakiye)",
-          "at": "2026-11-09 13:47"
         }
       ],
       "drawer": [
@@ -3966,7 +3966,7 @@
       ]
     }
   ],
-  "updated": "2026-11-19 10:58",
+  "updated": "2026-11-19 10:59",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4033,7 +4033,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEU4N0RFNjI0OEE0RkMzRDFFRAA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDVBODkzREM1QkUyODAxNjFENAA=",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMDM3NUNGQUMxNDBBMTg0M0E3MAA=",
     "1a19d18138ebe0d9",
@@ -4332,7 +4331,8 @@
     "1a1f2a9fc4929092",
     "1a1f2b7bc0beb86c",
     "1a1f2bc037729d71",
-    "1a1f2d02f4ee350e"
+    "1a1f2d02f4ee350e",
+    "1a1f2d08974fdaa4"
   ],
   "feed_order": [
     "qt5dom",
