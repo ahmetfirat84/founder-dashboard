@@ -3860,7 +3860,7 @@
       "area": "Şahsi-Todo",
       "status": "gray",
       "summary": "Şahsi yapılacaklar",
-      "updated": "2026-11-06 10:03",
+      "updated": "2026-11-19 19:00",
       "items": [
         {
           "text": "OC: dünkü toplantı notlarını mail at, yapılacakları netleştir; gönderdiği bilet linkine bak, işe yararsa siteye embed et",
@@ -3955,6 +3955,23 @@
           "text": "Elektrik faturası BEA2026047922824 (07.10-06.11 dönemi), ₺689,76, ödenecek ₺690,00; İş Bankası otomatik ödeme talimatı var. Önceki fatura r140 (BEA2026047260259, ₺645) ayrı.",
           "owner": "",
           "note": "YENİ MAİL 17.11 12:45 (17 Kas 12:44 · Turkiye Is Bankasi A.S · Ödenemeyen Talimatlı Fatura Bilgisi): İş Bankası 17.11: talimatlı ₺690 ödemesi (son gün 16.11) bakiye yetersizliğinden ödenemedi, hesaba bakiye yüklenmeli."
+        },
+        {
+          "action_type": "Yanıt",
+          "category": "Güvenlik",
+          "party": "Google",
+          "amount": "",
+          "due": "bugün",
+          "uid": "0hbtb0",
+          "source": "mail-gelen",
+          "origin": "E-posta (19 Kas 18:59): Google · ahmetfaruksamilfirat@gmail.com için güvenlik uyarısı",
+          "wamid": "1a1f4891b9d24a8f",
+          "mail_thread": "1a1f4891b9d24a8f",
+          "imp": "high",
+          "plan_date": "2026-11-19",
+          "due_date": "2026-11-19",
+          "text": "ahmetfaruksamilfirat@gmail.com hesabının kurtarma telefonu değiştirildi; myaccount.google.com/notifications üzerinden kontrol et, değişikliği sen yapmadıysan hesabı koru.",
+          "owner": ""
         }
       ],
       "notes": [
@@ -4005,7 +4022,7 @@
       ]
     }
   ],
-  "updated": "2026-11-19 17:46",
+  "updated": "2026-11-19 19:00",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4072,7 +4089,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19f79b6b350e86",
     "1a19fb4520438ead",
     "1a1a03c4d0f9ab9f",
     "1a1a050f0f9c0d19",
@@ -4371,7 +4387,8 @@
     "1a1f40e028699b8f",
     "1a1f43db6d9d4c63",
     "1a1f444d150476dc",
-    "1a1f4451603bde13"
+    "1a1f4451603bde13",
+    "1a1f4891b9d24a8f"
   ],
   "feed_order": [
     "qt5dom",
