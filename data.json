@@ -3737,6 +3737,10 @@
       ],
       "notes": [
         {
+          "text": "Cloudflare: 1 Aralık 2026'dan itibaren Observability log/trace kullanımı GB bazlı ücretlenecek (Workers Paid'de 50 GB dahil, sonrası $0,25/GB); kullanımı kontrol et. (kaynak: E-posta (19 Kas 23:50): Cloudflare · [Notice] Cloudflare Observability pricing c)",
+          "at": "2026-11-19 23:51"
+        },
+        {
           "text": "Google Apps Script 'asistan-mail-to-dashboard' 18-19 Kasım'da 5 kez sunucu hatasıyla başarısız oldu; e-posta aktarımı etkilenmiş olabilir, kontrol edilmeli. (kaynak: E-posta (19 Kas 10:31): noreply-apps-scripts-notifications@googl · Summary of fa)",
           "at": "2026-11-19 10:32"
         },
@@ -3851,10 +3855,6 @@
         {
           "text": "Cloudflare Observability fiyatlandırması 1 Aralık 2026'da değişiyor: Workers Paid planda 50 GB/ay ingestion ve 10 GB-ay depolama dahil, aşımı $0.25/GB ve $0.10/GB-ay. Free planda ücret yok. İşlem gerekmiyor. (kaynak: E-posta (29 Eki 05:32): Cloudflare · [Notice] Cloudflare Observability pricing c)",
           "at": "2026-10-29 05:33"
-        },
-        {
-          "text": "Apple App Store aboneliği 'buluvahide (Monthly)' ₺199,99 (27 Ekim 2026, Ahmet'in kişisel kartı MasterCard ••2051). Aylık yenileniyor, bilgi amaçlı. (kaynak: E-posta (27 Eki 20:38): Apple · Your receipt from Apple.)",
-          "at": "2026-10-27 20:39"
         }
       ]
     },
@@ -4026,7 +4026,7 @@
       ]
     }
   ],
-  "updated": "2026-11-19 23:34",
+  "updated": "2026-11-19 23:51",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4093,7 +4093,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a03c4d0f9ab9f",
     "1a1a050f0f9c0d19",
     "1a1a0509a0594128",
     "1a19ca59fe533379",
@@ -4392,7 +4391,8 @@
     "1a1f444d150476dc",
     "1a1f4451603bde13",
     "1a1f4891b9d24a8f",
-    "1a1f583e3c8237e1"
+    "1a1f583e3c8237e1",
+    "1a1f59366753db5d"
   ],
   "feed_order": [
     "qt5dom",
