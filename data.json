@@ -2466,6 +2466,10 @@
       "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri",
       "notes": [
         {
+          "text": "HİB duyurusu: Türkiye–Arap Ülkeleri İş Zirvesi ve Alım Heyeti (10–11 Aralık 2026, Hilton Bomonti). Alım heyeti başvurusu için son tarih 30 Kasım 2026; isteğe bağlı fırsat. (kaynak: E-posta (19 Kas 17:20): Hizmet İhracatçıları Birliği Genel Sekre · Türkiye–Arap )",
+          "at": "2026-11-19 17:46"
+        },
+        {
           "text": "HİB Genel Sekreterliği: Irak (Bağdat) Genel Ticaret ve Müteahhitlik Heyeti, 22-25 Ocak 2027 (yazı 18.11.2026, 38498141-TİM.HİB.GSK.Kİ.2026/414-10652). Ekteki yazıda katılım/başvuru süresi kontrol edilecek. (kaynak: E-posta (18 Kas 17:12): Hizmet İhracatçıları Birliği Genel Sekre · IRAK (BAĞDAT))",
           "at": "2026-11-18 18:02"
         },
@@ -4001,7 +4005,7 @@
       ]
     }
   ],
-  "updated": "2026-11-19 17:45",
+  "updated": "2026-11-19 17:46",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4068,7 +4072,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19f6fb24822e97",
     "1a19f79b6b350e86",
     "1a19fb4520438ead",
     "1a1a03c4d0f9ab9f",
@@ -4367,7 +4370,8 @@
     "1a1f3931e3eb6f73",
     "1a1f40e028699b8f",
     "1a1f43db6d9d4c63",
-    "1a1f444d150476dc"
+    "1a1f444d150476dc",
+    "1a1f4451603bde13"
   ],
   "feed_order": [
     "qt5dom",
