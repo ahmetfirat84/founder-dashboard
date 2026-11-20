@@ -1764,6 +1764,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "TCMB Sermaye Hareketleri Genelgesi değişikliği (20 Kas 2026, Garanti bilgilendirmesi): yurt dışı kredi kullanımı için bankaya bildirim, doğrudan yurt dışında kullanılan kredilerde 1 ay, 20 Kas öncesi kredilerde 3 ay. Cihan S. €10.000 kredisi için kapsam kontrol edilmeli. (kaynak: E-posta (20 Kas 15:19): Garanti BBVA · TCMB Sermaye Hareketleri Genelgesi Değişi)",
+          "at": "2026-11-20 15:20"
+        },
+        {
           "text": "İş Bankası kredi kartı borcu için 60 aya kadar yapılandırma sunuluyor (İşCep-Kartlar-Kredi Kartı Borcu Yapılandırma); aylık faiz %3,25 (vergi-fon hariç), %4,23 (dahil). Karar verilmedi. (kaynak: E-posta (19 Kas 10:58): Turkiye Is Bankasi A.S · Kredi Kartı Ödeme Planınız Hazı)",
           "at": "2026-11-19 10:59"
         },
@@ -1878,10 +1882,6 @@
         {
           "text": "Paraşüt bildirimi (10.11.2026, İş Bankası 2024-0006088): 8 hesabın yıllık hesap özeti ücreti çekildi (₺16.720 komisyon + ₺836 BSMV = ₺17.556). Reşat Altuğ Aktaş'tan ₺81.143,31 FAST tahsilat geldi. 16 işlem Paraşüt'te eşleştirilmeyi bekliyor. (kaynak: E-posta (11 Kas 08:21): Paraşüt · 17 adet banka işlemi Paraşüt'e aktarıldı)",
           "at": "2026-11-11 08:22"
-        },
-        {
-          "text": "İş Bankası: YENİBEN elektronik hizmet 10.11.2024–10.11.2026 2024-0023784 nolu vadesiz YP (EUR) hesap özeti e-posta ile geldi (ekte, rutin bilgilendirme). (kaynak: E-posta (10 Kas 14:59): Turkiye Is Bankasi A.S · YENİBEN ELEKTRONİK HİZMET      )",
-          "at": "2026-11-10 14:59"
         }
       ],
       "drawer": [
@@ -4030,7 +4030,7 @@
       ]
     }
   ],
-  "updated": "2026-11-20 14:39",
+  "updated": "2026-11-20 15:20",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4097,7 +4097,6 @@
     }
   ],
   "asistan_seen": [
-    "1a19ca59fe533379",
     "1a1a07a8833c45cb",
     "1a1a0b3ae0da0b48",
     "1a1a0dd3c5cc2aa8",
@@ -4396,7 +4395,8 @@
     "1a1f583e3c8237e1",
     "1a1f59366753db5d",
     "1a1f5da6f70a19f8",
-    "1a1f8c0761de1339"
+    "1a1f8c0761de1339",
+    "1a1f8e6095b3841f"
   ],
   "feed_order": [
     "qt5dom",
