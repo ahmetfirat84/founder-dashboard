@@ -2466,6 +2466,10 @@
       "summary": "HİB aidatı ₺74.912,04 (Ekim sonu), IC Hospital imzası, periyodik DYS/Paraşüt işleri",
       "notes": [
         {
+          "text": "HİB bilgilendirmesi (20 Kas): sosyal medya tanıtım filmleri (Reels vb.) takvim yılında en fazla 10 adet, video başına 20.000 TL'lik kısmı destek kapsamında. Gönderen domain (hibhaber.org) ile imza (hib.org.tr) farklı, teyit edilmeli. (kaynak: E-posta (20 Kas 16:02): Hizmet İhracatçıları Birliği Genel Sekre · Tanıtım Filmi)",
+          "at": "2026-11-20 16:05"
+        },
+        {
           "text": "HİB bilgilendirmesi (20 Kas 2026): Özel tanıtım faaliyetlerinde yararlanıcı başına takvim yılında en fazla 12 etkinlik, bir şehirde en fazla 2 gün, aynı şehirdeki etkinlikler arasında en az 1 ay ara desteklenir. (kaynak: E-posta (20 Kas 16:02): Hizmet İhracatçıları Birliği Genel Sekre · Özel Tanıtım )",
           "at": "2026-11-20 16:03"
         },
@@ -4034,7 +4038,7 @@
       ]
     }
   ],
-  "updated": "2026-11-20 16:03",
+  "updated": "2026-11-20 16:05",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4101,7 +4105,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a0b3ae0da0b48",
     "1a1a0dd3c5cc2aa8",
     "1a1a0dd3609c26a4",
     "1a1a0e3e9df5c431",
@@ -4400,7 +4403,8 @@
     "1a1f5da6f70a19f8",
     "1a1f8c0761de1339",
     "1a1f8e6095b3841f",
-    "1a1f90d7559a69d1"
+    "1a1f90d7559a69d1",
+    "1a1f90d7812fda67"
   ],
   "feed_order": [
     "qt5dom",
