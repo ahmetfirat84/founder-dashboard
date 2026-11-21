@@ -1764,6 +1764,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Paraşüt banka bildirimi (20 Kas): 2 işlem eşleşmemiş, kesinti ₺4,19 ve döviz satış girişi ₺54,48 (EUR 54,483). Paraşüt'te banka hesabından eşleştirilmeli. (kaynak: E-posta (21 Kas 08:55): Paraşüt · 2 adet banka işlemi Paraşüt'e aktarıldı)",
+          "at": "2026-11-21 08:55"
+        },
+        {
           "text": "Paraşüt bildirimi (20 Kas): Garanti'den €138 'CEP ŞUBE' çıkışı (Ahmet Faruk Fırat adına) ve €1 döviz satış komisyonu aktarıldı; Paraşüt'te 2 banka işlemi eşleştirilmemiş. (kaynak: E-posta (21 Kas 08:11): Paraşüt · 2 adet banka işlemi Paraşüt'e aktarıldı)",
           "at": "2026-11-21 08:12"
         },
@@ -1878,10 +1882,6 @@
         {
           "text": "📎 fatura-kesilen arşivlendi: Isabella Ruddlesden (Bella) 2026-11-05 no NM62026000000001 ₺87.803 → https://drive.google.com/file/d/1M1kTYdfjhxPs_4cut98AEToxZk6MX7iT/view?usp=drivesdk",
           "at": "2026-11-11 16:22"
-        },
-        {
-          "text": "Paraşüt e-postası (10.11.2026, İş Bankası 2024-0006088): 8 hesaba hesap özeti ücreti kesildi (her biri ₺2.090 + BSMV ₺104,50, toplam ₺17.556). Aynı gün Reşat Altuğ Aktaş'tan ₺81.143,31 FAST tahsilatı geldi. 16 işlem Paraşüt'te eşleştirilmemiş, kasa ve bankalar ekranından eşleştirilmeli. (kaynak: E-posta (11 Kas 08:21): Paraşüt · 17 adet banka işlemi Paraşüt'e aktarıldı)",
-          "at": "2026-11-11 08:22"
         }
       ],
       "drawer": [
@@ -4053,7 +4053,7 @@
       ]
     }
   ],
-  "updated": "2026-11-21 08:12",
+  "updated": "2026-11-21 08:55",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4120,7 +4120,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a0e3e9df5c431",
     "1a1a11f20fc1e12f",
     "1a1a130757c73f85",
     "1a1a135d20dc7e9c",
@@ -4419,7 +4418,8 @@
     "1a1f90d7559a69d1",
     "1a1f90d7812fda67",
     "1a1fba73a44e4d7c",
-    "1a1fc8495b83170b"
+    "1a1fc8495b83170b",
+    "1a1fcac57e64c518"
   ],
   "feed_order": [
     "qt5dom",
