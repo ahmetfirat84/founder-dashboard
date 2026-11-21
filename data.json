@@ -3275,7 +3275,7 @@
       "name": "ERKİN",
       "area": "Investor Relations",
       "status": "green",
-      "updated": "2026-11-19 11:28",
+      "updated": "2026-11-21 04:10",
       "items": [
         {
           "text": "Slush Helsinki (18-19 Kas) katılım kararı bekliyor; katılım olursa yatırımcı toplantılarını planla",
@@ -3448,6 +3448,21 @@
           "mail_thread": "1a1f2eb2413f8e68",
           "urgency": "gray",
           "text": "Maxim Levitskiy (Techstack) Slush toplantı talebini reddetti, Slush sonrası görüşmek istiyor: maxim.levitskiy@tech-stack.io",
+          "owner": ""
+        },
+        {
+          "action_type": "Yanıt",
+          "category": "Yatırımcı",
+          "party": "Apex Ascension (Nam Tran)",
+          "amount": "",
+          "due": "Bu hafta veya gelecek hafta kısa görüşme",
+          "uid": "55azuh",
+          "source": "mail-gelen",
+          "origin": "E-posta (21 Kas 04:10): Nam Tran · Ahmet // family office intro",
+          "wamid": "1a1fba73a44e4d7c",
+          "mail_thread": "1a1fba73a44e4d7c",
+          "urgency": "gray",
+          "text": "Family office intro e-postası: Apex Ascension (Nam Tran) kısa görüşme talep ediyor. Gönderen ve yatırım iddiaları doğrulanmalı, ücret/ön ödeme talebi yok.",
           "owner": ""
         }
       ],
@@ -4038,7 +4053,7 @@
       ]
     }
   ],
-  "updated": "2026-11-20 16:05",
+  "updated": "2026-11-21 04:10",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4105,7 +4120,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a0dd3c5cc2aa8",
     "1a1a0dd3609c26a4",
     "1a1a0e3e9df5c431",
     "1a1a11f20fc1e12f",
@@ -4404,7 +4418,8 @@
     "1a1f8c0761de1339",
     "1a1f8e6095b3841f",
     "1a1f90d7559a69d1",
-    "1a1f90d7812fda67"
+    "1a1f90d7812fda67",
+    "1a1fba73a44e4d7c"
   ],
   "feed_order": [
     "qt5dom",
