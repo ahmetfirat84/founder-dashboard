@@ -4024,6 +4024,10 @@
       ],
       "notes": [
         {
+          "text": "Ahmet Demirel ile buluşma (kaynak: WhatsApp (21 Kas 20:55, yazılı))",
+          "at": "2026-11-21 20:55"
+        },
+        {
           "text": "iCloud saklama alanı dolmak üzere: 200 GB planda 695,8 MB kaldı. Dolunca ahmetfrt@icloud.com ile mail gönderilemez/alınamaz ve yedekleme durur. Seçenekler: alan temizliği veya iCloud+ (₺549,99/ay). (kaynak: E-posta (19 Kas 17:37): iCloud · iCloud saklama alanınız dolmak üzere)",
           "at": "2026-11-19 17:37"
         },
@@ -4070,7 +4074,7 @@
       ]
     }
   ],
-  "updated": "2026-11-21 12:11",
+  "updated": "2026-11-21 20:55",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4137,7 +4141,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a135d20dc7e9c",
     "1a1a183a805ee769",
     "1a1a183ed19c16af",
     "1a1a186e3e1e013c",
@@ -4436,7 +4439,8 @@
     "1a1fc8495b83170b",
     "1a1fcac57e64c518",
     "1a1fcf56cf06471c",
-    "1a1fd5fb2cb2b223"
+    "1a1fd5fb2cb2b223",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E0MzkyRTZGNEFFNkY2NDU4NjMA"
   ],
   "feed_order": [
     "qt5dom",
