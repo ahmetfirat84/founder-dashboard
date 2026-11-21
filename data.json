@@ -4141,7 +4141,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a183a805ee769",
     "1a1a183ed19c16af",
     "1a1a186e3e1e013c",
     "1a1a191fd0e38f70",
@@ -4440,7 +4439,8 @@
     "1a1fcac57e64c518",
     "1a1fcf56cf06471c",
     "1a1fd5fb2cb2b223",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E0MzkyRTZGNEFFNkY2NDU4NjMA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E0MzkyRTZGNEFFNkY2NDU4NjMA",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4Q0M2NTg3Mjk4QzMzMkUxQ0IA"
   ],
   "feed_order": [
     "qt5dom",
@@ -10190,11 +10190,11 @@
   ],
   "extra_events": [
     {
-      "date": "2026-11-12",
-      "time": "17:00",
-      "title": "Doğa ile görüşme",
-      "note": "Ahmet notu: Beşiktaş Belediyesi'nde Doğa ile görüşme, şahsi takvim.",
-      "location": "Beşiktaş Belediyesi",
+      "date": "2026-11-26",
+      "time": "12:30",
+      "title": "Ahmet Demirel ile buluşma",
+      "note": "Perşembe öğlen Parle'de buluşma, iletilen mesajdan.",
+      "location": "Parle",
       "calendar": "sahsi"
     }
   ],
