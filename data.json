@@ -1088,6 +1088,23 @@
       "urgency": "orange",
       "title": "Okara",
       "note": "Okara abonelik ödemesi (Visa *0149) reddedildi; ödeme yöntemi güncellenmezse abonelik duracak. Aynı kart HubSpot ödemelerini de reddediyor."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Abonelik",
+      "party": "Apple (Wanderlog Pro Yıllık)",
+      "amount": "₺1.099",
+      "due": "27 Kas 2026 yenileme",
+      "uid": "h6fkk9",
+      "source": "mail-gelen",
+      "origin": "E-posta (21 Kas 10:14): Apple · Your Subscription is Confirmed",
+      "wamid": "1a1fcf56cf06471c",
+      "mail_thread": "1a1fcf56cf06471c",
+      "imp": "low",
+      "amount_try": 1099,
+      "due_date": "2026-11-27",
+      "title": "Apple (Wanderlog Pro Yıllık)",
+      "note": "Wanderlog Pro yıllık abonelik, 1 hafta ücretsiz deneme 20 Kasım'da başladı; 27 Kasım'da ₺1.099 çekilecek. İstemiyorsan en az 1 gün önce iptal et."
     }
   ],
   "departments": [
@@ -4053,7 +4070,7 @@
       ]
     }
   ],
-  "updated": "2026-11-21 08:55",
+  "updated": "2026-11-21 10:15",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4120,7 +4137,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a11f20fc1e12f",
     "1a1a130757c73f85",
     "1a1a135d20dc7e9c",
     "1a1a183a805ee769",
@@ -4419,7 +4435,8 @@
     "1a1f90d7812fda67",
     "1a1fba73a44e4d7c",
     "1a1fc8495b83170b",
-    "1a1fcac57e64c518"
+    "1a1fcac57e64c518",
+    "1a1fcf56cf06471c"
   ],
   "feed_order": [
     "qt5dom",
