@@ -3761,7 +3761,7 @@
           "due_date": "2026-11-21",
           "text": "Karar ver: Slack paid planı devam mı, free plana geçiş mi (21 Kas'ta free plana düşüyor; 90 gün mesaj geçmişi, Slack Connect, grup huddle, 10 uygulama sınırı).",
           "owner": "",
-          "note": "YENİ MAİL 24.10 19:21 (24 Eki 19:20 · Slack · & New Me has been upgraded — time to get the most out of you): 24 Eki Slack e-postası: hesap Pro plana yükseltilmiş görünüyor (ücretli plan seçildi). YENİ MAİL 14.11 16:13 (14 Kas 16:13 · Slack · & New Me’s plan is about to expire): Slack e-postası (14 Kas): Pro planı korumak için ödeme bilgisi 21 Kasım'a kadar güncellenmeli, yoksa free plana düşer."
+          "note": "YENİ MAİL 24.10 19:21 (24 Eki 19:20 · Slack · & New Me has been upgraded — time to get the most out of you): 24 Eki Slack e-postası: hesap Pro plana yükseltilmiş görünüyor (ücretli plan seçildi). YENİ MAİL 14.11 16:13 (14 Kas 16:13 · Slack · & New Me’s plan is about to expire): Slack e-postası (14 Kas): Pro planı korumak için ödeme bilgisi 21 Kasım'a kadar güncellenmeli, yoksa free plana düşer. YENİ MAİL 21.11 12:11 (21 Kas 12:11 · Slack · [Slack] Welcome to the Free plan): 21 Kas itibarıyla Free plana düştü: yalnızca son 90 gün mesaj/dosya erişimi, en fazla 10 entegrasyon; Pro'ya dönmek için billing ödeme bilgisi güncellenmeli (sadece workspace sahibi)."
         },
         {
           "action_type": "Toplantı",
@@ -4070,7 +4070,7 @@
       ]
     }
   ],
-  "updated": "2026-11-21 10:15",
+  "updated": "2026-11-21 12:11",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4137,7 +4137,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a130757c73f85",
     "1a1a135d20dc7e9c",
     "1a1a183a805ee769",
     "1a1a183ed19c16af",
@@ -4436,7 +4435,8 @@
     "1a1fba73a44e4d7c",
     "1a1fc8495b83170b",
     "1a1fcac57e64c518",
-    "1a1fcf56cf06471c"
+    "1a1fcf56cf06471c",
+    "1a1fd5fb2cb2b223"
   ],
   "feed_order": [
     "qt5dom",
