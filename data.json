@@ -4074,7 +4074,7 @@
       ]
     }
   ],
-  "updated": "2026-11-21 20:55",
+  "updated": "2026-11-21 20:56",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4141,7 +4141,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a183ed19c16af",
     "1a1a186e3e1e013c",
     "1a1a191fd0e38f70",
     "1a1a19da088593c1",
@@ -4440,7 +4439,8 @@
     "1a1fcf56cf06471c",
     "1a1fd5fb2cb2b223",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E0MzkyRTZGNEFFNkY2NDU4NjMA",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4Q0M2NTg3Mjk4QzMzMkUxQ0IA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4Q0M2NTg3Mjk4QzMzMkUxQ0IA",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCRUExNUVGREU4RTgxMjAzNjQA"
   ],
   "feed_order": [
     "qt5dom",
@@ -10193,9 +10193,9 @@
       "date": "2026-11-26",
       "time": "12:30",
       "title": "Ahmet Demirel ile buluşma",
-      "note": "Perşembe öğlen Parle'de buluşma, iletilen mesajdan.",
+      "note": "Perşembe öğlen buluşma; iş takvimine taşındı",
       "location": "Parle",
-      "calendar": "sahsi"
+      "calendar": "is"
     }
   ],
   "payroll": {
