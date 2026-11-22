@@ -3781,6 +3781,10 @@
       ],
       "notes": [
         {
+          "text": "DMARC aggregate raporu (andnewme.com, 20-21 Kas 2026, Microsoft): rutin teknik rapor, aksiyon gerekmiyor. (kaynak: E-posta (22 Kas 07:04): DMARC Aggregate Report · Report Domain: andnewme.com Sub)",
+          "at": "2026-11-22 07:05"
+        },
+        {
           "text": "Microsoft DMARC aggregate raporu (yeniben.com, 18-19 Kas 2026 e-postaları); teknik izleme bilgisi, aksiyon gerektirmiyor. (kaynak: E-posta (20 Kas 14:38): DMARC Aggregate Report · Report Domain: yeniben.com Subm)",
           "at": "2026-11-20 14:39"
         },
@@ -3895,10 +3899,6 @@
         {
           "text": "iyzico 'Ödeme Sayfası' tanıtım banner'ının kapatılması talebi: destek (Nazan Y., 29 Eki) talebi yalnızca kayıtlı ana e-posta adresinden kabul ediyor, talep oradan yeniden iletilmeli. (kaynak: E-posta (29 Eki 14:13): iyzico Destek · RE: Ortak Ödeme Sayfası (Checkout Form) )",
           "at": "2026-10-29 14:13"
-        },
-        {
-          "text": "Apple abonelik: HiNoter AI Note Taker haftalık ₺184,99 (28 Eki ödendi, 5 Kas'ta yenileniyor, Mastercard ••2051). (kaynak: E-posta (29 Eki 09:09): Apple · Your receipt from Apple.)",
-          "at": "2026-10-29 09:09"
         }
       ]
     },
@@ -4074,7 +4074,7 @@
       ]
     }
   ],
-  "updated": "2026-11-21 20:56",
+  "updated": "2026-11-22 07:05",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4141,7 +4141,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a186e3e1e013c",
     "1a1a191fd0e38f70",
     "1a1a19da088593c1",
     "1a1a1b5296846350",
@@ -4440,7 +4439,8 @@
     "1a1fd5fb2cb2b223",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E0MzkyRTZGNEFFNkY2NDU4NjMA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4Q0M2NTg3Mjk4QzMzMkUxQ0IA",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCRUExNUVGREU4RTgxMjAzNjQA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCRUExNUVGREU4RTgxMjAzNjQA",
+    "1a2016d919926aed"
   ],
   "feed_order": [
     "qt5dom",
