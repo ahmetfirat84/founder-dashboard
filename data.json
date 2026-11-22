@@ -1781,6 +1781,10 @@
       "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
       "notes": [
         {
+          "text": "Scandic Helsinki Hub (Booking.com üzerinden, 22 Kas 2026) konaklama faturası e-postaya ekli geldi. Muhtemelen Helsinki Slush seyahati gideri; tutar ve ödeme durumu ekten kontrol edilmeli. (kaynak: E-posta (22 Kas 11:24): Scandic Helsinki Hub through Booking.com · Bill/Invoice )",
+          "at": "2026-11-22 11:25"
+        },
+        {
           "text": "Findeks Uyarı Hizmeti: kaydedilen koşullardan 2 tanesi gerçekleşti (22.11.2026). Detay için Findeks hesabından giriş yapılıp kontrol edilmeli; kredi kartı/kredi gecikmeleriyle ilişkili olabilir. (kaynak: E-posta (22 Kas 09:30): Findeks · Uyarı'dan Bildiriminiz Var!)",
           "at": "2026-11-22 09:30"
         },
@@ -1895,10 +1899,6 @@
         {
           "text": "11 Kas 2026: İş Bankası döviz satış işlemi, -€1.705,29 (kur 55,2298), Paraşüt'e aktarıldı. (kaynak: E-posta (12 Kas 08:21): Paraşüt · 1 adet banka işlemi Paraşüt'e aktarıldı)",
           "at": "2026-11-12 08:22"
-        },
-        {
-          "text": "📎 fatura-kesilen arşivlendi: Jodie Rata 2026-11-05 no NM62026000000002 ₺104.408 → https://drive.google.com/file/d/13rLh29NJQE4OIyuDcAZKDng3Nh-xZxaP/view?usp=drivesdk",
-          "at": "2026-11-11 16:24"
         }
       ],
       "drawer": [
@@ -4074,7 +4074,7 @@
       ]
     }
   ],
-  "updated": "2026-11-22 09:30",
+  "updated": "2026-11-22 11:25",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4141,7 +4141,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a19da088593c1",
     "1a1a1b5296846350",
     "1a1a1d29fc355f89",
     "1a1a1edd5024c2dc",
@@ -4440,7 +4439,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E4Q0M2NTg3Mjk4QzMzMkUxQ0IA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCRUExNUVGREU4RTgxMjAzNjQA",
     "1a2016d919926aed",
-    "1a201f2c858cee85"
+    "1a201f2c858cee85",
+    "1a2025b9ab24ca6b"
   ],
   "feed_order": [
     "qt5dom",
