@@ -1105,6 +1105,21 @@
       "due_date": "2026-11-27",
       "title": "Apple (Wanderlog Pro Yıllık)",
       "note": "Wanderlog Pro yıllık abonelik, 1 hafta ücretsiz deneme 20 Kasım'da başladı; 27 Kasım'da ₺1.099 çekilecek. İstemiyorsan en az 1 gün önce iptal et."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Abonelik",
+      "party": "YourBusinessNumber",
+      "amount": "",
+      "due": "Ödeme başarısız, tarih belirtilmemiş",
+      "uid": "zw4wm4",
+      "source": "mail-gelen",
+      "origin": "E-posta (23 Kas 09:24): YourBusinessNumber · 💳 Payment failure for YourBusinessNumber",
+      "wamid": "1a20713c6c30fde2",
+      "mail_thread": "1a20713c6c30fde2",
+      "urgency": "gray",
+      "title": "YourBusinessNumber",
+      "note": "Abonelik ödemesi başarısız (e-posta 23 Kas). Kart/ödeme bilgisini billing.yourbusinessnumber.com üzerinden güncelle, yoksa hizmet durabilir."
     }
   ],
   "departments": [
@@ -4074,7 +4089,7 @@
       ]
     }
   ],
-  "updated": "2026-11-23 08:00",
+  "updated": "2026-11-23 09:24",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4141,7 +4156,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a20e0c9b8f3f6",
     "1a1a20e04100deea",
     "1a1a217caadf68d3",
     "1a1a2268ccf0ec74",
@@ -4440,7 +4454,8 @@
     "1a2030b4c42025be",
     "1a205ee6b57cd1f3",
     "1a205ee75210e6b8",
-    "1a2060f203b24acb"
+    "1a2060f203b24acb",
+    "1a20713c6c30fde2"
   ],
   "feed_order": [
     "qt5dom",
