@@ -4089,7 +4089,7 @@
       ]
     }
   ],
-  "updated": "2026-11-23 09:24",
+  "updated": "2026-11-23 13:45",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4156,7 +4156,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a20e04100deea",
     "1a1a217caadf68d3",
     "1a1a2268ccf0ec74",
     "1a1a225d08513d10",
@@ -4455,7 +4454,8 @@
     "1a205ee6b57cd1f3",
     "1a205ee75210e6b8",
     "1a2060f203b24acb",
-    "1a20713c6c30fde2"
+    "1a20713c6c30fde2",
+    "1a20801e606591d1"
   ],
   "feed_order": [
     "qt5dom",
@@ -9062,6 +9062,64 @@
   ],
   "meeting_notes": [
     {
+      "id": "r0waso",
+      "title": "& New Me_Weekly",
+      "date": "2026-11-23",
+      "summary": "Lead'lerin önceki mesajlar ve mevcut görüşme bağlamı kontrol edilerek devredilmesi, depozito alınmadan tarih ve seyahat planının kesinleştirilmemesi kararlaştırıldı. Ödeme linklerinin deal ekranından oluşturulması, doktor ağının genişletilmesi ve pazaryeri görünürlüğünün artırılması planlandı. Psikolog-diyetisyen pilotu ve özel hastaların sağlık süreçleri de ele alındı.",
+      "thread": "1a20801e606591d1",
+      "actions": [
+        {
+          "id": "4jvwzk",
+          "text": "Ödeme linklerinin deal ekranından oluşturulabilmesi için Emir'e gerekli erişimler tanımlanacak ve ilgili ekran görüntüleri Emre'ye iletilecek.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "Emir / Emre",
+          "status": "proposed"
+        },
+        {
+          "id": "o05y5w",
+          "text": "Charlie, Alicia'nın kuzeni ve Sima'dan depozito alınacak; depozito gelmeden tarih ve seyahat planı kesinleştirilmeyecek.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "Charlie, Alicia'nın kuzeni, Sima",
+          "status": "proposed"
+        },
+        {
+          "id": "oee8fr",
+          "text": "Kalkidya için doktor, ulaşım ve Uber maliyetlerini içeren paket hazırlanacak.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "Kalkidya",
+          "status": "proposed"
+        },
+        {
+          "id": "y1qirm",
+          "text": "James'in ay sonundaki ameliyatı için transferi ve oteli James ayarlayacak; ekip buluşma, hastane ve ameliyat sürecinde destek verecek.",
+          "dep": "ecem",
+          "owner": "James",
+          "due_date": "2026-11-30",
+          "party": "James",
+          "status": "proposed"
+        },
+        {
+          "id": "2f5drt",
+          "text": "Ayhan Işık Erdal gibi yeni sağlayıcılar pazaryeri sitesine eklenecek.",
+          "dep": "ilksen",
+          "owner": "",
+          "party": "Ayhan Işık Erdal",
+          "status": "proposed"
+        },
+        {
+          "id": "qllg0e",
+          "text": "Kronik bağırsak sorunu olan geçmiş hasta için Resul Bey'den net öneri alınacak; hastanın Aralık'ta gelmesi ve depozito vermesi planlanıyor.",
+          "dep": "zeynep",
+          "owner": "",
+          "party": "Resul Bey / kronik bağırsak hastası",
+          "status": "proposed"
+        }
+      ]
+    },
+    {
       "id": "u65pho",
       "title": "& New Me_Daily",
       "date": "2026-11-18",
@@ -10063,63 +10121,6 @@
           "dep": "zeynep",
           "owner": "Selin",
           "party": "6 lead",
-          "status": "proposed"
-        }
-      ]
-    },
-    {
-      "id": "5r9zsr",
-      "title": "& New Me_Daily",
-      "date": "2026-10-20",
-      "summary": "Toplantıda reklamdan ve eski lead'lerden gelen kişilerin takibi, depozito ve hasta operasyonları konuşuldu. Reklam performansı erken bulundu; bütçe artışı için birkaç gün izleme kararlaştırıldı. Moana ile uçuş ve yerel ödeme iş birliği küçük bir denemeyle başlatılacak.",
-      "thread": "1a158dfad6e54bef",
-      "actions": [
-        {
-          "id": "vbxbux",
-          "text": "Selin Sezgin, e-postayı görüp planlanan aramaya yanıt vermeyen lead'i tekrar arayacak.",
-          "dep": "zeynep",
-          "owner": "Selin Sezgin",
-          "party": "",
-          "status": "proposed"
-        },
-        {
-          "id": "v8khqb",
-          "text": "Hülya Alkan, D, Rebecca ve Lipo tedavisiyle ilgilenen sıcak lead'lerle görüşmeleri ilerletip depozito ihtimalini test edecek.",
-          "dep": "zeynep",
-          "owner": "Hülya Alkan",
-          "party": "D, Rebecca",
-          "status": "proposed"
-        },
-        {
-          "id": "si9jtg",
-          "text": "Satış ekibi, akreditasyon, komplikasyon oranı ve tedavi ayrıntıları sorularını WhatsApp grubundaki geri bildirim kanalına aktaracak.",
-          "dep": "zeynep",
-          "owner": "",
-          "party": "",
-          "status": "proposed"
-        },
-        {
-          "id": "rg3sm3",
-          "text": "Ödemede gecikme yaşayan müşteriden önce kısmi ödeme alınarak iyi niyet test edilecek.",
-          "dep": "zeynep",
-          "owner": "",
-          "party": "",
-          "status": "proposed"
-        },
-        {
-          "id": "imoaah",
-          "text": "Ahmet Fırat, mevcut reklam sonuçlarına göre birkaç yeni kreatif hazırlayıp farklı reklam varyasyonlarını test edecek.",
-          "dep": "ilksen",
-          "owner": "Ahmet Fırat",
-          "party": "",
-          "status": "proposed"
-        },
-        {
-          "id": "fh6c6z",
-          "text": "Selin Sezgin, ilk uygun fırsatta Moana'nın uçuş fiyatlarını Mix&Match ve Skyscanner ile karşılaştıracak.",
-          "dep": "zeynep",
-          "owner": "Selin Sezgin",
-          "party": "Moana",
           "status": "proposed"
         }
       ]
