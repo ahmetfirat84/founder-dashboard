@@ -3694,7 +3694,7 @@
           "amount": "",
           "urgency": "gray",
           "uid": "91zqrf",
-          "note": "YENİ MAİL 22.10 09:38 (22 Eki 09:37 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): 22 Eki Kanyon Finans e-postası: açık borç ₺24.171,27, en kısa sürede ödeme talebi (Borçlar'daki Kanyon ev aidatı ile aynı tutar). YENİ MAİL 26.10 15:49 (26 Eki 15:49 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): 26 Eki Kanyon Finans otomatik bildirimi: borç ₺24.171,27, ödeme talebi (Borçlar'daki Kanyon ev aidatı ile aynı tutar). YENİ MAİL 09.11 15:32 (9 Kas 15:31 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): Kanyon Finans 09.11: toplam borç ₺52.417,72, en kısa sürede ödeme istendi (otomatik bakiye bildirimi). YENİ MAİL 16.11 13:42 (16 Kas 13:41 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): 16 Kas Kanyon Finans otomatik bildirimi: toplam borç ₺52.417,72, en kısa sürede ödeme talebi (vade belirtilmemiş)."
+          "note": "YENİ MAİL 22.10 09:38 (22 Eki 09:37 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): 22 Eki Kanyon Finans e-postası: açık borç ₺24.171,27, en kısa sürede ödeme talebi (Borçlar'daki Kanyon ev aidatı ile aynı tutar). YENİ MAİL 26.10 15:49 (26 Eki 15:49 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): 26 Eki Kanyon Finans otomatik bildirimi: borç ₺24.171,27, ödeme talebi (Borçlar'daki Kanyon ev aidatı ile aynı tutar). YENİ MAİL 09.11 15:32 (9 Kas 15:31 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): Kanyon Finans 09.11: toplam borç ₺52.417,72, en kısa sürede ödeme istendi (otomatik bakiye bildirimi). YENİ MAİL 16.11 13:42 (16 Kas 13:41 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): 16 Kas Kanyon Finans otomatik bildirimi: toplam borç ₺52.417,72, en kısa sürede ödeme talebi (vade belirtilmemiş). YENİ MAİL 23.11 14:56 (23 Kas 14:56 · Kanyon Finans · Kanyon Finans - Bakiye Bilgilendirmesi): 23 Kas Kanyon Finans otomatik bildirimi: toplam borç ₺52.417,72, en kısa sürede ödeme talebi."
         },
         {
           "text": "Superonline internet aboneliği 21 Eyl'de askıya alınıp 28 Eyl'de yeniden açılmış: ödeme düzenini kontrol et",
@@ -4089,7 +4089,7 @@
       ]
     }
   ],
-  "updated": "2026-11-23 13:45",
+  "updated": "2026-11-23 14:56",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4156,7 +4156,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a217caadf68d3",
     "1a1a2268ccf0ec74",
     "1a1a225d08513d10",
     "1a1a22dd3d5ac046",
@@ -4455,7 +4454,8 @@
     "1a205ee75210e6b8",
     "1a2060f203b24acb",
     "1a20713c6c30fde2",
-    "1a20801e606591d1"
+    "1a20801e606591d1",
+    "1a208438faac62e9"
   ],
   "feed_order": [
     "qt5dom",
