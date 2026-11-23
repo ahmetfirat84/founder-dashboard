@@ -3495,7 +3495,8 @@
           "mail_thread": "1a1fba73a44e4d7c",
           "urgency": "gray",
           "text": "Family office intro e-postası: Apex Ascension (Nam Tran) kısa görüşme talep ediyor. Gönderen ve yatırım iddiaları doğrulanmalı, ücret/ön ödeme talebi yok.",
-          "owner": ""
+          "owner": "",
+          "note": "YENİ MAİL 23.11 22:38 (23 Kas 22:37 · Nam Tran · Re: Ahmet // family office intro): Nam Tran (23 Kas): fon gelecekse şimdi görüşmek zaman kazandırır, birkaç slot önerebilir; yanıt bekliyor."
         }
       ],
       "summary": "Slush kararı bekliyor",
@@ -4089,7 +4090,7 @@
       ]
     }
   ],
-  "updated": "2026-11-23 21:24",
+  "updated": "2026-11-23 22:38",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4156,7 +4157,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a22dd3d5ac046",
     "1a1a2374682bbca0",
     "1a1a2c1c07679ff7",
     "1a1a4f18007451af",
@@ -4455,7 +4455,8 @@
     "1a20801e606591d1",
     "1a208438faac62e9",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEUxRDg3RDc1MEQ3NUVGNDVFRgA=",
-    "1a209a6cc35a45f3"
+    "1a209a6cc35a45f3",
+    "1a209ea4f1972a3b"
   ],
   "feed_order": [
     "qt5dom",
