@@ -4089,7 +4089,7 @@
       ]
     }
   ],
-  "updated": "2026-11-23 14:56",
+  "updated": "2026-11-23 17:40",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4156,7 +4156,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a2268ccf0ec74",
     "1a1a225d08513d10",
     "1a1a22dd3d5ac046",
     "1a1a2374682bbca0",
@@ -4455,7 +4454,8 @@
     "1a2060f203b24acb",
     "1a20713c6c30fde2",
     "1a20801e606591d1",
-    "1a208438faac62e9"
+    "1a208438faac62e9",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEUxRDg3RDc1MEQ3NUVGNDVFRgA="
   ],
   "feed_order": [
     "qt5dom",
@@ -10212,6 +10212,14 @@
       "note": "Perşembe öğlen buluşma; iş takvimine taşındı",
       "location": "Parle",
       "calendar": "is"
+    },
+    {
+      "date": "2026-11-24",
+      "time": "19:00",
+      "title": "Melisalar ile yemek",
+      "note": "Cemre Yamaner'e davet gönderilecek: cemreyamaner@gmail.com",
+      "location": "Beko Ocakbaşı",
+      "calendar": "sahsi"
     }
   ],
   "payroll": {
