@@ -3066,6 +3066,10 @@
       "summary": "Meta Ads 7 gündür kapalı",
       "notes": [
         {
+          "text": "Hotjar haftalık özet (16-22 Kas): andnewme.com'da 3 oturum kaydı, 1 yeni anket yanıtı ('Usability problems on website pages'); aksiyon gerektirmiyor, isteğe bağlı inceleme. (kaynak: E-posta (23 Kas 04:39): Hotjar · Here's your weekly summary from Hotjar)",
+          "at": "2026-11-23 04:40"
+        },
+        {
           "text": "Google Search Console (newme.care): yeni indexlenmeme nedeni 'Page with redirect'. Yönlendirmeler kasıtlı değilse düzeltilmeli. (kaynak: E-posta (12 Kas 07:34): Google Search Console Team · New reasons prevent pages f)",
           "at": "2026-11-12 07:35"
         },
@@ -3180,10 +3184,6 @@
         {
           "text": "Instagram paylaşımı: https://instagram.com/p/DeyAKw2szjP/ (kaynak: WhatsApp (22 Eki 18:51, yazılı))",
           "at": "2026-10-22 18:51"
-        },
-        {
-          "text": "Instagram linki: https://www.instagram.com/p/Deu2vx0GyIT/ (kaynak: WhatsApp (22 Eki 09:23, yazılı))",
-          "at": "2026-10-22 09:23"
         }
       ]
     },
@@ -4074,7 +4074,7 @@
       ]
     }
   ],
-  "updated": "2026-11-23 04:04",
+  "updated": "2026-11-23 04:40",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4141,7 +4141,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a2031293648ed",
     "1a1a20e0c9b8f3f6",
     "1a1a20e04100deea",
     "1a1a217caadf68d3",
@@ -4440,7 +4439,8 @@
     "1a2025b9ab24ca6b",
     "1a2030b4c42025be",
     "1a205ee6b57cd1f3",
-    "1a205ee75210e6b8"
+    "1a205ee75210e6b8",
+    "1a2060f203b24acb"
   ],
   "feed_order": [
     "qt5dom",
