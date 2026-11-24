@@ -1135,6 +1135,21 @@
       "due": "28.11.2026",
       "due_date": "2026-11-28",
       "note": "Kart …0149 reddedildi; 28.11'de askıya alma riski. Yeniden dene veya ödeme yöntemini güncelle."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Sigorta",
+      "party": "Allianz Sigorta",
+      "amount": "₺3.541,17",
+      "due": "bugün 24.11 (kartla çekim)",
+      "uid": "uf5js9",
+      "source": "whatsapp",
+      "origin": "WhatsApp (24 Kas 12:09, belge)",
+      "wamid": "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3MDIyNEEzRUI1MkJFMjQ3MzkA",
+      "amount_try": 3541.17,
+      "due_date": "2026-11-24",
+      "title": "Allianz Sigorta",
+      "note": "Bireysel sağlık Allianz tamamlayıcı sağlık, poliçe 0001071011031721 (sigorta ettiren Yeniben Elektronik, acente Küçükserim). Kredi kartı ödeme talimatı: peşinat ₺3.541,17 bugün çekilecek, ardından 7 taksit × ₺3.536 (her ayın 24'ü, 24.12.2026-24.06.2027). Toplam ₺28.293,17. Karta limit/bakiye gerekli"
     }
   ],
   "departments": [
@@ -4205,7 +4220,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a587650a5dd81",
     "1a1a5996a052e45e",
     "1a1a59d4d7565eeb",
     "1a1a5bb3fc3aee8b",
@@ -4504,7 +4518,8 @@
     "1a20c3bb51bbb465",
     "1a20c61bbfbf3ac4",
     "1a20cc9ec7bb3a3e",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3MENBOTkxMkZGRTU3OUIxREIA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3MENBOTkxMkZGRTU3OUIxREIA",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3MDIyNEEzRUI1MkJFMjQ3MzkA"
   ],
   "feed_order": [
     "qt5dom",
@@ -4858,6 +4873,21 @@
       "note": "HubSpot maliyeti €1.546 − ameliyat €1.200 = €346 (otel, transfer, ilaç, protein ve olası ekler). Fatura mı mevcut bakiyede mi teyit et.",
       "source": "manual",
       "origin": "HubSpot (Nate Gastric Sleeve deal) + Ahmet 17 Eki"
+    },
+    {
+      "uid": "pjqwim",
+      "dir": "out",
+      "party": "Allianz Sigorta",
+      "label": "Tamamlayıcı sağlık taksitleri (7 × ₺3.536)",
+      "amount": 24752,
+      "cur": "TRY",
+      "fee_pct": 0,
+      "expected_date": "2026-12-24",
+      "certainty": "kesin",
+      "patient": "",
+      "note": "Aylık ₺3.536, her ayın 24'ü, 24.12.2026'dan 24.06.2027'ye kadar 7 taksit; peşinat ₺3.541,17 ayrı satırda, toplam ₺28.293,17.",
+      "source": "whatsapp",
+      "origin": "WhatsApp (24 Kas 12:09, belge)"
     }
   ],
   "blocked_senders": [
