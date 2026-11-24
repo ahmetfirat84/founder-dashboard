@@ -3290,6 +3290,10 @@
       "summary": "1 onay bekliyor",
       "notes": [
         {
+          "text": "Selin tamamlayıcı sigorta (kaynak: WhatsApp (24 Kas 12:09, yazılı))",
+          "at": "2026-11-24 12:09"
+        },
+        {
           "text": "Scandic Helsinki Hub rezervasyonu (19-22 Kas 2026, Superior King, 2 yetişkin, toplam ₺32.723,99 ödenmiş, iptal/iade yok) misafir adı Ahmet Faruk Fırat'tan Cemre Yamaner Fırat'a değiştirildi. Check-in yarın 16:00, kimlik ve kredi kartı gerekli. Rezervasyon no: 5666853258. (kaynak: E-posta (19 Kas 00:24): noreply@booking.com · Your updated booking at Scandic He)",
           "at": "2026-11-19 00:25"
         },
@@ -4134,7 +4138,7 @@
       ]
     }
   ],
-  "updated": "2026-11-24 12:02",
+  "updated": "2026-11-24 12:09",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4201,7 +4205,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a56f038b9d6e6",
     "1a1a587650a5dd81",
     "1a1a5996a052e45e",
     "1a1a59d4d7565eeb",
@@ -4500,7 +4503,8 @@
     "1a20bcc56c17eae4",
     "1a20c3bb51bbb465",
     "1a20c61bbfbf3ac4",
-    "1a20cc9ec7bb3a3e"
+    "1a20cc9ec7bb3a3e",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3MENBOTkxMkZGRTU3OUIxREIA"
   ],
   "feed_order": [
     "qt5dom",
