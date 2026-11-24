@@ -92,7 +92,7 @@
       "title": "2. Garanti BBVA kredi kartı borcu",
       "amount": "Tutar bankada",
       "due": "Gecikmede, yakın izleme riski",
-      "note": "Para girince ilk ödenecek. Banka 30 Eyl'de ödeme yapılmazsa 'yakın izleme' sürecini başlatacağını bildirdi. YENİ MAİL 27.10 08:32 (27 Eki 08:32 · Memorae · İki 1:1, akşam ameliyat, son ödeme bugün · 27 Ekim Salı): 27 Ekim Salı bugün Bonus Business kartının son ödeme günü (Memorae takvim özeti). YENİ MAİL 28.10 09:08 (28 Eki 09:07 · Garanti BBVA · GARANTİ BBVA): Garanti avans hesabı 6873266: asgari ödeme ₺14.955, son ödeme tarihi geçti, ödenmedi; KKB gecikmeli kayıt riski var. YENİ MAİL 02.11 09:22 (2 Kas 09:22 · Garanti BBVA · GARANTİ BBVA): Garanti BBVA 6873266 nolu avans hesabının minimum ödemesi ₺7.455, son ödeme tarihinde ödenmedi; Kredi Kayıt Bürosu'na gecikmeli kayıt riski var.",
+      "note": "Para girince ilk ödenecek. Banka 30 Eyl'de ödeme yapılmazsa 'yakın izleme' sürecini başlatacağını bildirdi. YENİ MAİL 27.10 08:32 (27 Eki 08:32 · Memorae · İki 1:1, akşam ameliyat, son ödeme bugün · 27 Ekim Salı): 27 Ekim Salı bugün Bonus Business kartının son ödeme günü (Memorae takvim özeti). YENİ MAİL 28.10 09:08 (28 Eki 09:07 · Garanti BBVA · GARANTİ BBVA): Garanti avans hesabı 6873266: asgari ödeme ₺14.955, son ödeme tarihi geçti, ödenmedi; KKB gecikmeli kayıt riski var. YENİ MAİL 02.11 09:22 (2 Kas 09:22 · Garanti BBVA · GARANTİ BBVA): Garanti BBVA 6873266 nolu avans hesabının minimum ödemesi ₺7.455, son ödeme tarihinde ödenmedi; Kredi Kayıt Bürosu'na gecikmeli kayıt riski var. YENİ MAİL 24.11 09:26 (24 Kas 09:26 · Garanti BBVA · GARANTİ BBVA): 24.11 e-posta: kart (5209***9016) asgari ödemesi ₺1.717,44 son ödeme tarihinde ödenmedi, Kredi Kayıt Bürosu gecikme kaydı uyarısı.",
       "action_type": "Ödeme",
       "category": "Banka / Kart",
       "party": "Garanti BBVA",
@@ -4118,7 +4118,7 @@
       ]
     }
   ],
-  "updated": "2026-11-24 08:30",
+  "updated": "2026-11-24 09:26",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4185,7 +4185,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a2c1c07679ff7",
     "1a1a4f18007451af",
     "1a1a538283965c31",
     "1a1a56f038b9d6e6",
@@ -4484,7 +4483,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEUxRDg3RDc1MEQ3NUVGNDVFRgA=",
     "1a209a6cc35a45f3",
     "1a209ea4f1972a3b",
-    "1a20bcc56c17eae4"
+    "1a20bcc56c17eae4",
+    "1a20c3bb51bbb465"
   ],
   "feed_order": [
     "qt5dom",
