@@ -1149,7 +1149,9 @@
       "amount_try": 3541.17,
       "due_date": "2026-11-24",
       "title": "Allianz Sigorta",
-      "note": "Bireysel sağlık Allianz tamamlayıcı sağlık, poliçe 0001071011031721 (sigorta ettiren Yeniben Elektronik, acente Küçükserim). Kredi kartı ödeme talimatı: peşinat ₺3.541,17 bugün çekilecek, ardından 7 taksit × ₺3.536 (her ayın 24'ü, 24.12.2026-24.06.2027). Toplam ₺28.293,17. Karta limit/bakiye gerekli"
+      "note": "Bireysel sağlık Allianz tamamlayıcı sağlık, poliçe 0001071011031721 (sigorta ettiren Yeniben Elektronik, acente Küçükserim). Kredi kartı ödeme talimatı: peşinat ₺3.541,17 bugün çekilecek, ardından 7 taksit × ₺3.536 (her ayın 24'ü, 24.12.2026-24.06.2027). Toplam ₺28.293,17. Karta limit/bakiye gerekli",
+      "done": true,
+      "doneAt": "2026-11-24 12:14"
     }
   ],
   "departments": [
@@ -4153,7 +4155,7 @@
       ]
     }
   ],
-  "updated": "2026-11-24 12:09",
+  "updated": "2026-11-24 12:14",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4220,7 +4222,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a5996a052e45e",
     "1a1a59d4d7565eeb",
     "1a1a5bb3fc3aee8b",
     "1a1a5db747f70596",
@@ -4519,7 +4520,8 @@
     "1a20c61bbfbf3ac4",
     "1a20cc9ec7bb3a3e",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3MENBOTkxMkZGRTU3OUIxREIA",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3MDIyNEEzRUI1MkJFMjQ3MzkA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3MDIyNEEzRUI1MkJFMjQ3MzkA",
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCRTRCNkNFREQ0NEYzMUZCQjgA"
   ],
   "feed_order": [
     "qt5dom",
