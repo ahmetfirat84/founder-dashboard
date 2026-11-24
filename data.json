@@ -2826,6 +2826,10 @@
       "summary": "HealthTürkiye yenilemesi açık",
       "notes": [
         {
+          "text": "Google Cloud Service Specific Terms güncellemesi (1 Ocak 2027'den geçerli): Section 17, AI ajanları ve MCP/API erişimine kısıtlar getiriyor. Sözleşme uyumu için incelenmeli. (kaynak: E-posta (24 Kas 23:42): Google Cloud · [Legal Update] Updates to Google Cloud Se)",
+          "at": "2026-11-24 23:43"
+        },
+        {
           "text": "Google Play Age Signals API: Ocak 2027'den itibaren Kaliforniya (AB 1043) ve Brezilya için yaş sinyali paylaşımı zorunlu olacak; uygulama bu bölgelerde hedefliyorsa entegrasyon gerekir (Google Play hesabı, r117 ile birlikte takip). (kaynak: E-posta (20 Kas 01:08): Google Play · Updates to the Play Age Signals API and su)",
           "at": "2026-11-20 01:08"
         },
@@ -4155,7 +4159,7 @@
       ]
     }
   ],
-  "updated": "2026-11-24 20:45",
+  "updated": "2026-11-24 23:43",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4222,7 +4226,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a5db747f70596",
     "1a1a5fc4f2060272",
     "1a1a5fb682bdd4cc",
     "1a1a607d7dc39e00",
@@ -4521,7 +4524,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3MDIyNEEzRUI1MkJFMjQ3MzkA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCRTRCNkNFREQ0NEYzMUZCQjgA",
     "1a20d5261434f256",
-    "1a20ea99fdba8e2e"
+    "1a20ea99fdba8e2e",
+    "1a20f4bc701b2e23"
   ],
   "feed_order": [
     "qt5dom",
