@@ -2835,7 +2835,8 @@
           "mail_thread": "1a20f8acfbed34d3",
           "due_date": "2027-02-01",
           "text": "Google Workspace API kullanım şartları değişti (Workspace AI Tools Addendum): ff-sport-asistan ve my-project-1540220831272 projelerinin kullanımını kontrol et, AI agent erişimi varsa REST yerine MCP'ye geç, gerekirse Scaled tier seç. Karar ver: kabul/uyum.",
-          "owner": ""
+          "owner": "",
+          "note": "YENİ MAİL 25.11 01:12 (25 Kas 01:12 · Google Cloud Platform · [Pricing Update] Changes to Google Workspace API us): 24 Kas 2026 duyurusu: Standard/Scaled katmanı, 1 Nis 2027'den itibaren Scaled ücretli; MCP zorunluluğu 1 Şub 2027'de başlıyor, ff-sport-asistan ve my-project-1540220831272 etkileniyor."
         }
       ],
       "summary": "HealthTürkiye yenilemesi açık",
@@ -4174,7 +4175,7 @@
       ]
     }
   ],
-  "updated": "2026-11-25 00:51",
+  "updated": "2026-11-25 01:12",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4241,7 +4242,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a5fb682bdd4cc",
     "1a1a607d7dc39e00",
     "1a1a610328cf701d",
     "1a1a615dbde7c670",
@@ -4540,7 +4540,8 @@
     "1a20d5261434f256",
     "1a20ea99fdba8e2e",
     "1a20f4bc701b2e23",
-    "1a20f8acfbed34d3"
+    "1a20f8acfbed34d3",
+    "1a20f9dcddea39cb"
   ],
   "feed_order": [
     "qt5dom",
