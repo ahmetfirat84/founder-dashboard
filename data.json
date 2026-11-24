@@ -3953,7 +3953,7 @@
       "area": "Şahsi-Todo",
       "status": "gray",
       "summary": "Şahsi yapılacaklar",
-      "updated": "2026-11-19 19:00",
+      "updated": "2026-11-24 12:02",
       "items": [
         {
           "text": "OC: dünkü toplantı notlarını mail at, yapılacakları netleştir; gönderdiği bilet linkine bak, işe yararsa siteye embed et",
@@ -4065,6 +4065,21 @@
           "due_date": "2026-11-19",
           "text": "ahmetfaruksamilfirat@gmail.com hesabının kurtarma telefonu değiştirildi; myaccount.google.com/notifications üzerinden kontrol et, değişikliği sen yapmadıysan hesabı koru.",
           "owner": ""
+        },
+        {
+          "action_type": "Başvuru",
+          "category": "",
+          "party": "Allianz Sigorta",
+          "amount": "",
+          "due": "",
+          "uid": "2lmv3o",
+          "source": "mail-gelen",
+          "origin": "E-posta (24 Kas 12:01): Allianz Türkiye · Allianz Tamamlayıcı Sağlık Ürününe Ait Dijital Başvuru Formu",
+          "wamid": "1a20cc9ec7bb3a3e",
+          "mail_thread": "1a20cc0529421214",
+          "urgency": "gray",
+          "text": "Allianz tamamlayıcı sağlık başvuru formu hazır: pci.allianz.com.tr üzerinden bilgileri girip tamamla (aracı: Küçükserim Sigorta)",
+          "owner": ""
         }
       ],
       "notes": [
@@ -4119,7 +4134,7 @@
       ]
     }
   ],
-  "updated": "2026-11-24 10:08",
+  "updated": "2026-11-24 12:02",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4186,7 +4201,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a538283965c31",
     "1a1a56f038b9d6e6",
     "1a1a587650a5dd81",
     "1a1a5996a052e45e",
@@ -4485,7 +4499,8 @@
     "1a209ea4f1972a3b",
     "1a20bcc56c17eae4",
     "1a20c3bb51bbb465",
-    "1a20c61bbfbf3ac4"
+    "1a20c61bbfbf3ac4",
+    "1a20cc9ec7bb3a3e"
   ],
   "feed_order": [
     "qt5dom",
