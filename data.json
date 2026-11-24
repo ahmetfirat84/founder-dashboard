@@ -3797,6 +3797,10 @@
       ],
       "notes": [
         {
+          "text": "Google Apps Script 'asistan-mail-to-dashboard' son günlerde sunucu hatası (DEADLINE_EXCEEDED / server error) nedeniyle 23-24 Kasım'da birkaç kez çalışamadı; mail akışı kontrol edilmeli. (kaynak: E-posta (24 Kas 07:24): noreply-apps-scripts-notifications@googl · Summary of fa)",
+          "at": "2026-11-24 07:25"
+        },
+        {
           "text": "Microsoft DMARC aggregate raporu (yeniben.com, 20-21 Kas 2026, Report-ID 6d8c46aa1bff4b49bca7a108dc969929): otomatik teknik rapor, aksiyon gerektirmiyor. (kaynak: E-posta (22 Kas 14:36): DMARC Aggregate Report · Report Domain: yeniben.com Subm)",
           "at": "2026-11-22 14:37"
         },
@@ -3911,10 +3915,6 @@
         {
           "text": "Google Cloud 'mekanlarim' projesinin aylık bütçesi (₺200, mekanlarim-places) %100'e ulaştı; harcamayı kontrol et. (kaynak: E-posta (29 Eki 18:45): Google Cloud Billing Alerts · 100% of budget reached)",
           "at": "2026-10-29 18:50"
-        },
-        {
-          "text": "Google Cloud 'mekanlarim' projesinin aylık ₺200 bütçesi %100'e ulaştı (Ekim 2026); harcama detayına bakılmalı. (kaynak: E-posta (29 Eki 18:45): Google Cloud Billing Alerts · 100% of budget reached)",
-          "at": "2026-10-29 18:49"
         }
       ]
     },
@@ -4090,7 +4090,7 @@
       ]
     }
   ],
-  "updated": "2026-11-23 22:38",
+  "updated": "2026-11-24 07:25",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4157,7 +4157,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a2374682bbca0",
     "1a1a2c1c07679ff7",
     "1a1a4f18007451af",
     "1a1a538283965c31",
@@ -4456,7 +4455,8 @@
     "1a208438faac62e9",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgWM0VCMEUxRDg3RDc1MEQ3NUVGNDVFRgA=",
     "1a209a6cc35a45f3",
-    "1a209ea4f1972a3b"
+    "1a209ea4f1972a3b",
+    "1a20bcc56c17eae4"
   ],
   "feed_order": [
     "qt5dom",
