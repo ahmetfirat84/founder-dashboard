@@ -1092,7 +1092,7 @@
       "amount_try": 6770.25,
       "urgency": "orange",
       "title": "Okara",
-      "note": "Okara abonelik ödemesi (Visa *0149) reddedildi; ödeme yöntemi güncellenmezse abonelik duracak. Aynı kart HubSpot ödemelerini de reddediyor."
+      "note": "Okara abonelik ödemesi (Visa *0149) reddedildi; ödeme yöntemi güncellenmezse abonelik duracak. Aynı kart HubSpot ödemelerini de reddediyor. YENİ MAİL 24.11 20:45 (24 Kas 20:45 · Okara · ₺6,791.43 payment to Okara was unsuccessful again): 24 Kas 17:45 tekrar denendi, ₺6.791,43 yine reddedildi (Visa *0149); ödeme yöntemi güncellenmezse abonelik durur."
     },
     {
       "action_type": "Ödeme",
@@ -4155,7 +4155,7 @@
       ]
     }
   ],
-  "updated": "2026-11-24 14:31",
+  "updated": "2026-11-24 20:45",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4222,7 +4222,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a5bb3fc3aee8b",
     "1a1a5db747f70596",
     "1a1a5fc4f2060272",
     "1a1a5fb682bdd4cc",
@@ -4521,7 +4520,8 @@
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3MENBOTkxMkZGRTU3OUIxREIA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3MDIyNEEzRUI1MkJFMjQ3MzkA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCRTRCNkNFREQ0NEYzMUZCQjgA",
-    "1a20d5261434f256"
+    "1a20d5261434f256",
+    "1a20ea99fdba8e2e"
   ],
   "feed_order": [
     "qt5dom",
