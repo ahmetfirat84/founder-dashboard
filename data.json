@@ -3552,6 +3552,10 @@
       "summary": "Slush kararı bekliyor",
       "notes": [
         {
+          "text": "EEX Journey (Elisa Kitunen): Slush görüşmesi iptal edildi. Ocak-Şubat 2027 Advisory Board programı için başvuru açık, Helsinki seyahatleri şirkete ait. Aralık başı için Calendly görüşme linki var. (kaynak: E-posta (24 Kas 14:30): Elisa Kitunen · Slush follow-up: EEX Journey program)",
+          "at": "2026-11-24 14:31"
+        },
+        {
           "text": "Slush platformu bildirimi (19 Kas): Elisa Kitunen ile toplantı iptal edildi. Slush meeting planını buna göre güncelle. (kaynak: E-posta (19 Kas 17:45): Slush Platform · Your meeting with Ahmet Fırat has been )",
           "at": "2026-11-19 17:45"
         },
@@ -3666,10 +3670,6 @@
         {
           "text": "Slush platformunda heal.health CTO Ulaş Mısırlıoğlu'ndan 18 Kasım görüşme talebi var (A11 standı, kan testi tanıtımı); yanıt verilmedi, Slush meeting planıyla birlikte değerlendirilecek. (kaynak: E-posta (10 Kas 17:47): Slush Platform · heal A11 standında 5 dakikada kan testi)",
           "at": "2026-11-10 17:48"
-        },
-        {
-          "text": "Slush platformu: Karolijn Moes (Hollanda Dış Ticaret/NL Lounge, vize ve Hollanda ekosistemi) Slush 2026'da görüşme talep etti; kabul/ret kararı bekliyor. (kaynak: E-posta (10 Kas 16:51): Slush Platform · Information about the Dutch startup eco)",
-          "at": "2026-11-10 16:51"
         }
       ]
     },
@@ -4155,7 +4155,7 @@
       ]
     }
   ],
-  "updated": "2026-11-24 12:14",
+  "updated": "2026-11-24 14:31",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4222,7 +4222,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a59d4d7565eeb",
     "1a1a5bb3fc3aee8b",
     "1a1a5db747f70596",
     "1a1a5fc4f2060272",
@@ -4521,7 +4520,8 @@
     "1a20cc9ec7bb3a3e",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3MENBOTkxMkZGRTU3OUIxREIA",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0E3MDIyNEEzRUI1MkJFMjQ3MzkA",
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCRTRCNkNFREQ0NEYzMUZCQjgA"
+    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUM0FCRTRCNkNFREQ0NEYzMUZCQjgA",
+    "1a20d5261434f256"
   ],
   "feed_order": [
     "qt5dom",
