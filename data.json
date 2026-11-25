@@ -1152,6 +1152,23 @@
       "note": "Bireysel sağlık Allianz tamamlayıcı sağlık, poliçe 0001071011031721 (sigorta ettiren Yeniben Elektronik, acente Küçükserim). Kredi kartı ödeme talimatı: peşinat ₺3.541,17 bugün çekilecek, ardından 7 taksit × ₺3.536 (her ayın 24'ü, 24.12.2026-24.06.2027). Toplam ₺28.293,17. Karta limit/bakiye gerekli",
       "done": true,
       "doneAt": "2026-11-24 12:14"
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Telekom",
+      "party": "Turkcell (Yeniben Elektronik)",
+      "amount": "₺7.624,70",
+      "due": "08.12.2026",
+      "uid": "dpympw",
+      "source": "mail-gelen",
+      "origin": "E-posta (25 Kas 17:21): Turkcell · Turkcell Fatura Bilgilendirme",
+      "wamid": "1a213159cd0ae853",
+      "mail_thread": "1a213159cd0ae853",
+      "imp": "low",
+      "amount_try": 7624.7,
+      "due_date": "2026-12-08",
+      "title": "Turkcell (Yeniben Elektronik)",
+      "note": "Turkcell Yeniben faturaları toplam ₺7.624,70, son ödeme 08.12.2026. Detay CSV ekte. Mevcut Turkcell satırlarıyla (r17, r28, r31, r35) kalem çakışması olup olmadığı kontrol edilecek."
     }
   ],
   "departments": [
@@ -4175,7 +4192,7 @@
       ]
     }
   ],
-  "updated": "2026-11-25 11:44",
+  "updated": "2026-11-25 17:22",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4242,7 +4259,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a69de298b7b81",
     "1a1a6e79dd24d0c6",
     "1a1a8c8d0ca64f8e",
     "1a1a907098022d00",
@@ -4541,7 +4557,8 @@
     "1a210f55be949091",
     "1a211654c7cc85ce",
     "1a211ba72591ee13",
-    "1a211e01a9e04d71"
+    "1a211e01a9e04d71",
+    "1a213159cd0ae853"
   ],
   "feed_order": [
     "qt5dom",
