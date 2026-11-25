@@ -1109,7 +1109,7 @@
       "amount_try": 1099,
       "due_date": "2026-11-27",
       "title": "Apple (Wanderlog Pro Yıllık)",
-      "note": "Wanderlog Pro yıllık abonelik, 1 hafta ücretsiz deneme 20 Kasım'da başladı; 27 Kasım'da ₺1.099 çekilecek. İstemiyorsan en az 1 gün önce iptal et."
+      "note": "Wanderlog Pro yıllık abonelik, 1 hafta ücretsiz deneme 20 Kasım'da başladı; 27 Kasım'da ₺1.099 çekilecek. İstemiyorsan en az 1 gün önce iptal et. YENİ MAİL 25.11 07:27 (25 Kas 07:27 · Apple · Your subscription is expiring): Apple e-postası: abonelik 27 Kasım'da sona eriyor, ₺1.099; yenileme ya da iptal kararı App Store abonelik sayfasından verilecek."
     },
     {
       "action_type": "Ödeme",
@@ -4175,7 +4175,7 @@
       ]
     }
   ],
-  "updated": "2026-11-25 01:12",
+  "updated": "2026-11-25 07:27",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4242,7 +4242,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a607d7dc39e00",
     "1a1a610328cf701d",
     "1a1a615dbde7c670",
     "1a1a64377caf316d",
@@ -4541,7 +4540,8 @@
     "1a20ea99fdba8e2e",
     "1a20f4bc701b2e23",
     "1a20f8acfbed34d3",
-    "1a20f9dcddea39cb"
+    "1a20f9dcddea39cb",
+    "1a210f55be949091"
   ],
   "feed_order": [
     "qt5dom",
