@@ -2716,7 +2716,7 @@
           "owner": "",
           "source": "asistan",
           "uid": "9907cb",
-          "note": "YENİ MAİL 30.10 18:25 (30 Eki 18:24 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Ekim: Ersun Bey ve Coşkun Bey'den pay defteri kopyası, pay sahipleri listesi ve MERSİS ortak kontrolü istendi; imza sirküleri 15 Kasım'da dolduğu için bu hafta dönüş bekleniyor. YENİ MAİL 30.10 18:29 (30 Eki 18:28 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki: Ersun Bey ve Coşkun Bey'den noter tasdikli pay defteri konumu ve güncel pay sahipleri listesi istendi (2023 GK sonrası 41 pay sahibi, adres bilgisi teyit bekleniyor). YENİ MAİL 30.10 18:38 (30 Eki 18:38 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki: Ersun Bey ve Coşkun Bey'e pay defteri (noter tasdikli, kimde olduğu, 2023 sonrası devir/giriş) ve güncel pay sahipleri listesi soruldu; yanıt bekleniyor. YENİ MAİL 12.11 17:02 (12 Kas 17:02 · Orhan Bayram · Re: Yeniben genel kurul çağrısı, 27 Kasım 2026): Orhan Bayram (12 Kas): 27 Kasım genel kuruluna katılamayabileceğini, ek bir konu olursa haber vermesini yazdı. YENİ MAİL 15.11 09:46 (15 Kas 09:45 · emre aktan · Yeniben Genel Kurul – Finansallar): Emre Aktan (ortak) 27 Kas GK öncesi 2023, 2024, 2025 bilanço ve gelir tablolarını (varsa faaliyet raporlarıyla) PDF istedi. YENİ MAİL 15.11 10:34 (15 Kas 10:34 · emre aktan · Re: Re: Yeniben Genel Kurul – Finansallar): Emre Aktan (15 Kas): genel kurul yerine finansallar ve diğer raporlarla birlikte bir update paylaşılmasını istiyor."
+          "note": "YENİ MAİL 30.10 18:25 (30 Eki 18:24 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Ekim: Ersun Bey ve Coşkun Bey'den pay defteri kopyası, pay sahipleri listesi ve MERSİS ortak kontrolü istendi; imza sirküleri 15 Kasım'da dolduğu için bu hafta dönüş bekleniyor. YENİ MAİL 30.10 18:29 (30 Eki 18:28 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki: Ersun Bey ve Coşkun Bey'den noter tasdikli pay defteri konumu ve güncel pay sahipleri listesi istendi (2023 GK sonrası 41 pay sahibi, adres bilgisi teyit bekleniyor). YENİ MAİL 30.10 18:38 (30 Eki 18:38 · Ahmet Fırat · Yeniben pay defteri ve güncel pay sahipleri listesi hk.): 30 Eki: Ersun Bey ve Coşkun Bey'e pay defteri (noter tasdikli, kimde olduğu, 2023 sonrası devir/giriş) ve güncel pay sahipleri listesi soruldu; yanıt bekleniyor. YENİ MAİL 12.11 17:02 (12 Kas 17:02 · Orhan Bayram · Re: Yeniben genel kurul çağrısı, 27 Kasım 2026): Orhan Bayram (12 Kas): 27 Kasım genel kuruluna katılamayabileceğini, ek bir konu olursa haber vermesini yazdı. YENİ MAİL 15.11 09:46 (15 Kas 09:45 · emre aktan · Yeniben Genel Kurul – Finansallar): Emre Aktan (ortak) 27 Kas GK öncesi 2023, 2024, 2025 bilanço ve gelir tablolarını (varsa faaliyet raporlarıyla) PDF istedi. YENİ MAİL 15.11 10:34 (15 Kas 10:34 · emre aktan · Re: Re: Yeniben Genel Kurul – Finansallar): Emre Aktan (15 Kas): genel kurul yerine finansallar ve diğer raporlarla birlikte bir update paylaşılmasını istiyor. YENİ MAİL 26.11 18:27 (26 Kas 18:27 · emre aktan · Re: Yeniben Genel Kurul – Finansallar): Emre Aktan (26 Kas): 2023-2025 bilanço ve gelir tabloları hâlâ gelmedi, 15 Kasım'dan beri bekleniyor; online toplantı için uygun saat istiyor."
         },
         {
           "text": "Sermayeyi 250.000 TL'ye çıkar (süre 31 Aralık 2027'ye uzadı, acelesi yok); yöntem: pay sahibi yatırımı veya emisyon primi aktarımı",
@@ -4211,7 +4211,7 @@
       ]
     }
   ],
-  "updated": "2026-11-26 17:01",
+  "updated": "2026-11-26 18:27",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4278,7 +4278,6 @@
     }
   ],
   "asistan_seen": [
-    "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFBQTExNEMzQUEwM0FBRkNCOTcA",
     "1a1aa8df5aed031e",
     "19aa20690be48dcc",
     "1a1aaa68fa1b5e64",
@@ -4577,7 +4576,8 @@
     "1a216b1ecc0f7403",
     "1a2172b6656316b6",
     "1a2177894c8afa5d",
-    "1a218286d7165a62"
+    "1a218286d7165a62",
+    "1a21878049c48b90"
   ],
   "feed_order": [
     "qt5dom",
