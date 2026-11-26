@@ -4199,6 +4199,10 @@
       ],
       "notes": [
         {
+          "text": "SciSports'ta 'key' adlı yeni API anahtarı oluşturuldu (F-F Sport Assistant, 26 Aralık 2026'da sona erer). Sen oluşturmadıysan SciSports Developers portalından iptal et. (kaynak: E-posta (26 Kas 23:00): noreply@scisports.com · New API key: key)",
+          "at": "2026-11-26 23:02"
+        },
+        {
           "text": "Ahmet Demirel ile buluşma (kaynak: WhatsApp (21 Kas 20:55, yazılı))",
           "at": "2026-11-21 20:55"
         },
@@ -4249,7 +4253,7 @@
       ]
     }
   ],
-  "updated": "2026-11-26 21:57",
+  "updated": "2026-11-26 23:02",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4316,7 +4320,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1ab2777fdfd731",
     "1a1ab679f0bce58b",
     "1a1ab85114a50a03",
     "1a1abeadc8270063",
@@ -4615,7 +4618,8 @@
     "1a2189b377077115",
     "1a218b7c167e85a3",
     "1a218c91dc8996e7",
-    "1a21937e9ba568c1"
+    "1a21937e9ba568c1",
+    "1a2197303300ae54"
   ],
   "feed_order": [
     "qt5dom",
