@@ -2859,6 +2859,10 @@
       "summary": "HealthTürkiye yenilemesi açık",
       "notes": [
         {
+          "text": "Morris Stubbs (The Italbrass Group) eski kayıtların AI laboratuvarlarına lisanslanmasını soruyor ve IT/operasyon muhatabı istiyor. Hasta verisi ve KVKK açısından yanıt vermeden önce hukuki değerlendirme gerekli. (kaynak: E-posta (26 Kas 03:50): Morris Stubbs · New Me, who to ask)",
+          "at": "2026-11-26 03:51"
+        },
+        {
           "text": "Google Cloud Service Specific Terms güncellemesi (1 Ocak 2027'den geçerli): Section 17, AI ajanları ve MCP/API erişimine kısıtlar getiriyor. Sözleşme uyumu için incelenmeli. (kaynak: E-posta (24 Kas 23:42): Google Cloud · [Legal Update] Updates to Google Cloud Se)",
           "at": "2026-11-24 23:43"
         },
@@ -4192,7 +4196,7 @@
       ]
     }
   ],
-  "updated": "2026-11-25 17:22",
+  "updated": "2026-11-26 03:51",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4259,7 +4263,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a6e79dd24d0c6",
     "1a1a8c8d0ca64f8e",
     "1a1a907098022d00",
     "1a1a939e7c03291b",
@@ -4558,7 +4561,8 @@
     "1a211654c7cc85ce",
     "1a211ba72591ee13",
     "1a211e01a9e04d71",
-    "1a213159cd0ae853"
+    "1a213159cd0ae853",
+    "1a21555ed033999f"
   ],
   "feed_order": [
     "qt5dom",
