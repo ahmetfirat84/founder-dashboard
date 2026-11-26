@@ -3398,7 +3398,7 @@
       "name": "ERKİN",
       "area": "Investor Relations",
       "status": "green",
-      "updated": "2026-11-21 04:10",
+      "updated": "2026-11-26 13:49",
       "items": [
         {
           "text": "Slush Helsinki (18-19 Kas) katılım kararı bekliyor; katılım olursa yatırımcı toplantılarını planla",
@@ -3588,6 +3588,21 @@
           "text": "Family office intro e-postası: Apex Ascension (Nam Tran) kısa görüşme talep ediyor. Gönderen ve yatırım iddiaları doğrulanmalı, ücret/ön ödeme talebi yok.",
           "owner": "",
           "note": "YENİ MAİL 23.11 22:38 (23 Kas 22:37 · Nam Tran · Re: Ahmet // family office intro): Nam Tran (23 Kas): fon gelecekse şimdi görüşmek zaman kazandırır, birkaç slot önerebilir; yanıt bekliyor."
+        },
+        {
+          "action_type": "Yanıt",
+          "category": "Hollanda / NL Startup Visa",
+          "party": "RVO NL Point of Entry (Karolijn Moes)",
+          "amount": "",
+          "due": "",
+          "uid": "zs1nsj",
+          "source": "mail-gelen",
+          "origin": "E-posta (26 Kas 13:48): RVO NLentry · More info on opportunities in the Netherlands",
+          "wamid": "1a2177894c8afa5d",
+          "mail_thread": "1a2177894c8afa5d",
+          "urgency": "gray",
+          "text": "Slush sonrası Hollanda kuruluş/teşvik bilgisi geldi. Görüşme için nlentry@rvo.nl'ye pitch deck gönderip call talep et.",
+          "owner": ""
         }
       ],
       "summary": "Slush kararı bekliyor",
@@ -4196,7 +4211,7 @@
       ]
     }
   ],
-  "updated": "2026-11-26 12:24",
+  "updated": "2026-11-26 13:49",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4263,7 +4278,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a939e7c03291b",
     "1a1a939f86970b8f",
     "wamid.HBgMOTA1MzM3MjcwMDAwFQIAEhgUNEFBQTExNEMzQUEwM0FBRkNCOTcA",
     "1a1aa8df5aed031e",
@@ -4562,7 +4576,8 @@
     "1a213159cd0ae853",
     "1a21555ed033999f",
     "1a216b1ecc0f7403",
-    "1a2172b6656316b6"
+    "1a2172b6656316b6",
+    "1a2177894c8afa5d"
   ],
   "feed_order": [
     "qt5dom",
