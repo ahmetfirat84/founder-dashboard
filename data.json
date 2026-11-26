@@ -823,7 +823,7 @@
       "amount_try": 184.99,
       "due_date": "2026-11-12",
       "title": "Apple (HiNoter AI Note Taker)",
-      "note": "HiNoter AI haftalık abonelik, ₺184,99 (KDV dahil), 12 Kasım'da yenileniyor. İstemiyorsan App Store'dan iptal et. YENİ MAİL 12.11 14:22 (12 Kas 14:21 · Apple · Your receipt from Apple.): 11 Kas'ta ₺184,99 ödendi (Apple makbuzu, Visa 0149); bir sonraki haftalık yenileme 19 Kasım 2026. YENİ MAİL 19.11 10:16 (19 Kas 10:16 · Apple · Your receipt from Apple.): Apple makbuzu (18 Kas 2026): ₺184,99 Visa ••3399 ile tahsil edildi; sonraki haftalık yenileme 26 Kas 2026."
+      "note": "HiNoter AI haftalık abonelik, ₺184,99 (KDV dahil), 12 Kasım'da yenileniyor. İstemiyorsan App Store'dan iptal et. YENİ MAİL 12.11 14:22 (12 Kas 14:21 · Apple · Your receipt from Apple.): 11 Kas'ta ₺184,99 ödendi (Apple makbuzu, Visa 0149); bir sonraki haftalık yenileme 19 Kasım 2026. YENİ MAİL 19.11 10:16 (19 Kas 10:16 · Apple · Your receipt from Apple.): Apple makbuzu (18 Kas 2026): ₺184,99 Visa ••3399 ile tahsil edildi; sonraki haftalık yenileme 26 Kas 2026. YENİ MAİL 26.11 10:11 (26 Kas 10:11 · Apple · Your receipt from Apple.): 25 Kasım'da ₺184,99 Apple'dan çekildi (makbuz); bir sonraki yenileme 3 Aralık 2026."
     },
     {
       "action_type": "Ödeme",
@@ -4196,7 +4196,7 @@
       ]
     }
   ],
-  "updated": "2026-11-26 08:30",
+  "updated": "2026-11-26 10:11",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4263,7 +4263,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1a8c8d0ca64f8e",
     "1a1a907098022d00",
     "1a1a939e7c03291b",
     "1a1a939f86970b8f",
@@ -4562,7 +4561,8 @@
     "1a211ba72591ee13",
     "1a211e01a9e04d71",
     "1a213159cd0ae853",
-    "1a21555ed033999f"
+    "1a21555ed033999f",
+    "1a216b1ecc0f7403"
   ],
   "feed_order": [
     "qt5dom",
