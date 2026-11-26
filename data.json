@@ -3903,6 +3903,10 @@
       ],
       "notes": [
         {
+          "text": "Netlify (ahmet-zdguy2u team): bu faturalama döneminde (7 Kas–6 Ara) 1000 kredinin %75'i kullanıldı; limit yaklaşıyor, Pro plan (3000 kredi/ay) değerlendirilebilir. (kaynak: E-posta (26 Kas 18:48): Netlify · [Netlify] You've used 75% of your credits on a)",
+          "at": "2026-11-26 18:49"
+        },
+        {
           "text": "Google Apps Script 'asistan-mail-to-dashboard' son günlerde sunucu hatası (DEADLINE_EXCEEDED / server error) nedeniyle 23-24 Kasım'da birkaç kez çalışamadı; mail akışı kontrol edilmeli. (kaynak: E-posta (24 Kas 07:24): noreply-apps-scripts-notifications@googl · Summary of fa)",
           "at": "2026-11-24 07:25"
         },
@@ -4017,10 +4021,6 @@
         {
           "text": "asistan-mail-to-dashboard Apps Script 28-29 Ekim'de hata verdi (Gmail izin hatası + sunucu hataları); e-posta akışı kesintiye uğramış olabilir, kontrol edilmeli. (kaynak: E-posta (29 Eki 22:13): noreply-apps-scripts-notifications@googl · Summary of fa)",
           "at": "2026-10-29 22:14"
-        },
-        {
-          "text": "Google Cloud 'mekanlarim' projesinin aylık bütçesi (₺200, mekanlarim-places) %100'e ulaştı; harcamayı kontrol et. (kaynak: E-posta (29 Eki 18:45): Google Cloud Billing Alerts · 100% of budget reached)",
-          "at": "2026-10-29 18:50"
         }
       ]
     },
@@ -4211,7 +4211,7 @@
       ]
     }
   ],
-  "updated": "2026-11-26 18:27",
+  "updated": "2026-11-26 18:49",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4278,7 +4278,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1aa8df5aed031e",
     "19aa20690be48dcc",
     "1a1aaa68fa1b5e64",
     "1a1aae427e106818",
@@ -4577,7 +4576,8 @@
     "1a2172b6656316b6",
     "1a2177894c8afa5d",
     "1a218286d7165a62",
-    "1a21878049c48b90"
+    "1a21878049c48b90",
+    "1a2188b896c4d9f1"
   ],
   "feed_order": [
     "qt5dom",
