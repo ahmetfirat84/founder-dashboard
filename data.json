@@ -3941,6 +3941,10 @@
       ],
       "notes": [
         {
+          "text": "Google Apps Script 'asistan-mail-to-dashboard' 26 Kasım'da 4 kez sunucu hatasıyla başarısız oldu (3:57, 11:38, 18:31, 19:09); tetikleyici/çalışma durumu kontrol edilmeli. (kaynak: E-posta (27 Kas 04:29): noreply-apps-scripts-notifications@googl · Summary of fa)",
+          "at": "2026-11-27 04:30"
+        },
+        {
           "text": "Netlify (ahmet-zdguy2u team): bu faturalama döneminde (7 Kas–6 Ara) 1000 kredinin %75'i kullanıldı; limit yaklaşıyor, Pro plan (3000 kredi/ay) değerlendirilebilir. (kaynak: E-posta (26 Kas 18:48): Netlify · [Netlify] You've used 75% of your credits on a)",
           "at": "2026-11-26 18:49"
         },
@@ -4055,10 +4059,6 @@
         {
           "text": "GoDaddy masanisec.com alan adı 1 yıllık kaydı alındı (₺609,59, sipariş 4214496737). 31.10.2027'de ₺799,99 karşılığında otomatik yenilenecek; iptal için yenileme tarihinden önce GoDaddy hesabından kapatılmalı. (kaynak: E-posta (31 Eki 12:32): GoDaddy · Ahmet Firat, siparişiniz için teşekkür ederiz.)",
           "at": "2026-10-31 12:32"
-        },
-        {
-          "text": "asistan-mail-to-dashboard Apps Script 28-29 Ekim'de hata verdi (Gmail izin hatası + sunucu hataları); e-posta akışı kesintiye uğramış olabilir, kontrol edilmeli. (kaynak: E-posta (29 Eki 22:13): noreply-apps-scripts-notifications@googl · Summary of fa)",
-          "at": "2026-10-29 22:14"
         }
       ]
     },
@@ -4253,7 +4253,7 @@
       ]
     }
   ],
-  "updated": "2026-11-26 23:02",
+  "updated": "2026-11-27 04:30",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4320,7 +4320,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1ab679f0bce58b",
     "1a1ab85114a50a03",
     "1a1abeadc8270063",
     "1a1abef424fc3948",
@@ -4619,7 +4618,8 @@
     "1a218b7c167e85a3",
     "1a218c91dc8996e7",
     "1a21937e9ba568c1",
-    "1a2197303300ae54"
+    "1a2197303300ae54",
+    "1a21a9f3251bfff6"
   ],
   "feed_order": [
     "qt5dom",
