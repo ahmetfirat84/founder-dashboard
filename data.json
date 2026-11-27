@@ -1230,6 +1230,22 @@
       "due_date": "2026-12-27",
       "title": "Apple",
       "note": "Apple App Store aylık abonelik (buluvahide), 27 Kas faturası ₺199,99 (KDV dahil). Yenileme 27 Aralık; istemiyorsan iptal et."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Fatura",
+      "party": "Turkcell İletişim Hizmetleri A.Ş.",
+      "amount": "₺7.003,70 (temel, KDV hariç)",
+      "due": "Vade belirsiz, e-fatura detayı Paraşüt'te",
+      "uid": "w3zbf2",
+      "source": "mail-gelen",
+      "origin": "E-posta (27 Kas 23:37): Paraşüt · Yeni bir e-Faturanız var",
+      "wamid": "1a21eba999ff4fd5",
+      "mail_thread": "1a21eba999ff4fd5",
+      "amount_try": 7003.7,
+      "urgency": "gray",
+      "title": "Turkcell İletişim Hizmetleri A.Ş.",
+      "note": "Turkcell e-faturası (Paraşüt bildirimi, 27 Kas): temel ₺7.003,70, KDV ve vade fatura detayında. Ödeme öncesi r48 ile çakışmadığını kontrol et."
     }
   ],
   "departments": [
@@ -4430,7 +4446,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1acb2363943b2e",
     "1a1ad097650d0354",
     "1a1ad3953c23f57f",
     "1a1ad3c5e6be1c58",
@@ -4729,7 +4744,8 @@
     "1a21c7bda3338344",
     "1a21cca29d553fff",
     "1a21ce41b1b3eb77",
-    "1a21eba98861493a"
+    "1a21eba98861493a",
+    "1a21eba999ff4fd5"
   ],
   "feed_order": [
     "qt5dom",
