@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "source": "2026-10-16_sabah-brifing (Drive: 09_Management/briefing-system/handoffs)",
   "priorities": [
     "HubSpot Maximum monthly credits = 3.000 gir (yenileme 17 Ekim, en geç 10:00)",
@@ -8,14 +8,24 @@
   ],
   "meetings": [
     {
+      "time": "10:00",
+      "title": "Fazıl'a hatırlat: Sportmonks için kredi kartı",
+      "note": "Deneme 29 Kasım'da bitiyor"
+    },
+    {
       "time": "12:30",
       "title": "& New Me_Daily",
       "note": "Selin, Hülya, Cemre · Google Meet"
     },
     {
-      "time": "12:30",
-      "title": "Ahmet Demirel ile buluşma",
-      "note": "Parle"
+      "time": "14:00",
+      "title": "Ahmet <> Hülya 1:1",
+      "note": "Google Meet · genel kurulla aynı saatte"
+    },
+    {
+      "time": "17:00",
+      "title": "Ahmet <> Selin 1:1",
+      "note": "Google Meet"
     }
   ],
   "cash_alerts": [
@@ -1134,7 +1144,7 @@
       "amount": "€320",
       "due": "28.11.2026",
       "due_date": "2026-11-28",
-      "note": "Kart …0149 reddedildi; 28.11'de askıya alma riski. Yeniden dene veya ödeme yöntemini güncelle."
+      "note": "Kart …0149 26 Kas'ta yine reddedildi (yeni uyarı maili); 28.11'de askıya alma riski. Yeniden dene veya ödeme yöntemini güncelle."
     },
     {
       "action_type": "Ödeme",
@@ -1211,7 +1221,7 @@
       "name": "BATU",
       "area": "Muhasebe",
       "status": "red",
-      "updated": "2026-11-24 08:30",
+      "updated": "2026-11-27 07:05",
       "items": [
         {
           "uid": "s9mc5u",
@@ -1888,9 +1898,35 @@
           "source": "email",
           "id": "1a209d9a9e2d9e2b",
           "feed": false
+        },
+        {
+          "text": "Ekim 2026 muhtasar ₺70.539,22 (vade 26 Kas, ödendiğine dair teyit görülmedi) ve SGK ₺355,08 (vade 30 Kas).",
+          "action_type": "Ödeme",
+          "category": "Vergi / SGK",
+          "party": "CPA Türk",
+          "amount": "₺70.539,22 + ₺355,08",
+          "due": "26 Kas / 30 Kas",
+          "due_date": "2026-11-26",
+          "owner": "Ahmet",
+          "source": "email",
+          "id": "1a2189b377077115",
+          "feed": false
+        },
+        {
+          "text": "HubSpot 26 Kas'ta kart (…0149) tahsilatını yine alamadı (fatura 864025700); 28 Kas'tan önce ödenmezse hesap askıya alınır.",
+          "action_type": "Ödeme",
+          "category": "Abonelik",
+          "party": "HubSpot",
+          "amount": "€320",
+          "due": "Yarın 28 Kas",
+          "due_date": "2026-11-28",
+          "owner": "Ahmet",
+          "source": "email",
+          "id": "1a219515e9b69944",
+          "feed": false
         }
       ],
-      "summary": "CPA Türk: Q3 banka ekstreleri bekliyor; 09/2026 KDV paketi ~25 Eki; vergi/SGK ödemeleri ~28–30 Eki",
+      "summary": "HubSpot €320 son gün yarın; Ekim muhtasar ödeme teyidi yok",
       "notes": [
         {
           "text": "iyzico toplu ödeme bildirimi (25.11.2026): Yeniben hesabına ₺125.239,49 yatırıldı; işlem no 3501450639, 3503162000, 3503163525. (kaynak: E-posta (25 Kas 11:02): iyzico · Toplu ödemeniz gerçekleştirildi)",
@@ -2676,8 +2712,8 @@
       "key": "cankat",
       "name": "CANKAT",
       "area": "Hukuk",
-      "status": "yellow",
-      "updated": "2026-11-25 00:51",
+      "status": "red",
+      "updated": "2026-11-27 07:05",
       "items": [
         {
           "text": "GK sürecini başlat (imza sirküsü için)",
@@ -2888,9 +2924,21 @@
           "text": "Google Workspace API kullanım şartları değişti (Workspace AI Tools Addendum): ff-sport-asistan ve my-project-1540220831272 projelerinin kullanımını kontrol et, AI agent erişimi varsa REST yerine MCP'ye geç, gerekirse Scaled tier seç. Karar ver: kabul/uyum.",
           "owner": "",
           "note": "YENİ MAİL 25.11 01:12 (25 Kas 01:12 · Google Cloud Platform · [Pricing Update] Changes to Google Workspace API us): 24 Kas 2026 duyurusu: Standard/Scaled katmanı, 1 Nis 2027'den itibaren Scaled ücretli; MCP zorunluluğu 1 Şub 2027'de başlıyor, ff-sport-asistan ve my-project-1540220831272 etkileniyor."
+        },
+        {
+          "text": "Yeniben olağan genel kurulu BUGÜN 14:00, şirket merkezi (Pol Center). Aynı saatte takvimde Hülya 1:1 var, birini kaydır. Katılımcı sayısını teyit et (Aylin Koca katılamayacak).",
+          "action_type": "Toplantı",
+          "category": "Genel kurul",
+          "party": "Yeniben pay sahipleri",
+          "amount": "",
+          "due": "27 Kas 14:00",
+          "due_date": "2026-11-27",
+          "owner": "Ahmet",
+          "source": "email",
+          "id": "1a1c6aa75b3aefd9"
         }
       ],
-      "summary": "HealthTürkiye yenilemesi açık",
+      "summary": "Genel kurul bugün 14:00 (Hülya 1:1 ile çakışıyor)",
       "notes": [
         {
           "text": "Aylin Koca, 27 Kasım 2026 Yeniben genel kuruluna Ankara'da olduğu için katılamayacağını bildirdi (16:55 e-posta). (kaynak: E-posta (26 Kas 19:55): Aylin Koca · Re: Yeniben genel kurul çağrısı, 27 Kasım 2)",
@@ -3435,8 +3483,8 @@
       "key": "erkin",
       "name": "ERKİN",
       "area": "Investor Relations",
-      "status": "green",
-      "updated": "2026-11-26 13:49",
+      "status": "red",
+      "updated": "2026-11-27 07:05",
       "items": [
         {
           "text": "Slush Helsinki (18-19 Kas) katılım kararı bekliyor; katılım olursa yatırımcı toplantılarını planla",
@@ -3641,9 +3689,21 @@
           "urgency": "gray",
           "text": "Slush sonrası Hollanda kuruluş/teşvik bilgisi geldi. Görüşme için nlentry@rvo.nl'ye pitch deck gönderip call talep et.",
           "owner": ""
+        },
+        {
+          "text": "Emre Aktan'a 2023-2025 bilanço, gelir tablosu ve faaliyet raporunu ilet (SMM GK için hazırlayacak); gerçek gelir-gider dökümünü Aralık'ın ilk haftasına kadar gönder (söz verildi). Online görüşme için 1 veya 3 Aralık 20:30 önerildi, Emre Bey 'uygundur' dedi: günü netleştir, diğer yatırımcılara da öner.",
+          "action_type": "Belge",
+          "category": "Yatırımcı",
+          "party": "Emre Aktan",
+          "amount": "",
+          "due": "Aralık ilk haftası",
+          "due_date": "2026-12-04",
+          "owner": "Ahmet",
+          "source": "email",
+          "id": "1a1ddf4748a11b43"
         }
       ],
-      "summary": "Slush kararı bekliyor",
+      "summary": "Emre Aktan: finansallar ve online görüşme günü bekliyor",
       "notes": [
         {
           "text": "EEX Journey (Elisa Kitunen): Slush görüşmesi iptal edildi. Ocak-Şubat 2027 Advisory Board programı için başvuru açık, Helsinki seyahatleri şirkete ait. Aralık başı için Calendly görüşme linki var. (kaynak: E-posta (24 Kas 14:30): Elisa Kitunen · Slush follow-up: EEX Journey program)",
@@ -3772,8 +3832,8 @@
       "name": "İDARİ",
       "area": "İdari & Ofis",
       "status": "red",
-      "summary": "Bekleyen işler kontrol edilecek",
-      "updated": "2026-10-22 11:23",
+      "summary": "Netlify kredi %75; Turkcell ₺7.624,70 (8 Ara)",
+      "updated": "2026-11-27 07:05",
       "items": [
         {
           "uid": "vlmdj8",
@@ -3937,6 +3997,31 @@
           "due_date": "2026-10-22",
           "text": "Seçil havaalanı transferi: 23:00 çıkış, 23:45 havaalanında. Takvim kaydı görünmüyor.",
           "owner": ""
+        },
+        {
+          "text": "Turkcell Yeniben faturaları ₺7.624,70, son ödeme 8 Aralık.",
+          "action_type": "Ödeme",
+          "category": "Telekom",
+          "party": "Turkcell",
+          "amount": "₺7.624,70",
+          "due": "08.12.2026",
+          "due_date": "2026-12-08",
+          "owner": "Ahmet",
+          "source": "email",
+          "id": "1a213159cd0ae853",
+          "feed": false
+        },
+        {
+          "text": "Netlify kredilerinin %75'i kullanıldı (1000 kredi, dönem 7 Kas-6 Ara): deploy'ları sınırla ya da Pro plana geçişe karar ver.",
+          "action_type": "Ödeme",
+          "category": "Abonelik",
+          "party": "Netlify",
+          "amount": "",
+          "due": "Dönem sonu 6 Aralık",
+          "due_date": "2026-12-06",
+          "owner": "Ahmet",
+          "source": "email",
+          "id": "1a2188b896c4d9f1"
         }
       ],
       "notes": [
@@ -4253,7 +4338,7 @@
       ]
     }
   ],
-  "updated": "2026-11-27 04:30",
+  "updated": "2026-11-27 07:05",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -9128,7 +9213,7 @@
       ]
     }
   ],
-  "meetings_date": "2026-11-26",
+  "meetings_date": "2026-11-27",
   "directory": [
     {
       "id": "g5cmcp",
