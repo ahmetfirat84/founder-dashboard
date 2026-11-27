@@ -3159,6 +3159,10 @@
       "summary": "2 deal bugün kapanıyor",
       "notes": [
         {
+          "text": "Nassima El Jattari Rhino (Dr Ayberk) 16 Ara 2026 08:00-10:15, İstanbul Aesthetic Center Balmumcu. Selin takvim daveti gönderdi, katılım isteğe bağlı. (kaynak: E-posta (27 Kas 10:41): Selin Sezgin · Invitation: Nassima El Jattari - Rhino wi)",
+          "at": "2026-11-27 10:42"
+        },
+        {
           "text": "James Sanford (Sandford) iyzico ile ₺58.689 ödeme yaptı (Remaining Balance 1/2, 17.11.2026). Kalan ödeme (2/2) için tutar ve tarih teyit edilmeli. (kaynak: E-posta (17 Kas 18:41): iyziLink · Ödeme alındı)",
           "at": "2026-11-17 18:42"
         },
@@ -4338,7 +4342,7 @@
       ]
     }
   ],
-  "updated": "2026-11-27 07:05",
+  "updated": "2026-11-27 10:42",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4405,7 +4409,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1ab85114a50a03",
     "1a1abeadc8270063",
     "1a1abef424fc3948",
     "1a1abf5f05d7eec6",
@@ -4704,7 +4707,8 @@
     "1a218c91dc8996e7",
     "1a21937e9ba568c1",
     "1a2197303300ae54",
-    "1a21a9f3251bfff6"
+    "1a21a9f3251bfff6",
+    "1a21bf42cda4704d"
   ],
   "feed_order": [
     "qt5dom",
