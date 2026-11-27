@@ -1213,6 +1213,23 @@
       "due_date": "2026-11-30",
       "title": "SGK (Ekim 2026 prim)",
       "note": "Ekim 2026 SGK tahakkuk fişi ₺355,08 (1 kişi, 1 gün); iki ekin ikisi de aynı fiş. CPA Türk: SGK ödemesi 30.11."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Abonelik",
+      "party": "Apple",
+      "amount": "₺199,99",
+      "due": "27 Aralık 2026 yenileme",
+      "uid": "rn2vvn",
+      "source": "mail-gelen",
+      "origin": "E-posta (27 Kas 13:10): Apple · Your receipt from Apple.",
+      "wamid": "1a21c7bda3338344",
+      "mail_thread": "1a21c7bda3338344",
+      "imp": "low",
+      "amount_try": 199.99,
+      "due_date": "2026-12-27",
+      "title": "Apple",
+      "note": "Apple App Store aylık abonelik (buluvahide), 27 Kas faturası ₺199,99 (KDV dahil). Yenileme 27 Aralık; istemiyorsan iptal et."
     }
   ],
   "departments": [
@@ -4346,7 +4363,7 @@
       ]
     }
   ],
-  "updated": "2026-11-27 10:52",
+  "updated": "2026-11-27 13:10",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4413,7 +4430,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1abef424fc3948",
     "1a1abf5f05d7eec6",
     "1a1ac3888d394b85",
     "1a1ac58e9b7e5a62",
@@ -4712,7 +4728,8 @@
     "1a2197303300ae54",
     "1a21a9f3251bfff6",
     "1a21bf42cda4704d",
-    "1a21bfd484afe1c2"
+    "1a21bfd484afe1c2",
+    "1a21c7bda3338344"
   ],
   "feed_order": [
     "qt5dom",
