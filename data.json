@@ -4051,6 +4051,10 @@
       ],
       "notes": [
         {
+          "text": "Natro: alan adı yenileme fiyatları 2 Ocak 2027'den itibaren %8-10 artıyor; bu tarihten önce yenileme yapılırsa mevcut fiyat geçerli (ör. Natro'daki alan adları). (kaynak: E-posta (27 Kas 15:03): Natro Müşteri Hizmetleri · Hizmetlerinize Ait Fiyat Günc)",
+          "at": "2026-11-27 15:04"
+        },
+        {
           "text": "Google Apps Script 'asistan-mail-to-dashboard' 26 Kasım'da 4 kez sunucu hatasıyla başarısız oldu (3:57, 11:38, 18:31, 19:09); tetikleyici/çalışma durumu kontrol edilmeli. (kaynak: E-posta (27 Kas 04:29): noreply-apps-scripts-notifications@googl · Summary of fa)",
           "at": "2026-11-27 04:30"
         },
@@ -4165,10 +4169,6 @@
         {
           "text": "VakıfBank bildirimi (31 Eki): şirket kartı ••3399 ile Adobe 557,50 TL işlemi limit yetersizliği nedeniyle reddedildi. Limit artırımı ya da başka ödeme yöntemi gerekebilir. (kaynak: E-posta (31 Eki 19:30): VakıfBank · Bilgilendirme: Kredi Kart Limitiniz Yetersiz)",
           "at": "2026-10-31 19:31"
-        },
-        {
-          "text": "GoDaddy masanisec.com alan adı 1 yıllık kaydı alındı (₺609,59, sipariş 4214496737). 31.10.2027'de ₺799,99 karşılığında otomatik yenilenecek; iptal için yenileme tarihinden önce GoDaddy hesabından kapatılmalı. (kaynak: E-posta (31 Eki 12:32): GoDaddy · Ahmet Firat, siparişiniz için teşekkür ederiz.)",
-          "at": "2026-10-31 12:32"
         }
       ]
     },
@@ -4363,7 +4363,7 @@
       ]
     }
   ],
-  "updated": "2026-11-27 14:36",
+  "updated": "2026-11-27 15:04",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4430,7 +4430,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1ac3888d394b85",
     "1a1ac58e9b7e5a62",
     "1a1acb2363943b2e",
     "1a1ad097650d0354",
@@ -4729,7 +4728,8 @@
     "1a21bf42cda4704d",
     "1a21bfd484afe1c2",
     "1a21c7bda3338344",
-    "1a21cca29d553fff"
+    "1a21cca29d553fff",
+    "1a21ce41b1b3eb77"
   ],
   "feed_order": [
     "qt5dom",
