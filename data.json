@@ -3159,6 +3159,10 @@
       "summary": "2 deal bugün kapanıyor",
       "notes": [
         {
+          "text": "Moana McRae (Oceanscape), NZ'de kilo koçluğu yapan Sonia'yı (mindempowerment.co.nz) bariatrik hastalar için referral ortaklığı amacıyla tanıttı; Sonia ile Ahmet'in iletişime geçmesi bekleniyor. (kaynak: E-posta (27 Kas 10:51): Moana McRae · E INTROS for Bari coaching)",
+          "at": "2026-11-27 10:52"
+        },
+        {
           "text": "Nassima El Jattari Rhino (Dr Ayberk) 16 Ara 2026 08:00-10:15, İstanbul Aesthetic Center Balmumcu. Selin takvim daveti gönderdi, katılım isteğe bağlı. (kaynak: E-posta (27 Kas 10:41): Selin Sezgin · Invitation: Nassima El Jattari - Rhino wi)",
           "at": "2026-11-27 10:42"
         },
@@ -4342,7 +4346,7 @@
       ]
     }
   ],
-  "updated": "2026-11-27 10:42",
+  "updated": "2026-11-27 10:52",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4409,7 +4413,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1abeadc8270063",
     "1a1abef424fc3948",
     "1a1abf5f05d7eec6",
     "1a1ac3888d394b85",
@@ -4708,7 +4711,8 @@
     "1a21937e9ba568c1",
     "1a2197303300ae54",
     "1a21a9f3251bfff6",
-    "1a21bf42cda4704d"
+    "1a21bf42cda4704d",
+    "1a21bfd484afe1c2"
   ],
   "feed_order": [
     "qt5dom",
