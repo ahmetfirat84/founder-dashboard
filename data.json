@@ -629,7 +629,7 @@
       "amount_try": 621,
       "urgency": "gray",
       "title": "Turkcell",
-      "note": "Turkcell e-faturası (Paraşüt bildirimi, 29 Eki): temel tutar ₺621, KDV ve vade fatura detayında kontrol edilecek. YENİ MAİL 07.11 12:07 (7 Kas 12:07 · Turkiye Is Bankasi A.S · Aylık Talimatlı Fatura Ödemeleriniz): İş Bankası talimatlı ödeme: 07.10.2026'da Turkcell ₺621,00 (fatura 7700201166, abone 5324010411) ödenmiş görünüyor.",
+      "note": "Turkcell e-faturası (Paraşüt bildirimi, 29 Eki): temel tutar ₺621, KDV ve vade fatura detayında kontrol edilecek. YENİ MAİL 07.11 12:07 (7 Kas 12:07 · Turkiye Is Bankasi A.S · Aylık Talimatlı Fatura Ödemeleriniz): İş Bankası talimatlı ödeme: 07.10.2026'da Turkcell ₺621,00 (fatura 7700201166, abone 5324010411) ödenmiş görünüyor. YENİ MAİL 27.11 23:38 (27 Kas 23:37 · Paraşüt · Yeni bir e-Faturanız var): 27 Kas Paraşüt bildirimi: Turkcell e-faturası temel ₺621 gönderildi; aynı fatura mı teyit et.",
       "invoice": {
         "no": "",
         "date": "2026-10-29"
@@ -4363,7 +4363,7 @@
       ]
     }
   ],
-  "updated": "2026-11-27 15:04",
+  "updated": "2026-11-27 23:38",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4430,7 +4430,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1ac58e9b7e5a62",
     "1a1acb2363943b2e",
     "1a1ad097650d0354",
     "1a1ad3953c23f57f",
@@ -4729,7 +4728,8 @@
     "1a21bfd484afe1c2",
     "1a21c7bda3338344",
     "1a21cca29d553fff",
-    "1a21ce41b1b3eb77"
+    "1a21ce41b1b3eb77",
+    "1a21eba98861493a"
   ],
   "feed_order": [
     "qt5dom",
