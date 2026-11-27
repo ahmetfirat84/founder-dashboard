@@ -1946,6 +1946,10 @@
       "summary": "HubSpot €320 son gün yarın; Ekim muhtasar ödeme teyidi yok",
       "notes": [
         {
+          "text": "Paraşüt'e 26.11 tarihinde aktarılan 2 banka işlemi (-20,00 TL 'CEP ŞUBE-HVL' ve -4,19 TL kesinti) eşleşmemiş durumda, Paraşüt banka sayfasından eşleştirilmeli. (kaynak: E-posta (27 Kas 14:35): Paraşüt · 2 adet banka işlemi Paraşüt'e aktarıldı)",
+          "at": "2026-11-27 14:36"
+        },
+        {
           "text": "iyzico toplu ödeme bildirimi (25.11.2026): Yeniben hesabına ₺125.239,49 yatırıldı; işlem no 3501450639, 3503162000, 3503163525. (kaynak: E-posta (25 Kas 11:02): iyzico · Toplu ödemeniz gerçekleştirildi)",
           "at": "2026-11-25 11:03"
         },
@@ -2060,10 +2064,6 @@
         {
           "text": "Paraşüt banka bildirimi (11 Kas 2026, Garanti 73-9059586): iyzi üzerinden €96,00 müşteri tahsilatı (YENİBEN EL) ve €96,16 döviz satış çıkışı (INT DÖVİZ SATIŞ). 1 işlem Paraşüt'te eşleşmemiş, banka hesabı sayfasından eşleştirilmeli. (kaynak: E-posta (12 Kas 08:25): Paraşüt · 2 adet banka işlemi Paraşüt'e aktarıldı)",
           "at": "2026-11-12 08:27"
-        },
-        {
-          "text": "Paraşüt: 11 Kas banka işlemi (INT DÖVİZ SATIŞ, Garanti 73-9065411) €836,16 olarak aktarıldı, Paraşüt'te eşleşmemiş; banka hesabı sayfasından eşleştirilmeli. (kaynak: E-posta (12 Kas 08:25): Paraşüt · 1 adet banka işlemi Paraşüt'e aktarıldı)",
-          "at": "2026-11-12 08:26"
         }
       ],
       "drawer": [
@@ -4363,7 +4363,7 @@
       ]
     }
   ],
-  "updated": "2026-11-27 13:10",
+  "updated": "2026-11-27 14:36",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4430,7 +4430,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1abf5f05d7eec6",
     "1a1ac3888d394b85",
     "1a1ac58e9b7e5a62",
     "1a1acb2363943b2e",
@@ -4729,7 +4728,8 @@
     "1a21a9f3251bfff6",
     "1a21bf42cda4704d",
     "1a21bfd484afe1c2",
-    "1a21c7bda3338344"
+    "1a21c7bda3338344",
+    "1a21cca29d553fff"
   ],
   "feed_order": [
     "qt5dom",
