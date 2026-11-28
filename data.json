@@ -1232,6 +1232,21 @@
       "urgency": "gray",
       "title": "Turkcell İletişim Hizmetleri A.Ş.",
       "note": "Turkcell e-faturası (Paraşüt bildirimi, 27 Kas): temel ₺7.003,70, KDV ve vade fatura detayında. Ödeme öncesi r48 ile çakışmadığını kontrol et."
+    },
+    {
+      "action_type": "Ödeme",
+      "category": "Abonelik",
+      "party": "Sportmonks",
+      "amount": "€257 + KDV",
+      "due": "29 Kas deneme bitişi",
+      "uid": "umfa5x",
+      "source": "mail-gelen",
+      "origin": "E-posta (28 Kas 08:59): Google Calendar · Notification: Sportmonks deneme yarın bitiyor: karar ver (şu",
+      "wamid": "1a220bd324d54f1c",
+      "mail_thread": "1a220bd324d54f1c",
+      "due_date": "2026-11-29",
+      "title": "Sportmonks",
+      "note": "Deneme 29 Kas'ta bitiyor; iptal/değişiklik yoksa karttan aylık €257 + KDV çekilir (Growth €99, International Tournaments €129, Euro Club €29). Karar: my.sportmonks.com > Subscriptions."
     }
   ],
   "departments": [
@@ -4410,7 +4425,7 @@
       ]
     }
   ],
-  "updated": "2026-11-28 08:23",
+  "updated": "2026-11-28 09:00",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4477,7 +4492,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1ad3c5e6be1c58",
     "1a1af4ec27d2be18",
     "1a1afaad2e0404fd",
     "1a1afb08c5207acc",
@@ -4776,7 +4790,8 @@
     "1a21eba98861493a",
     "1a21eba999ff4fd5",
     "1a21fd08de415bbd",
-    "1a2207e21e4cd8cf"
+    "1a2207e21e4cd8cf",
+    "1a220bd324d54f1c"
   ],
   "feed_order": [
     "qt5dom",
