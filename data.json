@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "source": "2026-10-16_sabah-brifing (Drive: 09_Management/briefing-system/handoffs)",
   "priorities": [
     "HubSpot Maximum monthly credits = 3.000 gir (yenileme 17 Ekim, en geç 10:00)",
@@ -9,23 +9,8 @@
   "meetings": [
     {
       "time": "10:00",
-      "title": "Fazıl'a hatırlat: Sportmonks için kredi kartı",
-      "note": "Deneme 29 Kasım'da bitiyor"
-    },
-    {
-      "time": "12:30",
-      "title": "& New Me_Daily",
-      "note": "Selin, Hülya, Cemre · Google Meet"
-    },
-    {
-      "time": "14:00",
-      "title": "Ahmet <> Hülya 1:1",
-      "note": "Google Meet · genel kurulla aynı saatte"
-    },
-    {
-      "time": "17:00",
-      "title": "Ahmet <> Selin 1:1",
-      "note": "Google Meet"
+      "title": "Sportmonks denemesi yarın bitiyor: karar ver",
+      "note": "€257/ay + KDV çekilecek"
     }
   ],
   "cash_alerts": [
@@ -1255,7 +1240,7 @@
       "name": "BATU",
       "area": "Muhasebe",
       "status": "red",
-      "updated": "2026-11-27 07:05",
+      "updated": "2026-11-28 08:23",
       "items": [
         {
           "uid": "s9mc5u",
@@ -1958,9 +1943,19 @@
           "source": "email",
           "id": "1a219515e9b69944",
           "feed": false
+        },
+        {
+          "text": "Teşvik: HubSpot — kart reddedildi, €320 fatura ödenmezse hesap 28.11'de askıya alınacak",
+          "action_type": "Yanıt",
+          "category": "Todoist",
+          "urgency": "gray",
+          "uid": "td_6j5MPc2cCfGHxQm9",
+          "source": "todoist",
+          "plan_date": "2026-11-28",
+          "feed": false
         }
       ],
-      "summary": "HubSpot €320 son gün yarın; Ekim muhtasar ödeme teyidi yok",
+      "summary": "HubSpot €320 bugün son gün; Ekim muhtasar ödeme teyidi yok (vade 26 Kas)",
       "notes": [
         {
           "text": "Paraşüt'e 26.11 tarihinde aktarılan 2 banka işlemi (-20,00 TL 'CEP ŞUBE-HVL' ve -4,19 TL kesinti) eşleşmemiş durumda, Paraşüt banka sayfasından eşleştirilmeli. (kaynak: E-posta (27 Kas 14:35): Paraşüt · 2 adet banka işlemi Paraşüt'e aktarıldı)",
@@ -3072,8 +3067,8 @@
       "key": "zeynep",
       "name": "ZEYNEP",
       "area": "Satış",
-      "status": "yellow",
-      "updated": "2026-10-26 07:10",
+      "status": "red",
+      "updated": "2026-11-28 08:23",
       "items": [
         {
           "text": "'Ulaşılmaya çalışıldı' leadleri (Israa M., Laura W., Melissa): ilk temas hızını izle",
@@ -3188,9 +3183,21 @@
           "uid": "td_6hqrc55Mfj7fjpxh",
           "source": "todoist",
           "plan_date": "2026-10-26"
+        },
+        {
+          "text": "Moana McRae, NZ'de kilo koçluğu yapan Sonia'yı (Mind Empowerment) referral ortaklığı için tanıştırdı: Sonia'ya yanıt yaz, yönlendirme modelini konuş.",
+          "action_type": "Yanıt",
+          "category": "Satış",
+          "party": "Sonia (mindempowerment.co.nz)",
+          "amount": "",
+          "due": "",
+          "urgency": "gray",
+          "owner": "Ahmet",
+          "source": "email",
+          "id": "1a21bfd484afe1c2"
         }
       ],
-      "summary": "2 deal bugün kapanıyor",
+      "summary": "Sonia referral tanışması yanıt bekliyor; Ekim'den kalan açık işler gecikmiş görünüyor",
       "notes": [
         {
           "text": "Moana McRae (Oceanscape), NZ'de kilo koçluğu yapan Sonia'yı (mindempowerment.co.nz) bariatrik hastalar için referral ortaklığı amacıyla tanıttı; Sonia ile Ahmet'in iletişime geçmesi bekleniyor. (kaynak: E-posta (27 Kas 10:51): Moana McRae · E INTROS for Bari coaching)",
@@ -3230,8 +3237,8 @@
       "key": "ilksen",
       "name": "İLKSEN",
       "area": "Marketing",
-      "status": "yellow",
-      "updated": "2026-10-26 07:10",
+      "status": "red",
+      "updated": "2026-11-28 08:23",
       "items": [
         {
           "text": "Yeni reklam leadlerinin tam akışını analiz et/izle (kaçak olmasın, qualified lead oranları)",
@@ -3291,9 +3298,20 @@
           "uid": "td_6hq2hQRwrfjrVj2h",
           "source": "todoist",
           "plan_date": "2026-10-26"
+        },
+        {
+          "text": "HubSpot'a bağlı Facebook kullanıcısının bağlantısı koptu; 1 reklam hesabında takip ve raporlama etkileniyor. HubSpot içinden yeniden bağla.",
+          "action_type": "Yanıt",
+          "category": "Reklam",
+          "party": "HubSpot / Meta",
+          "amount": "",
+          "due": "",
+          "urgency": "gray",
+          "source": "email",
+          "id": "1a218601e0bc2a40"
         }
       ],
-      "summary": "Meta Ads 7 gündür kapalı",
+      "summary": "HubSpot–Facebook bağlantısı koptu; Ekim'den kalan açık işler gecikmiş görünüyor",
       "notes": [
         {
           "text": "Google Search Console: cemreyamaner.com için 'Page indexed without content' nedeniyle bazı sayfalar indexlenmiyor (26 Kas). İçerik boş görünen sayfalar kontrol edilmeli. (kaynak: E-posta (26 Kas 17:00): Google Search Console Team · New reasons prevent pages f)",
@@ -3526,7 +3544,7 @@
       "name": "ERKİN",
       "area": "Investor Relations",
       "status": "red",
-      "updated": "2026-11-27 07:05",
+      "updated": "2026-11-28 08:23",
       "items": [
         {
           "text": "Slush Helsinki (18-19 Kas) katılım kararı bekliyor; katılım olursa yatırımcı toplantılarını planla",
@@ -3743,9 +3761,21 @@
           "owner": "Ahmet",
           "source": "email",
           "id": "1a1ddf4748a11b43"
+        },
+        {
+          "text": "Claus'a (cbollrath@jacques-d.com) giden Kasım güncellemesi 27 Kas'ta teslim edilemedi (550 5.4.1, adres reddedildi). Doğru adresi bul ya da başka kanaldan ilet.",
+          "action_type": "Yanıt",
+          "category": "Yatırımcı",
+          "party": "Claus (Jacques-D)",
+          "amount": "",
+          "due": "",
+          "urgency": "gray",
+          "owner": "Ahmet",
+          "source": "email",
+          "id": "1a21d2570bea1fbc"
         }
       ],
-      "summary": "Emre Aktan: finansallar ve online görüşme günü bekliyor",
+      "summary": "Emre Aktan: finansallar ve görüşme günü; Claus maili teslim edilemedi",
       "notes": [
         {
           "text": "EEX Journey (Elisa Kitunen): Slush görüşmesi iptal edildi. Ocak-Şubat 2027 Advisory Board programı için başvuru açık, Helsinki seyahatleri şirkete ait. Aralık başı için Calendly görüşme linki var. (kaynak: E-posta (24 Kas 14:30): Elisa Kitunen · Slush follow-up: EEX Journey program)",
@@ -4380,7 +4410,7 @@
       ]
     }
   ],
-  "updated": "2026-11-28 07:51",
+  "updated": "2026-11-28 08:23",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -9255,7 +9285,7 @@
       ]
     }
   ],
-  "meetings_date": "2026-11-27",
+  "meetings_date": "2026-11-28",
   "directory": [
     {
       "id": "g5cmcp",
