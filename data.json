@@ -4068,6 +4068,10 @@
       ],
       "notes": [
         {
+          "text": "Natro fiyat güncellemesi: 2 Ocak 2027'den itibaren alan adı yenileme fiyatları %8-10, hosting %10 artıyor. Bu tarihten önce yapılan yenilemeler mevcut fiyattan geçerli. (kaynak: E-posta (28 Kas 07:51): Natro Müşteri Hizmetleri · Hizmetlerinize Ait Fiyat Günc)",
+          "at": "2026-11-28 07:51"
+        },
+        {
           "text": "Natro: alan adı yenileme fiyatları 2 Ocak 2027'den itibaren %8-10 artıyor; bu tarihten önce yenileme yapılırsa mevcut fiyat geçerli (ör. Natro'daki alan adları). (kaynak: E-posta (27 Kas 15:03): Natro Müşteri Hizmetleri · Hizmetlerinize Ait Fiyat Günc)",
           "at": "2026-11-27 15:04"
         },
@@ -4182,10 +4186,6 @@
         {
           "text": "yenibenhealthtourism.com Cloudflare'de aktif (Free plan); nameserver'lar courtney/donald.ns.cloudflare.com, eski natrohost NS'leri kaldırıldı. (kaynak: E-posta (1 Kas 16:49): Cloudflare · [Confirmation] yenibenhealthtourism.com is a)",
           "at": "2026-11-01 16:49"
-        },
-        {
-          "text": "VakıfBank bildirimi (31 Eki): şirket kartı ••3399 ile Adobe 557,50 TL işlemi limit yetersizliği nedeniyle reddedildi. Limit artırımı ya da başka ödeme yöntemi gerekebilir. (kaynak: E-posta (31 Eki 19:30): VakıfBank · Bilgilendirme: Kredi Kart Limitiniz Yetersiz)",
-          "at": "2026-10-31 19:31"
         }
       ]
     },
@@ -4380,7 +4380,7 @@
       ]
     }
   ],
-  "updated": "2026-11-28 04:42",
+  "updated": "2026-11-28 07:51",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4447,7 +4447,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1ad3953c23f57f",
     "1a1ad3c5e6be1c58",
     "1a1af4ec27d2be18",
     "1a1afaad2e0404fd",
@@ -4746,7 +4745,8 @@
     "1a21ce41b1b3eb77",
     "1a21eba98861493a",
     "1a21eba999ff4fd5",
-    "1a21fd08de415bbd"
+    "1a21fd08de415bbd",
+    "1a2207e21e4cd8cf"
   ],
   "feed_order": [
     "qt5dom",
