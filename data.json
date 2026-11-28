@@ -1144,7 +1144,8 @@
       "amount": "€320",
       "due": "28.11.2026",
       "due_date": "2026-11-28",
-      "note": "Kart …0149 26 Kas'ta yine reddedildi (yeni uyarı maili); 28.11'de askıya alma riski. Yeniden dene veya ödeme yöntemini güncelle."
+      "note": "Kart …0149 26 Kas'ta yine reddedildi (yeni uyarı maili); 28.11'de askıya alma riski. Yeniden dene veya ödeme yöntemini güncelle. YENİ MAİL 28.11 04:42 (28 Kas 04:41 · Todoist · Ahmet’s task(s) for 28 Nov 2026 → 1 due, 10+ overdue): Todoist hatırlatması (28 Kas): HubSpot €320 ödenmezse hesap bugün askıya alınacak.",
+      "uid": "enwcpv"
     },
     {
       "action_type": "Ödeme",
@@ -4379,7 +4380,7 @@
       ]
     }
   ],
-  "updated": "2026-11-27 23:38",
+  "updated": "2026-11-28 04:42",
   "review": [
     {
       "subject": "RE: Yeniben pay defteri ve güncel pay sahipleri listesi hk.",
@@ -4446,7 +4447,6 @@
     }
   ],
   "asistan_seen": [
-    "1a1ad097650d0354",
     "1a1ad3953c23f57f",
     "1a1ad3c5e6be1c58",
     "1a1af4ec27d2be18",
@@ -4745,7 +4745,8 @@
     "1a21cca29d553fff",
     "1a21ce41b1b3eb77",
     "1a21eba98861493a",
-    "1a21eba999ff4fd5"
+    "1a21eba999ff4fd5",
+    "1a21fd08de415bbd"
   ],
   "feed_order": [
     "qt5dom",
